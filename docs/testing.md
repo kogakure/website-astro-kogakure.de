@@ -9,6 +9,10 @@
 
 The `astro` project uses Astro's Vite config (`getViteConfig`). Its environment is happy-dom, so axe has a DOM, but code is transformed for SSR: the Astro container needs the server build of `.astro` files, and the plain `happy-dom` environment would compile them for the client.
 
+## Markdown plugin tests
+
+`renderMarkdown(markdown, plugins, lang)` from `src/test/markdown.ts` renders like a book page of `lang`, with only the given plugins.
+
 ## Astro component tests
 
 ```ts
