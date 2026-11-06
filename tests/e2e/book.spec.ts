@@ -34,6 +34,24 @@ test.describe('article pages', () => {
 		});
 	}
 
+	test('figure images come in their generated widths and load', async ({ page, request }) => {
+		await page.goto('/en/kamae/');
+		const img = page.locator('main figure img').first();
+		await expect(img).toHaveAttribute(
+			'src',
+			/^\/images\/article\/kamae-01-[a-z-]+-1400\.webp$/
+		);
+		await expect(img).toHaveAttribute('width', '2048');
+		const srcset = (await img.getAttribute('srcset')) ?? '';
+		const files = srcset.split(', ').map((candidate) => candidate.split(' ')[0] ?? '');
+		expect(files).toHaveLength(4);
+		for (const file of files) {
+			const response = await request.get(file);
+			expect(response.status(), file).toBe(200);
+			expect(response.headers()['content-type']).toBe('image/webp');
+		}
+	});
+
 	test('previous and next follow the book order', async ({ page }) => {
 		await page.goto('/vorwort/');
 		await page.locator('a[rel="next"]').click();

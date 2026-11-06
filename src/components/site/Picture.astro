@@ -1,0 +1,60 @@
+---
+/**
+ * An image of the manifest in its pregenerated WebP widths. Width and height
+ * of the original reserve the space; the focus point becomes `--focus`, so a
+ * cropping layout (`object-fit: cover`) keeps the subject in view. The opener
+ * of a page is `priority` (eager, high fetch priority); everything else is
+ * lazy. Fails the build for an image that isn't in the manifest.
+ */
+import type { HTMLAttributes } from 'astro/types';
+import { getImage, SIZES } from '@/lib/images/images';
+import { cn } from '@/lib/utils';
+
+/** Set by the component from the manifest and `priority`; Astro would repeat them, not replace them */
+const COMPUTED = [
+	'src',
+	'srcset',
+	'sizes',
+	'alt',
+	'width',
+	'height',
+	'loading',
+	'decoding',
+	'fetchpriority',
+	'style',
+] as const;
+
+interface Props extends Omit<HTMLAttributes<'img'>, (typeof COMPUTED)[number]> {
+	/** Image URL as the texts use it, e.g. `/images/kamae/ichimonji.webp` */
+	src: string;
+	/** Empty only for a decorative image */
+	alt: string;
+	/** A layout of `SIZES` or a `sizes` value */
+	sizes?: keyof typeof SIZES | (string & {});
+	/** The opener: loaded first instead of lazily */
+	priority?: boolean;
+}
+
+const { src, alt, sizes = 'figure', priority = false, class: className, ...rest } = Astro.props;
+const attrs = Object.fromEntries(
+	Object.entries(rest).filter(([name]) => !(COMPUTED as readonly string[]).includes(name))
+);
+const image = getImage(src);
+if (!image) throw new Error(`Image ${src} is not in the image manifest: run pnpm images`);
+const layout = Object.hasOwn(SIZES, sizes) ? SIZES[sizes as keyof typeof SIZES] : sizes;
+---
+
+<img
+	{...attrs}
+	src={image.src}
+	srcset={image.srcset}
+	sizes={layout}
+	width={image.width}
+	height={image.height}
+	alt={alt}
+	loading={priority ? 'eager' : 'lazy'}
+	decoding={priority ? undefined : 'async'}
+	fetchpriority={priority ? 'high' : undefined}
+	style={image.focus ? `--focus: ${image.focus}` : undefined}
+	class={cn('object-[var(--focus,50%_50%)]', className)}
+/>

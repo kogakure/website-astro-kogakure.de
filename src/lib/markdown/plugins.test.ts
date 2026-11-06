@@ -53,7 +53,13 @@ describe('hastHeadingIds', () => {
 
 const lookup = (src: string) =>
 	src === '/images/kamae/a.webp'
-		? { width: 800, height: 600, srcset: '/a-800.webp 800w', sizes: '100vw' }
+		? {
+				src: '/images/kamae/a-800.webp',
+				width: 800,
+				height: 600,
+				srcset: '/images/kamae/a-800.webp 800w',
+				sizes: '100vw',
+			}
 		: undefined;
 
 describe('hastFigures', () => {
@@ -66,11 +72,12 @@ describe('hastFigures', () => {
 		expect(html).toContain('decoding="async"');
 	});
 
-	it('takes size and srcset from the manifest lookup', () => {
+	it('takes the file, size and srcset from the manifest lookup', () => {
 		const html = renderMarkdown(figure, [hastFigures({ lookup })]);
+		expect(html).toContain('src="/images/kamae/a-800.webp"');
 		expect(html).toContain('width="800"');
 		expect(html).toContain('height="600"');
-		expect(html).toContain('srcset="/a-800.webp 800w"');
+		expect(html).toContain('srcset="/images/kamae/a-800.webp 800w"');
 		expect(html).toContain('sizes="100vw"');
 	});
 

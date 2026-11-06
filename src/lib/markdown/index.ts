@@ -1,4 +1,5 @@
 import type { HastPluginList } from 'satteri';
+import { getImage, SIZES } from '../images/images.ts';
 import { hastBanners } from './banners.ts';
 import { hastFigures } from './figures.ts';
 import { hastGlossedTerms } from './glossed-terms.ts';
@@ -11,6 +12,12 @@ import { hastTables } from './tables.ts';
 /** Markdown features of the texts: raw HTML as real elements, no SmartyPants (the texts are typeset) */
 export const MARKDOWN_FEATURES = { gfm: true, rawHtml: true, smartPunctuation: false } as const;
 
+/** Figures of the texts: the generated files of the image manifest */
+const figureImage = (src: string) => {
+	const image = getImage(src);
+	return image && { ...image, sizes: SIZES.figure };
+};
+
 /**
  * The HAST plugins of the book, in order. Factories run once per document.
  * Glosses come before quotes: a gloss moves the `<q>` of its meaning.
@@ -20,7 +27,7 @@ export const BOOK_HAST_PLUGINS: HastPluginList = [
 	hastGlossedTerms,
 	hastQuotes,
 	hastNoBreakDash,
-	hastFigures(),
+	hastFigures({ lookup: figureImage }),
 	hastBanners,
 	hastTables,
 	hastReadingTime,

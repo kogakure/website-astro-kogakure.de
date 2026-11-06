@@ -4,9 +4,10 @@ Pages are built only from these components. Add every new component here, with i
 
 ## `site/`: Astro components for the site's structure
 
-| Component        | Purpose                                         | Props                                                    |
-| ---------------- | ----------------------------------------------- | -------------------------------------------------------- |
-| `SkipLink.astro` | First focusable link; jumps to the main content | `label` (required, localised), `target` (default `main`) |
+| Component        | Purpose                                                                         | Props                                                                                                                                                                                                |
+| ---------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SkipLink.astro` | First focusable link; jumps to the main content                                 | `label` (required, localised), `target` (default `main`)                                                                                                                                             |
+| `Picture.astro`  | An image of the manifest in its generated WebP widths; focus point as `--focus` | `src` (`/images/…` as in the texts), `alt`, `sizes` (`figure`, `band` or a value), `priority` (the opener); other `<img>` attributes pass through. Fails the build for an image outside the manifest |
 
 ## `book/`: Astro components for the book's pages
 

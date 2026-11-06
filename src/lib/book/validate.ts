@@ -21,7 +21,7 @@ export interface BookInput {
 	pages: readonly SourcePage[];
 	tocs: Partial<Record<Lang, unknown>>;
 	glossaries: Partial<Record<Lang, unknown>>;
-	/** Only the import can check images: the build has no access to kogakure-texts */
+	/** The import checks kogakure-texts, the build the image manifest and public/images/ */
 	imageExists?: (url: string) => boolean;
 	/** Files below `public/` that pages may link to */
 	assetExists?: (path: string) => boolean;
