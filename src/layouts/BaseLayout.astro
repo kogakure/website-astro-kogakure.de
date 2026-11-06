@@ -29,8 +29,6 @@ const {
 	ground = 'home',
 } = Astro.props;
 const { htmlLang, dir } = language(lang);
-// Soft hyphens break lines on the page, not in the tab or a search result
-const plain = (value: string) => value.replaceAll('\u00ad', '');
 ---
 
 <!doctype html>
@@ -38,9 +36,9 @@ const plain = (value: string) => value.replaceAll('\u00ad', '');
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content={plain(description)} />
+		<meta name="description" content={description} />
 		<meta name="robots" content="noindex" />
-		<title>{plain(title)}</title>
+		<title>{title}</title>
 		<SiteHead lang={lang} fontPage={fontPage} fontPages={fontPages} ground={ground} />
 		<slot name="head" />
 	</head>

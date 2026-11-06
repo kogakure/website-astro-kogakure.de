@@ -116,7 +116,7 @@
 					"translationKey": "junanTaisoPage"
 				},
 				{
-					"title": "Trainings&shy;faktoren",
+					"title": "Trainingsfaktoren",
 					"slug": "trainingsfaktoren",
 					"translationKey": "trainingFactorsPage"
 				},
@@ -161,12 +161,12 @@
 					"translationKey": "weaponsPage"
 				},
 				{
-					"title": "Wasser&shy;werkzeuge",
+					"title": "Wasserwerkzeuge",
 					"slug": "wasserwerkzeuge",
 					"translationKey": "waterToolsPage"
 				},
 				{
-					"title": "Einbruchs&shy;werkzeuge",
+					"title": "Einbruchswerkzeuge",
 					"slug": "einbruchswerkzeuge",
 					"translationKey": "burglaryToolsPage"
 				},
@@ -176,12 +176,12 @@
 					"translationKey": "climbingToolsPage"
 				},
 				{
-					"title": "Feuer&shy;werkzeuge",
+					"title": "Feuerwerkzeuge",
 					"slug": "feuerwerkzeuge",
 					"translationKey": "fireToolsPage"
 				},
 				{
-					"title": "Ninja&shy;kleidung",
+					"title": "Ninjakleidung",
 					"slug": "ninjakleidung",
 					"translationKey": "ninjaClothingPage"
 				},
@@ -191,7 +191,7 @@
 					"translationKey": "miscellaneousEquipmentPage"
 				},
 				{
-					"title": "Inrō – Reise&shy;apotheke",
+					"title": "Inrō – Reiseapotheke",
 					"slug": "inro",
 					"translationKey": "inroPage"
 				}
@@ -386,7 +386,7 @@
 					"translationKey": "5CommandmentsOfNinjaPage"
 				},
 				{
-					"title": "18 Trainings&shy;ebenen",
+					"title": "18 Trainingsebenen",
 					"slug": "18-trainingsebenen",
 					"translationKey": "18trainingLevelsPage"
 				},

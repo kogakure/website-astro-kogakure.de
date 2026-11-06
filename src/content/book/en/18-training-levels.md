@@ -1,5 +1,5 @@
 ---
-title: 18 Train&shy;ing Levels
+title: 18 Training Levels
 priority: 815
 date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff

@@ -1,5 +1,5 @@
 ---
-title: Feuer&shy;werkzeuge
+title: Feuerwerkzeuge
 priority: 420
 date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff

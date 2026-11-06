@@ -45,7 +45,7 @@ The import is repeatable: rerunning it on unchanged texts produces no diff. It w
 | Contents           | `/inhalt/`, `/<lang>/contents/` | `/en/contents/`          |
 | 404 (outside book) | `/404.html`, `/<lang>/404/`     | nginx per prefix: SI-477 |
 
-Titles in the front matter and the TOC mark break points as `&shy;`; the schema turns it into a soft hyphen (U+00AD), and `BaseLayout` drops it from `<title>` and the description.
+Titles carry no `&shy;` (leftovers of the old site): the schema rejects them, the import and the build fail.
 
 The slug is the file name. Pages are matched across languages by `translationKey`, never by slug. Pages outside the book (`notFoundPage`) have their own route and are not in the TOC, the book order, previous/next, the sitemap or the search index: use `isInBook()`.
 
