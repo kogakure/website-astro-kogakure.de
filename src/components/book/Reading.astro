@@ -1,0 +1,73 @@
+---
+/**
+ * The reading grid of an article: the section list, then the text. From
+ * 75em the list stands sticky beside the text and the glosses in the outer
+ * margin (13rem · measure · 13rem). Stores the reader's place for „Lesen“
+ * on the homepage as they read (src/lib/book/reading.ts).
+ */
+import Prose from '@/components/site/Prose.astro';
+import SectionList, { type Section } from '@/components/site/SectionList.astro';
+
+interface Props {
+	/** „Abschnitte“ */
+	heading: string;
+	sections: Section[];
+	/** The text's first figure is the opener plate */
+	opener?: boolean;
+	/** The article, for the reading position */
+	position: { key: string; lang: string };
+}
+
+const { heading, sections, opener = false, position } = Astro.props;
+---
+
+<div class="reading" data-reading={JSON.stringify(position)}>
+	<SectionList heading={heading} sections={sections} />
+	<Prose margin opener={opener} id="text">
+		<slot />
+	</Prose>
+</div>
+
+<script>
+	import { savePosition } from '@/lib/book/reading';
+
+	const reading = document.querySelector<HTMLElement>('[data-reading]');
+	const article =
+		reading &&
+		(JSON.parse(reading.dataset.reading ?? '{}') as {
+			key: string;
+			lang: string;
+		});
+	if (reading && article) {
+		const links = [...reading.querySelectorAll<HTMLAnchorElement>('[data-section-list] a')];
+		const save = (index: number) =>
+			savePosition({ ...article, hash: links[index]?.hash ?? '' });
+		save(-1);
+		addEventListener('sectionchange', (event) =>
+			save((event as CustomEvent<{ index: number }>).detail.index)
+		);
+	}
+</script>
+
+<style>
+	.reading {
+		display: grid;
+		grid-template-columns: minmax(0, var(--measure));
+		justify-content: center;
+		gap: 2.5rem;
+		margin-block-start: clamp(2.5rem, 5vw, 4rem);
+		padding-inline: var(--gutter);
+	}
+
+	@media (min-width: 75em) {
+		.reading {
+			grid-template-columns: 13rem minmax(0, var(--measure)) 13rem;
+			gap: 3rem;
+		}
+
+		/* The middle column, also in an article without sections */
+		.reading > :global(.prose) {
+			grid-column: 2;
+		}
+	}
+</style>

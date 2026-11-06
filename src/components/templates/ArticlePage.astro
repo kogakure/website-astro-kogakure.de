@@ -1,0 +1,112 @@
+---
+/**
+ * An article of the book: the top bar (contents, its part, the position),
+ * the opener with title, lede and facts, the brushstroke, then the section
+ * list and the text on the calmer reading paper, previous and next in the
+ * book, the way back to the part, the colophon.
+ */
+import ArticleHead from '@/components/book/ArticleHead.astro';
+import BookNav from '@/components/book/BookNav.astro';
+import Reading from '@/components/book/Reading.astro';
+import Colophon from '@/components/site/Colophon.astro';
+import TopBar from '@/components/site/TopBar.astro';
+import { languageChoices, type Lang } from '@/i18n/languages';
+import { contentsPath } from '@/i18n/routes';
+import { joinCredit, ui } from '@/i18n/ui';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import {
+	chapterOf,
+	getAlternates,
+	getNeighbours,
+	parseId,
+	renderPage,
+	type PageEntry,
+} from '@/lib/book/book';
+import { openerFigure, pageFigures } from '@/lib/book/figures';
+
+interface Props {
+	entry: PageEntry;
+	lang: Lang;
+}
+
+const { entry, lang } = Astro.props;
+const t = ui(lang);
+const key = entry.data.translationKey;
+const { Content, headings } = await renderPage(entry);
+const sections = headings
+	.filter((heading) => heading.depth === 2)
+	.map((heading) => ({ id: heading.slug, text: heading.text }));
+const { previous, next } = await getNeighbours(lang, key);
+const chapter = await chapterOf(lang, key);
+if (!chapter) throw new Error(`${entry.id} is in no part of the book`);
+const body = entry.body ?? '';
+const opener = openerFigure(body);
+const languages = languageChoices(await getAlternates(key), lang);
+const contents = contentsPath(lang);
+const kanji = chapter.plate.number ?? chapter.plate.short;
+
+const facts = [
+	chapter.number
+		? {
+				term: t.chapter,
+				text: joinCredit(lang, [String(chapter.number), chapter.title]),
+				href: chapter.href,
+			}
+		: { term: t.book, text: chapter.title, href: chapter.href },
+	...(sections.length > 0 ? [{ term: t.sections, text: String(sections.length) }] : []),
+];
+---
+
+<BaseLayout
+	title={`${entry.data.title} · 木隠`}
+	description={entry.data.excerpt ?? t.subtitle}
+	lang={lang}
+	fontPage={parseId(entry.id).slug}
+	ground="read"
+>
+	<TopBar
+		slot="before-main"
+		label={t.book}
+		home={{ href: contents, label: t.contents }}
+		chapter={{ href: chapter.href, title: chapter.title, kanji }}
+		sections={{
+			heading: t.sections,
+			items: sections,
+			countLabel: t.sectionCount(sections.length),
+			positionLabels: sections.map((_, i) => t.sectionOf(i + 1, sections.length)),
+		}}
+	/>
+
+	<ArticleHead
+		image={opener}
+		plate={{ name: entry.data.plate ?? chapter.plate.name, number: chapter.plate.number }}
+		title={entry.data.title}
+		excerpt={entry.data.excerpt}
+		facts={facts}
+	/>
+
+	<Reading
+		heading={t.sections}
+		sections={sections}
+		opener={opener !== undefined && pageFigures(body)[0]?.src === opener.src}
+		position={{ key, lang }}
+	>
+		<Content />
+	</Reading>
+
+	<BookNav
+		label={t.continueInBook}
+		previousLabel={t.previous}
+		nextLabel={t.next}
+		previous={previous}
+		next={next}
+		back={{ href: chapter.href, label: t.backTo(chapter.title), kanji }}
+	/>
+
+	<Colophon
+		slot="after-main"
+		lang={lang}
+		back={{ href: contents, label: t.backToContents }}
+		languages={languages}
+	/>
+</BaseLayout>

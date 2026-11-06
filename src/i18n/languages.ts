@@ -25,6 +25,9 @@ export const LANGS: readonly Lang[] = LANGUAGES.map(({ code }) => code);
 /** German lives at the root, with the German slugs of the old site */
 export const DEFAULT_LANG: Lang = 'de';
 
+/** localStorage key of the reader's own choice of language: it always wins (SI-478) */
+export const LANGUAGE_KEY = 'kogakure-lang';
+
 /** The eleven languages with a URL prefix */
 export const PREFIXED_LANGS: readonly Lang[] = LANGS.filter((lang) => lang !== DEFAULT_LANG);
 

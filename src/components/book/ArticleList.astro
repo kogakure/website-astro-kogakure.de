@@ -1,0 +1,108 @@
+---
+/**
+ * The articles of a part: each entry is one link (the title's ::after
+ * covers it), with the seal and a 2px seal-red line on top, its lede below;
+ * on hover or focus it lifts onto the lighter paper. Two columns from 48em.
+ */
+import Seal from '@/components/site/Seal.astro';
+import { noBreakDash } from '@/lib/markdown/no-break-dash';
+
+interface Props {
+	items: { href: string; title: string; excerpt?: string | undefined }[];
+}
+
+const { items } = Astro.props;
+---
+
+<ol class="articles">
+	{items.map((item) => (
+		<li class="article">
+			<a class="article-title" href={item.href}>
+				<Seal />
+				<span>{noBreakDash(item.title)}</span>
+			</a>
+			{item.excerpt && <p class="article-excerpt">{noBreakDash(item.excerpt)}</p>}
+		</li>
+	))}
+</ol>
+
+<style>
+	.articles {
+		display: grid;
+		gap: 1.75rem 2.75rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.article {
+		position: relative;
+		display: grid;
+		gap: 0.35rem;
+		align-content: start;
+		padding-block-start: 0.9rem;
+		border-block-start: 2px solid var(--seal);
+		transition:
+			background-color var(--duration-state) ease-out,
+			box-shadow var(--duration-state) ease-out;
+	}
+
+	.article-title {
+		display: inline-flex;
+		align-items: baseline;
+		gap: 0.55em;
+		font-size: 1.25rem;
+		font-weight: 600;
+		line-height: 1.25;
+		text-wrap: balance;
+		text-decoration-color: var(--seal);
+	}
+
+	.article-title :global(.seal) {
+		translate: 0 -0.05em;
+	}
+
+	/* The whole entry is the link */
+	.article-title::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+	}
+
+	.article-title:focus-visible {
+		outline: none;
+	}
+
+	.article-excerpt {
+		margin: 0;
+		font-size: 1.125rem;
+		line-height: 1.5;
+		color: var(--text-2);
+	}
+
+	.article:has(.article-title:hover),
+	.article:has(.article-title:focus-visible) {
+		background: var(--hover);
+		box-shadow: var(--shadow-lift);
+	}
+
+	.article:has(.article-title:hover) .article-title {
+		text-decoration-thickness: 2px;
+	}
+
+	.article:has(.article-title:focus-visible) {
+		outline: 2px solid var(--focus);
+		outline-offset: 0.75rem;
+	}
+
+	.article:has(.article-title:active) {
+		background: var(--press);
+		box-shadow: 0 0 0 0.75rem var(--press);
+	}
+
+	@media (min-width: 48em) {
+		.articles {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+</style>

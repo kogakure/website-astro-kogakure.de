@@ -40,3 +40,29 @@ export const routeOf = (lang: Lang, slug: string, translationKey: string): strin
 
 /** Route key of the language homepages in the alternates map */
 export const HOME = 'home';
+
+/** Route key of the contents pages in the alternates map */
+export const CONTENTS = 'contents';
+
+/** Route key of the n-th section of the book (0: the front matter) */
+export const chapterKey = (index: number): string => `chapter-${index}`;
+
+/** `/inhalt/` in German, `/en/contents/`, `/ja/contents/`, … */
+export const contentsPath = (lang: Lang): string =>
+	pagePath(lang, lang === DEFAULT_LANG ? 'inhalt' : 'contents');
+
+const TRANSLITERATION: Record<string, string> = { ä: 'ae', ö: 'oe', ü: 'ue', ß: 'ss' };
+
+/**
+ * The slug of a section's page, from its title: German from the German
+ * title, every other language from the English one, like the articles
+ * (`Organisation & Ausbildung` → `organisation-und-ausbildung`)
+ */
+export const chapterSlug = (title: string, lang: Lang): string =>
+	title
+		.toLowerCase()
+		.replace(/[äöüß]/g, (c) => TRANSLITERATION[c] ?? c)
+		.replace(/&/g, lang === DEFAULT_LANG ? 'und' : 'and')
+		.normalize('NFD')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');

@@ -1,0 +1,48 @@
+---
+/**
+ * „Lesen“ on the homepage: to the start of the book, or, once the reader
+ * has opened an article, back to it and the section they were in
+ * (src/lib/book/reading.ts, stored by ReadingPosition.astro). Without
+ * JavaScript or a stored position it leads to the start.
+ */
+import ReadLink from '@/components/site/ReadLink.astro';
+import type { ArticleLinks } from '@/lib/book/reading';
+
+interface Props {
+	lang: string;
+	/** The first page of the book */
+	start: { href: string; title: string };
+	/** „Lesen: …“ around a title */
+	label: (title: string) => string;
+	/** Every article of the language, by translationKey */
+	articles: ArticleLinks;
+}
+
+const { lang, start, label, articles } = Astro.props;
+const TITLE = '{title}';
+---
+
+<div
+	data-resume
+	data-lang={lang}
+	data-label={label(TITLE)}
+	data-articles={JSON.stringify(articles)}
+>
+	<ReadLink href={start.href}>{label(start.title)}</ReadLink>
+</div>
+
+<script>
+	import { loadPosition, resumeTarget, type ArticleLinks } from '@/lib/book/reading';
+
+	const box = document.querySelector<HTMLElement>('[data-resume]');
+	const link = box?.querySelector('a');
+	const text = box?.querySelector('.read-link-text');
+	if (box && link && text) {
+		const articles = JSON.parse(box.dataset.articles ?? '{}') as ArticleLinks;
+		const target = resumeTarget(loadPosition(), box.dataset.lang ?? '', articles);
+		if (target) {
+			link.href = target.href;
+			text.textContent = (box.dataset.label ?? '').replace('{title}', target.title);
+		}
+	}
+</script>

@@ -1,7 +1,10 @@
 ---
 /**
- * Previous and next page in the book order.
+ * After the text: the previous and the next page in the book order, and the
+ * way back to the page's part (its kanji and title, with the seal). On a
+ * part's page, the previous and next part.
  */
+import ReadLink from '@/components/site/ReadLink.astro';
 import { noBreakDash } from '@/lib/markdown/no-break-dash';
 
 interface Link {
@@ -16,30 +19,113 @@ interface Props {
 	nextLabel: string;
 	previous?: Link | undefined;
 	next?: Link | undefined;
+	/** „Zurück zu Geschichte“, with the part's kanji */
+	back?: { href: string; label: string; kanji?: string | null | undefined } | undefined;
 }
 
-const { label, previousLabel, nextLabel, previous, next } = Astro.props;
+const { label, previousLabel, nextLabel, previous, next, back } = Astro.props;
 ---
 
-{(previous || next) && (
-	<nav aria-label={label} class="mx-auto max-w-prose px-6 py-12">
-		<ul class="flex flex-col gap-2">
-			{previous && (
-				<li>
-					{previousLabel}:{' '}
-					<a href={previous.href} rel="prev" class="underline">
-						{noBreakDash(previous.title)}
-					</a>
-				</li>
-			)}
-			{next && (
-				<li>
-					{nextLabel}:{' '}
-					<a href={next.href} rel="next" class="underline">
-						{noBreakDash(next.title)}
-					</a>
-				</li>
-			)}
-		</ul>
+{(previous || next || back) && (
+	<nav aria-label={label} class="after" data-print="hidden">
+		{(previous || next) && (
+			<ul class="after-pages">
+				{previous && (
+					<li class="after-previous">
+						<span class="after-label">{previousLabel}</span>
+						<a href={previous.href} rel="prev" class="after-title">
+							{noBreakDash(previous.title)}
+						</a>
+					</li>
+				)}
+				{next && (
+					<li class="after-next">
+						<span class="after-label">{nextLabel}</span>
+						<a href={next.href} rel="next" class="after-title">
+							{noBreakDash(next.title)}
+						</a>
+					</li>
+				)}
+			</ul>
+		)}
+		{back && (
+			<p class="after-back">
+				<ReadLink href={back.href}>
+					{back.kanji && (
+						<span class="after-k" lang="ja" aria-hidden="true">
+							{back.kanji}
+						</span>
+					)}
+					{noBreakDash(back.label)}
+				</ReadLink>
+			</p>
+		)}
 	</nav>
 )}
+
+<style>
+	.after {
+		display: grid;
+		gap: 2rem;
+		max-inline-size: var(--measure);
+		margin-block: clamp(3rem, 6vw, 5rem) 0;
+		margin-inline: auto;
+		padding-block: 2rem 0;
+		padding-inline: var(--gutter);
+		border-block-start: 1px solid var(--rule);
+		box-sizing: content-box;
+	}
+
+	.after-pages {
+		display: grid;
+		gap: 1.5rem 2rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.after-pages li {
+		display: grid;
+		gap: 0.3rem;
+		align-content: start;
+		min-inline-size: 0;
+	}
+
+	.after-label {
+		font-family: var(--mono);
+		font-size: var(--text-label);
+		line-height: 1.5;
+		color: var(--text-3);
+	}
+
+	.after-title {
+		font-size: 1.35rem;
+		font-weight: 600;
+		line-height: 1.25;
+		color: var(--heading);
+		text-wrap: balance;
+	}
+
+	.after-back {
+		margin: 0;
+		font-size: 1.125rem;
+	}
+
+	.after-k {
+		margin-inline-end: 0.5em;
+		color: var(--text-3);
+		font-family: var(--mincho);
+		font-weight: 700;
+	}
+
+	@media (min-width: 30em) {
+		.after-pages {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.after-next {
+			grid-column: 2;
+			text-align: end;
+		}
+	}
+</style>

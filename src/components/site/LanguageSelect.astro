@@ -49,6 +49,7 @@ const { label, go, languages, class: className } = Astro.props;
 						value={href}
 						lang={lang}
 						selected={current}
+						data-code={code}
 						data-font={preloadFont(code)}
 					>
 						{name}
@@ -78,6 +79,8 @@ const { label, go, languages, class: className } = Astro.props;
 </div>
 
 <script>
+	import { LANGUAGE_KEY } from '@/i18n/languages';
+
 	const fetched = new Set<string>();
 	let rule: HTMLScriptElement | undefined;
 
@@ -114,8 +117,15 @@ const { label, go, languages, class: className } = Astro.props;
 		select?.addEventListener('change', () => prefetch(select.selectedOptions[0]));
 		form.addEventListener('submit', (event) => {
 			event.preventDefault();
-			const select = form.querySelector('select');
-			if (select && select.value !== location.pathname) location.href = select.value;
+			const option = form.querySelector('select')?.selectedOptions[0];
+			if (!option) return;
+			// The reader's own choice: stored, so it wins over the browser's languages
+			try {
+				if (option.dataset.code) localStorage.setItem(LANGUAGE_KEY, option.dataset.code);
+			} catch {
+				// private mode: the choice holds for this visit
+			}
+			if (option.value !== location.pathname) location.href = option.value;
 		});
 	}
 </script>

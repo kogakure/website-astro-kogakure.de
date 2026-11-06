@@ -36,17 +36,23 @@ The import is repeatable: rerunning it on unchanged texts produces no diff. It w
 
 `src/i18n/routes.ts` keeps the URLs of the old site:
 
-| Language           | URL                         | Example                  |
-| ------------------ | --------------------------- | ------------------------ |
-| German             | `/<german-slug>/`           | `/abhaertung/`           |
-| English            | `/en/<slug>/`               | `/en/toughening-up/`     |
-| The 10 others      | `/<lang>/<english-slug>/`   | `/ja/toughening-up/`     |
-| Homepages          | `/`, `/en/`, `/ja/`, …      |                          |
-| 404 (outside book) | `/404.html`, `/<lang>/404/` | nginx per prefix: SI-477 |
+| Language           | URL                             | Example                        |
+| ------------------ | ------------------------------- | ------------------------------ |
+| German             | `/<german-slug>/`               | `/abhaertung/`                 |
+| English            | `/en/<slug>/`                   | `/en/toughening-up/`           |
+| The 10 others      | `/<lang>/<english-slug>/`       | `/ja/toughening-up/`           |
+| Homepages          | `/`, `/en/`, `/ja/`, …          |                                |
+| Contents           | `/inhalt/`, `/<lang>/contents/` | `/en/contents/`                |
+| Parts of the book  | `/<slug of the part's title>/`  | `/geschichte/`, `/ja/history/` |
+| 404 (outside book) | `/404.html`, `/<lang>/404/`     | nginx per prefix: SI-477       |
 
 The slug is the file name. Pages are matched across languages by `translationKey`, never by slug. Pages outside the book (`notFoundPage`) have their own route and are not in the TOC, the book order, previous/next, the sitemap or the search index: use `isInBook()`.
 
-**Alternates map:** `buildAlternates()` (`src/lib/book/alternates.ts`) gives the URLs of all twelve language versions of every page, by `translationKey` (homepages: `home`). Pages get it from `getAlternates()` in `src/lib/book/book.ts`, the only way pages access the book.
+All of them come from the one rest route `src/pages/[...route].astro`. A part's slug comes from its title in the TOC, German for German and English for the rest, like the articles (`chapterSlug()`: `Organisation & Ausbildung` → `organisation-und-ausbildung`); the front matter is `einfuehrung` / `introduction`. The build fails if a part's slug is an article's.
+
+**Parts:** `getChapters(lang)` in `book.ts` gives the ten sections of the book (front matter, eight chapters, appendix) with their name plate, their scene (painting from `SCENES` in `plates.ts`, alt text and caption from the page that shows it) and their articles with ledes.
+
+**Alternates map:** `buildAlternates()` (`src/lib/book/alternates.ts`) gives the URLs of all twelve language versions of every page, by `translationKey` (homepages: `home`, the contents: `contents`, the parts: `chapter-<n>`). Pages get it from `getAlternates()` in `src/lib/book/book.ts`, the only way pages access the book.
 
 ## Languages and UI strings
 

@@ -16,8 +16,11 @@ import Picture from './Picture.astro';
 import Subtitle from './Subtitle.astro';
 
 interface Props {
-	/** The painting, as the texts use it (`/images/article/…`); none for the bare plate */
-	image?: { src: string; alt: string } | undefined;
+	/**
+	 * The painting, as the texts use it (`/images/article/…`); none for the
+	 * bare plate. `focus`: the crop's focus point where the manifest has none
+	 */
+	image?: { src: string; alt: string; focus?: string | undefined } | undefined;
 	/** The painting's caption as HTML, set as the subtitle */
 	caption?: string | undefined;
 	/** The name plate: kanji and number line */
@@ -52,7 +55,12 @@ const {
 	priority = false,
 	class: className,
 } = Astro.props;
-const mask = `--edge-mask: url('${inkFile(`wash-edge-${edge}.webp`)}')`;
+const mask = [
+	`--edge-mask: url('${inkFile(`wash-edge-${edge}.webp`)}')`,
+	image?.focus && `--focus: ${image.focus}`,
+]
+	.filter(Boolean)
+	.join('; ');
 ---
 
 <figure

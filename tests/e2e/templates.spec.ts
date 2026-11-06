@@ -1,0 +1,126 @@
+import { AxeBuilder } from '@axe-core/playwright';
+import { expect, test } from '@playwright/test';
+
+const LANGS = ['de', 'en', 'es', 'fr', 'pt', 'it', 'nl', 'ru', 'ja', 'zh', 'ko', 'he'] as const;
+type Lang = (typeof LANGS)[number];
+
+const prefix = (lang: Lang) => (lang === 'de' ? '/' : `/${lang}/`);
+
+/** One page of every type, in every language: German slugs at the root, English below the prefixes */
+const PAGE_TYPES: Record<string, (lang: Lang) => string> = {
+	home: prefix,
+	contents: (lang) => prefix(lang) + (lang === 'de' ? 'inhalt/' : 'contents/'),
+	chapter: (lang) => prefix(lang) + (lang === 'de' ? 'geschichte/' : 'history/'),
+	article: (lang) => prefix(lang) + (lang === 'de' ? 'abhaertung/' : 'toughening-up/'),
+};
+
+test.describe('language switch', () => {
+	for (const [type, path] of Object.entries(PAGE_TYPES)) {
+		test(`the ${type} page switches through all twelve languages to the same page`, async ({
+			page,
+		}) => {
+			test.slow();
+			await page.goto(path('de'));
+			for (const lang of LANGS.slice(1)) {
+				const target = path(lang);
+				await page.locator('#language-select').selectOption(target);
+				await page.locator('[data-language-form] button').click();
+				await expect(page).toHaveURL(target);
+				// The choice works once the page's script runs; before, it is a plain form
+				await page.waitForLoadState('load');
+				await expect(page.locator('html')).toHaveAttribute(
+					'dir',
+					lang === 'he' ? 'rtl' : 'ltr'
+				);
+			}
+			// The reader's own choice is stored
+			expect(await page.evaluate(() => localStorage.getItem('kogakure-lang'))).toBe('he');
+		});
+	}
+});
+
+test.describe('mode', () => {
+	test('a chosen mode holds across reloads and pages, before first paint', async ({ page }) => {
+		await page.emulateMedia({ colorScheme: 'light' });
+		await page.goto('/');
+		await page.getByRole('radio', { name: 'Dunkel' }).check();
+		await expect(page.locator('html')).toHaveAttribute('data-mode', 'dark');
+
+		await page.reload();
+		await expect(page.locator('html')).toHaveAttribute('data-mode', 'dark');
+		await expect(page.getByRole('radio', { name: 'Dunkel' })).toBeChecked();
+
+		await page.goto('/abhaertung/');
+		await expect(page.locator('html')).toHaveAttribute('data-mode', 'dark');
+		// The toolbar follows the mode: the reading page's indigo
+		await expect(page.locator('meta[name="theme-color"]').first()).toHaveAttribute(
+			'content',
+			'#152030'
+		);
+
+		await page.getByRole('radio', { name: 'System' }).check();
+		await page.goto('/inhalt/');
+		await expect(page.locator('html')).not.toHaveAttribute('data-mode', /./);
+	});
+});
+
+test.describe('reading', () => {
+	test('„Lesen“ starts at the beginning, then resumes at the last article', async ({ page }) => {
+		await page.goto('/');
+		const read = page.locator('[data-resume] a');
+		await expect(read).toHaveAttribute('href', '/vorwort/');
+		await expect(read).toHaveText('Lesen: Vorwort');
+
+		await page.goto('/abhaertung/');
+		const section = page.locator('[data-section-list] a').nth(1);
+		const hash = (await section.getAttribute('href')) ?? '';
+		await page.locator(hash).evaluate((heading) => heading.scrollIntoView({ block: 'start' }));
+		await expect(page.locator('[data-section-list] a[aria-current]')).toHaveAttribute(
+			'href',
+			hash
+		);
+
+		await page.goto('/');
+		await expect(read).toHaveAttribute('href', `/abhaertung/${hash}`);
+		await expect(read).toHaveText('Lesen: Abhärtung');
+
+		// In another language: the same article, without the German section id
+		await page.goto('/en/');
+		await expect(read).toHaveAttribute('href', '/en/toughening-up/');
+	});
+
+	test('an article links its part, and the part its articles', async ({ page }) => {
+		await page.goto('/abhaertung/');
+		await page.getByRole('link', { name: 'Zurück zu Körperliches Training' }).click();
+		await expect(page).toHaveURL('/koerperliches-training/');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('Körperliches Training');
+		await page.getByRole('link', { name: 'Abhärtung', exact: true }).click();
+		await expect(page).toHaveURL('/abhaertung/');
+	});
+});
+
+test.describe('every page type in every language', () => {
+	for (const lang of LANGS) {
+		test(`${lang}: no horizontal scrolling at 390 px`, async ({ page }) => {
+			await page.setViewportSize({ width: 390, height: 844 });
+			for (const path of Object.values(PAGE_TYPES)) {
+				await page.goto(path(lang));
+				const overflow = await page.evaluate(
+					() =>
+						document.documentElement.scrollWidth - document.documentElement.clientWidth
+				);
+				expect(overflow, path(lang)).toBe(0);
+			}
+		});
+	}
+
+	for (const lang of ['de', 'he', 'ja'] as const) {
+		for (const [type, path] of Object.entries(PAGE_TYPES)) {
+			test(`${lang} ${type} page has no accessibility violations`, async ({ page }) => {
+				await page.goto(path(lang));
+				const results = await new AxeBuilder({ page }).analyze();
+				expect(results.violations).toEqual([]);
+			});
+		}
+	}
+});

@@ -1,43 +1,31 @@
 ---
 /**
- * Every page of the book: /<german-slug>/, /en/<slug>/, /<lang>/<english-slug>/
- * (src/i18n/routes.ts). Pages outside the book have their own route.
+ * Every page of the book in every language (src/i18n/routes.ts): the
+ * homepages (/, /en/, …), the contents (/inhalt/, /en/contents/, …), one
+ * page per part (/geschichte/, /en/history/, …) and the articles
+ * (/abhaertung/, /en/toughening-up/, /ja/toughening-up/, …). Pages outside
+ * the book have their own route.
  */
-import BookNav from '@/components/book/BookNav.astro';
-import PageText from '@/components/book/PageText.astro';
+import ArticlePage from '@/components/templates/ArticlePage.astro';
+import ChapterPage from '@/components/templates/ChapterPage.astro';
+import ContentsPage from '@/components/templates/ContentsPage.astro';
+import HomePage from '@/components/templates/HomePage.astro';
 import type { Lang } from '@/i18n/languages';
-import { ui } from '@/i18n/ui';
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getBookPaths, getNeighbours, parseId, renderPage, type PageEntry } from '@/lib/book/book';
+import { getBookPaths, getSitePaths, type PageEntry } from '@/lib/book/book';
 
-export const getStaticPaths = getBookPaths;
-
-interface Props {
-	entry: PageEntry;
-	lang: Lang;
+export async function getStaticPaths() {
+	return [...(await getSitePaths()), ...(await getBookPaths())];
 }
 
-const { entry, lang } = Astro.props;
-const t = ui(lang);
-const { Content } = await renderPage(entry);
-const { previous, next } = await getNeighbours(lang, entry.data.translationKey);
+type Props =
+	| { kind: 'home' | 'contents'; lang: Lang }
+	| { kind: 'chapter'; lang: Lang; index: number }
+	| { kind: 'article'; lang: Lang; entry: PageEntry };
+
+const props = Astro.props;
 ---
 
-<BaseLayout
-	title={`${entry.data.title} · 木隠`}
-	description={entry.data.excerpt ?? t.subtitle}
-	lang={lang}
-	fontPage={parseId(entry.id).slug}
-	ground="read"
->
-	<PageText title={entry.data.title} excerpt={entry.data.excerpt}>
-		<Content />
-	</PageText>
-	<BookNav
-		label={t.continueInBook}
-		previousLabel={t.previous}
-		nextLabel={t.next}
-		previous={previous}
-		next={next}
-	/>
-</BaseLayout>
+{props.kind === 'home' && <HomePage lang={props.lang} />}
+{props.kind === 'contents' && <ContentsPage lang={props.lang} />}
+{props.kind === 'chapter' && <ChapterPage lang={props.lang} index={props.index} />}
+{props.kind === 'article' && <ArticlePage lang={props.lang} entry={props.entry} />}

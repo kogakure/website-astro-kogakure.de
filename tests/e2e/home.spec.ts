@@ -6,7 +6,7 @@ test.describe('German homepage', () => {
 		await page.goto('/');
 		await expect(page).toHaveTitle(/木隠/);
 		await expect(page.locator('html')).toHaveAttribute('lang', 'de');
-		await expect(page.getByRole('heading', { level: 1 })).toHaveText('木隠');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('木隠 Kogakure');
 	});
 
 	test('skip link moves focus to the main content', async ({ page }) => {

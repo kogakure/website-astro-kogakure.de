@@ -1,0 +1,63 @@
+---
+/**
+ * The homepage of a language, the entrance to the book: the prologue (the
+ * title stage, „Lesen“ and the contents), then the ten parts as scenes with
+ * their articles, then the colophon.
+ */
+import Prologue from '@/components/book/Prologue.astro';
+import ResumeLink from '@/components/book/ResumeLink.astro';
+import Scene from '@/components/book/Scene.astro';
+import Colophon from '@/components/site/Colophon.astro';
+import { languageChoices, type Lang } from '@/i18n/languages';
+import { HOME } from '@/i18n/routes';
+import { ui } from '@/i18n/ui';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { chapterCredit, getAlternates, getChapters } from '@/lib/book/book';
+import { QUOTES } from '@/lib/markdown/quotes';
+
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = ui(lang);
+const chapters = await getChapters(lang);
+const articles = chapters.flatMap((chapter) => chapter.items);
+const [start] = articles;
+if (!start) throw new Error(`The ${lang} book has no articles`);
+const [open, close] = QUOTES[lang];
+const languages = languageChoices(await getAlternates(HOME), lang);
+---
+
+<BaseLayout title="木隠 · kogakure" description={t.subtitle} lang={lang}>
+	<Prologue
+		subtitle={`${open}${t.subtitle}${close}`}
+		credit={t.credit(1999, chapters.length, articles.length)}
+		heading={t.contents}
+		parts={chapters.map((chapter) => ({
+			href: `#${chapter.slug}`,
+			short: chapter.plate.short,
+			title: chapter.title,
+		}))}
+	>
+		<ResumeLink
+			lang={lang}
+			start={start}
+			label={t.readTitle}
+			articles={Object.fromEntries(
+				articles.map((item) => [item.translationKey, [item.href, item.title]])
+			)}
+		/>
+	</Prologue>
+
+	{chapters.map((chapter) => (
+		<Scene chapter={chapter} credit={chapterCredit(lang, chapter)} href={chapter.href} />
+	))}
+
+	<Colophon
+		slot="after-main"
+		lang={lang}
+		back={{ href: '#main', label: t.backToContents }}
+		languages={languages}
+	/>
+</BaseLayout>
