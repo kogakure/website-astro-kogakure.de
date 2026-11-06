@@ -1163,6 +1163,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 55%",
 			"widths": [
 				800,
 				1400,
@@ -4491,7 +4492,7 @@
 		},
 		"ninjutsuPage": {
 			"image": "article/ninjutsu-01-blade-above-heart.webp",
-			"hash": "f353e32f8bf94c80"
+			"hash": "5d2f5062f1b6a363"
 		},
 		"ninpoSanjurokkeiPage": {
 			"image": "article/ninpo-sanjurokkei-01-three-pillars.webp",
