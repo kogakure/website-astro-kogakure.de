@@ -82,6 +82,10 @@ jobs:
   secrets:
     name: Secret scan
     runs-on: ubuntu-latest
+    # The action reads the commit list of the pull request
+    permissions:
+      contents: read
+      pull-requests: read
     steps:
       - uses: actions/checkout@v7
         with:
