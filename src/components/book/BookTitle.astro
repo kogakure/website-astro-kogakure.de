@@ -1,0 +1,17 @@
+---
+/**
+ * The book's title 木隠 as the page heading, with the subtitle of the language.
+ */
+interface Props {
+	subtitle: string;
+}
+
+const { subtitle } = Astro.props;
+---
+
+<header class="mx-auto max-w-prose px-6 pt-24">
+	<h1 class="text-5xl" lang="ja">
+		木隠
+	</h1>
+	<p class="mt-6 text-xl">{subtitle}</p>
+</header>

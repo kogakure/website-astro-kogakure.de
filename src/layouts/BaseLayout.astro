@@ -1,18 +1,21 @@
 ---
 import SkipLink from '@/components/site/SkipLink.astro';
+import { DEFAULT_LANG, language, type Lang } from '@/i18n/languages';
+import { ui } from '@/i18n/ui';
 import '@/styles/global.css';
 
 interface Props {
 	title: string;
 	description: string;
-	lang?: string;
+	lang?: Lang;
 }
 
-const { title, description, lang = 'de' } = Astro.props;
+const { title, description, lang = DEFAULT_LANG } = Astro.props;
+const { htmlLang, dir } = language(lang);
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={htmlLang} dir={dir}>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,7 +24,7 @@ const { title, description, lang = 'de' } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<SkipLink label="Zum Inhalt springen" />
+		<SkipLink label={ui(lang).skipToText} />
 		<main id="main">
 			<slot />
 		</main>

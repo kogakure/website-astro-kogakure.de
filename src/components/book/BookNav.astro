@@ -1,0 +1,45 @@
+---
+/**
+ * Previous and next page in the book order.
+ */
+import { noBreakDash } from '@/lib/markdown/no-break-dash';
+
+interface Link {
+	title: string;
+	href: string;
+}
+
+interface Props {
+	/** Accessible name of the navigation („Weiter im Buch“) */
+	label: string;
+	previousLabel: string;
+	nextLabel: string;
+	previous?: Link | undefined;
+	next?: Link | undefined;
+}
+
+const { label, previousLabel, nextLabel, previous, next } = Astro.props;
+---
+
+{(previous || next) && (
+	<nav aria-label={label} class="mx-auto max-w-prose px-6 py-12">
+		<ul class="flex flex-col gap-2">
+			{previous && (
+				<li>
+					{previousLabel}:{' '}
+					<a href={previous.href} rel="prev" class="underline">
+						{noBreakDash(previous.title)}
+					</a>
+				</li>
+			)}
+			{next && (
+				<li>
+					{nextLabel}:{' '}
+					<a href={next.href} rel="next" class="underline">
+						{noBreakDash(next.title)}
+					</a>
+				</li>
+			)}
+		</ul>
+	</nav>
+)}

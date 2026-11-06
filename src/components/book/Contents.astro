@@ -1,0 +1,39 @@
+---
+/**
+ * The table of contents of one language: the front matter, then the parts.
+ */
+import type { TocPart } from '@/lib/book/book';
+import { noBreakDash } from '@/lib/markdown/no-break-dash';
+
+interface Props {
+	/** Heading of the contents („Inhalt“) */
+	heading: string;
+	/** Name of the front matter group („Einführung“) */
+	introduction: string;
+	parts: TocPart[];
+}
+
+const { heading, introduction, parts } = Astro.props;
+---
+
+<nav aria-labelledby="contents-title" class="mx-auto max-w-prose px-6 py-12">
+	<h2 id="contents-title" class="text-2xl">
+		{heading}
+	</h2>
+	<ol class="mt-6 flex flex-col gap-6">
+		{parts.map((part) => (
+			<li>
+				<span class="font-bold">{part.title ?? introduction}</span>
+				<ol class="mt-2 flex flex-col gap-1">
+					{part.items.map((item) => (
+						<li>
+							<a href={item.href} class="underline">
+								{noBreakDash(item.title)}
+							</a>
+						</li>
+					))}
+				</ol>
+			</li>
+		))}
+	</ol>
+</nav>

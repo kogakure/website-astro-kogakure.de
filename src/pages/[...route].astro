@@ -1,0 +1,48 @@
+---
+/**
+ * Every page of the book: /<german-slug>/, /en/<slug>/, /<lang>/<english-slug>/
+ * (src/i18n/routes.ts). Pages outside the book have their own route.
+ */
+import BookNav from '@/components/book/BookNav.astro';
+import PageText from '@/components/book/PageText.astro';
+import { ui } from '@/i18n/ui';
+import { isInBook } from '@/i18n/routes';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getNeighbours, pageUrl, parseId, type PageEntry } from '@/lib/book/book';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+	const pages = await getCollection('book', (entry) => isInBook(entry.data.translationKey));
+	return pages.map((entry) => ({
+		params: { route: pageUrl(entry).slice(1, -1) },
+		props: { entry },
+	}));
+}
+
+interface Props {
+	entry: PageEntry;
+}
+
+const { entry } = Astro.props;
+const { lang } = parseId(entry.id);
+const t = ui(lang);
+const { Content } = await render(entry);
+const { previous, next } = await getNeighbours(lang, entry.data.translationKey);
+---
+
+<BaseLayout
+	title={`${entry.data.title} · 木隠`}
+	description={entry.data.excerpt ?? t.subtitle}
+	lang={lang}
+>
+	<PageText title={entry.data.title} excerpt={entry.data.excerpt}>
+		<Content />
+	</PageText>
+	<BookNav
+		label={t.continueInBook}
+		previousLabel={t.previous}
+		nextLabel={t.next}
+		previous={previous}
+		next={next}
+	/>
+</BaseLayout>
