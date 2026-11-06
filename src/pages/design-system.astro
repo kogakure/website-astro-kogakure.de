@@ -38,7 +38,13 @@ import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAlternates, getPage, getToc } from '@/lib/book/book';
 import { openerFigure } from '@/lib/book/figures';
-import { BOOK_PLATE, chapterLabel, SECTION_PLATES, sceneEdge } from '@/lib/book/plates';
+import {
+	BOOK_PLATE,
+	chapterLabel,
+	DESIGN_NAME,
+	SECTION_PLATES,
+	sceneEdge,
+} from '@/lib/book/plates';
 
 const lang: Lang = 'de';
 const t = ui(lang);
@@ -103,7 +109,9 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 	/>
 
 	<header class="ds-head">
-		<p class="ds-kicker">Gekiga 2 · Hell und Dunkel</p>
+		<p class="ds-kicker">
+			{DESIGN_NAME.name} <span lang="ja">{DESIGN_NAME.kanji}</span> · Hell und Dunkel
+		</p>
 		<h1 class="ds-title">Designsystem</h1>
 		<p class="ds-lede">
 			Der Prolog in Tusche: Tafeln mit nassen Tuschekanten, senkrechte Namenstafeln, eine

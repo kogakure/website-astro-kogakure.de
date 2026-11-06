@@ -137,7 +137,7 @@ components:
 
 # Design System: 木隠 Kogakure
 
-Extracted from the prototype `prototypes/gekiga-2-modes` (Gekiga 2 Light & Dark) in kogakure-prototyping, the winner of the design exploration (SI-319; the decision and how it was reached: `research/decisions.md` there). Ported to this site in SI-473: the tokens in `src/styles/`, the components in `src/components/` (catalogue: `src/components/COMPONENTS.md`), every token and component on `/design-system/`. When this file and the prototype disagree, the prototype's behaviour is the evidence, and this file is corrected.
+Extracted from the prototype `prototypes/gekiga-2-modes` (Gekiga 劇画, light and dark) in kogakure-prototyping, the winner of the design exploration (SI-319; the decision and how it was reached: `research/decisions.md` there). Ported to this site in SI-473: the tokens in `src/styles/`, the components in `src/components/` (catalogue: `src/components/COMPONENTS.md`), every token and component on `/design-system/`. When this file and the prototype disagree, the prototype's behaviour is the evidence, and this file is corrected.
 
 **Modes.** Every colour role has a day value (Washi) and a night value (Aizome), written once as `light-dark(<day>, <night>)` and resolved by `color-scheme`. The page follows the system; a stored choice (`data-mode="light" | "dark"` on `<html>`, applied before first paint) pins it. In the tokens above, the night values carry their own names; `-night` components are the same component on Aizome.
 
