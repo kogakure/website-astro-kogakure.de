@@ -315,6 +315,7 @@
 			"width": 1536,
 			"height": 1024,
 			"aspect": 1.5,
+			"focus": "50% 0%",
 			"widths": [
 				800,
 				1400,
@@ -422,6 +423,7 @@
 			"width": 1536,
 			"height": 1024,
 			"aspect": 1.5,
+			"focus": "50% 0%",
 			"widths": [
 				800,
 				1400,
@@ -877,7 +879,7 @@
 			"width": 1024,
 			"height": 1536,
 			"aspect": 0.6667,
-			"focus": "50% 22%",
+			"focus": "50% 30%",
 			"widths": [
 				800,
 				1400,
@@ -1653,6 +1655,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 0%",
 			"widths": [
 				800,
 				1400,
@@ -1875,6 +1878,7 @@
 			"width": 1537,
 			"height": 1023,
 			"aspect": 1.5024,
+			"focus": "50% 2%",
 			"widths": [
 				800,
 				1400,
@@ -2007,6 +2011,7 @@
 			"width": 1672,
 			"height": 941,
 			"aspect": 1.7768,
+			"focus": "50% 5%",
 			"widths": [
 				800,
 				1400,
@@ -4273,7 +4278,7 @@
 		},
 		"demisePage": {
 			"image": "article/demise-01-guiding-tokugawa-through-mountains.webp",
-			"hash": "0bc49f2d3973b15a"
+			"hash": "29a8eb3940dcadd3"
 		},
 		"downloadsPage": {
 			"image": "article/downloads-01-carving-secret-script.webp",
@@ -4301,7 +4306,7 @@
 		},
 		"gikanRyuPage": {
 			"image": "article/gikan-ryu-01-uryu-hangan-gikanbo-breaking-blade.webp",
-			"hash": "c7706fc95a77d902"
+			"hash": "0310f5c998d369c1"
 		},
 		"glossaryPage": {
 			"image": "article/glossary-01-scholar-compiling-dictionary.webp",
@@ -4333,7 +4338,7 @@
 		},
 		"hatsumiMasaakiPage": {
 			"image": "historical/hatsumi-masaaki-01-naginata.webp",
-			"hash": "227278cc295e4fa1"
+			"hash": "30412db78051d036"
 		},
 		"heihoPage": {
 			"image": "article/heiho-02-birds-in-rain.webp",
@@ -4381,7 +4386,7 @@
 		},
 		"kumogakureRyuPage": {
 			"image": "article/kumogakure-ryu-01-into-battle-in-demon-mask.webp",
-			"hash": "bec6529e563c1842"
+			"hash": "76d6be32b0b6e414"
 		},
 		"kunoichiPage": {
 			"image": "article/kunoichi-02-miko-on-road.webp",
@@ -4433,7 +4438,7 @@
 		},
 		"originsOfNinjutsuPage": {
 			"image": "historical/ushiwakamaru-to-tengu.webp",
-			"hash": "6f7b286c2fffefbf"
+			"hash": "10bd929a11480d15"
 		},
 		"prefacePage": {
 			"image": "article/preface-01-waiting-for-book-ordered-from-catalogue.webp",
@@ -4509,7 +4514,7 @@
 		},
 		"weaponsPage": {
 			"image": "article/weapons-01-every-weapon-tool.webp",
-			"hash": "fab77160d9f9d69e"
+			"hash": "40d1ed21c3f5d1ec"
 		}
 	},
 	"ink": {

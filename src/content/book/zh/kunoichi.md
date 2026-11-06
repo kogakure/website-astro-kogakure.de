@@ -12,7 +12,17 @@ categories:
 
 ## 女性忍者
 
+<figure>
+<img src="/images/article/kunoichi-02-miko-on-road.webp" alt="两名身穿白衣、红色裙裤的年轻神社侍女沿着山路经过一座路旁的小神龛，其中一人背着包袱，一名身披铠甲的骑马者迎面而来。">
+<figcaption>行路中的巫女</figcaption>
+</figure>
+
 1561年，武将望月盛时（Mochizuki Moritoki）在著名的川中岛之战（Kawanakajima）中阵亡。据传，他的遗孀千代女（Chiyome）投靠了亡夫的叔父、权势显赫的武田信玄（Takeda Shingen）。按照惯例，她本该遁入宗教团体，从此作为尼姑默默度日。千代女却反其道而行之：她继续全力为这位大名的霸业效力。武田请她组建一张女忍者（kunoichi）网络时，她答应了。这张网成了整个战国时代（Sengoku jidai）最有成效、也最隐秘的网络之一。
+
+<figure>
+<img src="/images/article/kunoichi-01-mochizuki-chiyome-takes-in-orphans.webp" alt="山中一座茅草屋的门前，一位身穿深色和服的妇女把一碗米饭递给一个衣衫褴褛的小女孩，两个年纪稍大的女孩在她身后等着。">
+<figcaption>望月千代女收留孤儿</figcaption>
+</figure>
 
 这个主意出自武田信玄。千代女要训练受过培养的巫女（miko），也就是神社的侍女，让她们在本职之外充当间谍、观察员或信使。她们的活动区域是武田领地内的甲斐（Kai，今山梨），以及信浓（Shinano，今长野）一带。信浓在战略上尤为重要：武田信玄和他的对手上杉谦信（Uesugi Kenshin）都把它视为日后征伐的首要目标。
 
@@ -20,17 +30,7 @@ categories:
 
 武田在统治期间大量使用忍者充当间谍。他既在自己的领地内招募，也从敌人的队伍中网罗。女忍者只是这条线人链条上的又一环。她们搜集消息，核实其他密探的报告。作为年轻的神社侍女，她们可以自由出行，与当地的间谍接头而不惹人怀疑。武田家的势力和见闻就这样不断增长。
 
-<figure>
-<img src="/images/article/kunoichi-02-miko-on-road.webp" alt="两名身穿白衣、红色裙裤的年轻神社侍女沿着山路经过一座路旁的小神龛，其中一人背着包袱，一名身披铠甲的骑马者迎面而来。">
-<figcaption>行路中的巫女</figcaption>
-</figure>
-
 千代女把她的地下学校设在祢津（Nezu），那是信州（Shinshū，今长野）小县郡（Chiisagata）的一个村子。从此，她在那里主持一所女忍者学校。巫女必须年轻未婚。于是千代女从无数因内战沦为孤儿、无家可归的孩子中挑选人选。凡是流落到信州一带的弃女或离家出走的女孩，她都收留下来。
-
-<figure>
-<img src="/images/article/kunoichi-01-mochizuki-chiyome-takes-in-orphans.webp" alt="山中一座茅草屋的门前，一位身穿深色和服的妇女把一碗米饭递给一个衣衫褴褛的小女孩，两个年纪稍大的女孩在她身后等着。">
-<figcaption>望月千代女收留孤儿</figcaption>
-</figure>
 
 在祢津的其他居民眼里，千代女是一位和蔼热心的妇人，一心要把孤苦伶仃的少女从贫困中救出来，给她们一个家，并教给她们精神上的价值。
 

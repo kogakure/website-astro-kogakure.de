@@ -12,7 +12,17 @@ categories:
 
 ## Les femmes ninja
 
+<figure>
+<img src="/images/article/kunoichi-02-miko-on-road.webp" alt="Deux jeunes servantes de sanctuaire en robes blanches et jupes-culottes rouges longent une route de montagne et passent devant un petit oratoire au bord du chemin ; l’une porte un baluchon, et un cavalier en armure vient à leur rencontre.">
+<figcaption><em>Miko</em> sur la route</figcaption>
+</figure>
+
 En 1561, le seigneur de guerre Mochizuki Moritoki tomba lors de la célèbre bataille de Kawanakajima. Selon la tradition, sa veuve Chiyome se plaça sous la protection du puissant Takeda Shingen, un oncle de son défunt mari. L’usage aurait voulu qu’elle se retire dans un ordre religieux pour vivre désormais en silence comme nonne. Chiyome fit le contraire : elle continua à consacrer toutes ses forces aux ambitions du grand daimyō. Lorsque Takeda lui demanda de constituer un réseau de _kunoichi_ (くノ一), elle accepta. Ce réseau devint l’un des plus efficaces et des plus discrets de toute la Sengoku jidai (戦国時代).
+
+<figure>
+<img src="/images/article/kunoichi-01-mochizuki-chiyome-takes-in-orphans.webp" alt="Devant le portail d’une maison au toit de chaume dans les montagnes, une femme en kimono sombre tend un bol de riz à une petite fille en haillons, tandis que deux filles plus âgées attendent derrière elle.">
+<figcaption>Mochizuki Chiyome recueille des orphelines</figcaption>
+</figure>
 
 L’idée venait de Takeda Shingen. Chiyome devait former des _miko_ (巫女), des servantes de sanctuaire déjà instruites, de façon qu’en plus de leurs devoirs ordinaires elles puissent travailler comme espionnes, observatrices ou messagères. Leur terrain d’action était la région de Kai (l’actuelle Yamanashi), sur les terres des Takeda, et le territoire de Shinano (l’actuelle Nagano). Shinano avait une importance stratégique particulière : Takeda Shingen comme son rival Uesugi Kenshin y voyaient l’objectif principal de leurs conquêtes futures.
 
@@ -20,17 +30,7 @@ L’idée venait de Takeda Shingen. Chiyome devait former des _miko_ (巫女), d
 
 Pendant tout son règne, Takeda s’appuya largement sur des ninja comme espions. Il les recrutait sur ses propres terres, mais aussi dans les rangs de ses adversaires. Les _kunoichi_ n’étaient qu’un maillon de plus dans cette chaîne d’informateurs. Elles recueillaient des nouvelles et vérifiaient les rapports d’autres agents. En tant que jeunes servantes de temple, elles pouvaient voyager librement et prendre contact avec les espions sur place sans éveiller les soupçons. Ainsi s’accrurent encore la puissance et le savoir de la famille Takeda.
 
-<figure>
-<img src="/images/article/kunoichi-02-miko-on-road.webp" alt="Deux jeunes servantes de sanctuaire en robes blanches et jupes-culottes rouges longent une route de montagne et passent devant un petit oratoire au bord du chemin ; l’une porte un baluchon, et un cavalier en armure vient à leur rencontre.">
-<figcaption><em>Miko</em> sur la route</figcaption>
-</figure>
-
 Chiyome fonda son école clandestine à Nezu, un village du district de Chiisagata, dans la région de Shinshū (l’actuelle Nagano). Elle y dirigea dès lors une école pour femmes ninja. Une _miko_ devait toujours être jeune et non mariée. Chiyome chercha donc ses candidates parmi les innombrables enfants que les guerres civiles avaient rendus orphelins et privés de toit. Elle recueillait chez elle toute fille abandonnée ou fugueuse qui trouvait le chemin de la région de Shinshū.
-
-<figure>
-<img src="/images/article/kunoichi-01-mochizuki-chiyome-takes-in-orphans.webp" alt="Devant le portail d’une maison au toit de chaume dans les montagnes, une femme en kimono sombre tend un bol de riz à une petite fille en haillons, tandis que deux filles plus âgées attendent derrière elle.">
-<figcaption>Mochizuki Chiyome recueille des orphelines</figcaption>
-</figure>
 
 Aux yeux des autres habitants de Nezu, Chiyome était une femme aimable et chaleureuse, qui faisait tout pour sauver de la misère des jeunes filles livrées à elles-mêmes, leur donner un foyer et leur transmettre des valeurs spirituelles.
 
