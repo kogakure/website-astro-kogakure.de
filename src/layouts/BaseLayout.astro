@@ -4,6 +4,7 @@ import SiteHead from '@/components/site/SiteHead.astro';
 import SkipLink from '@/components/site/SkipLink.astro';
 import { DEFAULT_LANG, language, type Lang } from '@/i18n/languages';
 import { ui } from '@/i18n/ui';
+import type { FontSource } from '@/lib/fonts/fonts';
 import '@/styles/global.css';
 
 interface Props {
@@ -12,8 +13,8 @@ interface Props {
 	lang?: Lang;
 	/** The page's slug in the book, for its own font subsets */
 	fontPage?: string | undefined;
-	/** More languages the page sets (the samples on /design-system/) */
-	fontLangs?: Lang[];
+	/** More pages whose text this page quotes (the samples on /design-system/) */
+	fontPages?: FontSource[];
 	/** The calmer paper of the reading page */
 	ground?: 'home' | 'read';
 }
@@ -23,7 +24,7 @@ const {
 	description,
 	lang = DEFAULT_LANG,
 	fontPage,
-	fontLangs,
+	fontPages,
 	ground = 'home',
 } = Astro.props;
 const { htmlLang, dir } = language(lang);
@@ -37,7 +38,7 @@ const { htmlLang, dir } = language(lang);
 		<meta name="description" content={description} />
 		<meta name="robots" content="noindex" />
 		<title>{title}</title>
-		<SiteHead lang={lang} fontPage={fontPage} fontLangs={fontLangs} ground={ground} />
+		<SiteHead lang={lang} fontPage={fontPage} fontPages={fontPages} ground={ground} />
 		<slot name="head" />
 	</head>
 	<body data-ground={ground}>

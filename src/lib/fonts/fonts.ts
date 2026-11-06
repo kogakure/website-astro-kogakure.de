@@ -70,6 +70,12 @@ const weightOf = ({ weight }: FontFile) =>
  * come first: for overlapping faces the browser tries the last rule first,
  * so the shared files set the characters they hold
  */
+/** A page whose fonts another page declares too: a language, and a slug for its own files */
+export interface FontSource {
+	lang: Lang;
+	slug?: string;
+}
+
 export function fontFaceCss(lang: Lang, slug = '', from: FontManifest = manifest): string {
 	const files = fontFiles(lang, slug, from).toSorted(
 		(a, b) => Number(!a.pages) - Number(!b.pages)

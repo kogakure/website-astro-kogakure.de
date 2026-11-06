@@ -26,14 +26,14 @@ test.describe('design system page', () => {
 		await page.emulateMedia({ colorScheme: 'light' });
 		await page.goto('/design-system/');
 		const html = page.locator('html');
-		await page.getByRole('radio', { name: 'Dunkel' }).check({ force: true });
+		await page.getByRole('radio', { name: 'Dark' }).check({ force: true });
 		await expect(html).toHaveAttribute('data-mode', 'dark');
 		await page.goto('/abhaertung/');
 		await expect(html).toHaveAttribute('data-mode', 'dark');
 		const ground = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
 		expect(ground).toBe('rgb(21, 32, 48)');
 		await page.goto('/design-system/');
-		await expect(page.getByRole('radio', { name: 'Dunkel' })).toBeChecked();
+		await expect(page.getByRole('radio', { name: 'Dark' })).toBeChecked();
 		await page.getByRole('radio', { name: 'System' }).check({ force: true });
 		await expect(html).not.toHaveAttribute('data-mode');
 	});
@@ -41,11 +41,11 @@ test.describe('design system page', () => {
 	test('goes to the chosen language with the button, fetched on choosing', async ({ page }) => {
 		await page.goto('/design-system/');
 		const fetched = page.waitForRequest(/\/fonts\/noto-serif-sc-400-common-[0-9a-f]+\.woff2$/);
-		await page.getByLabel('Sprache').selectOption({ label: '中文' });
+		await page.getByLabel('Language').selectOption({ label: '中文' });
 		await fetched;
 		await expect(page).toHaveURL(/\/design-system\/$/);
-		await page.getByLabel('Sprache').selectOption({ label: 'English' });
-		await page.getByRole('button', { name: 'Wechseln' }).click();
-		await expect(page).toHaveURL(/\/en\/$/);
+		await page.getByLabel('Language').selectOption({ label: 'Deutsch' });
+		await page.getByRole('button', { name: 'Go' }).click();
+		await expect(page).toHaveURL(/:\d+\/$/);
 	});
 });

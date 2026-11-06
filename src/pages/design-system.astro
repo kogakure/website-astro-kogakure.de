@@ -34,10 +34,10 @@ import {
 	SPACING,
 } from '@/components/design-system/tokens';
 import { languageChoices, type Lang } from '@/i18n/languages';
-import { HOME } from '@/i18n/routes';
+import { HOME, homePath } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getAlternates, getPage, getToc } from '@/lib/book/book';
+import { getAlternates, getPage, getToc, parseId } from '@/lib/book/book';
 import { openerFigure } from '@/lib/book/figures';
 import {
 	BOOK_PLATE,
@@ -47,18 +47,18 @@ import {
 	sceneEdge,
 } from '@/lib/book/plates';
 
-const lang: Lang = 'de';
+const lang: Lang = 'en';
 const t = ui(lang);
 
 const SECTIONS = [
-	{ id: 'farben', text: 'Farben' },
-	{ id: 'schrift', text: 'Schrift' },
-	{ id: 'masse', text: 'Maße, Tiefe, Bewegung' },
-	{ id: 'tafeln', text: 'Namenstafeln und Tafeln' },
-	{ id: 'text', text: 'Der Text' },
-	{ id: 'zeichen', text: 'Siegel, Untertitel, Pinsel' },
-	{ id: 'navigation', text: 'Abschnitte und Kopfleiste' },
-	{ id: 'schriften', text: 'Drei Schriften' },
+	{ id: 'colours', text: 'Colours' },
+	{ id: 'type', text: 'Type' },
+	{ id: 'measures', text: 'Space, depth, motion' },
+	{ id: 'plates', text: 'Name plates and plates' },
+	{ id: 'text', text: 'The text' },
+	{ id: 'marks', text: 'Seal, subtitle, brush' },
+	{ id: 'navigation', text: 'Sections and top bar' },
+	{ id: 'scripts', text: 'Three scripts' },
 ];
 
 // Real paintings and captions of the book
@@ -68,8 +68,9 @@ const origins = await getPage(lang, 'originsOfNinjutsuPage');
 const scene = openerFigure(origins.body ?? '');
 if (!opener || !scene) throw new Error('The sample pages have no painting');
 
-// The samples in Hebrew and Japanese come from the book, so their fonts
-// cover them (the homepage's subsets: contents and excerpts)
+// The samples in German, Hebrew and Japanese come from the book, so their
+// fonts cover them (the homepage's subsets: contents and excerpts). German
+// stays a sample of its own: it is the one language with hyphenation
 const samples = await Promise.all(
 	(['de', 'he', 'ja'] as const).map(async (sampleLang) => {
 		const page = await getPage(sampleLang, 'ninjutsuPage');
@@ -77,6 +78,7 @@ const samples = await Promise.all(
 		const [, history] = await getToc(sampleLang);
 		return {
 			lang: sampleLang,
+			slugs: [parseId(page.id).slug, parseId(other.id).slug],
 			title: page.data.title,
 			lede: page.data.excerpt,
 			subtitle: ui(sampleLang).subtitle,
@@ -87,20 +89,31 @@ const samples = await Promise.all(
 );
 
 const languages = languageChoices(await getAlternates(HOME), lang);
+
+// The page quotes these pages, so it sets their fonts too: the captions of
+// the paintings, and each sample's text
+const fontPages = [
+	{ lang, slug: parseId(ninjutsu.id).slug },
+	{ lang, slug: parseId(origins.id).slug },
+	...samples.flatMap((sample) => [
+		{ lang: sample.lang },
+		...sample.slugs.map((slug) => ({ lang: sample.lang, slug })),
+	]),
+];
 ---
 
 <BaseLayout
-	title="Designsystem · 木隠"
-	description="Die Tokens und Komponenten des Gekiga-Designsystems von kogakure.de"
+	title="Design system · 木隠"
+	description="The tokens and components of the Gekiga design system of kogakure.de"
 	lang={lang}
-	fontLangs={['he', 'ja']}
+	fontPages={fontPages}
 	ground="read"
 >
 	<TopBar
 		slot="before-main"
 		label={t.book}
-		home={{ href: '/', label: t.contents }}
-		chapter={{ href: '#tafeln', title: 'Designsystem', kanji: '図' }}
+		home={{ href: homePath(lang), label: t.contents }}
+		chapter={{ href: '#plates', title: 'Design system', kanji: '図' }}
 		sections={{
 			heading: t.sections,
 			items: SECTIONS,
@@ -111,13 +124,12 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 
 	<header class="ds-head">
 		<p class="ds-kicker">
-			{DESIGN_NAME.name} <span lang="ja">{DESIGN_NAME.kanji}</span> · Hell und Dunkel
+			{DESIGN_NAME.name} <span lang="ja">{DESIGN_NAME.kanji}</span> · Light and dark
 		</p>
-		<h1 class="ds-title">Designsystem</h1>
+		<h1 class="ds-title">Design system</h1>
 		<p class="ds-lede">
-			Der Prolog in Tusche: Tafeln mit nassen Tuschekanten, senkrechte Namenstafeln, eine
-			Untertitelzeile. Dann ruhiges Papier zum Lesen. Am Tag Sumi auf Washi, in der Nacht
-			helles Pigment auf Indigo.
+			The prologue in ink: plates with wet ink edges, vertical name plates, a subtitle line.
+			Then calm paper to read on. By day sumi on washi, by night light pigment on indigo.
 		</p>
 		<div class="ds-toc">
 			<SectionList heading={t.sections} sections={SECTIONS} />
@@ -125,9 +137,9 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 	</header>
 
 	<Specimen
-		id="farben"
-		title="Farben"
-		intro="Jede Rolle ist einmal definiert, mit einem Wert für den Tag und einem für die Nacht (light-dark). Komponenten nutzen nur Rollen."
+		id="colours"
+		title="Colours"
+		intro="Every role is defined once, with one value for the day and one for the night (light-dark). Components only use roles."
 	>
 		{COLOUR_GROUPS.map(({ title, roles }) => (
 			<ColourRoles title={title} roles={roles} />
@@ -135,24 +147,24 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 	</Specimen>
 
 	<Specimen
-		id="schrift"
-		title="Schrift"
-		intro="Source Serif 4 für Text und Überschriften, Shippori Mincho für Kanji im Text, Yuji Syuku nur auf Namenstafeln und in Randglossen, IBM Plex Mono nur für Untertitel. Alle Schriften liegen auf dem eigenen Server, als WOFF2-Teilmengen."
+		id="type"
+		title="Type"
+		intro="Source Serif 4 for text and headings, Shippori Mincho for kanji in the text, Yuji Syuku only on name plates and in margin glosses, IBM Plex Mono only for subtitles. Every font is on our own server, as WOFF2 subsets."
 	>
 		<TypeScale />
 	</Specimen>
 
-	<Specimen id="masse" title="Maße, Tiefe, Bewegung">
-		<TokenList title="Abstände" tokens={SPACING} sample="space" />
-		<TokenList title="Umbrüche" tokens={BREAKPOINTS} />
-		<TokenList title="Schatten" tokens={SHADOWS} sample="shadow" />
-		<MotionList title="Bewegung" tokens={MOTION} />
+	<Specimen id="measures" title="Space, depth, motion">
+		<TokenList title="Spacing" tokens={SPACING} sample="space" />
+		<TokenList title="Breakpoints" tokens={BREAKPOINTS} />
+		<TokenList title="Shadows" tokens={SHADOWS} sample="shadow" />
+		<MotionList title="Motion" tokens={MOTION} />
 	</Specimen>
 
 	<Specimen
-		id="tafeln"
-		title="Namenstafeln und Tafeln"
-		intro="Die Namenstafel (Tanzaku) trägt die Identität eines Teils in Pinselkanji, immer senkrecht. Eine Tafel ist ein Gemälde, geschnitten von einer nassen Tuschekante."
+		id="plates"
+		title="Name plates and plates"
+		intro="The name plate (tanzaku) carries the identity of a part in brush kanji, always vertical. A plate is a painting, cut by a wet ink edge."
 	>
 		<div class="ds-plates">
 			<div class="ds-stage">
@@ -182,86 +194,85 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 				reveal
 			/>
 		</div>
-		<h3 class="ds-subtitle">Opener eines Artikels</h3>
+		<h3 class="ds-subtitle">The opener of an article</h3>
 		<OpenerPlate image={opener} name={SECTION_PLATES[0].name} number={null} />
-		<h3 class="ds-subtitle">Opener ohne Gemälde</h3>
+		<h3 class="ds-subtitle">An opener without a painting</h3>
 		<OpenerPlate name={SECTION_PLATES[9].name} />
 	</Specimen>
 
 	<Specimen
 		id="text"
-		title="Der Text"
-		intro="Die Lesespalte ist eine gedruckte Seite: 20 bis 21,5 px, etwa 69 Zeichen je Zeile. Ab 75em stehen die Glossen im äußeren Rand."
+		title="The text"
+		intro="The reading column is a printed page: 20 to 21.5 px, about 69 characters a line. From 75em the glosses stand in the outer margin."
 	>
 		<div class="ds-reading">
 			<Prose margin>
-				<h2 id="beispiel-erster">Was ist Ninjutsu?</h2>
+				<h2 id="sample-first">What is ninjutsu?</h2>
 				<p>
-					Der Überlieferung nach war Momochi Sandayū einer der drei großen Anführer des
-					Iga-Ryū. Seine Lehre über die{' '}
-					<Glossed term="rekishi" kanji="歴史" meaning="<q>„Geschichte“</q>" /> der Schule
-					ist in einem Satz überliefert:
+					According to tradition, Momochi Sandayū was one of the three great leaders of
+					the Iga-ryū. His teaching on the{' '}
+					<Glossed term="rekishi" kanji="歴史" meaning="<q>“history”</q>" /> of the school
+					has come down to us in one sentence:
 				</p>
 				<blockquote>
 					<p>
-						Ninjutsu dient nicht dazu, die eigenen Begierden zu befriedigen. Ein Ninja
-						übt die Künste, weil er sein Land, seinen Herrn oder seine Familie schützen
-						muss.
+						Ninjutsu does not serve to satisfy one’s own desires. A ninja practises the
+						arts because he must protect his country, his lord or his family.
 					</p>
 				</blockquote>
-				<h2 id="beispiel-zweiter">Die Schriftzeichen</h2>
+				<h2 id="sample-second">The characters</h2>
 				<figure>
 					<Picture src={scene.src} alt={scene.alt} />
 					<figcaption set:html={scene.caption} />
 				</figure>
-				<Banner title="Bauchatmung lernen" id="beispiel-banner">
+				<Banner title="Learning to breathe from the belly" id="sample-banner">
 					<p>
-						Früher lernte man die Bauchatmung mit einer einfachen Übung: Man wickelte
-						ein Tuch fest um den Bauch.
+						In the old days, belly breathing was learnt with a simple exercise: a cloth
+						was wound tightly around the belly.
 					</p>
 				</Banner>
 				<ul>
 					<li>
-						<em>Shuriken</em> waren Wurfwaffen, keine Sterne.
+						<em>Shuriken</em> were throwing weapons, not stars.
 					</li>
-					<li>Die Kunst lebt von Geduld, nicht von Masken.</li>
+					<li>The art lives on patience, not on masks.</li>
 				</ul>
 			</Prose>
 		</div>
 	</Specimen>
 
 	<Specimen
-		id="zeichen"
-		title="Siegel, Untertitel, Pinsel"
-		intro="Das Siegelrot ist der einzige Akzent und nur eine Marke. Die Mono ist der Untertitel des Films: eine kurze Zeile in einem dunklen Kasten."
+		id="marks"
+		title="Seal, subtitle, brush"
+		intro="The seal red is the one accent, and only a mark. The mono is the film’s subtitle: a short line in a dark box."
 	>
 		<div class="ds-row">
-			<ReadLink href="#text">Lesen: Was ist Ninjutsu?</ReadLink>
+			<ReadLink href="#text">Read: What is ninjutsu?</ReadLink>
 		</div>
-		<Subtitle html={`„${t.subtitle}“`} size="large" />
-		<Subtitle html="Das verborgene Dorf der <em>genin</em>" />
+		<Subtitle html={`“${t.subtitle}”`} size="large" />
+		<Subtitle html="The hidden village of the <em>genin</em>" />
 		<Sweep />
 		<p class="ds-note">
-			Fokus: ein 2 px breiter Ring in der Textfarbe, 3 px Abstand; der Sprunglink hat einen
-			siegelroten Ring (Tab). Auswahl: Ocker am Tag, Indigo in der Nacht.
+			Focus: a 2 px ring in the text colour, 3 px away; the skip link has a seal-red ring
+			(Tab). Selection: ochre by day, indigo by night.
 		</p>
 	</Specimen>
 
 	<Specimen
 		id="navigation"
-		title="Abschnitte und Kopfleiste"
-		intro="Ab 75em steht die Liste der Abschnitte neben dem Text, der aktuelle trägt das Siegel. Darunter kommt die Kopfleiste beim Zurückscrollen wieder und zeigt die Position; sie öffnet die Abschnitte als Popover."
+		title="Sections and top bar"
+		intro="From 75em the list of sections stands beside the text, the current one with the seal. Below that, the top bar returns when the reader scrolls back up and shows the position; it opens the sections in a popover."
 	>
 		<p class="ds-note">
-			Die Kopfleiste dieser Seite und die Liste oben sind die echten Komponenten. Die
-			Darstellung und die Sprache wählt das Kolophon am Ende.
+			The top bar of this page and the list above are the real components. The colophon at the
+			end chooses the mode and the language.
 		</p>
 	</Specimen>
 
 	<Specimen
-		id="schriften"
-		title="Drei Schriften"
-		intro="Deutsch mit Silbentrennung, Hebräisch von rechts nach links ohne Kursive, Japanisch mit strengem Zeilenumbruch und weiterer Zeile."
+		id="scripts"
+		title="Three scripts"
+		intro="German with hyphenation, Hebrew right to left without italics, Japanese with strict line breaking and more line height."
 	>
 		{samples.map((sample) => (
 			<ScriptSample
@@ -273,7 +284,7 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 			>
 				<p>{sample.text}</p>
 				<p>
-					<ReadLink href="#schriften">{sample.part}</ReadLink>
+					<ReadLink href="#scripts">{sample.part}</ReadLink>
 				</p>
 			</ScriptSample>
 		))}
@@ -282,7 +293,7 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 	<Colophon
 		slot="after-main"
 		lang={lang}
-		back={{ href: '/', label: t.backToContents }}
+		back={{ href: homePath(lang), label: t.backToContents }}
 		languages={languages}
 	/>
 </BaseLayout>

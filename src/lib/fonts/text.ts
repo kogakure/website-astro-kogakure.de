@@ -132,8 +132,8 @@ export function languageText(lang: Lang): LanguageText {
 			};
 		});
 	const toc = JSON.parse(read(path.join(CONTENT, 'toc', `${lang}.json`))) as Toc;
-	// /design-system/ is German and loads the German homepage's subsets
-	const design = lang === 'de' ? DESIGN_NAME.kanji : '';
+	// /design-system/ is English and loads the English homepage's subsets
+	const design = lang === 'en' ? DESIGN_NAME.kanji : '';
 	const uiAndPlates = `${uiText(lang)}\n${PLATE_TEXT}${design}`;
 	const excerpts = pages.map(({ text }) => String(frontmatter(text).excerpt ?? ''));
 	return {
