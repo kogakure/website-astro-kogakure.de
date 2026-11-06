@@ -188,8 +188,9 @@ test.describe('images', () => {
 		expect(end.height).toBeCloseTo(edge?.height ?? 0, 0);
 		// The name plate waits until the painting is back in its edge
 		const name = page.locator('#koerperliches-training .plate-name');
-		await expect(name).toHaveCSS('opacity', '0');
+		await expect(name).toBeHidden();
 		await expect(page.getByRole('dialog')).toBeHidden();
+		await expect(name).toBeVisible();
 		await expect(name).toHaveCSS('opacity', '1');
 	});
 
