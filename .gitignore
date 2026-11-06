@@ -31,3 +31,6 @@ blob-report/
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# downloaded font sources (pnpm fonts)
+.cache/

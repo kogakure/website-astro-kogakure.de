@@ -26,8 +26,9 @@
 		"docker:build": "docker build -t kogakure-local .",
 		"docker:run": "docker run --rm -p 8080:80 kogakure-local",
 		"prepare": "husky",
-		"import:content": "node scripts/import-content.ts",
-		"images": "node scripts/generate-images.ts"
+		"import:content": "node scripts/import-content.ts && node scripts/generate-fonts.ts",
+		"images": "node scripts/generate-images.ts",
+		"fonts": "node scripts/generate-fonts.ts"
 	},
 	"dependencies": {
 		"@astrojs/markdown-satteri": "^0.4.6",
@@ -49,15 +50,19 @@
 	"devDependencies": {
 		"@astrojs/check": "^0.9.12",
 		"@axe-core/playwright": "^4.14.0",
+		"@capsizecss/metrics": "^4.4.0",
+		"@capsizecss/unpack": "^4.0.1",
 		"@playwright/test": "~1.64.0",
 		"@testing-library/jest-dom": "^6.9.1",
 		"@testing-library/react": "^16.3.0",
+		"@types/fontkit": "^2.0.9",
 		"@types/hast": "^3.0.5",
 		"@types/node": "^26.6.0",
 		"@types/react": "^19.3.0",
 		"@types/react-dom": "^19.3.0",
 		"@vitest/coverage-v8": "^5.1.0",
 		"axe-core": "^4.14.0",
+		"fontkit": "^2.0.4",
 		"happy-dom": "^21.0.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^17.6.0",
@@ -66,6 +71,7 @@
 		"prettier-plugin-astro": "^1.1.0",
 		"prettier-plugin-tailwindcss": "^0.8.0",
 		"sharp": "0.35.5",
+		"subset-font": "^2.9.0",
 		"typescript": "^6.0.3",
 		"vitest": "^5.1.0",
 		"yaml": "^2.9.1"

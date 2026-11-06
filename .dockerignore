@@ -13,6 +13,7 @@ docs
 *.md
 
 # Tooling not needed in the image
+.cache
 .git
 .github
 .husky
