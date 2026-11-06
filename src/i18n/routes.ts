@@ -15,6 +15,9 @@ export const homePath = (lang: Lang): string => (lang === DEFAULT_LANG ? '/' : `
 
 export const pagePath = (lang: Lang, slug: string): string => `${homePath(lang)}${slug}/`;
 
+/** A path as the param of a rest route: `/en/kamae/` → `en/kamae` */
+export const routeParam = (path: string): string => path.replace(/^\/|\/$/g, '');
+
 /** The 404 page of a language (nginx serves it for unknown URLs below the prefix) */
 export const notFoundPath = (lang: Lang): string =>
 	lang === DEFAULT_LANG ? '/404.html' : `/${lang}/404/`;

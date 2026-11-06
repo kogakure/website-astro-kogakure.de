@@ -5,7 +5,7 @@ import { hastGlossedTerms } from './glossed-terms';
 const render = (markdown: string) => renderMarkdown(markdown, [hastGlossedTerms]);
 
 const gloss = (term: string, kanji: string, meaning?: string) =>
-	`<em>${term}</em><span class="gloss"><span class="gloss-term" aria-hidden="true">${term}</span> <span class="gloss-kanji" lang="ja">${kanji}</span>${
+	`<em lang="ja-Latn">${term}</em><span class="gloss"><span class="gloss-term" aria-hidden="true" lang="ja-Latn">${term}</span> <span class="gloss-kanji" lang="ja">${kanji}</span>${
 		meaning ? ` <span class="gloss-meaning">${meaning}</span>` : ''
 	}</span>`;
 

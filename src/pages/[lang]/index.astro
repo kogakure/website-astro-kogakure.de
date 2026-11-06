@@ -2,16 +2,20 @@
 /** The homepages of the eleven languages besides German: /en/, /es/, … */
 import BookTitle from '@/components/book/BookTitle.astro';
 import Contents from '@/components/book/Contents.astro';
-import { DEFAULT_LANG, LANGS, type Lang } from '@/i18n/languages';
+import { PREFIXED_LANGS, type Lang } from '@/i18n/languages';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getToc } from '@/lib/book/book';
 
 export function getStaticPaths() {
-	return LANGS.filter((lang) => lang !== DEFAULT_LANG).map((lang) => ({ params: { lang } }));
+	return PREFIXED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
-const lang = Astro.params.lang as Lang;
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
 const t = ui(lang);
 ---
 

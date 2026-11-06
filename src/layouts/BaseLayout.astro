@@ -25,7 +25,7 @@ const { htmlLang, dir } = language(lang);
 	</head>
 	<body>
 		<SkipLink label={ui(lang).skipToText} />
-		<main id="main">
+		<main id="main" tabindex="-1">
 			<slot />
 		</main>
 	</body>

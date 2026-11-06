@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { isLang, language, LANGS } from './languages';
-import { homePath, isInBook, notFoundPath, pagePath, routeOf } from './routes';
+import { isLang, language, LANGS, PREFIXED_LANGS } from './languages';
+import { homePath, isInBook, notFoundPath, pagePath, routeOf, routeParam } from './routes';
 import { UI } from './ui';
 
 describe('languages', () => {
@@ -16,6 +16,11 @@ describe('languages', () => {
 		expect(isLang('jp')).toBe(false);
 		expect(isLang(undefined)).toBe(false);
 	});
+
+	it('prefixes every language but German', () => {
+		expect(PREFIXED_LANGS).toHaveLength(11);
+		expect(PREFIXED_LANGS).not.toContain('de');
+	});
 });
 
 describe('routes', () => {
@@ -25,6 +30,11 @@ describe('routes', () => {
 		expect(pagePath('de', 'abhaertung')).toBe('/abhaertung/');
 		expect(pagePath('en', 'toughening-up')).toBe('/en/toughening-up/');
 		expect(pagePath('he', 'toughening-up')).toBe('/he/toughening-up/');
+	});
+
+	it('turns a path into the param of a rest route', () => {
+		expect(routeParam('/abhaertung/')).toBe('abhaertung');
+		expect(routeParam('/en/toughening-up/')).toBe('en/toughening-up');
 	});
 
 	it('gives the 404 page its own route', () => {

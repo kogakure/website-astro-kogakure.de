@@ -5,6 +5,7 @@ import { hastFigures } from './figures';
 import { hastHeadingIds, headingId } from './heading-ids';
 import { hastNoBreakDash, noBreakDash } from './no-break-dash';
 import { readingMinutes } from './reading-time';
+import { hastTables } from './tables';
 
 describe('noBreakDash', () => {
 	it('glues a spaced dash to the word before it', () => {
@@ -117,5 +118,14 @@ describe('readingMinutes', () => {
 
 	it('is at least one minute', () => {
 		expect(readingMinutes('')).toBe(1);
+	});
+});
+
+describe('hastTables', () => {
+	it('scopes the header cells of the table head to their column', () => {
+		const html = renderMarkdown('| Nr. | Name |\n| --- | --- |\n| 1 | Kasumi |', [hastTables]);
+		expect(html).toContain('<th scope="col">Nr.</th>');
+		expect(html).toContain('<th scope="col">Name</th>');
+		expect(html).not.toContain('<td scope');
 	});
 });

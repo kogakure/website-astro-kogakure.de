@@ -6,6 +6,7 @@ import { hastHeadingIds } from './heading-ids.ts';
 import { hastNoBreakDash } from './no-break-dash.ts';
 import { hastQuotes } from './quotes.ts';
 import { hastReadingTime } from './reading-time.ts';
+import { hastTables } from './tables.ts';
 
 /** Markdown features of the texts: raw HTML as real elements, no SmartyPants (the texts are typeset) */
 export const MARKDOWN_FEATURES = { gfm: true, rawHtml: true, smartPunctuation: false } as const;
@@ -21,5 +22,6 @@ export const BOOK_HAST_PLUGINS: HastPluginList = [
 	hastNoBreakDash,
 	hastFigures(),
 	hastBanners,
+	hastTables,
 	hastReadingTime,
 ];
