@@ -39,6 +39,7 @@ export function language(lang: Lang): Language {
 /** The options of the language select: every language in its own name, linking to the page in it */
 export const languageChoices = (alternates: Readonly<Record<Lang, string>>, current: Lang) =>
 	LANGUAGES.map(({ code, htmlLang, name }) => ({
+		code,
 		lang: htmlLang,
 		name,
 		href: alternates[code],

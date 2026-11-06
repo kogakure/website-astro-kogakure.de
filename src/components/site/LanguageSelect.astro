@@ -5,8 +5,19 @@
  * that goes there (choosing alone changes nothing, WCAG 3.2.2). Native, so
  * it works with the keyboard and on touch; only its frame is restyled for
  * the band. Without JavaScript a plain list of links.
+ *
+ * Choosing a language already fetches the page and its body face, so the
+ * button opens it from the cache: a speculation rule (prefetch, the HTML
+ * only) where browsers know them, `<link rel="prefetch">` elsewhere. Each
+ * choice replaces the last rule, so arrowing through the list fetches only
+ * where it stops.
  */
+import type { Lang } from '@/i18n/languages';
+import { preloadFont } from '@/lib/fonts/fonts';
+
 interface Language {
+	/** The language, for its body face */
+	code: Lang;
 	/** `lang` of the option: the language's own tag */
 	lang: string;
 	/** The language's name in itself */
@@ -33,8 +44,13 @@ const { label, go, languages, class: className } = Astro.props;
 		<label for="language-select">{label}</label>
 		<div class="language-row">
 			<select id="language-select" name="language">
-				{languages.map(({ lang, name, href, current }) => (
-					<option value={href} lang={lang} selected={current}>
+				{languages.map(({ code, lang, name, href, current }) => (
+					<option
+						value={href}
+						lang={lang}
+						selected={current}
+						data-font={preloadFont(code)}
+					>
 						{name}
 					</option>
 				))}
@@ -62,7 +78,40 @@ const { label, go, languages, class: className } = Astro.props;
 </div>
 
 <script>
+	const fetched = new Set<string>();
+	let rule: HTMLScriptElement | undefined;
+
+	const prefetchLink = (href: string, font = false) => {
+		if (fetched.has(href)) return;
+		fetched.add(href);
+		const link = document.createElement('link');
+		link.rel = 'prefetch';
+		link.href = href;
+		if (font) {
+			link.as = 'font';
+			link.type = 'font/woff2';
+			link.crossOrigin = 'anonymous';
+		}
+		document.head.append(link);
+	};
+
+	const prefetch = (option: HTMLOptionElement | undefined) => {
+		if (!option || option.value === location.pathname) return;
+		if (option.dataset.font) prefetchLink(option.dataset.font, true);
+		if (HTMLScriptElement.supports?.('speculationrules')) {
+			rule?.remove();
+			rule = document.createElement('script');
+			rule.type = 'speculationrules';
+			rule.textContent = JSON.stringify({
+				prefetch: [{ source: 'list', urls: [option.value], eagerness: 'immediate' }],
+			});
+			document.head.append(rule);
+		} else prefetchLink(option.value);
+	};
+
 	for (const form of document.querySelectorAll<HTMLFormElement>('[data-language-form]')) {
+		const select = form.querySelector('select');
+		select?.addEventListener('change', () => prefetch(select.selectedOptions[0]));
 		form.addEventListener('submit', (event) => {
 			event.preventDefault();
 			const select = form.querySelector('select');

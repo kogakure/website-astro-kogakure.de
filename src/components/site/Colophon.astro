@@ -6,7 +6,7 @@
  * the reader's choices: the mode (ModeSwitch) and the language
  * (LanguageSelect).
  */
-import type { Lang } from '@/i18n/languages';
+import type { Lang, languageChoices } from '@/i18n/languages';
 import { ui } from '@/i18n/ui';
 import { BOOK_PLATE } from '@/lib/book/plates';
 import { inkFile } from '@/lib/images/images';
@@ -20,7 +20,7 @@ interface Props {
 	/** The way back: to the contents, or to the top of the homepage */
 	back: { href: string; label: string };
 	/** The page in every language (LanguageSelect) */
-	languages: { lang: string; name: string; href: string; current?: boolean }[];
+	languages: ReturnType<typeof languageChoices>;
 	/** First year of the book */
 	since?: number;
 	author?: string;

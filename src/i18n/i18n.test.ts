@@ -25,6 +25,7 @@ describe('languages', () => {
 		const choices = languageChoices(alternates, 'he');
 		expect(choices).toHaveLength(12);
 		expect(choices.find((choice) => choice.current)).toEqual({
+			code: 'he',
 			lang: 'he',
 			name: 'עברית',
 			href: '/he/x/',
