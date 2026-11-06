@@ -7,3 +7,6 @@ pnpm-lock.yaml
 
 # imported by pnpm import:content, never reformat
 src/content/
+
+# written by pnpm images
+src/lib/images/manifest.json
