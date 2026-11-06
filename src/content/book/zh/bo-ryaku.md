@@ -20,7 +20,7 @@ categories:
 ## 雁行
 
 <figure>
-<img src="/images/vector/formations/ganko.webp" alt="七名战士排成一条从左上方延伸到右下方的斜线，每人都比前一人向侧面错开一步、向后退一步，全都面朝右方。">
+<img src="/images/formations/ganko.webp" alt="七名战士排成一条从左上方延伸到右下方的斜线，每人都比前一人向侧面错开一步、向后退一步，全都面朝右方。">
 <figcaption>雁行（gankō）</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ categories:
 ## 锋矢
 
 <figure>
-<img src="/images/vector/formations/hoshi.webp" alt="十名战士组成一个指向右方的箭头：一长列人作为箭杆，箭尖处两道斜翼向后张开。">
+<img src="/images/formations/hoshi.webp" alt="十名战士组成一个指向右方的箭头：一长列人作为箭杆，箭尖处两道斜翼向后张开。">
 <figcaption>锋矢（hōshi）</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ categories:
 ## 方圆
 
 <figure>
-<img src="/images/vector/formations/hoen.webp" alt="十二名战士以相等的间距站在一个大圆圈上，圆心空着，全都面朝右方。">
+<img src="/images/formations/hoen.webp" alt="十二名战士以相等的间距站在一个大圆圈上，圆心空着，全都面朝右方。">
 <figcaption>方圆（hōen）</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ categories:
 ## 鹤翼
 
 <figure>
-<img src="/images/vector/formations/kakuyoku.webp" alt="七名战士排成一个横躺的宽大V字形，尖端指向左方，两边向右张开。">
+<img src="/images/formations/kakuyoku.webp" alt="七名战士排成一个横躺的宽大V字形，尖端指向左方，两边向右张开。">
 <figcaption>鹤翼（kakuyoku）</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ categories:
 ## 衡轭
 
 <figure>
-<img src="/images/vector/formations/koyaku.webp" alt="十名战士排成两列平行的纵队，每列五人，从左向右穿过战场。">
+<img src="/images/formations/koyaku.webp" alt="十名战士排成两列平行的纵队，每列五人，从左向右穿过战场。">
 <figcaption>衡轭（kōyaku）</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ categories:
 ## 鱼鳞
 
 <figure>
-<img src="/images/vector/formations/gyorin.webp" alt="十七名战士，其中有弓箭手和长枪手，组成一个指向右方的钝楔形。">
+<img src="/images/formations/gyorin.webp" alt="十七名战士，其中有弓箭手和长枪手，组成一个指向右方的钝楔形。">
 <figcaption>鱼鳞（gyorin）</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ categories:
 ## 偃月
 
 <figure>
-<img src="/images/vector/formations/engetsu.webp" alt="十二名战士分成六对，两两肩并肩，站在一个开口朝下的半圆上。">
+<img src="/images/formations/engetsu.webp" alt="十二名战士分成六对，两两肩并肩，站在一个开口朝下的半圆上。">
 <figcaption>偃月（engetsu）</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ categories:
 ## 长蛇
 
 <figure>
-<img src="/images/vector/formations/choda.webp" alt="八名战士排成一条笔直的纵队，前后间距相等，从左向右穿过战场。">
+<img src="/images/formations/choda.webp" alt="八名战士排成一条笔直的纵队，前后间距相等，从左向右穿过战场。">
 <figcaption>长蛇（chōda）</figcaption>
 </figure>
 

@@ -31,7 +31,7 @@ Vielen bleibt diese Lehre allerdings verschlossen. Die Texte sind fast durchweg 
 Wer den Daoismus verstehen will, beginnt bei der Polarität von Yin und Yang, japanisch _in’yō_ (陰陽). Sie ist ein zentraler Teil der Lehre. Ihr Symbol mit der weißen und der schwarzen Seite haben Industrie und Medien längst als beliebte Handelsware ausgeschlachtet, und viele tragen es an einem Kettchen um den Hals, ohne zu wissen, was es bedeutet.
 
 <figure>
-<img src="/images/vector/calligraphy/inyo.webp" alt="Das In’yō-Symbol mittig auf dem Blatt, umgeben von einem breiten Rand aus leerem Papier.">
+<img src="/images/calligraphy/inyo.webp" alt="Das In’yō-Symbol mittig auf dem Blatt, umgeben von einem breiten Rand aus leerem Papier.">
 <figcaption><em>In’yō</em> (陰陽), das Yin-Yang-Symbol</figcaption>
 </figure>
 

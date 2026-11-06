@@ -45,7 +45,7 @@ Momochi Sandayū kept three houses, each with a wife and children. This confused
 ## A Wave of New Schools
 
 <figure>
-<img src="/images/vector/diagrams/rekishi-chizu.webp" alt="Map of the old Japanese provinces, numbered 1 to 60; red markers 1 to 3 show Edo, Kyōto, and Ōsaka, a brown line follows the Tōkaidō from Kyōto to Edo, a gray area marks Iga and Kōga, and the crests of Kōga and Iga appear above.">
+<img src="/images/diagrams/rekishi-chizu.webp" alt="Map of the old Japanese provinces, numbered 1 to 60; red markers 1 to 3 show Edo, Kyōto, and Ōsaka, a brown line follows the Tōkaidō from Kyōto to Edo, a gray area marks Iga and Kōga, and the crests of Kōga and Iga appear above.">
 <figcaption>Historical map of Japan</figcaption>
 </figure>
 

@@ -20,7 +20,7 @@ Befehle, Trommelschläge, Flaggensignale: Ein Feldherr im feudalen Japan musste 
 ## Gankō – Flug der Vögel
 
 <figure>
-<img src="/images/vector/formations/ganko.webp" alt="Sieben Krieger in einer schrägen Linie, die von links oben nach rechts unten verläuft, jeder einen Schritt seitlich und einen Schritt hinter dem nächsten, alle nach rechts gewandt.">
+<img src="/images/formations/ganko.webp" alt="Sieben Krieger in einer schrägen Linie, die von links oben nach rechts unten verläuft, jeder einen Schritt seitlich und einen Schritt hinter dem nächsten, alle nach rechts gewandt.">
 <figcaption><em>Gankō</em> (雁行)</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ _Gankō_ (雁行) ist eine flexible Aufstellung, die sich leicht verändern läs
 ## Hōshi – Pfeilspitze
 
 <figure>
-<img src="/images/vector/formations/hoshi.webp" alt="Zehn Krieger bilden eine nach rechts zeigende Pfeilspitze: eine lange Reihe als Schaft, an deren Spitze zwei schräge Flügel nach hinten auseinanderlaufen.">
+<img src="/images/formations/hoshi.webp" alt="Zehn Krieger bilden eine nach rechts zeigende Pfeilspitze: eine lange Reihe als Schaft, an deren Spitze zwei schräge Flügel nach hinten auseinanderlaufen.">
 <figcaption><em>Hōshi</em> (鋒矢)</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ _Hōshi_ (鋒矢) ist für einen heftigen Angriff gedacht. Eine dünne Linie Ark
 ## Hōen – Schlüsselloch
 
 <figure>
-<img src="/images/vector/formations/hoen.webp" alt="Zwölf Krieger stehen in gleichen Abständen auf einem weiten Kreis mit leerer Mitte, alle nach rechts gewandt.">
+<img src="/images/formations/hoen.webp" alt="Zwölf Krieger stehen in gleichen Abständen auf einem weiten Kreis mit leerer Mitte, alle nach rechts gewandt.">
 <figcaption><em>Hōen</em> (方円)</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Gegen die Pfeilspitze ist _hōen_ (方円, <q>Quadrat und Kreis</q>) die beste V
 ## Kakuyoku – Kranichschwinge
 
 <figure>
-<img src="/images/vector/formations/kakuyoku.webp" alt="Sieben Krieger in einem weiten, liegenden V, dessen Spitze nach links zeigt und dessen Schenkel sich nach rechts öffnen.">
+<img src="/images/formations/kakuyoku.webp" alt="Sieben Krieger in einem weiten, liegenden V, dessen Spitze nach links zeigt und dessen Schenkel sich nach rechts öffnen.">
 <figcaption><em>Kakuyoku</em> (鶴翼)</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Um den Gegner zu umzingeln, eignet sich _kakuyoku_ (鶴翼) am besten. Arkebusie
 ## Kōyaku – Rinderjoch
 
 <figure>
-<img src="/images/vector/formations/koyaku.webp" alt="Zehn Krieger in zwei parallelen Reihen zu je fünf, die von links nach rechts über das Feld laufen.">
+<img src="/images/formations/koyaku.webp" alt="Zehn Krieger in zwei parallelen Reihen zu je fünf, die von links nach rechts über das Feld laufen.">
 <figcaption><em>Kōyaku</em> (衡軛)</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ _Kōyaku_ (衡軛) fängt die Kranichschwinge ab, vor allem aber die Pfeilspitze
 ## Gyorin – Fischschuppe
 
 <figure>
-<img src="/images/vector/formations/gyorin.webp" alt="Siebzehn Krieger, darunter Bogenschützen und Speerträger, in einem stumpfen Keil, der nach rechts zeigt.">
+<img src="/images/formations/gyorin.webp" alt="Siebzehn Krieger, darunter Bogenschützen und Speerträger, in einem stumpfen Keil, der nach rechts zeigt.">
 <figcaption><em>Gyorin</em> (魚鱗)</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ _Gyorin_ (魚鱗) ist die Formation für eine Armee, die dem Feind zahlenmäßig
 ## Engetsu – Halbmond
 
 <figure>
-<img src="/images/vector/formations/engetsu.webp" alt="Zwölf Krieger in sechs Paaren, Schulter an Schulter, auf einem Halbkreis, der sich nach unten öffnet.">
+<img src="/images/formations/engetsu.webp" alt="Zwölf Krieger in sechs Paaren, Schulter an Schulter, auf einem Halbkreis, der sich nach unten öffnet.">
 <figcaption><em>Engetsu</em> (偃月)</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Stehen die eigenen Truppen mit dem Rücken zur Wand, greift der General zu _enge
 ## Chōda – Lange Schlange
 
 <figure>
-<img src="/images/vector/formations/choda.webp" alt="Acht Krieger in einer einzigen geraden Reihe hintereinander, in gleichen Abständen von links nach rechts über das Feld.">
+<img src="/images/formations/choda.webp" alt="Acht Krieger in einer einzigen geraden Reihe hintereinander, in gleichen Abständen von links nach rechts über das Feld.">
 <figcaption><em>Chōda</em> (長蛇)</figcaption>
 </figure>
 

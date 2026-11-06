@@ -27,28 +27,28 @@ Secondo questo detto, a chi pratica il ninjutsu solo per appagare i propri desid
 La parola ninja non si può tradurre direttamente in nessuna lingua che non sia il giapponese.
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="I due caratteri 忍者 uno accanto all’altro, tracciati a pennello in inchiostro nero su carta chiara e fibrosa.">
+<img src="/images/calligraphy/ninja.webp" alt="I due caratteri 忍者 uno accanto all’altro, tracciati a pennello in inchiostro nero su carta chiara e fibrosa.">
 <figcaption>Ninja (忍者)</figcaption>
 </figure>
 
 La sillaba _nin_ (忍), presente sia in ninja sia in ninjutsu, si legge anche _shinobu_. Unisce i significati di <q>resistenza</q>, <q>perseveranza</q> e <q>astensione</q>. Nel dizionario _nin_ indica inoltre <q>segretezza</q>, <q>riservatezza</q> o <q>occultamento</q>. _Jutsu_ (術) in ninjutsu significa <q>arte</q>, _ja_ (者) in ninja <q>persona</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="Il carattere 忍 grande e centrato, tracciato a pennello in inchiostro nero su carta chiara.">
+<img src="/images/calligraphy/shinobu.webp" alt="Il carattere 忍 grande e centrato, tracciato a pennello in inchiostro nero su carta chiara.">
 <figcaption><em>Shinobu</em> (忍)</figcaption>
 </figure>
 
 Il carattere _nin_ è composto da altri due caratteri. In alto si trova _yaiba_ (刃), la <q>lama</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="Il carattere 刃 grande e centrato, tracciato a pennello in inchiostro nero su carta chiara.">
+<img src="/images/calligraphy/yaiba.webp" alt="Il carattere 刃 grande e centrato, tracciato a pennello in inchiostro nero su carta chiara.">
 <figcaption><em>Yaiba</em> (刃)</figcaption>
 </figure>
 
 In basso c’è _kokoro_ (心), la parola giapponese per <q>cuore</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="Il carattere 心 grande e centrato, tracciato a pennello in inchiostro nero su carta chiara.">
+<img src="/images/calligraphy/kokoro.webp" alt="Il carattere 心 grande e centrato, tracciato a pennello in inchiostro nero su carta chiara.">
 <figcaption><em>Kokoro</em> (心)</figcaption>
 </figure>
 

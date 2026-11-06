@@ -21,7 +21,7 @@ Nel ninjutsu cinture, coppe e titoli non sono mai stati lo scopo. Questo modo di
 L’allenamento mira a un modo naturale di combattere, modellato interamente sulla persona che lo pratica. Per arrivarci serve soprattutto una comprensione senza tempo di come le persone si comportano e di come è fatto il loro corpo.
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="Un diagramma ad albero su carta antica: sotto il termine taijutsu si diramano tre rami per i movimenti del corpo, le tecniche di percussione e le tecniche di presa, ognuno con un elenco di sottodiscipline in kanji e in trascrizione.">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="Un diagramma ad albero su carta antica: sotto il termine taijutsu si diramano tre rami per i movimenti del corpo, le tecniche di percussione e le tecniche di presa, ognuno con un elenco di sottodiscipline in kanji e in trascrizione.">
 <figcaption><em>Taijutsu zu</em>, schema del <em>taijutsu</em></figcaption>
 </figure>
 

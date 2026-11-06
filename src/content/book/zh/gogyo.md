@@ -52,7 +52,7 @@ categories:
 ## 五行的相互依存
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="旧纸上围成一圈的五幅图画，分别是火焰、泥砖、钱币、波浪和树木，它们由沿圆周的实线箭头和构成星形的虚线箭头相连；下方一株嫩芽代表实线，一块裂开的石头代表虚线。">
+<img src="/images/diagrams/gogyo.webp" alt="旧纸上围成一圈的五幅图画，分别是火焰、泥砖、钱币、波浪和树木，它们由沿圆周的实线箭头和构成星形的虚线箭头相连；下方一株嫩芽代表实线，一块裂开的石头代表虚线。">
 <figcaption>五行图</figcaption>
 </figure>
 

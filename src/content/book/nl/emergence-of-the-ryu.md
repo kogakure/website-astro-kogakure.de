@@ -45,7 +45,7 @@ Momochi Sandayū had drie huizen, elk met een echtgenote en kinderen. Zo bracht 
 ## Een golf van nieuwe scholen
 
 <figure>
-<img src="/images/vector/diagrams/rekishi-chizu.webp" alt="Kaart van de oude Japanse provincies, genummerd van 1 tot 60; rode markeringen 1 tot 3 tonen Edo, Kyōto en Ōsaka, een bruine lijn volgt de Tōkaidō van Kyōto naar Edo, een grijs vlak markeert Iga en Kōga, en daarboven staan de wapens van Kōga en Iga.">
+<img src="/images/diagrams/rekishi-chizu.webp" alt="Kaart van de oude Japanse provincies, genummerd van 1 tot 60; rode markeringen 1 tot 3 tonen Edo, Kyōto en Ōsaka, een bruine lijn volgt de Tōkaidō van Kyōto naar Edo, een grijs vlak markeert Iga en Kōga, en daarboven staan de wapens van Kōga en Iga.">
 <figcaption>Historische kaart van Japan</figcaption>
 </figure>
 

@@ -27,28 +27,28 @@ translationKey: ninjutsuPage
 את המילה נינג'ה אי אפשר לתרגם ישירות לשום שפה שאינה יפנית.
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="שני הסימנים 忍者 זה לצד זה בכתב מכחול שחור על נייר בהיר וסיבי.">
+<img src="/images/calligraphy/ninja.webp" alt="שני הסימנים 忍者 זה לצד זה בכתב מכחול שחור על נייר בהיר וסיבי.">
 <figcaption>נינג'ה (忍者)</figcaption>
 </figure>
 
 ההברה נין (忍), שנמצאת גם בנינג'ה וגם בנינג'יטסו, נקראת גם שינובו. היא מאחדת בתוכה את המשמעויות <q>סבולת</q>, <q>התמדה</q> ו<q>הימנעות</q>. במילון נין מציינת גם <q>חשאיות</q>, <q>סודיות</q> או <q>הסתתרות</q>. ג'וטסו (術) בנינג'יטסו פירושו <q>אמנות</q>, וג'ה (者) בנינג'ה פירושו <q>אדם</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="הסימן 忍 כתוב גדול ובמרכז בכתב מכחול שחור על נייר בהיר.">
+<img src="/images/calligraphy/shinobu.webp" alt="הסימן 忍 כתוב גדול ובמרכז בכתב מכחול שחור על נייר בהיר.">
 <figcaption>שינובו (忍)</figcaption>
 </figure>
 
 הסימן נין מורכב משני סימנים אחרים. למעלה עומד יאיבה (刃), <q>הלהב</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="הסימן 刃 כתוב גדול ובמרכז בכתב מכחול שחור על נייר בהיר.">
+<img src="/images/calligraphy/yaiba.webp" alt="הסימן 刃 כתוב גדול ובמרכז בכתב מכחול שחור על נייר בהיר.">
 <figcaption>יאיבה (刃)</figcaption>
 </figure>
 
 למטה עומד קוקורו (心), המילה היפנית ל<q>לב</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="הסימן 心 כתוב גדול ובמרכז בכתב מכחול שחור על נייר בהיר.">
+<img src="/images/calligraphy/kokoro.webp" alt="הסימן 心 כתוב גדול ובמרכז בכתב מכחול שחור על נייר בהיר.">
 <figcaption>קוקורו (心)</figcaption>
 </figure>
 

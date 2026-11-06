@@ -52,7 +52,7 @@ Na China antiga, tudo estava sujeito a um ciclo eterno: as estações, os dias, 
 ## A interdependência dos elementos
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="Cinco desenhos dispostos em círculo sobre papel envelhecido – uma chama, um tijolo de barro, uma moeda, uma onda e uma árvore –, ligados por setas contínuas ao redor do círculo e por setas tracejadas que formam uma estrela; embaixo, um broto representa a linha contínua e uma pedra rachada a tracejada.">
+<img src="/images/diagrams/gogyo.webp" alt="Cinco desenhos dispostos em círculo sobre papel envelhecido – uma chama, um tijolo de barro, uma moeda, uma onda e uma árvore –, ligados por setas contínuas ao redor do círculo e por setas tracejadas que formam uma estrela; embaixo, um broto representa a linha contínua e uma pedra rachada a tracejada.">
 <figcaption><em>Gogyō</em> (五行), diagrama dos cinco elementos</figcaption>
 </figure>
 

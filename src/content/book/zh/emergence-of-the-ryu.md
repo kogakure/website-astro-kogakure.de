@@ -45,7 +45,7 @@ categories:
 ## 新流派的浪潮
 
 <figure>
-<img src="/images/vector/diagrams/rekishi-chizu.webp" alt="一幅日本旧国地图，各国编号从1到60；红色标记1到3表示江户、京都和大阪，一条棕色的线沿着东海道从京都通往江户，一块灰色区域标出伊贺和甲贺，上方是甲贺和伊贺的家纹。">
+<img src="/images/diagrams/rekishi-chizu.webp" alt="一幅日本旧国地图，各国编号从1到60；红色标记1到3表示江户、京都和大阪，一条棕色的线沿着东海道从京都通往江户，一块灰色区域标出伊贺和甲贺，上方是甲贺和伊贺的家纹。">
 <figcaption>日本历史地图</figcaption>
 </figure>
 

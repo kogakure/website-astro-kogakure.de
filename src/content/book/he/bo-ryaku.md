@@ -20,7 +20,7 @@ categories:
 ## גאנקו – מעוף הציפורים
 
 <figure>
-<img src="/images/vector/formations/ganko.webp" alt="שבעה לוחמים בקו אלכסוני שיורד משמאל למעלה לימין למטה, כל אחד צעד אחד הצידה וצעד אחד מאחורי הבא, כולם פונים ימינה.">
+<img src="/images/formations/ganko.webp" alt="שבעה לוחמים בקו אלכסוני שיורד משמאל למעלה לימין למטה, כל אחד צעד אחד הצידה וצעד אחד מאחורי הבא, כולם פונים ימינה.">
 <figcaption>גאנקו (雁行)</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ categories:
 ## הושי – ראש חץ
 
 <figure>
-<img src="/images/vector/formations/hoshi.webp" alt="עשרה לוחמים יוצרים ראש חץ שמצביע ימינה: טור ארוך כפיר החץ, ומקצהו מתפצלות לאחור שתי כנפיים אלכסוניות.">
+<img src="/images/formations/hoshi.webp" alt="עשרה לוחמים יוצרים ראש חץ שמצביע ימינה: טור ארוך כפיר החץ, ומקצהו מתפצלות לאחור שתי כנפיים אלכסוניות.">
 <figcaption>הושי (鋒矢)</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ categories:
 ## הואן – חור המנעול
 
 <figure>
-<img src="/images/vector/formations/hoen.webp" alt="שנים־עשר לוחמים עומדים במרווחים שווים על מעגל רחב שמרכזו ריק, כולם פונים ימינה.">
+<img src="/images/formations/hoen.webp" alt="שנים־עשר לוחמים עומדים במרווחים שווים על מעגל רחב שמרכזו ריק, כולם פונים ימינה.">
 <figcaption>הואן (方円)</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ categories:
 ## קאקויוקו – כנף העגור
 
 <figure>
-<img src="/images/vector/formations/kakuyoku.webp" alt="שבעה לוחמים בצורת V רחבה ושוכבת, שקודקודה מצביע שמאלה וזרועותיה נפתחות ימינה.">
+<img src="/images/formations/kakuyoku.webp" alt="שבעה לוחמים בצורת V רחבה ושוכבת, שקודקודה מצביע שמאלה וזרועותיה נפתחות ימינה.">
 <figcaption>קאקויוקו (鶴翼)</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ categories:
 ## קויאקו – עול השוורים
 
 <figure>
-<img src="/images/vector/formations/koyaku.webp" alt="עשרה לוחמים בשני טורים מקבילים של חמישה, שחוצים את השדה משמאל לימין.">
+<img src="/images/formations/koyaku.webp" alt="עשרה לוחמים בשני טורים מקבילים של חמישה, שחוצים את השדה משמאל לימין.">
 <figcaption>קויאקו (衡軛)</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ categories:
 ## גיורין – קשקש הדג
 
 <figure>
-<img src="/images/vector/formations/gyorin.webp" alt="שבעה־עשר לוחמים, ביניהם קשתים ונושאי חניתות, בטריז קהה שמצביע ימינה.">
+<img src="/images/formations/gyorin.webp" alt="שבעה־עשר לוחמים, ביניהם קשתים ונושאי חניתות, בטריז קהה שמצביע ימינה.">
 <figcaption>גיורין (魚鱗)</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ categories:
 ## אנגצו – חצי הסהר
 
 <figure>
-<img src="/images/vector/formations/engetsu.webp" alt="שנים־עשר לוחמים בשישה זוגות, כתף אל כתף, על חצי עיגול שנפתח כלפי מטה.">
+<img src="/images/formations/engetsu.webp" alt="שנים־עשר לוחמים בשישה זוגות, כתף אל כתף, על חצי עיגול שנפתח כלפי מטה.">
 <figcaption>אנגצו (偃月)</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ categories:
 ## צ'ודה – הנחש הארוך
 
 <figure>
-<img src="/images/vector/formations/choda.webp" alt="שמונה לוחמים בטור ישר אחד, זה מאחורי זה במרווחים שווים, משמאל לימין לרוחב השדה.">
+<img src="/images/formations/choda.webp" alt="שמונה לוחמים בטור ישר אחד, זה מאחורי זה במרווחים שווים, משמאל לימין לרוחב השדה.">
 <figcaption>צ'ודה (長蛇)</figcaption>
 </figure>
 

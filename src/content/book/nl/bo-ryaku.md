@@ -20,7 +20,7 @@ Bevelen, trommelslagen, vlagsignalen: een veldheer in het feodale Japan moest de
 ## Gankō – Vlucht van de vogels
 
 <figure>
-<img src="/images/vector/formations/ganko.webp" alt="Zeven krijgers in een schuine lijn van linksboven naar rechtsonder, elk een stap opzij en een stap achter de volgende, allen naar rechts gekeerd.">
+<img src="/images/formations/ganko.webp" alt="Zeven krijgers in een schuine lijn van linksboven naar rechtsonder, elk een stap opzij en een stap achter de volgende, allen naar rechts gekeerd.">
 <figcaption><em>Gankō</em> (雁行)</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ _Gankō_ (雁行) is een flexibele opstelling die zich gemakkelijk laat aanpasse
 ## Hōshi – Pijlpunt
 
 <figure>
-<img src="/images/vector/formations/hoshi.webp" alt="Tien krijgers vormen een pijlpunt die naar rechts wijst: een lange rij als schacht, met aan de punt twee schuine vleugels die naar achteren uiteenlopen.">
+<img src="/images/formations/hoshi.webp" alt="Tien krijgers vormen een pijlpunt die naar rechts wijst: een lange rij als schacht, met aan de punt twee schuine vleugels die naar achteren uiteenlopen.">
 <figcaption><em>Hōshi</em> (鋒矢)</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ _Hōshi_ (鋒矢) is bedoeld voor een krachtige aanval. Een dunne linie haakbuss
 ## Hōen – Sleutelgat
 
 <figure>
-<img src="/images/vector/formations/hoen.webp" alt="Twaalf krijgers staan op gelijke afstand van elkaar op een wijde cirkel met een lege binnenruimte, allen naar rechts gekeerd.">
+<img src="/images/formations/hoen.webp" alt="Twaalf krijgers staan op gelijke afstand van elkaar op een wijde cirkel met een lege binnenruimte, allen naar rechts gekeerd.">
 <figcaption><em>Hōen</em> (方円)</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Tegen de pijlpunt is _hōen_ (方円, <q>vierkant en cirkel</q>) de beste verded
 ## Kakuyoku – Kraanvogelvleugel
 
 <figure>
-<img src="/images/vector/formations/kakuyoku.webp" alt="Zeven krijgers in een wijde, liggende V, met de punt naar links en de benen die zich naar rechts openen.">
+<img src="/images/formations/kakuyoku.webp" alt="Zeven krijgers in een wijde, liggende V, met de punt naar links en de benen die zich naar rechts openen.">
 <figcaption><em>Kakuyoku</em> (鶴翼)</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Om de tegenstander te omsingelen is _kakuyoku_ (鶴翼) het meest geschikt. Haak
 ## Kōyaku – Ossenjuk
 
 <figure>
-<img src="/images/vector/formations/koyaku.webp" alt="Tien krijgers in twee evenwijdige rijen van vijf, die van links naar rechts over het veld lopen.">
+<img src="/images/formations/koyaku.webp" alt="Tien krijgers in twee evenwijdige rijen van vijf, die van links naar rechts over het veld lopen.">
 <figcaption><em>Kōyaku</em> (衡軛)</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ _Kōyaku_ (衡軛) vangt de kraanvogelvleugel op, maar vooral de pijlpunt. De tw
 ## Gyorin – Visschub
 
 <figure>
-<img src="/images/vector/formations/gyorin.webp" alt="Zeventien krijgers, onder wie boogschutters en speerdragers, in een stompe wig die naar rechts wijst.">
+<img src="/images/formations/gyorin.webp" alt="Zeventien krijgers, onder wie boogschutters en speerdragers, in een stompe wig die naar rechts wijst.">
 <figcaption><em>Gyorin</em> (魚鱗)</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ _Gyorin_ (魚鱗) is de formatie voor een leger dat in aantal onderdoet voor de 
 ## Engetsu – Halvemaan
 
 <figure>
-<img src="/images/vector/formations/engetsu.webp" alt="Twaalf krijgers in zes paren, schouder aan schouder, op een halve cirkel die naar onderen openstaat.">
+<img src="/images/formations/engetsu.webp" alt="Twaalf krijgers in zes paren, schouder aan schouder, op een halve cirkel die naar onderen openstaat.">
 <figcaption><em>Engetsu</em> (偃月)</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Staan de eigen troepen met de rug tegen de muur, dan grijpt de generaal naar _en
 ## Chōda – Lange slang
 
 <figure>
-<img src="/images/vector/formations/choda.webp" alt="Acht krijgers in één rechte rij achter elkaar, op gelijke afstand van links naar rechts over het veld.">
+<img src="/images/formations/choda.webp" alt="Acht krijgers in één rechte rij achter elkaar, op gelijke afstand van links naar rechts over het veld.">
 <figcaption><em>Chōda</em> (長蛇)</figcaption>
 </figure>
 

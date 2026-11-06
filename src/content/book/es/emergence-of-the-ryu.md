@@ -45,7 +45,7 @@ Momochi Sandayū tenía tres casas, cada una con su esposa y sus hijos. Así con
 ## Una oleada de escuelas nuevas
 
 <figure>
-<img src="/images/vector/diagrams/rekishi-chizu.webp" alt="Mapa de las antiguas provincias japonesas, numeradas del 1 al 60; marcas rojas del 1 al 3 señalan Edo, Kyōto y Ōsaka, una línea marrón sigue el Tōkaidō de Kyōto a Edo, una superficie gris marca Iga y Kōga, y encima aparecen los blasones de Kōga e Iga.">
+<img src="/images/diagrams/rekishi-chizu.webp" alt="Mapa de las antiguas provincias japonesas, numeradas del 1 al 60; marcas rojas del 1 al 3 señalan Edo, Kyōto y Ōsaka, una línea marrón sigue el Tōkaidō de Kyōto a Edo, una superficie gris marca Iga y Kōga, y encima aparecen los blasones de Kōga e Iga.">
 <figcaption>Mapa histórico de Japón</figcaption>
 </figure>
 

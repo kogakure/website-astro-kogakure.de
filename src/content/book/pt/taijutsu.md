@@ -21,7 +21,7 @@ Faixas, troféus e títulos nunca foram o objetivo do ninjutsu. Esse modo de lut
 O treinamento busca um modo natural de lutar, moldado inteiramente à pessoa que o pratica. Para isso é preciso, antes de tudo, uma compreensão atemporal de como as pessoas se comportam e de como o corpo humano é construído.
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="Um diagrama em árvore sobre papel envelhecido: sob o termo taijutsu saem três ramos, para movimentos do corpo, técnicas de golpe e técnicas de agarre, cada um com uma lista de subáreas em kanji e transliteração.">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="Um diagrama em árvore sobre papel envelhecido: sob o termo taijutsu saem três ramos, para movimentos do corpo, técnicas de golpe e técnicas de agarre, cada um com uma lista de subáreas em kanji e transliteração.">
 <figcaption><em>Taijutsu zu</em>, esquema do <em>taijutsu</em></figcaption>
 </figure>
 

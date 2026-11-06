@@ -21,7 +21,7 @@ Cinturones, trofeos y títulos nunca fueron la meta del ninjutsu. Esta forma de 
 El entrenamiento busca una forma natural de luchar, hecha a la medida de la persona que la practica. Para ello hace falta, sobre todo, una comprensión intemporal de cómo se comportan las personas y de cómo está construido su cuerpo.
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="Un diagrama en árbol sobre papel envejecido: bajo el término taijutsu se abren tres ramas para los movimientos del cuerpo, las técnicas de golpeo y las técnicas de agarre, cada una con una lista de subdisciplinas en kanji y transcripción.">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="Un diagrama en árbol sobre papel envejecido: bajo el término taijutsu se abren tres ramas para los movimientos del cuerpo, las técnicas de golpeo y las técnicas de agarre, cada una con una lista de subdisciplinas en kanji y transcripción.">
 <figcaption><em>Taijutsu zu</em>, esquema del <em>taijutsu</em></figcaption>
 </figure>
 

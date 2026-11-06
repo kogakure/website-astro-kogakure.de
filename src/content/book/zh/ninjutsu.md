@@ -27,28 +27,28 @@ translationKey: ninjutsuPage
 忍者这个词无法直接译成日语以外的语言。
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="忍者两个字以黑色毛笔字并排写在浅色、带纤维的纸上。">
+<img src="/images/calligraphy/ninja.webp" alt="忍者两个字以黑色毛笔字并排写在浅色、带纤维的纸上。">
 <figcaption>忍者</figcaption>
 </figure>
 
 忍者和忍术中都有的音节忍（nin），也读作<em>shinobu</em>。它兼有<q>忍耐</q>、<q>坚持</q>和<q>克制</q>的意思。在词典里，忍还表示<q>隐秘</q>、<q>守口如瓶</q>或<q>隐藏</q>。忍术中的术（jutsu）意思是<q>技艺</q>，忍者中的者（ja）意思是<q>人</q>。
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="一个大大的忍字以黑色毛笔字写在浅色纸的中央。">
+<img src="/images/calligraphy/shinobu.webp" alt="一个大大的忍字以黑色毛笔字写在浅色纸的中央。">
 <figcaption>忍（shinobu）</figcaption>
 </figure>
 
 忍字由另外两个字组成。上面是刃（yaiba），即<q>刀刃</q>。
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="一个大大的刃字以黑色毛笔字写在浅色纸的中央。">
+<img src="/images/calligraphy/yaiba.webp" alt="一个大大的刃字以黑色毛笔字写在浅色纸的中央。">
 <figcaption>刃（yaiba）</figcaption>
 </figure>
 
 下面是心（kokoro），日语里表示<q>心</q>的词。
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="一个大大的心字以黑色毛笔字写在浅色纸的中央。">
+<img src="/images/calligraphy/kokoro.webp" alt="一个大大的心字以黑色毛笔字写在浅色纸的中央。">
 <figcaption>心（kokoro）</figcaption>
 </figure>
 

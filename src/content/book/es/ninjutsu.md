@@ -27,28 +27,28 @@ Según esta sentencia, a quien practica el ninjutsu solo para cumplir sus propio
 La palabra ninja no se puede traducir directamente a ninguna lengua que no sea el japonés.
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="Los dos caracteres 忍者, uno junto al otro, en caligrafía negra a pincel sobre papel claro y fibroso.">
+<img src="/images/calligraphy/ninja.webp" alt="Los dos caracteres 忍者, uno junto al otro, en caligrafía negra a pincel sobre papel claro y fibroso.">
 <figcaption>Ninja (忍者)</figcaption>
 </figure>
 
 La sílaba _nin_ (忍), presente tanto en ninja como en ninjutsu, también se lee _shinobu_. Reúne los significados de <q>resistencia</q>, <q>perseverancia</q> y <q>contención</q>. En el diccionario, _nin_ significa además <q>sigilo</q>, <q>reserva</q> u <q>ocultación</q>. _Jutsu_ (術), en ninjutsu, quiere decir <q>arte</q>, y _ja_ (者), en ninja, <q>persona</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="El carácter 忍, grande y centrado, en caligrafía negra a pincel sobre papel claro.">
+<img src="/images/calligraphy/shinobu.webp" alt="El carácter 忍, grande y centrado, en caligrafía negra a pincel sobre papel claro.">
 <figcaption><em>Shinobu</em> (忍)</figcaption>
 </figure>
 
 El carácter _nin_ se compone de otros dos. Arriba está _yaiba_ (刃), la <q>hoja</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="El carácter 刃, grande y centrado, en caligrafía negra a pincel sobre papel claro.">
+<img src="/images/calligraphy/yaiba.webp" alt="El carácter 刃, grande y centrado, en caligrafía negra a pincel sobre papel claro.">
 <figcaption><em>Yaiba</em> (刃)</figcaption>
 </figure>
 
 Abajo está _kokoro_ (心), la palabra japonesa para <q>corazón</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="El carácter 心, grande y centrado, en caligrafía negra a pincel sobre papel claro.">
+<img src="/images/calligraphy/kokoro.webp" alt="El carácter 心, grande y centrado, en caligrafía negra a pincel sobre papel claro.">
 <figcaption><em>Kokoro</em> (心)</figcaption>
 </figure>
 

@@ -1672,6 +1672,193 @@
 			],
 			"hash": "64873abd9e9d8247"
 		},
+		"calligraphy/bujinkan.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c3a42d14df7592d7"
+		},
+		"calligraphy/inyo.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "19b18cf10e1f931a"
+		},
+		"calligraphy/kokoro.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b549e01d61be29dd"
+		},
+		"calligraphy/ninja.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "386079538019d6a6"
+		},
+		"calligraphy/shinobu.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5bff6068e7564b69"
+		},
+		"calligraphy/yaiba.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "bb74ffa63240d591"
+		},
+		"diagrams/gogyo.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0751dbba04f0a128"
+		},
+		"diagrams/rekishi-chizu.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "006dbcf93a24a3a7"
+		},
+		"diagrams/taijutsu-zu.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "3b07861da780f170"
+		},
+		"formations/choda.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c7e8baf193d7fb2e"
+		},
+		"formations/engetsu.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d370ae502cd488b7"
+		},
+		"formations/ganko.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c6a834e1663b8ee2"
+		},
+		"formations/gyorin.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ab55943a93683469"
+		},
+		"formations/hoen.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9f4748aabd498e34"
+		},
+		"formations/hoshi.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "bfe328549a153c92"
+		},
+		"formations/kakuyoku.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0a4a317ce2d1f44a"
+		},
+		"formations/koyaku.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e74824a60d84be08"
+		},
 		"historical/genpei-kassen.webp": {
 			"width": 2048,
 			"height": 1152,
@@ -3408,193 +3595,6 @@
 				2000
 			],
 			"hash": "3a4c5794efa3d999"
-		},
-		"vector/calligraphy/bujinkan.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "c3a42d14df7592d7"
-		},
-		"vector/calligraphy/inyo.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "19b18cf10e1f931a"
-		},
-		"vector/calligraphy/kokoro.webp": {
-			"width": 1024,
-			"height": 1024,
-			"aspect": 1,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "b549e01d61be29dd"
-		},
-		"vector/calligraphy/ninja.webp": {
-			"width": 1024,
-			"height": 1024,
-			"aspect": 1,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "386079538019d6a6"
-		},
-		"vector/calligraphy/shinobu.webp": {
-			"width": 1024,
-			"height": 1024,
-			"aspect": 1,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "5bff6068e7564b69"
-		},
-		"vector/calligraphy/yaiba.webp": {
-			"width": 1024,
-			"height": 1024,
-			"aspect": 1,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "bb74ffa63240d591"
-		},
-		"vector/diagrams/gogyo.webp": {
-			"width": 1024,
-			"height": 1024,
-			"aspect": 1,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "0751dbba04f0a128"
-		},
-		"vector/diagrams/rekishi-chizu.webp": {
-			"width": 2048,
-			"height": 1152,
-			"aspect": 1.7778,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "006dbcf93a24a3a7"
-		},
-		"vector/diagrams/taijutsu-zu.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "3b07861da780f170"
-		},
-		"vector/formations/choda.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "c7e8baf193d7fb2e"
-		},
-		"vector/formations/engetsu.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "d370ae502cd488b7"
-		},
-		"vector/formations/ganko.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "c6a834e1663b8ee2"
-		},
-		"vector/formations/gyorin.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "ab55943a93683469"
-		},
-		"vector/formations/hoen.webp": {
-			"width": 1024,
-			"height": 1024,
-			"aspect": 1,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "9f4748aabd498e34"
-		},
-		"vector/formations/hoshi.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "bfe328549a153c92"
-		},
-		"vector/formations/kakuyoku.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "0a4a317ce2d1f44a"
-		},
-		"vector/formations/koyaku.webp": {
-			"width": 1536,
-			"height": 1024,
-			"aspect": 1.5,
-			"widths": [
-				800,
-				1400,
-				2000
-			],
-			"hash": "e74824a60d84be08"
 		},
 		"weapons/ashi-ko.webp": {
 			"width": 1537,

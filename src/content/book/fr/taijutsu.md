@@ -21,7 +21,7 @@ Ceintures, coupes et titres n’ont jamais été le but du ninjutsu. Cette faço
 L’entraînement vise une façon naturelle de combattre, entièrement taillée pour la personne qui la pratique. Il faut pour cela, avant tout, une compréhension intemporelle du comportement humain et de la constitution du corps.
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="Un diagramme en arbre sur un papier ancien : sous le terme taijutsu se déploient trois branches pour les mouvements du corps, les techniques de frappe et les techniques de saisie, chacune avec une liste de sous-disciplines en kanji et en transcription.">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="Un diagramme en arbre sur un papier ancien : sous le terme taijutsu se déploient trois branches pour les mouvements du corps, les techniques de frappe et les techniques de saisie, chacune avec une liste de sous-disciplines en kanji et en transcription.">
 <figcaption><em>Taijutsu zu</em>, schéma du <em>taijutsu</em></figcaption>
 </figure>
 

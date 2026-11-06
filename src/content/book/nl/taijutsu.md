@@ -21,7 +21,7 @@ Banden, bekers en titels waren in het ninjutsu nooit het doel. Deze manier van v
 De training moet een natuurlijke manier van vechten opleveren die volledig is afgestemd op de mens die haar beoefent. Daarvoor is vooral een tijdloos begrip nodig van hoe mensen zich gedragen en hoe hun lichaam gebouwd is.
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="Een boomdiagram op oud papier: onder het begrip taijutsu vertakken zich drie takken voor lichaamsbewegingen, slagtechnieken en greeptechnieken, elk met een lijst van deelgebieden in kanji en transcriptie.">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="Een boomdiagram op oud papier: onder het begrip taijutsu vertakken zich drie takken voor lichaamsbewegingen, slagtechnieken en greeptechnieken, elk met een lijst van deelgebieden in kanji en transcriptie.">
 <figcaption><em>Taijutsu zu</em>, schema van het <em>taijutsu</em></figcaption>
 </figure>
 

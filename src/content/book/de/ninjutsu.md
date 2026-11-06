@@ -27,28 +27,28 @@ Wer Ninjutsu nur betreibt, um eigene Wünsche zu erfüllen, dem nützen nach die
 Das Wort Ninja lässt sich nicht direkt in eine nicht-japanische Sprache übersetzen.
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="Die beiden Schriftzeichen 忍者 in schwarzer Pinselschrift nebeneinander auf hellem, faserigem Papier.">
+<img src="/images/calligraphy/ninja.webp" alt="Die beiden Schriftzeichen 忍者 in schwarzer Pinselschrift nebeneinander auf hellem, faserigem Papier.">
 <figcaption>Ninja (忍者)</figcaption>
 </figure>
 
 Die Silbe _nin_ (忍), die in Ninja und Ninjutsu steckt, wird auch _shinobu_ gelesen. Sie vereint die Bedeutungen <q>Ausdauer</q>, <q>Beharrlichkeit</q> und <q>Unterlassung</q>. Im Wörterbuch steht _nin_ außerdem für <q>Heimlichkeit</q>, <q>Verschlossenheit</q> oder <q>Verborgenheit</q>. _Jutsu_ (術) in Ninjutsu heißt <q>Kunst</q>, _ja_ (者) in Ninja <q>Person</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="Das Schriftzeichen 忍 groß und mittig in schwarzer Pinselschrift auf hellem Papier.">
+<img src="/images/calligraphy/shinobu.webp" alt="Das Schriftzeichen 忍 groß und mittig in schwarzer Pinselschrift auf hellem Papier.">
 <figcaption><em>Shinobu</em> (忍)</figcaption>
 </figure>
 
 Das Zeichen _nin_ setzt sich aus zwei anderen Zeichen zusammen. Oben steht _yaiba_ (刃), die <q>Klinge</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="Das Schriftzeichen 刃 groß und mittig in schwarzer Pinselschrift auf hellem Papier.">
+<img src="/images/calligraphy/yaiba.webp" alt="Das Schriftzeichen 刃 groß und mittig in schwarzer Pinselschrift auf hellem Papier.">
 <figcaption><em>Yaiba</em> (刃)</figcaption>
 </figure>
 
 Unten steht _kokoro_ (心), das japanische Wort für <q>Herz</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="Das Schriftzeichen 心 groß und mittig in schwarzer Pinselschrift auf hellem Papier.">
+<img src="/images/calligraphy/kokoro.webp" alt="Das Schriftzeichen 心 groß und mittig in schwarzer Pinselschrift auf hellem Papier.">
 <figcaption><em>Kokoro</em> (心)</figcaption>
 </figure>
 

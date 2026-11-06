@@ -20,7 +20,7 @@ Ordini, rulli di tamburo, segnali con le bandiere: un comandante del Giappone fe
 ## Gankō – Il volo degli uccelli
 
 <figure>
-<img src="/images/vector/formations/ganko.webp" alt="Sette guerrieri disposti su una linea obliqua che va da in alto a sinistra a in basso a destra, ciascuno un passo di lato e un passo dietro il successivo, tutti rivolti verso destra.">
+<img src="/images/formations/ganko.webp" alt="Sette guerrieri disposti su una linea obliqua che va da in alto a sinistra a in basso a destra, ciascuno un passo di lato e un passo dietro il successivo, tutti rivolti verso destra.">
 <figcaption><em>Gankō</em> (雁行)</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ Il _gankō_ (雁行) è uno schieramento flessibile, facile da modificare quando
 ## Hōshi – Punta di freccia
 
 <figure>
-<img src="/images/vector/formations/hoshi.webp" alt="Dieci guerrieri formano una punta di freccia rivolta verso destra: una lunga fila come asta, dalla cui punta due ali oblique si allargano all’indietro.">
+<img src="/images/formations/hoshi.webp" alt="Dieci guerrieri formano una punta di freccia rivolta verso destra: una lunga fila come asta, dalla cui punta due ali oblique si allargano all’indietro.">
 <figcaption><em>Hōshi</em> (鋒矢)</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ Lo _hōshi_ (鋒矢) è pensato per un attacco violento. Una sottile linea di ar
 ## Hōen – Buco della serratura
 
 <figure>
-<img src="/images/vector/formations/hoen.webp" alt="Dodici guerrieri disposti a distanze regolari su un ampio cerchio dal centro vuoto, tutti rivolti verso destra.">
+<img src="/images/formations/hoen.webp" alt="Dodici guerrieri disposti a distanze regolari su un ampio cerchio dal centro vuoto, tutti rivolti verso destra.">
 <figcaption><em>Hōen</em> (方円)</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Contro la punta di freccia la difesa migliore è lo _hōen_ (方円, <q>quadrato
 ## Kakuyoku – Ala di gru
 
 <figure>
-<img src="/images/vector/formations/kakuyoku.webp" alt="Sette guerrieri disposti in un’ampia V coricata, con la punta rivolta a sinistra e i lati che si aprono verso destra.">
+<img src="/images/formations/kakuyoku.webp" alt="Sette guerrieri disposti in un’ampia V coricata, con la punta rivolta a sinistra e i lati che si aprono verso destra.">
 <figcaption><em>Kakuyoku</em> (鶴翼)</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Per accerchiare l’avversario la formazione più adatta è il _kakuyoku_ (鶴�
 ## Kōyaku – Giogo di buoi
 
 <figure>
-<img src="/images/vector/formations/koyaku.webp" alt="Dieci guerrieri in due file parallele di cinque, che attraversano il campo da sinistra a destra.">
+<img src="/images/formations/koyaku.webp" alt="Dieci guerrieri in due file parallele di cinque, che attraversano il campo da sinistra a destra.">
 <figcaption><em>Kōyaku</em> (衡軛)</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ Il _kōyaku_ (衡軛) intercetta l’ala di gru, ma soprattutto la punta di frec
 ## Gyorin – Scaglia di pesce
 
 <figure>
-<img src="/images/vector/formations/gyorin.webp" alt="Diciassette guerrieri, tra cui arcieri e lancieri, disposti in un cuneo smussato rivolto verso destra.">
+<img src="/images/formations/gyorin.webp" alt="Diciassette guerrieri, tra cui arcieri e lancieri, disposti in un cuneo smussato rivolto verso destra.">
 <figcaption><em>Gyorin</em> (魚鱗)</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ Il _gyorin_ (魚鱗) è la formazione per un esercito numericamente inferiore al
 ## Engetsu – Mezzaluna
 
 <figure>
-<img src="/images/vector/formations/engetsu.webp" alt="Dodici guerrieri in sei coppie, spalla a spalla, disposti su un semicerchio che si apre verso il basso.">
+<img src="/images/formations/engetsu.webp" alt="Dodici guerrieri in sei coppie, spalla a spalla, disposti su un semicerchio che si apre verso il basso.">
 <figcaption><em>Engetsu</em> (偃月)</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Quando le proprie truppe hanno le spalle al muro, il generale ricorre all’_eng
 ## Chōda – Lungo serpente
 
 <figure>
-<img src="/images/vector/formations/choda.webp" alt="Otto guerrieri in un’unica fila diritta, uno dietro l’altro a distanze regolari, che attraversano il campo da sinistra a destra.">
+<img src="/images/formations/choda.webp" alt="Otto guerrieri in un’unica fila diritta, uno dietro l’altro a distanze regolari, che attraversano il campo da sinistra a destra.">
 <figcaption><em>Chōda</em> (長蛇)</figcaption>
 </figure>
 
