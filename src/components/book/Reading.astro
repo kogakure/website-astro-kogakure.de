@@ -46,6 +46,8 @@ const { heading, sections, opener = false, position } = Astro.props;
 		addEventListener('sectionchange', (event) =>
 			save((event as CustomEvent<{ index: number }>).detail.index)
 		);
+		// The section list may have told its position before this listened
+		dispatchEvent(new Event('sectionrequest'));
 	}
 </script>
 

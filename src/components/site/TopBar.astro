@@ -28,12 +28,18 @@ const { label, home, chapter, sections } = Astro.props;
 
 <nav class="topbar" aria-label={label} data-topbar data-print="hidden">
 	<a href={home.href} class="topbar-home">
-		<span lang="ja">{BOOK_PLATE.name}</span>
+		<span lang="ja" aria-hidden="true">
+			{BOOK_PLATE.name}
+		</span>
 		<span class="topbar-text">{home.label}</span>
 	</a>
 	{chapter && (
 		<a href={chapter.href} class="topbar-chapter">
-			{chapter.kanji && <span lang="ja">{chapter.kanji}</span>}
+			{chapter.kanji && (
+				<span lang="ja" aria-hidden="true">
+					{chapter.kanji}
+				</span>
+			)}
 			<span class="topbar-text">{chapter.title}</span>
 		</a>
 	)}

@@ -64,6 +64,8 @@ test.describe('article pages', () => {
 
 	for (const path of ['/abhaertung/', '/he/toughening-up/', '/ja/toughening-up/']) {
 		test(`${path} has no accessibility violations`, async ({ page }) => {
+			// The settled page: axe can't judge contrast mid-animation
+			await page.emulateMedia({ reducedMotion: 'reduce' });
 			await page.goto(path);
 			const results = await new AxeBuilder({ page }).analyze();
 			expect(results.violations).toEqual([]);
