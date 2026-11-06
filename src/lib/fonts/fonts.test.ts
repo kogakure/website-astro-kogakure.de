@@ -3,7 +3,7 @@ import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { LANGS } from '@/i18n/languages';
 import { fontFaceCss, fontFiles, manifest, preloadFont, type FontManifest } from './fonts';
-import { allTextHashes } from './text';
+import { allTextHashes, languageText } from './text';
 
 const PUBLIC = path.resolve(import.meta.dirname, '../../../public');
 
@@ -11,6 +11,31 @@ const PUBLIC = path.resolve(import.meta.dirname, '../../../public');
 const BUDGET = 150 * 1024;
 /** CJK sets more glyphs than any subset can hide: DESIGN.md, Typography › Fonts */
 const CJK_BUDGET = 240 * 1024;
+/**
+ * The homepage sets every article's lede, so it sets more characters than
+ * any article (SI-474): its own limit
+ */
+const HOME_BUDGET = 160 * 1024;
+const CJK_HOME_BUDGET = 320 * 1024;
+
+describe('font text', () => {
+	it("sets every article's lede and the scenes' captions on the homepage", () => {
+		const { home } = languageText('ja');
+		const book = path.resolve(import.meta.dirname, '../../content/book/ja');
+		const excerpts = fs
+			.readdirSync(book)
+			.map(
+				(name) =>
+					/^excerpt: '?(.*?)'?$/m.exec(
+						fs.readFileSync(path.join(book, name), 'utf8')
+					)?.[1]
+			)
+			.filter((excerpt) => excerpt !== undefined);
+		expect(excerpts.length).toBeGreaterThan(70);
+		for (const excerpt of excerpts) expect(home).toContain(excerpt);
+		expect(home).toContain('原城の地図作り');
+	});
+});
 
 describe('font manifest', () => {
 	it('is up to date with the content and the UI strings: run pnpm fonts', () => {
@@ -36,8 +61,11 @@ describe('font manifest', () => {
 	it('keeps the first page of every language within the budget', () => {
 		for (const lang of LANGS) {
 			const { home, median } = manifest.budget[lang]!;
-			const limit = ['ja', 'zh', 'ko'].includes(lang) ? CJK_BUDGET : BUDGET;
-			expect(home, `${lang} homepage`).toBeLessThanOrEqual(limit);
+			const cjk = ['ja', 'zh', 'ko'].includes(lang);
+			const limit = cjk ? CJK_BUDGET : BUDGET;
+			expect(home, `${lang} homepage`).toBeLessThanOrEqual(
+				cjk ? CJK_HOME_BUDGET : HOME_BUDGET
+			);
 			expect(median, `${lang} median article`).toBeLessThanOrEqual(limit);
 		}
 	});
