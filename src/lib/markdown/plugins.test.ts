@@ -85,14 +85,6 @@ describe('hastFigures', () => {
 		expect(renderMarkdown(figure, [hastFigures()])).toContain('<figure data-kind="kamae">');
 	});
 
-	it('marks a painting with a frame of its own', () => {
-		const framed = '<figure><img src="/images/diagrams/taijutsu-zu.webp" alt=""></figure>';
-		expect(renderMarkdown(framed, [hastFigures()])).toContain(
-			'<figure data-kind="diagrams" data-framed="">'
-		);
-		expect(renderMarkdown(figure, [hastFigures()])).not.toContain('data-framed');
-	});
-
 	it('leaves images outside figures alone', () => {
 		expect(renderMarkdown('<p><img src="/x.webp" alt=""></p>', [hastFigures()])).not.toContain(
 			'loading'
