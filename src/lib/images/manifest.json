@@ -1453,6 +1453,7 @@
 			"width": 1536,
 			"height": 1024,
 			"aspect": 1.5,
+			"focus": "50% 50%",
 			"widths": [
 				800,
 				1400,
@@ -4275,7 +4276,7 @@
 		},
 		"5CommandmentsOfNinjaPage": {
 			"image": "article/the-5-commandments-of-the-ninja-01-letting-feelings-pass-like-smoke.webp",
-			"hash": "4095a26291034d60"
+			"hash": "954a64508a923603"
 		},
 		"atemitePage": {
 			"image": "article/atemi-te-01-master-shows-vital-points.webp",
