@@ -399,6 +399,7 @@
 			"width": 1536,
 			"height": 1024,
 			"aspect": 1.5,
+			"focus": "50% 58%",
 			"widths": [
 				800,
 				1400,
@@ -4354,7 +4355,7 @@
 		},
 		"essenceOfNinjutsuPage": {
 			"image": "article/essence-of-ninjutsu-01-eyes-of-god.webp",
-			"hash": "1211ad4433979f1c"
+			"hash": "f476156e5fdfbe32"
 		},
 		"famousNinjaPage": {
 			"image": "article/famous-ninja-01-three-houses-of-iga.webp",
