@@ -1,0 +1,4925 @@
+{
+	"entries": [
+		{
+			"title": "aikidō",
+			"sort": "Aikido",
+			"japanese": "合気道",
+			"translation": "Der Weg der Harmonie",
+			"description": "Defensive Kampfkunst, die Ueshiba Morihei zwischen 1925 und 1969 entwickelte."
+		},
+		{
+			"title": "aikuchi",
+			"sort": "Aikuchi",
+			"japanese": "匕首",
+			"description": "Kleiner japanischer Dolch."
+		},
+		{
+			"title": "Ainu",
+			"sort": "Ainu",
+			"japanese": "アイヌ",
+			"description": "Indigenes Volk im Norden Japans, das sich in Sprache und Abstammung von den Japanern unterscheidet; ihre Vorfahren gehen auf die Jōmon-Kultur zurück. In der Umfrage der Präfektur Hokkaidō von 2023 bezeichneten sich rund 11.450 Menschen als Ainu, die Zahl ihrer Nachkommen liegt deutlich höher. Die Japaner sahen in ihnen lange Barbaren und führten über Jahrhunderte Krieg gegen sie, etwa im Aufstand des Koshamain 1457 und im Krieg des Shakushain 1669–1672."
+		},
+		{
+			"title": "aisha",
+			"sort": "Aisha",
+			"japanese": "愛者",
+			"translation": "Liebende Person",
+			"description": "Prinzip des <em>gojō goyoku</em>, das das Mitleid eines Menschen ausnutzt."
+		},
+		{
+			"title": "Akechi Mitsuhide",
+			"sort": "Akechi Mitsuhide",
+			"japanese": "明智光秀",
+			"description": "General Oda Nobunagas, der seinen Herrn verriet. Als Nobunaga ohne seine Leibwächter war, griff Akechi ihn an und tötete ihn. Seine Truppen brannten Nobunagas Burg nieder."
+		},
+		{
+			"title": "akindo",
+			"sort": "Akindo",
+			"japanese": "商人",
+			"translation": "Kaufmann",
+			"description": "Beliebte Verkleidung der Ninja aus dem <em>shichi hō de</em>."
+		},
+		{
+			"title": "ametori no jutsu",
+			"sort": "Ametori no jutsu",
+			"japanese": "雨鳥の術",
+			"translation": "Die Kunst der Vögel im Regen",
+			"description": "Taktik, die ausnutzt, dass Wachen bei Regen oder Kälte ihren Posten meiden oder nur halbherzig Dienst tun."
+		},
+		{
+			"title": "amigasa",
+			"sort": "Amigasa",
+			"japanese": "編笠",
+			"description": "Geflochtener Strohhut, dessen breite Krempe das Gesicht verbirgt."
+		},
+		{
+			"title": "ashi",
+			"sort": "Ashi",
+			"japanese": "足",
+			"translation": "Bein, Fuß"
+		},
+		{
+			"title": "ashi fumikae",
+			"sort": "Ashi fumikae",
+			"japanese": "足踏み替え",
+			"translation": "Beinwechsel"
+		},
+		{
+			"title": "ashi kō",
+			"sort": "Ashi ko",
+			"japanese": "足甲",
+			"translation": "Gepanzerte Füße",
+			"description": "Fußkrallen, mit denen Ninja an Mauern und Wänden hinaufstiegen. Das Gegenstück für die Hände heißt <em>shukō</em> oder <em>tekagi</em>."
+		},
+		{
+			"title": "ashigaru",
+			"sort": "Ashigaru",
+			"japanese": "足軽",
+			"translation": "Leichtfüßiger Soldat",
+			"description": "Untere Schicht der Samurai. In Friedenszeiten arbeiteten die meisten als Bauern auf den Feldern. Ihre Waffen und Rüstungen waren leichter und billiger."
+		},
+		{
+			"title": "Ashikaga",
+			"sort": "Ashikaga",
+			"japanese": "足利",
+			"description": "Clan, der von den Minamoto abstammte und in der Ashikaga-Zeit (1338–1573) die Shōgune Japans stellte."
+		},
+		{
+			"title": "ashinaka",
+			"sort": "Ashinaka",
+			"japanese": "足半",
+			"description": "Strohsandalen ohne Fersenteil, die nur den vorderen Fuß bedecken. Die Zehen greifen direkt in den Boden und finden auch auf rutschigem Grund sicheren Halt."
+		},
+		{
+			"title": "atemi",
+			"sort": "Atemi",
+			"japanese": "当身",
+			"translation": "Schlag auf den Körper",
+			"description": "Schläge und Tritte gegen die Vitalpunkte und Nervenzentren eines Menschen, um ihn zu betäuben, zu lähmen oder zu töten."
+		},
+		{
+			"title": "atemi waza",
+			"sort": "Atemi waza",
+			"japanese": "当身技",
+			"translation": "Schlagtechniken gegen den Körper",
+			"description": "Andere Bezeichnung für den Schlag gegen die Vitalpunkte und Nervenzentren."
+		},
+		{
+			"title": "atemite",
+			"sort": "Atemite",
+			"japanese": "当身手",
+			"translation": "Den Körper mit der Hand treffen",
+			"description": "Andere Bezeichnung für den Schlag gegen die Vitalpunkte und Nervenzentren."
+		},
+		{
+			"title": "ayumi ashi",
+			"sort": "Ayumi ashi",
+			"japanese": "歩み足",
+			"translation": "Normales Gehen"
+		},
+		{
+			"title": "bajutsu",
+			"sort": "Bajutsu",
+			"japanese": "馬術",
+			"translation": "Reitkunst"
+		},
+		{
+			"title": "bakemono jutsu",
+			"sort": "Bakemono jutsu",
+			"japanese": "化物術",
+			"translation": "Geisterkünste",
+			"description": "Die Kunst, sich in einen Geist zu verwandeln. Igasaki Dōjun soll sie eingesetzt haben, um in eine Festung zu gelangen."
+		},
+		{
+			"title": "bakufu",
+			"sort": "Bakufu",
+			"japanese": "幕府",
+			"translation": "Zeltregierung",
+			"description": "Ursprünglich das Feldlager des Shōgun, später der Sitz seiner Militärdiktatur. Eingedeutscht <q>Shōgunat</q>."
+		},
+		{
+			"title": "bakuhatsu gama",
+			"sort": "Bakuhatsu gama",
+			"japanese": "爆発鎌",
+			"translation": "Bombenwurf-Sichel",
+			"description": "Waffe der Ninja aus einer großen Sichel (<em>kama</em>) und einer zwei Meter langen Kette, an deren Ende Sprengstoff, Gift oder Blendpulver saß."
+		},
+		{
+			"title": "Bansenshūkai",
+			"sort": "Bansenshukai",
+			"japanese": "萬川集海",
+			"translation": "Zehntausend Flüsse münden ins Meer",
+			"description": "Zehnteiliges Kompendium des Ninjutsu, 1676 von Fujibayashi Yasutake verfasst."
+		},
+		{
+			"title": "banzai",
+			"sort": "Banzai",
+			"japanese": "万歳",
+			"translation": "Zehntausend Jahre",
+			"description": "Japanischer Ausruf der Freude und Kampfruf."
+		},
+		{
+			"title": "bikenjutsu",
+			"sort": "Bikenjutsu",
+			"japanese": "秘剣術",
+			"description": "Schwertkampf. Mit <em>taijutsu</em> und <em>bōjutsu</em> einer der drei Stützpfeiler des <em>ninpō</em>."
+		},
+		{
+			"title": "bisentō",
+			"sort": "Bisento",
+			"japanese": "眉尖刀",
+			"translation": "Hellebarde",
+			"description": "Japanische Hellebarde mit breiter Klinge."
+		},
+		{
+			"title": "bisentōjutsu",
+			"sort": "Bisentojutsu",
+			"description": "Kampf mit der Hellebarde (<em>bisentō</em>). Eines der 18 Gebiete des <em>ninja jūhakkei</em>."
+		},
+		{
+			"title": "Biwako",
+			"sort": "Biwako",
+			"japanese": "琵琶湖",
+			"translation": "Biwa-See",
+			"description": "Der größte See Japans (rund 670 km²), nahe Kyōto. Seinen Namen hat er von seiner Form, die einer Laute (<em>biwa</em>) ähnelt."
+		},
+		{
+			"title": "bō",
+			"sort": "Bo",
+			"japanese": "棒",
+			"translation": "Stock, Stab",
+			"description": "Bezeichnung für alle japanischen Stabwaffen, im engeren Sinn für den <em>roku shaku bō</em>."
+		},
+		{
+			"title": "bō ken",
+			"sort": "Bo ken",
+			"japanese": "棒剣",
+			"translation": "Stockschwert",
+			"description": "Übungsschwert aus schwerem Holz, auch <em>bokken</em> oder <em>bokutō</em>. Eine durchaus gefährliche Waffe."
+		},
+		{
+			"title": "bō shuriken",
+			"sort": "Bo shuriken",
+			"japanese": "棒手裏剣",
+			"description": "Längliche, dolchartige Wurfgeschosse (<em>shuriken</em>), darunter Haarnadeln, Nägel und Essstäbchen."
+		},
+		{
+			"title": "bōbi no kamae",
+			"sort": "Bobi no kamae",
+			"japanese": "防備の構え",
+			"description": "Abwehrende Stellung (<em>kamae</em>)."
+		},
+		{
+			"title": "bōenkyō",
+			"sort": "Boenkyo",
+			"japanese": "望遠鏡",
+			"translation": "Fernrohr"
+		},
+		{
+			"title": "bōjutsu",
+			"sort": "Bojutsu",
+			"japanese": "棒術",
+			"description": "Stockkampf. Mit <em>taijutsu</em> und <em>bikenjutsu</em> einer der drei Stützpfeiler des <em>ninpō</em>."
+		},
+		{
+			"title": "bokken",
+			"sort": "Bokken",
+			"japanese": "木剣",
+			"translation": "Holzschwert",
+			"description": "Auch <em>bō ken</em> oder <em>bokutō</em>."
+		},
+		{
+			"title": "boku",
+			"sort": "Boku",
+			"japanese": "木",
+			"translation": "Baum, Holz",
+			"description": "Auch <em>moku</em>."
+		},
+		{
+			"title": "bokutō",
+			"sort": "Bokuto",
+			"japanese": "木刀",
+			"translation": "Holzschwert",
+			"description": "Auch <em>bō ken</em> oder <em>bokken</em>."
+		},
+		{
+			"title": "bōryaku",
+			"sort": "Boryaku",
+			"japanese": "謀略",
+			"translation": "Strategie",
+			"description": "Teil der japanischen Kriegführung (<em>heihō</em>), zu dem unter anderem die Schlachtformationen gehören."
+		},
+		{
+			"title": "boshi ken",
+			"sort": "Boshi ken",
+			"japanese": "母指拳",
+			"translation": "Daumenfaust",
+			"description": "Schlag, der das Ziel mit der Daumenspitze trifft."
+		},
+		{
+			"title": "bu",
+			"sort": "Bu",
+			"japanese": "武",
+			"translation": "Kriegskunst, Kriegertum, Militär",
+			"description": "Auch <em>mu</em>."
+		},
+		{
+			"title": "Buddha",
+			"sort": "Buddha",
+			"sanskrit": "बुद्ध",
+			"translation": "Der Erwachte",
+			"description": "Bezeichnung für einen Menschen, der den Kreislauf der Wiedergeburten durchbrochen hat. Meist ist Siddhārtha Gautama gemeint, ein Prinz aus Kapilavastu und Begründer des Buddhismus. Japanisch <em>butsu</em>."
+		},
+		{
+			"title": "budō",
+			"sort": "Budo",
+			"japanese": "武道",
+			"translation": "Kriegskünste",
+			"description": "Oberbegriff für alle japanischen Kampfkünste."
+		},
+		{
+			"title": "budōka",
+			"sort": "Budoka",
+			"japanese": "武道家",
+			"translation": "Kriegskünstler",
+			"description": "Jemand, der <em>budō</em> ausübt."
+		},
+		{
+			"title": "bugei jūhappan",
+			"sort": "Bugei juhappan",
+			"japanese": "武芸十八般",
+			"description": "Die 18 Kategorien der Kriegskünste. Ein Ninja brauchte darin eine gute Grundlage; dazu kamen die 18 Kategorien von Geheimtechniken des <em>ninja jūhakkei</em>."
+		},
+		{
+			"title": "bugeisha",
+			"sort": "Bugeisha",
+			"japanese": "武芸者",
+			"translation": "Meister der Kriegskünste",
+			"description": "Bezeichnung für die Krieger (Samurai), die die Kriegskünste ausübten. Auch <em>bujin</em>."
+		},
+		{
+			"title": "bujin",
+			"sort": "Bujin",
+			"japanese": "武人",
+			"translation": "Militärische Person",
+			"description": "Auch <em>bugeisha</em>."
+		},
+		{
+			"title": "Bujinkan",
+			"sort": "Bujinkan",
+			"japanese": "武神館",
+			"translation": "Die Halle des göttlichen Kriegers",
+			"description": "Von Hatsumi Masaaki gegründete Organisation, die neun alte Krieger- und Ninjutsu-Ryū vereint."
+		},
+		{
+			"title": "bujutsu",
+			"sort": "Bujutsu",
+			"japanese": "武術",
+			"translation": "Die Kriegskünste, Wushu",
+			"description": "Bezeichnung für alle Kampfkünste der Samurai."
+		},
+		{
+			"title": "buke",
+			"sort": "Buke",
+			"japanese": "武家",
+			"translation": "Samurai, Krieger, Kriegerfamilie",
+			"description": "Bezeichnung für die adligen Kriegerfamilien."
+		},
+		{
+			"title": "bukkyō",
+			"sort": "Bukkyo",
+			"japanese": "仏教",
+			"translation": "Buddhismus"
+		},
+		{
+			"title": "bushi",
+			"sort": "Bushi",
+			"japanese": "武士",
+			"translation": "Krieger, Samurai",
+			"description": "Bezeichnung für die adligen Krieger des feudalen Japan."
+		},
+		{
+			"title": "bushidō",
+			"sort": "Bushido",
+			"japanese": "武士道",
+			"translation": "Der Weg des Kriegers",
+			"description": "Ehrenkodex der Samurai, der Selbstdisziplin, Selbstaufgabe und Selbstbeherrschung verlangte."
+		},
+		{
+			"title": "butsu",
+			"sort": "Butsu",
+			"japanese": "仏",
+			"translation": "Buddha"
+		},
+		{
+			"title": "chakuchi",
+			"sort": "Chakuchi",
+			"japanese": "着地",
+			"translation": "Ausfallschritt"
+		},
+		{
+			"title": "chi",
+			"sort": "Chi",
+			"japanese": "地",
+			"translation": "Erde, Erdboden"
+		},
+		{
+			"title": "chi no kata",
+			"sort": "Chi no kata",
+			"japanese": "地の型",
+			"translation": "Form der Erde"
+		},
+		{
+			"title": "Chi ryaku no maki",
+			"sort": "Chi ryaku no maki",
+			"japanese": "地略の巻",
+			"translation": "Schriftrolle der Strategien der Erde",
+			"description": "Buch über die Strategien der Erde, Teil einer Reihe mit <cite>Ten ryaku no maki</cite> und <cite>Jin ryaku no maki</cite>."
+		},
+		{
+			"title": "chigiriki",
+			"sort": "Chigiriki",
+			"japanese": "乳切木",
+			"description": "Langer Stab mit Kette und Eisengewicht am Ende, eine aus dem Dreschflegel entwickelte Waffe."
+		},
+		{
+			"title": "chikairi",
+			"sort": "Chikairi",
+			"japanese": "近入",
+			"translation": "Nahes Eindringen",
+			"description": "Strategien, mit denen Ninja im Krieg die feindlichen Linien durchdrangen."
+		},
+		{
+			"title": "chiken-in",
+			"sort": "Chiken-in",
+			"japanese": "智拳印",
+			"translation": "Zeichen der Faust der Weisheit",
+			"description": "Handzeichen zu <em>retsu</em> im <em>kuji-in</em>."
+		},
+		{
+			"title": "chikujō jutsu",
+			"sort": "Chikujo jutsu",
+			"japanese": "築城術",
+			"translation": "Die Kunst, eine Burg zu bauen",
+			"description": "Methoden der Feldbefestigung."
+		},
+		{
+			"title": "chikyū jutsu",
+			"sort": "Chikyu jutsu",
+			"japanese": "弛弓術",
+			"translation": "Entspannter Bogen",
+			"description": "Taktik des <em>tōiri</em>. Ein gefangener Ninja nimmt das Angebot des feindlichen Herrn an, für ihn zu arbeiten, und flieht bei der ersten Gelegenheit."
+		},
+		{
+			"title": "chimon",
+			"sort": "Chimon",
+			"japanese": "地文",
+			"translation": "Geographie"
+		},
+		{
+			"title": "chitsu mishi",
+			"sort": "Chitsu mishi",
+			"translation": "Bezahlte Augen",
+			"description": "Bewohner eines feindlichen Gebiets, die für einen Ninja arbeiten."
+		},
+		{
+			"title": "chōda",
+			"sort": "Choda",
+			"japanese": "長蛇",
+			"translation": "Lange Schlange",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "chōhō",
+			"sort": "Choho",
+			"japanese": "諜報",
+			"translation": "Spionage"
+		},
+		{
+			"title": "chōkyori kyōsō",
+			"sort": "Chokyori kyoso",
+			"japanese": "長距離競走",
+			"translation": "Langstreckenlauf",
+			"description": "Lauftechnik der Ninja, mit der sie Botschaften über große Entfernungen überbrachten."
+		},
+		{
+			"title": "chūnin",
+			"sort": "Chunin",
+			"japanese": "中忍",
+			"translation": "Mittlerer Ninja",
+			"description": "Mittlerer Rang der Ninja, das Bindeglied zwischen dem Anführer eines Clans (<em>jōnin</em>) und den ausführenden Agenten (<em>genin</em>). Weil er meist den Kontakt zum Auftraggeber herstellte, lagen seine Stärken in Menschenkenntnis und Verkleidung."
+		},
+		{
+			"title": "dai",
+			"sort": "Dai",
+			"japanese": "大",
+			"translation": "Groß"
+		},
+		{
+			"title": "daikongō-in",
+			"sort": "Daikongo-in",
+			"japanese": "大金剛輪印",
+			"translation": "Zeichen des großen Diamanten",
+			"description": "Handzeichen zu <em>pyō</em> im <em>kuji-in</em>."
+		},
+		{
+			"title": "daimyō",
+			"sort": "Daimyo",
+			"japanese": "大名",
+			"translation": "Großer Name",
+			"description": "Die aufstrebenden Großgrundbesitzer, die im Sengoku jidai um die Macht in Japan kämpften."
+		},
+		{
+			"title": "daisharin",
+			"sort": "Daisharin",
+			"japanese": "大車輪",
+			"translation": "Großes Wagenrad",
+			"description": "Waffe der Ninja aus einer Achse und zwei großen Rädern, die man dem Gegner in die Beine rollte."
+		},
+		{
+			"title": "daishō",
+			"sort": "Daisho",
+			"japanese": "大小",
+			"translation": "Groß und klein",
+			"description": "Das Schwertpaar der Samurai, <em>katana</em> und <em>wakizashi</em>."
+		},
+		{
+			"title": "daitō",
+			"sort": "Daito",
+			"japanese": "大刀",
+			"translation": "Großes Schwert",
+			"description": "Bezeichnung für das Langschwert der Samurai, im Gegensatz zum Kurzschwert."
+		},
+		{
+			"title": "daken taijutsu",
+			"sort": "Daken taijutsu",
+			"japanese": "打拳体術",
+			"translation": "Die Kunst, mit der Faust gegen den Körper zu schlagen",
+			"description": "Kampftechniken aus dem <em>taijutsu</em>: Tritte, Schläge und Blocktechniken. Man unterscheidet <em>koppō jutsu</em> und <em>koshi jutsu</em>."
+		},
+		{
+			"title": "dan",
+			"sort": "Dan",
+			"japanese": "段",
+			"translation": "Rang, Stufe",
+			"description": "Bezeichnung für die Meistergrade."
+		},
+		{
+			"title": "Dao",
+			"sort": "Dao",
+			"chinese": "道",
+			"translation": "Der Weg",
+			"description": "Im Daoismus die höchste Wirklichkeit und Kraft des Universums, der Grund für Sein und Nichtsein. Mit Worten lässt es sich nicht bestimmen."
+		},
+		{
+			"title": "Daodejing",
+			"sort": "Daodejing",
+			"chinese": "道徳経",
+			"description": "Grundtext des Daoismus, der Überlieferung nach von Laozi verfasst."
+		},
+		{
+			"title": "Dengyō Daishi",
+			"sort": "Dengyo Daishi",
+			"japanese": "伝教大師",
+			"description": "Begründer der japanischen Tendai-Sekte und des Klosters Enryakuji, auch Saichō genannt."
+		},
+		{
+			"title": "densho",
+			"sort": "Densho",
+			"japanese": "伝書",
+			"translation": "Überlieferte Schriften",
+			"description": "Geheime Dokumente eines Ryū, in denen seine Techniken und Regeln aufgezeichnet sind."
+		},
+		{
+			"title": "do",
+			"sort": "Do",
+			"japanese": "土",
+			"translation": "Erde, Erdboden"
+		},
+		{
+			"title": "dō",
+			"sort": "Do",
+			"japanese": "道",
+			"translation": "Weg, Pfad, Grundsatz",
+			"description": "Bezeichnung für die asiatische Weltanschauung."
+		},
+		{
+			"title": "dō no hi",
+			"sort": "Do no hi",
+			"japanese": "銅の火",
+			"translation": "Kupferfeuer",
+			"description": "Anderer Name für den Taschenwärmer <em>dōka</em>."
+		},
+		{
+			"title": "dōjō",
+			"sort": "Dojo",
+			"japanese": "道場",
+			"translation": "Trainingshalle"
+		},
+		{
+			"title": "dōka",
+			"sort": "Doka",
+			"japanese": "胴火",
+			"translation": "Körperfeuer",
+			"description": "Taschenwärmer, ein kleiner Ofen, in den der Ninja ein Stück glimmende Kohle legte. Auch <em>dō no hi</em>."
+		},
+		{
+			"title": "dokko-in",
+			"sort": "Dokko-in",
+			"japanese": "独鈷印",
+			"translation": "Zeichen des tibetischen Vajra-Blitzstrahls",
+			"description": "Handzeichen zu <em>rin</em> im <em>kuji-in</em>."
+		},
+		{
+			"title": "doko no kamae",
+			"sort": "Doko no kamae",
+			"japanese": "怒虎の構え",
+			"translation": "Wütender Tiger",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "dōkyō",
+			"sort": "Dokyo",
+			"japanese": "道教",
+			"translation": "Daoismus",
+			"description": "Lehre und Religion aus China; die philosophische Strömung heißt im Japanischen genauer <em>dōka</em> (道家). Sie lehrt die Hinwendung zur Natur und das Verständnis des Universums."
+		},
+		{
+			"title": "dosha",
+			"sort": "Dosha",
+			"japanese": "怒者",
+			"translation": "Wütende Person",
+			"description": "Prinzip des <em>gojō goyoku</em>, das die Reizbarkeit eines Menschen ausnutzt."
+		},
+		{
+			"title": "doteki",
+			"sort": "Doteki",
+			"japanese": "動的",
+			"translation": "Dynamisch",
+			"description": "Die Dynamik, die wirksamste Anwendung der Mechanik (<em>kikaigaku</em>). Zu ihr gehören der richtige Einsatz von Energie, Rhythmus und Fluss, Stärke und Beweglichkeit sowie die Fähigkeit, eine Handlung zu fühlen und sich ihr anzupassen."
+		},
+		{
+			"title": "doton",
+			"sort": "Doton",
+			"japanese": "土遁",
+			"description": "Flucht mit Hilfe der Erde, eine der fünf Methoden des <em>gotonpō</em>."
+		},
+		{
+			"title": "doton jutsu",
+			"sort": "Doton jutsu",
+			"japanese": "土遁術",
+			"translation": "Die Kunst, mit Erde zu fliehen",
+			"description": "Fluchttechnik aus dem <em>gotonpō</em>, die die Erde als Fluchtmittel nutzt."
+		},
+		{
+			"title": "ebira",
+			"sort": "Ebira",
+			"japanese": "箙",
+			"translation": "Pfeilköcher"
+		},
+		{
+			"title": "Edo",
+			"sort": "Edo",
+			"japanese": "江戸",
+			"description": "Früherer Name der japanischen Hauptstadt, heute Tōkyō."
+		},
+		{
+			"title": "eiku",
+			"sort": "Eiku",
+			"japanese": "櫂",
+			"description": "Bootsruder, das im <em>kobudō</em> Okinawas als Waffe dient. Ein als Fischer getarnter Ninja konnte sich damit gut verteidigen."
+		},
+		{
+			"title": "eki",
+			"sort": "Eki",
+			"japanese": "易",
+			"translation": "Orakel",
+			"description": "Wird mit Münzen oder Schafgarbenstängeln befragt, wie im chinesischen <cite>I Ging</cite>."
+		},
+		{
+			"title": "endoku ken",
+			"sort": "Endoku ken",
+			"japanese": "煙毒剣",
+			"translation": "Rauch-Gift-Klinge",
+			"description": "Wurfstern (<em>shuriken</em>), den man anzünden konnte und der dann giftige Gase verbreitete."
+		},
+		{
+			"title": "engetsu",
+			"sort": "Engetsu",
+			"japanese": "偃月",
+			"translation": "Halbmond",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "ennyū no jutsu",
+			"sort": "Ennyu no jutsu",
+			"translation": "Scheinangriff",
+			"description": "Ein Trupp greift zum Schein an. Während die Verteidiger zur Abwehr eilen, gelangt der Ninja ungehindert in die Festung."
+		},
+		{
+			"title": "Enryakuji",
+			"sort": "Enryakuji",
+			"japanese": "延暦寺",
+			"description": "Hauptkloster der Tendai-Sekte auf dem Berg Hiei bei Kyōto, auf Veranlassung des Tennō Kammu als Zentrum des Tendai-Buddhismus gegründet. In seiner Blütezeit sollen bis zu 40.000 Mönche und <em>sōhei</em> in 3.000 Tempeln auf dem Berg gelebt haben. Im September 1571 zerstörte Oda Nobunaga das Kloster auf seinem Feldzug gegen die Ikkō ikki, die Ninja und die <em>sōhei</em> und tötete die meisten Bewohner."
+		},
+		{
+			"title": "fū",
+			"sort": "Fu",
+			"japanese": "風",
+			"translation": "Wind"
+		},
+		{
+			"title": "fū no kata",
+			"sort": "Fu no kata",
+			"japanese": "風の型",
+			"translation": "Form des Windes"
+		},
+		{
+			"title": "fudō ken",
+			"sort": "Fudo ken",
+			"japanese": "不動拳",
+			"translation": "Unbewegte Faust",
+			"description": "Fausthaltung, die es in vielen Kampfkünsten gibt: die <q>normale</q> Faust."
+		},
+		{
+			"title": "fudōmyō",
+			"sort": "Fudomyo",
+			"japanese": "不動明王",
+			"description": "Fudō Myōō, der furchterregende mythische Beschützer des Willens, der Gesetze und der Unversehrtheit des Universums. Beim <em>kuji-kiri</em> ahmt der Ninja sein flammendes Schwert nach."
+		},
+		{
+			"title": "fudōshin",
+			"sort": "Fudoshin",
+			"japanese": "不動心",
+			"translation": "Unbewegtes Herz",
+			"description": "Ein ruhiger, unerschütterlicher Geist."
+		},
+		{
+			"title": "fudōza no kamae",
+			"sort": "Fudoza no kamae",
+			"japanese": "不動座の構え",
+			"translation": "Unbewegter Sitz",
+			"description": "Sitzhaltung in Japan und zugleich Stellung (<em>kamae</em>) im Ninjutsu."
+		},
+		{
+			"title": "Fujibayashi Nagato",
+			"sort": "Fujibayashi Nagato",
+			"japanese": "藤林長門",
+			"description": "Berühmter <em>jōnin</em> aus der Region Iga. Nach einer verbreiteten Theorie nur eine Scheinidentität von Momochi Sandayū."
+		},
+		{
+			"title": "Fujita Seiko",
+			"sort": "Fujita Seiko",
+			"japanese": "藤田西湖",
+			"description": "Großmeister des Ninjutsu, der sich als 14. und letztes Oberhaupt des Kōga-Ryū bezeichnete; einen Nachfolger ernannte er nicht. Er starb am 4. Januar 1966 in Tōkyō."
+		},
+		{
+			"title": "fukibari",
+			"sort": "Fukibari",
+			"japanese": "吹き針",
+			"translation": "Nadeln blasen",
+			"description": "Kampftechnik der Ninja, bei der sie dem Angreifer kleine Metallnadeln (<em>fukumi bari</em>) ins Gesicht bliesen."
+		},
+		{
+			"title": "fukiya",
+			"sort": "Fukiya",
+			"japanese": "吹き矢",
+			"translation": "Blasrohr und Pfeil",
+			"description": "Die Geschosse waren meist vergiftet."
+		},
+		{
+			"title": "fukumi bari",
+			"sort": "Fukumi bari",
+			"japanese": "含み針",
+			"translation": "Kleine Pfeile",
+			"description": "Kleine Metallnadeln, die beim <em>fukibari</em> geblasen wurden."
+		},
+		{
+			"title": "fukuro gaeshi jutsu",
+			"sort": "Fukuro gaeshi jutsu",
+			"japanese": "袋返術",
+			"translation": "Der umgedrehte Beutel",
+			"description": "Taktik des <em>tōiri</em>. Nach einem scheinbaren Streit wechselt der Ninja zu einem neuen Herrn und dient ihm eine Zeit lang. In der entscheidenden Phase des Krieges führt er seinen Auftrag aus und kehrt zu seinem alten Herrn zurück."
+		},
+		{
+			"title": "fukuro gaeshi zen jutsu",
+			"sort": "Fukuro gaeshi zen jutsu",
+			"japanese": "袋翻全術",
+			"description": "Taktik des <em>chikairi</em>. Der Ninja fängt Nachrichten zwischen dem feindlichen Fürsten und seinen Verbündeten ab, fälscht sie und schickt sie weiter, um Misstrauen zwischen ihnen zu säen."
+		},
+		{
+			"title": "Fūma Kotarō",
+			"sort": "Fuma Kotaro",
+			"japanese": "風魔小太郎",
+			"description": "Berühmter Ninja im Rang eines <em>jōnin</em> mit der Überlieferung nach 200 Gefolgsleuten, ein Spezialist für den Guerillakampf."
+		},
+		{
+			"title": "furyō",
+			"sort": "Furyo",
+			"japanese": "不良",
+			"translation": "Straffällige junge Leute",
+			"description": "Taugenichtse, junge Schläger."
+		},
+		{
+			"title": "futokoro teppō",
+			"sort": "Futokoro teppo",
+			"japanese": "懐鉄砲",
+			"translation": "Taschenpistole",
+			"description": "Pistole aus Bronze, die sich leicht verbergen ließ und bei den Ninja beliebt war."
+		},
+		{
+			"title": "gandō",
+			"sort": "Gando",
+			"japanese": "龕灯",
+			"translation": "Buddhistisches Altarlicht",
+			"description": "Lampe, deren Lichtquelle immer senkrecht zum Boden steht."
+		},
+		{
+			"title": "gankō",
+			"sort": "Ganko",
+			"japanese": "雁行",
+			"translation": "Flug der Wildgänse",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "gasshō no kamae",
+			"sort": "Gassho no kamae",
+			"japanese": "合掌の構え",
+			"translation": "Gebetsstellung",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu, ein Gruß mit aneinandergelegten Handflächen."
+		},
+		{
+			"title": "gebaku ken-in",
+			"sort": "Gebaku ken-in",
+			"japanese": "外縛拳印",
+			"translation": "Zeichen der außen verbundenen Faust",
+			"description": "Handzeichen zu <em>kai</em> im <em>kuji-in</em>, dasselbe Zeichen wie beim Beten."
+		},
+		{
+			"title": "gedan no kamae",
+			"sort": "Gedan no kamae",
+			"japanese": "下段の構え",
+			"description": "Tiefe Stellung (<em>kamae</em>)."
+		},
+		{
+			"title": "geinyū jutsu",
+			"sort": "Geinyu jutsu",
+			"japanese": "迎入術",
+			"description": "Taktik des <em>chikairi</em>. Der Ninja dringt ins feindliche Gebiet ein und verbreitet Verwirrung, Angst und Schrecken, etwa mit falschen Gerüchten, Brandstiftung und Sabotage."
+		},
+		{
+			"title": "gekkenjutsu",
+			"sort": "Gekkenjutsu",
+			"japanese": "撃剣術",
+			"description": "Schwertkampf. Im <em>bugei jūhappan</em> zusammen mit <em>kenjutsu</em> genannt."
+		},
+		{
+			"title": "genin",
+			"sort": "Genin",
+			"japanese": "下忍",
+			"translation": "Unterer Ninja",
+			"description": "Unterster Rang der Ninja. Der ausführende Agent erhielt seine Befehle vom <em>chūnin</em> und kannte den <em>jōnin</em> meist nicht. Seine Stärken lagen im Nahkampf, im Verbergen, in der Infiltration und in der Sabotage."
+		},
+		{
+			"title": "Genji",
+			"sort": "Genji",
+			"japanese": "源氏",
+			"description": "Anderer Name für die Minamoto."
+		},
+		{
+			"title": "genjutsu",
+			"sort": "Genjutsu",
+			"japanese": "幻術",
+			"translation": "Kunst der Illusion"
+		},
+		{
+			"title": "genmai",
+			"sort": "Genmai",
+			"japanese": "玄米",
+			"description": "Unpolierter Reis."
+		},
+		{
+			"title": "Genpei kassen",
+			"sort": "Genpei kassen",
+			"japanese": "源平合戦",
+			"description": "Der Genpei-Krieg (1180–1185) zwischen den Taira und den Minamoto."
+		},
+		{
+			"title": "geri",
+			"sort": "Geri",
+			"japanese": "蹴り",
+			"translation": "Fußtritt",
+			"description": "Auch <em>keri</em>."
+		},
+		{
+			"title": "geta",
+			"sort": "Geta",
+			"japanese": "下駄",
+			"description": "Holzsandalen mit hohen Stegen und einem Kreuz- oder Zehenriemen."
+		},
+		{
+			"title": "gi",
+			"sort": "Gi",
+			"japanese": "着",
+			"translation": "Kleidung, Outfit, Uniform",
+			"description": "Trainingskleidung."
+		},
+		{
+			"title": "Gikan-Ryū",
+			"sort": "Gikan-Ryu",
+			"japanese": "義鑑流",
+			"translation": "Schule des Lernens von Gerechtigkeit",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "gisō jutsu",
+			"sort": "Giso jutsu",
+			"japanese": "擬装術",
+			"translation": "Die Kunst des Imitierens und Verkleidens",
+			"description": "Die Kunst, sich in andere Menschen hineinzuversetzen und eine neue Identität anzunehmen. Teil des <em>onshin jutsu</em>."
+		},
+		{
+			"title": "godai",
+			"sort": "Godai",
+			"japanese": "五大",
+			"translation": "Die großen Fünf",
+			"description": "Die fünf Elemente des Universums im <em>mikkyō</em>: Erde (<em>chi</em>), Wasser (<em>sui</em>), Feuer (<em>ka</em>), Wind (<em>fū</em>) und Leere (<em>kū</em>)."
+		},
+		{
+			"title": "godan",
+			"sort": "Godan",
+			"japanese": "五段",
+			"translation": "Fünfter Dan",
+			"description": "Im Bujinkan nähert sich der Lehrer beim Test zum <em>godan</em> dem Schüler lautlos mit einem Schwert. Der Schüler muss die Gefahr spüren und dem Streich ausweichen."
+		},
+		{
+			"title": "gogyō",
+			"sort": "Gogyo",
+			"japanese": "五行",
+			"translation": "Theorie der fünf Elemente",
+			"description": "Aus dem chinesischen Daoismus übernommene Lehre von der Natur: Wasser (<em>sui</em>), Holz (<em>moku</em>), Feuer (<em>ka</em>), Erde (<em>do</em>) und Metall (<em>kin</em>)."
+		},
+		{
+			"title": "gogyō no kata",
+			"sort": "Gogyo no kata",
+			"japanese": "五行の型",
+			"translation": "Form der fünf Bewegungen"
+		},
+		{
+			"title": "gogyō setsu",
+			"sort": "Gogyo setsu",
+			"japanese": "五行説",
+			"translation": "Theorie der fünf Elemente",
+			"description": "Kurz <em>gogyō</em>."
+		},
+		{
+			"title": "gojō goyoku",
+			"sort": "Gojo goyoku",
+			"japanese": "五情五欲",
+			"description": "Strategie der Ninja, Menschen über ihre Charakterzüge zu lenken. Ihre fünf Prinzipien sind <em>aisha</em>, <em>dosha</em>, <em>kisha</em>, <em>kyōsha</em> und <em>rakusha</em>."
+		},
+		{
+			"title": "goku no kamae",
+			"sort": "Goku no kamae",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "Gorin no sho",
+			"sort": "Gorin no sho",
+			"japanese": "五輪の書",
+			"translation": "Das Buch der fünf Ringe",
+			"description": "Werk von Miyamoto Musashi über Schwertkampf und Strategie."
+		},
+		{
+			"title": "gorintō",
+			"sort": "Gorinto",
+			"japanese": "五輪塔",
+			"description": "Steinmonument aus fünf übereinandergesetzten Teilen – Würfel, Kugel, Pyramide, Halbmond und Juwel."
+		},
+		{
+			"title": "goshin no kata",
+			"sort": "Goshin no kata",
+			"japanese": "梧心の型",
+			"translation": "Form des Phönixbaum-Herzens"
+		},
+		{
+			"title": "goton jutsu",
+			"sort": "Goton jutsu",
+			"japanese": "五遁術",
+			"translation": "Kunst der fünf Fluchtwege",
+			"description": "Anderer Name für <em>gotonpō</em>."
+		},
+		{
+			"title": "gotonpō",
+			"sort": "Gotonpo",
+			"japanese": "五遁法",
+			"translation": "Die fünf Methoden der Flucht",
+			"description": "Prinzip der Ninja, mit Hilfe der fünf Elemente des <em>gogyō</em> zu entkommen."
+		},
+		{
+			"title": "gu",
+			"sort": "Gu",
+			"japanese": "具",
+			"translation": "Werkzeug"
+		},
+		{
+			"title": "gunryaku heihō",
+			"sort": "Gunryaku heiho",
+			"description": "Militärische Strategie. Eines der 18 Gebiete des <em>ninja jūhakkei</em>."
+		},
+		{
+			"title": "gyaku nagare",
+			"sort": "Gyaku nagare",
+			"japanese": "逆流れ",
+			"translation": "Umgekehrtes Fließen",
+			"description": "Fallübung (<em>ukemi</em>) aus <em>ichimonji no kamae</em>."
+		},
+		{
+			"title": "gyaku nage",
+			"sort": "Gyaku nage",
+			"japanese": "逆投げ",
+			"translation": "Umgekehrter Wurf",
+			"description": "Hebelwurf."
+		},
+		{
+			"title": "gyōja no kamae",
+			"sort": "Gyoja no kamae",
+			"japanese": "行者の構え",
+			"translation": "Stellung des Asketen",
+			"description": "Stellung (<em>kamae</em>), in der ein langer Stab aufrecht neben dem Körper gehalten wird wie ein Wanderstock."
+		},
+		{
+			"title": "gyōkaku ken",
+			"sort": "Gyokaku ken",
+			"translation": "Vereinte Hörner",
+			"description": "Zeigefinger, Mittelfinger und Ringfinger bilden einen Dreizack, dessen Spitzen in weiche Körperstellen wie den Hals stechen."
+		},
+		{
+			"title": "Gyokko-Ryū",
+			"sort": "Gyokko-Ryu",
+			"japanese": "玉虎流",
+			"translation": "Schule des juwelenbesetzten Tigers",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "gyokuro",
+			"sort": "Gyokuro",
+			"japanese": "玉露",
+			"description": "Grüntee hoher Qualität. Ninja sollen daraus ein Gift gemacht haben, indem sie den Tee 30 bis 40 Tage in der Erde vergruben und dann mit Sojabohnenpaste vermischten. Ein Kranker starb binnen weniger Tage daran, ein Gesunder spätestens nach 70 Tagen."
+		},
+		{
+			"title": "Gyokushin-Ryū",
+			"sort": "Gyokushin-Ryu",
+			"japanese": "玉心流",
+			"translation": "Die Schule des juwelenbesetzten Herzens",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "gyorin",
+			"sort": "Gyorin",
+			"japanese": "魚鱗",
+			"translation": "Fischschuppe",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "ha jutsu",
+			"sort": "Ha jutsu",
+			"japanese": "破術",
+			"translation": "Die Kunst des Zerbrechens",
+			"description": "Befreiung aus Haltegriffen."
+		},
+		{
+			"title": "Hagakure",
+			"sort": "Hagakure",
+			"japanese": "葉隠",
+			"translation": "Verborgene Blätter",
+			"description": "Buch des Samurai Yamamoto Tsunetomo über die philosophischen Seiten des <em>bushidō</em>."
+		},
+		{
+			"title": "hakama",
+			"sort": "Hakama",
+			"japanese": "袴",
+			"description": "Traditioneller Hosenrock."
+		},
+		{
+			"title": "han",
+			"sort": "Han",
+			"japanese": "藩",
+			"translation": "Feudales Gebiet, Lehen, Provinz",
+			"description": "Das Lehen eines Daimyō, eingedeutscht <q>Daimyat</q>."
+		},
+		{
+			"title": "hanbō",
+			"sort": "Hanbo",
+			"japanese": "半棒",
+			"translation": "Halber Stock",
+			"description": "Der eigentliche Name ist <em>san shaku bō</em>."
+		},
+		{
+			"title": "hanbōjutsu",
+			"sort": "Hanbojutsu",
+			"japanese": "半棒術",
+			"description": "Kampf mit dem kurzen Stock (<em>hanbō</em>)."
+		},
+		{
+			"title": "hankyū",
+			"sort": "Hankyu",
+			"japanese": "半弓",
+			"translation": "Halber Bogen",
+			"description": "Kurzbogen der Ninja, manchmal zusammenklappbar und leicht mitzuführen."
+		},
+		{
+			"title": "hanmi no kamae",
+			"sort": "Hanmi no kamae",
+			"japanese": "半身の構え",
+			"translation": "Halber Körper",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "happa ken",
+			"sort": "Happa ken",
+			"japanese": "八葉拳",
+			"translation": "Achtblättrige Faust"
+		},
+		{
+			"title": "happō hiken",
+			"sort": "Happo hiken",
+			"japanese": "八法秘剣",
+			"translation": "Acht Methoden und geheime Schwerter",
+			"description": "Die acht Methoden (<em>happō</em>) und die geheimen Schwerttechniken (<em>hiken</em>) des Kukishinden-Ryū."
+		},
+		{
+			"title": "happō hikenjutsu",
+			"sort": "Happo hikenjutsu",
+			"japanese": "八法秘剣術",
+			"description": "Siehe <em>happō hiken</em>."
+		},
+		{
+			"title": "hara",
+			"sort": "Hara",
+			"japanese": "腹",
+			"translation": "Bauch",
+			"description": "Der gesamte Bereich zwischen Magen und Unterleib. Er gilt als Zentrum der geistigen und körperlichen Kraft."
+		},
+		{
+			"title": "hasami bune",
+			"sort": "Hasami bune",
+			"description": "Zusammenklappbares Boot der Ninja, mit dem sie ihre Ausrüstung über das Wasser brachten. Das <cite>Bansenshūkai</cite> beschreibt ein solches Faltboot als <em>hasamibako bune</em> (挟箱船): Seine Bretter waren mit Scharnieren verbunden, zusammengelegt passte es in eine Tragekiste. Auch <em>tatami bune</em>."
+		},
+		{
+			"title": "hashigo",
+			"sort": "Hashigo",
+			"japanese": "梯子",
+			"translation": "Leiter",
+			"description": "Meist aus Schilf oder Bambus. In Zusammensetzungen <em>bashigo</em>, etwa in <em>kumo bashigo</em>."
+		},
+		{
+			"title": "hashigo yari",
+			"sort": "Hashigo yari",
+			"japanese": "梯子槍",
+			"translation": "Leiterspeer",
+			"description": "Lange Stange mit paarweise abstehenden Sprossen und einem Eisenhaken an der Spitze, die als Leiter diente."
+		},
+		{
+			"title": "Hatsumi Masaaki",
+			"sort": "Hatsumi Masaaki",
+			"japanese": "初見良昭",
+			"description": "Geboren als Hatsumi Yoshiaki. Gründer des Bujinkan Budō Dōjō, <em>sōke</em> der neun Ryū des Bujinkan und Schüler von Takamatsu Toshitsugu."
+		},
+		{
+			"title": "Hattori Hanzō",
+			"sort": "Hattori Hanzo",
+			"japanese": "服部半蔵",
+			"description": "Berühmter <em>jōnin</em> aus der Region Iga und zugleich Samurai im Dienst von Tokugawa Ieyasu."
+		},
+		{
+			"title": "Hayes, Stephen K.",
+			"sort": "Hayes, Stephen K.",
+			"description": "Lehrer des Ninjutsu und Schüler von Hatsumi Masaaki. Als erster Nicht-Japaner wurde er <em>shidōshi</em>. In den USA gründete er die Schule Tōshindō."
+		},
+		{
+			"title": "heihō",
+			"sort": "Heiho",
+			"japanese": "兵法",
+			"translation": "Methode des Kriegers",
+			"description": "Umfasst Kampfmethoden ebenso wie Kampfstrategien (<em>bōryaku</em>)."
+		},
+		{
+			"title": "Heike",
+			"sort": "Heike",
+			"japanese": "平家",
+			"description": "Anderer Name für die Taira."
+		},
+		{
+			"title": "heipo",
+			"sort": "Heipo",
+			"japanese": "平歩",
+			"translation": "Weg des Salamanders",
+			"description": "Kriechmethode der Ninja."
+		},
+		{
+			"title": "hensō jutsu",
+			"sort": "Henso jutsu",
+			"japanese": "変装術",
+			"translation": "Die Kunst des Verkleidens",
+			"description": "Die Kunst der Ninja, sich zu verkleiden. Teil des <em>onshin jutsu</em>."
+		},
+		{
+			"title": "hichō no kamae",
+			"sort": "Hicho no kamae",
+			"japanese": "飛鳥の構え",
+			"translation": "Stellung des fliegenden Vogels",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "hidari",
+			"sort": "Hidari",
+			"japanese": "左",
+			"translation": "Links"
+		},
+		{
+			"title": "hiken",
+			"sort": "Hiken",
+			"japanese": "秘剣",
+			"translation": "Geheime Schwerttechniken"
+		},
+		{
+			"title": "hira ichimonji no kamae",
+			"sort": "Hira ichimonji no kamae",
+			"japanese": "平一文字の構え",
+			"description": "Ausbalancierte Stellung (<em>kamae</em>), aus der der Körper ausweichen kann. Das Gewicht liegt gleichmäßig auf beiden Füßen, beide Arme sind zur Seite ausgestreckt, um zu fegen, zu greifen oder Schläge abzufangen."
+		},
+		{
+			"title": "hira no kamae",
+			"sort": "Hira no kamae",
+			"japanese": "平の構え",
+			"translation": "Flache Stellung",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "hira shuriken",
+			"sort": "Hira shuriken",
+			"japanese": "平手裏剣",
+			"description": "Flache Wurfsterne (<em>shuriken</em>) in verschiedenen Größen und Formen, mit unterschiedlich vielen Zacken."
+		},
+		{
+			"title": "hiragana",
+			"sort": "Hiragana",
+			"japanese": "平仮名",
+			"description": "Japanische Silbenschrift für rein japanische Wörter. Der Überlieferung nach erfand sie Kōbō Daishi."
+		},
+		{
+			"title": "hiraki ashi",
+			"sort": "Hiraki ashi",
+			"japanese": "開き足",
+			"description": "Seitliches Gleiten mit beiden Füßen."
+		},
+		{
+			"title": "hishi",
+			"sort": "Hishi",
+			"japanese": "菱",
+			"translation": "Trapa japonica, Wasserkastanie, Krähenfuß",
+			"description": "Getrocknete Wasserkastanien, die denselben Zweck erfüllten wie ein <em>tetsubishi</em>."
+		},
+		{
+			"title": "hisoken",
+			"sort": "Hisoken",
+			"translation": "Verborgener Speer",
+			"description": "Anderer Name für <em>shitō ken</em>, bei dem die Daumenspitze in halbweiche Ziele sticht."
+		},
+		{
+			"title": "hito washi",
+			"sort": "Hito washi",
+			"japanese": "人鷲",
+			"translation": "Menschenadler",
+			"description": "Fluggerät der Ninja. Auch <em>yamidoko</em>."
+		},
+		{
+			"title": "hobakujutsu",
+			"sort": "Hobakujutsu",
+			"japanese": "捕縛術",
+			"description": "Die Kunst des Fesselns. Im <em>bugei jūhappan</em> zusammen mit <em>hōjō jutsu</em> genannt."
+		},
+		{
+			"title": "hōen",
+			"sort": "Hoen",
+			"japanese": "方円",
+			"translation": "Quadrat und Kreis",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "Hōjō",
+			"sort": "Hojo",
+			"japanese": "北条",
+			"description": "Clan aufgestiegener Samurai, im Sengoku jidai eine der Familien, die um die Macht kämpften."
+		},
+		{
+			"title": "hōjō jutsu",
+			"sort": "Hojo jutsu",
+			"japanese": "捕縄術",
+			"translation": "Die Kunst des Fesselns"
+		},
+		{
+			"title": "hojutsu",
+			"sort": "Hojutsu",
+			"description": "Die Methode, zwischen Wahrheit und Täuschung zu wechseln, die Hatsumi Masaaki mit dem <em>kyojitsu tenkan hō</em> gleichsetzt. Im <em>bugei jūhappan</em> steht sie für Illusionen."
+		},
+		{
+			"title": "hokamuri",
+			"sort": "Hokamuri",
+			"japanese": "頬被り",
+			"description": "Um Kopf und Wangen gebundenes Tuch. Anderer Name für das <em>tenugui</em>."
+		},
+		{
+			"title": "hōkashi",
+			"sort": "Hokashi",
+			"description": "Musiker. Eine der Verkleidungen der Ninja im <em>shichi hō de</em>."
+		},
+		{
+			"title": "hōken jūroppō",
+			"sort": "Hoken juroppo",
+			"japanese": "宝拳十六法",
+			"translation": "Sechzehn Methoden der kostbaren Faust"
+		},
+		{
+			"title": "Hokkaidō",
+			"sort": "Hokkaido",
+			"japanese": "北海道",
+			"description": "Nördlichste Insel Japans, Hauptstadt Sapporo."
+		},
+		{
+			"title": "hokō jutsu",
+			"sort": "Hoko jutsu",
+			"japanese": "歩行術",
+			"translation": "Die Kunst des richtigen Gehens"
+		},
+		{
+			"title": "hōko no kamae",
+			"sort": "Hoko no kamae",
+			"japanese": "抱圍の構え",
+			"translation": "Umarmende Stellung",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "honbu",
+			"sort": "Honbu",
+			"japanese": "本部",
+			"translation": "Hauptquartier"
+		},
+		{
+			"title": "hōshi",
+			"sort": "Hoshi",
+			"japanese": "鋒矢",
+			"translation": "Pfeilspitze",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "hotarubi jutsu",
+			"sort": "Hotarubi jutsu",
+			"japanese": "蛍火術",
+			"translation": "Das Leuchten eines Glühwürmchens",
+			"description": "Taktik des <em>tōiri</em>. Man schickt einen Boten mit einer gefälschten Nachricht durch feindliches Gebiet und lässt ihn vom Feind abfangen."
+		},
+		{
+			"title": "hyōjō hokō",
+			"sort": "Hyojo hoko",
+			"japanese": "氷上歩行",
+			"translation": "Gehen auf dem Eis"
+		},
+		{
+			"title": "iai jutsu",
+			"sort": "Iai jutsu",
+			"japanese": "居合術",
+			"translation": "Schnelles Schwertziehen",
+			"description": "Kunst der Samurai, einen Gegner möglichst schon mit dem ersten Streich zu töten."
+		},
+		{
+			"title": "iaidō",
+			"sort": "Iaido",
+			"japanese": "居合道",
+			"description": "Aus dem <em>iai jutsu</em> entwickelte Sportart."
+		},
+		{
+			"title": "iainuki",
+			"sort": "Iainuki",
+			"japanese": "居合抜き",
+			"translation": "Schnelles Schwertziehen",
+			"description": "Das schnelle Ziehen des Schwertes, auf das der Shinden-Fudō-Ryū spezialisiert ist."
+		},
+		{
+			"title": "ichi no kamae",
+			"sort": "Ichi no kamae",
+			"japanese": "一の構え",
+			"translation": "Stellung der Eins",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "ichimonji no kamae",
+			"sort": "Ichimonji no kamae",
+			"japanese": "一文字の構え",
+			"translation": "Stellung des geraden Strichs",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "Iga",
+			"sort": "Iga",
+			"japanese": "伊賀",
+			"description": "Japanische Provinz nahe Kyōto, in der die Ninja besonders aktiv waren."
+		},
+		{
+			"title": "Iga Ueno",
+			"sort": "Iga Ueno",
+			"japanese": "伊賀上野",
+			"description": "Stadt in der Region Iga, einst das Zentrum der Ninja. Museen und Feste erinnern heute an sie."
+		},
+		{
+			"title": "Iga Ueno-jō",
+			"sort": "Iga Ueno-jo",
+			"japanese": "伊賀上野城",
+			"description": "Burg Iga Ueno."
+		},
+		{
+			"title": "iga dama",
+			"sort": "Iga dama",
+			"japanese": "伊賀玉",
+			"description": "Wegdistel, siehe <em>tetsubishi</em>."
+		},
+		{
+			"title": "Iga-Ryū",
+			"sort": "Iga-Ryu",
+			"japanese": "伊賀流",
+			"description": "Ninjutsu-Stil, der heutige Kumogakure-Ryū."
+		},
+		{
+			"title": "Igasaki Dōjun",
+			"sort": "Igasaki Dojun",
+			"japanese": "伊賀崎道順",
+			"description": "Berühmter Ninja aus der Provinz Iga, der mit einer verblüffenden List in eine feindliche Burg gelangte."
+		},
+		{
+			"title": "ikki",
+			"sort": "Ikki",
+			"japanese": "一揆",
+			"translation": "Aufstand"
+		},
+		{
+			"title": "ikkō ikki",
+			"sort": "Ikko ikki",
+			"japanese": "一向一揆",
+			"translation": "Aufstand der Jōdo-Shinshū-Buddhisten",
+			"description": "Aufstände und Bünde von Anhängern der buddhistischen Jōdo-Shinshū-Schule im 15. und 16. Jahrhundert."
+		},
+		{
+			"title": "in",
+			"sort": "In",
+			"japanese": "陰",
+			"translation": "Schatten, negativ, verborgen"
+		},
+		{
+			"title": "in shin ton kei",
+			"sort": "In shin ton kei",
+			"description": "Grundsatz des Ninjutsu, mit geringstem Aufwand die größte Wirkung zu erzielen und den natürlichen Lauf der Dinge so wenig wie möglich zu verändern."
+		},
+		{
+			"title": "innin",
+			"sort": "Innin",
+			"japanese": "陰忍",
+			"translation": "Verborgenes Eindringen",
+			"description": "Titel des fünften, sechsten und siebten Bandes des <cite>Bansenshūkai</cite>. Sie behandeln das <em>in</em>, die dunkle Seite des Ninja-Wissens, mit List, Täuschung und Überraschungsangriffen."
+		},
+		{
+			"title": "inpō",
+			"sort": "Inpo",
+			"japanese": "隠法",
+			"description": "Die Kunst, sich zu verbergen und zu tarnen."
+		},
+		{
+			"title": "inrō",
+			"sort": "Inro",
+			"japanese": "印籠",
+			"translation": "Reiseapotheke"
+		},
+		{
+			"title": "inton",
+			"sort": "Inton",
+			"japanese": "隠遁",
+			"description": "Anderer Name für <em>onshin jutsu</em>, die Kunst, sich zu verstecken und zu tarnen."
+		},
+		{
+			"title": "inton jutsu",
+			"sort": "Inton jutsu",
+			"japanese": "隠遁術",
+			"translation": "Die Kunst der Ninja, zu entkommen und sich zu verstecken"
+		},
+		{
+			"title": "in’yō",
+			"sort": "In’yo",
+			"japanese": "陰陽",
+			"translation": "Kosmische duale Kräfte, Yin und Yang, Sonne und Mond",
+			"description": "Die japanische Entsprechung zu Yin und Yang, dem daoistischen Symbol der Dualität."
+		},
+		{
+			"title": "ippon sugi nobori",
+			"sort": "Ippon sugi nobori",
+			"japanese": "一本杉登り",
+			"translation": "Eine Art, eine Zeder hinaufzuklettern",
+			"description": "Gerät, um an einem Baum hinaufzuklettern: ein Eisenstück mit Haken, an dem zwei Seile mit Griffen befestigt sind."
+		},
+		{
+			"title": "Ishikawa Goemon",
+			"sort": "Ishikawa Goemon",
+			"japanese": "石川五右衛門",
+			"description": "Berühmter Dieb, der der Legende nach Ninja war und seine Kunst zum Stehlen benutzte, eine Art japanischer <q>Robin Hood</q>."
+		},
+		{
+			"title": "ito",
+			"sort": "Ito",
+			"japanese": "意図",
+			"translation": "Absicht"
+		},
+		{
+			"title": "ja",
+			"sort": "Ja",
+			"japanese": "者",
+			"translation": "Person"
+		},
+		{
+			"title": "jari bako",
+			"sort": "Jari bako",
+			"japanese": "砂利箱",
+			"translation": "Kieskasten",
+			"description": "Mit Reis, Sand oder Kies gefüllte Gefäße, mit denen man die Hände abhärtet. Auch <em>kanshu</em>."
+		},
+		{
+			"title": "ji",
+			"sort": "Ji",
+			"japanese": "侍",
+			"description": "Andere Bezeichnung für Samurai."
+		},
+		{
+			"title": "jihi no kokoro",
+			"sort": "Jihi no kokoro",
+			"japanese": "慈悲の心",
+			"translation": "Gütiges Herz",
+			"description": "Zeichen der Erleuchtung im <em>ninpō</em>, stärker als die Liebe selbst. Es entsteht, indem man immer wieder die Grenze zwischen Leben und Tod beschreitet."
+		},
+		{
+			"title": "jikatabi",
+			"sort": "Jikatabi",
+			"japanese": "地下足袋",
+			"description": "Schuhe der Ninja mit abgetrennter großer Zehe. Sie eigneten sich besonders zum lautlosen Laufen und Klettern."
+		},
+		{
+			"title": "jin",
+			"sort": "Jin",
+			"japanese": "人",
+			"translation": "Person"
+		},
+		{
+			"title": "Jin ryaku no maki",
+			"sort": "Jin ryaku no maki",
+			"japanese": "人略の巻",
+			"translation": "Schriftrolle der Strategien des Menschen",
+			"description": "Buch über die Strategien des Menschen, Teil einer Reihe mit <cite>Ten ryaku no maki</cite> und <cite>Chi ryaku no maki</cite>."
+		},
+		{
+			"title": "jirai",
+			"sort": "Jirai",
+			"japanese": "地雷",
+			"translation": "Landmine"
+		},
+		{
+			"title": "jitte",
+			"sort": "Jitte",
+			"japanese": "十手",
+			"translation": "Zehn Hände",
+			"description": "Handwaffe mit einem Haken, um Schwerthiebe abzufangen. Auch <em>jutte</em>."
+		},
+		{
+			"title": "jō",
+			"sort": "Jo",
+			"japanese": "杖",
+			"translation": "Spazierstock, Wanderstab, Stab",
+			"description": "Der vollständige Name ist <em>yon shaku bō</em>."
+		},
+		{
+			"title": "jōei jutsu",
+			"sort": "Joei jutsu",
+			"japanese": "如影術",
+			"translation": "Wie ein Schatten",
+			"description": "Taktik des <em>tōiri</em>. Kurz vor Ausbruch der Feindseligkeiten geht ein Ninja ins feindliche Gebiet, wo er im allgemeinen Kriegstreiben leicht untertaucht, etwa als angeworbener Arbeiter oder Soldat."
+		},
+		{
+			"title": "jōjutsu",
+			"sort": "Jojutsu",
+			"japanese": "杖術",
+			"description": "Kampf mit dem Wanderstab (<em>jō</em>). Teil des <em>bugei jūhappan</em> und des <em>ninja jūhakkei</em>."
+		},
+		{
+			"title": "jōnin",
+			"sort": "Jonin",
+			"japanese": "上忍",
+			"translation": "Oberer Ninja",
+			"description": "Höchster Rang der Ninja: der Anführer eines Clans, dessen wahre Identität meist nur der <em>chūnin</em> kannte. Er erteilte den <em>genin</em> ihre Aufgaben. Seine Stärken lagen in Politik, Strategie und Philosophie."
+		},
+		{
+			"title": "jū tai jutsu",
+			"sort": "Ju tai jutsu",
+			"japanese": "柔体術",
+			"translation": "Kunst des weichen Körpers",
+			"description": "Greif-, Hebel- und Würgetechniken aus dem <em>taijutsu</em> des Ninjutsu."
+		},
+		{
+			"title": "jūdō",
+			"sort": "Judo",
+			"japanese": "柔道",
+			"translation": "Der sanfte Weg",
+			"description": "Japanische Kampfsportart, die Professor Kanō Jigorō 1882 aus dem <em>jūjutsu</em> entwickelte."
+		},
+		{
+			"title": "jūjutsu",
+			"sort": "Jujutsu",
+			"japanese": "柔術",
+			"translation": "Kunst der Nachgiebigkeit",
+			"description": "Alte japanische Kampfkunst der Samurai."
+		},
+		{
+			"title": "jumon",
+			"sort": "Jumon",
+			"japanese": "呪文",
+			"translation": "Zauberformel",
+			"description": "Das <q>geladene</q> Wort, die japanische Entsprechung des <em>mantra</em>. Es verkörpert den Intellekt."
+		},
+		{
+			"title": "jūmonji no kamae",
+			"sort": "Jumonji no kamae",
+			"japanese": "十文字の構え",
+			"translation": "Stellung des Kreuzes",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "jun nagare",
+			"sort": "Jun nagare",
+			"japanese": "順流れ",
+			"translation": "Vorwärts fließen",
+			"description": "Fallübung (<em>ukemi</em>) aus <em>ichimonji no kamae</em>."
+		},
+		{
+			"title": "jūnantaisō",
+			"sort": "Junantaiso",
+			"japanese": "柔軟体操",
+			"translation": "Beweglichkeitsgymnastik",
+			"description": "Übungen der Ninja für Beweglichkeit und Gelenkigkeit."
+		},
+		{
+			"title": "jutsu",
+			"sort": "Jutsu",
+			"japanese": "術",
+			"translation": "Kunst, Mittel, Technik"
+		},
+		{
+			"title": "jutte",
+			"sort": "Jutte",
+			"japanese": "十手",
+			"translation": "Zehn Hände",
+			"description": "Handwaffe mit einem Haken, um Schwerthiebe abzufangen. Auch <em>jitte</em>."
+		},
+		{
+			"title": "ka",
+			"sort": "Ka",
+			"japanese": "火",
+			"translation": "Feuer"
+		},
+		{
+			"title": "ka jutsu",
+			"sort": "Ka jutsu",
+			"japanese": "火術",
+			"translation": "Feuerkunst",
+			"description": "Der Umgang mit Feuer, Schusswaffen und Sprengstoffen."
+		},
+		{
+			"title": "ka no kata",
+			"sort": "Ka no kata",
+			"japanese": "火の型",
+			"translation": "Form des Feuers"
+		},
+		{
+			"title": "kabuto",
+			"sort": "Kabuto",
+			"japanese": "兜",
+			"translation": "Helm",
+			"description": "Helm der japanischen Rüstung."
+		},
+		{
+			"title": "kagami",
+			"sort": "Kagami",
+			"japanese": "鏡",
+			"translation": "Spiegel"
+		},
+		{
+			"title": "kagi kōhō geri",
+			"sort": "Kagi koho geri",
+			"japanese": "鈎後方蹴り",
+			"translation": "Rückwärtiger Hakentritt"
+		},
+		{
+			"title": "kagi nawa",
+			"sort": "Kagi nawa",
+			"japanese": "鈎縄",
+			"translation": "Hakenseil",
+			"description": "Langes Seil mit einem Haken am Ende."
+		},
+		{
+			"title": "kagi yari",
+			"sort": "Kagi yari",
+			"japanese": "鈎槍",
+			"translation": "Hakenspeer",
+			"description": "Waffe der Ninja, mit der man Schwerthiebe abwehren und auf Bäume klettern konnte. Auch <em>kama yari</em>."
+		},
+		{
+			"title": "kaiki",
+			"sort": "Kaiki",
+			"japanese": "開器",
+			"translation": "Öffnungswerkzeuge",
+			"description": "Titel des Bandes im <cite>Bansenshūkai</cite> über Werkzeuge zum Öffnen von Türen und Schlössern und zum Einbrechen. Als anderer Name für das <em>tenugui</em> ist das Wort nicht belegt."
+		},
+		{
+			"title": "kaiten",
+			"sort": "Kaiten",
+			"japanese": "回転",
+			"translation": "Drehen, Rotieren, Rollen"
+		},
+		{
+			"title": "kaki",
+			"sort": "Kaki",
+			"japanese": "火器",
+			"translation": "Feuerwerkzeuge",
+			"description": "Titel des letzten Bandes des <cite>Bansenshūkai</cite>, mit Rezepturen für Sprengstoffe, Rauchbomben, Arzneien, Betäubungsmittel und Gifte."
+		},
+		{
+			"title": "kakushi kokeshi",
+			"sort": "Kakushi kokeshi",
+			"description": "Puppe mit verborgenem Gewicht, als Waffe benutzt."
+		},
+		{
+			"title": "kakuyoku",
+			"sort": "Kakuyoku",
+			"japanese": "鶴翼",
+			"translation": "Kranichflügel",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "kama",
+			"sort": "Kama",
+			"japanese": "鎌",
+			"translation": "Sichel",
+			"description": "Werkzeug, mit dem man im ganzen asiatischen Raum Korn, Reis oder Zuckerrohr schnitt."
+		},
+		{
+			"title": "kama ikada",
+			"sort": "Kama ikada",
+			"japanese": "蒲筏",
+			"translation": "Binsenfloß",
+			"description": "Floß aus Binsen für eine Person."
+		},
+		{
+			"title": "kama yari",
+			"sort": "Kama yari",
+			"japanese": "鎌槍",
+			"translation": "Hakenspeer",
+			"description": "Waffe der Ninja, mit der man Schwerthiebe abwehren und auf Bäume klettern konnte. Auch <em>kagi yari</em>."
+		},
+		{
+			"title": "kamae",
+			"sort": "Kamae",
+			"japanese": "構え",
+			"translation": "Kampfstellungen"
+		},
+		{
+			"title": "kami gakure no jutsu",
+			"sort": "Kami gakure no jutsu",
+			"japanese": "神隠れの術",
+			"translation": "Die Kunst, sich hinter Gott zu verstecken",
+			"description": "Annäherung an ein Ziel über Umwege. Der Ninja freundet sich mit Verwandten oder Vertrauten einer zu stark bewachten Zielperson an und kommt so in ihre Nähe."
+		},
+		{
+			"title": "kamikaze",
+			"sort": "Kamikaze",
+			"japanese": "神風",
+			"translation": "Götterwind",
+			"description": "Name der zwei Taifune, die die mongolische Streitmacht unter Kublai Khan vernichteten. Im Zweiten Weltkrieg nannte man auch die Piloten Kamikaze, die ihre Flugzeuge als Selbstmordkommando auf alliierte Schiffe und Stützpunkte stürzen mussten."
+		},
+		{
+			"title": "kamiza",
+			"sort": "Kamiza",
+			"japanese": "神座",
+			"translation": "Sitz der Götter",
+			"description": "Der wichtigste Platz im Dōjō, an dem Bilder des Großmeisters hängen und manchmal religiöse Gegenstände stehen."
+		},
+		{
+			"title": "kana",
+			"sort": "Kana",
+			"japanese": "仮名",
+			"description": "Japanische Silbenschriften, Oberbegriff für <em>hiragana</em> und <em>katakana</em>. Im Alltag schreibt man sie gemischt mit chinesischen Zeichen (<em>kanji</em>)."
+		},
+		{
+			"title": "kangeiko",
+			"sort": "Kangeiko",
+			"japanese": "寒稽古",
+			"translation": "Wintertraining"
+		},
+		{
+			"title": "kanji",
+			"sort": "Kanji",
+			"japanese": "漢字",
+			"translation": "Chinesische Schriftzeichen",
+			"description": "Die Japaner übernahmen diese Zeichen, und sie machen heute einen Großteil ihrer Schrift aus."
+		},
+		{
+			"title": "kanjin kaname",
+			"sort": "Kanjin kaname",
+			"japanese": "肝心要",
+			"translation": "Das Wesentliche",
+			"description": "Was erlangt, wer die stoffliche Welt hinter sich lässt und die kosmischen Gesetze erfährt. Die Lehre des Togakure-Ryū setzt es mit <em>shinshin shingan</em> (神心神眼) gleich, <q>dem Geist und den Augen Gottes</q>."
+		},
+		{
+			"title": "kanshu",
+			"sort": "Kanshu",
+			"japanese": "慣手",
+			"description": "Mit Reis, Sand oder Kies gefüllte Gefäße, mit denen man die Hände abhärtet. Auch <em>jari bako</em>."
+		},
+		{
+			"title": "kantō kusha",
+			"sort": "Kanto kusha",
+			"description": "Männlicher Ausbilder einer <em>kunoichi</em>."
+		},
+		{
+			"title": "kanzashi",
+			"sort": "Kanzashi",
+			"japanese": "簪",
+			"translation": "Kunstvolle Haarnadel",
+			"description": "Haarnadel aus Holz oder Metall mit zwei Zinken wie eine Gabel."
+		},
+		{
+			"title": "karate dō",
+			"sort": "Karate do",
+			"japanese": "空手道",
+			"translation": "Weg der leeren Hand",
+			"description": "Kampfsportart, die auf Okinawa entstand, einer Inselgruppe im Süden Japans."
+		},
+		{
+			"title": "kasha",
+			"sort": "Kasha",
+			"japanese": "滑車",
+			"translation": "Rolle",
+			"description": "Rolle zum Abseilen."
+		},
+		{
+			"title": "kasugai",
+			"sort": "Kasugai",
+			"japanese": "鎹",
+			"translation": "Klammer",
+			"description": "Klammer, die die Ninja an Türen klemmten, damit sie sich nicht öffnen ließen."
+		},
+		{
+			"title": "kata",
+			"sort": "Kata",
+			"japanese": "型",
+			"translation": "Form",
+			"description": "Festgelegte Bewegungsform."
+		},
+		{
+			"title": "kata ashi tobi geri",
+			"sort": "Kata ashi tobi geri",
+			"japanese": "片足飛び蹴り",
+			"translation": "Einbeiniger Sprungtritt",
+			"description": "Sprungtritt, bei dem ein Fuß gegen den Gegner stößt und das andere Knie an den Körper gezogen wird."
+		},
+		{
+			"title": "kataga hasami bune",
+			"sort": "Kataga hasami bune",
+			"description": "Kleines Boot."
+		},
+		{
+			"title": "katagatae jutsu",
+			"sort": "Katagatae jutsu",
+			"japanese": "方違術",
+			"description": "Taktik des <em>chikairi</em>. Verlässt der Feind sein Lager, schleicht sich der Ninja hinein, sabotiert wichtige Einrichtungen, versetzt die Wachen in Panik und öffnet seinen Truppen die Tore."
+		},
+		{
+			"title": "katakana",
+			"sort": "Katakana",
+			"japanese": "片仮名",
+			"description": "Japanische Silbenschrift, vor allem für ausländische Ausdrücke, Telegramme und Lautmalereien."
+		},
+		{
+			"title": "katana",
+			"sort": "Katana",
+			"japanese": "刀",
+			"translation": "Schwert",
+			"description": "Langschwert der Samurai mit gekrümmter, einschneidiger Klinge von 61 bis 76 Zentimetern Länge. Bildet mit dem <em>wakizashi</em> das <em>daishō</em>."
+		},
+		{
+			"title": "katana kake",
+			"sort": "Katana kake",
+			"japanese": "刀懸け",
+			"translation": "Schwertständer",
+			"description": "Ablage für das <em>katana</em> im Haus. Das <em>wakizashi</em> legte man nur zum Schlafen oder Baden ab, und selbst dann blieb es in Reichweite."
+		},
+		{
+			"title": "katate",
+			"sort": "Katate",
+			"japanese": "片手",
+			"translation": "Eine Hand",
+			"description": "Einhändig, etwa bei Fallübungen (<em>ukemi</em>)."
+		},
+		{
+			"title": "Katō Danzō",
+			"sort": "Kato Danzo",
+			"japanese": "加藤段蔵",
+			"description": "Berühmter Ninja, der ein Meister der Sprungtechniken gewesen sein soll."
+		},
+		{
+			"title": "katon",
+			"sort": "Katon",
+			"japanese": "火遁",
+			"description": "Flucht mit Hilfe des Feuers, eine der fünf Methoden des <em>gotonpō</em>."
+		},
+		{
+			"title": "katon jutsu",
+			"sort": "Katon jutsu",
+			"japanese": "火遁術",
+			"translation": "Kunst der Flucht mit Feuer",
+			"description": "Fluchttechnik aus dem <em>gotonpō</em>, die das Feuer als Fluchtmittel nutzt."
+		},
+		{
+			"title": "katsura otoko jutsu",
+			"sort": "Katsura otoko jutsu",
+			"japanese": "桂男術",
+			"translation": "Der Mann im Mond",
+			"description": "Taktik des <em>tōiri</em>, nach einem alten chinesischen Märchen. Ein von seinen Kameraden abgeschnittener Ninja im Feindesland lebt von der Hilfe Einheimischer, der <em>chitsu mishi</em>, die ihm Unterkunft geben und für ihn spionieren."
+		},
+		{
+			"title": "kayaku jutsu",
+			"sort": "Kayaku jutsu",
+			"japanese": "火薬術",
+			"translation": "Die Kunst, mit Feuer und Sprengstoffen umzugehen"
+		},
+		{
+			"title": "kayaku zutsu",
+			"sort": "Kayaku zutsu",
+			"japanese": "火薬筒",
+			"translation": "Pulverröhre",
+			"description": "Versiegelte Bambusröhren, in denen sich Schießpulver trocken mitführen ließ."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "拳",
+			"translation": "Faust",
+			"description": "Die Faust als Körperwaffe."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "剣",
+			"translation": "Schwert, Säbel, Klinge"
+		},
+		{
+			"title": "ken tai ichi jō",
+			"sort": "Ken tai ichi jo",
+			"japanese": "剣体一情",
+			"translation": "Körper und Waffe sind eins"
+		},
+		{
+			"title": "kendō",
+			"sort": "Kendo",
+			"japanese": "剣道",
+			"translation": "Weg des Schwertes",
+			"description": "Kampfsportart, die aus der Schwertkunst (<em>kenjutsu</em>) der Samurai hervorging. Statt eines Schwertes benutzt man heute ein <em>shinai</em> und trägt zum Schutz eine Rüstung."
+		},
+		{
+			"title": "kenjutsu",
+			"sort": "Kenjutsu",
+			"japanese": "剣術",
+			"translation": "Schwertkunst",
+			"description": "Schwertkampfkunst des feudalen Japan."
+		},
+		{
+			"title": "kenpō",
+			"sort": "Kenpo",
+			"japanese": "拳法",
+			"translation": "Faustmethode",
+			"description": "Unbewaffnete Kampfmethode, im <em>bugei jūhappan</em> zusammen mit <em>jūjutsu</em> genannt."
+		},
+		{
+			"title": "kensei",
+			"sort": "Kensei",
+			"japanese": "剣聖",
+			"translation": "Schwertheiliger",
+			"description": "Ein Mensch, der das Wesen des Weges ganz durchschaut hatte und als fast unbesiegbar galt. Das bekannteste Beispiel ist Miyamoto Musashi."
+		},
+		{
+			"title": "kenshō",
+			"sort": "Kensho",
+			"japanese": "見性",
+			"translation": "Erkennen der kosmischen Wahrheit",
+			"description": "Das Verständnis aller Dinge, die Erleuchtung, auch <em>satori</em>."
+		},
+		{
+			"title": "keri",
+			"sort": "Keri",
+			"japanese": "蹴り",
+			"translation": "Fußtritt",
+			"description": "Auch <em>geri</em>."
+		},
+		{
+			"title": "ketsuin",
+			"sort": "Ketsuin",
+			"japanese": "結印",
+			"translation": "Bilden eines Handsiegels",
+			"description": "Die Handstellung, die japanische Entsprechung der <em>mudrā</em>. Sie verkörpert die körperliche Handlung."
+		},
+		{
+			"title": "ki",
+			"sort": "Ki",
+			"japanese": "気",
+			"translation": "Energie, Lebenskraft, Lebensaktivität"
+		},
+		{
+			"title": "kiai",
+			"sort": "Kiai",
+			"japanese": "気合",
+			"translation": "Schrei, Kampfgeist",
+			"description": "Entladung von Energie in einem Kampfschrei, der eine wirkungsvolle Technik begleiten sollte. Legenden erzählen, einige Meister hätten mit dem Schrei kleine Tiere getötet und Menschen kurzzeitig gelähmt; belegen lässt sich nur, dass ein plötzlicher Schrei den Gegner für einen Moment erschreckt."
+		},
+		{
+			"title": "kiai jutsu",
+			"sort": "Kiai jutsu",
+			"japanese": "気合術",
+			"translation": "Die Kunst des Kampfschreis",
+			"description": "Die Kunst, den <em>kiai</em> einzusetzen."
+		},
+		{
+			"title": "Kido Yazaemon",
+			"sort": "Kido Yazaemon",
+			"japanese": "城戸弥左衛門",
+			"description": "Berühmter Ninja, der ein Attentat auf Oda Nobunaga versuchte, das jedoch fehlschlug."
+		},
+		{
+			"title": "kigomi",
+			"sort": "Kigomi",
+			"japanese": "着込み",
+			"translation": "Unterpanzer",
+			"description": "Panzerung, die man unter der Kleidung trug, etwa ein <em>kusari katabira</em>; manche Ausführungen aus gestepptem Stoff hatten zusätzlich lackierte Plättchen. Krieger und Reisende trugen sie; dass Ninja sie regelmäßig trugen, ist nicht belegt."
+		},
+		{
+			"title": "kihon happō gata",
+			"sort": "Kihon happo gata",
+			"japanese": "基本八法型",
+			"translation": "Die acht grundlegenden Formen"
+		},
+		{
+			"title": "kikaigaku",
+			"sort": "Kikaigaku",
+			"japanese": "機械学",
+			"translation": "Mechanik",
+			"description": "Die wirkungsvollsten Reaktionen des Körpers auf einen Angriff, darunter Fußarbeit, seitliches Ausweichen, Kampfentfernung und der richtige Einsatz der Körperwaffen."
+		},
+		{
+			"title": "kikaku ken",
+			"sort": "Kikaku ken",
+			"japanese": "鬼角拳",
+			"translation": "Dämonenhornfaust"
+		},
+		{
+			"title": "kin",
+			"sort": "Kin",
+			"japanese": "金",
+			"translation": "Gold, Metall"
+		},
+		{
+			"title": "kinton",
+			"sort": "Kinton",
+			"japanese": "金遁",
+			"description": "Flucht mit Hilfe von Metall, eine der fünf Methoden des <em>gotonpō</em>."
+		},
+		{
+			"title": "kinton jutsu",
+			"sort": "Kinton jutsu",
+			"japanese": "金遁術",
+			"translation": "Kunst der Flucht mit Metall",
+			"description": "Fluchttechnik aus dem <em>gotonpō</em>, die Metall als Fluchtmittel nutzt."
+		},
+		{
+			"title": "kiri",
+			"sort": "Kiri",
+			"japanese": "切小刀",
+			"translation": "Kleine Säge"
+		},
+		{
+			"title": "kisha",
+			"sort": "Kisha",
+			"japanese": "綺者",
+			"translation": "Schöne Person",
+			"description": "Prinzip des <em>gojō goyoku</em>, das die Eitelkeit eines Menschen ausnutzt."
+		},
+		{
+			"title": "kishaku",
+			"sort": "Kishaku",
+			"japanese": "耆著",
+			"translation": "Kompass",
+			"description": "Schwimmender Kompass: ein magnetisiertes Eisenstück, oft in Form eines Fischs oder Boots, das in einer Schale mit Wasser schwimmt. Das Prinzip stammt aus China; das <cite>Bansenshūkai</cite> beschreibt, wie man einen solchen Kompass herstellt."
+		},
+		{
+			"title": "kiten",
+			"sort": "Kiten",
+			"japanese": "起転",
+			"translation": "Handstandüberschlag",
+			"description": "Aus der Hocke über die Hände in den Handstand und weiter über die Brücke zurück auf die Füße."
+		},
+		{
+			"title": "kiten ken",
+			"sort": "Kiten ken",
+			"japanese": "起転拳",
+			"translation": "Faust, die eine Wende erzeugt"
+		},
+		{
+			"title": "kitsune gakure no jutsu",
+			"sort": "Kitsune gakure no jutsu",
+			"japanese": "狐隠術",
+			"translation": "Die Kunst, sich wie ein Fuchs zu verstecken",
+			"description": "Technik, bei der man sich wie ein Fuchs im Schilf versteckt."
+		},
+		{
+			"title": "ko ashi",
+			"sort": "Ko ashi",
+			"japanese": "小足",
+			"translation": "Kleiner Schritt",
+			"description": "Gangart der Ninja."
+		},
+		{
+			"title": "kō ken",
+			"sort": "Ko ken",
+			"japanese": "鈎拳",
+			"translation": "Hakenfaust"
+		},
+		{
+			"title": "Kōbō Daishi",
+			"sort": "Kobo Daishi",
+			"japanese": "弘法大師",
+			"description": "Gründer der esoterischen buddhistischen Sekte Shingon, auch Kūkai genannt."
+		},
+		{
+			"title": "kobudō",
+			"sort": "Kobudo",
+			"japanese": "古武道",
+			"translation": "Altes Budō",
+			"description": "Auf Okinawa entwickeltes Waffensystem, das vor allem Bauernwerkzeuge als Waffen einsetzt."
+		},
+		{
+			"title": "kobujutsu jūhappan",
+			"sort": "Kobujutsu juhappan",
+			"japanese": "古武術十八般",
+			"translation": "Die 18 alten Kriegskünste",
+			"description": "Kriegskünste, die Hatsumi Masaaki drei Jahre lang bei Ueno Sensei übte."
+		},
+		{
+			"title": "kodachi",
+			"sort": "Kodachi",
+			"japanese": "小太刀",
+			"translation": "Kleines Schwert",
+			"description": "Kurzschwert."
+		},
+		{
+			"title": "kodachijutsu",
+			"sort": "Kodachijutsu",
+			"japanese": "小太刀術",
+			"description": "Kampf mit dem Kurzschwert (<em>kodachi</em>), Teil des <em>bikenjutsu</em>."
+		},
+		{
+			"title": "Kōga-Ryū",
+			"sort": "Koga-Ryu",
+			"japanese": "甲賀流",
+			"description": "Ninjutsu-Stil, heute höchstwahrscheinlich ausgestorben."
+		},
+		{
+			"title": "kōgai",
+			"sort": "Kogai",
+			"japanese": "笄",
+			"translation": "Haarnadel",
+			"description": "Nadel, die seitlich am <em>wakizashi</em> befestigt war. Sie diente als Werkzeug, um Lederzeug auszubessern oder Hufe zu pflegen."
+		},
+		{
+			"title": "kogakure",
+			"sort": "Kogakure",
+			"japanese": "木隠",
+			"translation": "Hinter Blättern und Bäumen verborgen",
+			"description": "Den Namen wählte der Autor für diese Website."
+		},
+		{
+			"title": "kōhō",
+			"sort": "Koho",
+			"japanese": "後方",
+			"translation": "Rückwärts"
+		},
+		{
+			"title": "kōhō geri",
+			"sort": "Koho geri",
+			"japanese": "後方蹴り",
+			"translation": "Rückwärtstritt"
+		},
+		{
+			"title": "kōhō kaiten",
+			"sort": "Koho kaiten",
+			"japanese": "後方回転",
+			"translation": "Rückwärtsrolle"
+		},
+		{
+			"title": "kōhō ukemi",
+			"sort": "Koho ukemi",
+			"japanese": "後方受身",
+			"translation": "Rückwärtsfall",
+			"description": "Fallübung (<em>ukemi</em>) nach hinten. Aus dem Stand geht man tief in die Hocke und rollt auf den Rücken ab."
+		},
+		{
+			"title": "kokizami ashi",
+			"sort": "Kokizami ashi",
+			"japanese": "小刻み足",
+			"translation": "Kurzer Schritt",
+			"description": "Gangart der Ninja."
+		},
+		{
+			"title": "kokoro",
+			"sort": "Kokoro",
+			"japanese": "心",
+			"translation": "Herz, Geist"
+		},
+		{
+			"title": "koku",
+			"sort": "Koku",
+			"japanese": "石",
+			"description": "Japanisches Hohlmaß für Reis. Im feudalen Japan wurde man in <em>koku</em> bezahlt; ein <em>koku</em> entspricht etwa 180 Litern Reis."
+		},
+		{
+			"title": "kokū",
+			"sort": "Kokuu",
+			"japanese": "虚空",
+			"translation": "Leerer Raum",
+			"description": "Der leere Raum, die Leere."
+		},
+		{
+			"title": "kokyūhō",
+			"sort": "Kokyuho",
+			"japanese": "呼吸法",
+			"translation": "Atemtechnik, Atemkontrolle",
+			"description": "Methoden der richtigen Atmung."
+		},
+		{
+			"title": "komusō",
+			"sort": "Komuso",
+			"japanese": "虚無僧",
+			"translation": "Mönch der Leere",
+			"description": "Bettelmönch des Fuke-Ordens. Die <em>komusō</em> zogen durch Japan und trugen einen weißen Kimono, einen großen Hut, der das ganze Gesicht bedeckte, ein Schwert (<em>katana</em>), einen langen Wanderstab, einen Fächer und eine Flöte (<em>shakuhachi</em>). Sie durften ihren Hut nie abnehmen und in Gegenwart von Nicht-Mönchen nicht sprechen. Offiziell gibt es die Sekte nicht mehr, doch vielleicht besteht sie im Untergrund fort."
+		},
+		{
+			"title": "kongō",
+			"sort": "Kongo",
+			"japanese": "金剛",
+			"translation": "Goldene Stärke",
+			"description": "Kurze Metallwaffe, mit der sich buddhistische Priester verteidigten. Das Zepter symbolisiert den Diamanten, das Zeichen des reinen Wissens. Auch als Indras Waffe bekannt."
+		},
+		{
+			"title": "kongōkai mandara",
+			"sort": "Kongokai mandara",
+			"japanese": "金剛界曼荼羅",
+			"translation": "Mandala der Diamantwelt",
+			"description": "Streng geometrisches Mandala mit Buddhas und Gottheiten in neun Feldern."
+		},
+		{
+			"title": "kongōsho",
+			"sort": "Kongosho",
+			"japanese": "金剛杵",
+			"translation": "Diamantzepter",
+			"description": "Buddhistisches Ritualgerät (Vajra) mit drei nach innen gekrümmten Zacken an jedem Ende."
+		},
+		{
+			"title": "koppō jutsu",
+			"sort": "Koppo jutsu",
+			"japanese": "骨法術",
+			"translation": "Die Kunst der Knochenmethoden",
+			"description": "Techniken, die Knochen brechen. Durch hartes Training wurden Hände und Füße gestärkt, um zerstörerische Schläge gegen die Knochen zu führen."
+		},
+		{
+			"title": "koppō ken",
+			"sort": "Koppo ken",
+			"japanese": "骨法拳",
+			"translation": "Faust der Knochenmethode"
+		},
+		{
+			"title": "kōsei no kamae",
+			"sort": "Kosei no kamae",
+			"japanese": "攻勢の構え",
+			"translation": "Angreifende Energie",
+			"description": "Stellung (<em>kamae</em>) aus dem Ninjutsu."
+		},
+		{
+			"title": "koshi jutsu",
+			"sort": "Koshi jutsu",
+			"japanese": "骨指術",
+			"translation": "Die Kunst der Knochenfinger",
+			"description": "Techniken gegen die Muskeln des Körpers, die starke Schmerzen verursachen."
+		},
+		{
+			"title": "koshizashi",
+			"sort": "Koshizashi",
+			"japanese": "腰差",
+			"translation": "An der Hüfte gehaltene Kanone",
+			"description": "Frühe Handfeuerwaffe, die Suginobō Myōsan auf Tanegashima vorgeführt bekam und nachbauen ließ."
+		},
+		{
+			"title": "kosshi kihon sanpō",
+			"sort": "Kosshi kihon sanpo",
+			"japanese": "骨指基本三法",
+			"translation": "Die drei grundlegenden Schlagtechniken"
+		},
+		{
+			"title": "Kotō-Ryū",
+			"sort": "Koto-Ryu",
+			"japanese": "虎倒流",
+			"translation": "Schule des Tigerbezwingers",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "kōyaku",
+			"sort": "Koyaku",
+			"japanese": "衡軛",
+			"translation": "Rinderjoch",
+			"description": "Schlachtformation aus dem <em>bōryaku</em>."
+		},
+		{
+			"title": "kū",
+			"sort": "Ku",
+			"japanese": "空",
+			"translation": "Leere, Vakuum",
+			"description": "Ursprung der subatomaren Energie, das Nichts, der Anfang aller Dinge."
+		},
+		{
+			"title": "kū no kata",
+			"sort": "Ku no kata",
+			"japanese": "空の型",
+			"translation": "Form der Leere"
+		},
+		{
+			"title": "ku shaku bō",
+			"sort": "Ku shaku bo",
+			"japanese": "九尺棒",
+			"translation": "Neun <em>shaku</em> langer Stab",
+			"description": "Überlanger Stab (2,73 Meter)."
+		},
+		{
+			"title": "kubotan",
+			"sort": "Kubotan",
+			"japanese": "クボタン",
+			"description": "Faustwaffe in Form eines kleinen Zylinders, mit der man Druck auf Gelenke ausüben kann."
+		},
+		{
+			"title": "kuda bashigo",
+			"sort": "Kuda bashigo",
+			"japanese": "管梯子",
+			"translation": "Rohrleiter"
+		},
+		{
+			"title": "kuden",
+			"sort": "Kuden",
+			"japanese": "口伝",
+			"translation": "Mündliche Überlieferung",
+			"description": "Weitergabe der Kampfkünste von Mund zu Mund statt in Schriften."
+		},
+		{
+			"title": "kūhen no kata",
+			"sort": "Kuhen no kata",
+			"japanese": "空変の型",
+			"translation": "Formen der Verwandlung der Leere"
+		},
+		{
+			"title": "kūhi",
+			"sort": "Kuhi",
+			"japanese": "空飛",
+			"translation": "Luftsprung"
+		},
+		{
+			"title": "kuji goshin hō",
+			"sort": "Kuji goshin ho",
+			"japanese": "九字護身法",
+			"translation": "Schutzmethode der neun Silben",
+			"description": "Anderer Name für <em>kuji-kiri</em>."
+		},
+		{
+			"title": "kuji-in",
+			"sort": "Kuji-in",
+			"japanese": "九字印",
+			"translation": "Siegel der neun Silben",
+			"description": "Die neun Fingerzeichen (<em>mudrā</em>), die die Ninja anwandten."
+		},
+		{
+			"title": "kuji-in jin",
+			"sort": "Kuji-in jin",
+			"japanese": "陣",
+			"description": "Sechstes Siegel des <em>kuji-in</em>. Es zeigt den Menschen, der sich ganz auf das kosmische Bewusstsein Gottes verlässt und seiner Intuition vertraut."
+		},
+		{
+			"title": "kuji-in kai",
+			"sort": "Kuji-in kai",
+			"japanese": "皆",
+			"description": "Fünftes Siegel des <em>kuji-in</em>. Es zeigt den Menschen, der sich bemüht, Gott nahezukommen. Sein Handzeichen ist das <em>gebaku ken-in</em>."
+		},
+		{
+			"title": "kuji-in pyō",
+			"sort": "Kuji-in pyo",
+			"japanese": "兵",
+			"description": "Zweites Siegel des <em>kuji-in</em>, das körperliche Symbol des Diamanten und damit des Wissens. Sein Handzeichen ist das <em>daikongō-in</em>."
+		},
+		{
+			"title": "kuji-in retsu",
+			"sort": "Kuji-in retsu",
+			"japanese": "列",
+			"description": "Siebtes Siegel des <em>kuji-in</em>. Sein Handzeichen ist das <em>chiken-in</em>."
+		},
+		{
+			"title": "kuji-in rin",
+			"sort": "Kuji-in rin",
+			"japanese": "臨",
+			"description": "Erstes Siegel des <em>kuji-in</em>. Es steht für <em>kongō</em>, den diamantgleichen Blitzstrahl. Sein Handzeichen ist das <em>dokko-in</em>."
+		},
+		{
+			"title": "kuji-in sha",
+			"sort": "Kuji-in sha",
+			"japanese": "者",
+			"description": "Viertes Siegel des <em>kuji-in</em>."
+		},
+		{
+			"title": "kuji-in tō",
+			"sort": "Kuji-in to",
+			"japanese": "闘",
+			"description": "Drittes Siegel des <em>kuji-in</em>. Sein Handzeichen ist das <em>sotojishi-in</em>."
+		},
+		{
+			"title": "kuji-in zai",
+			"sort": "Kuji-in zai",
+			"japanese": "在",
+			"description": "Achtes Siegel des <em>kuji-in</em>. Es symbolisiert das Feuer, das alle Unreinheiten zerstört und den Geist eins mit dem Universum werden lässt."
+		},
+		{
+			"title": "kuji-in zen",
+			"sort": "Kuji-in zen",
+			"japanese": "前",
+			"description": "Neuntes Siegel des <em>kuji-in</em>. Es symbolisiert den vollkommen Erleuchteten, der alle Dinge durchschaut hat."
+		},
+		{
+			"title": "kuji-kiri",
+			"sort": "Kuji-kiri",
+			"japanese": "九字切り",
+			"translation": "Zerschneiden der neun Silben",
+			"description": "Ritual, bei dem man mit einem symbolischen Schwert ein Schutzgitter in die Luft zeichnet. Nicht zu verwechseln mit <em>kuji-in</em>."
+		},
+		{
+			"title": "Kūkai",
+			"sort": "Kukai",
+			"japanese": "空海",
+			"description": "Anderer Name für Kōbō Daishi."
+		},
+		{
+			"title": "Kukishinden-Ryū",
+			"sort": "Kukishinden-Ryu",
+			"japanese": "九鬼神伝流",
+			"translation": "Die Schule der neun Dämonengötter",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "kuma",
+			"sort": "Kuma",
+			"japanese": "熊",
+			"translation": "Bär"
+		},
+		{
+			"title": "kumade",
+			"sort": "Kumade",
+			"japanese": "熊手",
+			"translation": "Rechen, Harke, Bärenkralle",
+			"description": "Waffe der Ninja, die furchtbare Verletzungen verursachen konnte. Sie diente auch zum Klettern."
+		},
+		{
+			"title": "Kumawaka",
+			"sort": "Kumawaka",
+			"description": "Berühmter <em>genin</em> des Kōga-Ryū, der 70 Ninja als Guerillakämpfer anführte."
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "雲梯子",
+			"translation": "Wolkenleiter"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "蜘蛛梯子",
+			"translation": "Spinnenleiter"
+		},
+		{
+			"title": "Kumogakure-Ryū",
+			"sort": "Kumogakure-Ryu",
+			"japanese": "雲隠流",
+			"translation": "Die Schule der verborgenen Wolke",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "kunai",
+			"sort": "Kunai",
+			"japanese": "苦無",
+			"translation": "Hebelwerkzeug, Ninja-Wurfmesser"
+		},
+		{
+			"title": "kunashi",
+			"sort": "Kunashi",
+			"translation": "Klappspaten"
+		},
+		{
+			"title": "kunoichi",
+			"sort": "Kunoichi",
+			"japanese": "くノ一",
+			"description": "Weibliche Ninja. Nach der Überlieferung waren sie im Nahkampf ausgebildet wie ihre männlichen Kameraden, doch ihr Schwerpunkt lag auf der Beeinflussung der menschlichen Psyche."
+		},
+		{
+			"title": "kunoichi jutsu",
+			"sort": "Kunoichi jutsu",
+			"japanese": "くノ一術",
+			"description": "Taktik des <em>tōiri</em>, bei der Frauen als Agentinnen eingesetzt werden, um an männliche Schlüsselfiguren heranzukommen."
+		},
+		{
+			"title": "Kuroi Ōkami",
+			"sort": "Kuroi Okami",
+			"japanese": "黒い狼",
+			"translation": "Schwarzer Wolf",
+			"description": "Name des Bujinkan-Dōjō in Wolfsburg, geleitet von <em>shidōshi</em> Mario Plückhahn."
+		},
+		{
+			"title": "kuruma nagare",
+			"sort": "Kuruma nagare",
+			"japanese": "車流れ",
+			"translation": "Rollendes Fließen",
+			"description": "Fallübung (<em>ukemi</em>), rollend nach hinten (<em>kōhō kuruma nagare</em>)."
+		},
+		{
+			"title": "kusari",
+			"sort": "Kusari",
+			"japanese": "鎖",
+			"translation": "Kette"
+		},
+		{
+			"title": "kusari fundō",
+			"sort": "Kusari fundo",
+			"japanese": "鎖分銅",
+			"description": "Kurze Kette mit je einem Gewicht an beiden Enden."
+		},
+		{
+			"title": "kusari katabira",
+			"sort": "Kusari katabira",
+			"japanese": "鎖帷子",
+			"translation": "Kettenhemd",
+			"description": "Kettenhemd, das Ninja in Schlachten unter oder über dem <em>shinobi shōzoku</em> trugen. Das Geflecht schützte auch Gesicht und Handflächen."
+		},
+		{
+			"title": "kusarigama",
+			"sort": "Kusarigama",
+			"japanese": "鎖鎌",
+			"translation": "Kettensichel",
+			"description": "Japanische Sichel (<em>kama</em>) mit einer beschwerten Kette (<em>kusari</em>)."
+		},
+		{
+			"title": "kusarijutsu",
+			"sort": "Kusarijutsu",
+			"description": "Kampf mit kurzen Kettenwaffen."
+		},
+		{
+			"title": "kūten",
+			"sort": "Kuten",
+			"japanese": "空転",
+			"translation": "Wende in der Luft"
+		},
+		{
+			"title": "kyobako fune",
+			"sort": "Kyobako fune",
+			"translation": "Kastenboot",
+			"description": "Eine außen mit Leder überzogene Holzkiste."
+		},
+		{
+			"title": "kyojitsu tenkan hō",
+			"sort": "Kyojitsu tenkan ho",
+			"japanese": "虚実転換法",
+			"translation": "Lüge und Wahrheit",
+			"description": "Taktik, die Wahrheit als Lüge und die Lüge als Wahrheit hinzustellen, etwa Stärke zu zeigen, wenn man schwach ist."
+		},
+		{
+			"title": "kyoketsu shōge",
+			"sort": "Kyoketsu shoge",
+			"japanese": "距跋渉毛",
+			"description": "Beliebte Waffe der Ninja. Ein Messer mit einem Haken, am Griff ein vier Meter langes Seil mit einem Stahlring am Ende."
+		},
+		{
+			"title": "kyōmon",
+			"sort": "Kyomon",
+			"description": "Praktische Bildung, Beobachtung und gesunder Menschenverstand. Eine der acht Disziplinen des <em>ninja no hachimon</em>."
+		},
+		{
+			"title": "kyōnin no jutsu",
+			"sort": "Kyonin no jutsu",
+			"description": "Taktik, die den Aberglauben der Menschen ausnutzt, etwa mit Teufelsmasken, Feuerspucken oder vermeintlich bösen Tieren."
+		},
+		{
+			"title": "kyōsha",
+			"sort": "Kyosha",
+			"japanese": "恐者",
+			"translation": "Ängstliche Person",
+			"description": "Prinzip des <em>gojō goyoku</em>, das die Feigheit eines Menschen ausnutzt."
+		},
+		{
+			"title": "Kyōto",
+			"sort": "Kyoto",
+			"japanese": "京都",
+			"description": "Alte japanische Kaiserstadt."
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "級",
+			"translation": "Rang, Stufe, Klasse, Schülergrad"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "弓",
+			"translation": "Bogen"
+		},
+		{
+			"title": "kyūdō",
+			"sort": "Kyudo",
+			"japanese": "弓道",
+			"translation": "Weg des Bogens",
+			"description": "Aus dem kriegerischen <em>kyūjutsu</em> entwickelte Sportart."
+		},
+		{
+			"title": "kyūjutsu",
+			"sort": "Kyujutsu",
+			"japanese": "弓術",
+			"translation": "Bogenkunst",
+			"description": "Methode der Samurai, mit Pfeil und Bogen zu schießen."
+		},
+		{
+			"title": "kyūsho",
+			"sort": "Kyusho",
+			"japanese": "急所",
+			"translation": "Vitalpunkte",
+			"description": "Die Druckpunkte für <em>atemi</em>. Der Kotō-Ryū enthält ihr vollständiges System."
+		},
+		{
+			"title": "li",
+			"sort": "Li",
+			"chinese": "理",
+			"translation": "Struktur, Ordnung",
+			"description": "Im Daoismus die Struktur und Form des Dao: eine asymmetrische Ordnung, die sich nie wiederholt und keiner Regel folgt. Man erkennt sie im fließenden Wasser, in Baumrinde oder Eiskristallen."
+		},
+		{
+			"title": "Lin Kuei",
+			"sort": "Lin Kuei",
+			"description": "Angeblicher Name, unter dem es Ninjutsu in China und Korea gegeben haben soll; historisch ist das nicht belegt."
+		},
+		{
+			"title": "ma",
+			"sort": "Ma",
+			"japanese": "間",
+			"translation": "Zwischenraum, Lücke, Intervall, Abstand"
+		},
+		{
+			"title": "maai",
+			"sort": "Maai",
+			"japanese": "間合い",
+			"translation": "Intervall, Abstand, Pause",
+			"description": "Harmonischer Abstand in Zeit und Raum."
+		},
+		{
+			"title": "mae",
+			"sort": "Mae",
+			"japanese": "前",
+			"translation": "Vorn, vorwärts, frontal"
+		},
+		{
+			"title": "mae gaeshi",
+			"sort": "Mae gaeshi",
+			"japanese": "前返",
+			"translation": "Vorwärts ausgerichtete Techniken"
+		},
+		{
+			"title": "mamukigama",
+			"sort": "Mamukigama",
+			"description": "Sichel mit einem Seil, an dessen Ende ein giftiges Tier hing, etwa eine Schlange. Der Ninja schleuderte es dem Gegner entgegen; das Tier beschäftigte ihn und tötete ihn vielleicht sogar."
+		},
+		{
+			"title": "mandala",
+			"sort": "Mandala",
+			"japanese": "曼荼羅",
+			"description": "Schematische Darstellung des Universums in einem Bild, aus dem Tantra und dem <em>mikkyō</em>. Im <em>sanmitsu</em> steht es für den Gedanken."
+		},
+		{
+			"title": "mangetsu no kamae",
+			"sort": "Mangetsu no kamae",
+			"japanese": "満月の構え",
+			"translation": "Vollmond-Stellung",
+			"description": "Stellung des Kotō-Ryū. Der Kämpfer hält das Schwert über dem Kopf, damit das Sonnenlicht auf der Klinge den Gegner blendet."
+		},
+		{
+			"title": "manriki gusari",
+			"sort": "Manriki gusari",
+			"japanese": "万力鎖",
+			"translation": "Kette mit der Kraft von 10.000",
+			"description": "Kette mit eisernen Griffstücken an den Enden."
+		},
+		{
+			"title": "mantra",
+			"sort": "Mantra",
+			"japanese": "真言",
+			"translation": "Wahre Worte",
+			"description": "Laute aus dem Tantrismus und dem <em>mikkyō</em>. Im <em>sanmitsu</em> steht das <em>mantra</em> für das Wort."
+		},
+		{
+			"title": "menkyo kaiden",
+			"sort": "Menkyo kaiden",
+			"japanese": "免許皆伝",
+			"description": "Urkunde über die vollständige Meisterschaft in einer Kampfkunst. Der Meister übergab sie einem oder mehreren Schülern; sie weist den Inhaber als rechtmäßigen Erben des Stils aus."
+		},
+		{
+			"title": "metsubushi",
+			"sort": "Metsubushi",
+			"japanese": "目潰し",
+			"translation": "Das Auge zerstören",
+			"description": "Blendpulver aus Eisenspänen, Sand, Asche oder chemischen Stoffen. Auf der Flucht warf der Ninja es dem Verfolger in die Augen."
+		},
+		{
+			"title": "migi",
+			"sort": "Migi",
+			"japanese": "右",
+			"translation": "Rechts"
+		},
+		{
+			"title": "mikkyō",
+			"sort": "Mikkyo",
+			"japanese": "密教",
+			"translation": "Geheime Lehre",
+			"description": "Oberbegriff für verschiedene tantrische Lehren des Buddhismus."
+		},
+		{
+			"title": "miko",
+			"sort": "Miko",
+			"japanese": "巫女",
+			"translation": "Schreinjungfrau",
+			"description": "Junge, unverheiratete Frau im Dienst eines Shintō-Schreins. Der Überlieferung nach bildete Mochizuki Chiyome Waisenmädchen zu <em>miko</em> und zugleich zu <em>kunoichi</em> aus, die für die Familie Takeda spionierten."
+		},
+		{
+			"title": "Minamoto",
+			"sort": "Minamoto",
+			"japanese": "源",
+			"description": "Berühmte Familie, auch Genji genannt, die mit den Taira im Krieg lag."
+		},
+		{
+			"title": "minomushi jutsu",
+			"sort": "Minomushi jutsu",
+			"japanese": "身虫術",
+			"translation": "Wurm im Körper",
+			"description": "Taktik des <em>tōiri</em>, die das <cite>Bansenshūkai</cite> beschreibt: Der Ninja stiftete Bedienstete des Feindes zum Verrat an ihrem Herrn an. Je höher ihr Rang, desto wertvoller waren sie."
+		},
+		{
+			"title": "Miyamoto Musashi",
+			"sort": "Miyamoto Musashi",
+			"japanese": "宮本武蔵",
+			"description": "Der berühmteste Schwertkämpfer Japans. Er zog viele Jahre durch das Land, um seine Schwertkunst zu verbessern, und gewann dabei mehr als 60 Kämpfe. Er gründete den Niten-Ichi-Ryū, eine Schule, die mit zwei Schwertern zugleich kämpft. Kurz vor seinem Tod schrieb er <cite>Gorin no sho</cite> (<q>Das Buch der fünf Ringe</q>)."
+		},
+		{
+			"title": "mizu",
+			"sort": "Mizu",
+			"japanese": "水",
+			"translation": "Wasser"
+		},
+		{
+			"title": "mizu taimatsu",
+			"sort": "Mizu taimatsu",
+			"japanese": "水松炬",
+			"description": "Fackel, die auch im Regen brennt."
+		},
+		{
+			"title": "mizu tsutsu",
+			"sort": "Mizu tsutsu",
+			"japanese": "水筒",
+			"translation": "Atemrohr",
+			"description": "Schilf- oder Holzrohr, durch das der Ninja atmete, wenn er länger unter Wasser bleiben musste."
+		},
+		{
+			"title": "mizugumo",
+			"sort": "Mizugumo",
+			"japanese": "水蜘蛛",
+			"translation": "Wasserspinne",
+			"description": "Werkzeug der Ninja, um über Sumpfland zu laufen."
+		},
+		{
+			"title": "mizukaki",
+			"sort": "Mizukaki",
+			"japanese": "水掻き",
+			"translation": "Schwimmflossen"
+		},
+		{
+			"title": "Mochizuki Chiyome",
+			"sort": "Mochizuki Chiyome",
+			"japanese": "望月千代女",
+			"description": "Berühmte <em>kunoichi</em>, die der Überlieferung nach im Auftrag von Takeda Shingen ein Netz von <em>kunoichi</em> leitete."
+		},
+		{
+			"title": "moku",
+			"sort": "Moku",
+			"japanese": "木",
+			"translation": "Holz"
+		},
+		{
+			"title": "mokuton",
+			"sort": "Mokuton",
+			"japanese": "木遁",
+			"description": "Flucht mit Hilfe von Holz und Pflanzen, eine der fünf Methoden des <em>gotonpō</em>."
+		},
+		{
+			"title": "mokuton jutsu",
+			"sort": "Mokuton jutsu",
+			"japanese": "木遁術",
+			"translation": "Holzfluchttechnik",
+			"description": "Fluchttechnik des <em>gotonpō</em>, die Holz als Fluchtmittel nutzt."
+		},
+		{
+			"title": "mon",
+			"sort": "Mon",
+			"japanese": "紋",
+			"translation": "Familienwappen"
+		},
+		{
+			"title": "mono",
+			"sort": "Mono",
+			"japanese": "者",
+			"translation": "Person"
+		},
+		{
+			"title": "monomi no jutsu",
+			"sort": "Monomi no jutsu",
+			"japanese": "物見の術",
+			"translation": "Die Kunst der Erkundung",
+			"description": "Erkundung der Schwachstellen einer feindlichen Verteidigung, etwa leicht zugänglicher Zimmer, Hintertüren und unbenutzter Räume."
+		},
+		{
+			"title": "Mōri",
+			"sort": "Mori",
+			"japanese": "毛利",
+			"description": "Samurai-Clan aus Aki im Westen Honshūs, eine der Familien, die in der Sengoku-Zeit um die Macht kämpften. Unter Mōri Motonari beherrschte er die Region Chūgoku und stand später gegen Oda Nobunaga."
+		},
+		{
+			"title": "mu",
+			"sort": "Mu",
+			"japanese": "武",
+			"translation": "Kriegertum, Militär",
+			"description": "Auch <em>bu</em>."
+		},
+		{
+			"title": "mudrā",
+			"sort": "Mudra",
+			"japanese": "印相",
+			"translation": "Handzeichen",
+			"description": "Handstellungen aus dem Tantra und dem <em>mikkyō</em>. Neun davon gingen in das <em>kuji-in</em> ein. Im <em>sanmitsu</em> stehen sie für die Tat."
+		},
+		{
+			"title": "mumei mugei no jutsu",
+			"sort": "Mumei mugei no jutsu",
+			"japanese": "無名無芸の術",
+			"translation": "Kein Name, keine Kunst",
+			"description": "Die Kunst der Anonymität, das Erfolgsrezept der Ninja in der Spionage. Niemand sollte das wahre Gesicht des Ninja kennen."
+		},
+		{
+			"title": "muon no hō",
+			"sort": "Muon no ho",
+			"japanese": "無音の法",
+			"translation": "Methoden der Geräuschlosigkeit"
+		},
+		{
+			"title": "musha dori",
+			"sort": "Musha dori",
+			"japanese": "武者捕り",
+			"description": "Geheime Technik des Musashi-Ryū. Takamatsu Toshitsugu lernte sie mit 15 Jahren im Kampf gegen einen Karateka dieser Schule kennen."
+		},
+		{
+			"title": "musha shugyō",
+			"sort": "Musha shugyo",
+			"japanese": "武者修行",
+			"translation": "Wanderschaft des Kriegers",
+			"description": "Lehrmethode, bei der sich der Krieger auf eine lange Reise begab, um sich zu verbessern. Die Härten unterwegs formten den Charakter und stärkten den Geist."
+		},
+		{
+			"title": "musubi bashigo",
+			"sort": "Musubi bashigo",
+			"japanese": "結び梯子",
+			"translation": "Schlaufenleiter",
+			"description": "Seil mit Schlaufen in festem Abstand, in die der Ninja beim Klettern die Füße steckte."
+		},
+		{
+			"title": "musubi nawa",
+			"sort": "Musubi nawa",
+			"japanese": "結び縄",
+			"description": "Seil aus Pferdehaar."
+		},
+		{
+			"title": "mute",
+			"sort": "Mute",
+			"japanese": "無手",
+			"translation": "Ohne Hände",
+			"description": "Ohne Hände, etwa bei Fallübungen (<em>ukemi</em>)."
+		},
+		{
+			"title": "nagamaki",
+			"sort": "Nagamaki",
+			"japanese": "長巻",
+			"description": "Eine Ausführung der Schwertlanze <em>naginata</em>."
+		},
+		{
+			"title": "nagare",
+			"sort": "Nagare",
+			"japanese": "流れ",
+			"translation": "Fließendes Wasser",
+			"description": "Prinzip der Weichheit."
+		},
+		{
+			"title": "nage",
+			"sort": "Nage",
+			"japanese": "投げ",
+			"translation": "Wurf, werfen"
+		},
+		{
+			"title": "nage teppō",
+			"sort": "Nage teppo",
+			"japanese": "投げ鉄砲",
+			"description": "Sprenggranate, die man mit der Hand oder mit einer Schleuder auf den Feind warf. Sie funktionierte wie eine heutige Handgranate."
+		},
+		{
+			"title": "nagenawa",
+			"sort": "Nagenawa",
+			"japanese": "投げ縄",
+			"translation": "Wurfseil",
+			"description": "Lasso. Der Gyokushin-Ryū ist für seinen Gebrauch bekannt."
+		},
+		{
+			"title": "naginata",
+			"sort": "Naginata",
+			"japanese": "薙刀",
+			"translation": "Schwert zum Niedermähen der Feinde",
+			"description": "Schwertlanze, eine Waffe der <em>sōhei</em> und die bevorzugte Waffe der Samurai-Frauen."
+		},
+		{
+			"title": "naginatadō",
+			"sort": "Naginatado",
+			"japanese": "薙刀道",
+			"translation": "Weg der <em>naginata</em>",
+			"description": "Kampfkunst mit der <em>naginata</em>, die nach dem Zweiten Weltkrieg überwiegend Frauen ausübten."
+		},
+		{
+			"title": "nagishi shuriken",
+			"sort": "Nagishi shuriken",
+			"description": "Wurfstern (<em>shuriken</em>) mit einer Quaste am Ende, die den Flug stabilisiert."
+		},
+		{
+			"title": "naibaku ken-in",
+			"sort": "Naibaku ken-in",
+			"japanese": "内縛拳印",
+			"translation": "Zeichen der innen verbundenen Faust",
+			"description": "Handzeichen zu <em>jin</em> im <em>kuji-in</em>."
+		},
+		{
+			"title": "neko te",
+			"sort": "Neko te",
+			"japanese": "猫手",
+			"translation": "Katzenkralle",
+			"description": "Angespitzter Fingerhut, eine Waffe der <em>kunoichi</em>."
+		},
+		{
+			"title": "nenriki",
+			"sort": "Nenriki",
+			"japanese": "念力",
+			"translation": "Willenskraft",
+			"description": "Die gebündelte Absicht, die japanische Entsprechung des <em>mandala</em>. Es verkörpert den Willen des Ninja."
+		},
+		{
+			"title": "nichirin-in",
+			"sort": "Nichirin-in",
+			"japanese": "日輪印",
+			"translation": "Zeichen des Sonnenrings",
+			"description": "Handzeichen zu <em>zai</em> im <em>kuji-in</em>."
+		},
+		{
+			"title": "Nihon",
+			"sort": "Nihon",
+			"japanese": "日本",
+			"translation": "Ursprung der Sonne",
+			"description": "Japan. Auch Nippon."
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "人",
+			"translation": "Mensch"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "忍",
+			"translation": "Erdulden, ertragen, ausharren, vermeiden",
+			"description": "Auch <em>shinobu</em>."
+		},
+		{
+			"title": "nin shokudai",
+			"sort": "Nin shokudai",
+			"japanese": "忍燭台",
+			"description": "L-förmige Fackel, die sich aufhängen ließ."
+		},
+		{
+			"title": "ningu",
+			"sort": "Ningu",
+			"japanese": "忍具",
+			"translation": "Ninja-Werkzeuge"
+		},
+		{
+			"title": "ninja",
+			"sort": "Ninja",
+			"japanese": "忍者",
+			"description": "Ausübender des Ninjutsu: Kämpfer, Kundschafter, Spion, Guerillakämpfer und Spezialagent des feudalen Mittelalters."
+		},
+		{
+			"title": "ninja aruki",
+			"sort": "Ninja aruki",
+			"japanese": "忍者歩き",
+			"translation": "Schritttechniken",
+			"description": "Die Gangarten der Ninja, um sich lautlos, ungesehen oder schnell zu bewegen."
+		},
+		{
+			"title": "ninja jūhakkei",
+			"sort": "Ninja juhakkei",
+			"japanese": "忍者十八形",
+			"description": "Die 18 Kategorien von Geheimtechniken, die ein Ninja zusätzlich zum <em>bugei jūhappan</em> lernte. Zusammen bilden beide das <em>ninpō sanjūrokkei</em>."
+		},
+		{
+			"title": "ninja ken",
+			"sort": "Ninja ken",
+			"japanese": "忍者剣",
+			"translation": "Ninja-Schwert",
+			"description": "Auch <em>ninja tō</em>."
+		},
+		{
+			"title": "ninja tō",
+			"sort": "Ninja to",
+			"japanese": "忍者刀",
+			"translation": "Ninja-Schwert",
+			"description": "Auch <em>ninja ken</em>."
+		},
+		{
+			"title": "ninjutsu",
+			"sort": "Ninjutsu",
+			"japanese": "忍術",
+			"translation": "Kampfkunst der Ninja",
+			"description": "Sammelbegriff für alle Ryū, die von Ninja ausgeübt wurden. Sie enthalten oft unkonventionelle und geheime Kampftechniken."
+		},
+		{
+			"title": "ninjutsu ka",
+			"sort": "Ninjutsu ka",
+			"japanese": "忍術家",
+			"translation": "Ausübender des Ninjutsu"
+		},
+		{
+			"title": "ninki",
+			"sort": "Ninki",
+			"japanese": "忍器",
+			"translation": "Ninja-Werkzeuge",
+			"description": "Teil des <cite>Bansenshūkai</cite>, der die Ausrüstung beschreibt. Er beginnt im neunten Band und reicht bis in den Schlussband."
+		},
+		{
+			"title": "ninniku yoroi",
+			"sort": "Ninniku yoroi",
+			"description": "Anderer Name für <em>shinobi shōzoku</em>, den Anzug der Ninja."
+		},
+		{
+			"title": "ninpō",
+			"sort": "Ninpo",
+			"japanese": "忍法",
+			"translation": "Ninja-Künste",
+			"description": "Ninjutsu als Lebensauffassung. Das <em>ninpō</em> geht über die Technik hinaus und lehrt zusätzlich einen geistigen Weg."
+		},
+		{
+			"title": "ninpō ikkan",
+			"sort": "Ninpo ikkan",
+			"japanese": "忍法一貫",
+			"translation": "Ninjutsu ist der Anfang und kennt kein Ende"
+		},
+		{
+			"title": "ninpō inu bue",
+			"sort": "Ninpo inu bue",
+			"japanese": "忍法狗笛",
+			"description": "Die Kunst der Ninja, Tiere abzurichten."
+		},
+		{
+			"title": "ninpō mikkyō",
+			"sort": "Ninpo mikkyo",
+			"japanese": "忍法密教",
+			"description": "Die geheimen Lehren der Ninja, die auf dem <em>mikkyō</em> aufbauen."
+		},
+		{
+			"title": "ninpō sanjūrokkei",
+			"sort": "Ninpo sanjurokkei",
+			"japanese": "忍法三十六計",
+			"description": "Die 36 Gebiete, die ein Ninja lernte: die 18 Kriegskünste des <em>bugei jūhappan</em> und die 18 Geheimtechniken des <em>ninja jūhakkei</em>. Die Liste war nicht starr; oft wurden Fachgebiete gestrichen und andere hinzugefügt."
+		},
+		{
+			"title": "ninpō taijutsu",
+			"sort": "Ninpo taijutsu",
+			"japanese": "忍法体術",
+			"description": "Unbewaffneter Kampf der Ninja. Dazu gehören auch weitere körperliche Fertigkeiten wie die Fallschule."
+		},
+		{
+			"title": "Nippon",
+			"sort": "Nippon",
+			"japanese": "日本",
+			"translation": "Ursprung der Sonne",
+			"description": "Japan. Auch Nihon."
+		},
+		{
+			"title": "Nishina Daisuke",
+			"sort": "Nishina Daisuke",
+			"japanese": "仁科大助",
+			"description": "Geburtsname von Togakure Daisuke, dem Gründer des Togakure-Ryū."
+		},
+		{
+			"title": "nodachi",
+			"sort": "Nodachi",
+			"japanese": "野太刀",
+			"translation": "Großes Kriegsschwert",
+			"description": "Sehr langes Schwert der Samurai, 1–1,80 Meter lang, das meist ein Diener trug."
+		},
+		{
+			"title": "nuki ashi",
+			"sort": "Nuki ashi",
+			"japanese": "抜き足",
+			"translation": "Lautloser Schritt"
+		},
+		{
+			"title": "nunchaku",
+			"sort": "Nunchaku",
+			"japanese": "双節棍",
+			"description": "Waffe aus dem <em>kobudō</em>: zwei Holzstücke, die mit einer kurzen Kette oder Schnur verbunden sind. Ob je ein Ninja sie benutzte, ist äußerst fraglich."
+		},
+		{
+			"title": "nuntebō",
+			"sort": "Nuntebo",
+			"description": "Fischerspeer: ein Werkzeug der Fischer, das sich auch als Waffe einsetzen ließ."
+		},
+		{
+			"title": "nyūdaki no jutsu",
+			"sort": "Nyudaki no jutsu",
+			"description": "Ausnutzen der Schwächen von Wachen, etwa ihrer Faulheit oder Dummheit."
+		},
+		{
+			"title": "nyūkyo no jutsu",
+			"sort": "Nyukyo no jutsu",
+			"translation": "Die Kunst der Invasion",
+			"description": "Abwarten des richtigen Zeitpunkts, um in eine feindliche Burg oder ein Lager einzudringen, etwa wenn die Streitmacht zu einem Feldzug aufgebrochen war."
+		},
+		{
+			"title": "ō",
+			"sort": "O",
+			"japanese": "大",
+			"translation": "Groß"
+		},
+		{
+			"title": "ō ashi",
+			"sort": "O ashi",
+			"japanese": "大足",
+			"translation": "Großer Schritt"
+		},
+		{
+			"title": "obi",
+			"sort": "Obi",
+			"japanese": "帯",
+			"translation": "Gürtel"
+		},
+		{
+			"title": "Oda Nobunaga",
+			"sort": "Oda Nobunaga",
+			"japanese": "織田信長",
+			"description": "Militärdiktator, der in der Sengoku-Zeit versuchte, die Macht in Japan an sich zu reißen. Der skrupellose Feldherr hielt den mittleren Teil Japans besetzt, errichtete eine Burg bei Kyōto und setzte ohne Bedenken europäische Feuerwaffen ein. Nach seinem Tod gelang es seinen Generälen, Japan zu einen."
+		},
+		{
+			"title": "ōgama",
+			"sort": "Ogama",
+			"japanese": "大鎌",
+			"translation": "Große Sichel",
+			"description": "Weit größere Version der <em>kusarigama</em> für das Schlachtfeld."
+		},
+		{
+			"title": "ōkami",
+			"sort": "Okami",
+			"japanese": "狼",
+			"translation": "Wolf"
+		},
+		{
+			"title": "Okinawa",
+			"sort": "Okinawa",
+			"japanese": "沖縄",
+			"description": "Inselgruppe im Süden Japans."
+		},
+		{
+			"title": "okuri ashi",
+			"sort": "Okuri ashi",
+			"japanese": "送り足",
+			"translation": "Nachsetzender Schritt"
+		},
+		{
+			"title": "ōmetsuke",
+			"sort": "Ometsuke",
+			"japanese": "大目付",
+			"description": "Beamte des <em>bakufu</em> bei der Staatspolizei. Ihnen unterstanden die Ninja, die nach dem Ende der Bürgerkriege in der Geheimpolizei dienten."
+		},
+		{
+			"title": "omote soku gyaku ken no keri",
+			"sort": "Omote soku gyaku ken no keri",
+			"description": "Tritt, bei dem die Fußsohle nach innen gedreht ist. Der Fuß schwingt von außen zur Mitte vor dem eigenen Körper und trifft den Gegner auf dieser Linie, etwa an der Innenseite des Oberschenkels."
+		},
+		{
+			"title": "ongyō no mono",
+			"sort": "Ongyo no mono",
+			"japanese": "隠形の者",
+			"translation": "Versteckte Personen",
+			"description": "Beiname der Ninja aus Kōga."
+		},
+		{
+			"title": "ongyō-in",
+			"sort": "Ongyo-in",
+			"japanese": "隠形印",
+			"translation": "Zeichen der verborgenen Form",
+			"description": "Handzeichen zu <em>zen</em> im <em>kuji-in</em>."
+		},
+		{
+			"title": "oni",
+			"sort": "Oni",
+			"japanese": "鬼",
+			"translation": "Dämon, Teufel, böser Geist"
+		},
+		{
+			"title": "oni kudaki",
+			"sort": "Oni kudaki",
+			"japanese": "鬼砕",
+			"translation": "Dämonenzerstörer",
+			"description": "Hebeltechnik."
+		},
+		{
+			"title": "onibi",
+			"sort": "Onibi",
+			"translation": "Teufelsmaske",
+			"description": "Grausige Holzmaske, mit der der Ninja seinen Verfolgern Schrecken einjagte."
+		},
+		{
+			"title": "onmyōdō",
+			"sort": "Onmyodo",
+			"japanese": "陰陽道",
+			"translation": "Wahrsagen und Astrologie"
+		},
+		{
+			"title": "ono",
+			"sort": "Ono",
+			"japanese": "斧",
+			"translation": "Streitaxt"
+		},
+		{
+			"title": "ono gama",
+			"sort": "Ono gama",
+			"japanese": "斧鎌",
+			"translation": "Axt und Sichel",
+			"description": "Kombinierte Waffe aus Streitaxt und Sichel."
+		},
+		{
+			"title": "onshin jutsu",
+			"sort": "Onshin jutsu",
+			"japanese": "隠身術",
+			"translation": "Die Kunst des Versteckens",
+			"description": "Die Kunst des Ninja, sich zu verstecken, zu tarnen und unsichtbar zu machen."
+		},
+		{
+			"title": "ōten",
+			"sort": "Oten",
+			"japanese": "横転",
+			"translation": "Radschlag"
+		},
+		{
+			"title": "ōtsuchi",
+			"sort": "Otsuchi",
+			"japanese": "大槌",
+			"translation": "Großer Hammer",
+			"description": "Kriegshammer, eine Waffe des Shinden-Fudō-Ryū."
+		},
+		{
+			"title": "ōzutsu",
+			"sort": "Ozutsu",
+			"japanese": "大筒",
+			"translation": "Holzkanone"
+		},
+		{
+			"title": "rakusha",
+			"sort": "Rakusha",
+			"japanese": "楽者",
+			"translation": "Bequeme Person",
+			"description": "Prinzip des <em>gojō goyoku</em>, das die Faulheit eines Menschen ausnutzt."
+		},
+		{
+			"title": "rappa",
+			"sort": "Rappa",
+			"japanese": "乱破",
+			"description": "Anderer Name für Ninja, etwa für die Guerillakämpfer im Gefolge von Fūma Kotarō. Auch <em>suppa</em>."
+		},
+		{
+			"title": "rei",
+			"sort": "Rei",
+			"japanese": "礼",
+			"translation": "Gruß, Verbeugung, Dank"
+		},
+		{
+			"title": "renzoku",
+			"sort": "Renzoku",
+			"japanese": "連続",
+			"translation": "Kontinuität, Kombination, Verkettung"
+		},
+		{
+			"title": "ritsudō",
+			"sort": "Ritsudo",
+			"japanese": "律動",
+			"translation": "Rhythmus, Gefühl"
+		},
+		{
+			"title": "roku shaku bō",
+			"sort": "Roku shaku bo",
+			"japanese": "六尺棒",
+			"translation": "Sechs <em>shaku</em> langer Stab",
+			"description": "Die gebräuchlichste Form des <em>bō</em>, etwa 1,82 Meter lang. <em>Roku</em> bedeutet sechs, <em>shaku</em> ist ein japanisches Längenmaß."
+		},
+		{
+			"title": "rōnin",
+			"sort": "Ronin",
+			"japanese": "浪人",
+			"translation": "Wellenmänner",
+			"description": "Herrenloser Samurai. Wer seinen Herrn (Daimyō) verloren hatte, zog durch das Land. Manche verdingten sich als Söldner, andere wurden Kampfkunstlehrer, einige Räuber, die Bauern ausplünderten."
+		},
+		{
+			"title": "ryakuhon jutsu",
+			"sort": "Ryakuhon jutsu",
+			"japanese": "略本術",
+			"description": "Taktik des <em>chikairi</em>: Der Ninja schlich sich ins feindliche Lager und gab sich dort als Verbündeter aus. Dazu musste man ihn dort bereits kennen, und er musste sich in der Gegend bestens auskennen."
+		},
+		{
+			"title": "ryō ashi tobi geri",
+			"sort": "Ryo ashi tobi geri",
+			"japanese": "両足飛び蹴り",
+			"translation": "Zweibeiniger Sprungtritt",
+			"description": "Sprungtritt, bei dem der Kämpfer mit beiden Beinen abspringt und sie zusammenhält. Die ganze Wucht des Körpers trifft den Gegner."
+		},
+		{
+			"title": "ryō yoku geri",
+			"sort": "Ryo yoku geri",
+			"translation": "Zweibeiniger Flügeltritt",
+			"description": "Tritt, der meist zum Einsatz kommt, wenn der Kämpfer von einem erhöhten Standpunkt auf den Gegner herabspringt."
+		},
+		{
+			"title": "ryōhan jutsu",
+			"sort": "Ryohan jutsu",
+			"description": "Taktik des <em>chikairi</em>: Der Ninja entführte eine Schlüsselfigur, um seine Bedingungen durchzusetzen. Andere Schlüsselfiguren mussten ihm dienen, sonst wurde das Opfer hingerichtet."
+		},
+		{
+			"title": "ryōte",
+			"sort": "Ryote",
+			"japanese": "両手",
+			"translation": "Beide Hände",
+			"description": "Beidhändig, etwa bei Fallübungen (<em>ukemi</em>)."
+		},
+		{
+			"title": "Ryū",
+			"sort": "Ryu",
+			"japanese": "流",
+			"translation": "Fachrichtung, Stil, Tradition"
+		},
+		{
+			"title": "ryūha",
+			"sort": "Ryuha",
+			"japanese": "流派",
+			"translation": "Schule einer Fachrichtung, eines Stils, einer Tradition",
+			"description": "Längere Form von Ryū."
+		},
+		{
+			"title": "ryūsui",
+			"sort": "Ryusui",
+			"japanese": "流水",
+			"translation": "Fließendes Wasser"
+		},
+		{
+			"title": "sabaki",
+			"sort": "Sabaki",
+			"japanese": "捌き",
+			"translation": "Körperbewegung"
+		},
+		{
+			"title": "sai",
+			"sort": "Sai",
+			"japanese": "釵",
+			"description": "Waffe aus dem <em>kobudō</em>."
+		},
+		{
+			"title": "Saichō",
+			"sort": "Saicho",
+			"japanese": "最澄",
+			"description": "Anderer Name für Dengyō Daishi."
+		},
+		{
+			"title": "Saiga Magoichi",
+			"sort": "Saiga Magoichi",
+			"japanese": "雑賀孫一",
+			"description": "Anführer der Saika-Schützen, oft zu den Ninja gezählt, mit besonderen Fähigkeiten im Umgang mit Feuerwaffen und Sprengstoffen. Seine Männer waren gute Scharfschützen. Er entwickelte das <em>shaki no jutsu</em>."
+		},
+		{
+			"title": "saimin jutsu",
+			"sort": "Saimin jutsu",
+			"japanese": "催眠術",
+			"translation": "Kunst der Hypnose"
+		},
+		{
+			"title": "sake",
+			"sort": "Sake",
+			"japanese": "酒",
+			"translation": "Reiswein, Alkohol"
+		},
+		{
+			"title": "sakki",
+			"sort": "Sakki",
+			"japanese": "殺気",
+			"translation": "Tötungsabsicht",
+			"description": "Nach ihm ist im Bujinkan der Test zum fünften Dan benannt: Der Schüler muss einem Schwert ausweichen, ohne es zu sehen. Hatsumi Masaaki legte ihn bei Takamatsu Toshitsugu ab."
+		},
+		{
+			"title": "sakki jutsu",
+			"sort": "Sakki jutsu",
+			"japanese": "察気術",
+			"translation": "Die Kunst, den Geist zu erraten",
+			"description": "Intuitives Sehen, das es dem Kämpfer erlaubt, einem Schlag auszuweichen, bevor er ausgeführt wird."
+		},
+		{
+			"title": "samurai",
+			"sort": "Samurai",
+			"japanese": "侍",
+			"description": "Japanische Kriegerklasse."
+		},
+		{
+			"title": "san shaku bō",
+			"sort": "San shaku bo",
+			"japanese": "三尺棒",
+			"translation": "Drei <em>shaku</em> langer Stab",
+			"description": "Stock von drei <em>shaku</em> Länge, etwa 91 Zentimeter. Ein anderer Name ist <em>hanbō</em>."
+		},
+		{
+			"title": "san shitan ken",
+			"sort": "San shitan ken",
+			"japanese": "三指端拳",
+			"description": "Variante des <em>shitan ken</em> mit drei Fingern."
+		},
+		{
+			"title": "sanmitsu",
+			"sort": "Sanmitsu",
+			"japanese": "三密",
+			"translation": "Die drei Geheimnisse",
+			"description": "Die drei Kräfte des <em>mikkyō</em>: Gedanke, Wort und Tat. Für sie stehen <em>mandala</em>, <em>mantra</em> und <em>mudrā</em>."
+		},
+		{
+			"title": "sanmyaku",
+			"sort": "Sanmyaku",
+			"japanese": "山脈",
+			"translation": "Gebirgskette",
+			"description": "Name des offiziellen Magazins des Bujinkan."
+		},
+		{
+			"title": "sanpō hiden",
+			"sort": "Sanpo hiden",
+			"japanese": "三法秘伝",
+			"description": "Die drei geheimen Schätze des Togakure-Ryū: der Wurfstern <em>senban shuriken</em>, die Klauen <em>shukō</em> und das Bambusrohr <em>shindake</em>."
+		},
+		{
+			"title": "sansa jutsu",
+			"sort": "Sansa jutsu",
+			"japanese": "散策術",
+			"description": "Lauftechniken der Ninja."
+		},
+		{
+			"title": "sanshin no kata",
+			"sort": "Sanshin no kata",
+			"japanese": "三心の型",
+			"translation": "Drei-Herz-Form"
+		},
+		{
+			"title": "sashi ashi",
+			"sort": "Sashi ashi",
+			"japanese": "差し足",
+			"translation": "Verborgene Schritte",
+			"description": "Überkreuzschritt."
+		},
+		{
+			"title": "satobito jutsu",
+			"sort": "Satobito jutsu",
+			"japanese": "里人術",
+			"description": "Taktik des <em>tōiri</em>: Der Ninja nahm einen unzufriedenen, geldgierigen oder ehrgeizigen Untertanen des feindlichen Herrschers in seine Dienste. Solche Leute lieferten Informationen, hielten Fluchtwege frei oder versorgten ihn mit Material."
+		},
+		{
+			"title": "satori",
+			"sort": "Satori",
+			"japanese": "悟り",
+			"translation": "Begreifen, Verstehen, Erleuchtung"
+		},
+		{
+			"title": "saya",
+			"sort": "Saya",
+			"japanese": "鞘",
+			"translation": "Schwertscheide"
+		},
+		{
+			"title": "sayū kaiten",
+			"sort": "Sayu kaiten",
+			"japanese": "左右廻転",
+			"translation": "Links-rechts-Rolle"
+		},
+		{
+			"title": "seigan no kamae",
+			"sort": "Seigan no kamae",
+			"japanese": "正眼の構え",
+			"description": "Stellung, die auf die Augen des Gegners ausgerichtet ist."
+		},
+		{
+			"title": "Seii taishōgun",
+			"sort": "Seii taishogun",
+			"japanese": "征夷大将軍",
+			"translation": "Shōgun zur Niederwerfung der Barbaren",
+			"description": "Ursprünglich der Titel des Oberbefehlshabers des Heeres, später zu Shōgun verkürzt."
+		},
+		{
+			"title": "seishin teki kyōyō",
+			"sort": "Seishin teki kyoyo",
+			"japanese": "精神的教養",
+			"translation": "Entwicklung von Geist und Intuition",
+			"description": "Die erste der 18 Disziplinen des <em>ninja jūhakkei</em>."
+		},
+		{
+			"title": "seiza no kamae",
+			"sort": "Seiza no kamae",
+			"japanese": "正座の構え",
+			"translation": "Die korrekte Sitzhaltung",
+			"description": "Kniesitz, eine Stellung (<em>kamae</em>) des Ninjutsu."
+		},
+		{
+			"title": "Sekigahara",
+			"sort": "Sekigahara",
+			"japanese": "関ヶ原",
+			"description": "Kleines Dorf in der Provinz Mino, bei dem Tokugawa Ieyasu den endgültigen Sieg über seine Feinde errang."
+		},
+		{
+			"title": "senban",
+			"sort": "Senban",
+			"japanese": "銛盤",
+			"description": "Wurfstern (<em>shuriken</em>) mit vier Spitzen."
+		},
+		{
+			"title": "senban shaken",
+			"sort": "Senban shaken",
+			"japanese": "銛盤捨剣",
+			"description": "Wurfstern (<em>shuriken</em>) mit einem Loch in der Mitte."
+		},
+		{
+			"title": "Sengoku jidai",
+			"sort": "Sengoku jidai",
+			"japanese": "戦国時代",
+			"translation": "Zeit der streitenden Reiche",
+			"description": "Die Zeit der blutigen Bürgerkriege in Japan, etwa 1467–1615."
+		},
+		{
+			"title": "senjō jutsu",
+			"sort": "Senjo jutsu",
+			"japanese": "戦場術",
+			"translation": "Die Kunst des Schlachtfelds",
+			"description": "Manövrieren von Truppen."
+		},
+		{
+			"title": "senjutsu",
+			"sort": "Senjutsu",
+			"japanese": "戦術",
+			"translation": "Die Kunst des Krieges",
+			"description": "Kriegsstrategie."
+		},
+		{
+			"title": "sennin",
+			"sort": "Sennin",
+			"japanese": "仙人",
+			"translation": "Asket in der Wildnis"
+		},
+		{
+			"title": "sensei",
+			"sort": "Sensei",
+			"japanese": "先生",
+			"translation": "Früher geboren",
+			"description": "Lehrer."
+		},
+		{
+			"title": "sha",
+			"sort": "Sha",
+			"japanese": "者",
+			"translation": "Person"
+		},
+		{
+			"title": "shaken",
+			"sort": "Shaken",
+			"japanese": "車剣",
+			"description": "Mehrzackiger Wurfstern (<em>shuriken</em>)."
+		},
+		{
+			"title": "shaki no jutsu",
+			"sort": "Shaki no jutsu",
+			"japanese": "捨旗の術",
+			"translation": "Das Wegwerfen der Flaggen",
+			"description": "List von Saiga Magoichi in der Schlacht von Naniwa Kanzakigawa: Seine Männer ließen ihre eigenen Flaggen zurück und bezogen ihre neue Stellung unter gefälschten Flaggen Oda Nobunagas, dessen Truppen sie für Verbündete hielten."
+		},
+		{
+			"title": "shako ken",
+			"sort": "Shako ken",
+			"japanese": "蝦蛄拳",
+			"translation": "Krabbenfaust"
+		},
+		{
+			"title": "shaku",
+			"sort": "Shaku",
+			"japanese": "尺",
+			"description": "Japanisches Längenmaß. Ein <em>shaku</em> misst 30,3 Zentimeter (10/33 Meter)."
+		},
+		{
+			"title": "shakuhachi",
+			"sort": "Shakuhachi",
+			"japanese": "尺八",
+			"description": "Flöte der <em>komusō</em>. Der Name bedeutet <q>ein <em>shaku</em> acht <em>sun</em></q>, also rund 54,5 Zentimeter; die übliche Flöte hat fünf Grifflöcher."
+		},
+		{
+			"title": "shakujō",
+			"sort": "Shakujo",
+			"japanese": "錫杖",
+			"translation": "Zinnstab",
+			"description": "Priesterstab mit Ringen am Ende. Ihr Klirren beim Gehen sollte Kriechtiere vom Weg vertreiben, damit die buddhistischen Mönche das Gebot des Nichttötens einhalten konnten."
+		},
+		{
+			"title": "shi shitan ken",
+			"sort": "Shi shitan ken",
+			"japanese": "四指端拳",
+			"description": "Variante des <em>shitan ken</em>, vom Daumen gestützt."
+		},
+		{
+			"title": "shiatsu",
+			"sort": "Shiatsu",
+			"japanese": "指圧",
+			"translation": "Fingerdruck",
+			"description": "Japanische Massage, die durch Druck auf bestimmte Körperstellen eine Ohnmacht und andere Leiden lindern oder heilen soll."
+		},
+		{
+			"title": "shiba gakure no jutsu",
+			"sort": "Shiba gakure no jutsu",
+			"japanese": "柴隠れの術",
+			"description": "Technik des <em>onshin jutsu</em> aus den Überlieferungen von Iga und Kōga: Verbergen in dichtem Gestrüpp, hohem Gras oder Reisighaufen."
+		},
+		{
+			"title": "shichi hō de",
+			"sort": "Shichi ho de",
+			"japanese": "七方出",
+			"translation": "Die sieben Wege des Gehens",
+			"description": "Die sieben traditionellen Verkleidungen der Ninja."
+		},
+		{
+			"title": "shidōshi",
+			"sort": "Shidoshi",
+			"japanese": "指導士",
+			"translation": "Wegweisender Lehrer",
+			"description": "Lehrer der Kriegskunst der Erleuchtung."
+		},
+		{
+			"title": "shihan",
+			"sort": "Shihan",
+			"japanese": "師範",
+			"translation": "Meisterlehrer",
+			"description": "Kaiser Higashiyama ernannte Takagi Oriemon Shigenobu 1695 zum <em>shihan</em> der kaiserlichen Leibwache."
+		},
+		{
+			"title": "shihō tenchi tobi",
+			"sort": "Shiho tenchi tobi",
+			"japanese": "四方天地飛",
+			"translation": "Sprung in vier Richtungen, zum Himmel und zur Erde"
+		},
+		{
+			"title": "shikan ken",
+			"sort": "Shikan ken",
+			"japanese": "指環拳",
+			"translation": "Finger-Ring-Faust"
+		},
+		{
+			"title": "shiken haramitsu daikōmyō",
+			"sort": "Shiken haramitsu daikomyo",
+			"japanese": "四拳波羅蜜大光明",
+			"description": "Worte, die zu Beginn eines Trainings gesprochen werden. Stark vereinfacht bedeuten sie <q>Wir bitten um Schutz und Erleuchtung</q>."
+		},
+		{
+			"title": "shikomizue",
+			"sort": "Shikomizue",
+			"japanese": "仕込み杖",
+			"translation": "Schwertstock",
+			"description": "In einem Stab verborgenes Schwert."
+		},
+		{
+			"title": "shikoro",
+			"sort": "Shikoro",
+			"japanese": "錏",
+			"description": "Dünne Säge, mit der die Ninja durch Holzwände und Holztüren kamen."
+		},
+		{
+			"title": "Shimabara no ran",
+			"sort": "Shimabara no ran",
+			"japanese": "島原の乱",
+			"translation": "Aufstand von Shimabara",
+			"description": "Aufstand der Christen 1637–1638 auf der Halbinsel Shimabara. Eigentlich ein Bauernaufstand, diente er als Anlass für die Christenverfolgung."
+		},
+		{
+			"title": "shime ashi",
+			"sort": "Shime ashi",
+			"japanese": "締め足",
+			"translation": "Fester Schritt"
+		},
+		{
+			"title": "shime waza",
+			"sort": "Shime waza",
+			"japanese": "絞め技",
+			"translation": "Würgegriffe"
+		},
+		{
+			"title": "shinai",
+			"sort": "Shinai",
+			"japanese": "竹刀",
+			"translation": "Bambusschwert",
+			"description": "Schwert aus mehreren Bambusstäben, die mit Leder und Schnüren zusammengehalten und gespannt werden. Es wird im Kendō verwendet."
+		},
+		{
+			"title": "shinbō",
+			"sort": "Shinbo",
+			"japanese": "神棒",
+			"translation": "Götterstab",
+			"description": "Faustwaffe mit einem Ring für den Mittelfinger."
+		},
+		{
+			"title": "Shinden-Fudō-Ryū",
+			"sort": "Shinden-Fudo-Ryu",
+			"japanese": "神伝不動流",
+			"translation": "Die Schule des unbewegten Herzens",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "shingitai",
+			"sort": "Shingitai",
+			"japanese": "心技体",
+			"translation": "Herz, Technik, Körper",
+			"description": "Eines der wichtigsten Prinzipien der Kampfkünste."
+		},
+		{
+			"title": "Shingon",
+			"sort": "Shingon",
+			"japanese": "真言",
+			"translation": "Schule des wahren Wortes",
+			"description": "Buddhistische Sekte, die Kōbō Daishi gründete."
+		},
+		{
+			"title": "shinken gata taihen jutsu",
+			"sort": "Shinken gata taihen jutsu",
+			"japanese": "真剣型体変術",
+			"translation": "Form mit echter Klinge"
+		},
+		{
+			"title": "shinobi",
+			"sort": "Shinobi",
+			"japanese": "忍び",
+			"translation": "Hineinschleichen, ausspionieren, heimlich betreten, dulden",
+			"description": "Kurzform für Ninja."
+		},
+		{
+			"title": "shinobi bune",
+			"sort": "Shinobi bune",
+			"japanese": "忍び舟",
+			"translation": "Geheimes Boot",
+			"description": "Leichtes, schmales Boot."
+		},
+		{
+			"title": "shinobi iri",
+			"sort": "Shinobi iri",
+			"japanese": "忍び入り",
+			"translation": "Geheimes Eintreten",
+			"description": "Die Techniken der Ninja, sich lautlos zu bewegen."
+		},
+		{
+			"title": "shinobi jutsu",
+			"sort": "Shinobi jutsu",
+			"japanese": "忍び術",
+			"translation": "Geheime Künste",
+			"description": "Sammelbegriff für die verschiedenen Künste der Ninja."
+		},
+		{
+			"title": "shinobi kai",
+			"sort": "Shinobi kai",
+			"japanese": "忍び櫂",
+			"translation": "Geheimes Paddel",
+			"description": "Hohler Bambusstab mit Eisenteilen darin, die sich schnell zu einem Paddel zusammensetzen ließen."
+		},
+		{
+			"title": "shinobi katana",
+			"sort": "Shinobi katana",
+			"japanese": "忍び刀",
+			"translation": "Geheimes Schwert",
+			"description": "Schwert der Ninja."
+		},
+		{
+			"title": "shinobi kenpō",
+			"sort": "Shinobi kenpo",
+			"japanese": "忍び剣法",
+			"translation": "Geheime Schwertmethoden",
+			"description": "Schwertkunst der Ninja."
+		},
+		{
+			"title": "shinobi no buki",
+			"sort": "Shinobi no buki",
+			"japanese": "忍びの武器",
+			"translation": "Geheime Kriegswerkzeuge",
+			"description": "Die Waffen der Ninja."
+		},
+		{
+			"title": "shinobi no jutsu",
+			"sort": "Shinobi no jutsu",
+			"japanese": "忍びの術",
+			"translation": "Geheime Kunst",
+			"description": "Sammelbegriff für die verschiedenen Künste der Ninja. Der Überlieferung nach entstand der Name unter Shōtoku Taishi."
+		},
+		{
+			"title": "shinobi shobō",
+			"sort": "Shinobi shobo",
+			"japanese": "忍び小棒",
+			"translation": "Geheimer kleiner Stab",
+			"description": "Faustwaffe und Vorläufer des Schlagrings: Der Mittelfinger steckt in einem Stahlring, der Rest der Waffe liegt verborgen in der Faust."
+		},
+		{
+			"title": "shinobi shōzoku",
+			"sort": "Shinobi shozoku",
+			"japanese": "忍び装束",
+			"translation": "Geheimes Kleidungsbündel",
+			"description": "Dunkler Kampfanzug der Ninja, im Winter hellgrau oder weiß. Auch <em>ninniku yoroi</em>."
+		},
+		{
+			"title": "shinobi tantō",
+			"sort": "Shinobi tanto",
+			"japanese": "忍び短刀",
+			"translation": "Geheimes Kurzschwert",
+			"description": "In einem Stab verborgener Dolch (<em>tantō</em>)."
+		},
+		{
+			"title": "shinobi yari",
+			"sort": "Shinobi yari",
+			"japanese": "忍び槍",
+			"description": "Speer der Ninja."
+		},
+		{
+			"title": "shinobi zue",
+			"sort": "Shinobi zue",
+			"japanese": "忍び杖",
+			"translation": "Geheimer Stab",
+			"description": "Hohler Bambusstab, in dem Waffen oder Blendpulver versteckt waren."
+		},
+		{
+			"title": "shinobu",
+			"sort": "Shinobu",
+			"japanese": "忍",
+			"translation": "Ausdauer, Duldsamkeit, Geduld, Selbstbeherrschung, ertragen, verbergen, Spion, schleichen"
+		},
+		{
+			"title": "Shintō",
+			"sort": "Shinto",
+			"japanese": "神道",
+			"translation": "Weg der Götter",
+			"description": "Japanische Religion, die in allen Erscheinungsformen höhere Geister sieht. Eingedeutscht <q>Shintoismus</q>."
+		},
+		{
+			"title": "shishi undō",
+			"sort": "Shishi undo",
+			"japanese": "四肢運動",
+			"translation": "Bewegung der vier Glieder",
+			"description": "Bewegung von Armen und Beinen."
+		},
+		{
+			"title": "shishin ken",
+			"sort": "Shishin ken",
+			"japanese": "指針拳",
+			"translation": "Fingernadelfaust"
+		},
+		{
+			"title": "shitan ken",
+			"sort": "Shitan ken",
+			"japanese": "指端拳",
+			"translation": "Fingerspitzenfaust"
+		},
+		{
+			"title": "shitō ken",
+			"sort": "Shito ken",
+			"japanese": "指刀拳",
+			"translation": "Fingerschwertfaust"
+		},
+		{
+			"title": "shizen ken",
+			"sort": "Shizen ken",
+			"japanese": "自然拳",
+			"translation": "Natürliche Waffen",
+			"description": "Die natürlichen Waffen des Körpers wie Schulter, Körpergewicht oder Nägel."
+		},
+		{
+			"title": "shizen kōun ryūsui",
+			"sort": "Shizen koun ryusui",
+			"japanese": "自然行雲流水",
+			"translation": "Natürlich mit den Gezeiten gehen"
+		},
+		{
+			"title": "shizen no kamae",
+			"sort": "Shizen no kamae",
+			"japanese": "自然の構え",
+			"translation": "Natürliche Stellung",
+			"description": "Stellung (<em>kamae</em>) des Ninjutsu."
+		},
+		{
+			"title": "shizentai",
+			"sort": "Shizentai",
+			"japanese": "自然体",
+			"translation": "Natürlicher Körper",
+			"description": "Entspannte, natürliche Stellung."
+		},
+		{
+			"title": "shō",
+			"sort": "Sho",
+			"japanese": "小",
+			"translation": "Klein"
+		},
+		{
+			"title": "shobō",
+			"sort": "Shobo",
+			"japanese": "小棒",
+			"translation": "Kleiner Stab",
+			"description": "Faustwaffe."
+		},
+		{
+			"title": "shōgun",
+			"sort": "Shogun",
+			"japanese": "将軍",
+			"translation": "General der Truppen",
+			"description": "Militärischer Befehlshaber Japans."
+		},
+		{
+			"title": "shoshin go gata",
+			"sort": "Shoshin go gata",
+			"japanese": "初心五型",
+			"translation": "Fünf Formen des Anfängergeistes"
+		},
+		{
+			"title": "shōten",
+			"sort": "Shoten",
+			"japanese": "昇天",
+			"description": "Hochlaufen an senkrechten Flächen, eine Übung des <em>ukemi</em>."
+		},
+		{
+			"title": "shōten no jutsu",
+			"sort": "Shoten no jutsu",
+			"japanese": "昇天の術",
+			"translation": "Die Kunst, in den Himmel zu steigen",
+			"description": "Hochlaufen an einer Mauer, einem Zaun, einem Baum oder einem Menschen. Mit genug Schwung springt man das Hindernis an, drückt sich mit den Beinen hoch und springt darüber hinweg. Eine Übung aus dem modernen Training, auch <em>shōten jutsu</em>."
+		},
+		{
+			"title": "Shōtoku Taishi",
+			"sort": "Shotoku Taishi",
+			"japanese": "聖徳太子",
+			"description": "Prinzregent (574–622). Er soll als Erster Agenten eingesetzt haben, um bei Streitfragen die wahren Hintergründe zu erfahren."
+		},
+		{
+			"title": "shu ken",
+			"sort": "Shu ken",
+			"translation": "Schnabelfaust"
+		},
+		{
+			"title": "shugendō",
+			"sort": "Shugendo",
+			"japanese": "修験道",
+			"translation": "Der Weg, sich selbst zu prüfen",
+			"description": "Esoterische Lehre und Form der Askese, die vor allem die <em>yamabushi</em> ausübten."
+		},
+		{
+			"title": "shuki ken",
+			"sort": "Shuki ken",
+			"japanese": "手起拳",
+			"translation": "Ellenbogenfaust"
+		},
+		{
+			"title": "shukō",
+			"sort": "Shuko",
+			"japanese": "手鉤",
+			"translation": "Handkralle",
+			"description": "Klauen zum Klettern und Kämpfen, einer der drei geheimen Schätze des Togakure-Ryū. Auch <em>tekagi</em>."
+		},
+		{
+			"title": "shuriken",
+			"sort": "Shuriken",
+			"japanese": "手裏剣",
+			"translation": "Handflächenklinge",
+			"description": "Wurfklingen der Ninja, in den verschiedensten Formen und Größen."
+		},
+		{
+			"title": "shutō ken",
+			"sort": "Shuto ken",
+			"japanese": "手刀拳",
+			"description": "Schlag mit der Handkante, derselbe Schlag wie <em>kiten ken</em>."
+		},
+		{
+			"title": "sodezutsu",
+			"sort": "Sodezutsu",
+			"japanese": "袖筒",
+			"description": "Handkanone."
+		},
+		{
+			"title": "sōhei",
+			"sort": "Sohei",
+			"japanese": "僧兵",
+			"translation": "Buddhistische Mönchskrieger",
+			"description": "Kriegermönche und Söldner im Dienst von Klöstern."
+		},
+		{
+			"title": "sōke",
+			"sort": "Soke",
+			"japanese": "宗家",
+			"translation": "Familienoberhaupt, Begründer",
+			"description": "Oberhaupt eines Ryū."
+		},
+		{
+			"title": "sokki ken",
+			"sort": "Sokki ken",
+			"japanese": "足起拳",
+			"translation": "Kniefaust"
+		},
+		{
+			"title": "soku gyaku ken",
+			"sort": "Soku gyaku ken",
+			"japanese": "足逆拳",
+			"translation": "Umgekehrter Fuß",
+			"description": "Tritt mit den Zehenspitzen gegen weiche Ziele wie Bauch oder Hals; ein Begriff aus dem Bujinkan."
+		},
+		{
+			"title": "soku yaku ken",
+			"sort": "Soku yaku ken",
+			"japanese": "足躍拳",
+			"translation": "Tanzender Fuß",
+			"description": "Tritt mit Ferse und Fußsohle in halbweiche oder harte Ziele, etwa von oben gegen das Knie; ein Begriff aus dem Bujinkan."
+		},
+		{
+			"title": "sokuhō geri",
+			"sort": "Sokuho geri",
+			"japanese": "側方蹴り",
+			"translation": "Seitwärtstritt",
+			"description": "Tritt, bei dem das Bein seitwärts heraustritt, während der Oberkörper nach vorn gerichtet bleibt."
+		},
+		{
+			"title": "sokuhō kaiten",
+			"sort": "Sokuho kaiten",
+			"japanese": "側方回転",
+			"translation": "Seitwärtsrolle"
+		},
+		{
+			"title": "sokuhō kiten",
+			"sort": "Sokuho kiten",
+			"japanese": "側方起転",
+			"description": "Seitlicher Überschlag über die Hände, eine Übung des <em>ukemi</em>."
+		},
+		{
+			"title": "sokuhō tobi",
+			"sort": "Sokuho tobi",
+			"japanese": "側方飛び",
+			"translation": "Seitwärtssprung",
+			"description": "Flacher Sprung zur Seite, eine Übung des <em>ukemi</em>."
+		},
+		{
+			"title": "sokuhō ukemi",
+			"sort": "Sokuho ukemi",
+			"japanese": "側方受身",
+			"translation": "Seitwärtsfall"
+		},
+		{
+			"title": "sokuyaku suitei ken",
+			"sort": "Sokuyaku suitei ken",
+			"translation": "Horizontaler Tritt",
+			"description": "Das Bein tritt waagerecht nach vorn, der Fuß trifft das Ziel von der Seite."
+		},
+		{
+			"title": "Sonshi",
+			"sort": "Sonshi",
+			"japanese": "孫子",
+			"description": "Japanischer Name für Sun Tzu, der der Überlieferung nach im 6. Jahrhundert v. Chr. <cite>Die Kunst des Krieges</cite> verfasste. Das Werk gelangte früh nach Japan und soll die Anfänge des Ninjutsu geprägt haben."
+		},
+		{
+			"title": "soshin sosoku hō",
+			"sort": "Soshin sosoku ho",
+			"japanese": "早心早速法",
+			"translation": "Methoden, sich schnell zu bewegen"
+		},
+		{
+			"title": "Sugitani Zenjūbō",
+			"sort": "Sugitani Zenjubo",
+			"japanese": "杉谷善住坊",
+			"description": "Berühmter Ninja, der 1570 Oda Nobunaga mit zwei Kugeln töten wollte. Beide trafen nur sein Schulterpolster."
+		},
+		{
+			"title": "sui",
+			"sort": "Sui",
+			"japanese": "水",
+			"translation": "Wasser"
+		},
+		{
+			"title": "sui no kata",
+			"sort": "Sui no kata",
+			"japanese": "水の型",
+			"translation": "Wasser-Form"
+		},
+		{
+			"title": "suikatsugan",
+			"sort": "Suikatsugan",
+			"japanese": "水渇丸",
+			"translation": "Durstpille",
+			"description": "Pille gegen den Durst aus dem Fruchtfleisch eingelegter Pflaumen, Zucker und Schlangenbartwurzel, deren Rezept das <cite>Bansenshūkai</cite> überliefert. Sie hielt Mund und Kehle feucht."
+		},
+		{
+			"title": "suiki",
+			"sort": "Suiki",
+			"japanese": "水器",
+			"translation": "Wasserwerkzeuge",
+			"description": "Abschnitt des neunten Bandes des <cite>Bansenshūkai</cite> über die Wasserausrüstung. Er beruht zu einem großen Teil auf Ratschlägen von Piraten und zeigt, wie man Flüsse überquert oder sich unter Wasser fortbewegt."
+		},
+		{
+			"title": "suiren",
+			"sort": "Suiren",
+			"japanese": "水練",
+			"translation": "Wassertraining",
+			"description": "Aufenthalt und Bewegung unter Wasser."
+		},
+		{
+			"title": "suiton",
+			"sort": "Suiton",
+			"japanese": "水遁",
+			"description": "Flucht mit Hilfe des Wassers, eine der fünf Methoden des <em>gotonpō</em>."
+		},
+		{
+			"title": "suiton jutsu",
+			"sort": "Suiton jutsu",
+			"japanese": "水遁術",
+			"translation": "Wasserfluchttechnik",
+			"description": "Fluchttechnik des <em>gotonpō</em>, die Wasser als Fluchtmittel nutzt."
+		},
+		{
+			"title": "suppa",
+			"sort": "Suppa",
+			"japanese": "透波",
+			"description": "Anderer Name für Ninja, etwa für die Guerillakämpfer im Gefolge von Fūma Kotarō oder im Dienst der Familie Takeda. Auch <em>rappa</em>."
+		},
+		{
+			"title": "tabi",
+			"sort": "Tabi",
+			"japanese": "足袋",
+			"translation": "Fußbeutel",
+			"description": "Japanische Zehensocken, bei denen der große Zeh von den übrigen getrennt ist."
+		},
+		{
+			"title": "tachi",
+			"sort": "Tachi",
+			"japanese": "太刀",
+			"translation": "Langschwert",
+			"description": "Schwert ähnlich der <em>katana</em>, meist stärker gebogen und auf dem Schlachtfeld getragen. Zeremoniell geschmückt und sehr kunstvoll gearbeitet."
+		},
+		{
+			"title": "tachi nagare",
+			"sort": "Tachi nagare",
+			"japanese": "立ち流れ",
+			"translation": "Fließen aus dem Stand",
+			"description": "Form des <em>nagare</em>: aus dem Stand nach hinten fallen."
+		},
+		{
+			"title": "tai",
+			"sort": "Tai",
+			"japanese": "体",
+			"translation": "Körper, Gesundheit"
+		},
+		{
+			"title": "tai ken",
+			"sort": "Tai ken",
+			"japanese": "体拳",
+			"translation": "Körperfaust"
+		},
+		{
+			"title": "tai sabaki",
+			"sort": "Tai sabaki",
+			"japanese": "体捌き",
+			"translation": "Körperführung",
+			"description": "Rumpfbewegung."
+		},
+		{
+			"title": "taihen jutsu",
+			"sort": "Taihen jutsu",
+			"japanese": "体変術",
+			"translation": "Die Kunst der Körperveränderung",
+			"description": "Teil des <em>taijutsu</em>: Stellungen, Haltungen, Bewegungen und Falltechniken."
+		},
+		{
+			"title": "taijutsu",
+			"sort": "Taijutsu",
+			"japanese": "体術",
+			"translation": "Körperkunst",
+			"description": "Der waffenlose Kampf."
+		},
+		{
+			"title": "taikai",
+			"sort": "Taikai",
+			"japanese": "大会",
+			"translation": "Großes Treffen",
+			"description": "Treffen von Kämpfern bei Veranstaltungen."
+		},
+		{
+			"title": "Taira",
+			"sort": "Taira",
+			"japanese": "平",
+			"description": "Berühmte Familie, auch Heike genannt, die mit den Minamoto im Krieg lag."
+		},
+		{
+			"title": "taizōkai mandara",
+			"sort": "Taizokai mandara",
+			"japanese": "胎蔵界曼荼羅",
+			"translation": "Mandala der Mutterschoßwelt",
+			"description": "Steht im <em>sanmitsu</em> für die stoffliche Welt, die <q>Welt des Nährbodens</q>."
+		},
+		{
+			"title": "taka bashigo",
+			"sort": "Taka bashigo",
+			"japanese": "高梯子",
+			"translation": "Hohe Leiter",
+			"description": "Leiter, mit der die Ninja über Abgründe kamen. Ein zusätzliches Seil verstärkte ihre Mitte."
+		},
+		{
+			"title": "Takagi-Yōshin-Ryū",
+			"sort": "Takagi-Yoshin-Ryu",
+			"japanese": "高木楊心流",
+			"translation": "Die Schule von hohem Baum und Weidengeist",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "Takamatsu Toshitsugu",
+			"sort": "Takamatsu Toshitsugu",
+			"japanese": "高松寿嗣",
+			"description": "Lehrer verschiedener Ninjutsu-Stile und Meister von Hatsumi Masaaki. Ihm zu Ehren heißt die Sammlung der neun Ryū <q>Bujinkan</q>."
+		},
+		{
+			"title": "Takeda Shingen",
+			"sort": "Takeda Shingen",
+			"japanese": "武田信玄",
+			"description": "Berühmter Feldherr (Daimyō), der in der Sengoku-Zeit eine Reihe von Kriegen führte."
+		},
+		{
+			"title": "tanagokoro",
+			"sort": "Tanagokoro",
+			"japanese": "掌",
+			"translation": "Handfläche",
+			"description": "Handflächenfackel, die besonders beim Aufbrechen von Türschlössern gute Dienste leistete."
+		},
+		{
+			"title": "tanegashima",
+			"sort": "Tanegashima",
+			"japanese": "種子島",
+			"translation": "Luntenschloss, Arkebuse, Hakenbüchse",
+			"description": "Arkebuse, die die Portugiesen nach Japan brachten. Auch <em>teppō</em>."
+		},
+		{
+			"title": "tantō",
+			"sort": "Tanto",
+			"japanese": "短刀",
+			"translation": "Kleines Schwert",
+			"description": "Dolch."
+		},
+		{
+			"title": "tantōjutsu",
+			"sort": "Tantojutsu",
+			"japanese": "短刀術",
+			"translation": "Kunst des Dolchs",
+			"description": "Techniken des Messerkampfs."
+		},
+		{
+			"title": "tantra",
+			"sort": "Tantra",
+			"sanskrit": "तन्त्र",
+			"translation": "Gewebe, Kontinuum, Zusammenhang",
+			"description": "Strömung der indischen Philosophie und Religion, ursprünglich eine esoterische Form des Hinduismus, später in den tibetischen Buddhismus übernommen."
+		},
+		{
+			"title": "tanuki gakure no jutsu",
+			"sort": "Tanuki gakure no jutsu",
+			"japanese": "狸隠",
+			"translation": "Die Kunst, sich wie ein Marderhund zu verstecken",
+			"description": "Klettertechnik der Ninja: Bäume und Masten erklettern und sich in der Höhe verstecken."
+		},
+		{
+			"title": "taru ikada",
+			"sort": "Taru ikada",
+			"japanese": "樽筏",
+			"translation": "Fassfloß",
+			"description": "Wasserwerkzeug der Ninja aus zwei Fässern: In jedem steckte ein Fuß, und mit einem Paddel bewegte sich der Ninja über das Wasser. Auch <em>uki daru</em>."
+		},
+		{
+			"title": "tatami",
+			"sort": "Tatami",
+			"japanese": "畳",
+			"translation": "Reisstrohmatten",
+			"description": "Bodenbelag in japanischen Häusern und im Dōjō."
+		},
+		{
+			"title": "tatami bune",
+			"sort": "Tatami bune",
+			"translation": "Faltboot",
+			"description": "Anderer Name für das <em>hasami bune</em>."
+		},
+		{
+			"title": "tatami gama",
+			"sort": "Tatami gama",
+			"translation": "Klappsichel",
+			"description": "Sichel (<em>kama</em>) mit Holzgriff, deren gebogene Klinge sich aufklappen lässt. Der Name ist eine moderne Beschreibung und in den Ninja-Handbüchern nicht belegt."
+		},
+		{
+			"title": "tebukuro",
+			"sort": "Tebukuro",
+			"japanese": "手袋",
+			"translation": "Handschutz",
+			"description": "Kleidungsstück, das die Außenseiten der Hände und die Unterarme des Ninja bedeckte."
+		},
+		{
+			"title": "tekagi",
+			"sort": "Tekagi",
+			"japanese": "手鉤",
+			"translation": "Handkralle",
+			"description": "Auch <em>shukō</em>."
+		},
+		{
+			"title": "tekken",
+			"sort": "Tekken",
+			"japanese": "鉄拳",
+			"description": "Schlagring. Auch <em>tekkō</em>."
+		},
+		{
+			"title": "tekkō",
+			"sort": "Tekko",
+			"japanese": "鉄甲",
+			"description": "Schlagring. Auch <em>tekken</em>."
+		},
+		{
+			"title": "ten",
+			"sort": "Ten",
+			"japanese": "天",
+			"translation": "Himmel"
+		},
+		{
+			"title": "Ten ryaku no maki",
+			"sort": "Ten ryaku no maki",
+			"japanese": "天略の巻",
+			"translation": "Schriftrolle der himmlischen Strategien"
+		},
+		{
+			"title": "Tendai",
+			"sort": "Tendai",
+			"japanese": "天台",
+			"translation": "Himmelssockel",
+			"description": "Esoterische buddhistische Sekte des <em>mikkyō</em>, in Japan von Dengyō Daishi begründet. Ihr Zentrum war das Kloster Enryakuji auf dem Berg Hiei."
+		},
+		{
+			"title": "tengu",
+			"sort": "Tengu",
+			"japanese": "天狗",
+			"translation": "Himmelshund",
+			"description": "Fabelwesen der japanischen Überlieferung, die in den Bergen lebten: mit Rabenschnäbeln und Flügeln (<em>karasu tengu</em> oder <em>ko tengu</em>) oder als menschengestaltige Wesen mit langen roten Nasen (<em>dai tengu</em>). Sie galten teils als Beschützer, teils als Störenfriede und gefährlich. Der Legende nach waren sie Meister der Kampfkünste und gelten oft als Lehrmeister eines Stils."
+		},
+		{
+			"title": "tenmon",
+			"sort": "Tenmon",
+			"japanese": "天文",
+			"translation": "Astronomie und Wetterkunde"
+		},
+		{
+			"title": "tennō",
+			"sort": "Tenno",
+			"japanese": "天皇",
+			"translation": "Himmlischer Herrscher",
+			"description": "Der japanische Kaiser."
+		},
+		{
+			"title": "tenugui",
+			"sort": "Tenugui",
+			"japanese": "手拭",
+			"translation": "Handtuch",
+			"description": "Baumwolltuch, aus dem die Ninja ihre Maske banden."
+		},
+		{
+			"title": "teppō",
+			"sort": "Teppo",
+			"japanese": "鉄砲",
+			"translation": "Feuerwaffe",
+			"description": "Anderer Name für die <em>tanegashima</em>."
+		},
+		{
+			"title": "tessen",
+			"sort": "Tessen",
+			"japanese": "鉄扇",
+			"translation": "Eiserner Fächer"
+		},
+		{
+			"title": "tetsu mari",
+			"sort": "Tetsu mari",
+			"translation": "Eisenball",
+			"description": "Hohle Eisenkugel mit langen Dornen nach allen Seiten, ähnlich der <em>iga dama</em>. Der Name ist eine moderne Beschreibung und in den Ninja-Handbüchern nicht belegt."
+		},
+		{
+			"title": "tetsubishi",
+			"sort": "Tetsubishi",
+			"japanese": "鉄菱",
+			"translation": "Eiserne Wasserkastanie",
+			"description": "Wegdisteln aus Eisen, die der Ninja in großer Zahl auf den Boden streute, um Verfolger aufzuhalten."
+		},
+		{
+			"title": "tetsubō",
+			"sort": "Tetsubo",
+			"japanese": "鉄棒",
+			"translation": "Eiserner Stab"
+		},
+		{
+			"title": "tō",
+			"sort": "To",
+			"japanese": "刀",
+			"translation": "Schwert, Messer"
+		},
+		{
+			"title": "tōami",
+			"sort": "Toami",
+			"japanese": "投網",
+			"translation": "Wurfnetz",
+			"description": "Netz, mit dem der Ninja Gegner einfangen konnte."
+		},
+		{
+			"title": "tobi ashi",
+			"sort": "Tobi ashi",
+			"japanese": "跳び足",
+			"translation": "Sprungschritt",
+			"description": "Gehtechnik der Ninja."
+		},
+		{
+			"title": "tobi bashigo",
+			"sort": "Tobi bashigo",
+			"japanese": "跳び梯子",
+			"translation": "Springende Leiter",
+			"description": "Leiter mit Haken an den Enden, die sich werfen ließ."
+		},
+		{
+			"title": "tobi geri",
+			"sort": "Tobi geri",
+			"japanese": "飛び蹴り",
+			"translation": "Sprungtritt",
+			"description": "Tritt aus dem Sprung, etwa <em>kata ashi tobi geri</em> oder <em>ryō ashi tobi geri</em>."
+		},
+		{
+			"title": "tobi ori",
+			"sort": "Tobi ori",
+			"japanese": "飛び降り",
+			"translation": "Herabspringen",
+			"description": "Übung des <em>ukemi</em>: von oben herabspringen."
+		},
+		{
+			"title": "tobikunai",
+			"sort": "Tobikunai",
+			"japanese": "飛苦無",
+			"description": "Werkzeug zum Öffnen verriegelter Tore."
+		},
+		{
+			"title": "Toda Shinryūken Masamitsu",
+			"sort": "Toda Shinryuken Masamitsu",
+			"japanese": "戸田真竜軒正光",
+			"description": "Ninja-Meister und Lehrer von Takamatsu Toshitsugu."
+		},
+		{
+			"title": "Togakure Daisuke",
+			"sort": "Togakure Daisuke",
+			"japanese": "戸隠大助",
+			"description": "Gründer des Togakure-Ryū. Er floh nach einer verlorenen Schlacht in die Region Iga."
+		},
+		{
+			"title": "Togakure-Ryū",
+			"sort": "Togakure-Ryu",
+			"japanese": "戸隠流",
+			"translation": "Die Schule der verborgenen Tür",
+			"description": "Einer der neun Ryū des Bujinkan."
+		},
+		{
+			"title": "tōiri",
+			"sort": "Toiri",
+			"japanese": "遠入",
+			"translation": "Fernes Eindringen",
+			"description": "Strategie, die die Ninja in Friedenszeiten vorbeugend anwandten, vor allem Spionage."
+		},
+		{
+			"title": "toki",
+			"sort": "Toki",
+			"japanese": "登器",
+			"translation": "Kletterzubehör"
+		},
+		{
+			"title": "Tokugawa Ieyasu",
+			"sort": "Tokugawa Ieyasu",
+			"japanese": "徳川家康",
+			"description": "Berühmter Daimyō und Verbündeter von Oda Nobunaga. Nach dem Ende der Sengoku-Zeit wurde er 1603 zum Shōgun ernannt. Seine Familie herrschte bis 1868."
+		},
+		{
+			"title": "Tōkyō",
+			"sort": "Tokyo",
+			"japanese": "東京",
+			"translation": "Östliche Hauptstadt",
+			"description": "Hauptstadt Japans, früher Edo. In der Präfektur Tōkyō leben rund 14 Millionen Menschen."
+		},
+		{
+			"title": "tomoe nagare",
+			"sort": "Tomoe nagare",
+			"japanese": "巴流れ",
+			"translation": "Wirbelndes Fließen",
+			"description": "Form des <em>nagare</em>: als <em>kōhō tomoe nagare</em> wirbelnd nach hinten."
+		},
+		{
+			"title": "tonki",
+			"sort": "Tonki",
+			"description": "Wurfgeschosse. Anderer Name für <em>shuriken</em>."
+		},
+		{
+			"title": "tori no ko",
+			"sort": "Tori no ko",
+			"japanese": "鳥の子",
+			"description": "Feuerwerkskörper."
+		},
+		{
+			"title": "torinawa",
+			"sort": "Torinawa",
+			"japanese": "捕り縄",
+			"translation": "Fangseil",
+			"description": "Waffe der Ninja aus einem Seil mit Gewicht und Spitze, zum Einfangen und Fesseln."
+		},
+		{
+			"title": "torite kihon gata go hō",
+			"sort": "Torite kihon gata go ho",
+			"japanese": "捕手基本型五法",
+			"translation": "Die fünf Handhebeltechniken"
+		},
+		{
+			"title": "tōtoku hyōshi no kamae",
+			"sort": "Totoku hyoshi no kamae",
+			"japanese": "刀匿礮姿",
+			"description": "Kniende Stellung (<em>kamae</em>) des Togakure-Ryū nach der Überlieferung des Bujinkan: das hintere Knie am Boden, das vordere aufgestellt, Schwert oder Fäuste schützend vor der Brust."
+		},
+		{
+			"title": "Toyotomi Hideyoshi",
+			"sort": "Toyotomi Hideyoshi",
+			"japanese": "豊臣秀吉",
+			"description": "Daimyō nichtadliger Herkunft und General im Dienst Oda Nobunagas. Nach Odas Tod einigte er Japan. Nach Hideyoshis Tod wandte sich Tokugawa Ieyasu gegen seine Erben, und seine ganze Familie wurde ausgelöscht."
+		},
+		{
+			"title": "tsuba",
+			"sort": "Tsuba",
+			"japanese": "鍔",
+			"translation": "Stichblatt",
+			"description": "Teil des Schwerts, der die Hand vor gegnerischen Schwerthieben schützte."
+		},
+		{
+			"title": "tsubo giri",
+			"sort": "Tsubo giri",
+			"japanese": "壺錐",
+			"description": "Bohrer für größere Löcher in Holzwänden und Holztüren."
+		},
+		{
+			"title": "tsugi bune",
+			"sort": "Tsugi bune",
+			"translation": "Aneinandergereihtes Boot",
+			"description": "Boot aus Einzelteilen: Der Überlieferung nach trug jedes Mitglied eines Ninja-Teams einen Teil, am Wasser setzten sie es schnell zusammen."
+		},
+		{
+			"title": "tsuki",
+			"sort": "Tsuki",
+			"japanese": "突き",
+			"translation": "Schlag, Stoß, Hieb, Stich"
+		},
+		{
+			"title": "tsune ashi",
+			"sort": "Tsune ashi",
+			"japanese": "常足",
+			"translation": "Normaler Schritt"
+		},
+		{
+			"title": "tsuri bashigo",
+			"sort": "Tsuri bashigo",
+			"japanese": "吊梯子",
+			"translation": "Hängende Leiter",
+			"description": "Leiter, die sich zur Sicherheit an weiteren Haken an einer Mauer befestigen ließ."
+		},
+		{
+			"title": "uchi",
+			"sort": "Uchi",
+			"japanese": "打ち",
+			"description": "Schlagtechnik."
+		},
+		{
+			"title": "uchi dake",
+			"sort": "Uchi dake",
+			"japanese": "内竹",
+			"translation": "Im Inneren des Bambus",
+			"description": "Bambusbehälter, in dem der Ninja Glut bei sich trug. Damit entfachte er schnell ein Feuer."
+		},
+		{
+			"title": "Uesugi Kenshin",
+			"sort": "Uesugi Kenshin",
+			"japanese": "上杉謙信",
+			"description": "Daimyō, der in der Sengoku-Zeit versuchte, die Macht in Japan an sich zu reißen. Der Überlieferung nach ereilte ihn der Tod auf dem Abort: Ein Ninja soll im Schacht gewartet und ihn getötet haben."
+		},
+		{
+			"title": "uke",
+			"sort": "Uke",
+			"japanese": "受",
+			"translation": "Abwehren, verteidigen, fangen, empfangen"
+		},
+		{
+			"title": "ukemi",
+			"sort": "Ukemi",
+			"japanese": "受身",
+			"translation": "Fallen, Fallschule, Fallübung"
+		},
+		{
+			"title": "ukemi gata taihen jutsu",
+			"sort": "Ukemi gata taihen jutsu",
+			"japanese": "受身型体変術",
+			"translation": "Die Kunst des Rollens und Fallens"
+		},
+		{
+			"title": "uki daru",
+			"sort": "Uki daru",
+			"japanese": "浮き樽",
+			"translation": "Schwimmendes Fass",
+			"description": "Wasserwerkzeug aus zwei Fässern, wie es Ninja-Bücher beschreiben: In jedem steckte ein Fuß, mit einer Stange oder einem Paddel bewegte sich der Ninja über das Wasser. Auch <em>taru ikada</em>."
+		},
+		{
+			"title": "uma",
+			"sort": "Uma",
+			"japanese": "馬",
+			"translation": "Pferd"
+		},
+		{
+			"title": "undō",
+			"sort": "Undo",
+			"japanese": "運動",
+			"translation": "Bewegung"
+		},
+		{
+			"title": "ushiro gaeshi",
+			"sort": "Ushiro gaeshi",
+			"japanese": "後返",
+			"translation": "Rückwärts ausgerichtete Techniken"
+		},
+		{
+			"title": "Ushiwakamaru",
+			"sort": "Ushiwakamaru",
+			"japanese": "牛若丸",
+			"description": "Kindername von Minamoto no Yoshitsune."
+		},
+		{
+			"title": "uwagi",
+			"sort": "Uwagi",
+			"japanese": "上着",
+			"translation": "Jacke",
+			"description": "Jacke der Ninja, die in die Hose gesteckt wurde, mit versteckten Innentaschen."
+		},
+		{
+			"title": "uzume bi",
+			"sort": "Uzume bi",
+			"japanese": "埋め火",
+			"translation": "Vergrabenes Feuer",
+			"description": "Landmine. Auch <em>jirai</em>."
+		},
+		{
+			"title": "uzura gakure no jutsu",
+			"sort": "Uzura gakure no jutsu",
+			"japanese": "鶉隠れの術",
+			"translation": "Die Kunst, sich wie eine Wachtel zu verstecken",
+			"description": "Technik des <em>onshin jutsu</em>: Verstecken in Erdlöchern, Mulden und Felsspalten oder hinter Steinen."
+		},
+		{
+			"title": "wakizashi",
+			"sort": "Wakizashi",
+			"japanese": "脇差",
+			"translation": "Kurzschwert",
+			"description": "Kurzschwert der Samurai. Zusammen mit der <em>katana</em> bildete es das <em>daishō</em>."
+		},
+		{
+			"title": "wakizashi teppō",
+			"sort": "Wakizashi teppo",
+			"japanese": "脇差鉄砲",
+			"description": "Traditionelles Kurzschwert mit einer verborgenen Pistole, die einen Schuss abfeuern konnte."
+		},
+		{
+			"title": "wakō",
+			"sort": "Wako",
+			"japanese": "倭寇",
+			"description": "Japanische Piraten, die die Küsten Koreas und Chinas plünderten. Kaum ein Shōgun war ihrer Übermacht gewachsen. Viele einfallsreiche Waffen der Ninja sollen auf die <em>wakō</em> zurückgehen."
+		},
+		{
+			"title": "wari ashi",
+			"sort": "Wari ashi",
+			"japanese": "割り足",
+			"translation": "Sich anpassender Schritt",
+			"description": "Gehtechnik der Ninja."
+		},
+		{
+			"title": "watari",
+			"sort": "Watari",
+			"japanese": "渡り",
+			"translation": "Wandernd",
+			"description": "Ninja, die ihre Dienste an den Meistbietenden verkauften."
+		},
+		{
+			"title": "wu wei",
+			"sort": "Wu wei",
+			"chinese": "無為",
+			"translation": "Nicht-Handeln",
+			"description": "Prinzip des Daoismus: nicht gegen den natürlichen Lauf des Dao handeln."
+		},
+		{
+			"title": "ya",
+			"sort": "Ya",
+			"japanese": "矢",
+			"translation": "Pfeil"
+		},
+		{
+			"title": "yaiba",
+			"sort": "Yaiba",
+			"japanese": "刃",
+			"translation": "Klinge",
+			"description": "Oberer Teil des Zeichens <em>nin</em> (忍)."
+		},
+		{
+			"title": "yajiri",
+			"sort": "Yajiri",
+			"description": "Säge mit kräftiger Klinge für dickere Holzteile oder Äste."
+		},
+		{
+			"title": "yamabiko jutsu",
+			"sort": "Yamabiko jutsu",
+			"japanese": "山彦術",
+			"translation": "Das Echo auf den Ruf",
+			"description": "Taktik des <em>tōiri</em>: Ein Ninja wechselte die Seiten und diente seinem neuen Herrn jahrelang ohne Zweifel an seiner Treue. Auf ein vereinbartes Zeichen wechselte er zurück, nachdem er großen Schaden angerichtet hatte."
+		},
+		{
+			"title": "yamabiko shichō no jutsu",
+			"sort": "Yamabiko shicho no jutsu",
+			"japanese": "山彦伺聴の術",
+			"translation": "Die Kunst, auf das Echo zu lauschen",
+			"description": "Technik des <em>chōhō</em>: Man spielte einer verdächtigen Person wichtige Dokumente zu und beobachtete, wie sie reagierte."
+		},
+		{
+			"title": "yamabushi",
+			"sort": "Yamabushi",
+			"japanese": "山伏",
+			"translation": "Bergasket, Wanderpriester",
+			"description": "Eremiten, die zurückgezogen in den Bergen lebten und dem <em>shugendō</em> folgten."
+		},
+		{
+			"title": "yamidoko",
+			"sort": "Yamidoko",
+			"description": "Fluggerät der Ninja. Auch <em>hito washi</em>."
+		},
+		{
+			"title": "yang",
+			"sort": "Yang",
+			"chinese": "陽",
+			"translation": "Licht, positiv, offen",
+			"description": "Das positive Prinzip der Dualität von Yin und Yang aus dem Daoismus. Japanisch <em>yō</em>."
+		},
+		{
+			"title": "yari",
+			"sort": "Yari",
+			"japanese": "槍",
+			"translation": "Speer"
+		},
+		{
+			"title": "yarijutsu",
+			"sort": "Yarijutsu",
+			"japanese": "槍術",
+			"translation": "Speerkunst",
+			"description": "Speertechniken."
+		},
+		{
+			"title": "yawara",
+			"sort": "Yawara",
+			"japanese": "柔",
+			"description": "Faustwaffe. Auch <em>kubotan</em>."
+		},
+		{
+			"title": "yin",
+			"sort": "Yin",
+			"chinese": "陰",
+			"translation": "Schatten, negativ, verborgen",
+			"description": "Das negative Prinzip der Dualität von Yin und Yang aus dem Daoismus. Japanisch <em>in</em>."
+		},
+		{
+			"title": "yinyang",
+			"sort": "Yinyang",
+			"chinese": "陰陽",
+			"description": "Die Dualität von Licht und Schatten, gut und böse, klein und groß, ein wichtiges Prinzip des Daoismus. Japanisch <em>in’yō</em>."
+		},
+		{
+			"title": "yō",
+			"sort": "Yo",
+			"japanese": "陽",
+			"translation": "Licht, positiv, offen"
+		},
+		{
+			"title": "yoga",
+			"sort": "Yoga",
+			"sanskrit": "योग",
+			"translation": "Joch, anjochen, zusammenbinden, anschirren",
+			"description": "Indische Lehre von Körper und Geist mit vielen Unterarten. In Indien ist jeder <q>Weg zur Erleuchtung</q> ein <q>Yoga-Pfad</q>. Das Hatha-Yoga macht den Körper so beweglich, dass er sich in extreme Positionen biegen kann. Andere Formen umfassen auch Ernährung, Meditation und Atmung."
+		},
+		{
+			"title": "yōji gakure no jutsu",
+			"sort": "Yoji gakure no jutsu",
+			"description": "Technik des <em>heihō</em>: Der Ninja warf immer wieder einen Gegenstand über den Kopf einer Wache, bis sie nicht mehr jedem Geräusch nachging."
+		},
+		{
+			"title": "yoko aruki",
+			"sort": "Yoko aruki",
+			"japanese": "横歩き",
+			"translation": "Seitliches Gehen"
+		},
+		{
+			"title": "yoko gaeshi",
+			"sort": "Yoko gaeshi",
+			"japanese": "横返",
+			"translation": "Seitwärts ausgerichtete Techniken"
+		},
+		{
+			"title": "yoko nagare",
+			"sort": "Yoko nagare",
+			"japanese": "横流れ",
+			"translation": "Seitliches Fließen",
+			"description": "Form des <em>nagare</em>: aus dem Stand zur Seite fallen, nach rechts (<em>migi yoko nagare</em>) oder nach links (<em>hidari yoko nagare</em>)."
+		},
+		{
+			"title": "yomogami no jutsu",
+			"sort": "Yomogami no jutsu",
+			"translation": "Eine Frisur muss von allen vier Seiten betrachtet gleich aussehen",
+			"description": "Prinzip des <em>chōhō</em>: Ein Ninja legte sich stets mehrere Namen und Identitäten zurecht."
+		},
+		{
+			"title": "yon shaku bō",
+			"sort": "Yon shaku bo",
+			"japanese": "四尺棒",
+			"translation": "Vier <em>shaku</em> langer Stab",
+			"description": "Stab von vier <em>shaku</em>, etwa 121 Zentimeter. Auch <em>jō</em>."
+		},
+		{
+			"title": "yuki waraki",
+			"sort": "Yuki waraki",
+			"japanese": "雪藁き",
+			"translation": "Schnee-Stroh",
+			"description": "Auch <em>geta</em>."
+		},
+		{
+			"title": "yumi",
+			"sort": "Yumi",
+			"japanese": "弓",
+			"translation": "Bogen",
+			"description": "Auch <em>kyū</em>."
+		},
+		{
+			"title": "yumi ya",
+			"sort": "Yumi ya",
+			"japanese": "弓矢",
+			"translation": "Bogen und Pfeile"
+		},
+		{
+			"title": "zagarashijaku",
+			"sort": "Zagarashijaku",
+			"description": "Schnell und tödlich wirkendes Gift aus grünen Pflaumen oder Pfirsichen."
+		},
+		{
+			"title": "zazen",
+			"sort": "Zazen",
+			"japanese": "座禅",
+			"translation": "Sitzende Meditation",
+			"description": "Verweilen in gedankenfreier, hellwacher Aufmerksamkeit, in der die Gedanken auf nichts gerichtet sind. Diese Praxis geht auf die Meditation Buddhas vor seinem Erwachen zurück."
+		},
+		{
+			"title": "zen",
+			"sort": "Zen",
+			"japanese": "禅",
+			"translation": "Versenkung"
+		},
+		{
+			"title": "zenpō geri",
+			"sort": "Zenpo geri",
+			"japanese": "前方蹴り",
+			"translation": "Vorwärtstritt"
+		},
+		{
+			"title": "zenpō kaiten",
+			"sort": "Zenpo kaiten",
+			"japanese": "前方回転",
+			"translation": "Vorwärtsrolle"
+		},
+		{
+			"title": "zenpō ukemi",
+			"sort": "Zenpo ukemi",
+			"japanese": "前方受身",
+			"translation": "Vorwärtsfall"
+		},
+		{
+			"title": "ziran",
+			"sort": "Ziran",
+			"chinese": "自然",
+			"translation": "Natürlichkeit, Von-selbst-so-sein",
+			"description": "Im Daoismus das, was von selbst geschieht: spontan, aus sich heraus, ohne Zwang."
+		}
+	]
+}

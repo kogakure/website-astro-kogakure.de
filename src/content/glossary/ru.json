@@ -1,0 +1,4925 @@
+{
+	"entries": [
+		{
+			"title": "aikidō",
+			"sort": "Aikido",
+			"japanese": "合気道",
+			"translation": "путь гармонии",
+			"description": "Оборонительное боевое искусство, которое Уэсиба Морихэй разработал между 1925 и 1969 годами."
+		},
+		{
+			"title": "aikuchi",
+			"sort": "Aikuchi",
+			"japanese": "匕首",
+			"description": "Небольшой японский кинжал."
+		},
+		{
+			"title": "Ainu",
+			"sort": "Ainu",
+			"japanese": "アイヌ",
+			"description": "Коренной народ севера Японии, отличающийся от японцев языком и происхождением; их предки восходят к культуре Дзёмон. В опросе префектуры Хоккайдо 2023 года около 11 450 человек назвали себя айнами, а число их потомков значительно больше. Японцы долго считали их варварами и веками воевали с ними, например во время восстания Косямаина в 1457 году и войны Сякусяина в 1669–1672 годах."
+		},
+		{
+			"title": "aisha",
+			"sort": "Aisha",
+			"japanese": "愛者",
+			"translation": "любящий человек",
+			"description": "Принцип <em>годзё гоёку</em>, использующий сострадание человека."
+		},
+		{
+			"title": "Akechi Mitsuhide",
+			"sort": "Akechi Mitsuhide",
+			"japanese": "明智光秀",
+			"description": "Военачальник Оды Нобунаги, предавший своего господина. Когда Нобунага остался без телохранителей, Акэти напал на него и убил. Его войска сожгли замок Нобунаги дотла."
+		},
+		{
+			"title": "akindo",
+			"sort": "Akindo",
+			"japanese": "商人",
+			"translation": "торговец",
+			"description": "Излюбленная маскировка ниндзя из <em>сити хо дэ</em>."
+		},
+		{
+			"title": "ametori no jutsu",
+			"sort": "Ametori no jutsu",
+			"japanese": "雨鳥の術",
+			"translation": "искусство птиц под дождем",
+			"description": "Тактика, использующая привычку стражи в дождь или холод уходить с постов или нести службу вполсилы."
+		},
+		{
+			"title": "amigasa",
+			"sort": "Amigasa",
+			"japanese": "編笠",
+			"description": "Плетеная соломенная шляпа, широкие поля которой скрывают лицо."
+		},
+		{
+			"title": "ashi",
+			"sort": "Ashi",
+			"japanese": "足",
+			"translation": "нога, ступня"
+		},
+		{
+			"title": "ashi fumikae",
+			"sort": "Ashi fumikae",
+			"japanese": "足踏み替え",
+			"translation": "смена ног"
+		},
+		{
+			"title": "ashi kō",
+			"sort": "Ashi ko",
+			"japanese": "足甲",
+			"translation": "бронированные ступни",
+			"description": "Когти для ног, с помощью которых ниндзя взбирались на стены. Парное приспособление для рук называется <em>сюко</em> или <em>тэкаги</em>."
+		},
+		{
+			"title": "ashigaru",
+			"sort": "Ashigaru",
+			"japanese": "足軽",
+			"translation": "легконогий солдат",
+			"description": "Низший слой самураев. В мирное время большинство из них работали крестьянами в полях. Их оружие и доспехи были легче и дешевле."
+		},
+		{
+			"title": "Ashikaga",
+			"sort": "Ashikaga",
+			"japanese": "足利",
+			"description": "Клан, происходивший от Минамото и поставлявший сёгунов Японии в период Асикага (1338–1573)."
+		},
+		{
+			"title": "ashinaka",
+			"sort": "Ashinaka",
+			"japanese": "足半",
+			"description": "Соломенные сандалии без пятки, закрывающие только переднюю часть стопы. Пальцы ног цепляются прямо за землю и находят надежную опору даже на скользком грунте."
+		},
+		{
+			"title": "atemi",
+			"sort": "Atemi",
+			"japanese": "当身",
+			"translation": "удар по телу",
+			"description": "Удары руками и ногами по жизненно важным точкам и нервным центрам человека, чтобы оглушить, парализовать или убить его."
+		},
+		{
+			"title": "atemi waza",
+			"sort": "Atemi waza",
+			"japanese": "当身技",
+			"translation": "техники ударов по телу",
+			"description": "Другое название ударов по жизненно важным точкам и нервным центрам."
+		},
+		{
+			"title": "atemite",
+			"sort": "Atemite",
+			"japanese": "当身手",
+			"translation": "удар по телу рукой",
+			"description": "Другое название ударов по жизненно важным точкам и нервным центрам."
+		},
+		{
+			"title": "ayumi ashi",
+			"sort": "Ayumi ashi",
+			"japanese": "歩み足",
+			"translation": "обычная ходьба"
+		},
+		{
+			"title": "bajutsu",
+			"sort": "Bajutsu",
+			"japanese": "馬術",
+			"translation": "искусство верховой езды"
+		},
+		{
+			"title": "bakemono jutsu",
+			"sort": "Bakemono jutsu",
+			"japanese": "化物術",
+			"translation": "искусства духов",
+			"description": "Искусство превращаться в призрака. По преданию, Игасаки Додзюн воспользовался им, чтобы проникнуть в крепость."
+		},
+		{
+			"title": "bakufu",
+			"sort": "Bakufu",
+			"japanese": "幕府",
+			"translation": "палаточное правительство",
+			"description": "Изначально полевой лагерь сёгуна, позднее резиденция его военной диктатуры. По-русски — <q>сёгунат</q>."
+		},
+		{
+			"title": "bakuhatsu gama",
+			"sort": "Bakuhatsu gama",
+			"japanese": "爆発鎌",
+			"translation": "серп для метания бомб",
+			"description": "Оружие ниндзя из большого серпа (<em>кама</em>) и двухметровой цепи, на конце которой крепились взрывчатка, яд или ослепляющий порошок."
+		},
+		{
+			"title": "Bansenshūkai",
+			"sort": "Bansenshukai",
+			"japanese": "萬川集海",
+			"translation": "десять тысяч рек впадают в море",
+			"description": "Компендиум ниндзюцу из десяти частей, написанный в 1676 году Фудзибаяси Ясутакэ."
+		},
+		{
+			"title": "banzai",
+			"sort": "Banzai",
+			"japanese": "万歳",
+			"translation": "десять тысяч лет",
+			"description": "Японский возглас радости и боевой клич."
+		},
+		{
+			"title": "bikenjutsu",
+			"sort": "Bikenjutsu",
+			"japanese": "秘剣術",
+			"description": "Фехтование на мечах. Вместе с <em>тайдзюцу</em> и <em>бодзюцу</em> одна из трех опор <em>нимпо</em>."
+		},
+		{
+			"title": "bisentō",
+			"sort": "Bisento",
+			"japanese": "眉尖刀",
+			"translation": "алебарда",
+			"description": "Японская алебарда с широким клинком."
+		},
+		{
+			"title": "bisentōjutsu",
+			"sort": "Bisentojutsu",
+			"description": "Бой с алебардой (<em>бисэнто</em>). Одна из 18 областей <em>ниндзя дзюхаккэй</em>."
+		},
+		{
+			"title": "Biwako",
+			"sort": "Biwako",
+			"japanese": "琵琶湖",
+			"translation": "озеро Бива",
+			"description": "Самое большое озеро Японии (около 670 квадратных километров), недалеко от Киото. Свое название оно получило по форме, напоминающей лютню (<em>бива</em>)."
+		},
+		{
+			"title": "bō",
+			"sort": "Bo",
+			"japanese": "棒",
+			"translation": "палка, шест",
+			"description": "Общее название японского оружия-шеста; в узком смысле — <em>року сяку бо</em>."
+		},
+		{
+			"title": "bō ken",
+			"sort": "Bo ken",
+			"japanese": "棒剣",
+			"translation": "палка-меч",
+			"description": "Учебный меч из тяжелого дерева, также <em>боккэн</em> или <em>бокуто</em>. Сам по себе опасное оружие."
+		},
+		{
+			"title": "bō shuriken",
+			"sort": "Bo shuriken",
+			"japanese": "棒手裏剣",
+			"description": "Длинные метательные снаряды в форме кинжала (<em>сюрикэн</em>), среди них шпильки для волос, гвозди и палочки для еды."
+		},
+		{
+			"title": "bōbi no kamae",
+			"sort": "Bobi no kamae",
+			"japanese": "防備の構え",
+			"description": "Оборонительная стойка (<em>камаэ</em>)."
+		},
+		{
+			"title": "bōenkyō",
+			"sort": "Boenkyo",
+			"japanese": "望遠鏡",
+			"translation": "подзорная труба"
+		},
+		{
+			"title": "bōjutsu",
+			"sort": "Bojutsu",
+			"japanese": "棒術",
+			"description": "Бой с шестом. Вместе с <em>тайдзюцу</em> и <em>бикэндзюцу</em> одна из трех опор <em>нимпо</em>."
+		},
+		{
+			"title": "bokken",
+			"sort": "Bokken",
+			"japanese": "木剣",
+			"translation": "деревянный меч",
+			"description": "Также <em>бо кэн</em> или <em>бокуто</em>."
+		},
+		{
+			"title": "boku",
+			"sort": "Boku",
+			"japanese": "木",
+			"translation": "дерево, древесина",
+			"description": "Также <em>моку</em>."
+		},
+		{
+			"title": "bokutō",
+			"sort": "Bokuto",
+			"japanese": "木刀",
+			"translation": "деревянный меч",
+			"description": "Также <em>бо кэн</em> или <em>боккэн</em>."
+		},
+		{
+			"title": "bōryaku",
+			"sort": "Boryaku",
+			"japanese": "謀略",
+			"translation": "стратегия",
+			"description": "Часть японского военного искусства (<em>хэйхо</em>), к которой относятся, среди прочего, боевые порядки."
+		},
+		{
+			"title": "boshi ken",
+			"sort": "Boshi ken",
+			"japanese": "母指拳",
+			"translation": "кулак-большой палец",
+			"description": "Удар, поражающий цель кончиком большого пальца."
+		},
+		{
+			"title": "bu",
+			"sort": "Bu",
+			"japanese": "武",
+			"translation": "военное искусство, воинский путь, военное дело",
+			"description": "Также <em>му</em>."
+		},
+		{
+			"title": "Buddha",
+			"sort": "Buddha",
+			"sanskrit": "बुद्ध",
+			"translation": "пробудившийся",
+			"description": "Название человека, разорвавшего круговорот перерождений. Обычно имеется в виду Сиддхартха Гаутама, принц из Капилавасту и основатель буддизма. По-японски — <em>буцу</em>."
+		},
+		{
+			"title": "budō",
+			"sort": "Budo",
+			"japanese": "武道",
+			"translation": "боевые искусства",
+			"description": "Общее название всех японских боевых искусств."
+		},
+		{
+			"title": "budōka",
+			"sort": "Budoka",
+			"japanese": "武道家",
+			"translation": "мастер боевых искусств",
+			"description": "Тот, кто занимается <em>будо</em>."
+		},
+		{
+			"title": "bugei jūhappan",
+			"sort": "Bugei juhappan",
+			"japanese": "武芸十八般",
+			"description": "18 категорий боевых искусств. Ниндзя нуждался в хорошей основе в них; к этому добавлялись 18 категорий тайных техник <em>ниндзя дзюхаккэй</em>."
+		},
+		{
+			"title": "bugeisha",
+			"sort": "Bugeisha",
+			"japanese": "武芸者",
+			"translation": "мастер боевых искусств",
+			"description": "Название воинов (самураев), занимавшихся боевыми искусствами. Также <em>будзин</em>."
+		},
+		{
+			"title": "bujin",
+			"sort": "Bujin",
+			"japanese": "武人",
+			"translation": "военный человек",
+			"description": "Также <em>бугэйся</em>."
+		},
+		{
+			"title": "Bujinkan",
+			"sort": "Bujinkan",
+			"japanese": "武神館",
+			"translation": "зал божественного воина",
+			"description": "Организация, основанная Хацуми Масааки и объединяющая девять старых воинских школ и рю ниндзюцу."
+		},
+		{
+			"title": "bujutsu",
+			"sort": "Bujutsu",
+			"japanese": "武術",
+			"translation": "боевые искусства, ушу",
+			"description": "Название всех боевых искусств самураев."
+		},
+		{
+			"title": "buke",
+			"sort": "Buke",
+			"japanese": "武家",
+			"translation": "самурай, воин, воинский род",
+			"description": "Название знатных воинских родов."
+		},
+		{
+			"title": "bukkyō",
+			"sort": "Bukkyo",
+			"japanese": "仏教",
+			"translation": "буддизм"
+		},
+		{
+			"title": "bushi",
+			"sort": "Bushi",
+			"japanese": "武士",
+			"translation": "воин, самурай",
+			"description": "Название знатных воинов феодальной Японии."
+		},
+		{
+			"title": "bushidō",
+			"sort": "Bushido",
+			"japanese": "武士道",
+			"translation": "путь воина",
+			"description": "Кодекс чести самураев, требовавший самодисциплины, самопожертвования и самообладания."
+		},
+		{
+			"title": "butsu",
+			"sort": "Butsu",
+			"japanese": "仏",
+			"translation": "Будда"
+		},
+		{
+			"title": "chakuchi",
+			"sort": "Chakuchi",
+			"japanese": "着地",
+			"translation": "выпад"
+		},
+		{
+			"title": "chi",
+			"sort": "Chi",
+			"japanese": "地",
+			"translation": "земля, почва"
+		},
+		{
+			"title": "chi no kata",
+			"sort": "Chi no kata",
+			"japanese": "地の型",
+			"translation": "форма земли"
+		},
+		{
+			"title": "Chi ryaku no maki",
+			"sort": "Chi ryaku no maki",
+			"japanese": "地略の巻",
+			"translation": "свиток стратегий земли",
+			"description": "Книга о стратегиях земли, часть серии вместе с <cite>Тэн ряку но маки</cite> и <cite>Дзин ряку но маки</cite>."
+		},
+		{
+			"title": "chigiriki",
+			"sort": "Chigiriki",
+			"japanese": "乳切木",
+			"description": "Длинный шест с цепью и железным грузом на конце, оружие, развившееся из цепа."
+		},
+		{
+			"title": "chikairi",
+			"sort": "Chikairi",
+			"japanese": "近入",
+			"translation": "близкое проникновение",
+			"description": "Стратегии, с помощью которых ниндзя на войне прорывались через вражеские линии."
+		},
+		{
+			"title": "chiken-in",
+			"sort": "Chiken-in",
+			"japanese": "智拳印",
+			"translation": "знак кулака мудрости",
+			"description": "Знак рук для <em>рэцу</em> в <em>кудзи-ин</em>."
+		},
+		{
+			"title": "chikujō jutsu",
+			"sort": "Chikujo jutsu",
+			"japanese": "築城術",
+			"translation": "искусство строительства замка",
+			"description": "Методы полевой фортификации."
+		},
+		{
+			"title": "chikyū jutsu",
+			"sort": "Chikyu jutsu",
+			"japanese": "弛弓術",
+			"translation": "ослабленный лук",
+			"description": "Тактика <em>тоири</em>. Пленный ниндзя принимает предложение вражеского господина работать на него и бежит при первой возможности."
+		},
+		{
+			"title": "chimon",
+			"sort": "Chimon",
+			"japanese": "地文",
+			"translation": "география"
+		},
+		{
+			"title": "chitsu mishi",
+			"sort": "Chitsu mishi",
+			"translation": "оплачиваемые глаза",
+			"description": "Жители вражеской территории, работающие на ниндзя."
+		},
+		{
+			"title": "chōda",
+			"sort": "Choda",
+			"japanese": "長蛇",
+			"translation": "длинная змея",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "chōhō",
+			"sort": "Choho",
+			"japanese": "諜報",
+			"translation": "шпионаж"
+		},
+		{
+			"title": "chōkyori kyōsō",
+			"sort": "Chokyori kyoso",
+			"japanese": "長距離競走",
+			"translation": "бег на длинную дистанцию",
+			"description": "Техника бега, с помощью которой ниндзя доставляли донесения на большие расстояния."
+		},
+		{
+			"title": "chūnin",
+			"sort": "Chunin",
+			"japanese": "中忍",
+			"translation": "средний ниндзя",
+			"description": "Средний ранг ниндзя, связующее звено между главой клана (<em>дзёнин</em>) и агентами на месте (<em>гэнин</em>). Поскольку <em>тюнин</em> обычно устанавливал связь с заказчиком, его сильными сторонами были знание людей и маскировка."
+		},
+		{
+			"title": "dai",
+			"sort": "Dai",
+			"japanese": "大",
+			"translation": "большой"
+		},
+		{
+			"title": "daikongō-in",
+			"sort": "Daikongo-in",
+			"japanese": "大金剛輪印",
+			"translation": "знак великого алмаза",
+			"description": "Знак рук для <em>пё</em> в <em>кудзи-ин</em>."
+		},
+		{
+			"title": "daimyō",
+			"sort": "Daimyo",
+			"japanese": "大名",
+			"translation": "великое имя",
+			"description": "Набиравшие силу крупные землевладельцы, боровшиеся за власть в Японии в Сэнгоку дзидай."
+		},
+		{
+			"title": "daisharin",
+			"sort": "Daisharin",
+			"japanese": "大車輪",
+			"translation": "большое колесо",
+			"description": "Оружие ниндзя из оси и двух больших колес, которое пускали под ноги противнику."
+		},
+		{
+			"title": "daishō",
+			"sort": "Daisho",
+			"japanese": "大小",
+			"translation": "большой и малый",
+			"description": "Пара мечей самурая: <em>катана</em> и <em>вакидзаси</em>."
+		},
+		{
+			"title": "daitō",
+			"sort": "Daito",
+			"japanese": "大刀",
+			"translation": "большой меч",
+			"description": "Название длинного меча самурая в отличие от короткого."
+		},
+		{
+			"title": "daken taijutsu",
+			"sort": "Daken taijutsu",
+			"japanese": "打拳体術",
+			"translation": "искусство бить кулаком по телу",
+			"description": "Боевые техники <em>тайдзюцу</em>: удары ногами, удары руками и блоки. Их делят на <em>коппо дзюцу</em> и <em>коси дзюцу</em>."
+		},
+		{
+			"title": "dan",
+			"sort": "Dan",
+			"japanese": "段",
+			"translation": "ранг, ступень",
+			"description": "Название мастерских степеней."
+		},
+		{
+			"title": "Dao",
+			"sort": "Dao",
+			"chinese": "道",
+			"translation": "Путь",
+			"description": "В даосизме высшая реальность и сила Вселенной, основа бытия и небытия. Словами его определить нельзя."
+		},
+		{
+			"title": "Daodejing",
+			"sort": "Daodejing",
+			"chinese": "道徳経",
+			"description": "Основополагающий текст даосизма, по преданию написанный Лао-цзы."
+		},
+		{
+			"title": "Dengyō Daishi",
+			"sort": "Dengyo Daishi",
+			"japanese": "伝教大師",
+			"description": "Основатель японской школы Тэндай и монастыря Энрякудзи, известный также как Сайтё."
+		},
+		{
+			"title": "densho",
+			"sort": "Densho",
+			"japanese": "伝書",
+			"translation": "переданные письмена",
+			"description": "Тайные документы рю, в которых записаны ее техники и правила."
+		},
+		{
+			"title": "do",
+			"sort": "Do",
+			"japanese": "土",
+			"translation": "земля, почва"
+		},
+		{
+			"title": "dō",
+			"sort": "Do",
+			"japanese": "道",
+			"translation": "путь, дорога, принцип",
+			"description": "Название азиатского мировоззрения."
+		},
+		{
+			"title": "dō no hi",
+			"sort": "Do no hi",
+			"japanese": "銅の火",
+			"translation": "медный огонь",
+			"description": "Другое название карманной грелки <em>дока</em>."
+		},
+		{
+			"title": "dōjō",
+			"sort": "Dojo",
+			"japanese": "道場",
+			"translation": "зал для тренировок"
+		},
+		{
+			"title": "dōka",
+			"sort": "Doka",
+			"japanese": "胴火",
+			"translation": "огонь у тела",
+			"description": "Карманная грелка, маленькая печка, в которую ниндзя клал кусок тлеющего угля. Также <em>до но хи</em>."
+		},
+		{
+			"title": "dokko-in",
+			"sort": "Dokko-in",
+			"japanese": "独鈷印",
+			"translation": "знак тибетской молнии ваджры",
+			"description": "Знак рук для <em>рин</em> в <em>кудзи-ин</em>."
+		},
+		{
+			"title": "doko no kamae",
+			"sort": "Doko no kamae",
+			"japanese": "怒虎の構え",
+			"translation": "разъяренный тигр",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "dōkyō",
+			"sort": "Dokyo",
+			"japanese": "道教",
+			"translation": "даосизм",
+			"description": "Учение и религия из Китая; философское направление по-японски точнее называется <em>дока</em> (道家). Оно учит обращению к природе и пониманию Вселенной."
+		},
+		{
+			"title": "dosha",
+			"sort": "Dosha",
+			"japanese": "怒者",
+			"translation": "гневливый человек",
+			"description": "Принцип <em>годзё гоёку</em>, использующий раздражительность человека."
+		},
+		{
+			"title": "doteki",
+			"sort": "Doteki",
+			"japanese": "動的",
+			"translation": "динамический",
+			"description": "Динамика, наиболее действенное применение механики (<em>кикайгаку</em>). К ней относятся правильное использование энергии, ритм и течение, сила и гибкость, а также способность почувствовать действие и подстроиться под него."
+		},
+		{
+			"title": "doton",
+			"sort": "Doton",
+			"japanese": "土遁",
+			"description": "Бегство с помощью земли, один из пяти методов <em>готомпо</em>."
+		},
+		{
+			"title": "doton jutsu",
+			"sort": "Doton jutsu",
+			"japanese": "土遁術",
+			"translation": "искусство бегства с помощью земли",
+			"description": "Техника бегства из <em>готомпо</em>, использующая землю как средство спасения."
+		},
+		{
+			"title": "ebira",
+			"sort": "Ebira",
+			"japanese": "箙",
+			"translation": "колчан"
+		},
+		{
+			"title": "Edo",
+			"sort": "Edo",
+			"japanese": "江戸",
+			"description": "Прежнее название японской столицы, сегодня Токио."
+		},
+		{
+			"title": "eiku",
+			"sort": "Eiku",
+			"japanese": "櫂",
+			"description": "Лодочное весло, служащее оружием в окинавском <em>кобудо</em>. Ниндзя, переодетый рыбаком, мог хорошо им защищаться."
+		},
+		{
+			"title": "eki",
+			"sort": "Eki",
+			"japanese": "易",
+			"translation": "оракул",
+			"description": "К нему обращаются с помощью монет или стеблей тысячелистника, как в китайской <cite>И цзин</cite>."
+		},
+		{
+			"title": "endoku ken",
+			"sort": "Endoku ken",
+			"japanese": "煙毒剣",
+			"translation": "клинок дыма и яда",
+			"description": "Метательная звезда (<em>сюрикэн</em>), которую можно было поджечь, после чего она выделяла ядовитые газы."
+		},
+		{
+			"title": "engetsu",
+			"sort": "Engetsu",
+			"japanese": "偃月",
+			"translation": "полумесяц",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "ennyū no jutsu",
+			"sort": "Ennyu no jutsu",
+			"translation": "ложная атака",
+			"description": "Отряд устраивает ложный штурм. Пока защитники спешат его отразить, ниндзя беспрепятственно проникает в крепость."
+		},
+		{
+			"title": "Enryakuji",
+			"sort": "Enryakuji",
+			"japanese": "延暦寺",
+			"description": "Главный монастырь школы Тэндай на горе Хиэй близ Киото, основанный по повелению тэнно Камму как центр буддизма Тэндай. По преданию, в период расцвета на горе в 3000 храмах жили до 40 000 монахов и <em>сохэй</em>. В сентябре 1571 года Ода Нобунага разрушил монастырь во время своего похода против Икко икки, ниндзя и <em>сохэй</em> и убил большинство его обитателей."
+		},
+		{
+			"title": "fū",
+			"sort": "Fu",
+			"japanese": "風",
+			"translation": "ветер"
+		},
+		{
+			"title": "fū no kata",
+			"sort": "Fu no kata",
+			"japanese": "風の型",
+			"translation": "форма ветра"
+		},
+		{
+			"title": "fudō ken",
+			"sort": "Fudo ken",
+			"japanese": "不動拳",
+			"translation": "неподвижный кулак",
+			"description": "Способ сжимать кулак, известный во многих боевых искусствах: <q>обычный</q> кулак."
+		},
+		{
+			"title": "fudōmyō",
+			"sort": "Fudomyo",
+			"japanese": "不動明王",
+			"description": "Фудо Мёо, грозный мифический защитник воли, законов и целостности Вселенной. В <em>кудзи-кири</em> ниндзя подражает его пылающему мечу."
+		},
+		{
+			"title": "fudōshin",
+			"sort": "Fudoshin",
+			"japanese": "不動心",
+			"translation": "неподвижное сердце",
+			"description": "Спокойный, непоколебимый дух."
+		},
+		{
+			"title": "fudōza no kamae",
+			"sort": "Fudoza no kamae",
+			"japanese": "不動座の構え",
+			"translation": "неподвижное сидение",
+			"description": "Сидячая поза в Японии и одновременно стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "Fujibayashi Nagato",
+			"sort": "Fujibayashi Nagato",
+			"japanese": "藤林長門",
+			"description": "Знаменитый <em>дзёнин</em> из области Ига. Согласно распространенной теории, лишь вымышленное обличье Момоти Сандаю."
+		},
+		{
+			"title": "Fujita Seiko",
+			"sort": "Fujita Seiko",
+			"japanese": "藤田西湖",
+			"description": "Гроссмейстер ниндзюцу, называвший себя 14-м и последним главой Кога-рю; преемника он не назначил. Он умер в Токио 4 января 1966 года."
+		},
+		{
+			"title": "fukibari",
+			"sort": "Fukibari",
+			"japanese": "吹き針",
+			"translation": "выдувание игл",
+			"description": "Боевая техника ниндзя: они выдували маленькие металлические иглы (<em>фукуми бари</em>) в лицо нападающему."
+		},
+		{
+			"title": "fukiya",
+			"sort": "Fukiya",
+			"japanese": "吹き矢",
+			"translation": "духовая трубка и дротик",
+			"description": "Дротики обычно были отравлены."
+		},
+		{
+			"title": "fukumi bari",
+			"sort": "Fukumi bari",
+			"japanese": "含み針",
+			"translation": "маленькие дротики",
+			"description": "Маленькие металлические иглы, которые выдувают при <em>фукибари</em>."
+		},
+		{
+			"title": "fukuro gaeshi jutsu",
+			"sort": "Fukuro gaeshi jutsu",
+			"japanese": "袋返術",
+			"translation": "вывернутый мешок",
+			"description": "Тактика <em>тоири</em>. После мнимой ссоры ниндзя переходит на другую сторону и некоторое время служит новому господину. Когда война входит в решающую фазу, ниндзя выполняет задание и возвращается к прежнему господину."
+		},
+		{
+			"title": "fukuro gaeshi zen jutsu",
+			"sort": "Fukuro gaeshi zen jutsu",
+			"japanese": "袋翻全術",
+			"description": "Тактика <em>тикаири</em>. Ниндзя перехватывает послания между вражеским князем и его союзниками, подделывает их и отправляет дальше, чтобы посеять между ними недоверие."
+		},
+		{
+			"title": "Fūma Kotarō",
+			"sort": "Fuma Kotaro",
+			"japanese": "風魔小太郎",
+			"description": "Знаменитый ниндзя в ранге <em>дзёнина</em>, по преданию имевший 200 последователей, мастер партизанской войны."
+		},
+		{
+			"title": "furyō",
+			"sort": "Furyo",
+			"japanese": "不良",
+			"translation": "малолетние правонарушители",
+			"description": "Бездельники, молодые хулиганы."
+		},
+		{
+			"title": "futokoro teppō",
+			"sort": "Futokoro teppo",
+			"japanese": "懐鉄砲",
+			"translation": "карманное ружье",
+			"description": "Бронзовый пистолет, который легко было спрятать; он был популярен у ниндзя."
+		},
+		{
+			"title": "gandō",
+			"sort": "Gando",
+			"japanese": "龕灯",
+			"translation": "светильник буддийского алтаря",
+			"description": "Фонарь, источник света которого всегда остается в вертикальном положении."
+		},
+		{
+			"title": "gankō",
+			"sort": "Ganko",
+			"japanese": "雁行",
+			"translation": "полет диких гусей",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "gasshō no kamae",
+			"sort": "Gassho no kamae",
+			"japanese": "合掌の構え",
+			"translation": "стойка молитвы",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу, приветствие со сложенными ладонями."
+		},
+		{
+			"title": "gebaku ken-in",
+			"sort": "Gebaku ken-in",
+			"japanese": "外縛拳印",
+			"translation": "знак кулака, связанного снаружи",
+			"description": "Знак рук для <em>кай</em> в <em>кудзи-ин</em>, тот же знак, что и при молитве."
+		},
+		{
+			"title": "gedan no kamae",
+			"sort": "Gedan no kamae",
+			"japanese": "下段の構え",
+			"description": "Низкая стойка (<em>камаэ</em>)."
+		},
+		{
+			"title": "geinyū jutsu",
+			"sort": "Geinyu jutsu",
+			"japanese": "迎入術",
+			"description": "Тактика <em>тикаири</em>. Ниндзя проникает на вражескую территорию, чтобы сеять смятение, страх и ужас, например ложными слухами, поджогами и диверсиями."
+		},
+		{
+			"title": "gekkenjutsu",
+			"sort": "Gekkenjutsu",
+			"japanese": "撃剣術",
+			"description": "Фехтование на мечах. В <em>бугэй дзюхаппан</em> упоминается вместе с <em>кэндзюцу</em>."
+		},
+		{
+			"title": "genin",
+			"sort": "Genin",
+			"japanese": "下忍",
+			"translation": "низший ниндзя",
+			"description": "Низший ранг ниндзя. Эти агенты на месте получали приказы от <em>тюнина</em> и обычно не знали <em>дзёнина</em>. Их сильными сторонами были ближний бой, умение скрываться, проникновение и диверсии."
+		},
+		{
+			"title": "Genji",
+			"sort": "Genji",
+			"japanese": "源氏",
+			"description": "Другое название Минамото."
+		},
+		{
+			"title": "genjutsu",
+			"sort": "Genjutsu",
+			"japanese": "幻術",
+			"translation": "искусство иллюзии"
+		},
+		{
+			"title": "genmai",
+			"sort": "Genmai",
+			"japanese": "玄米",
+			"description": "Неполированный рис."
+		},
+		{
+			"title": "Genpei kassen",
+			"sort": "Genpei kassen",
+			"japanese": "源平合戦",
+			"description": "Война Гэмпэй (1180–1185) между Тайра и Минамото."
+		},
+		{
+			"title": "geri",
+			"sort": "Geri",
+			"japanese": "蹴り",
+			"translation": "удар ногой",
+			"description": "Также <em>кэри</em>."
+		},
+		{
+			"title": "geta",
+			"sort": "Geta",
+			"japanese": "下駄",
+			"description": "Деревянные сандалии на высоких подставках с перекрестным ремешком или ремешком между пальцами."
+		},
+		{
+			"title": "gi",
+			"sort": "Gi",
+			"japanese": "着",
+			"translation": "одежда, наряд, форма",
+			"description": "Тренировочная одежда."
+		},
+		{
+			"title": "Gikan-Ryū",
+			"sort": "Gikan-Ryu",
+			"japanese": "義鑑流",
+			"translation": "школа постижения справедливости",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "gisō jutsu",
+			"sort": "Giso jutsu",
+			"japanese": "擬装術",
+			"translation": "искусство подражания и маскировки",
+			"description": "Искусство вживаться в другого человека и принимать новую личность. Часть <em>онсин дзюцу</em>."
+		},
+		{
+			"title": "godai",
+			"sort": "Godai",
+			"japanese": "五大",
+			"translation": "великая пятерка",
+			"description": "Пять элементов Вселенной в <em>миккё</em>: земля (<em>ти</em>), вода (<em>суй</em>), огонь (<em>ка</em>), ветер (<em>фу</em>) и пустота (<em>ку</em>)."
+		},
+		{
+			"title": "godan",
+			"sort": "Godan",
+			"japanese": "五段",
+			"translation": "пятый дан",
+			"description": "На экзамене на <em>годан</em> в Будзинкан учитель бесшумно подходит к ученику с мечом. Ученик должен почувствовать опасность и уйти от удара."
+		},
+		{
+			"title": "gogyō",
+			"sort": "Gogyo",
+			"japanese": "五行",
+			"translation": "учение о пяти элементах",
+			"description": "Взгляд на природу, заимствованный из китайского даосизма: вода (<em>суй</em>), дерево (<em>моку</em>), огонь (<em>ка</em>), земля (<em>до</em>) и металл (<em>кин</em>)."
+		},
+		{
+			"title": "gogyō no kata",
+			"sort": "Gogyo no kata",
+			"japanese": "五行の型",
+			"translation": "форма пяти движений"
+		},
+		{
+			"title": "gogyō setsu",
+			"sort": "Gogyo setsu",
+			"japanese": "五行説",
+			"translation": "учение о пяти элементах",
+			"description": "Сокращенно <em>гогё</em>."
+		},
+		{
+			"title": "gojō goyoku",
+			"sort": "Gojo goyoku",
+			"japanese": "五情五欲",
+			"description": "Стратегия ниндзя, позволяющая управлять людьми через черты их характера. Ее пять принципов: <em>айся</em>, <em>дося</em>, <em>кися</em>, <em>кёся</em> и <em>ракуся</em>."
+		},
+		{
+			"title": "goku no kamae",
+			"sort": "Goku no kamae",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "Gorin no sho",
+			"sort": "Gorin no sho",
+			"japanese": "五輪の書",
+			"translation": "книга пяти колец",
+			"description": "Сочинение Миямото Мусаси о фехтовании и стратегии."
+		},
+		{
+			"title": "gorintō",
+			"sort": "Gorinto",
+			"japanese": "五輪塔",
+			"description": "Каменный памятник из пяти поставленных друг на друга частей — куба, шара, пирамиды, полумесяца и драгоценного камня."
+		},
+		{
+			"title": "goshin no kata",
+			"sort": "Goshin no kata",
+			"japanese": "梧心の型",
+			"translation": "форма сердца фениксова дерева"
+		},
+		{
+			"title": "goton jutsu",
+			"sort": "Goton jutsu",
+			"japanese": "五遁術",
+			"translation": "искусство пяти путей бегства",
+			"description": "Другое название <em>готомпо</em>."
+		},
+		{
+			"title": "gotonpō",
+			"sort": "Gotonpo",
+			"japanese": "五遁法",
+			"translation": "пять методов бегства",
+			"description": "Принцип ниндзя: уходить от преследования с помощью пяти элементов <em>гогё</em>."
+		},
+		{
+			"title": "gu",
+			"sort": "Gu",
+			"japanese": "具",
+			"translation": "инструмент"
+		},
+		{
+			"title": "gunryaku heihō",
+			"sort": "Gunryaku heiho",
+			"description": "Военная стратегия. Одна из 18 областей <em>ниндзя дзюхаккэй</em>."
+		},
+		{
+			"title": "gyaku nagare",
+			"sort": "Gyaku nagare",
+			"japanese": "逆流れ",
+			"translation": "обратное течение",
+			"description": "Страховка при падении (<em>укэми</em>) из <em>итимондзи но камаэ</em>."
+		},
+		{
+			"title": "gyaku nage",
+			"sort": "Gyaku nage",
+			"japanese": "逆投げ",
+			"translation": "обратный бросок",
+			"description": "Бросок с болевым захватом сустава."
+		},
+		{
+			"title": "gyōja no kamae",
+			"sort": "Gyoja no kamae",
+			"japanese": "行者の構え",
+			"translation": "стойка аскета",
+			"description": "Стойка (<em>камаэ</em>), в которой длинный шест держат вертикально рядом с телом, как посох."
+		},
+		{
+			"title": "gyōkaku ken",
+			"sort": "Gyokaku ken",
+			"translation": "соединенные рога",
+			"description": "Указательный, средний и безымянный пальцы образуют трезубец, кончики которого вонзаются в мягкие места тела, например в шею."
+		},
+		{
+			"title": "Gyokko-Ryū",
+			"sort": "Gyokko-Ryu",
+			"japanese": "玉虎流",
+			"translation": "школа драгоценного тигра",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "gyokuro",
+			"sort": "Gyokuro",
+			"japanese": "玉露",
+			"description": "Зеленый чай высокого сорта. По преданию, ниндзя делали из него яд: закапывали чай в землю на 30–40 дней, а затем смешивали с соевой пастой. Больной человек умирал от него за несколько дней, здоровый — самое позднее через 70 дней."
+		},
+		{
+			"title": "Gyokushin-Ryū",
+			"sort": "Gyokushin-Ryu",
+			"japanese": "玉心流",
+			"translation": "школа драгоценного сердца",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "gyorin",
+			"sort": "Gyorin",
+			"japanese": "魚鱗",
+			"translation": "рыбья чешуя",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "ha jutsu",
+			"sort": "Ha jutsu",
+			"japanese": "破術",
+			"translation": "искусство разрушения",
+			"description": "Освобождение от захватов."
+		},
+		{
+			"title": "Hagakure",
+			"sort": "Hagakure",
+			"japanese": "葉隠",
+			"translation": "сокрытое в листве",
+			"description": "Книга самурая Ямамото Цунэтомо о философской стороне <em>бусидо</em>."
+		},
+		{
+			"title": "hakama",
+			"sort": "Hakama",
+			"japanese": "袴",
+			"description": "Традиционные широкие штаны-юбка."
+		},
+		{
+			"title": "han",
+			"sort": "Han",
+			"japanese": "藩",
+			"translation": "феодальное владение, лен, провинция",
+			"description": "Лен даймё."
+		},
+		{
+			"title": "hanbō",
+			"sort": "Hanbo",
+			"japanese": "半棒",
+			"translation": "половина шеста",
+			"description": "Его настоящее название — <em>сан сяку бо</em>."
+		},
+		{
+			"title": "hanbōjutsu",
+			"sort": "Hanbojutsu",
+			"japanese": "半棒術",
+			"description": "Бой с коротким шестом (<em>хамбо</em>)."
+		},
+		{
+			"title": "hankyū",
+			"sort": "Hankyu",
+			"japanese": "半弓",
+			"translation": "половина лука",
+			"description": "Короткий лук ниндзя, иногда складной и удобный для переноски."
+		},
+		{
+			"title": "hanmi no kamae",
+			"sort": "Hanmi no kamae",
+			"japanese": "半身の構え",
+			"translation": "половина тела",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "happa ken",
+			"sort": "Happa ken",
+			"japanese": "八葉拳",
+			"translation": "кулак с восемью лепестками"
+		},
+		{
+			"title": "happō hiken",
+			"sort": "Happo hiken",
+			"japanese": "八法秘剣",
+			"translation": "восемь методов и тайные мечи",
+			"description": "Восемь методов (<em>хаппо</em>) и тайные техники меча (<em>хикэн</em>) Кукисиндэн-рю."
+		},
+		{
+			"title": "happō hikenjutsu",
+			"sort": "Happo hikenjutsu",
+			"japanese": "八法秘剣術",
+			"description": "См. <em>хаппо хикэн</em>."
+		},
+		{
+			"title": "hara",
+			"sort": "Hara",
+			"japanese": "腹",
+			"translation": "живот",
+			"description": "Вся область между желудком и низом живота, которую считают центром духовной и физической силы."
+		},
+		{
+			"title": "hasami bune",
+			"sort": "Hasami bune",
+			"description": "Складная лодка ниндзя, на которой они переправляли снаряжение через воду. <cite>Бансэнсюкай</cite> описывает такую складную лодку как <em>хасамибако бунэ</em> (挟箱船): ее доски соединялись петлями, а в сложенном виде она помещалась в сундук для переноски. Также <em>татами бунэ</em>."
+		},
+		{
+			"title": "hashigo",
+			"sort": "Hashigo",
+			"japanese": "梯子",
+			"translation": "лестница",
+			"description": "Обычно из тростника или бамбука. В сложных словах — <em>басиго</em>, как в <em>кумо басиго</em>."
+		},
+		{
+			"title": "hashigo yari",
+			"sort": "Hashigo yari",
+			"japanese": "梯子槍",
+			"translation": "копье-лестница",
+			"description": "Длинный шест с попарно торчащими перекладинами и железным крюком наверху, служивший лестницей."
+		},
+		{
+			"title": "Hatsumi Masaaki",
+			"sort": "Hatsumi Masaaki",
+			"japanese": "初見良昭",
+			"description": "При рождении Хацуми Ёсиаки. Основатель Будзинкан Будо Додзё, <em>сокэ</em> девяти рю Будзинкан и ученик Такамацу Тосицугу."
+		},
+		{
+			"title": "Hattori Hanzō",
+			"sort": "Hattori Hanzo",
+			"japanese": "服部半蔵",
+			"description": "Знаменитый <em>дзёнин</em> из области Ига, который был также самураем на службе у Токугавы Иэясу."
+		},
+		{
+			"title": "Hayes, Stephen K.",
+			"sort": "Hayes, Stephen K.",
+			"description": "Учитель ниндзюцу и ученик Хацуми Масааки. Он первым из неяпонцев стал <em>сидоси</em>. В США он основал школу Тосиндо."
+		},
+		{
+			"title": "heihō",
+			"sort": "Heiho",
+			"japanese": "兵法",
+			"translation": "метод воина",
+			"description": "Охватывает как методы боя, так и боевые стратегии (<em>боряку</em>)."
+		},
+		{
+			"title": "Heike",
+			"sort": "Heike",
+			"japanese": "平家",
+			"description": "Другое название Тайра."
+		},
+		{
+			"title": "heipo",
+			"sort": "Heipo",
+			"japanese": "平歩",
+			"translation": "путь саламандры",
+			"description": "Способ ползания у ниндзя."
+		},
+		{
+			"title": "hensō jutsu",
+			"sort": "Henso jutsu",
+			"japanese": "変装術",
+			"translation": "искусство маскировки",
+			"description": "Искусство ниндзя переодеваться. Часть <em>онсин дзюцу</em>."
+		},
+		{
+			"title": "hichō no kamae",
+			"sort": "Hicho no kamae",
+			"japanese": "飛鳥の構え",
+			"translation": "стойка летящей птицы",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "hidari",
+			"sort": "Hidari",
+			"japanese": "左",
+			"translation": "левый"
+		},
+		{
+			"title": "hiken",
+			"sort": "Hiken",
+			"japanese": "秘剣",
+			"translation": "тайные техники меча"
+		},
+		{
+			"title": "hira ichimonji no kamae",
+			"sort": "Hira ichimonji no kamae",
+			"japanese": "平一文字の構え",
+			"description": "Уравновешенная стойка (<em>камаэ</em>), из которой тело может уклониться. Вес равномерно распределен на обе ноги, обе руки вытянуты в стороны, чтобы сметать, захватывать или перехватывать удары."
+		},
+		{
+			"title": "hira no kamae",
+			"sort": "Hira no kamae",
+			"japanese": "平の構え",
+			"translation": "плоская стойка",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "hira shuriken",
+			"sort": "Hira shuriken",
+			"japanese": "平手裏剣",
+			"description": "Плоские метательные звезды (<em>сюрикэн</em>) разных размеров и форм, с разным числом лучей."
+		},
+		{
+			"title": "hiragana",
+			"sort": "Hiragana",
+			"japanese": "平仮名",
+			"description": "Японская слоговая азбука для исконно японских слов. По преданию, ее изобрел Кобо Дайси."
+		},
+		{
+			"title": "hiraki ashi",
+			"sort": "Hiraki ashi",
+			"japanese": "開き足",
+			"description": "Скольжение в сторону обеими ногами."
+		},
+		{
+			"title": "hishi",
+			"sort": "Hishi",
+			"japanese": "菱",
+			"translation": "Trapa japonica, водяной орех, чеснок",
+			"description": "Сушеные водяные орехи, служившие той же цели, что и <em>тэцубиси</em>."
+		},
+		{
+			"title": "hisoken",
+			"sort": "Hisoken",
+			"translation": "скрытое копье",
+			"description": "Другое название <em>сито кэн</em>, при котором кончик большого пальца вонзается в полумягкие цели."
+		},
+		{
+			"title": "hito washi",
+			"sort": "Hito washi",
+			"japanese": "人鷲",
+			"translation": "человек-орел",
+			"description": "Летательный аппарат ниндзя. Также <em>ямидоко</em>."
+		},
+		{
+			"title": "hobakujutsu",
+			"sort": "Hobakujutsu",
+			"japanese": "捕縛術",
+			"description": "Искусство связывания. В <em>бугэй дзюхаппан</em> упоминается вместе с <em>ходзё дзюцу</em>."
+		},
+		{
+			"title": "hōen",
+			"sort": "Hoen",
+			"japanese": "方円",
+			"translation": "квадрат и круг",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "Hōjō",
+			"sort": "Hojo",
+			"japanese": "北条",
+			"description": "Клан выдвинувшихся самураев, в Сэнгоку дзидай один из родов, боровшихся за власть."
+		},
+		{
+			"title": "hōjō jutsu",
+			"sort": "Hojo jutsu",
+			"japanese": "捕縄術",
+			"translation": "искусство связывания"
+		},
+		{
+			"title": "hojutsu",
+			"sort": "Hojutsu",
+			"description": "Метод переключения между истиной и обманом, который Хацуми Масааки приравнивает к <em>кёдзицу тэнкан хо</em>. В <em>бугэй дзюхаппан</em> он означает иллюзии."
+		},
+		{
+			"title": "hokamuri",
+			"sort": "Hokamuri",
+			"japanese": "頬被り",
+			"description": "Платок, повязанный на голову и щеки. Другое название <em>тэнугуи</em>."
+		},
+		{
+			"title": "hōkashi",
+			"sort": "Hokashi",
+			"description": "Музыкант. Одна из маскировок ниндзя в <em>сити хо дэ</em>."
+		},
+		{
+			"title": "hōken jūroppō",
+			"sort": "Hoken juroppo",
+			"japanese": "宝拳十六法",
+			"translation": "шестнадцать методов драгоценного кулака"
+		},
+		{
+			"title": "Hokkaidō",
+			"sort": "Hokkaido",
+			"japanese": "北海道",
+			"description": "Самый северный остров Японии, главный город — Саппоро."
+		},
+		{
+			"title": "hokō jutsu",
+			"sort": "Hoko jutsu",
+			"japanese": "歩行術",
+			"translation": "искусство правильной ходьбы"
+		},
+		{
+			"title": "hōko no kamae",
+			"sort": "Hoko no kamae",
+			"japanese": "抱圍の構え",
+			"translation": "обнимающая стойка",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "honbu",
+			"sort": "Honbu",
+			"japanese": "本部",
+			"translation": "штаб-квартира"
+		},
+		{
+			"title": "hōshi",
+			"sort": "Hoshi",
+			"japanese": "鋒矢",
+			"translation": "наконечник стрелы",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "hotarubi jutsu",
+			"sort": "Hotarubi jutsu",
+			"japanese": "蛍火術",
+			"translation": "свечение светлячка",
+			"description": "Тактика <em>тоири</em>. Гонца с поддельным посланием отправляют через вражескую территорию и позволяют врагу его перехватить."
+		},
+		{
+			"title": "hyōjō hokō",
+			"sort": "Hyojo hoko",
+			"japanese": "氷上歩行",
+			"translation": "ходьба по льду"
+		},
+		{
+			"title": "iai jutsu",
+			"sort": "Iai jutsu",
+			"japanese": "居合術",
+			"translation": "быстрое извлечение меча",
+			"description": "Искусство самураев убить противника по возможности первым же ударом."
+		},
+		{
+			"title": "iaidō",
+			"sort": "Iaido",
+			"japanese": "居合道",
+			"description": "Вид спорта, развившийся из <em>иай дзюцу</em>."
+		},
+		{
+			"title": "iainuki",
+			"sort": "Iainuki",
+			"japanese": "居合抜き",
+			"translation": "быстрое извлечение меча",
+			"description": "Быстрое извлечение меча, специальность Синдэн-Фудо-рю."
+		},
+		{
+			"title": "ichi no kamae",
+			"sort": "Ichi no kamae",
+			"japanese": "一の構え",
+			"translation": "стойка единицы",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "ichimonji no kamae",
+			"sort": "Ichimonji no kamae",
+			"japanese": "一文字の構え",
+			"translation": "стойка прямой линии",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "Iga",
+			"sort": "Iga",
+			"japanese": "伊賀",
+			"description": "Японская провинция недалеко от Киото, где ниндзя были особенно активны."
+		},
+		{
+			"title": "Iga Ueno",
+			"sort": "Iga Ueno",
+			"japanese": "伊賀上野",
+			"description": "Город в области Ига, некогда центр ниндзя. Сегодня о них напоминают музеи и праздники."
+		},
+		{
+			"title": "Iga Ueno-jō",
+			"sort": "Iga Ueno-jo",
+			"japanese": "伊賀上野城",
+			"description": "Замок Ига Уэно."
+		},
+		{
+			"title": "iga dama",
+			"sort": "Iga dama",
+			"japanese": "伊賀玉",
+			"description": "Чертополох, см. <em>тэцубиси</em>."
+		},
+		{
+			"title": "Iga-Ryū",
+			"sort": "Iga-Ryu",
+			"japanese": "伊賀流",
+			"description": "Стиль ниндзюцу, нынешняя Кумогакурэ-рю."
+		},
+		{
+			"title": "Igasaki Dōjun",
+			"sort": "Igasaki Dojun",
+			"japanese": "伊賀崎道順",
+			"description": "Знаменитый ниндзя из провинции Ига, проникший во вражеский замок с помощью поразительной хитрости."
+		},
+		{
+			"title": "ikki",
+			"sort": "Ikki",
+			"japanese": "一揆",
+			"translation": "восстание"
+		},
+		{
+			"title": "ikkō ikki",
+			"sort": "Ikko ikki",
+			"japanese": "一向一揆",
+			"translation": "восстание буддистов Дзёдо-синсю",
+			"description": "Восстания и союзы последователей буддийской школы Дзёдо-синсю в XV и XVI веках."
+		},
+		{
+			"title": "in",
+			"sort": "In",
+			"japanese": "陰",
+			"translation": "тень, отрицательный, скрытый"
+		},
+		{
+			"title": "in shin ton kei",
+			"sort": "In shin ton kei",
+			"description": "Принцип ниндзюцу: наибольший результат при наименьших усилиях, как можно меньше меняя естественный ход вещей."
+		},
+		{
+			"title": "innin",
+			"sort": "Innin",
+			"japanese": "陰忍",
+			"translation": "скрытое проникновение",
+			"description": "Название пятого, шестого и седьмого томов <cite>Бансэнсюкай</cite>. Они посвящены <em>ин</em>, темной стороне знаний ниндзя: хитрости, обману и внезапным нападениям."
+		},
+		{
+			"title": "inpō",
+			"sort": "Inpo",
+			"japanese": "隠法",
+			"description": "Искусство скрываться и маскироваться."
+		},
+		{
+			"title": "inrō",
+			"sort": "Inro",
+			"japanese": "印籠",
+			"translation": "дорожная аптечка"
+		},
+		{
+			"title": "inton",
+			"sort": "Inton",
+			"japanese": "隠遁",
+			"description": "Другое название <em>онсин дзюцу</em>, искусства прятаться и маскироваться."
+		},
+		{
+			"title": "inton jutsu",
+			"sort": "Inton jutsu",
+			"japanese": "隠遁術",
+			"translation": "искусство ниндзя уходить от преследования и прятаться"
+		},
+		{
+			"title": "in’yō",
+			"sort": "In’yo",
+			"japanese": "陰陽",
+			"translation": "космические двойственные силы, инь и ян, солнце и луна",
+			"description": "Японское соответствие инь и ян, даосского символа двойственности."
+		},
+		{
+			"title": "ippon sugi nobori",
+			"sort": "Ippon sugi nobori",
+			"japanese": "一本杉登り",
+			"translation": "способ взбираться на криптомерию",
+			"description": "Приспособление для подъема на дерево: железная скоба с крюком, к которой прикреплены две веревки с рукоятками."
+		},
+		{
+			"title": "Ishikawa Goemon",
+			"sort": "Ishikawa Goemon",
+			"japanese": "石川五右衛門",
+			"description": "Знаменитый вор, который, согласно легенде, был ниндзя и использовал свое искусство для краж, своего рода японский <q>Робин Гуд</q>."
+		},
+		{
+			"title": "ito",
+			"sort": "Ito",
+			"japanese": "意図",
+			"translation": "намерение"
+		},
+		{
+			"title": "ja",
+			"sort": "Ja",
+			"japanese": "者",
+			"translation": "человек"
+		},
+		{
+			"title": "jari bako",
+			"sort": "Jari bako",
+			"japanese": "砂利箱",
+			"translation": "ящик с гравием",
+			"description": "Емкости с рисом, песком или гравием, которыми закаляют руки. Также <em>кансю</em>."
+		},
+		{
+			"title": "ji",
+			"sort": "Ji",
+			"japanese": "侍",
+			"description": "Другое название самурая."
+		},
+		{
+			"title": "jihi no kokoro",
+			"sort": "Jihi no kokoro",
+			"japanese": "慈悲の心",
+			"translation": "доброе сердце",
+			"description": "Признак просветления в <em>нимпо</em>, сильнее самой любви. Оно рождается, когда человек снова и снова проходит по грани между жизнью и смертью."
+		},
+		{
+			"title": "jikatabi",
+			"sort": "Jikatabi",
+			"japanese": "地下足袋",
+			"description": "Обувь ниндзя с отделенным большим пальцем, особенно подходящая для бесшумного бега и лазания."
+		},
+		{
+			"title": "jin",
+			"sort": "Jin",
+			"japanese": "人",
+			"translation": "человек"
+		},
+		{
+			"title": "Jin ryaku no maki",
+			"sort": "Jin ryaku no maki",
+			"japanese": "人略の巻",
+			"translation": "свиток стратегий человека",
+			"description": "Книга о стратегиях человека, часть серии вместе с <cite>Тэн ряку но маки</cite> и <cite>Ти ряку но маки</cite>."
+		},
+		{
+			"title": "jirai",
+			"sort": "Jirai",
+			"japanese": "地雷",
+			"translation": "наземная мина"
+		},
+		{
+			"title": "jitte",
+			"sort": "Jitte",
+			"japanese": "十手",
+			"translation": "десять рук",
+			"description": "Ручное оружие с крюком для перехвата ударов меча. Также <em>дзюттэ</em>."
+		},
+		{
+			"title": "jō",
+			"sort": "Jo",
+			"japanese": "杖",
+			"translation": "трость, посох",
+			"description": "Полное название — <em>ён сяку бо</em>."
+		},
+		{
+			"title": "jōei jutsu",
+			"sort": "Joei jutsu",
+			"japanese": "如影術",
+			"translation": "как тень",
+			"description": "Тактика <em>тоири</em>. Незадолго до начала военных действий ниндзя отправляется на вражескую территорию, где в общей предвоенной суматохе легко затеряться, например под видом нанятого работника или солдата."
+		},
+		{
+			"title": "jōjutsu",
+			"sort": "Jojutsu",
+			"japanese": "杖術",
+			"description": "Бой с посохом (<em>дзё</em>). Часть <em>бугэй дзюхаппан</em> и <em>ниндзя дзюхаккэй</em>."
+		},
+		{
+			"title": "jōnin",
+			"sort": "Jonin",
+			"japanese": "上忍",
+			"translation": "высший ниндзя",
+			"description": "Высший ранг ниндзя: глава клана, чью настоящую личность обычно знал только <em>тюнин</em>. <em>Дзёнин</em> давал задания <em>гэнинам</em>, а его сильными сторонами были политика, стратегия и философия."
+		},
+		{
+			"title": "jū tai jutsu",
+			"sort": "Ju tai jutsu",
+			"japanese": "柔体術",
+			"translation": "искусство гибкого тела",
+			"description": "Захваты, болевые приемы на суставы и удушения из <em>тайдзюцу</em> ниндзюцу."
+		},
+		{
+			"title": "jūdō",
+			"sort": "Judo",
+			"japanese": "柔道",
+			"translation": "мягкий путь",
+			"description": "Японское спортивное единоборство, которое профессор Кано Дзигоро в 1882 году разработал на основе <em>дзюдзюцу</em>."
+		},
+		{
+			"title": "jūjutsu",
+			"sort": "Jujutsu",
+			"japanese": "柔術",
+			"translation": "искусство уступчивости",
+			"description": "Старинное японское боевое искусство самураев."
+		},
+		{
+			"title": "jumon",
+			"sort": "Jumon",
+			"japanese": "呪文",
+			"translation": "заклинание",
+			"description": "<q>Заряженное</q> слово, японское соответствие <em>мантры</em>. Оно воплощает интеллект."
+		},
+		{
+			"title": "jūmonji no kamae",
+			"sort": "Jumonji no kamae",
+			"japanese": "十文字の構え",
+			"translation": "стойка креста",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "jun nagare",
+			"sort": "Jun nagare",
+			"japanese": "順流れ",
+			"translation": "прямое течение",
+			"description": "Страховка при падении (<em>укэми</em>) из <em>итимондзи но камаэ</em>."
+		},
+		{
+			"title": "jūnantaisō",
+			"sort": "Junantaiso",
+			"japanese": "柔軟体操",
+			"translation": "упражнения на гибкость",
+			"description": "Упражнения ниндзя для ловкости и гибкости."
+		},
+		{
+			"title": "jutsu",
+			"sort": "Jutsu",
+			"japanese": "術",
+			"translation": "искусство, средство, техника"
+		},
+		{
+			"title": "jutte",
+			"sort": "Jutte",
+			"japanese": "十手",
+			"translation": "десять рук",
+			"description": "Ручное оружие с крюком для перехвата ударов меча. Также <em>дзиттэ</em>."
+		},
+		{
+			"title": "ka",
+			"sort": "Ka",
+			"japanese": "火",
+			"translation": "огонь"
+		},
+		{
+			"title": "ka jutsu",
+			"sort": "Ka jutsu",
+			"japanese": "火術",
+			"translation": "искусство огня",
+			"description": "Обращение с огнем, огнестрельным оружием и взрывчаткой."
+		},
+		{
+			"title": "ka no kata",
+			"sort": "Ka no kata",
+			"japanese": "火の型",
+			"translation": "форма огня"
+		},
+		{
+			"title": "kabuto",
+			"sort": "Kabuto",
+			"japanese": "兜",
+			"translation": "шлем",
+			"description": "Шлем японских доспехов."
+		},
+		{
+			"title": "kagami",
+			"sort": "Kagami",
+			"japanese": "鏡",
+			"translation": "зеркало"
+		},
+		{
+			"title": "kagi kōhō geri",
+			"sort": "Kagi koho geri",
+			"japanese": "鈎後方蹴り",
+			"translation": "обратный удар ногой крюком"
+		},
+		{
+			"title": "kagi nawa",
+			"sort": "Kagi nawa",
+			"japanese": "鈎縄",
+			"translation": "веревка с крюком",
+			"description": "Длинная веревка с крюком на конце."
+		},
+		{
+			"title": "kagi yari",
+			"sort": "Kagi yari",
+			"japanese": "鈎槍",
+			"translation": "копье с крюком",
+			"description": "Оружие ниндзя, которым отражали удары меча и взбирались на деревья. Также <em>кама яри</em>."
+		},
+		{
+			"title": "kaiki",
+			"sort": "Kaiki",
+			"japanese": "開器",
+			"translation": "инструменты для открывания",
+			"description": "Название тома <cite>Бансэнсюкай</cite> об инструментах для открывания дверей и замков и для взлома. Как другое название <em>тэнугуи</em> это слово не засвидетельствовано."
+		},
+		{
+			"title": "kaiten",
+			"sort": "Kaiten",
+			"japanese": "回転",
+			"translation": "вращение, поворот, перекат"
+		},
+		{
+			"title": "kaki",
+			"sort": "Kaki",
+			"japanese": "火器",
+			"translation": "огненные инструменты",
+			"description": "Название последнего тома <cite>Бансэнсюкай</cite> с рецептами взрывчатых веществ, дымовых бомб, лекарств, дурманящих средств и ядов."
+		},
+		{
+			"title": "kakushi kokeshi",
+			"sort": "Kakushi kokeshi",
+			"description": "Кукла со спрятанным внутри грузом, которую использовали как оружие."
+		},
+		{
+			"title": "kakuyoku",
+			"sort": "Kakuyoku",
+			"japanese": "鶴翼",
+			"translation": "крыло журавля",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "kama",
+			"sort": "Kama",
+			"japanese": "鎌",
+			"translation": "серп",
+			"description": "Орудие, которым по всей Азии жали зерно, рис или сахарный тростник."
+		},
+		{
+			"title": "kama ikada",
+			"sort": "Kama ikada",
+			"japanese": "蒲筏",
+			"translation": "плот из камыша",
+			"description": "Плот из ситника на одного человека."
+		},
+		{
+			"title": "kama yari",
+			"sort": "Kama yari",
+			"japanese": "鎌槍",
+			"translation": "копье с крюком",
+			"description": "Оружие ниндзя, которым отражали удары меча и взбирались на деревья. Также <em>каги яри</em>."
+		},
+		{
+			"title": "kamae",
+			"sort": "Kamae",
+			"japanese": "構え",
+			"translation": "боевые стойки"
+		},
+		{
+			"title": "kami gakure no jutsu",
+			"sort": "Kami gakure no jutsu",
+			"japanese": "神隠れの術",
+			"translation": "искусство прятаться за Богом",
+			"description": "Приближение к цели окольным путем. Ниндзя заводит дружбу с родственниками или доверенными лицами слишком хорошо охраняемой цели и так подбирается к ней."
+		},
+		{
+			"title": "kamikaze",
+			"sort": "Kamikaze",
+			"japanese": "神風",
+			"translation": "божественный ветер",
+			"description": "Название двух тайфунов, уничтоживших монгольское войско под началом Хубилай-хана. Во Второй мировой войне камикадзе называли также пилотов, которые должны были в самоубийственных атаках направлять свои самолеты на корабли и базы союзников."
+		},
+		{
+			"title": "kamiza",
+			"sort": "Kamiza",
+			"japanese": "神座",
+			"translation": "место богов",
+			"description": "Самое важное место в додзё, где висят изображения гроссмейстера и иногда стоят религиозные предметы."
+		},
+		{
+			"title": "kana",
+			"sort": "Kana",
+			"japanese": "仮名",
+			"description": "Японские слоговые азбуки, общее название <em>хираганы</em> и <em>катаканы</em>. В повседневном письме их сочетают с китайскими иероглифами (<em>кандзи</em>)."
+		},
+		{
+			"title": "kangeiko",
+			"sort": "Kangeiko",
+			"japanese": "寒稽古",
+			"translation": "зимняя тренировка"
+		},
+		{
+			"title": "kanji",
+			"sort": "Kanji",
+			"japanese": "漢字",
+			"translation": "китайские иероглифы",
+			"description": "Японцы заимствовали эти знаки, и сегодня они составляют большую часть их письменности."
+		},
+		{
+			"title": "kanjin kaname",
+			"sort": "Kanjin kaname",
+			"japanese": "肝心要",
+			"translation": "самое главное",
+			"description": "То, чего достигает человек, оставивший позади материальный мир и постигший космические законы. Учение Тогакурэ-рю приравнивает это к <em>синсин синган</em> (神心神眼), <q>разуму и глазам Бога</q>."
+		},
+		{
+			"title": "kanshu",
+			"sort": "Kanshu",
+			"japanese": "慣手",
+			"description": "Емкости с рисом, песком или гравием, которыми закаляют руки. Также <em>дзяри бако</em>."
+		},
+		{
+			"title": "kantō kusha",
+			"sort": "Kanto kusha",
+			"description": "Наставник-мужчина <em>куноити</em>."
+		},
+		{
+			"title": "kanzashi",
+			"sort": "Kanzashi",
+			"japanese": "簪",
+			"translation": "украшенная шпилька для волос",
+			"description": "Шпилька из дерева или металла с двумя зубцами, как у вилки."
+		},
+		{
+			"title": "karate dō",
+			"sort": "Karate do",
+			"japanese": "空手道",
+			"translation": "путь пустой руки",
+			"description": "Боевое искусство, возникшее на Окинаве, группе островов на юге Японии."
+		},
+		{
+			"title": "kasha",
+			"sort": "Kasha",
+			"japanese": "滑車",
+			"translation": "блок",
+			"description": "Блок для спуска по веревке."
+		},
+		{
+			"title": "kasugai",
+			"sort": "Kasugai",
+			"japanese": "鎹",
+			"translation": "скоба",
+			"description": "Скоба, которую ниндзя вбивали в двери, чтобы их нельзя было открыть."
+		},
+		{
+			"title": "kata",
+			"sort": "Kata",
+			"japanese": "型",
+			"translation": "форма",
+			"description": "Заданная последовательность движений."
+		},
+		{
+			"title": "kata ashi tobi geri",
+			"sort": "Kata ashi tobi geri",
+			"japanese": "片足飛び蹴り",
+			"translation": "удар ногой в прыжке с одной ноги",
+			"description": "Удар в прыжке, при котором одна нога бьет противника, а колено другой подтянуто к телу."
+		},
+		{
+			"title": "kataga hasami bune",
+			"sort": "Kataga hasami bune",
+			"description": "Маленькая лодка."
+		},
+		{
+			"title": "katagatae jutsu",
+			"sort": "Katagatae jutsu",
+			"japanese": "方違術",
+			"description": "Тактика <em>тикаири</em>. Когда враг покидает лагерь, ниндзя проскальзывает внутрь, выводит из строя важные сооружения, сеет панику среди оставшейся стражи и открывает ворота своим войскам."
+		},
+		{
+			"title": "katakana",
+			"sort": "Katakana",
+			"japanese": "片仮名",
+			"description": "Японская слоговая азбука, которую используют прежде всего для иностранных слов, телеграмм и звукоподражаний."
+		},
+		{
+			"title": "katana",
+			"sort": "Katana",
+			"japanese": "刀",
+			"translation": "меч",
+			"description": "Длинный меч самурая с изогнутым однолезвийным клинком длиной от 61 до 76 сантиметров. Вместе с <em>вакидзаси</em> образует <em>дайсё</em>."
+		},
+		{
+			"title": "katana kake",
+			"sort": "Katana kake",
+			"japanese": "刀懸け",
+			"translation": "подставка для меча",
+			"description": "Подставка для <em>катаны</em> в доме. <em>Вакидзаси</em> откладывали только для сна или купания, и даже тогда он оставался под рукой."
+		},
+		{
+			"title": "katate",
+			"sort": "Katate",
+			"japanese": "片手",
+			"translation": "одна рука",
+			"description": "Одной рукой, например при страховке при падении (<em>укэми</em>)."
+		},
+		{
+			"title": "Katō Danzō",
+			"sort": "Kato Danzo",
+			"japanese": "加藤段蔵",
+			"description": "Знаменитый ниндзя, по преданию мастер техник прыжка."
+		},
+		{
+			"title": "katon",
+			"sort": "Katon",
+			"japanese": "火遁",
+			"description": "Бегство с помощью огня, один из пяти методов <em>готомпо</em>."
+		},
+		{
+			"title": "katon jutsu",
+			"sort": "Katon jutsu",
+			"japanese": "火遁術",
+			"translation": "искусство бегства с помощью огня",
+			"description": "Техника бегства из <em>готомпо</em>, использующая огонь как средство спасения."
+		},
+		{
+			"title": "katsura otoko jutsu",
+			"sort": "Katsura otoko jutsu",
+			"japanese": "桂男術",
+			"translation": "человек на луне",
+			"description": "Тактика <em>тоири</em>, названная по старинной китайской сказке. Ниндзя, отрезанный от товарищей во вражеской стране, полагается на помощь местных жителей, <em>тицу миси</em>, которые дают ему кров и шпионят для него."
+		},
+		{
+			"title": "kayaku jutsu",
+			"sort": "Kayaku jutsu",
+			"japanese": "火薬術",
+			"translation": "искусство обращения с огнем и взрывчаткой"
+		},
+		{
+			"title": "kayaku zutsu",
+			"sort": "Kayaku zutsu",
+			"japanese": "火薬筒",
+			"translation": "трубка для пороха",
+			"description": "Запечатанные бамбуковые трубки, в которых порох можно было носить сухим."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "拳",
+			"translation": "кулак",
+			"description": "Кулак как оружие тела."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "剣",
+			"translation": "меч, сабля, клинок"
+		},
+		{
+			"title": "ken tai ichi jō",
+			"sort": "Ken tai ichi jo",
+			"japanese": "剣体一情",
+			"translation": "тело и оружие едины"
+		},
+		{
+			"title": "kendō",
+			"sort": "Kendo",
+			"japanese": "剣道",
+			"translation": "путь меча",
+			"description": "Спортивное единоборство, выросшее из искусства меча (<em>кэндзюцу</em>) самураев. Сегодня вместо меча используют <em>синай</em>, а для защиты надевают доспехи."
+		},
+		{
+			"title": "kenjutsu",
+			"sort": "Kenjutsu",
+			"japanese": "剣術",
+			"translation": "искусство меча",
+			"description": "Фехтование феодальной Японии."
+		},
+		{
+			"title": "kenpō",
+			"sort": "Kenpo",
+			"japanese": "拳法",
+			"translation": "метод кулака",
+			"description": "Метод боя без оружия, в <em>бугэй дзюхаппан</em> упоминается вместе с <em>дзюдзюцу</em>."
+		},
+		{
+			"title": "kensei",
+			"sort": "Kensei",
+			"japanese": "剣聖",
+			"translation": "святой меча",
+			"description": "Человек, полностью постигший суть Пути и считавшийся почти непобедимым. Самый известный пример — Миямото Мусаси."
+		},
+		{
+			"title": "kenshō",
+			"sort": "Kensho",
+			"japanese": "見性",
+			"translation": "постижение космической истины",
+			"description": "Понимание всех вещей, просветление, также <em>сатори</em>."
+		},
+		{
+			"title": "keri",
+			"sort": "Keri",
+			"japanese": "蹴り",
+			"translation": "удар ногой",
+			"description": "Также <em>гэри</em>."
+		},
+		{
+			"title": "ketsuin",
+			"sort": "Ketsuin",
+			"japanese": "結印",
+			"translation": "образование ручной печати",
+			"description": "Положение рук, японское соответствие <em>мудры</em>. Оно воплощает физическое действие."
+		},
+		{
+			"title": "ki",
+			"sort": "Ki",
+			"japanese": "気",
+			"translation": "энергия, жизненная сила, жизнедеятельность"
+		},
+		{
+			"title": "kiai",
+			"sort": "Kiai",
+			"japanese": "気合",
+			"translation": "крик, боевой дух",
+			"description": "Высвобождение энергии в боевом кличе, который должен сопровождать действенную технику. Легенды рассказывают о мастерах, убивавших криком мелких животных и на мгновение парализовавших людей; доказать можно лишь то, что внезапный крик на миг пугает противника."
+		},
+		{
+			"title": "kiai jutsu",
+			"sort": "Kiai jutsu",
+			"japanese": "気合術",
+			"translation": "искусство боевого клича",
+			"description": "Искусство применять <em>киай</em>."
+		},
+		{
+			"title": "Kido Yazaemon",
+			"sort": "Kido Yazaemon",
+			"japanese": "城戸弥左衛門",
+			"description": "Знаменитый ниндзя, пытавшийся убить Оду Нобунагу, но потерпевший неудачу."
+		},
+		{
+			"title": "kigomi",
+			"sort": "Kigomi",
+			"japanese": "着込み",
+			"translation": "поддоспешник",
+			"description": "Доспех, который носили под обычной одеждой, например <em>кусари катабира</em>; у некоторых стеганых вариантов были еще и лакированные пластины. Его носили воины и путешественники; свидетельств того, что ниндзя носили его постоянно, нет."
+		},
+		{
+			"title": "kihon happō gata",
+			"sort": "Kihon happo gata",
+			"japanese": "基本八法型",
+			"translation": "восемь базовых форм"
+		},
+		{
+			"title": "kikaigaku",
+			"sort": "Kikaigaku",
+			"japanese": "機械学",
+			"translation": "механика",
+			"description": "Наиболее действенные ответы тела на атаку, в том числе работа ног, уход в сторону, боевая дистанция и правильное применение оружия тела."
+		},
+		{
+			"title": "kikaku ken",
+			"sort": "Kikaku ken",
+			"japanese": "鬼角拳",
+			"translation": "кулак-рог демона"
+		},
+		{
+			"title": "kin",
+			"sort": "Kin",
+			"japanese": "金",
+			"translation": "золото, металл"
+		},
+		{
+			"title": "kinton",
+			"sort": "Kinton",
+			"japanese": "金遁",
+			"description": "Бегство с помощью металла, один из пяти методов <em>готомпо</em>."
+		},
+		{
+			"title": "kinton jutsu",
+			"sort": "Kinton jutsu",
+			"japanese": "金遁術",
+			"translation": "искусство бегства с помощью металла",
+			"description": "Техника бегства из <em>готомпо</em>, использующая металл как средство спасения."
+		},
+		{
+			"title": "kiri",
+			"sort": "Kiri",
+			"japanese": "切小刀",
+			"translation": "маленькая пила"
+		},
+		{
+			"title": "kisha",
+			"sort": "Kisha",
+			"japanese": "綺者",
+			"translation": "красивый человек",
+			"description": "Принцип <em>годзё гоёку</em>, использующий тщеславие человека."
+		},
+		{
+			"title": "kishaku",
+			"sort": "Kishaku",
+			"japanese": "耆著",
+			"translation": "компас",
+			"description": "Плавучий компас: намагниченный кусок железа, часто в форме рыбы или лодки, плавающий в чаше с водой. Принцип пришел из Китая; <cite>Бансэнсюкай</cite> объясняет, как изготовить такой компас."
+		},
+		{
+			"title": "kiten",
+			"sort": "Kiten",
+			"japanese": "起転",
+			"translation": "переворот через руки",
+			"description": "Из приседа через руки в стойку на руках, затем через мост обратно на ноги."
+		},
+		{
+			"title": "kiten ken",
+			"sort": "Kiten ken",
+			"japanese": "起転拳",
+			"translation": "поворачивающий кулак"
+		},
+		{
+			"title": "kitsune gakure no jutsu",
+			"sort": "Kitsune gakure no jutsu",
+			"japanese": "狐隠術",
+			"translation": "искусство прятаться, как лиса",
+			"description": "Техника, при которой прячутся в камышах, как лиса."
+		},
+		{
+			"title": "ko ashi",
+			"sort": "Ko ashi",
+			"japanese": "小足",
+			"translation": "маленький шаг",
+			"description": "Способ ходьбы ниндзя."
+		},
+		{
+			"title": "kō ken",
+			"sort": "Ko ken",
+			"japanese": "鈎拳",
+			"translation": "кулак-крюк"
+		},
+		{
+			"title": "Kōbō Daishi",
+			"sort": "Kobo Daishi",
+			"japanese": "弘法大師",
+			"description": "Основатель эзотерической буддийской школы Сингон, известный также как Кукай."
+		},
+		{
+			"title": "kobudō",
+			"sort": "Kobudo",
+			"japanese": "古武道",
+			"translation": "старое будо",
+			"description": "Система владения оружием, сложившаяся на Окинаве, в которой оружием служат в основном крестьянские орудия."
+		},
+		{
+			"title": "kobujutsu jūhappan",
+			"sort": "Kobujutsu juhappan",
+			"japanese": "古武術十八般",
+			"translation": "18 старых боевых искусств",
+			"description": "Боевые искусства, которыми Хацуми Масааки три года занимался у Уэно-сэнсэя."
+		},
+		{
+			"title": "kodachi",
+			"sort": "Kodachi",
+			"japanese": "小太刀",
+			"translation": "малый меч",
+			"description": "Короткий меч."
+		},
+		{
+			"title": "kodachijutsu",
+			"sort": "Kodachijutsu",
+			"japanese": "小太刀術",
+			"description": "Бой с коротким мечом (<em>кодати</em>), часть <em>бикэндзюцу</em>."
+		},
+		{
+			"title": "Kōga-Ryū",
+			"sort": "Koga-Ryu",
+			"japanese": "甲賀流",
+			"description": "Стиль ниндзюцу, сегодня, по всей вероятности, исчезнувший."
+		},
+		{
+			"title": "kōgai",
+			"sort": "Kogai",
+			"japanese": "笄",
+			"translation": "шпилька для волос",
+			"description": "Игла, закрепленная сбоку на <em>вакидзаси</em>. Она служила инструментом для починки кожаных вещей или ухода за копытами."
+		},
+		{
+			"title": "kogakure",
+			"sort": "Kogakure",
+			"japanese": "木隠",
+			"translation": "скрытый за листьями и деревьями",
+			"description": "Это имя автор выбрал для этого сайта."
+		},
+		{
+			"title": "kōhō",
+			"sort": "Koho",
+			"japanese": "後方",
+			"translation": "назад"
+		},
+		{
+			"title": "kōhō geri",
+			"sort": "Koho geri",
+			"japanese": "後方蹴り",
+			"translation": "удар ногой назад"
+		},
+		{
+			"title": "kōhō kaiten",
+			"sort": "Koho kaiten",
+			"japanese": "後方回転",
+			"translation": "кувырок назад"
+		},
+		{
+			"title": "kōhō ukemi",
+			"sort": "Koho ukemi",
+			"japanese": "後方受身",
+			"translation": "страховка при падении назад",
+			"description": "Страховка при падении (<em>укэми</em>) назад. Из положения стоя опускаются в глубокий присед и перекатываются на спину."
+		},
+		{
+			"title": "kokizami ashi",
+			"sort": "Kokizami ashi",
+			"japanese": "小刻み足",
+			"translation": "короткий шаг",
+			"description": "Способ ходьбы ниндзя."
+		},
+		{
+			"title": "kokoro",
+			"sort": "Kokoro",
+			"japanese": "心",
+			"translation": "сердце, дух"
+		},
+		{
+			"title": "koku",
+			"sort": "Koku",
+			"japanese": "石",
+			"description": "Японская мера объема для риса. В феодальной Японии жалованье платили в <em>коку</em>; один <em>коку</em> равен примерно 180 литрам риса."
+		},
+		{
+			"title": "kokū",
+			"sort": "Kokuu",
+			"japanese": "虚空",
+			"translation": "пустое пространство",
+			"description": "Пустое пространство, пустота."
+		},
+		{
+			"title": "kokyūhō",
+			"sort": "Kokyuho",
+			"japanese": "呼吸法",
+			"translation": "техника дыхания, контроль дыхания",
+			"description": "Методы правильного дыхания."
+		},
+		{
+			"title": "komusō",
+			"sort": "Komuso",
+			"japanese": "虚無僧",
+			"translation": "монах пустоты",
+			"description": "Странствующий монах ордена Фукэ. <em>Комусо</em> бродили по Японии в белом кимоно, в большой шляпе, закрывавшей все лицо, с мечом (<em>катана</em>), длинным посохом, веером и флейтой (<em>сякухати</em>). Им никогда не разрешалось снимать шляпу или говорить в присутствии кого-либо, кроме монахов. Официально секта больше не существует, но, возможно, продолжает жить в подполье."
+		},
+		{
+			"title": "kongō",
+			"sort": "Kongo",
+			"japanese": "金剛",
+			"translation": "золотая сила",
+			"description": "Короткое металлическое оружие, которым буддийские священники защищались. Этот скипетр символизирует алмаз, знак чистого знания. Известен также как оружие Индры."
+		},
+		{
+			"title": "kongōkai mandara",
+			"sort": "Kongokai mandara",
+			"japanese": "金剛界曼荼羅",
+			"translation": "мандала алмазного мира",
+			"description": "Строго геометрическая мандала с буддами и божествами, расположенными в девяти полях."
+		},
+		{
+			"title": "kongōsho",
+			"sort": "Kongosho",
+			"japanese": "金剛杵",
+			"translation": "алмазный скипетр",
+			"description": "Буддийский ритуальный предмет (ваджра) с тремя загнутыми внутрь зубцами на каждом конце."
+		},
+		{
+			"title": "koppō jutsu",
+			"sort": "Koppo jutsu",
+			"japanese": "骨法術",
+			"translation": "искусство костных методов",
+			"description": "Техники, ломающие кости. Упорные тренировки укрепляли руки и ноги, чтобы наносить по костям сокрушительные удары."
+		},
+		{
+			"title": "koppō ken",
+			"sort": "Koppo ken",
+			"japanese": "骨法拳",
+			"translation": "кулак костного метода"
+		},
+		{
+			"title": "kōsei no kamae",
+			"sort": "Kosei no kamae",
+			"japanese": "攻勢の構え",
+			"translation": "атакующая энергия",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "koshi jutsu",
+			"sort": "Koshi jutsu",
+			"japanese": "骨指術",
+			"translation": "искусство костяных пальцев",
+			"description": "Техники воздействия на мышцы тела, вызывающие сильную боль."
+		},
+		{
+			"title": "koshizashi",
+			"sort": "Koshizashi",
+			"japanese": "腰差",
+			"translation": "пушка, которую держат у бедра",
+			"description": "Раннее ручное огнестрельное оружие, которое Сугинобо Мёсану показали на Танэгасиме и которое он велел скопировать."
+		},
+		{
+			"title": "kosshi kihon sanpō",
+			"sort": "Kosshi kihon sanpo",
+			"japanese": "骨指基本三法",
+			"translation": "три базовые ударные техники"
+		},
+		{
+			"title": "Kotō-Ryū",
+			"sort": "Koto-Ryu",
+			"japanese": "虎倒流",
+			"translation": "школа повергающего тигра",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "kōyaku",
+			"sort": "Koyaku",
+			"japanese": "衡軛",
+			"translation": "воловье ярмо",
+			"description": "Боевой порядок из <em>боряку</em>."
+		},
+		{
+			"title": "kū",
+			"sort": "Ku",
+			"japanese": "空",
+			"translation": "пустота, вакуум",
+			"description": "Источник субатомной энергии, ничто, начало всех вещей."
+		},
+		{
+			"title": "kū no kata",
+			"sort": "Ku no kata",
+			"japanese": "空の型",
+			"translation": "форма пустоты"
+		},
+		{
+			"title": "ku shaku bō",
+			"sort": "Ku shaku bo",
+			"japanese": "九尺棒",
+			"translation": "шест в девять сяку",
+			"description": "Сверхдлинный шест (2,73 метра)."
+		},
+		{
+			"title": "kubotan",
+			"sort": "Kubotan",
+			"japanese": "クボタン",
+			"description": "Кулачное оружие в форме небольшого цилиндра, которым давят на суставы."
+		},
+		{
+			"title": "kuda bashigo",
+			"sort": "Kuda bashigo",
+			"japanese": "管梯子",
+			"translation": "лестница из трубок"
+		},
+		{
+			"title": "kuden",
+			"sort": "Kuden",
+			"japanese": "口伝",
+			"translation": "устная передача",
+			"description": "Передача боевых искусств из уст в уста, а не в письменном виде."
+		},
+		{
+			"title": "kūhen no kata",
+			"sort": "Kuhen no kata",
+			"japanese": "空変の型",
+			"translation": "формы превращения пустоты"
+		},
+		{
+			"title": "kūhi",
+			"sort": "Kuhi",
+			"japanese": "空飛",
+			"translation": "прыжок в воздухе"
+		},
+		{
+			"title": "kuji goshin hō",
+			"sort": "Kuji goshin ho",
+			"japanese": "九字護身法",
+			"translation": "метод защиты девяти слогов",
+			"description": "Другое название <em>кудзи-кири</em>."
+		},
+		{
+			"title": "kuji-in",
+			"sort": "Kuji-in",
+			"japanese": "九字印",
+			"translation": "печати девяти слогов",
+			"description": "Девять знаков пальцами (<em>мудра</em>), которые использовали ниндзя."
+		},
+		{
+			"title": "kuji-in jin",
+			"sort": "Kuji-in jin",
+			"japanese": "陣",
+			"description": "Шестая печать <em>кудзи-ин</em>. Она изображает человека, который полностью полагается на космическое сознание Бога и доверяет своей интуиции."
+		},
+		{
+			"title": "kuji-in kai",
+			"sort": "Kuji-in kai",
+			"japanese": "皆",
+			"description": "Пятая печать <em>кудзи-ин</em>. Она изображает человека, стремящегося приблизиться к Богу. Ее знак рук — <em>гэбаку кэн-ин</em>."
+		},
+		{
+			"title": "kuji-in pyō",
+			"sort": "Kuji-in pyo",
+			"japanese": "兵",
+			"description": "Вторая печать <em>кудзи-ин</em>, телесный символ алмаза, а значит, и знания. Ее знак рук — <em>дайконго-ин</em>."
+		},
+		{
+			"title": "kuji-in retsu",
+			"sort": "Kuji-in retsu",
+			"japanese": "列",
+			"description": "Седьмая печать <em>кудзи-ин</em>. Ее знак рук — <em>тикэн-ин</em>."
+		},
+		{
+			"title": "kuji-in rin",
+			"sort": "Kuji-in rin",
+			"japanese": "臨",
+			"description": "Первая печать <em>кудзи-ин</em>. Она означает <em>конго</em>, алмазную молнию. Ее знак рук — <em>докко-ин</em>."
+		},
+		{
+			"title": "kuji-in sha",
+			"sort": "Kuji-in sha",
+			"japanese": "者",
+			"description": "Четвертая печать <em>кудзи-ин</em>."
+		},
+		{
+			"title": "kuji-in tō",
+			"sort": "Kuji-in to",
+			"japanese": "闘",
+			"description": "Третья печать <em>кудзи-ин</em>. Ее знак рук — <em>сотодзиси-ин</em>."
+		},
+		{
+			"title": "kuji-in zai",
+			"sort": "Kuji-in zai",
+			"japanese": "在",
+			"description": "Восьмая печать <em>кудзи-ин</em>. Она символизирует огонь, который уничтожает все нечистое и соединяет дух со Вселенной."
+		},
+		{
+			"title": "kuji-in zen",
+			"sort": "Kuji-in zen",
+			"japanese": "前",
+			"description": "Девятая печать <em>кудзи-ин</em>. Она символизирует полностью просветленного, постигшего суть всех вещей."
+		},
+		{
+			"title": "kuji-kiri",
+			"sort": "Kuji-kiri",
+			"japanese": "九字切り",
+			"translation": "рассечение девяти слогов",
+			"description": "Ритуал, при котором символическим мечом чертят в воздухе защитную решетку. Не путать с <em>кудзи-ин</em>."
+		},
+		{
+			"title": "Kūkai",
+			"sort": "Kukai",
+			"japanese": "空海",
+			"description": "Другое имя Кобо Дайси."
+		},
+		{
+			"title": "Kukishinden-Ryū",
+			"sort": "Kukishinden-Ryu",
+			"japanese": "九鬼神伝流",
+			"translation": "школа девяти богов-демонов",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "kuma",
+			"sort": "Kuma",
+			"japanese": "熊",
+			"translation": "медведь"
+		},
+		{
+			"title": "kumade",
+			"sort": "Kumade",
+			"japanese": "熊手",
+			"translation": "грабли, медвежья лапа",
+			"description": "Оружие ниндзя, которое могло наносить страшные раны. Его использовали и для лазания."
+		},
+		{
+			"title": "Kumawaka",
+			"sort": "Kumawaka",
+			"description": "Знаменитый <em>гэнин</em> Кога-рю, возглавлявший 70 ниндзя-партизан."
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "雲梯子",
+			"translation": "облачная лестница"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "蜘蛛梯子",
+			"translation": "паучья лестница"
+		},
+		{
+			"title": "Kumogakure-Ryū",
+			"sort": "Kumogakure-Ryu",
+			"japanese": "雲隠流",
+			"translation": "школа скрытого облака",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "kunai",
+			"sort": "Kunai",
+			"japanese": "苦無",
+			"translation": "инструмент для поддевания, метательный нож ниндзя"
+		},
+		{
+			"title": "kunashi",
+			"sort": "Kunashi",
+			"translation": "складная лопата"
+		},
+		{
+			"title": "kunoichi",
+			"sort": "Kunoichi",
+			"japanese": "くノ一",
+			"description": "Женщины-ниндзя. По преданию, их обучали ближнему бою наравне с мужчинами, но главным для них было умение влиять на человеческую психику."
+		},
+		{
+			"title": "kunoichi jutsu",
+			"sort": "Kunoichi jutsu",
+			"japanese": "くノ一術",
+			"description": "Тактика <em>тоири</em>, при которой женщин используют как агентов, чтобы подобраться к ключевым мужчинам."
+		},
+		{
+			"title": "Kuroi Ōkami",
+			"sort": "Kuroi Okami",
+			"japanese": "黒い狼",
+			"translation": "черный волк",
+			"description": "Название додзё Будзинкан в Вольфсбурге, которым руководит <em>сидоси</em> Марио Плюкхан (Mario Plückhahn)."
+		},
+		{
+			"title": "kuruma nagare",
+			"sort": "Kuruma nagare",
+			"japanese": "車流れ",
+			"translation": "катящийся поток",
+			"description": "Упражнение на падение (<em>укэми</em>), перекат назад (<em>кохо курума нагарэ</em>)."
+		},
+		{
+			"title": "kusari",
+			"sort": "Kusari",
+			"japanese": "鎖",
+			"translation": "цепь"
+		},
+		{
+			"title": "kusari fundō",
+			"sort": "Kusari fundo",
+			"japanese": "鎖分銅",
+			"description": "Короткая цепь с грузом на каждом конце."
+		},
+		{
+			"title": "kusari katabira",
+			"sort": "Kusari katabira",
+			"japanese": "鎖帷子",
+			"translation": "кольчуга",
+			"description": "Кольчуга, которую ниндзя в бою носили под <em>синоби сёдзоку</em> или поверх него. Плетение защищало также лицо и ладони."
+		},
+		{
+			"title": "kusarigama",
+			"sort": "Kusarigama",
+			"japanese": "鎖鎌",
+			"translation": "серп с цепью",
+			"description": "Японский серп (<em>кама</em>) с цепью (<em>кусари</em>), к которой прикреплен груз."
+		},
+		{
+			"title": "kusarijutsu",
+			"sort": "Kusarijutsu",
+			"description": "Бой с короткими цепями."
+		},
+		{
+			"title": "kūten",
+			"sort": "Kuten",
+			"japanese": "空転",
+			"translation": "переворот в воздухе"
+		},
+		{
+			"title": "kyobako fune",
+			"sort": "Kyobako fune",
+			"translation": "лодка-ящик",
+			"description": "Деревянный ящик, обтянутый снаружи кожей."
+		},
+		{
+			"title": "kyojitsu tenkan hō",
+			"sort": "Kyojitsu tenkan ho",
+			"japanese": "虚実転換法",
+			"translation": "ложь и правда",
+			"description": "Тактика, при которой правду выдают за ложь, а ложь за правду, например показывают силу, когда слабы."
+		},
+		{
+			"title": "kyoketsu shōge",
+			"sort": "Kyoketsu shoge",
+			"japanese": "距跋渉毛",
+			"description": "Любимое оружие ниндзя. Нож с крюком; к рукояти привязана веревка длиной четыре метра со стальным кольцом на конце."
+		},
+		{
+			"title": "kyōmon",
+			"sort": "Kyomon",
+			"description": "Практические знания, наблюдательность и здравый смысл. Одна из восьми дисциплин, входящих в <em>ниндзя но хатимон</em>."
+		},
+		{
+			"title": "kyōnin no jutsu",
+			"sort": "Kyonin no jutsu",
+			"description": "Тактика, использующая суеверия людей, например маски демонов, огненное дыхание или животных, которых считают злыми."
+		},
+		{
+			"title": "kyōsha",
+			"sort": "Kyosha",
+			"japanese": "恐者",
+			"translation": "пугливый человек",
+			"description": "Принцип <em>годзё гоёку</em>, использующий трусость человека."
+		},
+		{
+			"title": "Kyōto",
+			"sort": "Kyoto",
+			"japanese": "京都",
+			"description": "Старая японская императорская столица."
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "級",
+			"translation": "ранг, ступень, класс, ученическая степень"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "弓",
+			"translation": "лук"
+		},
+		{
+			"title": "kyūdō",
+			"sort": "Kyudo",
+			"japanese": "弓道",
+			"translation": "путь лука",
+			"description": "Вид спорта, выросший из боевого искусства <em>кюдзюцу</em>."
+		},
+		{
+			"title": "kyūjutsu",
+			"sort": "Kyujutsu",
+			"japanese": "弓術",
+			"translation": "искусство лука",
+			"description": "Метод стрельбы из лука, которым владели самураи."
+		},
+		{
+			"title": "kyūsho",
+			"sort": "Kyusho",
+			"japanese": "急所",
+			"translation": "жизненно важные точки",
+			"description": "Болевые точки для <em>атэми</em>. В Кото-рю содержится их полная система."
+		},
+		{
+			"title": "li",
+			"sort": "Li",
+			"chinese": "理",
+			"translation": "структура, порядок",
+			"description": "В даосизме структура и форма Дао: асимметричный порядок, который никогда не повторяется и не следует никакому правилу. Его можно увидеть в текущей воде, в коре деревьев или в кристаллах льда."
+		},
+		{
+			"title": "Lin Kuei",
+			"sort": "Lin Kuei",
+			"description": "Название, под которым ниндзюцу якобы существовало в Китае и Корее; исторически это не подтверждено."
+		},
+		{
+			"title": "ma",
+			"sort": "Ma",
+			"japanese": "間",
+			"translation": "промежуток, зазор, интервал, расстояние"
+		},
+		{
+			"title": "maai",
+			"sort": "Maai",
+			"japanese": "間合い",
+			"translation": "интервал, дистанция, пауза",
+			"description": "Гармоничная дистанция во времени и пространстве."
+		},
+		{
+			"title": "mae",
+			"sort": "Mae",
+			"japanese": "前",
+			"translation": "перед, вперед, фронтально"
+		},
+		{
+			"title": "mae gaeshi",
+			"sort": "Mae gaeshi",
+			"japanese": "前返",
+			"translation": "техники, направленные вперед"
+		},
+		{
+			"title": "mamukigama",
+			"sort": "Mamukigama",
+			"description": "Серп на веревке, к концу которой привязывали ядовитое животное, например змею. Ниндзя бросал его во врага; животное отвлекало противника и могло даже убить его."
+		},
+		{
+			"title": "mandala",
+			"sort": "Mandala",
+			"japanese": "曼荼羅",
+			"description": "Схематическое изображение вселенной, пришедшее из тантры и <em>миккё</em>. В <em>саммицу</em> она обозначает мысль."
+		},
+		{
+			"title": "mangetsu no kamae",
+			"sort": "Mangetsu no kamae",
+			"japanese": "満月の構え",
+			"translation": "стойка полной луны",
+			"description": "Стойка Кото-рю. Боец держит меч над головой, чтобы солнечный свет, отраженный клинком, ослеплял противника."
+		},
+		{
+			"title": "manriki gusari",
+			"sort": "Manriki gusari",
+			"japanese": "万力鎖",
+			"translation": "цепь силой в 10 000",
+			"description": "Цепь с железными рукоятками на концах."
+		},
+		{
+			"title": "mantra",
+			"sort": "Mantra",
+			"japanese": "真言",
+			"translation": "истинные слова",
+			"description": "Звуки из тантризма и <em>миккё</em>. В <em>саммицу</em> <em>мантра</em> обозначает слово."
+		},
+		{
+			"title": "menkyo kaiden",
+			"sort": "Menkyo kaiden",
+			"japanese": "免許皆伝",
+			"description": "Свидетельство о полном овладении боевым искусством. Мастер вручал его одному или нескольким ученикам; оно делает владельца законным наследником стиля."
+		},
+		{
+			"title": "metsubushi",
+			"sort": "Metsubushi",
+			"japanese": "目潰し",
+			"translation": "разрушение глаз",
+			"description": "Ослепляющий порошок из железных опилок, песка, золы или химических веществ. Спасаясь от погони, ниндзя бросал его преследователю в глаза."
+		},
+		{
+			"title": "migi",
+			"sort": "Migi",
+			"japanese": "右",
+			"translation": "правый"
+		},
+		{
+			"title": "mikkyō",
+			"sort": "Mikkyo",
+			"japanese": "密教",
+			"translation": "тайное учение",
+			"description": "Общее название различных тантрических учений буддизма."
+		},
+		{
+			"title": "miko",
+			"sort": "Miko",
+			"japanese": "巫女",
+			"translation": "храмовая дева",
+			"description": "Молодая незамужняя женщина, служащая в синтоистском святилище. По преданию, Мотидзуки Тиёмэ готовила девочек-сирот одновременно как <em>мико</em> и как <em>куноити</em>, которые шпионили для рода Такэда."
+		},
+		{
+			"title": "Minamoto",
+			"sort": "Minamoto",
+			"japanese": "源",
+			"description": "Знаменитый род, называемый также Гэндзи, который воевал с родом Тайра."
+		},
+		{
+			"title": "minomushi jutsu",
+			"sort": "Minomushi jutsu",
+			"japanese": "身虫術",
+			"translation": "червь в теле",
+			"description": "Тактика <em>тоири</em>, описанная в трактате <cite>Бансэнсюкай</cite>: ниндзя склонял слуг врага к измене своему господину. Чем выше был их ранг, тем ценнее они были."
+		},
+		{
+			"title": "Miyamoto Musashi",
+			"sort": "Miyamoto Musashi",
+			"japanese": "宮本武蔵",
+			"description": "Самый знаменитый фехтовальщик Японии. Много лет он странствовал по стране, совершенствуя свое искусство меча, и выиграл за это время более 60 поединков. Он основал Нитэн-Ити-рю, школу, в которой сражаются двумя мечами одновременно. Незадолго до смерти он написал <cite>Горин но сё</cite> (<q>Книга пяти колец</q>)."
+		},
+		{
+			"title": "mizu",
+			"sort": "Mizu",
+			"japanese": "水",
+			"translation": "вода"
+		},
+		{
+			"title": "mizu taimatsu",
+			"sort": "Mizu taimatsu",
+			"japanese": "水松炬",
+			"description": "Факел, который горит и под дождем."
+		},
+		{
+			"title": "mizu tsutsu",
+			"sort": "Mizu tsutsu",
+			"japanese": "水筒",
+			"translation": "дыхательная трубка",
+			"description": "Трубка из тростника или дерева, через которую ниндзя дышал, когда ему нужно было долго оставаться под водой."
+		},
+		{
+			"title": "mizugumo",
+			"sort": "Mizugumo",
+			"japanese": "水蜘蛛",
+			"translation": "водяной паук",
+			"description": "Приспособление ниндзя для ходьбы по болотистой местности."
+		},
+		{
+			"title": "mizukaki",
+			"sort": "Mizukaki",
+			"japanese": "水掻き",
+			"translation": "ласты"
+		},
+		{
+			"title": "Mochizuki Chiyome",
+			"sort": "Mochizuki Chiyome",
+			"japanese": "望月千代女",
+			"description": "Знаменитая <em>куноити</em>, которая, по преданию, руководила сетью <em>куноити</em> по поручению Такэды Сингэна."
+		},
+		{
+			"title": "moku",
+			"sort": "Moku",
+			"japanese": "木",
+			"translation": "дерево"
+		},
+		{
+			"title": "mokuton",
+			"sort": "Mokuton",
+			"japanese": "木遁",
+			"description": "Бегство с помощью дерева и растений, один из пяти методов <em>готомпо</em>."
+		},
+		{
+			"title": "mokuton jutsu",
+			"sort": "Mokuton jutsu",
+			"japanese": "木遁術",
+			"translation": "техника бегства с помощью дерева",
+			"description": "Техника бегства из <em>готомпо</em>, использующая дерево как средство спасения."
+		},
+		{
+			"title": "mon",
+			"sort": "Mon",
+			"japanese": "紋",
+			"translation": "родовой герб"
+		},
+		{
+			"title": "mono",
+			"sort": "Mono",
+			"japanese": "者",
+			"translation": "человек"
+		},
+		{
+			"title": "monomi no jutsu",
+			"sort": "Monomi no jutsu",
+			"japanese": "物見の術",
+			"translation": "искусство разведки",
+			"description": "Разведка слабых мест во вражеской обороне, например комнат, куда легко проникнуть, задних дверей и пустующих помещений."
+		},
+		{
+			"title": "Mōri",
+			"sort": "Mori",
+			"japanese": "毛利",
+			"description": "Самурайский клан из Аки на западе Хонсю, один из родов, боровшихся за власть в период Сэнгоку. При Мори Мотонари клан подчинил себе регион Тюгоку, а позже выступил против Оды Нобунаги."
+		},
+		{
+			"title": "mu",
+			"sort": "Mu",
+			"japanese": "武",
+			"translation": "воинский дух, военное дело",
+			"description": "Также <em>бу</em>."
+		},
+		{
+			"title": "mudrā",
+			"sort": "Mudra",
+			"japanese": "印相",
+			"translation": "знак рукой",
+			"description": "Положения рук из тантры и <em>миккё</em>. Девять из них вошли в <em>кудзи-ин</em>. В <em>саммицу</em> они обозначают действие."
+		},
+		{
+			"title": "mumei mugei no jutsu",
+			"sort": "Mumei mugei no jutsu",
+			"japanese": "無名無芸の術",
+			"translation": "ни имени, ни искусства",
+			"description": "Искусство анонимности, залог успеха ниндзя в шпионаже. Никто не должен был знать истинное лицо ниндзя."
+		},
+		{
+			"title": "muon no hō",
+			"sort": "Muon no ho",
+			"japanese": "無音の法",
+			"translation": "методы бесшумности"
+		},
+		{
+			"title": "musha dori",
+			"sort": "Musha dori",
+			"japanese": "武者捕り",
+			"description": "Тайная техника Мусаси-рю. Такамацу Тосицугу узнал ее в 15 лет, когда сражался с каратистом этой школы."
+		},
+		{
+			"title": "musha shugyō",
+			"sort": "Musha shugyo",
+			"japanese": "武者修行",
+			"translation": "странствия воина",
+			"description": "Метод обучения, при котором воин отправлялся в долгое путешествие, чтобы совершенствоваться. Тяготы пути закаляли характер и укрепляли дух."
+		},
+		{
+			"title": "musubi bashigo",
+			"sort": "Musubi bashigo",
+			"japanese": "結び梯子",
+			"translation": "лестница с петлями",
+			"description": "Веревка с петлями через равные промежутки, в которые ниндзя при подъеме вставлял ноги."
+		},
+		{
+			"title": "musubi nawa",
+			"sort": "Musubi nawa",
+			"japanese": "結び縄",
+			"description": "Веревка из конского волоса."
+		},
+		{
+			"title": "mute",
+			"sort": "Mute",
+			"japanese": "無手",
+			"translation": "без рук",
+			"description": "Без помощи рук, например при упражнениях на падение (<em>укэми</em>)."
+		},
+		{
+			"title": "nagamaki",
+			"sort": "Nagamaki",
+			"japanese": "長巻",
+			"description": "Разновидность меча-копья <em>нагината</em>."
+		},
+		{
+			"title": "nagare",
+			"sort": "Nagare",
+			"japanese": "流れ",
+			"translation": "текущая вода",
+			"description": "Принцип мягкости."
+		},
+		{
+			"title": "nage",
+			"sort": "Nage",
+			"japanese": "投げ",
+			"translation": "бросок, бросать"
+		},
+		{
+			"title": "nage teppō",
+			"sort": "Nage teppo",
+			"japanese": "投げ鉄砲",
+			"description": "Разрывная граната, которую бросали во врага рукой или пращой. Она действовала как современная ручная граната."
+		},
+		{
+			"title": "nagenawa",
+			"sort": "Nagenawa",
+			"japanese": "投げ縄",
+			"translation": "метательная веревка",
+			"description": "Лассо. Гёкусин-рю известна умением им пользоваться."
+		},
+		{
+			"title": "naginata",
+			"sort": "Naginata",
+			"japanese": "薙刀",
+			"translation": "меч, чтобы косить врагов",
+			"description": "Меч-копье, оружие <em>сохэев</em> и любимое оружие женщин из самурайских семей."
+		},
+		{
+			"title": "naginatadō",
+			"sort": "Naginatado",
+			"japanese": "薙刀道",
+			"translation": "путь <em>нагинаты</em>",
+			"description": "Боевое искусство владения <em>нагинатой</em>, которым после Второй мировой войны занимались преимущественно женщины."
+		},
+		{
+			"title": "nagishi shuriken",
+			"sort": "Nagishi shuriken",
+			"description": "Метательная звезда (<em>сюрикэн</em>) с кисточкой на конце, которая стабилизирует полет."
+		},
+		{
+			"title": "naibaku ken-in",
+			"sort": "Naibaku ken-in",
+			"japanese": "内縛拳印",
+			"translation": "знак внутренне сцепленного кулака",
+			"description": "Знак рук для <em>дзин</em> в системе <em>кудзи-ин</em>."
+		},
+		{
+			"title": "neko te",
+			"sort": "Neko te",
+			"japanese": "猫手",
+			"translation": "кошачий коготь",
+			"description": "Заостренный наперсток, оружие <em>куноити</em>."
+		},
+		{
+			"title": "nenriki",
+			"sort": "Nenriki",
+			"japanese": "念力",
+			"translation": "сила воли",
+			"description": "Сосредоточенное намерение, японское соответствие <em>мандалы</em>. Оно воплощает волю ниндзя."
+		},
+		{
+			"title": "nichirin-in",
+			"sort": "Nichirin-in",
+			"japanese": "日輪印",
+			"translation": "знак солнечного кольца",
+			"description": "Знак рук для <em>дзай</em> в системе <em>кудзи-ин</em>."
+		},
+		{
+			"title": "Nihon",
+			"sort": "Nihon",
+			"japanese": "日本",
+			"translation": "исток солнца",
+			"description": "Япония. Также Ниппон."
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "人",
+			"translation": "человек"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "忍",
+			"translation": "терпеть, выносить, упорствовать, избегать",
+			"description": "Также <em>синобу</em>."
+		},
+		{
+			"title": "nin shokudai",
+			"sort": "Nin shokudai",
+			"japanese": "忍燭台",
+			"description": "Г-образный факел, который можно было подвесить."
+		},
+		{
+			"title": "ningu",
+			"sort": "Ningu",
+			"japanese": "忍具",
+			"translation": "инструменты ниндзя"
+		},
+		{
+			"title": "ninja",
+			"sort": "Ninja",
+			"japanese": "忍者",
+			"description": "Практик ниндзюцу: боец, разведчик, шпион, партизан и специальный агент феодального Средневековья."
+		},
+		{
+			"title": "ninja aruki",
+			"sort": "Ninja aruki",
+			"japanese": "忍者歩き",
+			"translation": "техники ходьбы",
+			"description": "Способы передвижения ниндзя, позволявшие двигаться бесшумно, незаметно или быстро."
+		},
+		{
+			"title": "ninja jūhakkei",
+			"sort": "Ninja juhakkei",
+			"japanese": "忍者十八形",
+			"description": "18 категорий тайных техник, которые ниндзя изучал помимо искусств, входящих в <em>бугэй дзюхаппан</em>. Вместе они образуют <em>нимпо сандзюроккэй</em>."
+		},
+		{
+			"title": "ninja ken",
+			"sort": "Ninja ken",
+			"japanese": "忍者剣",
+			"translation": "меч ниндзя",
+			"description": "Также <em>ниндзя то</em>."
+		},
+		{
+			"title": "ninja tō",
+			"sort": "Ninja to",
+			"japanese": "忍者刀",
+			"translation": "меч ниндзя",
+			"description": "Также <em>ниндзя кэн</em>."
+		},
+		{
+			"title": "ninjutsu",
+			"sort": "Ninjutsu",
+			"japanese": "忍術",
+			"translation": "боевое искусство ниндзя",
+			"description": "Собирательное название всех рю, которые практиковали ниндзя. Они часто включают нестандартные и тайные боевые техники."
+		},
+		{
+			"title": "ninjutsu ka",
+			"sort": "Ninjutsu ka",
+			"japanese": "忍術家",
+			"translation": "практик ниндзюцу"
+		},
+		{
+			"title": "ninki",
+			"sort": "Ninki",
+			"japanese": "忍器",
+			"translation": "инструменты ниндзя",
+			"description": "Часть трактата <cite>Бансэнсюкай</cite>, описывающая снаряжение. Она начинается в девятом томе и продолжается до заключительного тома."
+		},
+		{
+			"title": "ninniku yoroi",
+			"sort": "Ninniku yoroi",
+			"description": "Другое название <em>синоби сёдзоку</em>, костюма ниндзя."
+		},
+		{
+			"title": "ninpō",
+			"sort": "Ninpo",
+			"japanese": "忍法",
+			"translation": "искусства ниндзя",
+			"description": "Ниндзюцу как образ жизни. <em>Нимпо</em> выходит за пределы техники и учит также духовному пути."
+		},
+		{
+			"title": "ninpō ikkan",
+			"sort": "Ninpo ikkan",
+			"japanese": "忍法一貫",
+			"translation": "ниндзюцу — это начало, у которого нет конца"
+		},
+		{
+			"title": "ninpō inu bue",
+			"sort": "Ninpo inu bue",
+			"japanese": "忍法狗笛",
+			"description": "Искусство ниндзя дрессировать животных."
+		},
+		{
+			"title": "ninpō mikkyō",
+			"sort": "Ninpo mikkyo",
+			"japanese": "忍法密教",
+			"description": "Тайные учения ниндзя, основанные на <em>миккё</em>."
+		},
+		{
+			"title": "ninpō sanjūrokkei",
+			"sort": "Ninpo sanjurokkei",
+			"japanese": "忍法三十六計",
+			"description": "36 областей, которые изучал ниндзя: 18 боевых искусств, входящих в <em>бугэй дзюхаппан</em>, и 18 тайных техник, входящих в <em>ниндзя дзюхаккэй</em>. Список не был жестким; часто одни дисциплины исключали, а другие добавляли."
+		},
+		{
+			"title": "ninpō taijutsu",
+			"sort": "Ninpo taijutsu",
+			"japanese": "忍法体術",
+			"description": "Безоружный бой ниндзя. Сюда относятся и другие физические навыки, например техника падений."
+		},
+		{
+			"title": "Nippon",
+			"sort": "Nippon",
+			"japanese": "日本",
+			"translation": "исток солнца",
+			"description": "Япония. Также Нихон."
+		},
+		{
+			"title": "Nishina Daisuke",
+			"sort": "Nishina Daisuke",
+			"japanese": "仁科大助",
+			"description": "Имя при рождении Тогакурэ Дайсукэ, основателя Тогакурэ-рю."
+		},
+		{
+			"title": "nodachi",
+			"sort": "Nodachi",
+			"japanese": "野太刀",
+			"translation": "большой боевой меч",
+			"description": "Очень длинный меч самураев, длиной 1–1,80 метра, который обычно носил слуга."
+		},
+		{
+			"title": "nuki ashi",
+			"sort": "Nuki ashi",
+			"japanese": "抜き足",
+			"translation": "бесшумный шаг"
+		},
+		{
+			"title": "nunchaku",
+			"sort": "Nunchaku",
+			"japanese": "双節棍",
+			"description": "Оружие из <em>кобудо</em>: две деревянные палки, соединенные короткой цепью или шнуром. Пользовался ли им когда-нибудь хоть один ниндзя, крайне сомнительно."
+		},
+		{
+			"title": "nuntebō",
+			"sort": "Nuntebo",
+			"description": "Рыболовное копье: орудие рыбаков, которое можно было использовать и как оружие."
+		},
+		{
+			"title": "nyūdaki no jutsu",
+			"sort": "Nyudaki no jutsu",
+			"description": "Использование слабостей стражи, например лени или глупости."
+		},
+		{
+			"title": "nyūkyo no jutsu",
+			"sort": "Nyukyo no jutsu",
+			"translation": "искусство вторжения",
+			"description": "Ожидание подходящего момента, чтобы проникнуть во вражеский замок или лагерь, например когда войско ушло в поход."
+		},
+		{
+			"title": "ō",
+			"sort": "O",
+			"japanese": "大",
+			"translation": "большой"
+		},
+		{
+			"title": "ō ashi",
+			"sort": "O ashi",
+			"japanese": "大足",
+			"translation": "большой шаг"
+		},
+		{
+			"title": "obi",
+			"sort": "Obi",
+			"japanese": "帯",
+			"translation": "пояс"
+		},
+		{
+			"title": "Oda Nobunaga",
+			"sort": "Oda Nobunaga",
+			"japanese": "織田信長",
+			"description": "Военный диктатор, пытавшийся в период Сэнгоку захватить власть в Японии. Беспощадный полководец удерживал центральную часть Японии, построил замок возле Киото и без колебаний применял европейское огнестрельное оружие. После его смерти его генералам удалось объединить Японию."
+		},
+		{
+			"title": "ōgama",
+			"sort": "Ogama",
+			"japanese": "大鎌",
+			"translation": "большой серп",
+			"description": "Гораздо более крупный вариант <em>кусаригамы</em> для поля боя."
+		},
+		{
+			"title": "ōkami",
+			"sort": "Okami",
+			"japanese": "狼",
+			"translation": "волк"
+		},
+		{
+			"title": "Okinawa",
+			"sort": "Okinawa",
+			"japanese": "沖縄",
+			"description": "Группа островов на юге Японии."
+		},
+		{
+			"title": "okuri ashi",
+			"sort": "Okuri ashi",
+			"japanese": "送り足",
+			"translation": "приставной шаг"
+		},
+		{
+			"title": "ōmetsuke",
+			"sort": "Ometsuke",
+			"japanese": "大目付",
+			"description": "Чиновники <em>бакуфу</em> в государственной полиции. После окончания гражданских войн им подчинялись ниндзя, служившие в тайной полиции."
+		},
+		{
+			"title": "omote soku gyaku ken no keri",
+			"sort": "Omote soku gyaku ken no keri",
+			"description": "Удар ногой, при котором подошва развернута внутрь. Стопа идет снаружи к средней линии перед собственным телом и поражает противника на этой линии, например во внутреннюю сторону бедра."
+		},
+		{
+			"title": "ongyō no mono",
+			"sort": "Ongyo no mono",
+			"japanese": "隠形の者",
+			"translation": "скрытые люди",
+			"description": "Прозвище ниндзя из Кога."
+		},
+		{
+			"title": "ongyō-in",
+			"sort": "Ongyo-in",
+			"japanese": "隠形印",
+			"translation": "знак скрытой формы",
+			"description": "Знак рук для <em>дзэн</em> в системе <em>кудзи-ин</em>."
+		},
+		{
+			"title": "oni",
+			"sort": "Oni",
+			"japanese": "鬼",
+			"translation": "демон, черт, злой дух"
+		},
+		{
+			"title": "oni kudaki",
+			"sort": "Oni kudaki",
+			"japanese": "鬼砕",
+			"translation": "сокрушитель демонов",
+			"description": "Болевой прием на сустав."
+		},
+		{
+			"title": "onibi",
+			"sort": "Onibi",
+			"translation": "маска дьявола",
+			"description": "Жуткая деревянная маска, которой ниндзя наводил ужас на преследователей."
+		},
+		{
+			"title": "onmyōdō",
+			"sort": "Onmyodo",
+			"japanese": "陰陽道",
+			"translation": "гадание и астрология"
+		},
+		{
+			"title": "ono",
+			"sort": "Ono",
+			"japanese": "斧",
+			"translation": "боевой топор"
+		},
+		{
+			"title": "ono gama",
+			"sort": "Ono gama",
+			"japanese": "斧鎌",
+			"translation": "топор и серп",
+			"description": "Комбинированное оружие из боевого топора и серпа."
+		},
+		{
+			"title": "onshin jutsu",
+			"sort": "Onshin jutsu",
+			"japanese": "隠身術",
+			"translation": "искусство укрытия",
+			"description": "Искусство ниндзя прятаться, маскироваться и становиться невидимым."
+		},
+		{
+			"title": "ōten",
+			"sort": "Oten",
+			"japanese": "横転",
+			"translation": "колесо"
+		},
+		{
+			"title": "ōtsuchi",
+			"sort": "Otsuchi",
+			"japanese": "大槌",
+			"translation": "большой молот",
+			"description": "Боевой молот, оружие Синдэн-Фудо-рю."
+		},
+		{
+			"title": "ōzutsu",
+			"sort": "Ozutsu",
+			"japanese": "大筒",
+			"translation": "деревянная пушка"
+		},
+		{
+			"title": "rakusha",
+			"sort": "Rakusha",
+			"japanese": "楽者",
+			"translation": "человек, любящий удобство",
+			"description": "Принцип <em>годзё гоёку</em>, использующий лень человека."
+		},
+		{
+			"title": "rappa",
+			"sort": "Rappa",
+			"japanese": "乱破",
+			"description": "Другое название ниндзя, например партизан, следовавших за Фумой Котаро. Также <em>суппа</em>."
+		},
+		{
+			"title": "rei",
+			"sort": "Rei",
+			"japanese": "礼",
+			"translation": "приветствие, поклон, благодарность"
+		},
+		{
+			"title": "renzoku",
+			"sort": "Renzoku",
+			"japanese": "連続",
+			"translation": "непрерывность, комбинация, последовательность"
+		},
+		{
+			"title": "ritsudō",
+			"sort": "Ritsudo",
+			"japanese": "律動",
+			"translation": "ритм, чувство"
+		},
+		{
+			"title": "roku shaku bō",
+			"sort": "Roku shaku bo",
+			"japanese": "六尺棒",
+			"translation": "посох в шесть <em>сяку</em>",
+			"description": "Самая распространенная форма <em>бо</em>, длиной около 1,82 метра. <em>Року</em> означает шесть, а <em>сяку</em> — японская мера длины."
+		},
+		{
+			"title": "rōnin",
+			"sort": "Ronin",
+			"japanese": "浪人",
+			"translation": "люди-волны",
+			"description": "Самурай без господина. Самураи, потерявшие своего господина (даймё), скитались по стране. Одни нанимались наемниками, другие становились учителями боевых искусств, а некоторые — разбойниками, грабившими крестьян."
+		},
+		{
+			"title": "ryakuhon jutsu",
+			"sort": "Ryakuhon jutsu",
+			"japanese": "略本術",
+			"description": "Тактика <em>тикаири</em>: ниндзя пробирался во вражеский лагерь и выдавал себя за союзника. Для этого его там уже должны были знать, а сам он должен был отлично знать местность."
+		},
+		{
+			"title": "ryō ashi tobi geri",
+			"sort": "Ryo ashi tobi geri",
+			"japanese": "両足飛び蹴り",
+			"translation": "прыжковый удар двумя ногами",
+			"description": "Удар ногами в прыжке, при котором боец отталкивается обеими ногами и держит их вместе. Противника поражает вся масса тела."
+		},
+		{
+			"title": "ryō yoku geri",
+			"sort": "Ryo yoku geri",
+			"translation": "удар крылом двумя ногами",
+			"description": "Удар, который применяют в основном тогда, когда боец спрыгивает на противника с возвышения."
+		},
+		{
+			"title": "ryōhan jutsu",
+			"sort": "Ryohan jutsu",
+			"description": "Тактика <em>тикаири</em>: ниндзя похищал ключевую фигуру, чтобы добиться выполнения своих требований. Другие ключевые фигуры должны были служить ниндзя, иначе заложника казнили."
+		},
+		{
+			"title": "ryōte",
+			"sort": "Ryote",
+			"japanese": "両手",
+			"translation": "обе руки",
+			"description": "Двумя руками, например при упражнениях на падение (<em>укэми</em>)."
+		},
+		{
+			"title": "Ryū",
+			"sort": "Ryu",
+			"japanese": "流",
+			"translation": "школа, стиль, традиция"
+		},
+		{
+			"title": "ryūha",
+			"sort": "Ryuha",
+			"japanese": "流派",
+			"translation": "школа стиля или традиции",
+			"description": "Полная форма слова рю."
+		},
+		{
+			"title": "ryūsui",
+			"sort": "Ryusui",
+			"japanese": "流水",
+			"translation": "текущая вода"
+		},
+		{
+			"title": "sabaki",
+			"sort": "Sabaki",
+			"japanese": "捌き",
+			"translation": "движение тела"
+		},
+		{
+			"title": "sai",
+			"sort": "Sai",
+			"japanese": "釵",
+			"description": "Оружие из <em>кобудо</em>."
+		},
+		{
+			"title": "Saichō",
+			"sort": "Saicho",
+			"japanese": "最澄",
+			"description": "Другое имя Дэнгё Дайси."
+		},
+		{
+			"title": "Saiga Magoichi",
+			"sort": "Saiga Magoichi",
+			"japanese": "雑賀孫一",
+			"description": "Предводитель стрелков Сайка, которого часто причисляют к ниндзя, мастер огнестрельного оружия и взрывчатых веществ. Его люди были хорошими снайперами. Он разработал <em>сяки но дзюцу</em>."
+		},
+		{
+			"title": "saimin jutsu",
+			"sort": "Saimin jutsu",
+			"japanese": "催眠術",
+			"translation": "искусство гипноза"
+		},
+		{
+			"title": "sake",
+			"sort": "Sake",
+			"japanese": "酒",
+			"translation": "рисовое вино, алкоголь"
+		},
+		{
+			"title": "sakki",
+			"sort": "Sakki",
+			"japanese": "殺気",
+			"translation": "намерение убить",
+			"description": "В Будзинкане по нему назван экзамен на пятый дан: ученик должен уклониться от меча, не видя его. Хацуми Масааки сдал этот экзамен у Такамацу Тосицугу."
+		},
+		{
+			"title": "sakki jutsu",
+			"sort": "Sakki jutsu",
+			"japanese": "察気術",
+			"translation": "искусство угадывать мысли",
+			"description": "Интуитивное видение, позволяющее бойцу уклониться от удара еще до того, как тот нанесен."
+		},
+		{
+			"title": "samurai",
+			"sort": "Samurai",
+			"japanese": "侍",
+			"description": "Японское воинское сословие."
+		},
+		{
+			"title": "san shaku bō",
+			"sort": "San shaku bo",
+			"japanese": "三尺棒",
+			"translation": "посох в три <em>сяку</em>",
+			"description": "Палка длиной три <em>сяку</em>, около 91 сантиметра. Другое название — <em>хамбо</em>."
+		},
+		{
+			"title": "san shitan ken",
+			"sort": "San shitan ken",
+			"japanese": "三指端拳",
+			"description": "Вариант удара <em>ситан кэн</em> тремя пальцами."
+		},
+		{
+			"title": "sanmitsu",
+			"sort": "Sanmitsu",
+			"japanese": "三密",
+			"translation": "три тайны",
+			"description": "Три силы <em>миккё</em>: мысль, слово и действие. Их обозначают <em>мандала</em>, <em>мантра</em> и <em>мудра</em>."
+		},
+		{
+			"title": "sanmyaku",
+			"sort": "Sanmyaku",
+			"japanese": "山脈",
+			"translation": "горная цепь",
+			"description": "Название официального журнала Будзинкан."
+		},
+		{
+			"title": "sanpō hiden",
+			"sort": "Sanpo hiden",
+			"japanese": "三法秘伝",
+			"description": "Три тайных сокровища Тогакурэ-рю: метательная звезда <em>сэмбан сюрикэн</em>, когти <em>сюко</em> и бамбуковая трубка <em>синдакэ</em>."
+		},
+		{
+			"title": "sansa jutsu",
+			"sort": "Sansa jutsu",
+			"japanese": "散策術",
+			"description": "Техники бега ниндзя."
+		},
+		{
+			"title": "sanshin no kata",
+			"sort": "Sanshin no kata",
+			"japanese": "三心の型",
+			"translation": "форма трех сердец"
+		},
+		{
+			"title": "sashi ashi",
+			"sort": "Sashi ashi",
+			"japanese": "差し足",
+			"translation": "скрытые шаги",
+			"description": "Шаг со скрещиванием ног."
+		},
+		{
+			"title": "satobito jutsu",
+			"sort": "Satobito jutsu",
+			"japanese": "里人術",
+			"description": "Тактика <em>тоири</em>: ниндзя привлекал на свою сторону недовольного, алчного или честолюбивого подданного вражеского правителя. Такие люди поставляли сведения, держали открытыми пути отхода или снабжали ниндзя материалами."
+		},
+		{
+			"title": "satori",
+			"sort": "Satori",
+			"japanese": "悟り",
+			"translation": "постижение, понимание, просветление"
+		},
+		{
+			"title": "saya",
+			"sort": "Saya",
+			"japanese": "鞘",
+			"translation": "ножны"
+		},
+		{
+			"title": "sayū kaiten",
+			"sort": "Sayu kaiten",
+			"japanese": "左右廻転",
+			"translation": "перекат влево и вправо"
+		},
+		{
+			"title": "seigan no kamae",
+			"sort": "Seigan no kamae",
+			"japanese": "正眼の構え",
+			"description": "Стойка, направленная на глаза противника."
+		},
+		{
+			"title": "Seii taishōgun",
+			"sort": "Seii taishogun",
+			"japanese": "征夷大将軍",
+			"translation": "сёгун, покоряющий варваров",
+			"description": "Изначально титул главнокомандующего войском, позже сокращенный до слова сёгун."
+		},
+		{
+			"title": "seishin teki kyōyō",
+			"sort": "Seishin teki kyoyo",
+			"japanese": "精神的教養",
+			"translation": "развитие разума и интуиции",
+			"description": "Первая из 18 дисциплин, входящих в <em>ниндзя дзюхаккэй</em>."
+		},
+		{
+			"title": "seiza no kamae",
+			"sort": "Seiza no kamae",
+			"japanese": "正座の構え",
+			"translation": "правильная поза сидя",
+			"description": "Сидение на коленях, стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "Sekigahara",
+			"sort": "Sekigahara",
+			"japanese": "関ヶ原",
+			"description": "Небольшая деревня в провинции Мино, у которой Токугава Иэясу одержал окончательную победу над своими врагами."
+		},
+		{
+			"title": "senban",
+			"sort": "Senban",
+			"japanese": "銛盤",
+			"description": "Четырехконечная метательная звезда (<em>сюрикэн</em>)."
+		},
+		{
+			"title": "senban shaken",
+			"sort": "Senban shaken",
+			"japanese": "銛盤捨剣",
+			"description": "Метательная звезда (<em>сюрикэн</em>) с отверстием посередине."
+		},
+		{
+			"title": "Sengoku jidai",
+			"sort": "Sengoku jidai",
+			"japanese": "戦国時代",
+			"translation": "период воюющих провинций",
+			"description": "Эпоха кровопролитных гражданских войн в Японии, примерно 1467–1615 годы."
+		},
+		{
+			"title": "senjō jutsu",
+			"sort": "Senjo jutsu",
+			"japanese": "戦場術",
+			"translation": "искусство поля боя",
+			"description": "Маневрирование войсками."
+		},
+		{
+			"title": "senjutsu",
+			"sort": "Senjutsu",
+			"japanese": "戦術",
+			"translation": "искусство войны",
+			"description": "Военная стратегия."
+		},
+		{
+			"title": "sennin",
+			"sort": "Sennin",
+			"japanese": "仙人",
+			"translation": "отшельник в глуши"
+		},
+		{
+			"title": "sensei",
+			"sort": "Sensei",
+			"japanese": "先生",
+			"translation": "рожденный раньше",
+			"description": "Учитель."
+		},
+		{
+			"title": "sha",
+			"sort": "Sha",
+			"japanese": "者",
+			"translation": "человек"
+		},
+		{
+			"title": "shaken",
+			"sort": "Shaken",
+			"japanese": "車剣",
+			"description": "Многолучевая метательная звезда (<em>сюрикэн</em>)."
+		},
+		{
+			"title": "shaki no jutsu",
+			"sort": "Shaki no jutsu",
+			"japanese": "捨旗の術",
+			"translation": "бросание знамен",
+			"description": "Хитрость Сайги Магоити в битве при Нанива Кандзакигава: его люди оставили свои знамена и заняли новую позицию под поддельными знаменами Оды Нобунаги, чьи войска приняли их за союзников."
+		},
+		{
+			"title": "shako ken",
+			"sort": "Shako ken",
+			"japanese": "蝦蛄拳",
+			"translation": "крабий кулак"
+		},
+		{
+			"title": "shaku",
+			"sort": "Shaku",
+			"japanese": "尺",
+			"description": "Японская мера длины. Один <em>сяку</em> равен 30,3 сантиметра (10/33 метра)."
+		},
+		{
+			"title": "shakuhachi",
+			"sort": "Shakuhachi",
+			"japanese": "尺八",
+			"description": "Флейта <em>комусо</em>. Название означает <q>один <em>сяку</em> восемь <em>сун</em></q>, то есть около 54,5 сантиметра; у обычной флейты пять отверстий для пальцев."
+		},
+		{
+			"title": "shakujō",
+			"sort": "Shakujo",
+			"japanese": "錫杖",
+			"translation": "оловянный посох",
+			"description": "Посох священника с кольцами на конце. Их звон при ходьбе монаха должен был прогонять с дороги ползучих тварей, чтобы буддийские монахи могли соблюдать заповедь не убивать."
+		},
+		{
+			"title": "shi shitan ken",
+			"sort": "Shi shitan ken",
+			"japanese": "四指端拳",
+			"description": "Вариант удара <em>ситан кэн</em> с опорой на большой палец."
+		},
+		{
+			"title": "shiatsu",
+			"sort": "Shiatsu",
+			"japanese": "指圧",
+			"translation": "давление пальцами",
+			"description": "Японский массаж, который, как считается, облегчает или излечивает обморок и другие недуги надавливанием на определенные точки тела."
+		},
+		{
+			"title": "shiba gakure no jutsu",
+			"sort": "Shiba gakure no jutsu",
+			"japanese": "柴隠れの術",
+			"description": "Техника <em>онсин дзюцу</em> из традиций Ига и Кога: укрытие в густом кустарнике, высокой траве или кучах хвороста."
+		},
+		{
+			"title": "shichi hō de",
+			"sort": "Shichi ho de",
+			"japanese": "七方出",
+			"translation": "семь способов идти",
+			"description": "Семь традиционных маскировок ниндзя."
+		},
+		{
+			"title": "shidōshi",
+			"sort": "Shidoshi",
+			"japanese": "指導士",
+			"translation": "тот, кто указывает путь",
+			"description": "Учитель воинского искусства просветления."
+		},
+		{
+			"title": "shihan",
+			"sort": "Shihan",
+			"japanese": "師範",
+			"translation": "старший наставник",
+			"description": "В 1695 году император Хигасияма назначил Такаги Ориэмона Сигэнобу <em>сиханом</em> императорской гвардии."
+		},
+		{
+			"title": "shihō tenchi tobi",
+			"sort": "Shiho tenchi tobi",
+			"japanese": "四方天地飛",
+			"translation": "прыжки в четыре стороны, к небу и к земле"
+		},
+		{
+			"title": "shikan ken",
+			"sort": "Shikan ken",
+			"japanese": "指環拳",
+			"translation": "кулак с пальцевым кольцом"
+		},
+		{
+			"title": "shiken haramitsu daikōmyō",
+			"sort": "Shiken haramitsu daikomyo",
+			"japanese": "四拳波羅蜜大光明",
+			"description": "Слова, которые произносят в начале тренировки. Если упростить до предела, они означают <q>Мы просим о защите и просветлении</q>."
+		},
+		{
+			"title": "shikomizue",
+			"sort": "Shikomizue",
+			"japanese": "仕込み杖",
+			"translation": "трость с мечом",
+			"description": "Меч, спрятанный в посохе."
+		},
+		{
+			"title": "shikoro",
+			"sort": "Shikoro",
+			"japanese": "錏",
+			"description": "Тонкая пила, с помощью которой ниндзя проходили сквозь деревянные стены и двери."
+		},
+		{
+			"title": "Shimabara no ran",
+			"sort": "Shimabara no ran",
+			"japanese": "島原の乱",
+			"translation": "Симабарское восстание",
+			"description": "Восстание христиан в 1637–1638 годах на полуострове Симабара. В действительности это было крестьянское восстание, которое послужило поводом для преследования христиан."
+		},
+		{
+			"title": "shime ashi",
+			"sort": "Shime ashi",
+			"japanese": "締め足",
+			"translation": "твердый шаг"
+		},
+		{
+			"title": "shime waza",
+			"sort": "Shime waza",
+			"japanese": "絞め技",
+			"translation": "удушающие захваты"
+		},
+		{
+			"title": "shinai",
+			"sort": "Shinai",
+			"japanese": "竹刀",
+			"translation": "бамбуковый меч",
+			"description": "Меч из нескольких бамбуковых пластин, скрепленных и стянутых кожей и шнурами. Его используют в кэндо."
+		},
+		{
+			"title": "shinbō",
+			"sort": "Shinbo",
+			"japanese": "神棒",
+			"translation": "посох богов",
+			"description": "Кулачное оружие с кольцом для среднего пальца."
+		},
+		{
+			"title": "Shinden-Fudō-Ryū",
+			"sort": "Shinden-Fudo-Ryu",
+			"japanese": "神伝不動流",
+			"translation": "школа неподвижного сердца",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "shingitai",
+			"sort": "Shingitai",
+			"japanese": "心技体",
+			"translation": "сердце, техника, тело",
+			"description": "Один из важнейших принципов боевых искусств."
+		},
+		{
+			"title": "Shingon",
+			"sort": "Shingon",
+			"japanese": "真言",
+			"translation": "школа истинного слова",
+			"description": "Буддийская школа, основанная Кобо Дайси."
+		},
+		{
+			"title": "shinken gata taihen jutsu",
+			"sort": "Shinken gata taihen jutsu",
+			"japanese": "真剣型体変術",
+			"translation": "форма с настоящим клинком"
+		},
+		{
+			"title": "shinobi",
+			"sort": "Shinobi",
+			"japanese": "忍び",
+			"translation": "прокрадываться, шпионить, тайно проникать, терпеть",
+			"description": "Краткая форма слова ниндзя."
+		},
+		{
+			"title": "shinobi bune",
+			"sort": "Shinobi bune",
+			"japanese": "忍び舟",
+			"translation": "тайная лодка",
+			"description": "Легкая узкая лодка."
+		},
+		{
+			"title": "shinobi iri",
+			"sort": "Shinobi iri",
+			"japanese": "忍び入り",
+			"translation": "тайное проникновение",
+			"description": "Техники бесшумного передвижения ниндзя."
+		},
+		{
+			"title": "shinobi jutsu",
+			"sort": "Shinobi jutsu",
+			"japanese": "忍び術",
+			"translation": "тайные искусства",
+			"description": "Собирательное название различных искусств ниндзя."
+		},
+		{
+			"title": "shinobi kai",
+			"sort": "Shinobi kai",
+			"japanese": "忍び櫂",
+			"translation": "тайное весло",
+			"description": "Полый бамбуковый посох с железными деталями внутри, из которых можно было быстро собрать весло."
+		},
+		{
+			"title": "shinobi katana",
+			"sort": "Shinobi katana",
+			"japanese": "忍び刀",
+			"translation": "тайный меч",
+			"description": "Меч ниндзя."
+		},
+		{
+			"title": "shinobi kenpō",
+			"sort": "Shinobi kenpo",
+			"japanese": "忍び剣法",
+			"translation": "тайные методы меча",
+			"description": "Искусство меча ниндзя."
+		},
+		{
+			"title": "shinobi no buki",
+			"sort": "Shinobi no buki",
+			"japanese": "忍びの武器",
+			"translation": "тайные орудия войны",
+			"description": "Оружие ниндзя."
+		},
+		{
+			"title": "shinobi no jutsu",
+			"sort": "Shinobi no jutsu",
+			"japanese": "忍びの術",
+			"translation": "тайное искусство",
+			"description": "Собирательное название различных искусств ниндзя. По преданию, это название возникло при Сётоку Тайси."
+		},
+		{
+			"title": "shinobi shobō",
+			"sort": "Shinobi shobo",
+			"japanese": "忍び小棒",
+			"translation": "тайный малый посох",
+			"description": "Кулачное оружие и предшественник кастета: средний палец продевают в стальное кольцо, остальная часть оружия скрыта в кулаке."
+		},
+		{
+			"title": "shinobi shōzoku",
+			"sort": "Shinobi shozoku",
+			"japanese": "忍び装束",
+			"translation": "тайный узел одежды",
+			"description": "Темный боевой костюм ниндзя, зимой светло-серый или белый. Также <em>ниннику ёрои</em>."
+		},
+		{
+			"title": "shinobi tantō",
+			"sort": "Shinobi tanto",
+			"japanese": "忍び短刀",
+			"translation": "тайный короткий меч",
+			"description": "Кинжал (<em>танто</em>), спрятанный в посохе."
+		},
+		{
+			"title": "shinobi yari",
+			"sort": "Shinobi yari",
+			"japanese": "忍び槍",
+			"description": "Копье ниндзя."
+		},
+		{
+			"title": "shinobi zue",
+			"sort": "Shinobi zue",
+			"japanese": "忍び杖",
+			"translation": "тайный посох",
+			"description": "Полый бамбуковый посох, в котором прятали оружие или ослепляющий порошок."
+		},
+		{
+			"title": "shinobu",
+			"sort": "Shinobu",
+			"japanese": "忍",
+			"translation": "стойкость, терпимость, терпение, самообладание, терпеть, скрывать, шпион, красться"
+		},
+		{
+			"title": "Shintō",
+			"sort": "Shinto",
+			"japanese": "神道",
+			"translation": "путь богов",
+			"description": "Японская религия, которая видит высших духов во всех формах бытия. Называется также <q>синтоизм</q>."
+		},
+		{
+			"title": "shishi undō",
+			"sort": "Shishi undo",
+			"japanese": "四肢運動",
+			"translation": "движение четырех конечностей",
+			"description": "Движение рук и ног."
+		},
+		{
+			"title": "shishin ken",
+			"sort": "Shishin ken",
+			"japanese": "指針拳",
+			"translation": "кулак-игла из пальцев"
+		},
+		{
+			"title": "shitan ken",
+			"sort": "Shitan ken",
+			"japanese": "指端拳",
+			"translation": "кулак кончиками пальцев"
+		},
+		{
+			"title": "shitō ken",
+			"sort": "Shito ken",
+			"japanese": "指刀拳",
+			"translation": "кулак-меч из пальцев"
+		},
+		{
+			"title": "shizen ken",
+			"sort": "Shizen ken",
+			"japanese": "自然拳",
+			"translation": "естественное оружие",
+			"description": "Естественное оружие тела, например плечо, вес тела или ногти."
+		},
+		{
+			"title": "shizen kōun ryūsui",
+			"sort": "Shizen koun ryusui",
+			"japanese": "自然行雲流水",
+			"translation": "идти естественно, вместе с течением"
+		},
+		{
+			"title": "shizen no kamae",
+			"sort": "Shizen no kamae",
+			"japanese": "自然の構え",
+			"translation": "естественная стойка",
+			"description": "Стойка (<em>камаэ</em>) ниндзюцу."
+		},
+		{
+			"title": "shizentai",
+			"sort": "Shizentai",
+			"japanese": "自然体",
+			"translation": "естественное тело",
+			"description": "Расслабленная естественная стойка."
+		},
+		{
+			"title": "shō",
+			"sort": "Sho",
+			"japanese": "小",
+			"translation": "малый"
+		},
+		{
+			"title": "shobō",
+			"sort": "Shobo",
+			"japanese": "小棒",
+			"translation": "малый посох",
+			"description": "Кулачное оружие."
+		},
+		{
+			"title": "shōgun",
+			"sort": "Shogun",
+			"japanese": "将軍",
+			"translation": "генерал войск",
+			"description": "Военный правитель Японии."
+		},
+		{
+			"title": "shoshin go gata",
+			"sort": "Shoshin go gata",
+			"japanese": "初心五型",
+			"translation": "пять форм ума начинающего"
+		},
+		{
+			"title": "shōten",
+			"sort": "Shoten",
+			"japanese": "昇天",
+			"description": "Взбегание по вертикальным поверхностям, упражнение <em>укэми</em>."
+		},
+		{
+			"title": "shōten no jutsu",
+			"sort": "Shoten no jutsu",
+			"japanese": "昇天の術",
+			"translation": "искусство восхождения на небо",
+			"description": "Взбегание на стену, забор, дерево или человека. Набрав достаточный разгон, боец прыгает на препятствие, отталкивается ногами и перепрыгивает через него. Упражнение из современных тренировок, называемое также <em>сётэн дзюцу</em>."
+		},
+		{
+			"title": "Shōtoku Taishi",
+			"sort": "Shotoku Taishi",
+			"japanese": "聖徳太子",
+			"description": "Принц-регент (574–622). Считается, что он первым стал использовать агентов, чтобы узнавать истинную подоплеку споров."
+		},
+		{
+			"title": "shu ken",
+			"sort": "Shu ken",
+			"translation": "кулак-клюв"
+		},
+		{
+			"title": "shugendō",
+			"sort": "Shugendo",
+			"japanese": "修験道",
+			"translation": "путь испытания себя",
+			"description": "Эзотерическое учение и форма аскезы, которой следовали прежде всего <em>ямабуси</em>."
+		},
+		{
+			"title": "shuki ken",
+			"sort": "Shuki ken",
+			"japanese": "手起拳",
+			"translation": "кулак-локоть"
+		},
+		{
+			"title": "shukō",
+			"sort": "Shuko",
+			"japanese": "手鉤",
+			"translation": "ручной коготь",
+			"description": "Когти для лазания и боя, одно из трех тайных сокровищ Тогакурэ-рю. Также <em>тэкаги</em>."
+		},
+		{
+			"title": "shuriken",
+			"sort": "Shuriken",
+			"japanese": "手裏剣",
+			"translation": "клинок в ладони",
+			"description": "Метательные клинки ниндзя самых разных форм и размеров."
+		},
+		{
+			"title": "shutō ken",
+			"sort": "Shuto ken",
+			"japanese": "手刀拳",
+			"description": "Удар ребром ладони, тот же удар, что и <em>китэн кэн</em>."
+		},
+		{
+			"title": "sodezutsu",
+			"sort": "Sodezutsu",
+			"japanese": "袖筒",
+			"description": "Ручная пушка."
+		},
+		{
+			"title": "sōhei",
+			"sort": "Sohei",
+			"japanese": "僧兵",
+			"translation": "буддийские монахи-воины",
+			"description": "Монахи-воины и наемники на службе монастырей."
+		},
+		{
+			"title": "sōke",
+			"sort": "Soke",
+			"japanese": "宗家",
+			"translation": "глава семьи, основатель",
+			"description": "Глава рю."
+		},
+		{
+			"title": "sokki ken",
+			"sort": "Sokki ken",
+			"japanese": "足起拳",
+			"translation": "кулак-колено"
+		},
+		{
+			"title": "soku gyaku ken",
+			"sort": "Soku gyaku ken",
+			"japanese": "足逆拳",
+			"translation": "перевернутая стопа",
+			"description": "Удар кончиками пальцев ноги по мягким целям, например в живот или шею; термин Будзинкан."
+		},
+		{
+			"title": "soku yaku ken",
+			"sort": "Soku yaku ken",
+			"japanese": "足躍拳",
+			"translation": "танцующая стопа",
+			"description": "Удар пяткой и подошвой по полумягким или твердым целям, например сверху по колену; термин Будзинкан."
+		},
+		{
+			"title": "sokuhō geri",
+			"sort": "Sokuho geri",
+			"japanese": "側方蹴り",
+			"translation": "боковой удар ногой",
+			"description": "Удар, при котором нога выбрасывается в сторону, а корпус остается развернутым вперед."
+		},
+		{
+			"title": "sokuhō kaiten",
+			"sort": "Sokuho kaiten",
+			"japanese": "側方回転",
+			"translation": "боковой перекат"
+		},
+		{
+			"title": "sokuhō kiten",
+			"sort": "Sokuho kiten",
+			"japanese": "側方起転",
+			"description": "Боковой переворот через руки, упражнение <em>укэми</em>."
+		},
+		{
+			"title": "sokuhō tobi",
+			"sort": "Sokuho tobi",
+			"japanese": "側方飛び",
+			"translation": "прыжок в сторону",
+			"description": "Низкий прыжок в сторону, упражнение <em>укэми</em>."
+		},
+		{
+			"title": "sokuhō ukemi",
+			"sort": "Sokuho ukemi",
+			"japanese": "側方受身",
+			"translation": "падение на бок"
+		},
+		{
+			"title": "sokuyaku suitei ken",
+			"sort": "Sokuyaku suitei ken",
+			"translation": "горизонтальный удар ногой",
+			"description": "Нога бьет вперед горизонтально, и стопа поражает цель сбоку."
+		},
+		{
+			"title": "Sonshi",
+			"sort": "Sonshi",
+			"japanese": "孫子",
+			"description": "Японское имя Сунь-цзы, который, по преданию, написал <cite>Искусство войны</cite> в VI веке до нашей эры. Трактат рано попал в Японию и, как считается, повлиял на становление ниндзюцу."
+		},
+		{
+			"title": "soshin sosoku hō",
+			"sort": "Soshin sosoku ho",
+			"japanese": "早心早速法",
+			"translation": "методы быстрого передвижения"
+		},
+		{
+			"title": "Sugitani Zenjūbō",
+			"sort": "Sugitani Zenjubo",
+			"japanese": "杉谷善住坊",
+			"description": "Знаменитый ниндзя, который в 1570 году пытался убить Оду Нобунагу двумя пулями. Обе попали лишь в его наплечник."
+		},
+		{
+			"title": "sui",
+			"sort": "Sui",
+			"japanese": "水",
+			"translation": "вода"
+		},
+		{
+			"title": "sui no kata",
+			"sort": "Sui no kata",
+			"japanese": "水の型",
+			"translation": "форма воды"
+		},
+		{
+			"title": "suikatsugan",
+			"sort": "Suikatsugan",
+			"japanese": "水渇丸",
+			"translation": "пилюля от жажды",
+			"description": "Пилюля от жажды из мякоти маринованных слив, сахара и корня офиопогона, рецепт которой приводит трактат <cite>Бансэнсюкай</cite>. Она увлажняла рот и горло."
+		},
+		{
+			"title": "suiki",
+			"sort": "Suiki",
+			"japanese": "水器",
+			"translation": "водные инструменты",
+			"description": "Раздел девятого тома трактата <cite>Бансэнсюкай</cite> о водном снаряжении. Он во многом основан на советах пиратов и показывает, как переправляться через реки или передвигаться под водой."
+		},
+		{
+			"title": "suiren",
+			"sort": "Suiren",
+			"japanese": "水練",
+			"translation": "тренировка в воде",
+			"description": "Пребывание и передвижение под водой."
+		},
+		{
+			"title": "suiton",
+			"sort": "Suiton",
+			"japanese": "水遁",
+			"description": "Бегство с помощью воды, один из пяти методов <em>готомпо</em>."
+		},
+		{
+			"title": "suiton jutsu",
+			"sort": "Suiton jutsu",
+			"japanese": "水遁術",
+			"translation": "техника бегства с помощью воды",
+			"description": "Техника бегства из <em>готомпо</em>, использующая воду как средство спасения."
+		},
+		{
+			"title": "suppa",
+			"sort": "Suppa",
+			"japanese": "透波",
+			"description": "Другое название ниндзя, например партизан, следовавших за Фумой Котаро или служивших роду Такэда. Также <em>раппа</em>."
+		},
+		{
+			"title": "tabi",
+			"sort": "Tabi",
+			"japanese": "足袋",
+			"translation": "мешок для стопы",
+			"description": "Японские носки, в которых большой палец отделен от остальных."
+		},
+		{
+			"title": "tachi",
+			"sort": "Tachi",
+			"japanese": "太刀",
+			"translation": "длинный меч",
+			"description": "Меч, похожий на <em>катану</em>, обычно с более сильным изгибом; его носили на поле боя. Церемониально украшен и очень искусно выкован."
+		},
+		{
+			"title": "tachi nagare",
+			"sort": "Tachi nagare",
+			"japanese": "立ち流れ",
+			"translation": "поток из положения стоя",
+			"description": "Форма <em>нагарэ</em>: падение назад из положения стоя."
+		},
+		{
+			"title": "tai",
+			"sort": "Tai",
+			"japanese": "体",
+			"translation": "тело, здоровье"
+		},
+		{
+			"title": "tai ken",
+			"sort": "Tai ken",
+			"japanese": "体拳",
+			"translation": "кулак-тело"
+		},
+		{
+			"title": "tai sabaki",
+			"sort": "Tai sabaki",
+			"japanese": "体捌き",
+			"translation": "управление телом",
+			"description": "Движение корпуса."
+		},
+		{
+			"title": "taihen jutsu",
+			"sort": "Taihen jutsu",
+			"japanese": "体変術",
+			"translation": "искусство изменения тела",
+			"description": "Часть <em>тайдзюцу</em>: стойки, позы, передвижения и техники падения."
+		},
+		{
+			"title": "taijutsu",
+			"sort": "Taijutsu",
+			"japanese": "体術",
+			"translation": "искусство тела",
+			"description": "Безоружный бой."
+		},
+		{
+			"title": "taikai",
+			"sort": "Taikai",
+			"japanese": "大会",
+			"translation": "большое собрание",
+			"description": "Встреча бойцов на мероприятиях."
+		},
+		{
+			"title": "Taira",
+			"sort": "Taira",
+			"japanese": "平",
+			"description": "Знаменитый род, называемый также Хэйкэ, который воевал с родом Минамото."
+		},
+		{
+			"title": "taizōkai mandara",
+			"sort": "Taizokai mandara",
+			"japanese": "胎蔵界曼荼羅",
+			"translation": "мандала мира чрева",
+			"description": "В <em>саммицу</em> обозначает материальный мир, <q>мир плодородной почвы</q>."
+		},
+		{
+			"title": "taka bashigo",
+			"sort": "Taka bashigo",
+			"japanese": "高梯子",
+			"translation": "высокая лестница",
+			"description": "Лестница, с помощью которой ниндзя переправлялись через пропасти. Дополнительная веревка укрепляла ее середину."
+		},
+		{
+			"title": "Takagi-Yōshin-Ryū",
+			"sort": "Takagi-Yoshin-Ryu",
+			"japanese": "高木楊心流",
+			"translation": "школа высокого дерева и духа ивы",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "Takamatsu Toshitsugu",
+			"sort": "Takamatsu Toshitsugu",
+			"japanese": "高松寿嗣",
+			"description": "Учитель различных стилей ниндзюцу и мастер Хацуми Масааки. В его честь собрание девяти рю называется <q>Будзинкан</q>."
+		},
+		{
+			"title": "Takeda Shingen",
+			"sort": "Takeda Shingen",
+			"japanese": "武田信玄",
+			"description": "Знаменитый полководец (даймё), который в период Сэнгоку вел ряд войн."
+		},
+		{
+			"title": "tanagokoro",
+			"sort": "Tanagokoro",
+			"japanese": "掌",
+			"translation": "ладонь",
+			"description": "Ладонный факел, который особенно хорошо служил при взломе дверных замков."
+		},
+		{
+			"title": "tanegashima",
+			"sort": "Tanegashima",
+			"japanese": "種子島",
+			"translation": "фитильный замок, аркебуза, гаковница",
+			"description": "Аркебуза, которую в Японию привезли португальцы. Также <em>тэппо</em>."
+		},
+		{
+			"title": "tantō",
+			"sort": "Tanto",
+			"japanese": "短刀",
+			"translation": "малый меч",
+			"description": "Кинжал."
+		},
+		{
+			"title": "tantōjutsu",
+			"sort": "Tantojutsu",
+			"japanese": "短刀術",
+			"translation": "искусство кинжала",
+			"description": "Техники боя на ножах."
+		},
+		{
+			"title": "tantra",
+			"sort": "Tantra",
+			"sanskrit": "तन्त्र",
+			"translation": "ткань, континуум, связь",
+			"description": "Течение индийской философии и религии, изначально эзотерическая форма индуизма, позже воспринятая тибетским буддизмом."
+		},
+		{
+			"title": "tanuki gakure no jutsu",
+			"sort": "Tanuki gakure no jutsu",
+			"japanese": "狸隠",
+			"translation": "искусство прятаться, как енотовидная собака",
+			"description": "Техника лазания ниндзя: взбираться на деревья и столбы и прятаться наверху."
+		},
+		{
+			"title": "taru ikada",
+			"sort": "Taru ikada",
+			"japanese": "樽筏",
+			"translation": "плот из бочек",
+			"description": "Водное приспособление ниндзя из двух бочек: в каждую ставили по ноге, и ниндзя передвигался по воде с помощью весла. Также <em>уки дару</em>."
+		},
+		{
+			"title": "tatami",
+			"sort": "Tatami",
+			"japanese": "畳",
+			"translation": "маты из рисовой соломы",
+			"description": "Покрытие пола в японских домах и в додзё."
+		},
+		{
+			"title": "tatami bune",
+			"sort": "Tatami bune",
+			"translation": "складная лодка",
+			"description": "Другое название <em>хасами бунэ</em>."
+		},
+		{
+			"title": "tatami gama",
+			"sort": "Tatami gama",
+			"translation": "складной серп",
+			"description": "Серп (<em>кама</em>) с деревянной рукоятью, изогнутое лезвие которого раскладывается. Название — современное описание, в руководствах ниндзя оно не встречается."
+		},
+		{
+			"title": "tebukuro",
+			"sort": "Tebukuro",
+			"japanese": "手袋",
+			"translation": "защита для рук",
+			"description": "Предмет одежды, закрывавший тыльную сторону кистей и предплечья ниндзя."
+		},
+		{
+			"title": "tekagi",
+			"sort": "Tekagi",
+			"japanese": "手鉤",
+			"translation": "ручной коготь",
+			"description": "Также <em>сюко</em>."
+		},
+		{
+			"title": "tekken",
+			"sort": "Tekken",
+			"japanese": "鉄拳",
+			"description": "Кастет. Также <em>тэкко</em>."
+		},
+		{
+			"title": "tekkō",
+			"sort": "Tekko",
+			"japanese": "鉄甲",
+			"description": "Кастет. Также <em>тэккэн</em>."
+		},
+		{
+			"title": "ten",
+			"sort": "Ten",
+			"japanese": "天",
+			"translation": "небо"
+		},
+		{
+			"title": "Ten ryaku no maki",
+			"sort": "Ten ryaku no maki",
+			"japanese": "天略の巻",
+			"translation": "свиток небесных стратегий"
+		},
+		{
+			"title": "Tendai",
+			"sort": "Tendai",
+			"japanese": "天台",
+			"translation": "небесная платформа",
+			"description": "Эзотерическая буддийская школа <em>миккё</em>, основанная в Японии Дэнгё Дайси. Ее центром был монастырь Энрякудзи на горе Хиэй."
+		},
+		{
+			"title": "tengu",
+			"sort": "Tengu",
+			"japanese": "天狗",
+			"translation": "небесная собака",
+			"description": "Мифические существа японской традиции, жившие в горах: с вороньими клювами и крыльями (<em>карасу тэнгу</em> или <em>ко тэнгу</em>) или в человеческом облике с длинными красными носами (<em>дай тэнгу</em>). Их считали то защитниками, то озорниками и опасными существами. По легенде, они были мастерами боевых искусств, и их часто считают учителями того или иного стиля."
+		},
+		{
+			"title": "tenmon",
+			"sort": "Tenmon",
+			"japanese": "天文",
+			"translation": "астрономия и метеорология"
+		},
+		{
+			"title": "tennō",
+			"sort": "Tenno",
+			"japanese": "天皇",
+			"translation": "небесный государь",
+			"description": "Японский император."
+		},
+		{
+			"title": "tenugui",
+			"sort": "Tenugui",
+			"japanese": "手拭",
+			"translation": "ручное полотенце",
+			"description": "Хлопковый платок, из которого ниндзя завязывали себе маску."
+		},
+		{
+			"title": "teppō",
+			"sort": "Teppo",
+			"japanese": "鉄砲",
+			"translation": "огнестрельное оружие",
+			"description": "Другое название <em>танэгасимы</em>."
+		},
+		{
+			"title": "tessen",
+			"sort": "Tessen",
+			"japanese": "鉄扇",
+			"translation": "железный веер"
+		},
+		{
+			"title": "tetsu mari",
+			"sort": "Tetsu mari",
+			"translation": "железный шар",
+			"description": "Полый железный шар с длинными шипами во все стороны, как <em>ига дама</em>. Название — современное описание, в руководствах ниндзя оно не встречается."
+		},
+		{
+			"title": "tetsubishi",
+			"sort": "Tetsubishi",
+			"japanese": "鉄菱",
+			"translation": "железный водяной орех",
+			"description": "Железный чеснок: шипы, которые ниндзя в большом количестве разбрасывал по земле, чтобы задержать преследователей."
+		},
+		{
+			"title": "tetsubō",
+			"sort": "Tetsubo",
+			"japanese": "鉄棒",
+			"translation": "железный посох"
+		},
+		{
+			"title": "tō",
+			"sort": "To",
+			"japanese": "刀",
+			"translation": "меч, нож"
+		},
+		{
+			"title": "tōami",
+			"sort": "Toami",
+			"japanese": "投網",
+			"translation": "метательная сеть",
+			"description": "Сеть, которой ниндзя мог ловить противников."
+		},
+		{
+			"title": "tobi ashi",
+			"sort": "Tobi ashi",
+			"japanese": "跳び足",
+			"translation": "прыжковый шаг",
+			"description": "Техника ходьбы ниндзя."
+		},
+		{
+			"title": "tobi bashigo",
+			"sort": "Tobi bashigo",
+			"japanese": "跳び梯子",
+			"translation": "прыгающая лестница",
+			"description": "Лестница с крюками на концах, которую можно было забросить."
+		},
+		{
+			"title": "tobi geri",
+			"sort": "Tobi geri",
+			"japanese": "飛び蹴り",
+			"translation": "удар ногой в прыжке",
+			"description": "Удар ногой из прыжка, например <em>ката аси тоби гэри</em> или <em>рё аси тоби гэри</em>."
+		},
+		{
+			"title": "tobi ori",
+			"sort": "Tobi ori",
+			"japanese": "飛び降り",
+			"translation": "спрыгивание",
+			"description": "Упражнение <em>укэми</em>: спрыгивание с высоты."
+		},
+		{
+			"title": "tobikunai",
+			"sort": "Tobikunai",
+			"japanese": "飛苦無",
+			"description": "Инструмент для открывания запертых ворот."
+		},
+		{
+			"title": "Toda Shinryūken Masamitsu",
+			"sort": "Toda Shinryuken Masamitsu",
+			"japanese": "戸田真竜軒正光",
+			"description": "Мастер ниндзя и учитель Такамацу Тосицугу."
+		},
+		{
+			"title": "Togakure Daisuke",
+			"sort": "Togakure Daisuke",
+			"japanese": "戸隠大助",
+			"description": "Основатель Тогакурэ-рю. После проигранной битвы он бежал в область Ига."
+		},
+		{
+			"title": "Togakure-Ryū",
+			"sort": "Togakure-Ryu",
+			"japanese": "戸隠流",
+			"translation": "школа скрытой двери",
+			"description": "Одна из девяти рю Будзинкан."
+		},
+		{
+			"title": "tōiri",
+			"sort": "Toiri",
+			"japanese": "遠入",
+			"translation": "дальнее проникновение",
+			"description": "Стратегия, которую ниндзя применяли превентивно в мирное время, прежде всего шпионаж."
+		},
+		{
+			"title": "toki",
+			"sort": "Toki",
+			"japanese": "登器",
+			"translation": "снаряжение для лазания"
+		},
+		{
+			"title": "Tokugawa Ieyasu",
+			"sort": "Tokugawa Ieyasu",
+			"japanese": "徳川家康",
+			"description": "Знаменитый даймё и союзник Оды Нобунаги. После окончания периода Сэнгоку, в 1603 году, он был назначен сёгуном. Его род правил до 1868 года."
+		},
+		{
+			"title": "Tōkyō",
+			"sort": "Tokyo",
+			"japanese": "東京",
+			"translation": "восточная столица",
+			"description": "Столица Японии, прежде Эдо. В префектуре Токио живет около 14 миллионов человек."
+		},
+		{
+			"title": "tomoe nagare",
+			"sort": "Tomoe nagare",
+			"japanese": "巴流れ",
+			"translation": "вихревой поток",
+			"description": "Форма <em>нагарэ</em>: в варианте <em>кохо томоэ нагарэ</em> — вихреобразное падение назад."
+		},
+		{
+			"title": "tonki",
+			"sort": "Tonki",
+			"description": "Метательные снаряды. Другое название <em>сюрикэна</em>."
+		},
+		{
+			"title": "tori no ko",
+			"sort": "Tori no ko",
+			"japanese": "鳥の子",
+			"description": "Петарды."
+		},
+		{
+			"title": "torinawa",
+			"sort": "Torinawa",
+			"japanese": "捕り縄",
+			"translation": "веревка для захвата",
+			"description": "Оружие ниндзя из веревки с грузом и острием, чтобы ловить и связывать противника."
+		},
+		{
+			"title": "torite kihon gata go hō",
+			"sort": "Torite kihon gata go ho",
+			"japanese": "捕手基本型五法",
+			"translation": "пять техник рычага на руку"
+		},
+		{
+			"title": "tōtoku hyōshi no kamae",
+			"sort": "Totoku hyoshi no kamae",
+			"japanese": "刀匿礮姿",
+			"description": "Стойка на коленях (<em>камаэ</em>) Тогакурэ-рю согласно традиции Будзинкан: заднее колено на земле, переднее поднято, меч или кулаки защищают грудь спереди."
+		},
+		{
+			"title": "Toyotomi Hideyoshi",
+			"sort": "Toyotomi Hideyoshi",
+			"japanese": "豊臣秀吉",
+			"description": "Даймё незнатного происхождения и полководец на службе у Оды Нобунаги. После смерти Оды он объединил Японию. После смерти Хидэёси Токугава Иэясу выступил против его наследников, и весь его род был уничтожен."
+		},
+		{
+			"title": "tsuba",
+			"sort": "Tsuba",
+			"japanese": "鍔",
+			"translation": "гарда меча",
+			"description": "Часть меча, защищавшая руку от ударов противника."
+		},
+		{
+			"title": "tsubo giri",
+			"sort": "Tsubo giri",
+			"japanese": "壺錐",
+			"description": "Сверло для больших отверстий в деревянных стенах и дверях."
+		},
+		{
+			"title": "tsugi bune",
+			"sort": "Tsugi bune",
+			"translation": "составная лодка",
+			"description": "Лодка из отдельных частей: по преданию, каждый член группы ниндзя нес одну часть, а у воды их быстро собирали."
+		},
+		{
+			"title": "tsuki",
+			"sort": "Tsuki",
+			"japanese": "突き",
+			"translation": "удар кулаком, толчок, удар, укол"
+		},
+		{
+			"title": "tsune ashi",
+			"sort": "Tsune ashi",
+			"japanese": "常足",
+			"translation": "обычный шаг"
+		},
+		{
+			"title": "tsuri bashigo",
+			"sort": "Tsuri bashigo",
+			"japanese": "吊梯子",
+			"translation": "подвесная лестница",
+			"description": "Лестница, которую для надежности можно было закрепить на стене дополнительными крюками."
+		},
+		{
+			"title": "uchi",
+			"sort": "Uchi",
+			"japanese": "打ち",
+			"description": "Ударная техника."
+		},
+		{
+			"title": "uchi dake",
+			"sort": "Uchi dake",
+			"japanese": "内竹",
+			"translation": "внутри бамбука",
+			"description": "Бамбуковый сосуд, в котором ниндзя носил с собой тлеющие угли, чтобы быстро развести огонь."
+		},
+		{
+			"title": "Uesugi Kenshin",
+			"sort": "Uesugi Kenshin",
+			"japanese": "上杉謙信",
+			"description": "Даймё, пытавшийся в период Сэнгоку захватить власть в Японии. По преданию, смерть настигла его в отхожем месте: ниндзя будто бы поджидал его в выгребной яме и убил."
+		},
+		{
+			"title": "uke",
+			"sort": "Uke",
+			"japanese": "受",
+			"translation": "отражать, защищаться, ловить, принимать"
+		},
+		{
+			"title": "ukemi",
+			"sort": "Ukemi",
+			"japanese": "受身",
+			"translation": "падение, страховка при падении, упражнение на падение"
+		},
+		{
+			"title": "ukemi gata taihen jutsu",
+			"sort": "Ukemi gata taihen jutsu",
+			"japanese": "受身型体変術",
+			"translation": "искусство перекатов и падений"
+		},
+		{
+			"title": "uki daru",
+			"sort": "Uki daru",
+			"japanese": "浮き樽",
+			"translation": "плавучая бочка",
+			"description": "Водное приспособление из двух бочек, как его описывают книги о ниндзя: в каждую ставили по ноге, и ниндзя передвигался по воде с помощью шеста или весла. Также <em>тару икада</em>."
+		},
+		{
+			"title": "uma",
+			"sort": "Uma",
+			"japanese": "馬",
+			"translation": "лошадь"
+		},
+		{
+			"title": "undō",
+			"sort": "Undo",
+			"japanese": "運動",
+			"translation": "движение"
+		},
+		{
+			"title": "ushiro gaeshi",
+			"sort": "Ushiro gaeshi",
+			"japanese": "後返",
+			"translation": "техники, направленные назад"
+		},
+		{
+			"title": "Ushiwakamaru",
+			"sort": "Ushiwakamaru",
+			"japanese": "牛若丸",
+			"description": "Детское имя Минамото но Ёсицунэ."
+		},
+		{
+			"title": "uwagi",
+			"sort": "Uwagi",
+			"japanese": "上着",
+			"translation": "куртка",
+			"description": "Куртка ниндзя со скрытыми внутренними карманами, которую заправляли в штаны."
+		},
+		{
+			"title": "uzume bi",
+			"sort": "Uzume bi",
+			"japanese": "埋め火",
+			"translation": "закопанный огонь",
+			"description": "Мина. Также <em>дзирай</em>."
+		},
+		{
+			"title": "uzura gakure no jutsu",
+			"sort": "Uzura gakure no jutsu",
+			"japanese": "鶉隠れの術",
+			"translation": "искусство прятаться, как перепел",
+			"description": "Техника <em>онсин дзюцу</em>: укрытие в ямах, впадинах и расщелинах скал или за камнями."
+		},
+		{
+			"title": "wakizashi",
+			"sort": "Wakizashi",
+			"japanese": "脇差",
+			"translation": "короткий меч",
+			"description": "Короткий меч самураев. Вместе с <em>катаной</em> он составлял <em>дайсё</em>."
+		},
+		{
+			"title": "wakizashi teppō",
+			"sort": "Wakizashi teppo",
+			"japanese": "脇差鉄砲",
+			"description": "Традиционный короткий меч со скрытым пистолетом, который мог сделать один выстрел."
+		},
+		{
+			"title": "wakō",
+			"sort": "Wako",
+			"japanese": "倭寇",
+			"description": "Японские пираты, грабившие побережья Кореи и Китая. Почти ни один сёгун не мог противостоять их силе. Считается, что многие изобретательные виды оружия ниндзя восходят к <em>вако</em>."
+		},
+		{
+			"title": "wari ashi",
+			"sort": "Wari ashi",
+			"japanese": "割り足",
+			"translation": "приспосабливающийся шаг",
+			"description": "Техника ходьбы ниндзя."
+		},
+		{
+			"title": "watari",
+			"sort": "Watari",
+			"japanese": "渡り",
+			"translation": "странствующий",
+			"description": "Ниндзя, продававшие свои услуги тому, кто больше заплатит."
+		},
+		{
+			"title": "wu wei",
+			"sort": "Wu wei",
+			"chinese": "無為",
+			"translation": "недеяние",
+			"description": "Принцип даосизма: не действовать вопреки естественному ходу Дао."
+		},
+		{
+			"title": "ya",
+			"sort": "Ya",
+			"japanese": "矢",
+			"translation": "стрела"
+		},
+		{
+			"title": "yaiba",
+			"sort": "Yaiba",
+			"japanese": "刃",
+			"translation": "клинок",
+			"description": "Верхняя часть иероглифа <em>нин</em> (忍)."
+		},
+		{
+			"title": "yajiri",
+			"sort": "Yajiri",
+			"description": "Пила с прочным полотном для толстых деревянных деталей или веток."
+		},
+		{
+			"title": "yamabiko jutsu",
+			"sort": "Yamabiko jutsu",
+			"japanese": "山彦術",
+			"translation": "эхо в ответ на зов",
+			"description": "Тактика <em>тоири</em>: ниндзя переходил на другую сторону и годами служил новому господину, не вызывая сомнений в своей верности. По условленному сигналу он, причинив большой ущерб, возвращался обратно."
+		},
+		{
+			"title": "yamabiko shichō no jutsu",
+			"sort": "Yamabiko shicho no jutsu",
+			"japanese": "山彦伺聴の術",
+			"translation": "искусство вслушиваться в эхо",
+			"description": "Техника <em>тёхо</em>: подозреваемому подбрасывали важные документы и наблюдали за его реакцией."
+		},
+		{
+			"title": "yamabushi",
+			"sort": "Yamabushi",
+			"japanese": "山伏",
+			"translation": "горный аскет, странствующий священник",
+			"description": "Отшельники, жившие уединенно в горах и следовавшие <em>сюгэндо</em>."
+		},
+		{
+			"title": "yamidoko",
+			"sort": "Yamidoko",
+			"description": "Летательный аппарат ниндзя. Также <em>хито васи</em>."
+		},
+		{
+			"title": "yang",
+			"sort": "Yang",
+			"chinese": "陽",
+			"translation": "свет, положительное, открытое",
+			"description": "Положительное начало двойственности инь-ян в даосизме. По-японски <em>ё</em>."
+		},
+		{
+			"title": "yari",
+			"sort": "Yari",
+			"japanese": "槍",
+			"translation": "копье"
+		},
+		{
+			"title": "yarijutsu",
+			"sort": "Yarijutsu",
+			"japanese": "槍術",
+			"translation": "искусство копья",
+			"description": "Техники боя копьем."
+		},
+		{
+			"title": "yawara",
+			"sort": "Yawara",
+			"japanese": "柔",
+			"description": "Кулачное оружие. Также <em>куботан</em>."
+		},
+		{
+			"title": "yin",
+			"sort": "Yin",
+			"chinese": "陰",
+			"translation": "тень, отрицательное, скрытое",
+			"description": "Отрицательное начало двойственности инь-ян в даосизме. По-японски <em>ин</em>."
+		},
+		{
+			"title": "yinyang",
+			"sort": "Yinyang",
+			"chinese": "陰陽",
+			"description": "Двойственность света и тени, добра и зла, малого и большого, важный принцип даосизма. По-японски <em>инъё</em>."
+		},
+		{
+			"title": "yō",
+			"sort": "Yo",
+			"japanese": "陽",
+			"translation": "свет, положительное, открытое"
+		},
+		{
+			"title": "yoga",
+			"sort": "Yoga",
+			"sanskrit": "योग",
+			"translation": "ярмо, впрягать, связывать вместе, запрягать",
+			"description": "Индийское учение о теле и духе, у которого много направлений. В Индии каждый <q>путь к просветлению</q> — это <q>путь йоги</q>. Хатха-йога делает тело настолько гибким, что оно может принимать крайние положения. Другие формы включают также питание, медитацию и дыхание."
+		},
+		{
+			"title": "yōji gakure no jutsu",
+			"sort": "Yoji gakure no jutsu",
+			"description": "Техника <em>хэйхо</em>: ниндзя раз за разом перебрасывал какой-нибудь предмет через голову часового, пока тот не переставал проверять каждый звук."
+		},
+		{
+			"title": "yoko aruki",
+			"sort": "Yoko aruki",
+			"japanese": "横歩き",
+			"translation": "ходьба боком"
+		},
+		{
+			"title": "yoko gaeshi",
+			"sort": "Yoko gaeshi",
+			"japanese": "横返",
+			"translation": "техники, направленные в сторону"
+		},
+		{
+			"title": "yoko nagare",
+			"sort": "Yoko nagare",
+			"japanese": "横流れ",
+			"translation": "боковой поток",
+			"description": "Форма <em>нагарэ</em>: падение в сторону из положения стоя, вправо (<em>миги ёко нагарэ</em>) или влево (<em>хидари ёко нагарэ</em>)."
+		},
+		{
+			"title": "yomogami no jutsu",
+			"sort": "Yomogami no jutsu",
+			"translation": "прическа должна выглядеть одинаково со всех четырех сторон",
+			"description": "Принцип <em>тёхо</em>: ниндзя всегда держал наготове несколько имен и личностей."
+		},
+		{
+			"title": "yon shaku bō",
+			"sort": "Yon shaku bo",
+			"japanese": "四尺棒",
+			"translation": "посох длиной четыре <em>сяку</em>",
+			"description": "Посох длиной четыре <em>сяку</em>, около 121 сантиметра. Также <em>дзё</em>."
+		},
+		{
+			"title": "yuki waraki",
+			"sort": "Yuki waraki",
+			"japanese": "雪藁き",
+			"translation": "снежная солома",
+			"description": "Также <em>гэта</em>."
+		},
+		{
+			"title": "yumi",
+			"sort": "Yumi",
+			"japanese": "弓",
+			"translation": "лук",
+			"description": "Также <em>кю</em>."
+		},
+		{
+			"title": "yumi ya",
+			"sort": "Yumi ya",
+			"japanese": "弓矢",
+			"translation": "лук и стрелы"
+		},
+		{
+			"title": "zagarashijaku",
+			"sort": "Zagarashijaku",
+			"description": "Быстродействующий смертельный яд из зеленых слив или персиков."
+		},
+		{
+			"title": "zazen",
+			"sort": "Zazen",
+			"japanese": "座禅",
+			"translation": "сидячая медитация",
+			"description": "Пребывание в свободном от мыслей, ясном и бодрствующем внимании, когда ум ни на что не направлен. Эта практика восходит к медитации Будды перед его пробуждением."
+		},
+		{
+			"title": "zen",
+			"sort": "Zen",
+			"japanese": "禅",
+			"translation": "медитативное погружение"
+		},
+		{
+			"title": "zenpō geri",
+			"sort": "Zenpo geri",
+			"japanese": "前方蹴り",
+			"translation": "удар ногой вперед"
+		},
+		{
+			"title": "zenpō kaiten",
+			"sort": "Zenpo kaiten",
+			"japanese": "前方回転",
+			"translation": "кувырок вперед"
+		},
+		{
+			"title": "zenpō ukemi",
+			"sort": "Zenpo ukemi",
+			"japanese": "前方受身",
+			"translation": "падение вперед"
+		},
+		{
+			"title": "ziran",
+			"sort": "Ziran",
+			"chinese": "自然",
+			"translation": "естественность, то, что таково само по себе",
+			"description": "В даосизме то, что происходит само собой: спонтанно, изнутри, без принуждения."
+		}
+	]
+}

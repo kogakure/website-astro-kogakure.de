@@ -1,0 +1,4925 @@
+{
+	"entries": [
+		{
+			"title": "aikidō",
+			"sort": "Aikido",
+			"japanese": "合気道",
+			"translation": "조화의 길",
+			"description": "1925년부터 1969년까지 우에시바 모리헤이가 발전시킨 방어 무술."
+		},
+		{
+			"title": "aikuchi",
+			"sort": "Aikuchi",
+			"japanese": "匕首",
+			"description": "일본의 작은 단검."
+		},
+		{
+			"title": "Ainu",
+			"sort": "Ainu",
+			"japanese": "アイヌ",
+			"description": "일본 북부의 선주민으로, 언어와 혈통에서 일본인과 다르다. 그 조상은 조몬 문화로 거슬러 올라간다. 2023년 홋카이도의 조사에서 약 11,450명이 스스로를 아이누라고 밝혔으며, 그 후손의 수는 훨씬 많다. 일본인은 오랫동안 이들을 야만인으로 여겨 수백 년에 걸쳐 싸웠다. 1457년 코샤마인의 봉기와 1669~1672년 샤쿠샤인의 전쟁이 그 예다."
+		},
+		{
+			"title": "aisha",
+			"sort": "Aisha",
+			"japanese": "愛者",
+			"translation": "사랑하는 사람",
+			"description": "상대의 동정심을 이용하는 고조 고요쿠의 원리."
+		},
+		{
+			"title": "Akechi Mitsuhide",
+			"sort": "Akechi Mitsuhide",
+			"japanese": "明智光秀",
+			"description": "주군을 배신한 오다 노부나가의 장수. 노부나가가 호위병 없이 있을 때 아케치가 그를 공격해 죽였다. 그의 군대는 노부나가의 성을 불태웠다."
+		},
+		{
+			"title": "akindo",
+			"sort": "Akindo",
+			"japanese": "商人",
+			"translation": "상인",
+			"description": "시치 호 데에 속하는, 닌자가 즐겨 쓰던 변장."
+		},
+		{
+			"title": "ametori no jutsu",
+			"sort": "Ametori no jutsu",
+			"japanese": "雨鳥の術",
+			"translation": "빗속의 새의 술",
+			"description": "비가 오거나 추울 때 보초가 초소를 비우거나 건성으로 경계하는 습성을 이용하는 전술."
+		},
+		{
+			"title": "amigasa",
+			"sort": "Amigasa",
+			"japanese": "編笠",
+			"description": "짚으로 엮은 삿갓으로, 넓은 챙이 얼굴을 가린다."
+		},
+		{
+			"title": "ashi",
+			"sort": "Ashi",
+			"japanese": "足",
+			"translation": "다리, 발"
+		},
+		{
+			"title": "ashi fumikae",
+			"sort": "Ashi fumikae",
+			"japanese": "足踏み替え",
+			"translation": "발 바꾸기"
+		},
+		{
+			"title": "ashi kō",
+			"sort": "Ashi ko",
+			"japanese": "足甲",
+			"translation": "무장한 발",
+			"description": "닌자가 담과 벽을 오를 때 쓰던 발톱. 손에 쓰는 짝은 슈코 또는 데카기라고 한다."
+		},
+		{
+			"title": "ashigaru",
+			"sort": "Ashigaru",
+			"japanese": "足軽",
+			"translation": "발이 가벼운 병사",
+			"description": "사무라이의 하층 계급. 평시에는 대부분 들에서 농사를 지었다. 무기와 갑옷은 더 가볍고 값이 쌌다."
+		},
+		{
+			"title": "Ashikaga",
+			"sort": "Ashikaga",
+			"japanese": "足利",
+			"description": "미나모토 가문에서 갈라져 나온 씨족으로, 아시카가 시대(1338~1573)에 일본의 쇼군을 배출했다."
+		},
+		{
+			"title": "ashinaka",
+			"sort": "Ashinaka",
+			"japanese": "足半",
+			"description": "뒤꿈치 부분이 없어 발의 앞쪽만 덮는 짚신. 발가락이 땅을 직접 움켜쥐어 미끄러운 곳에서도 단단히 디딜 수 있다."
+		},
+		{
+			"title": "atemi",
+			"sort": "Atemi",
+			"japanese": "当身",
+			"translation": "몸에 대한 타격",
+			"description": "사람을 기절시키거나 마비시키거나 죽이기 위해 급소와 신경 중추를 노리는 주먹과 발차기."
+		},
+		{
+			"title": "atemi waza",
+			"sort": "Atemi waza",
+			"japanese": "当身技",
+			"translation": "몸을 치는 기술",
+			"description": "급소와 신경 중추를 치는 타격의 다른 이름."
+		},
+		{
+			"title": "atemite",
+			"sort": "Atemite",
+			"japanese": "当身手",
+			"translation": "손으로 몸을 치기",
+			"description": "급소와 신경 중추를 치는 타격의 다른 이름."
+		},
+		{
+			"title": "ayumi ashi",
+			"sort": "Ayumi ashi",
+			"japanese": "歩み足",
+			"translation": "보통 걸음"
+		},
+		{
+			"title": "bajutsu",
+			"sort": "Bajutsu",
+			"japanese": "馬術",
+			"translation": "승마술"
+		},
+		{
+			"title": "bakemono jutsu",
+			"sort": "Bakemono jutsu",
+			"japanese": "化物術",
+			"translation": "귀신의 술",
+			"description": "자신을 귀신으로 바꾸는 기술. 이가사키 도준이 이를 써서 요새에 들어갔다고 한다."
+		},
+		{
+			"title": "bakufu",
+			"sort": "Bakufu",
+			"japanese": "幕府",
+			"translation": "천막 정부",
+			"description": "원래 쇼군의 야전 진영을 가리켰고, 뒤에는 그의 군사 독재 정권의 본거지를 뜻했다. 영어로는 <q>shogunate</q>라고 한다."
+		},
+		{
+			"title": "bakuhatsu gama",
+			"sort": "Bakuhatsu gama",
+			"japanese": "爆発鎌",
+			"translation": "폭탄을 던지는 낫",
+			"description": "큰 낫(가마)과 2미터 길이의 쇠사슬로 된 닌자의 무기로, 사슬 끝에 폭약, 독 또는 눈을 멀게 하는 가루를 달았다."
+		},
+		{
+			"title": "Bansenshūkai",
+			"sort": "Bansenshukai",
+			"japanese": "萬川集海",
+			"translation": "만 개의 강이 바다로 흘러든다",
+			"description": "1676년 후지바야시 야스타케가 쓴 열 부분으로 된 인술의 집대성."
+		},
+		{
+			"title": "banzai",
+			"sort": "Banzai",
+			"japanese": "万歳",
+			"translation": "만 년",
+			"description": "기쁨을 나타내는 일본의 외침이자 함성."
+		},
+		{
+			"title": "bikenjutsu",
+			"sort": "Bikenjutsu",
+			"japanese": "秘剣術",
+			"description": "검술. 다이주쓰, 보주쓰와 함께 닌포의 세 기둥 가운데 하나."
+		},
+		{
+			"title": "bisentō",
+			"sort": "Bisento",
+			"japanese": "眉尖刀",
+			"translation": "미늘창",
+			"description": "날이 넓은 일본의 미늘창."
+		},
+		{
+			"title": "bisentōjutsu",
+			"sort": "Bisentojutsu",
+			"description": "미늘창(비센토)을 쓰는 싸움. 닌자 주핫케이의 18개 분야 가운데 하나."
+		},
+		{
+			"title": "Biwako",
+			"sort": "Biwako",
+			"japanese": "琵琶湖",
+			"translation": "비와호",
+			"description": "일본에서 가장 큰 호수(약 670제곱킬로미터)로, 교토 가까이에 있다. 그 모양이 류트를 닮은 악기 비와와 비슷해 이름이 붙었다."
+		},
+		{
+			"title": "bō",
+			"sort": "Bo",
+			"japanese": "棒",
+			"translation": "막대기, 봉",
+			"description": "일본의 모든 봉 무기를 가리키는 말이며, 좁은 뜻으로는 로쿠 샤쿠 보를 가리킨다."
+		},
+		{
+			"title": "bō ken",
+			"sort": "Bo ken",
+			"japanese": "棒剣",
+			"translation": "막대기 검",
+			"description": "무거운 나무로 만든 연습용 검으로, 목검 또는 목도라고도 한다. 그 자체로도 위험한 무기다."
+		},
+		{
+			"title": "bō shuriken",
+			"sort": "Bo shuriken",
+			"japanese": "棒手裏剣",
+			"description": "길쭉한 단검 모양의 던지는 무기(수리검)로, 머리핀, 못, 젓가락도 여기에 속한다."
+		},
+		{
+			"title": "bōbi no kamae",
+			"sort": "Bobi no kamae",
+			"japanese": "防備の構え",
+			"description": "방어하는 자세(가마에)."
+		},
+		{
+			"title": "bōenkyō",
+			"sort": "Boenkyo",
+			"japanese": "望遠鏡",
+			"translation": "망원경"
+		},
+		{
+			"title": "bōjutsu",
+			"sort": "Bojutsu",
+			"japanese": "棒術",
+			"description": "봉술. 다이주쓰, 비켄주쓰와 함께 닌포의 세 기둥 가운데 하나."
+		},
+		{
+			"title": "bokken",
+			"sort": "Bokken",
+			"japanese": "木剣",
+			"translation": "나무 검",
+			"description": "보 겐 또는 목도라고도 한다."
+		},
+		{
+			"title": "boku",
+			"sort": "Boku",
+			"japanese": "木",
+			"translation": "나무",
+			"description": "모쿠라고도 한다."
+		},
+		{
+			"title": "bokutō",
+			"sort": "Bokuto",
+			"japanese": "木刀",
+			"translation": "나무 검",
+			"description": "보 겐 또는 목검이라고도 한다."
+		},
+		{
+			"title": "bōryaku",
+			"sort": "Boryaku",
+			"japanese": "謀略",
+			"translation": "전략",
+			"description": "일본 병법(헤이호)의 한 부분으로, 무엇보다 전투 대형이 여기에 속한다."
+		},
+		{
+			"title": "boshi ken",
+			"sort": "Boshi ken",
+			"japanese": "母指拳",
+			"translation": "엄지 주먹",
+			"description": "엄지 끝으로 목표를 치는 타격."
+		},
+		{
+			"title": "bu",
+			"sort": "Bu",
+			"japanese": "武",
+			"translation": "병법, 무인의 길, 군사",
+			"description": "무라고도 한다."
+		},
+		{
+			"title": "Buddha",
+			"sort": "Buddha",
+			"sanskrit": "बुद्ध",
+			"translation": "깨달은 자",
+			"description": "윤회의 굴레를 끊은 사람을 가리키는 말. 대개는 카필라바스투의 왕자이자 불교의 창시자인 싯다르타 고타마를 뜻한다. 일본어로는 부쓰라고 한다."
+		},
+		{
+			"title": "budō",
+			"sort": "Budo",
+			"japanese": "武道",
+			"translation": "무예",
+			"description": "일본의 모든 무술을 아우르는 말."
+		},
+		{
+			"title": "budōka",
+			"sort": "Budoka",
+			"japanese": "武道家",
+			"translation": "무예가",
+			"description": "부도를 수련하는 사람."
+		},
+		{
+			"title": "bugei jūhappan",
+			"sort": "Bugei juhappan",
+			"japanese": "武芸十八般",
+			"description": "무술의 18개 범주. 닌자는 여기에 탄탄한 기초가 있어야 했고, 그 위에 닌자 주핫케이의 18개 비술 범주가 더해졌다."
+		},
+		{
+			"title": "bugeisha",
+			"sort": "Bugeisha",
+			"japanese": "武芸者",
+			"translation": "무술의 달인",
+			"description": "무술을 수련한 무사(사무라이)를 가리키는 말. 부진이라고도 한다."
+		},
+		{
+			"title": "bujin",
+			"sort": "Bujin",
+			"japanese": "武人",
+			"translation": "무인",
+			"description": "부게이샤라고도 한다."
+		},
+		{
+			"title": "Bujinkan",
+			"sort": "Bujinkan",
+			"japanese": "武神館",
+			"translation": "신성한 무사의 전당",
+			"description": "하쓰미 마사아키가 세운 조직으로, 오래된 무사의 류와 인술의 류 아홉 개를 하나로 묶는다."
+		},
+		{
+			"title": "bujutsu",
+			"sort": "Bujutsu",
+			"japanese": "武術",
+			"translation": "무술, 우슈",
+			"description": "사무라이의 모든 무술을 가리키는 말."
+		},
+		{
+			"title": "buke",
+			"sort": "Buke",
+			"japanese": "武家",
+			"translation": "사무라이, 무사, 무가",
+			"description": "귀족 무사 가문을 가리키는 말."
+		},
+		{
+			"title": "bukkyō",
+			"sort": "Bukkyo",
+			"japanese": "仏教",
+			"translation": "불교"
+		},
+		{
+			"title": "bushi",
+			"sort": "Bushi",
+			"japanese": "武士",
+			"translation": "무사, 사무라이",
+			"description": "봉건 시대 일본의 귀족 무사를 가리키는 말."
+		},
+		{
+			"title": "bushidō",
+			"sort": "Bushido",
+			"japanese": "武士道",
+			"translation": "무사의 길",
+			"description": "자기 단련, 자기희생, 자제를 요구한 사무라이의 명예 규범."
+		},
+		{
+			"title": "butsu",
+			"sort": "Butsu",
+			"japanese": "仏",
+			"translation": "부처"
+		},
+		{
+			"title": "chakuchi",
+			"sort": "Chakuchi",
+			"japanese": "着地",
+			"translation": "내딛는 걸음"
+		},
+		{
+			"title": "chi",
+			"sort": "Chi",
+			"japanese": "地",
+			"translation": "땅, 대지"
+		},
+		{
+			"title": "chi no kata",
+			"sort": "Chi no kata",
+			"japanese": "地の型",
+			"translation": "땅의 형"
+		},
+		{
+			"title": "Chi ryaku no maki",
+			"sort": "Chi ryaku no maki",
+			"japanese": "地略の巻",
+			"translation": "땅의 전략 두루마리",
+			"description": "땅의 전략을 다룬 책으로, <cite>『천략권』</cite>, <cite>『인략권』</cite>과 함께 한 시리즈를 이룬다."
+		},
+		{
+			"title": "chigiriki",
+			"sort": "Chigiriki",
+			"japanese": "乳切木",
+			"description": "끝에 쇠사슬과 쇠추가 달린 긴 봉으로, 도리깨에서 발전한 무기."
+		},
+		{
+			"title": "chikairi",
+			"sort": "Chikairi",
+			"japanese": "近入",
+			"translation": "가까이 들어가기",
+			"description": "닌자가 전시에 적의 전선을 뚫고 들어갈 때 쓰던 전략."
+		},
+		{
+			"title": "chiken-in",
+			"sort": "Chiken-in",
+			"japanese": "智拳印",
+			"translation": "지혜의 주먹 인",
+			"description": "구지인에서 레쓰에 해당하는 손 모양."
+		},
+		{
+			"title": "chikujō jutsu",
+			"sort": "Chikujo jutsu",
+			"japanese": "築城術",
+			"translation": "성을 쌓는 술",
+			"description": "야전 축성의 방법."
+		},
+		{
+			"title": "chikyū jutsu",
+			"sort": "Chikyu jutsu",
+			"japanese": "弛弓術",
+			"translation": "느슨한 활",
+			"description": "도이리의 전술. 사로잡힌 닌자가 적의 영주가 일자리를 주겠다는 제안을 받아들인 뒤, 첫 기회에 달아난다."
+		},
+		{
+			"title": "chimon",
+			"sort": "Chimon",
+			"japanese": "地文",
+			"translation": "지리"
+		},
+		{
+			"title": "chitsu mishi",
+			"sort": "Chitsu mishi",
+			"translation": "돈으로 산 눈",
+			"description": "적지에 살면서 닌자를 위해 일하는 주민."
+		},
+		{
+			"title": "chōda",
+			"sort": "Choda",
+			"japanese": "長蛇",
+			"translation": "긴 뱀",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "chōhō",
+			"sort": "Choho",
+			"japanese": "諜報",
+			"translation": "첩보"
+		},
+		{
+			"title": "chōkyori kyōsō",
+			"sort": "Chokyori kyoso",
+			"japanese": "長距離競走",
+			"translation": "장거리 달리기",
+			"description": "닌자가 먼 거리에 전갈을 나를 때 쓰던 달리기 기술."
+		},
+		{
+			"title": "chūnin",
+			"sort": "Chunin",
+			"japanese": "中忍",
+			"translation": "중간 닌자",
+			"description": "닌자의 중간 계급으로, 씨족의 우두머리(조닌)와 현장에서 움직이는 요원(게닌)을 잇는 고리. 주닌은 대개 의뢰인과 접촉을 맡았기 때문에, 사람을 꿰뚫어 보는 눈과 변장에 강했다."
+		},
+		{
+			"title": "dai",
+			"sort": "Dai",
+			"japanese": "大",
+			"translation": "큰"
+		},
+		{
+			"title": "daikongō-in",
+			"sort": "Daikongo-in",
+			"japanese": "大金剛輪印",
+			"translation": "큰 금강의 인",
+			"description": "구지인에서 표에 해당하는 손 모양."
+		},
+		{
+			"title": "daimyō",
+			"sort": "Daimyo",
+			"japanese": "大名",
+			"translation": "큰 이름",
+			"description": "센고쿠 시대에 일본의 권력을 두고 다툰 신흥 대지주들."
+		},
+		{
+			"title": "daisharin",
+			"sort": "Daisharin",
+			"japanese": "大車輪",
+			"translation": "큰 수레바퀴",
+			"description": "굴대 하나와 큰 바퀴 두 개로 된 닌자의 무기로, 적의 다리를 향해 굴렸다."
+		},
+		{
+			"title": "daishō",
+			"sort": "Daisho",
+			"japanese": "大小",
+			"translation": "큰 것과 작은 것",
+			"description": "사무라이의 한 쌍의 검인 가타나와 와키자시."
+		},
+		{
+			"title": "daitō",
+			"sort": "Daito",
+			"japanese": "大刀",
+			"translation": "큰 칼",
+			"description": "짧은 칼과 구별하여 사무라이의 긴 칼을 가리키는 말."
+		},
+		{
+			"title": "daken taijutsu",
+			"sort": "Daken taijutsu",
+			"japanese": "打拳体術",
+			"translation": "주먹으로 몸을 치는 술",
+			"description": "다이주쓰의 격투 기술로, 발차기, 주먹 지르기, 막기가 여기에 속한다. 곳포 주쓰와 고시 주쓰로 나뉜다."
+		},
+		{
+			"title": "dan",
+			"sort": "Dan",
+			"japanese": "段",
+			"translation": "계급, 단계",
+			"description": "사범급 등급을 가리키는 말."
+		},
+		{
+			"title": "Dao",
+			"sort": "Dao",
+			"chinese": "道",
+			"translation": "길",
+			"description": "도가 사상에서 우주의 최고 실재이자 힘이며, 존재와 비존재의 근원이다. 말로는 규정할 수 없다."
+		},
+		{
+			"title": "Daodejing",
+			"sort": "Daodejing",
+			"chinese": "道徳経",
+			"description": "도가 사상의 근본 경전으로, 전통적으로 노자가 썼다고 전한다."
+		},
+		{
+			"title": "Dengyō Daishi",
+			"sort": "Dengyo Daishi",
+			"japanese": "伝教大師",
+			"description": "일본 천태종과 엔랴쿠지 사원을 세운 인물로, 사이초라고도 한다."
+		},
+		{
+			"title": "densho",
+			"sort": "Densho",
+			"japanese": "伝書",
+			"translation": "전해 내려온 글",
+			"description": "류의 기술과 규칙을 기록한 비밀 문서."
+		},
+		{
+			"title": "do",
+			"sort": "Do",
+			"japanese": "土",
+			"translation": "땅, 대지"
+		},
+		{
+			"title": "dō",
+			"sort": "Do",
+			"japanese": "道",
+			"translation": "길, 도리, 원리",
+			"description": "아시아의 세계관을 가리키는 말."
+		},
+		{
+			"title": "dō no hi",
+			"sort": "Do no hi",
+			"japanese": "銅の火",
+			"translation": "구리 불",
+			"description": "손난로 도카의 다른 이름."
+		},
+		{
+			"title": "dōjō",
+			"sort": "Dojo",
+			"japanese": "道場",
+			"translation": "수련장"
+		},
+		{
+			"title": "dōka",
+			"sort": "Doka",
+			"japanese": "胴火",
+			"translation": "몸의 불",
+			"description": "손난로. 닌자가 불씨가 남은 숯 한 조각을 넣던 작은 화로다. 도노 히라고도 한다."
+		},
+		{
+			"title": "dokko-in",
+			"sort": "Dokko-in",
+			"japanese": "独鈷印",
+			"translation": "티베트 금강저 벼락의 인",
+			"description": "구지인에서 린에 해당하는 손 모양."
+		},
+		{
+			"title": "doko no kamae",
+			"sort": "Doko no kamae",
+			"japanese": "怒虎の構え",
+			"translation": "성난 호랑이",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "dōkyō",
+			"sort": "Dokyo",
+			"japanese": "道教",
+			"translation": "도교",
+			"description": "중국에서 온 가르침이자 종교. 철학 사조로서는 일본어로 더 정확히 도카(道家)라고 한다. 자연으로 돌아가 우주를 이해할 것을 가르친다."
+		},
+		{
+			"title": "dosha",
+			"sort": "Dosha",
+			"japanese": "怒者",
+			"translation": "성난 사람",
+			"description": "상대의 화를 잘 내는 성미를 이용하는 고조 고요쿠의 원리."
+		},
+		{
+			"title": "doteki",
+			"sort": "Doteki",
+			"japanese": "動的",
+			"translation": "동적",
+			"description": "역학(기카이가쿠)을 가장 효과적으로 응용하는 동역학. 에너지, 리듬과 흐름, 힘과 유연성을 올바르게 쓰는 것, 그리고 동작을 느끼고 그에 맞추는 능력이 여기에 속한다."
+		},
+		{
+			"title": "doton",
+			"sort": "Doton",
+			"japanese": "土遁",
+			"description": "흙을 이용한 탈출로, 고톤포의 다섯 가지 방법 가운데 하나."
+		},
+		{
+			"title": "doton jutsu",
+			"sort": "Doton jutsu",
+			"japanese": "土遁術",
+			"translation": "흙으로 달아나는 술",
+			"description": "흙을 탈출 수단으로 쓰는 고톤포의 탈출 기술."
+		},
+		{
+			"title": "ebira",
+			"sort": "Ebira",
+			"japanese": "箙",
+			"translation": "화살통"
+		},
+		{
+			"title": "Edo",
+			"sort": "Edo",
+			"japanese": "江戸",
+			"description": "일본 수도의 옛 이름으로, 오늘날의 도쿄."
+		},
+		{
+			"title": "eiku",
+			"sort": "Eiku",
+			"japanese": "櫂",
+			"description": "오키나와의 고부도에서 무기로 쓰는 배의 노. 어부로 변장한 닌자는 이것으로 충분히 자신을 지킬 수 있었다."
+		},
+		{
+			"title": "eki",
+			"sort": "Eki",
+			"japanese": "易",
+			"translation": "점",
+			"description": "중국의 <cite>『역경』</cite>에서처럼 동전이나 톱풀 줄기로 점을 친다."
+		},
+		{
+			"title": "endoku ken",
+			"sort": "Endoku ken",
+			"japanese": "煙毒剣",
+			"translation": "연기와 독의 칼날",
+			"description": "불을 붙이면 독가스를 내뿜는 표창(수리검)."
+		},
+		{
+			"title": "engetsu",
+			"sort": "Engetsu",
+			"japanese": "偃月",
+			"translation": "반달",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "ennyū no jutsu",
+			"sort": "Ennyu no jutsu",
+			"translation": "거짓 공격",
+			"description": "한 부대가 거짓으로 공격한다. 수비병들이 막으러 몰려가는 사이 닌자는 아무 방해 없이 요새 안으로 들어간다."
+		},
+		{
+			"title": "Enryakuji",
+			"sort": "Enryakuji",
+			"japanese": "延暦寺",
+			"description": "교토 근처 히에이산에 있는 천태종의 총본산으로, 간무 천황의 명으로 천태 불교의 중심지로 세워졌다. 전성기에는 산 위의 사찰 3,000곳에 승려와 소헤이가 4만 명까지 살았다고 한다. 1571년 9월 오다 노부나가는 잇코 잇키, 닌자, 소헤이를 상대로 한 원정에서 이 사원을 파괴하고 주민 대부분을 죽였다."
+		},
+		{
+			"title": "fū",
+			"sort": "Fu",
+			"japanese": "風",
+			"translation": "바람"
+		},
+		{
+			"title": "fū no kata",
+			"sort": "Fu no kata",
+			"japanese": "風の型",
+			"translation": "바람의 형"
+		},
+		{
+			"title": "fudō ken",
+			"sort": "Fudo ken",
+			"japanese": "不動拳",
+			"translation": "움직이지 않는 주먹",
+			"description": "많은 무술에 있는 주먹 쥐는 법으로, <q>보통</q> 주먹이다."
+		},
+		{
+			"title": "fudōmyō",
+			"sort": "Fudomyo",
+			"japanese": "不動明王",
+			"description": "의지와 법, 그리고 우주의 온전함을 지키는 무시무시한 신화 속 수호자 부동명왕. 구지키리에서 닌자는 그의 불타는 검을 흉내 낸다."
+		},
+		{
+			"title": "fudōshin",
+			"sort": "Fudoshin",
+			"japanese": "不動心",
+			"translation": "움직이지 않는 마음",
+			"description": "고요하고 흔들림 없는 정신."
+		},
+		{
+			"title": "fudōza no kamae",
+			"sort": "Fudoza no kamae",
+			"japanese": "不動座の構え",
+			"translation": "움직이지 않는 자리",
+			"description": "일본의 앉는 자세이자 인술의 자세(가마에)."
+		},
+		{
+			"title": "Fujibayashi Nagato",
+			"sort": "Fujibayashi Nagato",
+			"japanese": "藤林長門",
+			"description": "이가 지방의 이름난 조닌. 널리 퍼진 설에 따르면 모모치 산다유의 가짜 신분일 뿐이다."
+		},
+		{
+			"title": "Fujita Seiko",
+			"sort": "Fujita Seiko",
+			"japanese": "藤田西湖",
+			"description": "스스로 고가류의 14대이자 마지막 종가라고 일컬은 인술의 대가로, 후계자를 지명하지 않았다. 1966년 1월 4일 도쿄에서 세상을 떠났다."
+		},
+		{
+			"title": "fukibari",
+			"sort": "Fukibari",
+			"japanese": "吹き針",
+			"translation": "바늘 불기",
+			"description": "작은 쇠바늘(후쿠미 바리)을 공격자의 얼굴에 불어 날리는 닌자의 격투 기술."
+		},
+		{
+			"title": "fukiya",
+			"sort": "Fukiya",
+			"japanese": "吹き矢",
+			"translation": "취관과 화살",
+			"description": "화살에는 대개 독을 발랐다."
+		},
+		{
+			"title": "fukumi bari",
+			"sort": "Fukumi bari",
+			"japanese": "含み針",
+			"translation": "작은 화살",
+			"description": "후키바리에서 불어 날리던 작은 쇠바늘."
+		},
+		{
+			"title": "fukuro gaeshi jutsu",
+			"sort": "Fukuro gaeshi jutsu",
+			"japanese": "袋返術",
+			"translation": "뒤집은 자루",
+			"description": "도이리의 전술. 다툼이 벌어진 것처럼 꾸민 뒤 닌자는 편을 바꾸어 한동안 새 주인을 섬긴다. 전쟁이 결정적인 국면에 이르면 임무를 수행하고 옛 주인에게 돌아간다."
+		},
+		{
+			"title": "fukuro gaeshi zen jutsu",
+			"sort": "Fukuro gaeshi zen jutsu",
+			"japanese": "袋翻全術",
+			"description": "지카이리의 전술. 닌자는 적의 영주와 그 동맹자 사이에 오가는 전갈을 가로채 위조한 뒤 다시 보내, 그들 사이에 불신을 심는다."
+		},
+		{
+			"title": "Fūma Kotarō",
+			"sort": "Fuma Kotaro",
+			"japanese": "風魔小太郎",
+			"description": "조닌 계급의 이름난 닌자로, 전승에 따르면 부하가 200명이었으며 게릴라전의 전문가였다."
+		},
+		{
+			"title": "furyō",
+			"sort": "Furyo",
+			"japanese": "不良",
+			"translation": "비행 청소년",
+			"description": "건달, 젊은 불량배."
+		},
+		{
+			"title": "futokoro teppō",
+			"sort": "Futokoro teppo",
+			"japanese": "懐鉄砲",
+			"translation": "주머니 총",
+			"description": "숨기기 쉬워 닌자에게 인기 있던 청동 권총."
+		},
+		{
+			"title": "gandō",
+			"sort": "Gando",
+			"japanese": "龕灯",
+			"translation": "불단의 등",
+			"description": "광원이 늘 똑바로 서 있는 등불."
+		},
+		{
+			"title": "gankō",
+			"sort": "Ganko",
+			"japanese": "雁行",
+			"translation": "기러기 떼의 비행",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "gasshō no kamae",
+			"sort": "Gassho no kamae",
+			"japanese": "合掌の構え",
+			"translation": "합장 자세",
+			"description": "인술의 자세(가마에)로, 두 손바닥을 마주 붙인 인사다."
+		},
+		{
+			"title": "gebaku ken-in",
+			"sort": "Gebaku ken-in",
+			"japanese": "外縛拳印",
+			"translation": "바깥으로 깍지 낀 주먹의 인",
+			"description": "구지인에서 가이에 해당하는 손 모양으로, 기도할 때 쓰는 것과 같은 모양이다."
+		},
+		{
+			"title": "gedan no kamae",
+			"sort": "Gedan no kamae",
+			"japanese": "下段の構え",
+			"description": "낮은 자세(가마에)."
+		},
+		{
+			"title": "geinyū jutsu",
+			"sort": "Geinyu jutsu",
+			"japanese": "迎入術",
+			"description": "지카이리의 전술. 닌자는 적지에 들어가 거짓 소문, 방화, 파괴 공작 등으로 혼란과 공포를 퍼뜨린다."
+		},
+		{
+			"title": "gekkenjutsu",
+			"sort": "Gekkenjutsu",
+			"japanese": "撃剣術",
+			"description": "검술. 부게이 주핫판에서 겐주쓰와 함께 나온다."
+		},
+		{
+			"title": "genin",
+			"sort": "Genin",
+			"japanese": "下忍",
+			"translation": "아래 닌자",
+			"description": "닌자의 가장 낮은 계급. 현장에서 움직이는 이 요원들은 주닌에게서 명령을 받았고, 대개 조닌을 알지 못했다. 근접전, 은신, 잠입, 파괴 공작에 강했다."
+		},
+		{
+			"title": "Genji",
+			"sort": "Genji",
+			"japanese": "源氏",
+			"description": "미나모토 가문의 다른 이름."
+		},
+		{
+			"title": "genjutsu",
+			"sort": "Genjutsu",
+			"japanese": "幻術",
+			"translation": "환술"
+		},
+		{
+			"title": "genmai",
+			"sort": "Genmai",
+			"japanese": "玄米",
+			"description": "도정하지 않은 쌀."
+		},
+		{
+			"title": "Genpei kassen",
+			"sort": "Genpei kassen",
+			"japanese": "源平合戦",
+			"description": "다이라 가문과 미나모토 가문 사이의 겐페이 전쟁(1180~1185)."
+		},
+		{
+			"title": "geri",
+			"sort": "Geri",
+			"japanese": "蹴り",
+			"translation": "발차기",
+			"description": "게리라고도 한다."
+		},
+		{
+			"title": "geta",
+			"sort": "Geta",
+			"japanese": "下駄",
+			"description": "높은 굽 위에 올린 나막신으로, 끈이 엇갈려 매이거나 발가락 사이에 끼운다."
+		},
+		{
+			"title": "gi",
+			"sort": "Gi",
+			"japanese": "着",
+			"translation": "옷, 차림, 제복",
+			"description": "수련복."
+		},
+		{
+			"title": "Gikan-Ryū",
+			"sort": "Gikan-Ryu",
+			"japanese": "義鑑流",
+			"translation": "정의를 배우는 류",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "gisō jutsu",
+			"sort": "Giso jutsu",
+			"japanese": "擬装術",
+			"translation": "흉내와 변장의 술",
+			"description": "다른 사람의 처지가 되어 새로운 신분을 갖는 기술. 온신 주쓰의 한 부분이다."
+		},
+		{
+			"title": "godai",
+			"sort": "Godai",
+			"japanese": "五大",
+			"translation": "다섯 가지 큰 것",
+			"description": "밀교에서 말하는 우주의 다섯 요소로, 땅(지), 물(스이), 불(가), 바람(후), 공(구)이다."
+		},
+		{
+			"title": "godan",
+			"sort": "Godan",
+			"japanese": "五段",
+			"translation": "5단",
+			"description": "부진칸의 고단 심사에서는 스승이 검을 들고 소리 없이 제자에게 다가간다. 제자는 위험을 느끼고 그 일격을 피해야 한다."
+		},
+		{
+			"title": "gogyō",
+			"sort": "Gogyo",
+			"japanese": "五行",
+			"translation": "오행 이론",
+			"description": "중국 도가 사상에서 받아들인 자연관으로, 물(스이), 나무(모쿠), 불(가), 흙(도), 쇠(긴)로 이루어진다."
+		},
+		{
+			"title": "gogyō no kata",
+			"sort": "Gogyo no kata",
+			"japanese": "五行の型",
+			"translation": "다섯 움직임의 형"
+		},
+		{
+			"title": "gogyō setsu",
+			"sort": "Gogyo setsu",
+			"japanese": "五行説",
+			"translation": "오행 이론",
+			"description": "줄여서 오행이라고 한다."
+		},
+		{
+			"title": "gojō goyoku",
+			"sort": "Gojo goyoku",
+			"japanese": "五情五欲",
+			"description": "사람의 성격을 이용해 그를 조종하는 닌자의 전략. 그 다섯 원리는 아이샤, 도샤, 기샤, 교샤, 라쿠샤다."
+		},
+		{
+			"title": "goku no kamae",
+			"sort": "Goku no kamae",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "Gorin no sho",
+			"sort": "Gorin no sho",
+			"japanese": "五輪の書",
+			"translation": "다섯 고리의 책",
+			"description": "검술과 전략을 다룬 미야모토 무사시의 저작."
+		},
+		{
+			"title": "gorintō",
+			"sort": "Gorinto",
+			"japanese": "五輪塔",
+			"description": "정육면체, 구, 각뿔, 반달, 보주의 다섯 부분을 쌓아 올린 돌탑."
+		},
+		{
+			"title": "goshin no kata",
+			"sort": "Goshin no kata",
+			"japanese": "梧心の型",
+			"translation": "오동나무 마음의 형"
+		},
+		{
+			"title": "goton jutsu",
+			"sort": "Goton jutsu",
+			"japanese": "五遁術",
+			"translation": "다섯 탈출의 술",
+			"description": "고톤포의 다른 이름."
+		},
+		{
+			"title": "gotonpō",
+			"sort": "Gotonpo",
+			"japanese": "五遁法",
+			"translation": "다섯 가지 탈출법",
+			"description": "오행의 다섯 요소를 이용해 달아나는 닌자의 원리."
+		},
+		{
+			"title": "gu",
+			"sort": "Gu",
+			"japanese": "具",
+			"translation": "도구"
+		},
+		{
+			"title": "gunryaku heihō",
+			"sort": "Gunryaku heiho",
+			"description": "군사 전략. 닌자 주핫케이의 18개 분야 가운데 하나."
+		},
+		{
+			"title": "gyaku nagare",
+			"sort": "Gyaku nagare",
+			"japanese": "逆流れ",
+			"translation": "거꾸로 흐름",
+			"description": "이치몬지노 가마에에서 하는 낙법(우케미)."
+		},
+		{
+			"title": "gyaku nage",
+			"sort": "Gyaku nage",
+			"japanese": "逆投げ",
+			"translation": "거꾸로 던지기",
+			"description": "관절을 꺾으며 하는 메치기."
+		},
+		{
+			"title": "gyōja no kamae",
+			"sort": "Gyoja no kamae",
+			"japanese": "行者の構え",
+			"translation": "수행자의 자세",
+			"description": "긴 봉을 지팡이처럼 몸 옆에 곧게 세워 드는 자세(가마에)."
+		},
+		{
+			"title": "gyōkaku ken",
+			"sort": "Gyokaku ken",
+			"translation": "하나로 모은 뿔",
+			"description": "집게손가락, 가운뎃손가락, 약손가락으로 삼지창을 만들어, 그 끝으로 목처럼 무른 부위를 찌른다."
+		},
+		{
+			"title": "Gyokko-Ryū",
+			"sort": "Gyokko-Ryu",
+			"japanese": "玉虎流",
+			"translation": "보석으로 꾸민 호랑이의 류",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "gyokuro",
+			"sort": "Gyokuro",
+			"japanese": "玉露",
+			"description": "고급 녹차. 닌자는 이 차를 30~40일 동안 땅에 묻었다가 된장과 섞어 독을 만들었다고 한다. 병든 사람은 며칠 안에, 건강한 사람도 늦어도 70일 안에 이 독으로 죽었다."
+		},
+		{
+			"title": "Gyokushin-Ryū",
+			"sort": "Gyokushin-Ryu",
+			"japanese": "玉心流",
+			"translation": "보석으로 꾸민 마음의 류",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "gyorin",
+			"sort": "Gyorin",
+			"japanese": "魚鱗",
+			"translation": "물고기 비늘",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "ha jutsu",
+			"sort": "Ha jutsu",
+			"japanese": "破術",
+			"translation": "부수는 술",
+			"description": "붙잡힌 상태에서 빠져나오는 법."
+		},
+		{
+			"title": "Hagakure",
+			"sort": "Hagakure",
+			"japanese": "葉隠",
+			"translation": "숨은 잎",
+			"description": "무사 야마모토 쓰네토모가 무사도의 철학적 측면을 다룬 책."
+		},
+		{
+			"title": "hakama",
+			"sort": "Hakama",
+			"japanese": "袴",
+			"description": "전통적인 바지 치마."
+		},
+		{
+			"title": "han",
+			"sort": "Han",
+			"japanese": "藩",
+			"translation": "봉건 영지, 봉토, 지방",
+			"description": "다이묘의 봉토."
+		},
+		{
+			"title": "hanbō",
+			"sort": "Hanbo",
+			"japanese": "半棒",
+			"translation": "절반의 봉",
+			"description": "정식 이름은 산 샤쿠 보다."
+		},
+		{
+			"title": "hanbōjutsu",
+			"sort": "Hanbojutsu",
+			"japanese": "半棒術",
+			"description": "짧은 봉(한보)을 쓰는 싸움."
+		},
+		{
+			"title": "hankyū",
+			"sort": "Hankyu",
+			"japanese": "半弓",
+			"translation": "반쪽 활",
+			"description": "닌자의 짧은 활로, 접을 수 있는 것도 있어 지니고 다니기 쉬웠다."
+		},
+		{
+			"title": "hanmi no kamae",
+			"sort": "Hanmi no kamae",
+			"japanese": "半身の構え",
+			"translation": "반신",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "happa ken",
+			"sort": "Happa ken",
+			"japanese": "八葉拳",
+			"translation": "여덟 잎의 주먹"
+		},
+		{
+			"title": "happō hiken",
+			"sort": "Happo hiken",
+			"japanese": "八法秘剣",
+			"translation": "여덟 가지 법과 비밀의 검",
+			"description": "구키신덴류의 여덟 가지 법(핫포)과 비밀 검술(히켄)."
+		},
+		{
+			"title": "happō hikenjutsu",
+			"sort": "Happo hikenjutsu",
+			"japanese": "八法秘剣術",
+			"description": "핫포 히켄을 보라."
+		},
+		{
+			"title": "hara",
+			"sort": "Hara",
+			"japanese": "腹",
+			"translation": "배",
+			"description": "위에서 아랫배까지에 이르는 부위 전체로, 정신적·육체적 힘의 중심으로 여겨진다."
+		},
+		{
+			"title": "hasami bune",
+			"sort": "Hasami bune",
+			"description": "닌자가 장비를 싣고 물을 건널 때 쓰던 접이식 배. <cite>『만천집해』</cite>는 이런 접이식 배를 하사미바코 부네(挟箱船)라는 이름으로 설명한다. 널빤지를 경첩으로 이었고, 접으면 메고 다니는 상자 안에 들어갔다. 다다미 부네라고도 한다."
+		},
+		{
+			"title": "hashigo",
+			"sort": "Hashigo",
+			"japanese": "梯子",
+			"translation": "사다리",
+			"description": "대개 갈대나 대나무로 만들었다. 합성어에서는 구모 바시고처럼 바시고가 된다."
+		},
+		{
+			"title": "hashigo yari",
+			"sort": "Hashigo yari",
+			"japanese": "梯子槍",
+			"translation": "사다리 창",
+			"description": "발판이 양쪽으로 쌍쌍이 튀어나오고 끝에 쇠갈고리가 달린 긴 장대로, 사다리로 쓰였다."
+		},
+		{
+			"title": "Hatsumi Masaaki",
+			"sort": "Hatsumi Masaaki",
+			"japanese": "初見良昭",
+			"description": "본명은 하쓰미 요시아키. 부진칸 부도 도장의 설립자이자 부진칸 아홉 류의 소케이며, 다카마쓰 도시쓰구의 제자다."
+		},
+		{
+			"title": "Hattori Hanzō",
+			"sort": "Hattori Hanzo",
+			"japanese": "服部半蔵",
+			"description": "이가 지방의 이름난 조닌으로, 도쿠가와 이에야스를 섬긴 사무라이이기도 했다."
+		},
+		{
+			"title": "Hayes, Stephen K.",
+			"sort": "Hayes, Stephen K.",
+			"description": "인술 교사이자 하쓰미 마사아키의 제자. 일본인이 아닌 사람으로서는 처음으로 시도시가 되었다. 미국에서 도신도 유파를 세웠다."
+		},
+		{
+			"title": "heihō",
+			"sort": "Heiho",
+			"japanese": "兵法",
+			"translation": "무사의 방법",
+			"description": "싸움의 방법과 싸움의 전략(보랴쿠)을 함께 아우른다."
+		},
+		{
+			"title": "Heike",
+			"sort": "Heike",
+			"japanese": "平家",
+			"description": "다이라 가문의 다른 이름."
+		},
+		{
+			"title": "heipo",
+			"sort": "Heipo",
+			"japanese": "平歩",
+			"translation": "도롱뇽의 걸음",
+			"description": "닌자가 기어가는 방법."
+		},
+		{
+			"title": "hensō jutsu",
+			"sort": "Henso jutsu",
+			"japanese": "変装術",
+			"translation": "변장의 술",
+			"description": "닌자의 변장술. 온신 주쓰의 한 부분이다."
+		},
+		{
+			"title": "hichō no kamae",
+			"sort": "Hicho no kamae",
+			"japanese": "飛鳥の構え",
+			"translation": "나는 새의 자세",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "hidari",
+			"sort": "Hidari",
+			"japanese": "左",
+			"translation": "왼쪽"
+		},
+		{
+			"title": "hiken",
+			"sort": "Hiken",
+			"japanese": "秘剣",
+			"translation": "비밀 검술"
+		},
+		{
+			"title": "hira ichimonji no kamae",
+			"sort": "Hira ichimonji no kamae",
+			"japanese": "平一文字の構え",
+			"description": "몸을 피할 수 있는 균형 잡힌 자세(가마에). 체중을 두 발에 고르게 싣고, 두 팔을 옆으로 뻗어 쓸어내거나 붙잡거나 타격을 받아 낸다."
+		},
+		{
+			"title": "hira no kamae",
+			"sort": "Hira no kamae",
+			"japanese": "平の構え",
+			"translation": "평평한 자세",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "hira shuriken",
+			"sort": "Hira shuriken",
+			"japanese": "平手裏剣",
+			"description": "크기와 모양이 여러 가지이고 날 끝의 수도 저마다 다른 납작한 표창(수리검)."
+		},
+		{
+			"title": "hiragana",
+			"sort": "Hiragana",
+			"japanese": "平仮名",
+			"description": "순수한 일본어 낱말에 쓰는 일본의 음절 문자. 전승에 따르면 홍법대사가 만들었다."
+		},
+		{
+			"title": "hiraki ashi",
+			"sort": "Hiraki ashi",
+			"japanese": "開き足",
+			"description": "두 발로 옆으로 미끄러지듯 움직이기."
+		},
+		{
+			"title": "hishi",
+			"sort": "Hishi",
+			"japanese": "菱",
+			"translation": "Trapa japonica, 마름, 마름쇠",
+			"description": "말린 마름 열매로, 데쓰비시와 같은 용도로 쓰였다."
+		},
+		{
+			"title": "hisoken",
+			"sort": "Hisoken",
+			"translation": "숨은 창",
+			"description": "시토 겐의 다른 이름으로, 엄지 끝으로 반쯤 무른 목표를 찌른다."
+		},
+		{
+			"title": "hito washi",
+			"sort": "Hito washi",
+			"japanese": "人鷲",
+			"translation": "사람 독수리",
+			"description": "닌자의 비행 장치. 야미도코라고도 한다."
+		},
+		{
+			"title": "hobakujutsu",
+			"sort": "Hobakujutsu",
+			"japanese": "捕縛術",
+			"description": "포박술. 부게이 주핫판에서 호조 주쓰와 함께 나온다."
+		},
+		{
+			"title": "hōen",
+			"sort": "Hoen",
+			"japanese": "方円",
+			"translation": "네모와 원",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "Hōjō",
+			"sort": "Hojo",
+			"japanese": "北条",
+			"description": "권력을 잡은 사무라이 씨족으로, 센고쿠 시대에 패권을 다툰 가문 가운데 하나."
+		},
+		{
+			"title": "hōjō jutsu",
+			"sort": "Hojo jutsu",
+			"japanese": "捕縄術",
+			"translation": "포박술"
+		},
+		{
+			"title": "hojutsu",
+			"sort": "Hojutsu",
+			"description": "진실과 속임수 사이를 오가는 방법으로, 하쓰미 마사아키는 이를 교지쓰 덴칸 호와 같은 것으로 본다. 부게이 주핫판에서는 환술을 가리킨다."
+		},
+		{
+			"title": "hokamuri",
+			"sort": "Hokamuri",
+			"japanese": "頬被り",
+			"description": "머리와 뺨을 덮어 묶는 천. 데누구이의 다른 이름이다."
+		},
+		{
+			"title": "hōkashi",
+			"sort": "Hokashi",
+			"description": "악사. 시치 호 데에 속하는 닌자의 변장 가운데 하나."
+		},
+		{
+			"title": "hōken jūroppō",
+			"sort": "Hoken juroppo",
+			"japanese": "宝拳十六法",
+			"translation": "귀한 주먹의 열여섯 가지 법"
+		},
+		{
+			"title": "Hokkaidō",
+			"sort": "Hokkaido",
+			"japanese": "北海道",
+			"description": "일본 최북단의 섬으로, 중심 도시는 삿포로다."
+		},
+		{
+			"title": "hokō jutsu",
+			"sort": "Hoko jutsu",
+			"japanese": "歩行術",
+			"translation": "바르게 걷는 술"
+		},
+		{
+			"title": "hōko no kamae",
+			"sort": "Hoko no kamae",
+			"japanese": "抱圍の構え",
+			"translation": "끌어안는 자세",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "honbu",
+			"sort": "Honbu",
+			"japanese": "本部",
+			"translation": "본부"
+		},
+		{
+			"title": "hōshi",
+			"sort": "Hoshi",
+			"japanese": "鋒矢",
+			"translation": "화살촉",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "hotarubi jutsu",
+			"sort": "Hotarubi jutsu",
+			"japanese": "蛍火術",
+			"translation": "반딧불의 빛",
+			"description": "도이리의 전술. 위조한 전갈을 지닌 전령을 적지로 보내, 일부러 적에게 붙잡히게 한다."
+		},
+		{
+			"title": "hyōjō hokō",
+			"sort": "Hyojo hoko",
+			"japanese": "氷上歩行",
+			"translation": "얼음 위를 걷기"
+		},
+		{
+			"title": "iai jutsu",
+			"sort": "Iai jutsu",
+			"japanese": "居合術",
+			"translation": "빠른 발도",
+			"description": "되도록 첫 일격에 상대를 죽이는 사무라이의 기술."
+		},
+		{
+			"title": "iaidō",
+			"sort": "Iaido",
+			"japanese": "居合道",
+			"description": "이아이 주쓰에서 발전한 스포츠."
+		},
+		{
+			"title": "iainuki",
+			"sort": "Iainuki",
+			"japanese": "居合抜き",
+			"translation": "빠른 발도",
+			"description": "칼을 재빨리 뽑는 것으로, 신덴후도류의 특기다."
+		},
+		{
+			"title": "ichi no kamae",
+			"sort": "Ichi no kamae",
+			"japanese": "一の構え",
+			"translation": "하나의 자세",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "ichimonji no kamae",
+			"sort": "Ichimonji no kamae",
+			"japanese": "一文字の構え",
+			"translation": "일자 자세",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "Iga",
+			"sort": "Iga",
+			"japanese": "伊賀",
+			"description": "교토 가까이에 있는 일본의 옛 지방으로, 닌자가 특히 활발히 활동했다."
+		},
+		{
+			"title": "Iga Ueno",
+			"sort": "Iga Ueno",
+			"japanese": "伊賀上野",
+			"description": "이가 지방의 도시로, 한때 닌자의 중심지였다. 오늘날에는 박물관과 축제가 그들을 기린다."
+		},
+		{
+			"title": "Iga Ueno-jō",
+			"sort": "Iga Ueno-jo",
+			"japanese": "伊賀上野城",
+			"description": "이가 우에노성."
+		},
+		{
+			"title": "iga dama",
+			"sort": "Iga dama",
+			"japanese": "伊賀玉",
+			"description": "엉겅퀴. 데쓰비시를 보라."
+		},
+		{
+			"title": "Iga-Ryū",
+			"sort": "Iga-Ryu",
+			"japanese": "伊賀流",
+			"description": "인술 유파로, 오늘날의 구모가쿠레류."
+		},
+		{
+			"title": "Igasaki Dōjun",
+			"sort": "Igasaki Dojun",
+			"japanese": "伊賀崎道順",
+			"description": "놀라운 계략으로 적의 성에 들어간 이가 지방의 이름난 닌자."
+		},
+		{
+			"title": "ikki",
+			"sort": "Ikki",
+			"japanese": "一揆",
+			"translation": "봉기"
+		},
+		{
+			"title": "ikkō ikki",
+			"sort": "Ikko ikki",
+			"japanese": "一向一揆",
+			"translation": "정토진종 신도의 봉기",
+			"description": "15세기와 16세기에 불교 정토진종 신도들이 일으킨 봉기와 그들의 결사."
+		},
+		{
+			"title": "in",
+			"sort": "In",
+			"japanese": "陰",
+			"translation": "그늘, 부정적인 것, 숨겨진 것"
+		},
+		{
+			"title": "in shin ton kei",
+			"sort": "In shin ton kei",
+			"description": "최소의 노력으로 최대의 효과를 거두고, 사물의 자연스러운 흐름을 되도록 바꾸지 않는다는 인술의 원칙."
+		},
+		{
+			"title": "innin",
+			"sort": "Innin",
+			"japanese": "陰忍",
+			"translation": "숨어서 잠입하기",
+			"description": "<cite>『만천집해』</cite> 제5권, 제6권, 제7권의 제목. 이 권들은 닌자 지식의 어두운 면인 음을 계략, 속임수, 기습과 함께 다룬다."
+		},
+		{
+			"title": "inpō",
+			"sort": "Inpo",
+			"japanese": "隠法",
+			"description": "몸을 숨기고 위장하는 기술."
+		},
+		{
+			"title": "inrō",
+			"sort": "Inro",
+			"japanese": "印籠",
+			"translation": "여행용 약상자"
+		},
+		{
+			"title": "inton",
+			"sort": "Inton",
+			"japanese": "隠遁",
+			"description": "몸을 숨기고 위장하는 기술인 온신 주쓰의 다른 이름."
+		},
+		{
+			"title": "inton jutsu",
+			"sort": "Inton jutsu",
+			"japanese": "隠遁術",
+			"translation": "달아나고 숨는 닌자의 술"
+		},
+		{
+			"title": "in’yō",
+			"sort": "In’yo",
+			"japanese": "陰陽",
+			"translation": "우주의 두 힘, 음과 양, 해와 달",
+			"description": "도가에서 이원성을 나타내는 상징인 음양에 해당하는 일본어."
+		},
+		{
+			"title": "ippon sugi nobori",
+			"sort": "Ippon sugi nobori",
+			"japanese": "一本杉登り",
+			"translation": "삼나무를 오르는 법",
+			"description": "나무를 오르는 장치로, 갈고리가 달린 쇳조각에 손잡이가 있는 밧줄 두 가닥을 매었다."
+		},
+		{
+			"title": "Ishikawa Goemon",
+			"sort": "Ishikawa Goemon",
+			"japanese": "石川五右衛門",
+			"description": "전설에 따르면 닌자였으며 그 기술을 도둑질에 썼다는 이름난 도둑으로, 일종의 일본판 <q>로빈 후드</q>다."
+		},
+		{
+			"title": "ito",
+			"sort": "Ito",
+			"japanese": "意図",
+			"translation": "의도"
+		},
+		{
+			"title": "ja",
+			"sort": "Ja",
+			"japanese": "者",
+			"translation": "사람"
+		},
+		{
+			"title": "jari bako",
+			"sort": "Jari bako",
+			"japanese": "砂利箱",
+			"translation": "자갈 상자",
+			"description": "쌀, 모래 또는 자갈을 채운 그릇으로, 손을 단련하는 데 쓴다. 간슈라고도 한다."
+		},
+		{
+			"title": "ji",
+			"sort": "Ji",
+			"japanese": "侍",
+			"description": "사무라이를 가리키는 다른 말."
+		},
+		{
+			"title": "jihi no kokoro",
+			"sort": "Jihi no kokoro",
+			"japanese": "慈悲の心",
+			"translation": "자비로운 마음",
+			"description": "닌포에서 깨달음의 표지로, 사랑 그 자체보다 강하다. 삶과 죽음의 경계를 거듭 걸어감으로써 생겨난다."
+		},
+		{
+			"title": "jikatabi",
+			"sort": "Jikatabi",
+			"japanese": "地下足袋",
+			"description": "엄지발가락이 따로 갈라진 닌자의 신발로, 소리 없이 달리고 오르는 데 특히 알맞았다."
+		},
+		{
+			"title": "jin",
+			"sort": "Jin",
+			"japanese": "人",
+			"translation": "사람"
+		},
+		{
+			"title": "Jin ryaku no maki",
+			"sort": "Jin ryaku no maki",
+			"japanese": "人略の巻",
+			"translation": "사람의 전략 두루마리",
+			"description": "사람의 전략을 다룬 책으로, <cite>『천략권』</cite>, <cite>『지략권』</cite>과 함께 한 시리즈를 이룬다."
+		},
+		{
+			"title": "jirai",
+			"sort": "Jirai",
+			"japanese": "地雷",
+			"translation": "지뢰"
+		},
+		{
+			"title": "jitte",
+			"sort": "Jitte",
+			"japanese": "十手",
+			"translation": "열 개의 손",
+			"description": "칼의 일격을 받아 내는 갈고리가 달린 손 무기. 줏테라고도 한다."
+		},
+		{
+			"title": "jō",
+			"sort": "Jo",
+			"japanese": "杖",
+			"translation": "지팡이, 봉",
+			"description": "정식 이름은 욘 샤쿠 보다."
+		},
+		{
+			"title": "jōei jutsu",
+			"sort": "Joei jutsu",
+			"japanese": "如影術",
+			"translation": "그림자처럼",
+			"description": "도이리의 전술. 적대 행위가 시작되기 직전에 닌자는 적지로 들어가는데, 전쟁 준비로 어수선한 틈에 고용된 일꾼이나 병사 등으로 쉽게 섞여 든다."
+		},
+		{
+			"title": "jōjutsu",
+			"sort": "Jojutsu",
+			"japanese": "杖術",
+			"description": "지팡이(조)를 쓰는 싸움. 부게이 주핫판과 닌자 주핫케이에 속한다."
+		},
+		{
+			"title": "jōnin",
+			"sort": "Jonin",
+			"japanese": "上忍",
+			"translation": "위 닌자",
+			"description": "닌자의 가장 높은 계급으로, 씨족의 우두머리다. 그의 참된 신분은 대개 주닌만 알았다. 조닌은 게닌에게 임무를 내렸고, 정치, 전략, 철학에 강했다."
+		},
+		{
+			"title": "jū tai jutsu",
+			"sort": "Ju tai jutsu",
+			"japanese": "柔体術",
+			"translation": "부드러운 몸의 술",
+			"description": "인술의 다이주쓰에 속하는 잡기, 관절기, 조르기."
+		},
+		{
+			"title": "jūdō",
+			"sort": "Judo",
+			"japanese": "柔道",
+			"translation": "부드러운 길",
+			"description": "1882년 가노 지고로 교수가 주주쓰에서 발전시킨 일본의 격투 스포츠."
+		},
+		{
+			"title": "jūjutsu",
+			"sort": "Jujutsu",
+			"japanese": "柔術",
+			"translation": "부드러움의 술",
+			"description": "사무라이의 오래된 일본 무술."
+		},
+		{
+			"title": "jumon",
+			"sort": "Jumon",
+			"japanese": "呪文",
+			"translation": "주문",
+			"description": "<q>힘이 실린</q> 말로, 진언에 해당하는 일본어다. 지성을 구현한다."
+		},
+		{
+			"title": "jūmonji no kamae",
+			"sort": "Jumonji no kamae",
+			"japanese": "十文字の構え",
+			"translation": "십자 자세",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "jun nagare",
+			"sort": "Jun nagare",
+			"japanese": "順流れ",
+			"translation": "앞으로 흐름",
+			"description": "이치몬지노 가마에에서 하는 낙법(우케미)."
+		},
+		{
+			"title": "jūnantaisō",
+			"sort": "Junantaiso",
+			"japanese": "柔軟体操",
+			"translation": "유연 체조",
+			"description": "민첩함과 유연성을 기르는 닌자의 운동."
+		},
+		{
+			"title": "jutsu",
+			"sort": "Jutsu",
+			"japanese": "術",
+			"translation": "기술, 수단, 술"
+		},
+		{
+			"title": "jutte",
+			"sort": "Jutte",
+			"japanese": "十手",
+			"translation": "열 개의 손",
+			"description": "칼의 일격을 받아 내는 갈고리가 달린 손 무기. 짓테라고도 한다."
+		},
+		{
+			"title": "ka",
+			"sort": "Ka",
+			"japanese": "火",
+			"translation": "불"
+		},
+		{
+			"title": "ka jutsu",
+			"sort": "Ka jutsu",
+			"japanese": "火術",
+			"translation": "불의 술",
+			"description": "불, 화기, 폭약을 다루는 법."
+		},
+		{
+			"title": "ka no kata",
+			"sort": "Ka no kata",
+			"japanese": "火の型",
+			"translation": "불의 형"
+		},
+		{
+			"title": "kabuto",
+			"sort": "Kabuto",
+			"japanese": "兜",
+			"translation": "투구",
+			"description": "일본 갑옷의 투구."
+		},
+		{
+			"title": "kagami",
+			"sort": "Kagami",
+			"japanese": "鏡",
+			"translation": "거울"
+		},
+		{
+			"title": "kagi kōhō geri",
+			"sort": "Kagi koho geri",
+			"japanese": "鈎後方蹴り",
+			"translation": "뒤로 거는 갈고리 차기"
+		},
+		{
+			"title": "kagi nawa",
+			"sort": "Kagi nawa",
+			"japanese": "鈎縄",
+			"translation": "갈고리 밧줄",
+			"description": "끝에 갈고리가 달린 긴 밧줄."
+		},
+		{
+			"title": "kagi yari",
+			"sort": "Kagi yari",
+			"japanese": "鈎槍",
+			"translation": "갈고리 창",
+			"description": "칼의 일격을 막고 나무를 오르는 데 쓰던 닌자의 무기. 가마 야리라고도 한다."
+		},
+		{
+			"title": "kaiki",
+			"sort": "Kaiki",
+			"japanese": "開器",
+			"translation": "여는 도구",
+			"description": "<cite>『만천집해』</cite>에서 문과 자물쇠를 열고 침입하는 도구를 다룬 권의 제목. 데누구이의 다른 이름이라는 용례는 확인되지 않는다."
+		},
+		{
+			"title": "kaiten",
+			"sort": "Kaiten",
+			"japanese": "回転",
+			"translation": "돌기, 회전, 구르기"
+		},
+		{
+			"title": "kaki",
+			"sort": "Kaki",
+			"japanese": "火器",
+			"translation": "불의 도구",
+			"description": "<cite>『만천집해』</cite> 마지막 권의 제목으로, 폭약, 연막탄, 약, 마취제, 독의 제조법을 담았다."
+		},
+		{
+			"title": "kakushi kokeshi",
+			"sort": "Kakushi kokeshi",
+			"description": "추를 숨긴 고케시 인형으로, 무기로 쓰였다."
+		},
+		{
+			"title": "kakuyoku",
+			"sort": "Kakuyoku",
+			"japanese": "鶴翼",
+			"translation": "학의 날개",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "kama",
+			"sort": "Kama",
+			"japanese": "鎌",
+			"translation": "낫",
+			"description": "아시아 전역에서 곡식, 벼, 사탕수수를 베는 데 쓰던 도구."
+		},
+		{
+			"title": "kama ikada",
+			"sort": "Kama ikada",
+			"japanese": "蒲筏",
+			"translation": "부들 뗏목",
+			"description": "부들로 만든 1인용 뗏목."
+		},
+		{
+			"title": "kama yari",
+			"sort": "Kama yari",
+			"japanese": "鎌槍",
+			"translation": "갈고리 창",
+			"description": "칼의 일격을 막고 나무를 오르는 데 쓰던 닌자의 무기. 가기 야리라고도 한다."
+		},
+		{
+			"title": "kamae",
+			"sort": "Kamae",
+			"japanese": "構え",
+			"translation": "싸움 자세"
+		},
+		{
+			"title": "kami gakure no jutsu",
+			"sort": "Kami gakure no jutsu",
+			"japanese": "神隠れの術",
+			"translation": "신 뒤에 숨는 술",
+			"description": "돌아가는 길로 목표에 다가가는 법. 경호가 지나치게 삼엄한 목표 인물의 친척이나 측근과 친해져 그 곁에 다가간다."
+		},
+		{
+			"title": "kamikaze",
+			"sort": "Kamikaze",
+			"japanese": "神風",
+			"translation": "신의 바람",
+			"description": "쿠빌라이 칸이 이끈 몽골군을 무찌른 두 차례 태풍의 이름. 제2차 세계 대전에서는 자살 공격으로 비행기를 몰고 연합군의 함선과 기지에 돌진해야 했던 조종사들도 가미카제라고 불렀다."
+		},
+		{
+			"title": "kamiza",
+			"sort": "Kamiza",
+			"japanese": "神座",
+			"translation": "신의 자리",
+			"description": "도장에서 가장 중요한 자리로, 최고 사범의 사진이 걸리고 때로 종교적인 물건이 놓인다."
+		},
+		{
+			"title": "kana",
+			"sort": "Kana",
+			"japanese": "仮名",
+			"description": "일본의 음절 문자로, 히라가나와 가타카나를 아우르는 말. 일상에서는 한자와 섞어 쓴다."
+		},
+		{
+			"title": "kangeiko",
+			"sort": "Kangeiko",
+			"japanese": "寒稽古",
+			"translation": "겨울 수련"
+		},
+		{
+			"title": "kanji",
+			"sort": "Kanji",
+			"japanese": "漢字",
+			"translation": "중국 문자",
+			"description": "일본인은 이 문자를 받아들였고, 오늘날 한자는 일본 문자의 대부분을 이룬다."
+		},
+		{
+			"title": "kanjin kaname",
+			"sort": "Kanjin kaname",
+			"japanese": "肝心要",
+			"translation": "요점",
+			"description": "물질세계를 뒤로하고 우주의 법칙을 체험한 사람이 얻는 것. 도가쿠레류의 가르침은 이를 <q>신의 마음과 눈</q>인 신신 신간(神心神眼)과 같은 것으로 본다."
+		},
+		{
+			"title": "kanshu",
+			"sort": "Kanshu",
+			"japanese": "慣手",
+			"description": "쌀, 모래 또는 자갈을 채운 그릇으로, 손을 단련하는 데 쓴다. 자리 바코라고도 한다."
+		},
+		{
+			"title": "kantō kusha",
+			"sort": "Kanto kusha",
+			"description": "구노이치를 가르치는 남자 교관."
+		},
+		{
+			"title": "kanzashi",
+			"sort": "Kanzashi",
+			"japanese": "簪",
+			"translation": "화려한 비녀",
+			"description": "포크처럼 갈래가 두 개인 나무나 금속 비녀."
+		},
+		{
+			"title": "karate dō",
+			"sort": "Karate do",
+			"japanese": "空手道",
+			"translation": "빈손의 길",
+			"description": "일본 남쪽의 섬들인 오키나와에서 생겨난 무술."
+		},
+		{
+			"title": "kasha",
+			"sort": "Kasha",
+			"japanese": "滑車",
+			"translation": "도르래",
+			"description": "줄을 타고 내려갈 때 쓰는 도르래."
+		},
+		{
+			"title": "kasugai",
+			"sort": "Kasugai",
+			"japanese": "鎹",
+			"translation": "꺾쇠",
+			"description": "닌자가 문이 열리지 않도록 문에 끼워 넣던 꺾쇠."
+		},
+		{
+			"title": "kata",
+			"sort": "Kata",
+			"japanese": "型",
+			"translation": "형",
+			"description": "정해진 동작의 순서."
+		},
+		{
+			"title": "kata ashi tobi geri",
+			"sort": "Kata ashi tobi geri",
+			"japanese": "片足飛び蹴り",
+			"translation": "한 발 뛰어 차기",
+			"description": "한 발로 상대를 내지르고 다른 쪽 무릎은 몸 쪽으로 끌어당기는 뛰어 차기."
+		},
+		{
+			"title": "kataga hasami bune",
+			"sort": "Kataga hasami bune",
+			"description": "작은 배."
+		},
+		{
+			"title": "katagatae jutsu",
+			"sort": "Katagatae jutsu",
+			"japanese": "方違術",
+			"description": "지카이리의 전술. 적이 진영을 비우면 닌자는 몰래 들어가 중요한 시설을 파괴하고, 남은 보초들을 공황에 빠뜨리고, 아군에게 성문을 열어 준다."
+		},
+		{
+			"title": "katakana",
+			"sort": "Katakana",
+			"japanese": "片仮名",
+			"description": "주로 외래어, 전보, 의성어에 쓰는 일본의 음절 문자."
+		},
+		{
+			"title": "katana",
+			"sort": "Katana",
+			"japanese": "刀",
+			"translation": "칼",
+			"description": "사무라이의 긴 칼로, 날이 휘었고 한쪽에만 날이 서 있으며 길이는 61~76센티미터다. 와키자시와 함께 다이쇼를 이룬다."
+		},
+		{
+			"title": "katana kake",
+			"sort": "Katana kake",
+			"japanese": "刀懸け",
+			"translation": "칼걸이",
+			"description": "집 안에서 가타나를 올려 두는 거치대. 와키자시는 잠을 자거나 목욕할 때만 내려놓았고, 그때도 손이 닿는 곳에 두었다."
+		},
+		{
+			"title": "katate",
+			"sort": "Katate",
+			"japanese": "片手",
+			"translation": "한 손",
+			"description": "낙법(우케미) 등에서 한 손으로 하는 것."
+		},
+		{
+			"title": "Katō Danzō",
+			"sort": "Kato Danzo",
+			"japanese": "加藤段蔵",
+			"description": "도약 기술의 달인이었다고 전하는 이름난 닌자."
+		},
+		{
+			"title": "katon",
+			"sort": "Katon",
+			"japanese": "火遁",
+			"description": "불을 이용한 탈출로, 고톤포의 다섯 가지 방법 가운데 하나."
+		},
+		{
+			"title": "katon jutsu",
+			"sort": "Katon jutsu",
+			"japanese": "火遁術",
+			"translation": "불로 달아나는 술",
+			"description": "불을 탈출 수단으로 쓰는 고톤포의 탈출 기술."
+		},
+		{
+			"title": "katsura otoko jutsu",
+			"sort": "Katsura otoko jutsu",
+			"japanese": "桂男術",
+			"translation": "달 속의 사내",
+			"description": "중국의 옛이야기에서 이름을 딴 도이리의 전술. 적지에서 동료와 연락이 끊긴 닌자가 현지 주민인 지쓰 미시의 도움으로 살아간다. 그들은 닌자에게 잠자리를 주고 닌자를 위해 정탐한다."
+		},
+		{
+			"title": "kayaku jutsu",
+			"sort": "Kayaku jutsu",
+			"japanese": "火薬術",
+			"translation": "불과 폭약을 다루는 술"
+		},
+		{
+			"title": "kayaku zutsu",
+			"sort": "Kayaku zutsu",
+			"japanese": "火薬筒",
+			"translation": "화약 통",
+			"description": "화약을 마른 채로 지니고 다니기 위해 봉한 대나무 통."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "拳",
+			"translation": "주먹",
+			"description": "신체 무기로서의 주먹."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "剣",
+			"translation": "칼, 검, 칼날"
+		},
+		{
+			"title": "ken tai ichi jō",
+			"sort": "Ken tai ichi jo",
+			"japanese": "剣体一情",
+			"translation": "몸과 무기는 하나다"
+		},
+		{
+			"title": "kendō",
+			"sort": "Kendo",
+			"japanese": "剣道",
+			"translation": "검의 길",
+			"description": "사무라이의 검술(겐주쓰)에서 나온 격투 스포츠. 오늘날에는 칼 대신 죽도를 쓰고, 몸을 보호하려고 호구를 입는다."
+		},
+		{
+			"title": "kenjutsu",
+			"sort": "Kenjutsu",
+			"japanese": "剣術",
+			"translation": "검술",
+			"description": "봉건 시대 일본의 검술."
+		},
+		{
+			"title": "kenpō",
+			"sort": "Kenpo",
+			"japanese": "拳法",
+			"translation": "주먹의 법",
+			"description": "맨손 격투법으로, 부게이 주핫판에서 주주쓰와 함께 나온다."
+		},
+		{
+			"title": "kensei",
+			"sort": "Kensei",
+			"japanese": "剣聖",
+			"translation": "검성",
+			"description": "도의 본질을 완전히 꿰뚫어 거의 무적으로 여겨진 사람. 가장 잘 알려진 예는 미야모토 무사시다."
+		},
+		{
+			"title": "kenshō",
+			"sort": "Kensho",
+			"japanese": "見性",
+			"translation": "우주의 진리를 깨닫기",
+			"description": "모든 것에 대한 이해, 곧 깨달음으로, 사토리라고도 한다."
+		},
+		{
+			"title": "keri",
+			"sort": "Keri",
+			"japanese": "蹴り",
+			"translation": "발차기",
+			"description": "게리라고도 한다."
+		},
+		{
+			"title": "ketsuin",
+			"sort": "Ketsuin",
+			"japanese": "結印",
+			"translation": "손으로 인을 맺기",
+			"description": "손의 모양으로, 수인에 해당하는 일본어다. 몸의 행위를 구현한다."
+		},
+		{
+			"title": "ki",
+			"sort": "Ki",
+			"japanese": "気",
+			"translation": "에너지, 생명력, 생명 활동"
+		},
+		{
+			"title": "kiai",
+			"sort": "Kiai",
+			"japanese": "気合",
+			"translation": "기합, 투지",
+			"description": "함성으로 에너지를 터뜨리는 것으로, 효과적인 기술에 따라야 한다. 전설에 따르면 어떤 달인들은 이 외침으로 작은 동물을 죽이고 사람을 잠시 마비시켰다고 한다. 확인할 수 있는 것은 갑작스러운 외침이 한순간 상대를 놀라게 한다는 사실뿐이다."
+		},
+		{
+			"title": "kiai jutsu",
+			"sort": "Kiai jutsu",
+			"japanese": "気合術",
+			"translation": "함성의 술",
+			"description": "기아이를 쓰는 기술."
+		},
+		{
+			"title": "Kido Yazaemon",
+			"sort": "Kido Yazaemon",
+			"japanese": "城戸弥左衛門",
+			"description": "오다 노부나가를 암살하려다 실패한 이름난 닌자."
+		},
+		{
+			"title": "kigomi",
+			"sort": "Kigomi",
+			"japanese": "着込み",
+			"translation": "속갑옷",
+			"description": "평상복 아래에 입는 갑옷으로, 구사리 가타비라가 그 예다. 누빈 천으로 만든 것 가운데에는 옻칠한 판을 덧댄 것도 있었다. 무사와 여행자가 입었으며, 닌자가 이것을 늘 입었다는 증거는 없다."
+		},
+		{
+			"title": "kihon happō gata",
+			"sort": "Kihon happo gata",
+			"japanese": "基本八法型",
+			"translation": "여덟 가지 기본 형"
+		},
+		{
+			"title": "kikaigaku",
+			"sort": "Kikaigaku",
+			"japanese": "機械学",
+			"translation": "역학",
+			"description": "공격에 대한 몸의 가장 효과적인 반응으로, 발놀림, 옆으로 비켜서기, 싸움의 거리, 신체 무기의 올바른 사용이 여기에 속한다."
+		},
+		{
+			"title": "kikaku ken",
+			"sort": "Kikaku ken",
+			"japanese": "鬼角拳",
+			"translation": "도깨비 뿔 주먹"
+		},
+		{
+			"title": "kin",
+			"sort": "Kin",
+			"japanese": "金",
+			"translation": "금, 쇠"
+		},
+		{
+			"title": "kinton",
+			"sort": "Kinton",
+			"japanese": "金遁",
+			"description": "쇠를 이용한 탈출로, 고톤포의 다섯 가지 방법 가운데 하나."
+		},
+		{
+			"title": "kinton jutsu",
+			"sort": "Kinton jutsu",
+			"japanese": "金遁術",
+			"translation": "쇠로 달아나는 술",
+			"description": "쇠를 탈출 수단으로 쓰는 고톤포의 탈출 기술."
+		},
+		{
+			"title": "kiri",
+			"sort": "Kiri",
+			"japanese": "切小刀",
+			"translation": "작은 톱"
+		},
+		{
+			"title": "kisha",
+			"sort": "Kisha",
+			"japanese": "綺者",
+			"translation": "아름다운 사람",
+			"description": "상대의 허영심을 이용하는 고조 고요쿠의 원리."
+		},
+		{
+			"title": "kishaku",
+			"sort": "Kishaku",
+			"japanese": "耆著",
+			"translation": "나침반",
+			"description": "물에 띄우는 나침반. 흔히 물고기나 배 모양으로 만든 자성을 띤 쇳조각을 물을 담은 그릇에 띄운다. 이 원리는 중국에서 왔으며, <cite>『만천집해』</cite>는 이런 나침반을 만드는 법을 설명한다."
+		},
+		{
+			"title": "kiten",
+			"sort": "Kiten",
+			"japanese": "起転",
+			"translation": "손 짚고 앞돌기",
+			"description": "웅크린 자세에서 두 손을 짚고 물구나무를 선 뒤, 다리를 넘겨 브리지를 거쳐 다시 두 발로 선다."
+		},
+		{
+			"title": "kiten ken",
+			"sort": "Kiten ken",
+			"japanese": "起転拳",
+			"translation": "방향을 트는 주먹"
+		},
+		{
+			"title": "kitsune gakure no jutsu",
+			"sort": "Kitsune gakure no jutsu",
+			"japanese": "狐隠術",
+			"translation": "여우처럼 숨는 술",
+			"description": "여우처럼 갈대숲에 숨는 기술."
+		},
+		{
+			"title": "ko ashi",
+			"sort": "Ko ashi",
+			"japanese": "小足",
+			"translation": "작은 걸음",
+			"description": "닌자의 걸음걸이."
+		},
+		{
+			"title": "kō ken",
+			"sort": "Ko ken",
+			"japanese": "鈎拳",
+			"translation": "갈고리 주먹"
+		},
+		{
+			"title": "Kōbō Daishi",
+			"sort": "Kobo Daishi",
+			"japanese": "弘法大師",
+			"description": "밀교 종파인 진언종의 창시자로, 구카이라고도 한다."
+		},
+		{
+			"title": "kobudō",
+			"sort": "Kobudo",
+			"japanese": "古武道",
+			"translation": "옛 부도",
+			"description": "오키나와에서 발전한 무기술로, 주로 농기구를 무기로 쓴다."
+		},
+		{
+			"title": "kobujutsu jūhappan",
+			"sort": "Kobujutsu juhappan",
+			"japanese": "古武術十八般",
+			"translation": "18가지 옛 무술",
+			"description": "하쓰미 마사아키가 우에노 센세이 밑에서 3년 동안 수련한 무술."
+		},
+		{
+			"title": "kodachi",
+			"sort": "Kodachi",
+			"japanese": "小太刀",
+			"translation": "작은 칼",
+			"description": "짧은 칼."
+		},
+		{
+			"title": "kodachijutsu",
+			"sort": "Kodachijutsu",
+			"japanese": "小太刀術",
+			"description": "짧은 칼(고다치)을 쓰는 싸움으로, 비켄주쓰의 한 부분이다."
+		},
+		{
+			"title": "Kōga-Ryū",
+			"sort": "Koga-Ryu",
+			"japanese": "甲賀流",
+			"description": "인술 유파로, 오늘날에는 끊겼을 가능성이 매우 크다."
+		},
+		{
+			"title": "kōgai",
+			"sort": "Kogai",
+			"japanese": "笄",
+			"translation": "비녀",
+			"description": "와키자시 옆면에 끼워 둔 바늘. 가죽 물건을 손질하거나 말굽을 돌보는 도구로 쓰였다."
+		},
+		{
+			"title": "kogakure",
+			"sort": "Kogakure",
+			"japanese": "木隠",
+			"translation": "나뭇잎과 나무 뒤에 숨은",
+			"description": "지은이가 이 웹사이트의 이름으로 고른 말."
+		},
+		{
+			"title": "kōhō",
+			"sort": "Koho",
+			"japanese": "後方",
+			"translation": "뒤로"
+		},
+		{
+			"title": "kōhō geri",
+			"sort": "Koho geri",
+			"japanese": "後方蹴り",
+			"translation": "뒤차기"
+		},
+		{
+			"title": "kōhō kaiten",
+			"sort": "Koho kaiten",
+			"japanese": "後方回転",
+			"translation": "뒤구르기"
+		},
+		{
+			"title": "kōhō ukemi",
+			"sort": "Koho ukemi",
+			"japanese": "後方受身",
+			"translation": "뒤로 하는 낙법",
+			"description": "뒤쪽으로 하는 낙법(우케미). 선 자세에서 깊이 웅크려 앉은 뒤 등을 대고 뒤로 구른다."
+		},
+		{
+			"title": "kokizami ashi",
+			"sort": "Kokizami ashi",
+			"japanese": "小刻み足",
+			"translation": "짧은 걸음",
+			"description": "닌자의 걸음걸이."
+		},
+		{
+			"title": "kokoro",
+			"sort": "Kokoro",
+			"japanese": "心",
+			"translation": "마음, 정신"
+		},
+		{
+			"title": "koku",
+			"sort": "Koku",
+			"japanese": "石",
+			"description": "쌀을 재는 일본의 부피 단위. 봉건 시대 일본에서는 고쿠로 녹봉을 받았으며, 1고쿠는 쌀 약 180리터에 해당한다."
+		},
+		{
+			"title": "kokū",
+			"sort": "Kokuu",
+			"japanese": "虚空",
+			"translation": "빈 공간",
+			"description": "빈 공간, 공허."
+		},
+		{
+			"title": "kokyūhō",
+			"sort": "Kokyuho",
+			"japanese": "呼吸法",
+			"translation": "호흡법, 호흡 조절",
+			"description": "올바르게 숨 쉬는 방법."
+		},
+		{
+			"title": "komusō",
+			"sort": "Komuso",
+			"japanese": "虚無僧",
+			"translation": "공허의 승려",
+			"description": "보화종의 탁발승. 고무소는 흰 기모노를 입고, 얼굴 전체를 가리는 큰 삿갓을 쓰고, 칼(가타나), 긴 지팡이, 부채, 피리(샤쿠하치)를 지닌 채 일본 곳곳을 떠돌았다. 삿갓은 결코 벗어서는 안 되었고, 승려가 아닌 사람 앞에서는 말을 해서도 안 되었다. 공식적으로 이 종파는 더 이상 없지만, 지하에서 이어지고 있을지도 모른다."
+		},
+		{
+			"title": "kongō",
+			"sort": "Kongo",
+			"japanese": "金剛",
+			"translation": "황금의 힘",
+			"description": "불교 승려가 몸을 지키는 데 쓰던 짧은 금속 무기. 이 홀은 순수한 앎의 표지인 금강석을 상징한다. 인드라의 무기로도 알려져 있다."
+		},
+		{
+			"title": "kongōkai mandara",
+			"sort": "Kongokai mandara",
+			"japanese": "金剛界曼荼羅",
+			"translation": "금강계 만다라",
+			"description": "부처와 신들을 아홉 구역에 배치한 엄격하게 기하학적인 만다라."
+		},
+		{
+			"title": "kongōsho",
+			"sort": "Kongosho",
+			"japanese": "金剛杵",
+			"translation": "금강의 홀",
+			"description": "양 끝에 안쪽으로 휜 날이 세 개씩 달린 불교 의식 도구(바즈라)."
+		},
+		{
+			"title": "koppō jutsu",
+			"sort": "Koppo jutsu",
+			"japanese": "骨法術",
+			"translation": "뼈의 법의 술",
+			"description": "뼈를 부수는 기술. 혹독한 수련으로 손과 발을 단련해 뼈에 파괴적인 타격을 가했다."
+		},
+		{
+			"title": "koppō ken",
+			"sort": "Koppo ken",
+			"japanese": "骨法拳",
+			"translation": "뼈의 법의 주먹"
+		},
+		{
+			"title": "kōsei no kamae",
+			"sort": "Kosei no kamae",
+			"japanese": "攻勢の構え",
+			"translation": "공격하는 기운",
+			"description": "인술의 자세(가마에)."
+		},
+		{
+			"title": "koshi jutsu",
+			"sort": "Koshi jutsu",
+			"japanese": "骨指術",
+			"translation": "뼈 손가락의 술",
+			"description": "몸의 근육을 노려 심한 통증을 일으키는 기술."
+		},
+		{
+			"title": "koshizashi",
+			"sort": "Koshizashi",
+			"japanese": "腰差",
+			"translation": "허리에 차는 대포",
+			"description": "스기노보 묘산이 다네가시마에서 보고 본떠 만들게 한 초기의 휴대용 화기."
+		},
+		{
+			"title": "kosshi kihon sanpō",
+			"sort": "Kosshi kihon sanpo",
+			"japanese": "骨指基本三法",
+			"translation": "세 가지 기본 타격 기술"
+		},
+		{
+			"title": "Kotō-Ryū",
+			"sort": "Koto-Ryu",
+			"japanese": "虎倒流",
+			"translation": "호랑이를 쓰러뜨리는 류",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "kōyaku",
+			"sort": "Koyaku",
+			"japanese": "衡軛",
+			"translation": "소의 멍에",
+			"description": "보랴쿠에 속하는 전투 대형."
+		},
+		{
+			"title": "kū",
+			"sort": "Ku",
+			"japanese": "空",
+			"translation": "공, 진공",
+			"description": "아원자 에너지의 근원이자 무(無)이며, 모든 것의 시작이다."
+		},
+		{
+			"title": "kū no kata",
+			"sort": "Ku no kata",
+			"japanese": "空の型",
+			"translation": "공의 형"
+		},
+		{
+			"title": "ku shaku bō",
+			"sort": "Ku shaku bo",
+			"japanese": "九尺棒",
+			"translation": "아홉 샤쿠 길이의 봉",
+			"description": "아주 긴 봉(2.73미터)."
+		},
+		{
+			"title": "kubotan",
+			"sort": "Kubotan",
+			"japanese": "クボタン",
+			"description": "작은 원통 모양의 주먹 무기로, 관절에 압력을 가하는 데 쓴다."
+		},
+		{
+			"title": "kuda bashigo",
+			"sort": "Kuda bashigo",
+			"japanese": "管梯子",
+			"translation": "관 사다리"
+		},
+		{
+			"title": "kuden",
+			"sort": "Kuden",
+			"japanese": "口伝",
+			"translation": "구전",
+			"description": "무술을 글이 아니라 입에서 입으로 전하는 것."
+		},
+		{
+			"title": "kūhen no kata",
+			"sort": "Kuhen no kata",
+			"japanese": "空変の型",
+			"translation": "공이 변하는 형"
+		},
+		{
+			"title": "kūhi",
+			"sort": "Kuhi",
+			"japanese": "空飛",
+			"translation": "공중 도약"
+		},
+		{
+			"title": "kuji goshin hō",
+			"sort": "Kuji goshin ho",
+			"japanese": "九字護身法",
+			"translation": "아홉 음절의 호신법",
+			"description": "구지키리의 다른 이름."
+		},
+		{
+			"title": "kuji-in",
+			"sort": "Kuji-in",
+			"japanese": "九字印",
+			"translation": "아홉 음절의 인",
+			"description": "닌자가 쓰던 아홉 가지 손가락 모양(수인)."
+		},
+		{
+			"title": "kuji-in jin",
+			"sort": "Kuji-in jin",
+			"japanese": "陣",
+			"description": "구지인의 여섯째 인. 신의 우주적 의식에 온전히 의지하고 자신의 직관을 믿는 사람을 나타낸다."
+		},
+		{
+			"title": "kuji-in kai",
+			"sort": "Kuji-in kai",
+			"japanese": "皆",
+			"description": "구지인의 다섯째 인. 신에게 가까이 다가가려 애쓰는 사람을 나타낸다. 그 손 모양은 외박권인이다."
+		},
+		{
+			"title": "kuji-in pyō",
+			"sort": "Kuji-in pyo",
+			"japanese": "兵",
+			"description": "구지인의 둘째 인으로, 금강석, 곧 앎의 몸으로 나타난 상징이다. 그 손 모양은 대금강륜인이다."
+		},
+		{
+			"title": "kuji-in retsu",
+			"sort": "Kuji-in retsu",
+			"japanese": "列",
+			"description": "구지인의 일곱째 인. 그 손 모양은 지권인이다."
+		},
+		{
+			"title": "kuji-in rin",
+			"sort": "Kuji-in rin",
+			"japanese": "臨",
+			"description": "구지인의 첫째 인. 금강석 같은 벼락인 금강을 나타낸다. 그 손 모양은 독고인이다."
+		},
+		{
+			"title": "kuji-in sha",
+			"sort": "Kuji-in sha",
+			"japanese": "者",
+			"description": "구지인의 넷째 인."
+		},
+		{
+			"title": "kuji-in tō",
+			"sort": "Kuji-in to",
+			"japanese": "闘",
+			"description": "구지인의 셋째 인. 그 손 모양은 외사자인이다."
+		},
+		{
+			"title": "kuji-in zai",
+			"sort": "Kuji-in zai",
+			"japanese": "在",
+			"description": "구지인의 여덟째 인. 모든 더러움을 태워 없애고 정신을 우주와 하나 되게 하는 불을 상징한다."
+		},
+		{
+			"title": "kuji-in zen",
+			"sort": "Kuji-in zen",
+			"japanese": "前",
+			"description": "구지인의 아홉째 인. 모든 것을 꿰뚫어 본, 완전히 깨달은 자를 상징한다."
+		},
+		{
+			"title": "kuji-kiri",
+			"sort": "Kuji-kiri",
+			"japanese": "九字切り",
+			"translation": "아홉 음절을 베기",
+			"description": "상징적인 검으로 허공에 보호의 격자를 그리는 의식. 구지인과 혼동해서는 안 된다."
+		},
+		{
+			"title": "Kūkai",
+			"sort": "Kukai",
+			"japanese": "空海",
+			"description": "홍법대사의 다른 이름."
+		},
+		{
+			"title": "Kukishinden-Ryū",
+			"sort": "Kukishinden-Ryu",
+			"japanese": "九鬼神伝流",
+			"translation": "아홉 귀신의 류",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "kuma",
+			"sort": "Kuma",
+			"japanese": "熊",
+			"translation": "곰"
+		},
+		{
+			"title": "kumade",
+			"sort": "Kumade",
+			"japanese": "熊手",
+			"translation": "갈퀴, 곰 발톱",
+			"description": "끔찍한 상처를 입힐 수 있는 닌자의 무기. 오르는 데도 쓰였다."
+		},
+		{
+			"title": "Kumawaka",
+			"sort": "Kumawaka",
+			"description": "닌자 게릴라 70명을 이끈 고가류의 이름난 게닌."
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "雲梯子",
+			"translation": "구름 사다리"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "蜘蛛梯子",
+			"translation": "거미 사다리"
+		},
+		{
+			"title": "Kumogakure-Ryū",
+			"sort": "Kumogakure-Ryu",
+			"japanese": "雲隠流",
+			"translation": "숨은 구름의 류",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "kunai",
+			"sort": "Kunai",
+			"japanese": "苦無",
+			"translation": "지렛대 도구, 닌자의 던지는 칼"
+		},
+		{
+			"title": "kunashi",
+			"sort": "Kunashi",
+			"translation": "접이식 삽"
+		},
+		{
+			"title": "kunoichi",
+			"sort": "Kunoichi",
+			"japanese": "くノ一",
+			"description": "여성 닌자. 전승에 따르면 남성 동료들처럼 근접전 훈련을 받았지만, 그 중심은 사람의 마음을 움직이는 데 있었다."
+		},
+		{
+			"title": "kunoichi jutsu",
+			"sort": "Kunoichi jutsu",
+			"japanese": "くノ一術",
+			"description": "여성을 요원으로 써서 핵심 남성 인물에게 다가가는 도이리의 전술."
+		},
+		{
+			"title": "Kuroi Ōkami",
+			"sort": "Kuroi Okami",
+			"japanese": "黒い狼",
+			"translation": "검은 늑대",
+			"description": "볼프스부르크에 있는 부진칸 도장의 이름으로, 시도시 마리오 플뤼크한(Mario Plückhahn)이 이끈다."
+		},
+		{
+			"title": "kuruma nagare",
+			"sort": "Kuruma nagare",
+			"japanese": "車流れ",
+			"translation": "구르는 흐름",
+			"description": "뒤로 구르는 낙법(우케미)으로, 고호 구루마 나가레라고 한다."
+		},
+		{
+			"title": "kusari",
+			"sort": "Kusari",
+			"japanese": "鎖",
+			"translation": "쇠사슬"
+		},
+		{
+			"title": "kusari fundō",
+			"sort": "Kusari fundo",
+			"japanese": "鎖分銅",
+			"description": "양 끝에 추가 하나씩 달린 짧은 쇠사슬."
+		},
+		{
+			"title": "kusari katabira",
+			"sort": "Kusari katabira",
+			"japanese": "鎖帷子",
+			"translation": "사슬 갑옷",
+			"description": "닌자가 싸움터에서 시노비 쇼조쿠 아래나 위에 입던 사슬 갑옷. 그물망은 얼굴과 손바닥도 보호했다."
+		},
+		{
+			"title": "kusarigama",
+			"sort": "Kusarigama",
+			"japanese": "鎖鎌",
+			"translation": "사슬 낫",
+			"description": "추를 단 쇠사슬(구사리)을 연결한 일본의 낫(가마)."
+		},
+		{
+			"title": "kusarijutsu",
+			"sort": "Kusarijutsu",
+			"description": "짧은 사슬 무기를 쓰는 싸움."
+		},
+		{
+			"title": "kūten",
+			"sort": "Kuten",
+			"japanese": "空転",
+			"translation": "공중에서 돌기"
+		},
+		{
+			"title": "kyobako fune",
+			"sort": "Kyobako fune",
+			"translation": "상자 배",
+			"description": "겉을 가죽으로 씌운 나무 상자."
+		},
+		{
+			"title": "kyojitsu tenkan hō",
+			"sort": "Kyojitsu tenkan ho",
+			"japanese": "虚実転換法",
+			"translation": "거짓과 진실",
+			"description": "진실을 거짓으로, 거짓을 진실로 보이게 하는 전술로, 약할 때 강한 척하는 것이 그 예다."
+		},
+		{
+			"title": "kyoketsu shōge",
+			"sort": "Kyoketsu shoge",
+			"japanese": "距跋渉毛",
+			"description": "닌자가 즐겨 쓰던 무기. 갈고리가 달린 칼로, 자루에 4미터 길이의 밧줄을 매고 그 끝에 쇠고리를 달았다."
+		},
+		{
+			"title": "kyōmon",
+			"sort": "Kyomon",
+			"description": "실용적인 교양, 관찰력, 상식. 닌자노 하치몬의 여덟 분야 가운데 하나."
+		},
+		{
+			"title": "kyōnin no jutsu",
+			"sort": "Kyonin no jutsu",
+			"description": "사람들의 미신을 이용하는 전술로, 도깨비 가면, 불 뿜기, 사악하다고 여겨지는 동물 등을 쓴다."
+		},
+		{
+			"title": "kyōsha",
+			"sort": "Kyosha",
+			"japanese": "恐者",
+			"translation": "겁 많은 사람",
+			"description": "상대의 비겁함을 이용하는 고조 고요쿠의 원리."
+		},
+		{
+			"title": "Kyōto",
+			"sort": "Kyoto",
+			"japanese": "京都",
+			"description": "일본의 옛 수도."
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "級",
+			"translation": "계급, 단계, 등급, 수련생 급수"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "弓",
+			"translation": "활"
+		},
+		{
+			"title": "kyūdō",
+			"sort": "Kyudo",
+			"japanese": "弓道",
+			"translation": "활의 길",
+			"description": "전투용 규주쓰에서 발전한 스포츠."
+		},
+		{
+			"title": "kyūjutsu",
+			"sort": "Kyujutsu",
+			"japanese": "弓術",
+			"translation": "활의 술",
+			"description": "활과 화살로 쏘는 사무라이의 궁술."
+		},
+		{
+			"title": "kyūsho",
+			"sort": "Kyusho",
+			"japanese": "急所",
+			"translation": "급소",
+			"description": "아테미의 압점. 고토류에 그 체계 전체가 담겨 있다."
+		},
+		{
+			"title": "li",
+			"sort": "Li",
+			"chinese": "理",
+			"translation": "구조, 질서",
+			"description": "도가 사상에서 도의 구조이자 형태. 결코 되풀이되지 않고 어떤 규칙도 따르지 않는 비대칭의 질서다. 흐르는 물, 나무껍질, 얼음 결정에서 드러난다."
+		},
+		{
+			"title": "Lin Kuei",
+			"sort": "Lin Kuei",
+			"description": "인술이 중국과 한국에 이 이름으로 존재했다고 하는 이름이지만, 역사적 근거는 없다."
+		},
+		{
+			"title": "ma",
+			"sort": "Ma",
+			"japanese": "間",
+			"translation": "사이 공간, 틈, 간격, 거리"
+		},
+		{
+			"title": "maai",
+			"sort": "Maai",
+			"japanese": "間合い",
+			"translation": "간격, 거리, 멈춤",
+			"description": "시간과 공간 속의 조화로운 거리."
+		},
+		{
+			"title": "mae",
+			"sort": "Mae",
+			"japanese": "前",
+			"translation": "앞, 앞으로, 정면"
+		},
+		{
+			"title": "mae gaeshi",
+			"sort": "Mae gaeshi",
+			"japanese": "前返",
+			"translation": "앞으로 하는 기술"
+		},
+		{
+			"title": "mamukigama",
+			"sort": "Mamukigama",
+			"description": "밧줄이 달린 낫으로, 밧줄 끝에는 뱀 같은 독을 가진 동물이 매달려 있었다. 닌자는 이것을 적에게 던졌고, 동물은 상대를 붙잡아 두었으며 죽이기까지 했을지도 모른다."
+		},
+		{
+			"title": "mandala",
+			"sort": "Mandala",
+			"japanese": "曼荼羅",
+			"description": "탄트라와 밀교에서 온 것으로, 우주를 하나의 그림으로 나타낸 도식이다. 삼밀에서는 생각을 나타낸다."
+		},
+		{
+			"title": "mangetsu no kamae",
+			"sort": "Mangetsu no kamae",
+			"japanese": "満月の構え",
+			"translation": "보름달 자세",
+			"description": "고토류의 자세. 싸우는 사람은 칼을 머리 위로 들어, 칼날에 비친 햇빛으로 상대의 눈을 부시게 한다."
+		},
+		{
+			"title": "manriki gusari",
+			"sort": "Manriki gusari",
+			"japanese": "万力鎖",
+			"translation": "1만의 힘을 지닌 사슬",
+			"description": "양 끝에 쇠 손잡이가 달린 사슬."
+		},
+		{
+			"title": "mantra",
+			"sort": "Mantra",
+			"japanese": "真言",
+			"translation": "참된 말",
+			"description": "탄트라교와 밀교에서 온 소리. 삼밀에서 진언은 말을 나타낸다."
+		},
+		{
+			"title": "menkyo kaiden",
+			"sort": "Menkyo kaiden",
+			"japanese": "免許皆伝",
+			"description": "한 무술을 완전히 통달했음을 증명하는 증서. 스승은 이것을 한 명 또는 여러 명의 제자에게 주었고, 이 증서는 그 소지자를 유파의 정당한 계승자로 인정한다."
+		},
+		{
+			"title": "metsubushi",
+			"sort": "Metsubushi",
+			"japanese": "目潰し",
+			"translation": "눈을 부숨",
+			"description": "쇳가루, 모래, 재 또는 화학 물질로 만든 눈가림 가루. 쫓길 때 닌자는 이것을 추격자의 눈에 뿌렸다."
+		},
+		{
+			"title": "migi",
+			"sort": "Migi",
+			"japanese": "右",
+			"translation": "오른쪽"
+		},
+		{
+			"title": "mikkyō",
+			"sort": "Mikkyo",
+			"japanese": "密教",
+			"translation": "비밀의 가르침",
+			"description": "불교의 여러 탄트라 가르침을 아우르는 말."
+		},
+		{
+			"title": "miko",
+			"sort": "Miko",
+			"japanese": "巫女",
+			"translation": "신사의 무녀",
+			"description": "신토 신사에서 봉사하는 젊은 미혼 여성. 전승에 따르면 모치즈키 지요메는 고아 소녀들을 미코로, 동시에 다케다 가문을 위해 첩보 활동을 하는 구노이치로 길러 냈다."
+		},
+		{
+			"title": "Minamoto",
+			"sort": "Minamoto",
+			"japanese": "源",
+			"description": "겐지라고도 불리는 유명한 가문으로, 다이라 가문과 전쟁을 벌였다."
+		},
+		{
+			"title": "minomushi jutsu",
+			"sort": "Minomushi jutsu",
+			"japanese": "身虫術",
+			"translation": "몸속의 벌레",
+			"description": "<cite>『만천집해』</cite>가 기록한 도이리의 전술. 닌자는 적의 하인들을 부추겨 주인을 배신하게 했다. 지위가 높을수록 그들의 가치는 더 컸다."
+		},
+		{
+			"title": "Miyamoto Musashi",
+			"sort": "Miyamoto Musashi",
+			"japanese": "宮本武蔵",
+			"description": "일본에서 가장 유명한 검객. 검술을 갈고닦기 위해 여러 해 동안 전국을 떠돌았고, 그동안 60번이 넘는 결투에서 이겼다. 두 자루의 칼을 동시에 쓰는 유파인 니텐이치류를 세웠다. 죽기 직전에 <cite>『오륜서』</cite>(<q>다섯 고리의 책</q>)를 썼다."
+		},
+		{
+			"title": "mizu",
+			"sort": "Mizu",
+			"japanese": "水",
+			"translation": "물"
+		},
+		{
+			"title": "mizu taimatsu",
+			"sort": "Mizu taimatsu",
+			"japanese": "水松炬",
+			"description": "비가 와도 꺼지지 않는 횃불."
+		},
+		{
+			"title": "mizu tsutsu",
+			"sort": "Mizu tsutsu",
+			"japanese": "水筒",
+			"translation": "숨 쉬는 대롱",
+			"description": "닌자가 오랫동안 물속에 머물 때 숨을 쉬던 갈대 대롱이나 나무 대롱."
+		},
+		{
+			"title": "mizugumo",
+			"sort": "Mizugumo",
+			"japanese": "水蜘蛛",
+			"translation": "물거미",
+			"description": "습지를 걸어서 건너기 위한 닌자의 도구."
+		},
+		{
+			"title": "mizukaki",
+			"sort": "Mizukaki",
+			"japanese": "水掻き",
+			"translation": "물갈퀴"
+		},
+		{
+			"title": "Mochizuki Chiyome",
+			"sort": "Mochizuki Chiyome",
+			"japanese": "望月千代女",
+			"description": "전승에 따르면 다케다 신겐을 위해 구노이치 조직망을 이끈 유명한 구노이치."
+		},
+		{
+			"title": "moku",
+			"sort": "Moku",
+			"japanese": "木",
+			"translation": "나무"
+		},
+		{
+			"title": "mokuton",
+			"sort": "Mokuton",
+			"japanese": "木遁",
+			"description": "나무와 식물을 이용한 탈출로, 고톤포의 다섯 가지 방법 가운데 하나다."
+		},
+		{
+			"title": "mokuton jutsu",
+			"sort": "Mokuton jutsu",
+			"japanese": "木遁術",
+			"translation": "나무 탈출술",
+			"description": "나무를 탈출 수단으로 쓰는 고톤포의 탈출술."
+		},
+		{
+			"title": "mon",
+			"sort": "Mon",
+			"japanese": "紋",
+			"translation": "가문의 문장"
+		},
+		{
+			"title": "mono",
+			"sort": "Mono",
+			"japanese": "者",
+			"translation": "사람"
+		},
+		{
+			"title": "monomi no jutsu",
+			"sort": "Monomi no jutsu",
+			"japanese": "物見の術",
+			"translation": "정찰의 기술",
+			"description": "적 방어의 약점, 예를 들어 쉽게 들어갈 수 있는 방, 뒷문, 쓰지 않는 방을 정찰하는 일."
+		},
+		{
+			"title": "Mōri",
+			"sort": "Mori",
+			"japanese": "毛利",
+			"description": "혼슈 서부 아키 출신의 사무라이 가문으로, 센고쿠 시대에 권력을 다툰 가문 가운데 하나다. 모리 모토나리 때 주고쿠 지방을 지배하게 되었고, 뒤에 오다 노부나가와 맞섰다."
+		},
+		{
+			"title": "mu",
+			"sort": "Mu",
+			"japanese": "武",
+			"translation": "무인의 도, 군사",
+			"description": "부라고도 한다."
+		},
+		{
+			"title": "mudrā",
+			"sort": "Mudra",
+			"japanese": "印相",
+			"translation": "손 표시",
+			"description": "탄트라와 밀교에서 온 손 모양. 그 가운데 아홉 가지가 구지인에 들어갔다. 삼밀에서는 행위를 나타낸다."
+		},
+		{
+			"title": "mumei mugei no jutsu",
+			"sort": "Mumei mugei no jutsu",
+			"japanese": "無名無芸の術",
+			"translation": "이름도 없고 기예도 없다",
+			"description": "익명의 기술로, 첩보 활동에서 닌자가 성공한 비결이다. 누구도 닌자의 참모습을 알아서는 안 되었다."
+		},
+		{
+			"title": "muon no hō",
+			"sort": "Muon no ho",
+			"japanese": "無音の法",
+			"translation": "소리 없는 방법"
+		},
+		{
+			"title": "musha dori",
+			"sort": "Musha dori",
+			"japanese": "武者捕り",
+			"description": "무사시류의 비전 기술. 다카마쓰 도시쓰구는 15세 때 이 유파의 가라테 수련자와 싸우면서 이 기술을 익혔다."
+		},
+		{
+			"title": "musha shugyō",
+			"sort": "Musha shugyo",
+			"japanese": "武者修行",
+			"translation": "무사의 방랑",
+			"description": "무사가 자신을 갈고닦기 위해 긴 여행을 떠나는 수련 방법. 길 위의 고난이 인격을 다듬고 정신을 단련했다."
+		},
+		{
+			"title": "musubi bashigo",
+			"sort": "Musubi bashigo",
+			"japanese": "結び梯子",
+			"translation": "고리 사다리",
+			"description": "일정한 간격으로 고리를 만든 밧줄로, 닌자는 오를 때 그 고리에 발을 넣었다."
+		},
+		{
+			"title": "musubi nawa",
+			"sort": "Musubi nawa",
+			"japanese": "結び縄",
+			"description": "말총으로 만든 밧줄."
+		},
+		{
+			"title": "mute",
+			"sort": "Mute",
+			"japanese": "無手",
+			"translation": "손 없이",
+			"description": "손을 쓰지 않는 것. 낙법(우케미)에서처럼."
+		},
+		{
+			"title": "nagamaki",
+			"sort": "Nagamaki",
+			"japanese": "長巻",
+			"description": "칼창 나기나타의 한 형태."
+		},
+		{
+			"title": "nagare",
+			"sort": "Nagare",
+			"japanese": "流れ",
+			"translation": "흐르는 물",
+			"description": "부드러움의 원리."
+		},
+		{
+			"title": "nage",
+			"sort": "Nage",
+			"japanese": "投げ",
+			"translation": "던지기, 던지다"
+		},
+		{
+			"title": "nage teppō",
+			"sort": "Nage teppo",
+			"japanese": "投げ鉄砲",
+			"description": "손이나 투석끈으로 적에게 던진 폭탄. 오늘날의 수류탄처럼 작동했다."
+		},
+		{
+			"title": "nagenawa",
+			"sort": "Nagenawa",
+			"japanese": "投げ縄",
+			"translation": "던지는 밧줄",
+			"description": "올가미 밧줄. 교쿠신류는 이것을 다루는 것으로 알려져 있다."
+		},
+		{
+			"title": "naginata",
+			"sort": "Naginata",
+			"japanese": "薙刀",
+			"translation": "적을 베어 쓰러뜨리는 칼",
+			"description": "칼창으로, 소헤이의 무기이자 사무라이 집안 여성이 가장 즐겨 쓴 무기다."
+		},
+		{
+			"title": "naginatadō",
+			"sort": "Naginatado",
+			"japanese": "薙刀道",
+			"translation": "나기나타의 길",
+			"description": "나기나타를 다루는 무술로, 제2차 세계 대전 이후 주로 여성이 수련했다."
+		},
+		{
+			"title": "nagishi shuriken",
+			"sort": "Nagishi shuriken",
+			"description": "끝에 술이 달려 날아가는 궤도를 안정시키는 수리검."
+		},
+		{
+			"title": "naibaku ken-in",
+			"sort": "Naibaku ken-in",
+			"japanese": "内縛拳印",
+			"translation": "안으로 묶은 주먹의 표시",
+			"description": "구지인에서 진에 해당하는 손 표시."
+		},
+		{
+			"title": "neko te",
+			"sort": "Neko te",
+			"japanese": "猫手",
+			"translation": "고양이 발톱",
+			"description": "끝을 뾰족하게 만든 골무로, 구노이치의 무기다."
+		},
+		{
+			"title": "nenriki",
+			"sort": "Nenriki",
+			"japanese": "念力",
+			"translation": "의지력",
+			"description": "한데 모은 의도로, 만다라에 해당하는 일본의 개념이다. 닌자의 의지를 구현한다."
+		},
+		{
+			"title": "nichirin-in",
+			"sort": "Nichirin-in",
+			"japanese": "日輪印",
+			"translation": "해 고리의 표시",
+			"description": "구지인에서 자이에 해당하는 손 표시."
+		},
+		{
+			"title": "Nihon",
+			"sort": "Nihon",
+			"japanese": "日本",
+			"translation": "해의 근원",
+			"description": "일본. 닛폰이라고도 한다."
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "人",
+			"translation": "인간"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "忍",
+			"translation": "참다, 견디다, 버티다, 피하다",
+			"description": "시노부라고도 한다."
+		},
+		{
+			"title": "nin shokudai",
+			"sort": "Nin shokudai",
+			"japanese": "忍燭台",
+			"description": "매달 수 있는 L자 모양의 횃불."
+		},
+		{
+			"title": "ningu",
+			"sort": "Ningu",
+			"japanese": "忍具",
+			"translation": "닌자의 도구"
+		},
+		{
+			"title": "ninja",
+			"sort": "Ninja",
+			"japanese": "忍者",
+			"description": "인술(忍術)을 행하는 사람으로, 봉건 중세의 전사, 정찰병, 첩자, 게릴라, 특수 요원이었다."
+		},
+		{
+			"title": "ninja aruki",
+			"sort": "Ninja aruki",
+			"japanese": "忍者歩き",
+			"translation": "걷기 기술",
+			"description": "소리 없이, 눈에 띄지 않게, 또는 빠르게 움직이기 위한 닌자의 걸음법."
+		},
+		{
+			"title": "ninja jūhakkei",
+			"sort": "Ninja juhakkei",
+			"japanese": "忍者十八形",
+			"description": "닌자가 부게이 주핫판에 더해 배운 비전 기술의 18가지 분야. 둘을 합치면 닌포 산주롯케이가 된다."
+		},
+		{
+			"title": "ninja ken",
+			"sort": "Ninja ken",
+			"japanese": "忍者剣",
+			"translation": "닌자의 칼",
+			"description": "닌자 도라고도 한다."
+		},
+		{
+			"title": "ninja tō",
+			"sort": "Ninja to",
+			"japanese": "忍者刀",
+			"translation": "닌자의 칼",
+			"description": "닌자 겐이라고도 한다."
+		},
+		{
+			"title": "ninjutsu",
+			"sort": "Ninjutsu",
+			"japanese": "忍術",
+			"translation": "닌자의 무술",
+			"description": "닌자가 수련한 모든 류를 아우르는 말. 흔히 관습에서 벗어난 비밀스러운 격투 기술을 담고 있다."
+		},
+		{
+			"title": "ninjutsu ka",
+			"sort": "Ninjutsu ka",
+			"japanese": "忍術家",
+			"translation": "인술(忍術) 수련자"
+		},
+		{
+			"title": "ninki",
+			"sort": "Ninki",
+			"japanese": "忍器",
+			"translation": "닌자의 도구",
+			"description": "<cite>『만천집해』</cite>에서 장비를 다루는 부분. 제9권에서 시작해 마지막 권까지 이어진다."
+		},
+		{
+			"title": "ninniku yoroi",
+			"sort": "Ninniku yoroi",
+			"description": "닌자의 옷인 시노비 쇼조쿠의 다른 이름."
+		},
+		{
+			"title": "ninpō",
+			"sort": "Ninpo",
+			"japanese": "忍法",
+			"translation": "닌자의 기예",
+			"description": "삶의 방식으로서의 인술(忍術). 닌포는 기술을 넘어 정신적인 길도 가르친다."
+		},
+		{
+			"title": "ninpō ikkan",
+			"sort": "Ninpo ikkan",
+			"japanese": "忍法一貫",
+			"translation": "인술(忍術)은 시작이며 끝이 없다"
+		},
+		{
+			"title": "ninpō inu bue",
+			"sort": "Ninpo inu bue",
+			"japanese": "忍法狗笛",
+			"description": "동물을 길들이는 닌자의 기술."
+		},
+		{
+			"title": "ninpō mikkyō",
+			"sort": "Ninpo mikkyo",
+			"japanese": "忍法密教",
+			"description": "밀교에 바탕을 둔 닌자의 비밀 가르침."
+		},
+		{
+			"title": "ninpō sanjūrokkei",
+			"sort": "Ninpo sanjurokkei",
+			"japanese": "忍法三十六計",
+			"description": "닌자가 익힌 36가지 분야. 부게이 주핫판의 18가지 무예와 닌자 주핫케이의 18가지 비전 기술이다. 목록은 고정되어 있지 않아서, 어떤 분야가 빠지고 다른 분야가 더해지는 일이 많았다."
+		},
+		{
+			"title": "ninpō taijutsu",
+			"sort": "Ninpo taijutsu",
+			"japanese": "忍法体術",
+			"description": "닌자의 맨손 격투. 낙법 같은 다른 신체 기술도 포함한다."
+		},
+		{
+			"title": "Nippon",
+			"sort": "Nippon",
+			"japanese": "日本",
+			"translation": "해의 근원",
+			"description": "일본. 니혼이라고도 한다."
+		},
+		{
+			"title": "Nishina Daisuke",
+			"sort": "Nishina Daisuke",
+			"japanese": "仁科大助",
+			"description": "도가쿠레류의 창시자인 도가쿠레 다이스케의 본명."
+		},
+		{
+			"title": "nodachi",
+			"sort": "Nodachi",
+			"japanese": "野太刀",
+			"translation": "큰 전쟁용 칼",
+			"description": "길이 1~1.8미터의 매우 긴 사무라이의 칼로, 대개 하인이 들고 다녔다."
+		},
+		{
+			"title": "nuki ashi",
+			"sort": "Nuki ashi",
+			"japanese": "抜き足",
+			"translation": "소리 없는 걸음"
+		},
+		{
+			"title": "nunchaku",
+			"sort": "Nunchaku",
+			"japanese": "双節棍",
+			"description": "고부도의 무기로, 짧은 사슬이나 끈으로 이은 두 개의 나무 막대다. 닌자가 이것을 쓴 적이 있는지는 매우 의심스럽다."
+		},
+		{
+			"title": "nuntebō",
+			"sort": "Nuntebo",
+			"description": "고기잡이 창. 어부의 도구로, 무기로도 쓸 수 있었다."
+		},
+		{
+			"title": "nyūdaki no jutsu",
+			"sort": "Nyudaki no jutsu",
+			"description": "경비병의 약점, 예를 들어 게으름이나 어리석음을 이용하는 것."
+		},
+		{
+			"title": "nyūkyo no jutsu",
+			"sort": "Nyukyo no jutsu",
+			"translation": "침입의 기술",
+			"description": "적의 성이나 진영에 들어갈 알맞은 때를 기다리는 것. 예를 들어 군대가 원정을 떠났을 때다."
+		},
+		{
+			"title": "ō",
+			"sort": "O",
+			"japanese": "大",
+			"translation": "큰"
+		},
+		{
+			"title": "ō ashi",
+			"sort": "O ashi",
+			"japanese": "大足",
+			"translation": "큰 걸음"
+		},
+		{
+			"title": "obi",
+			"sort": "Obi",
+			"japanese": "帯",
+			"translation": "허리띠"
+		},
+		{
+			"title": "Oda Nobunaga",
+			"sort": "Oda Nobunaga",
+			"japanese": "織田信長",
+			"description": "센고쿠 시대에 일본의 권력을 손에 넣으려 한 군사 독재자. 이 무자비한 장수는 일본 중부를 장악하고 교토 근처에 성을 쌓았으며, 유럽의 화기를 거리낌 없이 사용했다. 그가 죽은 뒤 그의 장수들이 일본 통일을 이루었다."
+		},
+		{
+			"title": "ōgama",
+			"sort": "Ogama",
+			"japanese": "大鎌",
+			"translation": "큰 낫",
+			"description": "구사리가마를 훨씬 크게 만든 전장용 무기."
+		},
+		{
+			"title": "ōkami",
+			"sort": "Okami",
+			"japanese": "狼",
+			"translation": "늑대"
+		},
+		{
+			"title": "Okinawa",
+			"sort": "Okinawa",
+			"japanese": "沖縄",
+			"description": "일본 남부의 섬들."
+		},
+		{
+			"title": "okuri ashi",
+			"sort": "Okuri ashi",
+			"japanese": "送り足",
+			"translation": "뒤따르는 걸음"
+		},
+		{
+			"title": "ōmetsuke",
+			"sort": "Ometsuke",
+			"japanese": "大目付",
+			"description": "막부에서 국가 경찰을 맡은 관리. 내전이 끝난 뒤 비밀경찰로 일한 닌자들을 지휘했다."
+		},
+		{
+			"title": "omote soku gyaku ken no keri",
+			"sort": "Omote soku gyaku ken no keri",
+			"description": "발바닥을 안쪽으로 돌린 차기. 발은 바깥쪽에서 자기 몸 앞의 중심선으로 휘둘러 들어가, 그 선 위에서 허벅지 안쪽 같은 곳을 맞힌다."
+		},
+		{
+			"title": "ongyō no mono",
+			"sort": "Ongyo no mono",
+			"japanese": "隠形の者",
+			"translation": "숨은 사람들",
+			"description": "고가 닌자의 별칭."
+		},
+		{
+			"title": "ongyō-in",
+			"sort": "Ongyo-in",
+			"japanese": "隠形印",
+			"translation": "숨은 형상의 표시",
+			"description": "구지인에서 젠에 해당하는 손 표시."
+		},
+		{
+			"title": "oni",
+			"sort": "Oni",
+			"japanese": "鬼",
+			"translation": "악마, 마귀, 악령"
+		},
+		{
+			"title": "oni kudaki",
+			"sort": "Oni kudaki",
+			"japanese": "鬼砕",
+			"translation": "귀신 부수기",
+			"description": "관절 꺾기 기술."
+		},
+		{
+			"title": "onibi",
+			"sort": "Onibi",
+			"translation": "악마 가면",
+			"description": "닌자가 추격자를 겁주는 데 쓴 섬뜩한 나무 가면."
+		},
+		{
+			"title": "onmyōdō",
+			"sort": "Onmyodo",
+			"japanese": "陰陽道",
+			"translation": "점술과 점성술"
+		},
+		{
+			"title": "ono",
+			"sort": "Ono",
+			"japanese": "斧",
+			"translation": "전투용 도끼"
+		},
+		{
+			"title": "ono gama",
+			"sort": "Ono gama",
+			"japanese": "斧鎌",
+			"translation": "도끼와 낫",
+			"description": "전투용 도끼와 낫을 합친 무기."
+		},
+		{
+			"title": "onshin jutsu",
+			"sort": "Onshin jutsu",
+			"japanese": "隠身術",
+			"translation": "숨는 기술",
+			"description": "숨고, 위장하고, 보이지 않게 되는 닌자의 기술."
+		},
+		{
+			"title": "ōten",
+			"sort": "Oten",
+			"japanese": "横転",
+			"translation": "옆돌기"
+		},
+		{
+			"title": "ōtsuchi",
+			"sort": "Otsuchi",
+			"japanese": "大槌",
+			"translation": "큰 망치",
+			"description": "전쟁용 망치로, 신덴후도류의 무기다."
+		},
+		{
+			"title": "ōzutsu",
+			"sort": "Ozutsu",
+			"japanese": "大筒",
+			"translation": "나무 대포"
+		},
+		{
+			"title": "rakusha",
+			"sort": "Rakusha",
+			"japanese": "楽者",
+			"translation": "편한 사람",
+			"description": "사람의 게으름을 이용하는 고조 고요쿠의 원리."
+		},
+		{
+			"title": "rappa",
+			"sort": "Rappa",
+			"japanese": "乱破",
+			"description": "닌자의 다른 이름으로, 예를 들어 후마 고타로를 따르던 게릴라들을 가리킨다. 슷파라고도 한다."
+		},
+		{
+			"title": "rei",
+			"sort": "Rei",
+			"japanese": "礼",
+			"translation": "인사, 절, 감사"
+		},
+		{
+			"title": "renzoku",
+			"sort": "Renzoku",
+			"japanese": "連続",
+			"translation": "연속, 조합, 연결"
+		},
+		{
+			"title": "ritsudō",
+			"sort": "Ritsudo",
+			"japanese": "律動",
+			"translation": "리듬, 느낌"
+		},
+		{
+			"title": "roku shaku bō",
+			"sort": "Roku shaku bo",
+			"japanese": "六尺棒",
+			"translation": "6샤쿠 길이의 봉",
+			"description": "보의 가장 흔한 형태로, 길이는 약 1.82미터다. 로쿠는 여섯을 뜻하고, 샤쿠는 일본의 길이 단위다."
+		},
+		{
+			"title": "rōnin",
+			"sort": "Ronin",
+			"japanese": "浪人",
+			"translation": "물결 같은 사람들",
+			"description": "주인 없는 사무라이. 주군(다이묘)을 잃은 사무라이는 전국을 떠돌았다. 어떤 이는 용병으로 몸을 팔았고, 어떤 이는 무술 스승이 되었으며, 몇몇은 농민을 약탈하는 도적이 되었다."
+		},
+		{
+			"title": "ryakuhon jutsu",
+			"sort": "Ryakuhon jutsu",
+			"japanese": "略本術",
+			"description": "지카이리의 전술. 닌자는 적의 진영에 몰래 들어가 아군 행세를 했다. 그러려면 닌자가 그곳에서 이미 알려진 사람이어야 했고, 그 지역 사정에 밝아야 했다."
+		},
+		{
+			"title": "ryō ashi tobi geri",
+			"sort": "Ryo ashi tobi geri",
+			"japanese": "両足飛び蹴り",
+			"translation": "두 다리로 뛰어 차기",
+			"description": "두 다리로 동시에 뛰어올라 다리를 붙인 채 차는 뛰어 차기. 몸 전체의 힘이 상대에게 실린다."
+		},
+		{
+			"title": "ryō yoku geri",
+			"sort": "Ryo yoku geri",
+			"translation": "두 다리 날개 차기",
+			"description": "주로 높은 곳에서 상대를 향해 뛰어내릴 때 쓰는 차기."
+		},
+		{
+			"title": "ryōhan jutsu",
+			"sort": "Ryohan jutsu",
+			"description": "지카이리의 전술. 닌자는 요구를 관철하려고 핵심 인물을 납치했다. 다른 핵심 인물들은 닌자를 위해 일해야 했고, 그러지 않으면 인질이 처형되었다."
+		},
+		{
+			"title": "ryōte",
+			"sort": "Ryote",
+			"japanese": "両手",
+			"translation": "두 손",
+			"description": "두 손을 쓰는 것. 낙법(우케미)에서처럼."
+		},
+		{
+			"title": "Ryū",
+			"sort": "Ryu",
+			"japanese": "流",
+			"translation": "유파, 양식, 전통"
+		},
+		{
+			"title": "ryūha",
+			"sort": "Ryuha",
+			"japanese": "流派",
+			"translation": "한 양식이나 전통의 유파",
+			"description": "류의 긴 형태."
+		},
+		{
+			"title": "ryūsui",
+			"sort": "Ryusui",
+			"japanese": "流水",
+			"translation": "흐르는 물"
+		},
+		{
+			"title": "sabaki",
+			"sort": "Sabaki",
+			"japanese": "捌き",
+			"translation": "몸의 움직임"
+		},
+		{
+			"title": "sai",
+			"sort": "Sai",
+			"japanese": "釵",
+			"description": "고부도의 무기."
+		},
+		{
+			"title": "Saichō",
+			"sort": "Saicho",
+			"japanese": "最澄",
+			"description": "덴교 다이시의 다른 이름."
+		},
+		{
+			"title": "Saiga Magoichi",
+			"sort": "Saiga Magoichi",
+			"japanese": "雑賀孫一",
+			"description": "흔히 닌자로 꼽히는 사이카 사수 집단의 우두머리로, 화기와 폭약을 다루는 데 특별한 솜씨가 있었다. 그의 부하들은 뛰어난 저격수였다. 그는 샤키노 주쓰를 고안했다."
+		},
+		{
+			"title": "saimin jutsu",
+			"sort": "Saimin jutsu",
+			"japanese": "催眠術",
+			"translation": "최면술"
+		},
+		{
+			"title": "sake",
+			"sort": "Sake",
+			"japanese": "酒",
+			"translation": "쌀로 빚은 술, 술"
+		},
+		{
+			"title": "sakki",
+			"sort": "Sakki",
+			"japanese": "殺気",
+			"translation": "살기",
+			"description": "부진칸의 5단 심사는 이것의 이름을 땄다. 수련생은 보지 않은 채 칼을 피해야 한다. 하쓰미 마사아키는 다카마쓰 도시쓰구 아래에서 이 심사를 치렀다."
+		},
+		{
+			"title": "sakki jutsu",
+			"sort": "Sakki jutsu",
+			"japanese": "察気術",
+			"translation": "마음을 헤아리는 기술",
+			"description": "공격이 들어오기 전에 그것을 피할 수 있게 해 주는 직관적인 감지."
+		},
+		{
+			"title": "samurai",
+			"sort": "Samurai",
+			"japanese": "侍",
+			"description": "일본의 무사 계급."
+		},
+		{
+			"title": "san shaku bō",
+			"sort": "San shaku bo",
+			"japanese": "三尺棒",
+			"translation": "3샤쿠 길이의 봉",
+			"description": "길이가 3샤쿠, 약 91센티미터인 막대. 다른 이름은 한보다."
+		},
+		{
+			"title": "san shitan ken",
+			"sort": "San shitan ken",
+			"japanese": "三指端拳",
+			"description": "세 손가락으로 하는 시탄 겐의 변형."
+		},
+		{
+			"title": "sanmitsu",
+			"sort": "Sanmitsu",
+			"japanese": "三密",
+			"translation": "세 가지 비밀",
+			"description": "밀교의 세 가지 힘인 생각, 말, 행위. 이를 나타내는 것이 만다라, 진언, 수인이다."
+		},
+		{
+			"title": "sanmyaku",
+			"sort": "Sanmyaku",
+			"japanese": "山脈",
+			"translation": "산맥",
+			"description": "부진칸 공식 잡지의 이름."
+		},
+		{
+			"title": "sanpō hiden",
+			"sort": "Sanpo hiden",
+			"japanese": "三法秘伝",
+			"description": "도가쿠레류의 세 가지 비밀 보물. 센반 수리검, 갈퀴 슈코, 대나무 대롱 신다케다."
+		},
+		{
+			"title": "sansa jutsu",
+			"sort": "Sansa jutsu",
+			"japanese": "散策術",
+			"description": "닌자의 달리기 기술."
+		},
+		{
+			"title": "sanshin no kata",
+			"sort": "Sanshin no kata",
+			"japanese": "三心の型",
+			"translation": "세 마음의 형"
+		},
+		{
+			"title": "sashi ashi",
+			"sort": "Sashi ashi",
+			"japanese": "差し足",
+			"translation": "숨은 걸음",
+			"description": "엇걸음."
+		},
+		{
+			"title": "satobito jutsu",
+			"sort": "Satobito jutsu",
+			"japanese": "里人術",
+			"description": "도이리의 전술. 닌자는 적 군주의 신하 가운데 불만이 많거나 돈을 탐하거나 야심 있는 자를 끌어들였다. 이런 사람들은 정보를 넘기고, 퇴로를 열어 두거나, 물자를 대 주었다."
+		},
+		{
+			"title": "satori",
+			"sort": "Satori",
+			"japanese": "悟り",
+			"translation": "깨침, 이해, 깨달음"
+		},
+		{
+			"title": "saya",
+			"sort": "Saya",
+			"japanese": "鞘",
+			"translation": "칼집"
+		},
+		{
+			"title": "sayū kaiten",
+			"sort": "Sayu kaiten",
+			"japanese": "左右廻転",
+			"translation": "좌우 구르기"
+		},
+		{
+			"title": "seigan no kamae",
+			"sort": "Seigan no kamae",
+			"japanese": "正眼の構え",
+			"description": "상대의 눈을 겨누는 자세."
+		},
+		{
+			"title": "Seii taishōgun",
+			"sort": "Seii taishogun",
+			"japanese": "征夷大将軍",
+			"translation": "오랑캐를 정벌하는 쇼군",
+			"description": "원래는 군 총사령관의 칭호였고, 뒤에 쇼군으로 줄여 불렀다."
+		},
+		{
+			"title": "seishin teki kyōyō",
+			"sort": "Seishin teki kyoyo",
+			"japanese": "精神的教養",
+			"translation": "마음과 직관의 계발",
+			"description": "닌자 주핫케이의 18가지 분야 가운데 첫째."
+		},
+		{
+			"title": "seiza no kamae",
+			"sort": "Seiza no kamae",
+			"japanese": "正座の構え",
+			"translation": "바른 앉은 자세",
+			"description": "무릎을 꿇고 앉는 것으로, 인술(忍術)의 자세(가마에) 가운데 하나다."
+		},
+		{
+			"title": "Sekigahara",
+			"sort": "Sekigahara",
+			"japanese": "関ヶ原",
+			"description": "미노 지방의 작은 마을로, 도쿠가와 이에야스가 이곳에서 적들에게 최종 승리를 거두었다."
+		},
+		{
+			"title": "senban",
+			"sort": "Senban",
+			"japanese": "銛盤",
+			"description": "끝이 네 개인 수리검."
+		},
+		{
+			"title": "senban shaken",
+			"sort": "Senban shaken",
+			"japanese": "銛盤捨剣",
+			"description": "가운데에 구멍이 뚫린 수리검."
+		},
+		{
+			"title": "Sengoku jidai",
+			"sort": "Sengoku jidai",
+			"japanese": "戦国時代",
+			"translation": "전국 시대",
+			"description": "일본에서 피비린내 나는 내전이 이어진 시기로, 대략 1467~1615년이다."
+		},
+		{
+			"title": "senjō jutsu",
+			"sort": "Senjo jutsu",
+			"japanese": "戦場術",
+			"translation": "전장의 기술",
+			"description": "부대를 움직이는 일."
+		},
+		{
+			"title": "senjutsu",
+			"sort": "Senjutsu",
+			"japanese": "戦術",
+			"translation": "전쟁의 기술",
+			"description": "군사 전략."
+		},
+		{
+			"title": "sennin",
+			"sort": "Sennin",
+			"japanese": "仙人",
+			"translation": "황야의 수행자"
+		},
+		{
+			"title": "sensei",
+			"sort": "Sensei",
+			"japanese": "先生",
+			"translation": "먼저 태어난 사람",
+			"description": "스승."
+		},
+		{
+			"title": "sha",
+			"sort": "Sha",
+			"japanese": "者",
+			"translation": "사람"
+		},
+		{
+			"title": "shaken",
+			"sort": "Shaken",
+			"japanese": "車剣",
+			"description": "끝이 여러 개인 수리검."
+		},
+		{
+			"title": "shaki no jutsu",
+			"sort": "Shaki no jutsu",
+			"japanese": "捨旗の術",
+			"translation": "깃발 버리기",
+			"description": "나니와 간자키가와 전투에서 사이가 마고이치가 쓴 계략. 그의 부하들은 자기 깃발을 남겨 두고, 오다 노부나가의 깃발을 위조해 세운 채 새 위치를 잡았다. 노부나가의 군대는 그들을 아군으로 여겼다."
+		},
+		{
+			"title": "shako ken",
+			"sort": "Shako ken",
+			"japanese": "蝦蛄拳",
+			"translation": "게 주먹"
+		},
+		{
+			"title": "shaku",
+			"sort": "Shaku",
+			"japanese": "尺",
+			"description": "일본의 길이 단위. 1샤쿠는 30.3센티미터(10/33미터)다."
+		},
+		{
+			"title": "shakuhachi",
+			"sort": "Shakuhachi",
+			"japanese": "尺八",
+			"description": "고무소의 피리. 이름은 <q>1샤쿠 8슨</q>, 곧 약 54.5센티미터를 뜻한다. 보통의 피리에는 손가락 구멍이 다섯 개 있다."
+		},
+		{
+			"title": "shakujō",
+			"sort": "Shakujo",
+			"japanese": "錫杖",
+			"translation": "주석 지팡이",
+			"description": "끝에 고리가 달린 승려의 지팡이. 걸을 때 고리가 짤랑거리는 소리로 기어 다니는 생물을 길에서 쫓아내, 불교 승려가 살생하지 말라는 계율을 지킬 수 있게 했다."
+		},
+		{
+			"title": "shi shitan ken",
+			"sort": "Shi shitan ken",
+			"japanese": "四指端拳",
+			"description": "엄지로 받친 시탄 겐의 변형."
+		},
+		{
+			"title": "shiatsu",
+			"sort": "Shiatsu",
+			"japanese": "指圧",
+			"translation": "손가락 누르기",
+			"description": "몸의 특정 부위를 눌러 기절과 그 밖의 질환을 누그러뜨리거나 고친다고 하는 일본의 마사지."
+		},
+		{
+			"title": "shiba gakure no jutsu",
+			"sort": "Shiba gakure no jutsu",
+			"japanese": "柴隠れの術",
+			"description": "이가와 고가의 전승에서 온 온신 주쓰의 기술. 빽빽한 덤불, 키 큰 풀숲, 장작더미 속에 숨는 것이다."
+		},
+		{
+			"title": "shichi hō de",
+			"sort": "Shichi ho de",
+			"japanese": "七方出",
+			"translation": "일곱 가지 나다니는 방법",
+			"description": "닌자의 전통적인 일곱 가지 변장."
+		},
+		{
+			"title": "shidōshi",
+			"sort": "Shidoshi",
+			"japanese": "指導士",
+			"translation": "길을 가리키는 사람",
+			"description": "깨달음의 무술을 가르치는 스승."
+		},
+		{
+			"title": "shihan",
+			"sort": "Shihan",
+			"japanese": "師範",
+			"translation": "사범",
+			"description": "1695년 히가시야마 천황은 다카기 오리에몬 시게노부를 황실 근위대의 시한으로 임명했다."
+		},
+		{
+			"title": "shihō tenchi tobi",
+			"sort": "Shiho tenchi tobi",
+			"japanese": "四方天地飛",
+			"translation": "사방과 하늘과 땅으로 뛰기"
+		},
+		{
+			"title": "shikan ken",
+			"sort": "Shikan ken",
+			"japanese": "指環拳",
+			"translation": "손가락 고리 주먹"
+		},
+		{
+			"title": "shiken haramitsu daikōmyō",
+			"sort": "Shiken haramitsu daikomyo",
+			"japanese": "四拳波羅蜜大光明",
+			"description": "수련을 시작할 때 외는 말. 아주 단순하게 말하면 <q>보호와 깨달음을 청한다</q>라는 뜻이다."
+		},
+		{
+			"title": "shikomizue",
+			"sort": "Shikomizue",
+			"japanese": "仕込み杖",
+			"translation": "칼이 든 지팡이",
+			"description": "지팡이 속에 숨긴 칼."
+		},
+		{
+			"title": "shikoro",
+			"sort": "Shikoro",
+			"japanese": "錏",
+			"description": "닌자가 나무 벽과 문을 뚫고 지나갈 때 쓴 얇은 톱."
+		},
+		{
+			"title": "Shimabara no ran",
+			"sort": "Shimabara no ran",
+			"japanese": "島原の乱",
+			"translation": "시마바라의 난",
+			"description": "1637~1638년 시마바라반도에서 일어난 그리스도교도의 봉기. 실제로는 농민 봉기였으며, 그리스도교도를 박해하는 구실이 되었다."
+		},
+		{
+			"title": "shime ashi",
+			"sort": "Shime ashi",
+			"japanese": "締め足",
+			"translation": "단단한 걸음"
+		},
+		{
+			"title": "shime waza",
+			"sort": "Shime waza",
+			"japanese": "絞め技",
+			"translation": "조르기 기술"
+		},
+		{
+			"title": "shinai",
+			"sort": "Shinai",
+			"japanese": "竹刀",
+			"translation": "대나무 칼",
+			"description": "여러 개의 대나무 살을 모아 가죽과 끈으로 묶어 조인 칼. 검도에서 쓴다."
+		},
+		{
+			"title": "shinbō",
+			"sort": "Shinbo",
+			"japanese": "神棒",
+			"translation": "신의 봉",
+			"description": "가운뎃손가락에 끼우는 고리가 달린 주먹 무기."
+		},
+		{
+			"title": "Shinden-Fudō-Ryū",
+			"sort": "Shinden-Fudo-Ryu",
+			"japanese": "神伝不動流",
+			"translation": "흔들리지 않는 마음의 유파",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "shingitai",
+			"sort": "Shingitai",
+			"japanese": "心技体",
+			"translation": "마음, 기술, 몸",
+			"description": "무술의 가장 중요한 원리 가운데 하나."
+		},
+		{
+			"title": "Shingon",
+			"sort": "Shingon",
+			"japanese": "真言",
+			"translation": "참된 말의 종파",
+			"description": "홍법대사가 세운 불교 종파."
+		},
+		{
+			"title": "shinken gata taihen jutsu",
+			"sort": "Shinken gata taihen jutsu",
+			"japanese": "真剣型体変術",
+			"translation": "진검의 형"
+		},
+		{
+			"title": "shinobi",
+			"sort": "Shinobi",
+			"japanese": "忍び",
+			"translation": "몰래 들어감, 염탐, 몰래 침입함, 견딤",
+			"description": "닌자의 줄임말."
+		},
+		{
+			"title": "shinobi bune",
+			"sort": "Shinobi bune",
+			"japanese": "忍び舟",
+			"translation": "비밀의 배",
+			"description": "가볍고 폭이 좁은 배."
+		},
+		{
+			"title": "shinobi iri",
+			"sort": "Shinobi iri",
+			"japanese": "忍び入り",
+			"translation": "비밀 침입",
+			"description": "소리 없이 움직이는 닌자의 기술."
+		},
+		{
+			"title": "shinobi jutsu",
+			"sort": "Shinobi jutsu",
+			"japanese": "忍び術",
+			"translation": "비밀의 기술",
+			"description": "닌자의 여러 기술을 아우르는 말."
+		},
+		{
+			"title": "shinobi kai",
+			"sort": "Shinobi kai",
+			"japanese": "忍び櫂",
+			"translation": "비밀의 노",
+			"description": "속이 빈 대나무 봉으로, 안에 든 쇠 부품을 빠르게 조립해 노로 만들 수 있었다."
+		},
+		{
+			"title": "shinobi katana",
+			"sort": "Shinobi katana",
+			"japanese": "忍び刀",
+			"translation": "비밀의 칼",
+			"description": "닌자의 칼."
+		},
+		{
+			"title": "shinobi kenpō",
+			"sort": "Shinobi kenpo",
+			"japanese": "忍び剣法",
+			"translation": "비밀의 검법",
+			"description": "닌자의 검술."
+		},
+		{
+			"title": "shinobi no buki",
+			"sort": "Shinobi no buki",
+			"japanese": "忍びの武器",
+			"translation": "비밀의 전쟁 도구",
+			"description": "닌자의 무기."
+		},
+		{
+			"title": "shinobi no jutsu",
+			"sort": "Shinobi no jutsu",
+			"japanese": "忍びの術",
+			"translation": "비밀의 기술",
+			"description": "닌자의 여러 기술을 아우르는 말. 전승에 따르면 이 이름은 쇼토쿠 태자 때 생겼다."
+		},
+		{
+			"title": "shinobi shobō",
+			"sort": "Shinobi shobo",
+			"japanese": "忍び小棒",
+			"translation": "비밀의 작은 봉",
+			"description": "주먹 무기이자 너클의 전신. 가운뎃손가락을 강철 고리에 끼우고, 무기의 나머지 부분은 주먹 안에 숨긴다."
+		},
+		{
+			"title": "shinobi shōzoku",
+			"sort": "Shinobi shozoku",
+			"japanese": "忍び装束",
+			"translation": "비밀의 옷 꾸러미",
+			"description": "닌자의 어두운 전투복으로, 겨울에는 밝은 회색이나 흰색이었다. 닌니쿠 요로이라고도 한다."
+		},
+		{
+			"title": "shinobi tantō",
+			"sort": "Shinobi tanto",
+			"japanese": "忍び短刀",
+			"translation": "비밀의 짧은 칼",
+			"description": "지팡이 속에 숨긴 단검(단토)."
+		},
+		{
+			"title": "shinobi yari",
+			"sort": "Shinobi yari",
+			"japanese": "忍び槍",
+			"description": "닌자의 창."
+		},
+		{
+			"title": "shinobi zue",
+			"sort": "Shinobi zue",
+			"japanese": "忍び杖",
+			"translation": "비밀의 지팡이",
+			"description": "속이 빈 대나무 지팡이로, 안에 무기나 눈가림 가루를 숨겼다."
+		},
+		{
+			"title": "shinobu",
+			"sort": "Shinobu",
+			"japanese": "忍",
+			"translation": "인내, 관용, 참을성, 자제, 견디다, 숨기다, 첩자, 몰래 다니다"
+		},
+		{
+			"title": "Shintō",
+			"sort": "Shinto",
+			"japanese": "神道",
+			"translation": "신들의 길",
+			"description": "모든 존재 형태에서 높은 영들을 보는 일본의 종교. <q>신도</q>라고도 한다."
+		},
+		{
+			"title": "shishi undō",
+			"sort": "Shishi undo",
+			"japanese": "四肢運動",
+			"translation": "네 팔다리의 움직임",
+			"description": "팔과 다리의 움직임."
+		},
+		{
+			"title": "shishin ken",
+			"sort": "Shishin ken",
+			"japanese": "指針拳",
+			"translation": "손가락 바늘 주먹"
+		},
+		{
+			"title": "shitan ken",
+			"sort": "Shitan ken",
+			"japanese": "指端拳",
+			"translation": "손가락 끝 주먹"
+		},
+		{
+			"title": "shitō ken",
+			"sort": "Shito ken",
+			"japanese": "指刀拳",
+			"translation": "손가락 칼 주먹"
+		},
+		{
+			"title": "shizen ken",
+			"sort": "Shizen ken",
+			"japanese": "自然拳",
+			"translation": "자연의 무기",
+			"description": "어깨, 몸무게, 손톱처럼 몸이 본래 지닌 무기."
+		},
+		{
+			"title": "shizen kōun ryūsui",
+			"sort": "Shizen koun ryusui",
+			"japanese": "自然行雲流水",
+			"translation": "흐름에 맞춰 자연스럽게 가기"
+		},
+		{
+			"title": "shizen no kamae",
+			"sort": "Shizen no kamae",
+			"japanese": "自然の構え",
+			"translation": "자연스러운 자세",
+			"description": "인술(忍術)의 자세(가마에)."
+		},
+		{
+			"title": "shizentai",
+			"sort": "Shizentai",
+			"japanese": "自然体",
+			"translation": "자연스러운 몸",
+			"description": "힘을 뺀 자연스러운 자세."
+		},
+		{
+			"title": "shō",
+			"sort": "Sho",
+			"japanese": "小",
+			"translation": "작은"
+		},
+		{
+			"title": "shobō",
+			"sort": "Shobo",
+			"japanese": "小棒",
+			"translation": "작은 봉",
+			"description": "주먹 무기."
+		},
+		{
+			"title": "shōgun",
+			"sort": "Shogun",
+			"japanese": "将軍",
+			"translation": "군대의 장군",
+			"description": "일본의 군사 통치자."
+		},
+		{
+			"title": "shoshin go gata",
+			"sort": "Shoshin go gata",
+			"japanese": "初心五型",
+			"translation": "초심자의 마음을 위한 다섯 가지 형"
+		},
+		{
+			"title": "shōten",
+			"sort": "Shoten",
+			"japanese": "昇天",
+			"description": "수직면을 뛰어오르는 것으로, 우케미의 연습이다."
+		},
+		{
+			"title": "shōten no jutsu",
+			"sort": "Shoten no jutsu",
+			"japanese": "昇天の術",
+			"translation": "하늘로 오르는 기술",
+			"description": "벽, 울타리, 나무 또는 사람을 뛰어오르는 것. 충분한 탄력을 받아 장애물로 뛰어들고, 다리로 밀어 올려 그 위를 뛰어넘는다. 현대 수련에서 온 연습으로, 쇼텐 주쓰라고도 한다."
+		},
+		{
+			"title": "Shōtoku Taishi",
+			"sort": "Shotoku Taishi",
+			"japanese": "聖徳太子",
+			"description": "섭정을 맡은 태자(574~622). 분쟁의 진상을 알아내려고 처음으로 첩자를 썼다고 한다."
+		},
+		{
+			"title": "shu ken",
+			"sort": "Shu ken",
+			"translation": "부리 주먹"
+		},
+		{
+			"title": "shugendō",
+			"sort": "Shugendo",
+			"japanese": "修験道",
+			"translation": "스스로를 시험하는 길",
+			"description": "주로 야마부시가 수행한 밀교적 가르침이자 고행의 한 형태."
+		},
+		{
+			"title": "shuki ken",
+			"sort": "Shuki ken",
+			"japanese": "手起拳",
+			"translation": "팔꿈치 주먹"
+		},
+		{
+			"title": "shukō",
+			"sort": "Shuko",
+			"japanese": "手鉤",
+			"translation": "손 갈퀴",
+			"description": "오르기와 싸움에 쓰는 갈퀴로, 도가쿠레류의 세 가지 비밀 보물 가운데 하나다. 데카기라고도 한다."
+		},
+		{
+			"title": "shuriken",
+			"sort": "Shuriken",
+			"japanese": "手裏剣",
+			"translation": "손바닥 칼날",
+			"description": "온갖 모양과 크기의 닌자의 던지는 칼날."
+		},
+		{
+			"title": "shutō ken",
+			"sort": "Shuto ken",
+			"japanese": "手刀拳",
+			"description": "손날로 치는 공격으로, 기텐 겐과 같은 공격이다."
+		},
+		{
+			"title": "sodezutsu",
+			"sort": "Sodezutsu",
+			"japanese": "袖筒",
+			"description": "손에 들고 쏘는 작은 대포."
+		},
+		{
+			"title": "sōhei",
+			"sort": "Sohei",
+			"japanese": "僧兵",
+			"translation": "불교의 승병",
+			"description": "사원에 소속되어 일한 무사 승려와 용병."
+		},
+		{
+			"title": "sōke",
+			"sort": "Soke",
+			"japanese": "宗家",
+			"translation": "가문의 우두머리, 창시자",
+			"description": "한 류의 우두머리."
+		},
+		{
+			"title": "sokki ken",
+			"sort": "Sokki ken",
+			"japanese": "足起拳",
+			"translation": "무릎 주먹"
+		},
+		{
+			"title": "soku gyaku ken",
+			"sort": "Soku gyaku ken",
+			"japanese": "足逆拳",
+			"translation": "뒤집은 발",
+			"description": "배나 목 같은 부드러운 표적을 발가락 끝으로 차는 것. 부진칸의 용어다."
+		},
+		{
+			"title": "soku yaku ken",
+			"sort": "Soku yaku ken",
+			"japanese": "足躍拳",
+			"translation": "춤추는 발",
+			"description": "발꿈치와 발바닥으로 반쯤 부드럽거나 단단한 표적을 차는 것으로, 예를 들어 위에서 무릎을 내리찬다. 부진칸의 용어다."
+		},
+		{
+			"title": "sokuhō geri",
+			"sort": "Sokuho geri",
+			"japanese": "側方蹴り",
+			"translation": "옆차기",
+			"description": "상체는 앞을 향한 채 다리를 옆으로 뻗어 차는 차기."
+		},
+		{
+			"title": "sokuhō kaiten",
+			"sort": "Sokuho kaiten",
+			"japanese": "側方回転",
+			"translation": "옆구르기"
+		},
+		{
+			"title": "sokuhō kiten",
+			"sort": "Sokuho kiten",
+			"japanese": "側方起転",
+			"description": "손을 짚고 옆으로 넘는 재주넘기로, 우케미의 연습이다."
+		},
+		{
+			"title": "sokuhō tobi",
+			"sort": "Sokuho tobi",
+			"japanese": "側方飛び",
+			"translation": "옆으로 뛰기",
+			"description": "옆으로 낮게 뛰는 것으로, 우케미의 연습이다."
+		},
+		{
+			"title": "sokuhō ukemi",
+			"sort": "Sokuho ukemi",
+			"japanese": "側方受身",
+			"translation": "옆으로 넘어지기"
+		},
+		{
+			"title": "sokuyaku suitei ken",
+			"sort": "Sokuyaku suitei ken",
+			"translation": "수평 차기",
+			"description": "다리를 앞으로 수평하게 차서 발이 옆에서 표적을 맞힌다."
+		},
+		{
+			"title": "Sonshi",
+			"sort": "Sonshi",
+			"japanese": "孫子",
+			"description": "손자를 일본어로 읽은 이름. 전승에 따르면 손자는 기원전 6세기에 <cite>『손자병법』</cite>을 썼다. 이 책은 일찍 일본에 전해져 인술(忍術)의 시작에 영향을 주었다고 한다."
+		},
+		{
+			"title": "soshin sosoku hō",
+			"sort": "Soshin sosoku ho",
+			"japanese": "早心早速法",
+			"translation": "빠르게 움직이는 방법"
+		},
+		{
+			"title": "Sugitani Zenjūbō",
+			"sort": "Sugitani Zenjubo",
+			"japanese": "杉谷善住坊",
+			"description": "1570년 두 발의 총알로 오다 노부나가를 죽이려 한 유명한 닌자. 두 발 모두 그의 어깨 보호대에만 맞았다."
+		},
+		{
+			"title": "sui",
+			"sort": "Sui",
+			"japanese": "水",
+			"translation": "물"
+		},
+		{
+			"title": "sui no kata",
+			"sort": "Sui no kata",
+			"japanese": "水の型",
+			"translation": "물의 형"
+		},
+		{
+			"title": "suikatsugan",
+			"sort": "Suikatsugan",
+			"japanese": "水渇丸",
+			"translation": "갈증을 막는 환약",
+			"description": "소금에 절인 매실의 과육, 설탕, 맥문동 뿌리로 만든 갈증을 막는 환약. <cite>『만천집해』</cite>에 그 제조법이 전한다. 입과 목을 촉촉하게 유지해 주었다."
+		},
+		{
+			"title": "suiki",
+			"sort": "Suiki",
+			"japanese": "水器",
+			"translation": "물의 도구",
+			"description": "<cite>『만천집해』</cite> 제9권에서 물 장비를 다루는 부분. 상당 부분 해적들의 조언에 바탕을 두고 있으며, 강을 건너거나 물속에서 움직이는 방법을 보여 준다."
+		},
+		{
+			"title": "suiren",
+			"sort": "Suiren",
+			"japanese": "水練",
+			"translation": "물 수련",
+			"description": "물속에 머물고 움직이는 것."
+		},
+		{
+			"title": "suiton",
+			"sort": "Suiton",
+			"japanese": "水遁",
+			"description": "물을 이용한 탈출로, 고톤포의 다섯 가지 방법 가운데 하나다."
+		},
+		{
+			"title": "suiton jutsu",
+			"sort": "Suiton jutsu",
+			"japanese": "水遁術",
+			"translation": "물 탈출술",
+			"description": "물을 탈출 수단으로 쓰는 고톤포의 탈출술."
+		},
+		{
+			"title": "suppa",
+			"sort": "Suppa",
+			"japanese": "透波",
+			"description": "닌자의 다른 이름으로, 예를 들어 후마 고타로를 따르던 게릴라나 다케다 가문을 섬기던 게릴라를 가리킨다. 랏파라고도 한다."
+		},
+		{
+			"title": "tabi",
+			"sort": "Tabi",
+			"japanese": "足袋",
+			"translation": "발 주머니",
+			"description": "엄지발가락이 다른 발가락과 갈라진 일본의 버선."
+		},
+		{
+			"title": "tachi",
+			"sort": "Tachi",
+			"japanese": "太刀",
+			"translation": "긴 칼",
+			"description": "가타나와 비슷한 칼로, 대개 더 많이 휘었고 전장에서 찼다. 의례용으로 장식되었고 매우 공들여 만들었다."
+		},
+		{
+			"title": "tachi nagare",
+			"sort": "Tachi nagare",
+			"japanese": "立ち流れ",
+			"translation": "선 자세에서의 흐름",
+			"description": "나가레의 한 형태. 선 자세에서 뒤로 넘어진다."
+		},
+		{
+			"title": "tai",
+			"sort": "Tai",
+			"japanese": "体",
+			"translation": "몸, 건강"
+		},
+		{
+			"title": "tai ken",
+			"sort": "Tai ken",
+			"japanese": "体拳",
+			"translation": "몸 주먹"
+		},
+		{
+			"title": "tai sabaki",
+			"sort": "Tai sabaki",
+			"japanese": "体捌き",
+			"translation": "몸 다루기",
+			"description": "몸통의 움직임."
+		},
+		{
+			"title": "taihen jutsu",
+			"sort": "Taihen jutsu",
+			"japanese": "体変術",
+			"translation": "몸을 바꾸는 기술",
+			"description": "다이주쓰의 한 부분으로, 자세, 몸가짐, 움직임, 낙법을 다룬다."
+		},
+		{
+			"title": "taijutsu",
+			"sort": "Taijutsu",
+			"japanese": "体術",
+			"translation": "몸의 기술",
+			"description": "맨손 격투."
+		},
+		{
+			"title": "taikai",
+			"sort": "Taikai",
+			"japanese": "大会",
+			"translation": "큰 모임",
+			"description": "행사에서 무술가들이 함께 모이는 것."
+		},
+		{
+			"title": "Taira",
+			"sort": "Taira",
+			"japanese": "平",
+			"description": "헤이케라고도 불리는 유명한 가문으로, 미나모토 가문과 전쟁을 벌였다."
+		},
+		{
+			"title": "taizōkai mandara",
+			"sort": "Taizokai mandara",
+			"japanese": "胎蔵界曼荼羅",
+			"translation": "태장계 만다라",
+			"description": "삼밀에서 물질세계, 곧 <q>비옥한 땅의 세계</q>를 나타낸다."
+		},
+		{
+			"title": "taka bashigo",
+			"sort": "Taka bashigo",
+			"japanese": "高梯子",
+			"translation": "높은 사다리",
+			"description": "닌자가 깊은 골짜기를 건널 때 쓴 사다리. 가운데를 덧댄 밧줄로 보강했다."
+		},
+		{
+			"title": "Takagi-Yōshin-Ryū",
+			"sort": "Takagi-Yoshin-Ryu",
+			"japanese": "高木楊心流",
+			"translation": "높은 나무와 버들의 정신의 유파",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "Takamatsu Toshitsugu",
+			"sort": "Takamatsu Toshitsugu",
+			"japanese": "高松寿嗣",
+			"description": "여러 인술(忍術) 유파를 가르친 스승이자 하쓰미 마사아키의 스승. 그를 기리어 아홉 류의 모음을 <q>부진칸</q>이라고 부른다."
+		},
+		{
+			"title": "Takeda Shingen",
+			"sort": "Takeda Shingen",
+			"japanese": "武田信玄",
+			"description": "센고쿠 시대에 잇따라 전쟁을 벌인 유명한 장수(다이묘)."
+		},
+		{
+			"title": "tanagokoro",
+			"sort": "Tanagokoro",
+			"japanese": "掌",
+			"translation": "손바닥",
+			"description": "문 자물쇠를 부수어 열 때 특히 쓸모 있던 손바닥 횃불."
+		},
+		{
+			"title": "tanegashima",
+			"sort": "Tanegashima",
+			"japanese": "種子島",
+			"translation": "화승총, 아쿼버스, 갈고리총",
+			"description": "포르투갈인이 일본에 들여온 화승총. 뎃포라고도 한다."
+		},
+		{
+			"title": "tantō",
+			"sort": "Tanto",
+			"japanese": "短刀",
+			"translation": "작은 칼",
+			"description": "단검."
+		},
+		{
+			"title": "tantōjutsu",
+			"sort": "Tantojutsu",
+			"japanese": "短刀術",
+			"translation": "단검의 기술",
+			"description": "칼싸움 기술."
+		},
+		{
+			"title": "tantra",
+			"sort": "Tantra",
+			"sanskrit": "तन्त्र",
+			"translation": "직물, 연속체, 연결",
+			"description": "인도 철학과 종교의 한 흐름으로, 원래 힌두교의 밀교적 형태였으며 뒤에 티베트 불교에 받아들여졌다."
+		},
+		{
+			"title": "tanuki gakure no jutsu",
+			"sort": "Tanuki gakure no jutsu",
+			"japanese": "狸隠",
+			"translation": "너구리처럼 숨는 기술",
+			"description": "닌자의 오르기 기술. 나무나 기둥을 타고 올라가 높은 곳에 숨는다."
+		},
+		{
+			"title": "taru ikada",
+			"sort": "Taru ikada",
+			"japanese": "樽筏",
+			"translation": "통 뗏목",
+			"description": "두 개의 통으로 만든 닌자의 물 도구. 각 통에 한 발씩 넣고, 닌자는 노를 저어 물 위를 건넜다. 우키 다루라고도 한다."
+		},
+		{
+			"title": "tatami",
+			"sort": "Tatami",
+			"japanese": "畳",
+			"translation": "볏짚 돗자리",
+			"description": "일본 가옥과 도장의 바닥재."
+		},
+		{
+			"title": "tatami bune",
+			"sort": "Tatami bune",
+			"translation": "접는 배",
+			"description": "하사미 부네의 다른 이름."
+		},
+		{
+			"title": "tatami gama",
+			"sort": "Tatami gama",
+			"translation": "접는 낫",
+			"description": "나무 손잡이에 휜 날을 접었다 펼 수 있는 낫(가마). 이 이름은 현대에 붙인 설명이며 닌자 교본에는 나오지 않는다."
+		},
+		{
+			"title": "tebukuro",
+			"sort": "Tebukuro",
+			"japanese": "手袋",
+			"translation": "손 보호구",
+			"description": "닌자의 손등과 팔뚝을 덮는 옷가지."
+		},
+		{
+			"title": "tekagi",
+			"sort": "Tekagi",
+			"japanese": "手鉤",
+			"translation": "손 갈퀴",
+			"description": "슈코라고도 한다."
+		},
+		{
+			"title": "tekken",
+			"sort": "Tekken",
+			"japanese": "鉄拳",
+			"description": "너클. 뎃코라고도 한다."
+		},
+		{
+			"title": "tekkō",
+			"sort": "Tekko",
+			"japanese": "鉄甲",
+			"description": "너클. 뎃켄이라고도 한다."
+		},
+		{
+			"title": "ten",
+			"sort": "Ten",
+			"japanese": "天",
+			"translation": "하늘"
+		},
+		{
+			"title": "Ten ryaku no maki",
+			"sort": "Ten ryaku no maki",
+			"japanese": "天略の巻",
+			"translation": "하늘의 전략을 담은 두루마리"
+		},
+		{
+			"title": "Tendai",
+			"sort": "Tendai",
+			"japanese": "天台",
+			"translation": "하늘의 받침대",
+			"description": "밀교에 속하는 불교 종파로, 일본에서는 덴교 다이시가 세웠다. 그 중심은 히에이산의 엔랴쿠지였다."
+		},
+		{
+			"title": "tengu",
+			"sort": "Tengu",
+			"japanese": "天狗",
+			"translation": "하늘의 개",
+			"description": "산에 산다고 전해지는 일본 전승의 상상의 존재. 까마귀 부리와 날개를 가진 모습(가라스 덴구 또는 고 덴구)이거나, 긴 빨간 코를 가진 사람 모습(다이 덴구)이다. 한편으로는 수호자로, 한편으로는 말썽꾼이자 위험한 존재로 여겨졌다. 전설에 따르면 무술의 달인이었으며, 흔히 한 유파의 스승으로 여겨진다."
+		},
+		{
+			"title": "tenmon",
+			"sort": "Tenmon",
+			"japanese": "天文",
+			"translation": "천문과 기상"
+		},
+		{
+			"title": "tennō",
+			"sort": "Tenno",
+			"japanese": "天皇",
+			"translation": "하늘의 군주",
+			"description": "일본의 천황."
+		},
+		{
+			"title": "tenugui",
+			"sort": "Tenugui",
+			"japanese": "手拭",
+			"translation": "손수건",
+			"description": "닌자가 묶어서 복면으로 쓴 무명천."
+		},
+		{
+			"title": "teppō",
+			"sort": "Teppo",
+			"japanese": "鉄砲",
+			"translation": "화기",
+			"description": "다네가시마의 다른 이름."
+		},
+		{
+			"title": "tessen",
+			"sort": "Tessen",
+			"japanese": "鉄扇",
+			"translation": "쇠부채"
+		},
+		{
+			"title": "tetsu mari",
+			"sort": "Tetsu mari",
+			"translation": "쇠공",
+			"description": "사방으로 긴 가시가 뻗은 속이 빈 쇠공으로, 이가 다마와 비슷하다. 이 이름은 현대에 붙인 설명이며 닌자 교본에는 나오지 않는다."
+		},
+		{
+			"title": "tetsubishi",
+			"sort": "Tetsubishi",
+			"japanese": "鉄菱",
+			"translation": "쇠 마름",
+			"description": "닌자가 추격자를 막으려고 땅에 잔뜩 뿌린 쇠로 된 마름쇠."
+		},
+		{
+			"title": "tetsubō",
+			"sort": "Tetsubo",
+			"japanese": "鉄棒",
+			"translation": "쇠 봉"
+		},
+		{
+			"title": "tō",
+			"sort": "To",
+			"japanese": "刀",
+			"translation": "칼, 작은 칼"
+		},
+		{
+			"title": "tōami",
+			"sort": "Toami",
+			"japanese": "投網",
+			"translation": "던지는 그물",
+			"description": "닌자가 상대를 사로잡는 데 쓸 수 있던 그물."
+		},
+		{
+			"title": "tobi ashi",
+			"sort": "Tobi ashi",
+			"japanese": "跳び足",
+			"translation": "뛰는 걸음",
+			"description": "닌자의 걷기 기술."
+		},
+		{
+			"title": "tobi bashigo",
+			"sort": "Tobi bashigo",
+			"japanese": "跳び梯子",
+			"translation": "던지는 사다리",
+			"description": "양 끝에 갈고리가 달려 던질 수 있는 사다리."
+		},
+		{
+			"title": "tobi geri",
+			"sort": "Tobi geri",
+			"japanese": "飛び蹴り",
+			"translation": "뛰어 차기",
+			"description": "뛰어오르며 하는 차기로, 예를 들어 가타 아시 도비 게리나 료 아시 도비 게리가 있다."
+		},
+		{
+			"title": "tobi ori",
+			"sort": "Tobi ori",
+			"japanese": "飛び降り",
+			"translation": "뛰어내리기",
+			"description": "우케미의 연습. 높은 곳에서 뛰어내린다."
+		},
+		{
+			"title": "tobikunai",
+			"sort": "Tobikunai",
+			"japanese": "飛苦無",
+			"description": "잠긴 문을 여는 도구."
+		},
+		{
+			"title": "Toda Shinryūken Masamitsu",
+			"sort": "Toda Shinryuken Masamitsu",
+			"japanese": "戸田真竜軒正光",
+			"description": "닌자의 달인이자 다카마쓰 도시쓰구의 스승."
+		},
+		{
+			"title": "Togakure Daisuke",
+			"sort": "Togakure Daisuke",
+			"japanese": "戸隠大助",
+			"description": "도가쿠레류의 창시자. 전투에서 진 뒤 이가 지방으로 달아났다."
+		},
+		{
+			"title": "Togakure-Ryū",
+			"sort": "Togakure-Ryu",
+			"japanese": "戸隠流",
+			"translation": "숨은 문의 유파",
+			"description": "부진칸의 아홉 류 가운데 하나."
+		},
+		{
+			"title": "tōiri",
+			"sort": "Toiri",
+			"japanese": "遠入",
+			"translation": "먼 침입",
+			"description": "닌자가 평화로운 시기에 예방책으로 쓴 전략으로, 주로 첩보 활동이었다."
+		},
+		{
+			"title": "toki",
+			"sort": "Toki",
+			"japanese": "登器",
+			"translation": "오르기 장비"
+		},
+		{
+			"title": "Tokugawa Ieyasu",
+			"sort": "Tokugawa Ieyasu",
+			"japanese": "徳川家康",
+			"description": "유명한 다이묘이자 오다 노부나가의 동맹자. 센고쿠 시대가 끝난 뒤 1603년 쇼군에 임명되었다. 그의 가문은 1868년까지 통치했다."
+		},
+		{
+			"title": "Tōkyō",
+			"sort": "Tokyo",
+			"japanese": "東京",
+			"translation": "동쪽의 수도",
+			"description": "일본의 수도로, 옛 이름은 에도다. 도쿄도에는 약 1,400만 명이 산다."
+		},
+		{
+			"title": "tomoe nagare",
+			"sort": "Tomoe nagare",
+			"japanese": "巴流れ",
+			"translation": "소용돌이치는 흐름",
+			"description": "나가레의 한 형태. 고호 도모에 나가레로서 소용돌이치듯 뒤로 구른다."
+		},
+		{
+			"title": "tonki",
+			"sort": "Tonki",
+			"description": "던지는 투척물. 수리검의 다른 이름."
+		},
+		{
+			"title": "tori no ko",
+			"sort": "Tori no ko",
+			"japanese": "鳥の子",
+			"description": "폭죽."
+		},
+		{
+			"title": "torinawa",
+			"sort": "Torinawa",
+			"japanese": "捕り縄",
+			"translation": "포박용 밧줄",
+			"description": "추와 뾰족한 끝이 달린 밧줄로 만든 닌자의 무기로, 상대를 붙잡아 묶는 데 썼다."
+		},
+		{
+			"title": "torite kihon gata go hō",
+			"sort": "Torite kihon gata go ho",
+			"japanese": "捕手基本型五法",
+			"translation": "손을 꺾는 다섯 가지 기술"
+		},
+		{
+			"title": "tōtoku hyōshi no kamae",
+			"sort": "Totoku hyoshi no kamae",
+			"japanese": "刀匿礮姿",
+			"description": "부진칸의 전승에 따른 도가쿠레류의 무릎 꿇은 자세(가마에). 뒷무릎은 땅에 대고 앞무릎은 세우며, 칼이나 주먹을 가슴 앞에 두어 몸을 지킨다."
+		},
+		{
+			"title": "Toyotomi Hideyoshi",
+			"sort": "Toyotomi Hideyoshi",
+			"japanese": "豊臣秀吉",
+			"description": "귀족 출신이 아닌 다이묘로, 오다 노부나가를 섬긴 장수. 노부나가가 죽은 뒤 일본을 통일했다. 히데요시가 죽은 뒤 도쿠가와 이에야스가 그의 후계자들에게 등을 돌렸고, 그의 가문은 모두 멸망했다."
+		},
+		{
+			"title": "tsuba",
+			"sort": "Tsuba",
+			"japanese": "鍔",
+			"translation": "칼의 코등이",
+			"description": "상대의 칼질로부터 손을 보호한 칼의 부분."
+		},
+		{
+			"title": "tsubo giri",
+			"sort": "Tsubo giri",
+			"japanese": "壺錐",
+			"description": "나무 벽과 문에 큰 구멍을 뚫는 송곳."
+		},
+		{
+			"title": "tsugi bune",
+			"sort": "Tsugi bune",
+			"translation": "이어 붙이는 배",
+			"description": "여러 부품으로 이루어진 배. 전승에 따르면 닌자 무리의 구성원이 저마다 한 조각씩 들고 가서, 물가에서 빠르게 조립했다."
+		},
+		{
+			"title": "tsuki",
+			"sort": "Tsuki",
+			"japanese": "突き",
+			"translation": "주먹 지르기, 찌르기, 치기, 찌름"
+		},
+		{
+			"title": "tsune ashi",
+			"sort": "Tsune ashi",
+			"japanese": "常足",
+			"translation": "보통 걸음"
+		},
+		{
+			"title": "tsuri bashigo",
+			"sort": "Tsuri bashigo",
+			"japanese": "吊梯子",
+			"translation": "매다는 사다리",
+			"description": "덧붙인 갈고리로 벽에 고정할 수 있는 사다리."
+		},
+		{
+			"title": "uchi",
+			"sort": "Uchi",
+			"japanese": "打ち",
+			"description": "치기 기술."
+		},
+		{
+			"title": "uchi dake",
+			"sort": "Uchi dake",
+			"japanese": "内竹",
+			"translation": "대나무 속",
+			"description": "닌자가 불씨를 넣어 다닌 대나무 통. 이것으로 빠르게 불을 피울 수 있었다."
+		},
+		{
+			"title": "Uesugi Kenshin",
+			"sort": "Uesugi Kenshin",
+			"japanese": "上杉謙信",
+			"description": "센고쿠 시대에 일본의 권력을 손에 넣으려 한 다이묘. 전승에 따르면 그는 뒷간에서 죽었다. 한 닌자가 변소 구덩이 속에서 기다리다가 그를 죽였다고 한다."
+		},
+		{
+			"title": "uke",
+			"sort": "Uke",
+			"japanese": "受",
+			"translation": "막다, 지키다, 붙잡다, 받다"
+		},
+		{
+			"title": "ukemi",
+			"sort": "Ukemi",
+			"japanese": "受身",
+			"translation": "넘어지기, 낙법 수련, 넘어지는 연습"
+		},
+		{
+			"title": "ukemi gata taihen jutsu",
+			"sort": "Ukemi gata taihen jutsu",
+			"japanese": "受身型体変術",
+			"translation": "구르기와 넘어지기의 기술"
+		},
+		{
+			"title": "uki daru",
+			"sort": "Uki daru",
+			"japanese": "浮き樽",
+			"translation": "뜨는 통",
+			"description": "닌자의 책들이 기록한, 두 개의 통으로 만든 물 도구. 각 통에 한 발씩 넣고, 닌자는 장대나 노로 물 위를 건넜다. 다루 이카다라고도 한다."
+		},
+		{
+			"title": "uma",
+			"sort": "Uma",
+			"japanese": "馬",
+			"translation": "말"
+		},
+		{
+			"title": "undō",
+			"sort": "Undo",
+			"japanese": "運動",
+			"translation": "움직임"
+		},
+		{
+			"title": "ushiro gaeshi",
+			"sort": "Ushiro gaeshi",
+			"japanese": "後返",
+			"translation": "뒤로 하는 기술"
+		},
+		{
+			"title": "Ushiwakamaru",
+			"sort": "Ushiwakamaru",
+			"japanese": "牛若丸",
+			"description": "미나모토노 요시쓰네의 어릴 적 이름."
+		},
+		{
+			"title": "uwagi",
+			"sort": "Uwagi",
+			"japanese": "上着",
+			"translation": "윗옷",
+			"description": "바지 안으로 넣어 입는 닌자의 윗옷으로, 안쪽에 숨긴 주머니가 있다."
+		},
+		{
+			"title": "uzume bi",
+			"sort": "Uzume bi",
+			"japanese": "埋め火",
+			"translation": "묻은 불",
+			"description": "지뢰. 지라이라고도 한다."
+		},
+		{
+			"title": "uzura gakure no jutsu",
+			"sort": "Uzura gakure no jutsu",
+			"japanese": "鶉隠れの術",
+			"translation": "메추라기처럼 숨는 기술",
+			"description": "온신 주쓰의 기술. 땅의 구멍, 우묵한 곳, 바위틈이나 돌 뒤에 숨는다."
+		},
+		{
+			"title": "wakizashi",
+			"sort": "Wakizashi",
+			"japanese": "脇差",
+			"translation": "짧은 칼",
+			"description": "사무라이의 짧은 칼. 가타나와 함께 다이쇼를 이루었다."
+		},
+		{
+			"title": "wakizashi teppō",
+			"sort": "Wakizashi teppo",
+			"japanese": "脇差鉄砲",
+			"description": "한 발을 쏠 수 있는 권총을 숨긴 전통적인 짧은 칼."
+		},
+		{
+			"title": "wakō",
+			"sort": "Wako",
+			"japanese": "倭寇",
+			"description": "한국과 중국의 해안을 약탈한 일본의 해적. 그들의 힘을 당해 낼 수 있는 쇼군은 거의 없었다. 닌자의 독창적인 무기 가운데 많은 것이 왜구에게서 비롯되었다고 한다."
+		},
+		{
+			"title": "wari ashi",
+			"sort": "Wari ashi",
+			"japanese": "割り足",
+			"translation": "상황에 맞추는 걸음",
+			"description": "닌자의 걷기 기술."
+		},
+		{
+			"title": "watari",
+			"sort": "Watari",
+			"japanese": "渡り",
+			"translation": "떠돌이",
+			"description": "가장 높은 값을 부르는 사람에게 자신의 일을 판 닌자."
+		},
+		{
+			"title": "wu wei",
+			"sort": "Wu wei",
+			"chinese": "無為",
+			"translation": "하지 않음",
+			"description": "도교의 원리로, 도의 자연스러운 흐름을 거슬러 행하지 않는 것이다."
+		},
+		{
+			"title": "ya",
+			"sort": "Ya",
+			"japanese": "矢",
+			"translation": "화살"
+		},
+		{
+			"title": "yaiba",
+			"sort": "Yaiba",
+			"japanese": "刃",
+			"translation": "칼날",
+			"description": "忍(닌) 자의 윗부분."
+		},
+		{
+			"title": "yajiri",
+			"sort": "Yajiri",
+			"description": "굵은 나무토막이나 나뭇가지를 자르는 튼튼한 날의 톱."
+		},
+		{
+			"title": "yamabiko jutsu",
+			"sort": "Yamabiko jutsu",
+			"japanese": "山彦術",
+			"translation": "부름에 대한 메아리",
+			"description": "도이리의 전술. 닌자는 편을 바꾸어 여러 해 동안 충성을 의심받지 않고 새 주군을 섬겼다. 약속한 신호가 오면 큰 피해를 입힌 뒤 다시 원래 편으로 돌아갔다."
+		},
+		{
+			"title": "yamabiko shichō no jutsu",
+			"sort": "Yamabiko shicho no jutsu",
+			"japanese": "山彦伺聴の術",
+			"translation": "메아리에 귀 기울이는 기술",
+			"description": "조호의 기술. 의심스러운 사람에게 중요한 문서를 흘리고 그 반응을 지켜보았다."
+		},
+		{
+			"title": "yamabushi",
+			"sort": "Yamabushi",
+			"japanese": "山伏",
+			"translation": "산의 수행자, 떠돌이 승려",
+			"description": "산속에 숨어 살며 슈겐도를 따른 은둔자."
+		},
+		{
+			"title": "yamidoko",
+			"sort": "Yamidoko",
+			"description": "닌자의 비행 장치. 히토 와시라고도 한다."
+		},
+		{
+			"title": "yang",
+			"sort": "Yang",
+			"chinese": "陽",
+			"translation": "빛, 긍정, 열림",
+			"description": "도교에서 말하는 음양 이원성의 긍정적 원리. 일본어 독음은 요다."
+		},
+		{
+			"title": "yari",
+			"sort": "Yari",
+			"japanese": "槍",
+			"translation": "창"
+		},
+		{
+			"title": "yarijutsu",
+			"sort": "Yarijutsu",
+			"japanese": "槍術",
+			"translation": "창의 기술",
+			"description": "창 기술."
+		},
+		{
+			"title": "yawara",
+			"sort": "Yawara",
+			"japanese": "柔",
+			"description": "주먹 무기. 쿠보탄이라고도 한다."
+		},
+		{
+			"title": "yin",
+			"sort": "Yin",
+			"chinese": "陰",
+			"translation": "그림자, 부정, 숨김",
+			"description": "도교에서 말하는 음양 이원성의 부정적 원리. 일본어 독음은 인이다."
+		},
+		{
+			"title": "yinyang",
+			"sort": "Yinyang",
+			"chinese": "陰陽",
+			"description": "빛과 그림자, 선과 악, 작음과 큼의 이원성으로, 도교의 중요한 원리다. 일본어 독음은 인요다."
+		},
+		{
+			"title": "yō",
+			"sort": "Yo",
+			"japanese": "陽",
+			"translation": "빛, 긍정, 열림"
+		},
+		{
+			"title": "yoga",
+			"sort": "Yoga",
+			"sanskrit": "योग",
+			"translation": "멍에, 멍에를 메우다, 한데 묶다, 마구를 채우다",
+			"description": "갈래가 많은 인도의 몸과 마음의 가르침. 인도에서는 모든 <q>깨달음에 이르는 길</q>이 <q>요가의 길</q>이다. 하타 요가는 몸을 극단적인 자세로 구부릴 수 있을 만큼 유연하게 만든다. 다른 형태들은 식사, 명상, 호흡도 다룬다."
+		},
+		{
+			"title": "yōji gakure no jutsu",
+			"sort": "Yoji gakure no jutsu",
+			"description": "헤이호의 기술. 닌자는 경비병이 소리 하나하나를 더는 확인하러 가지 않을 때까지 그의 머리 위로 계속 물건을 던졌다."
+		},
+		{
+			"title": "yoko aruki",
+			"sort": "Yoko aruki",
+			"japanese": "横歩き",
+			"translation": "옆으로 걷기"
+		},
+		{
+			"title": "yoko gaeshi",
+			"sort": "Yoko gaeshi",
+			"japanese": "横返",
+			"translation": "옆으로 하는 기술"
+		},
+		{
+			"title": "yoko nagare",
+			"sort": "Yoko nagare",
+			"japanese": "横流れ",
+			"translation": "옆으로의 흐름",
+			"description": "나가레의 한 형태. 선 자세에서 옆으로 넘어지는데, 오른쪽(미기 요코 나가레)이나 왼쪽(히다리 요코 나가레)으로 넘어진다."
+		},
+		{
+			"title": "yomogami no jutsu",
+			"sort": "Yomogami no jutsu",
+			"translation": "머리 모양은 네 방향 어디에서 보아도 같아야 한다",
+			"description": "조호의 원리. 닌자는 늘 여러 이름과 신분을 준비해 두었다."
+		},
+		{
+			"title": "yon shaku bō",
+			"sort": "Yon shaku bo",
+			"japanese": "四尺棒",
+			"translation": "4샤쿠 길이의 봉",
+			"description": "길이가 4샤쿠, 약 121센티미터인 봉. 조라고도 한다."
+		},
+		{
+			"title": "yuki waraki",
+			"sort": "Yuki waraki",
+			"japanese": "雪藁き",
+			"translation": "눈 짚",
+			"description": "게타라고도 한다."
+		},
+		{
+			"title": "yumi",
+			"sort": "Yumi",
+			"japanese": "弓",
+			"translation": "활",
+			"description": "규라고도 한다."
+		},
+		{
+			"title": "yumi ya",
+			"sort": "Yumi ya",
+			"japanese": "弓矢",
+			"translation": "활과 화살"
+		},
+		{
+			"title": "zagarashijaku",
+			"sort": "Zagarashijaku",
+			"description": "푸른 매실이나 복숭아로 만든, 빠르게 듣는 치명적인 독."
+		},
+		{
+			"title": "zazen",
+			"sort": "Zazen",
+			"japanese": "座禅",
+			"translation": "앉아서 하는 명상",
+			"description": "생각 없이 또렷이 깨어 있는 주의 속에 머무는 것으로, 마음은 아무것에도 향하지 않는다. 이 수행은 부처가 깨달음을 얻기 전에 한 명상으로 거슬러 올라간다."
+		},
+		{
+			"title": "zen",
+			"sort": "Zen",
+			"japanese": "禅",
+			"translation": "명상 속의 몰입"
+		},
+		{
+			"title": "zenpō geri",
+			"sort": "Zenpo geri",
+			"japanese": "前方蹴り",
+			"translation": "앞차기"
+		},
+		{
+			"title": "zenpō kaiten",
+			"sort": "Zenpo kaiten",
+			"japanese": "前方回転",
+			"translation": "앞구르기"
+		},
+		{
+			"title": "zenpō ukemi",
+			"sort": "Zenpo ukemi",
+			"japanese": "前方受身",
+			"translation": "앞으로 넘어지기"
+		},
+		{
+			"title": "ziran",
+			"sort": "Ziran",
+			"chinese": "自然",
+			"translation": "자연스러움, 스스로 그러함",
+			"description": "도교에서 저절로 일어나는 것. 자발적으로, 안에서부터, 억지 없이 일어나는 것이다."
+		}
+	]
+}

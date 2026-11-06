@@ -1,0 +1,431 @@
+{
+	"preface": [
+		{
+			"title": "序文",
+			"slug": "preface",
+			"translationKey": "prefacePage"
+		},
+		{
+			"title": "序論",
+			"slug": "ninjutsu",
+			"translationKey": "ninjutsuPage"
+		}
+	],
+	"parts": [
+		{
+			"title": "歴史",
+			"items": [
+				{
+					"title": "忍術の起源",
+					"slug": "origins-of-ninjutsu",
+					"translationKey": "originsOfNinjutsuPage"
+				},
+				{
+					"title": "流派の成立",
+					"slug": "emergence-of-the-ryu",
+					"translationKey": "emergenceOfRyuPage"
+				},
+				{
+					"title": "名高い忍者",
+					"slug": "famous-ninja",
+					"translationKey": "famousNinjaPage"
+				},
+				{
+					"title": "忍者列伝",
+					"slug": "ninja-biographies",
+					"translationKey": "ninjaBiographiesPage"
+				},
+				{
+					"title": "伊賀流",
+					"slug": "iga-ryu",
+					"translationKey": "igaRyuPage"
+				},
+				{
+					"title": "甲賀流",
+					"slug": "koga-ryu",
+					"translationKey": "kogaRyuPage"
+				},
+				{
+					"title": "伊賀の乱",
+					"slug": "iga-no-ran",
+					"translationKey": "igaNoRanPage"
+				},
+				{
+					"title": "伊賀侵攻",
+					"slug": "invasion-of-iga",
+					"translationKey": "invasionOfIgaPage"
+				},
+				{
+					"title": "衰退",
+					"slug": "demise",
+					"translationKey": "demisePage"
+				},
+				{
+					"title": "近代史",
+					"slug": "modern-history",
+					"translationKey": "modernHistoryPage"
+				}
+			]
+		},
+		{
+			"title": "組織と修行",
+			"items": [
+				{
+					"title": "流派の組織",
+					"slug": "organization-of-the-ryu",
+					"translationKey": "organizationOfRyuPage"
+				},
+				{
+					"title": "忍者の修行",
+					"slug": "training-of-the-ninja",
+					"translationKey": "trainingOfNinjaPage"
+				},
+				{
+					"title": "くノ一",
+					"slug": "kunoichi",
+					"translationKey": "kunoichiPage"
+				},
+				{
+					"title": "萬川集海",
+					"slug": "bansenshukai",
+					"translationKey": "bansenshukaiPage"
+				}
+			]
+		},
+		{
+			"title": "身体の稽古",
+			"items": [
+				{
+					"title": "体術",
+					"slug": "taijutsu",
+					"translationKey": "taijutsuPage"
+				},
+				{
+					"title": "戦いの心得",
+					"slug": "combat-rules",
+					"translationKey": "combatRulesPage"
+				},
+				{
+					"title": "戦いの要素",
+					"slug": "combat-factors",
+					"translationKey": "combatFactorsPage"
+				},
+				{
+					"title": "柔軟体操",
+					"slug": "junan-taiso",
+					"translationKey": "junanTaisoPage"
+				},
+				{
+					"title": "稽古の要素",
+					"slug": "training-factors",
+					"translationKey": "trainingFactorsPage"
+				},
+				{
+					"title": "身体の武器",
+					"slug": "body-weapons",
+					"translationKey": "bodyWeaponsPage"
+				},
+				{
+					"title": "鍛錬",
+					"slug": "toughening-up",
+					"translationKey": "toughningUpPage"
+				},
+				{
+					"title": "あてみて",
+					"slug": "atemi-te",
+					"translationKey": "atemitePage"
+				},
+				{
+					"title": "構え",
+					"slug": "kamae",
+					"translationKey": "kamaePage"
+				},
+				{
+					"title": "受身",
+					"slug": "ukemi",
+					"translationKey": "ukemiPage"
+				},
+				{
+					"title": "忍び入り",
+					"slug": "shinobi-iri",
+					"translationKey": "shinobiIriPage"
+				}
+			]
+		},
+		{
+			"title": "武器と道具",
+			"items": [
+				{
+					"title": "武器",
+					"slug": "weapons",
+					"translationKey": "weaponsPage"
+				},
+				{
+					"title": "水器",
+					"slug": "water-tools",
+					"translationKey": "waterToolsPage"
+				},
+				{
+					"title": "開器",
+					"slug": "burglary-tools",
+					"translationKey": "burglaryToolsPage"
+				},
+				{
+					"title": "登器",
+					"slug": "climbing-tools",
+					"translationKey": "climbingToolsPage"
+				},
+				{
+					"title": "火器",
+					"slug": "fire-tools",
+					"translationKey": "fireToolsPage"
+				},
+				{
+					"title": "忍者の装束",
+					"slug": "ninja-clothing",
+					"translationKey": "ninjaClothingPage"
+				},
+				{
+					"title": "その他の道具",
+					"slug": "miscellaneous-equipment",
+					"translationKey": "miscellaneousEquipmentPage"
+				},
+				{
+					"title": "印籠――旅の薬入れ",
+					"slug": "inro",
+					"translationKey": "inroPage"
+				}
+			]
+		},
+		{
+			"title": "精神の力",
+			"items": [
+				{
+					"title": "密教",
+					"slug": "mikkyo",
+					"translationKey": "mikkyoPage"
+				},
+				{
+					"title": "三密",
+					"slug": "sanmitsu",
+					"translationKey": "sanmitsuPage"
+				},
+				{
+					"title": "九字印",
+					"slug": "kuji-in",
+					"translationKey": "kujiInPage"
+				},
+				{
+					"title": "五大",
+					"slug": "godai",
+					"translationKey": "godaiPage"
+				},
+				{
+					"title": "五行",
+					"slug": "gogyo",
+					"translationKey": "gogyoPage"
+				},
+				{
+					"title": "天地人",
+					"slug": "tenchijin",
+					"translationKey": "tenChiJinPage"
+				},
+				{
+					"title": "意識と精神",
+					"slug": "consciousness-and-spirit",
+					"translationKey": "consciousnessAndSpiritPage"
+				},
+				{
+					"title": "第七感",
+					"slug": "the-seventh-sense",
+					"translationKey": "seventhSensePage"
+				},
+				{
+					"title": "悟り",
+					"slug": "enlightenment",
+					"translationKey": "enlightenmentPage"
+				},
+				{
+					"title": "道教",
+					"slug": "daoism",
+					"translationKey": "daoismPage"
+				}
+			]
+		},
+		{
+			"title": "戦略と戦術",
+			"items": [
+				{
+					"title": "五遁法",
+					"slug": "gotonpo",
+					"translationKey": "gotonPoPage"
+				},
+				{
+					"title": "隠身術",
+					"slug": "onshinjutsu",
+					"translationKey": "onshinjutsuPage"
+				},
+				{
+					"title": "七方出",
+					"slug": "shichi-ho-de",
+					"translationKey": "shichiHoDePage"
+				},
+				{
+					"title": "諜報",
+					"slug": "choho",
+					"translationKey": "chohoPage"
+				},
+				{
+					"title": "兵法",
+					"slug": "heiho",
+					"translationKey": "heihoPage"
+				},
+				{
+					"title": "謀略",
+					"slug": "bo-ryaku",
+					"translationKey": "boryakuPage"
+				},
+				{
+					"title": "遠入",
+					"slug": "toiri",
+					"translationKey": "toiriPage"
+				},
+				{
+					"title": "近入",
+					"slug": "chikairi",
+					"translationKey": "chikairiPage"
+				}
+			]
+		},
+		{
+			"title": "忍者の遺産",
+			"items": [
+				{
+					"title": "高松寿嗣",
+					"slug": "takamatsu-toshitsugu",
+					"translationKey": "takamatsuToshitsuguPage"
+				},
+				{
+					"title": "初見良昭",
+					"slug": "hatsumi-masaaki",
+					"translationKey": "hatsumiMasaakiPage"
+				},
+				{
+					"title": "武神館",
+					"slug": "bujinkan",
+					"translationKey": "bujinkanPage"
+				},
+				{
+					"title": "武神館の指針",
+					"slug": "guidelines-of-bujinkan",
+					"translationKey": "guidelinesOfBujinkanPage"
+				},
+				{
+					"title": "戸隠流",
+					"slug": "togakure-ryu",
+					"translationKey": "togakureRyuPage"
+				},
+				{
+					"title": "玉虎流",
+					"slug": "gyokko-ryu",
+					"translationKey": "gyokkoRyuPage"
+				},
+				{
+					"title": "九鬼神伝流",
+					"slug": "kukishinden-ryu",
+					"translationKey": "kukishindenRyuPage"
+				},
+				{
+					"title": "神伝不動流",
+					"slug": "shinden-fudo-ryu",
+					"translationKey": "shindenFudoRyuPage"
+				},
+				{
+					"title": "玉心流",
+					"slug": "gyokushin-ryu",
+					"translationKey": "gyokushinRyuPage"
+				},
+				{
+					"title": "虎倒流",
+					"slug": "koto-ryu",
+					"translationKey": "kotoRyuPage"
+				},
+				{
+					"title": "高木楊心流",
+					"slug": "takagi-yoshin-ryu",
+					"translationKey": "takagiYoshinRyuPage"
+				},
+				{
+					"title": "義鑑流",
+					"slug": "gikan-ryu",
+					"translationKey": "gikanRyuPage"
+				},
+				{
+					"title": "雲隠流",
+					"slug": "kumogakure-ryu",
+					"translationKey": "kumogakureRyuPage"
+				}
+			]
+		},
+		{
+			"title": "掟と哲学",
+			"items": [
+				{
+					"title": "忍術の本質",
+					"slug": "essence-of-ninjutsu",
+					"translationKey": "essenceOfNinjutsuPage"
+				},
+				{
+					"title": "忍者の掟",
+					"slug": "the-rules-of-the-ninja",
+					"translationKey": "rulesOfNinjaPage"
+				},
+				{
+					"title": "忍者の五つの戒め",
+					"slug": "the-5-commandments-of-the-ninja",
+					"translationKey": "5CommandmentsOfNinjaPage"
+				},
+				{
+					"title": "十八の修行段階",
+					"slug": "18-training-levels",
+					"translationKey": "18trainingLevelsPage"
+				},
+				{
+					"title": "忍法さんじゅうろっけい",
+					"slug": "ninpo-sanjurokkei",
+					"translationKey": "ninpoSanjurokkeiPage"
+				},
+				{
+					"title": "忍者のはちもん",
+					"slug": "ninja-no-hachimon",
+					"translationKey": "ninjaNoHachimonPage"
+				}
+			]
+		},
+		{
+			"title": "付録",
+			"items": [
+				{
+					"title": "年表",
+					"slug": "chronology",
+					"translationKey": "chronolyPage"
+				},
+				{
+					"title": "ダウンロード",
+					"slug": "downloads",
+					"translationKey": "downloadsPage"
+				},
+				{
+					"title": "用語集",
+					"slug": "glossary",
+					"translationKey": "glossaryPage"
+				},
+				{
+					"title": "奥付",
+					"slug": "colophon",
+					"translationKey": "colophonPage"
+				}
+			]
+		}
+	]
+}
