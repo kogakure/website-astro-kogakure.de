@@ -1,8 +1,10 @@
 import type { Element } from 'hast';
 import { defineHastPlugin } from 'satteri';
 
-/** What the image manifest (SI-472) knows about an image URL */
+/** What the image manifest knows about an image URL */
 export interface ImageInfo {
+	/** The generated file that replaces the URL of the text */
+	src: string;
 	width: number;
 	height: number;
 	srcset?: string;
@@ -15,9 +17,9 @@ export interface FigureOptions {
 
 /**
  * The `<img>` of every `<figure>` in a text becomes a responsive picture:
- * lazy and async, and with the manifest's size and `srcset` once the image
- * pipeline (SI-472) provides `lookup`. Markdown can't render Astro
- * components, so this plugin is the Picture of the texts.
+ * lazy and async, with the generated file, size and `srcset` from `lookup`
+ * (the image manifest). Markdown can't render Astro components, so this
+ * plugin is the Picture of the texts.
  */
 export const hastFigures = ({ lookup }: FigureOptions = {}) =>
 	defineHastPlugin({
@@ -36,6 +38,7 @@ export const hastFigures = ({ lookup }: FigureOptions = {}) =>
 						? lookup?.(img.properties.src)
 						: undefined;
 				if (!info) return;
+				ctx.setProperty(img, 'src', info.src);
 				ctx.setProperty(img, 'width', info.width);
 				ctx.setProperty(img, 'height', info.height);
 				if (info.srcset) ctx.setProperty(img, 'srcSet', info.srcset);
