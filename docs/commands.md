@@ -3,7 +3,8 @@
 | Command               | What it does                                                                                                |
 | --------------------- | ----------------------------------------------------------------------------------------------------------- |
 | `pnpm dev`            | Dev server on http://localhost:4321                                                                         |
-| `pnpm import:content` | Imports the book from `../kogakure-texts` into `src/content/` (`docs/content.md`)                           |
+| `pnpm import:content` | Imports the book from `../kogakure-texts` into `src/content/` (`docs/content.md`), then runs `pnpm fonts`   |
+| `pnpm fonts`          | Subsets the fonts to what the texts set: `public/fonts/` and the font manifest (`docs/fonts.md`)            |
 | `pnpm images`         | Generates the WebP sizes, OG images and ink assets into `public/images/` (`docs/images.md`)                 |
 | `pnpm build`          | Static build into `dist/`                                                                                   |
 | `pnpm preview`        | Serves `dist/` (Astro 7 runs it in the foreground; `--background`, `astro preview stop` and `status` exist) |

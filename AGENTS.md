@@ -15,7 +15,7 @@ The plan and all issues are in the Linear project _Migration to Astro_ (P-SI-13)
 ## Hard rules
 
 - **The new content always wins.** Texts come from `kogakure-texts/texts/new`, images from `kogakure-ai-images`. The old 11ty site is a reference for URLs and legal facts only. If something is missing, it is created new, in all twelve languages.
-- **Design:** every UI decision follows the Gekiga design system (`DESIGN.md`; until SI-473 brings it here, `~/Code/personal/kogakure-prototyping/DESIGN.md`).
+- **Design:** every UI decision follows the Gekiga design system (`DESIGN.md`, every token and component on `/design-system/`).
 - **Components:** pages only compose components from `src/components/` (catalogue in `src/components/COMPONENTS.md`). Astro components by default; React + shadcn/ui (Base UI) only for interactive parts.
 - **No secrets** in the repo. It becomes public at launch.
 - Logical CSS properties only (Hebrew is right-to-left).
@@ -27,6 +27,7 @@ The plan and all issues are in the Linear project _Migration to Astro_ (P-SI-13)
 - Commands (`docs/commands.md`): develop, check, test, build, Docker
 - Content (`docs/content.md`): import from kogakure-texts, validation, routes, UI strings, Markdown plugins
 - Images (`docs/images.md`): pregenerated WebP sizes, manifest, Picture, OG images, ink assets
+- Fonts (`docs/fonts.md`): self-hosted WOFF2 subsets, per-page CJK files, the font budget
 - Testing (`docs/testing.md`): unit, component, accessibility and end-to-end tests
 - Git workflow (`docs/git-workflow.md`): branches, commits, pull requests, Linear
 

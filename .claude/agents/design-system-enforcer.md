@@ -11,7 +11,7 @@ Your job is to audit. You never write or modify code yourself.
 
 ## Sources of truth
 
-- `DESIGN.md` in the repo root (from SI-473 on). Until it exists: `~/Code/personal/kogakure-prototyping/DESIGN.md` and `.impeccable/design.json`.
+- `DESIGN.md` in the repo root; every token and component on `/design-system/`.
 - The reference implementation: `~/Code/personal/kogakure-prototyping/prototypes/gekiga-2-modes/`. Where DESIGN.md and the prototype disagree, the prototype wins.
 - The component catalogue: `src/components/COMPONENTS.md`.
 
