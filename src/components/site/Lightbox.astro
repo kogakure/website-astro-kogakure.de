@@ -1,0 +1,303 @@
+---
+/**
+ * The whole painting: the ink edges of plates and figures cut into the
+ * image, so every one of them opens whole. A click (or Enter) on the image
+ * lets its ink edge grow outwards until the full image stands on the paper,
+ * as large as the screen allows, with its caption as the subtitle; a click,
+ * the close button or Escape brings it back into its edge. A native modal
+ * <dialog> (focus, Escape, inert page) and a few lines of script: the script
+ * wraps every image in a button, so without JavaScript nothing changes.
+ * Reduced motion opens and closes at once. Once per page (BaseLayout).
+ */
+import Subtitle from './Subtitle.astro';
+
+interface Props {
+	/** „Bild vergrößern“, before the image's alt text */
+	zoom: string;
+	/** „Schließen“ */
+	close: string;
+}
+
+const { zoom, close } = Astro.props;
+---
+
+<dialog class="lightbox" data-lightbox data-zoom-label={zoom} data-print="hidden">
+	<div class="lightbox-shade" data-lightbox-shade></div>
+	<div class="lightbox-stage">
+		<div class="lightbox-frame" data-lightbox-frame>
+			<img class="lightbox-image" alt="" data-lightbox-image />
+		</div>
+	</div>
+	<Subtitle html="" as="p" class="lightbox-caption" />
+	<button type="button" class="lightbox-close" aria-label={close} data-lightbox-close>
+		<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+			<path d="M5 5 19 19M19 5 5 19"></path>
+		</svg>
+	</button>
+</dialog>
+
+<script>
+	const dialog = document.querySelector<HTMLDialogElement>('[data-lightbox]');
+	const shade = dialog?.querySelector<HTMLElement>('[data-lightbox-shade]');
+	const frame = dialog?.querySelector<HTMLElement>('[data-lightbox-frame]');
+	const image = dialog?.querySelector<HTMLImageElement>('[data-lightbox-image]');
+	const caption = dialog?.querySelector<HTMLElement>('.lightbox-caption');
+	const IMAGES = '.plate-art .plate-image, .prose figure img';
+	const SPACE = 24;
+	const still = matchMedia('(prefers-reduced-motion: reduce)');
+
+	interface Open {
+		trigger: HTMLButtonElement;
+		source: HTMLImageElement;
+		start: DOMRect;
+	}
+	let current: Open | undefined;
+
+	/** The largest box of the image's own proportion that fits the screen */
+	function target(source: HTMLImageElement) {
+		// The width and height attributes are the original's; the properties are the crop's
+		const ratio =
+			Number(source.getAttribute('width')) / Number(source.getAttribute('height')) ||
+			source.naturalWidth / source.naturalHeight;
+		// Room for the close button above, and the caption below the image
+		const below = caption?.hidden ? SPACE : 4 * SPACE;
+		const maxWidth = innerWidth - 2 * SPACE;
+		const maxHeight = innerHeight - 3 * SPACE - below;
+		const width = Math.min(maxWidth, maxHeight * ratio);
+		const height = width / ratio;
+		const y = Math.max(3 * SPACE, (innerHeight - height - below) / 2);
+		return { x: (innerWidth - width) / 2, y, width, height };
+	}
+
+	/** The caption stands right under the image */
+	function place(end: { y: number; height: number }) {
+		caption?.style.setProperty('inset-block-start', `${end.y + end.height + SPACE / 2}px`);
+	}
+
+	const box = (rect: { x: number; y: number; width: number; height: number }) => ({
+		translate: `${rect.x}px ${rect.y}px`,
+		width: `${rect.width}px`,
+		height: `${rect.height}px`,
+	});
+
+	/** Moves the frame from one box to another; it stays where it ends */
+	function animate(from: Keyframe, to: Keyframe) {
+		for (const running of frame?.getAnimations() ?? []) running.cancel();
+		return frame?.animate([from, to], {
+			duration: still.matches ? 0 : 450,
+			easing: 'cubic-bezier(0.16, 1, 0.3, 1)',
+			fill: 'forwards',
+		}).finished;
+	}
+
+	async function open(trigger: HTMLButtonElement, source: HTMLImageElement) {
+		if (!dialog || !frame || !image || !shade) return;
+		const start = source.getBoundingClientRect();
+		const style = getComputedStyle(source.closest('.plate-art') ?? source);
+		current = { trigger, source, start };
+
+		const figure = source.closest('figure');
+		const text = figure?.querySelector('figcaption');
+		const captionLine = caption?.querySelector('span');
+		if (caption && captionLine) {
+			captionLine.innerHTML = (text?.querySelector('span') ?? text)?.innerHTML ?? '';
+			caption.hidden = !text?.textContent?.trim();
+		}
+		const end = target(source);
+		place(end);
+
+		image.src = source.currentSrc || source.src;
+		image.alt = source.alt;
+		image.style.objectPosition = getComputedStyle(source).objectPosition;
+		// The largest file the screen needs, swapped in once loaded
+		if (source.srcset) {
+			const large = new Image();
+			large.sizes = `${Math.ceil(end.width)}px`;
+			large.srcset = source.srcset;
+			large.decode().then(
+				() => current?.source === source && (image.src = large.currentSrc),
+				() => {}
+			);
+		}
+		dialog.setAttribute('aria-label', source.alt);
+		frame.style.setProperty('--lightbox-mask', style.maskImage || 'none');
+
+		dialog.showModal();
+		shade.animate([{ opacity: 0 }, { opacity: 1 }], {
+			duration: still.matches ? 0 : 300,
+			fill: 'forwards',
+		});
+		await animate(
+			{ ...box(start), maskSize: '100% 100%' },
+			{ ...box(end), maskSize: '190% 190%' }
+		);
+		frame.classList.add('is-whole');
+	}
+
+	async function close() {
+		if (!dialog?.open || !frame || !shade || !current) return;
+		const { trigger, start } = current;
+		const now = frame.getBoundingClientRect();
+		frame.classList.remove('is-whole');
+		shade.animate([{ opacity: 1 }, { opacity: 0 }], {
+			duration: still.matches ? 0 : 300,
+			fill: 'forwards',
+		});
+		await animate(
+			{ ...box(now), maskSize: '190% 190%' },
+			{ ...box(start), maskSize: '100% 100%' }
+		);
+		current = undefined;
+		dialog.close();
+		trigger.focus({ preventScroll: true });
+	}
+
+	if (dialog) {
+		const label = dialog.dataset.zoomLabel ?? '';
+		for (const source of document.querySelectorAll<HTMLImageElement>(IMAGES)) {
+			const trigger = document.createElement('button');
+			trigger.type = 'button';
+			trigger.className = 'lightbox-trigger';
+			trigger.setAttribute('aria-haspopup', 'dialog');
+			trigger.setAttribute('aria-label', source.alt ? `${label}: ${source.alt}` : label);
+			source.replaceWith(trigger);
+			trigger.append(source);
+			trigger.addEventListener('click', () => open(trigger, source));
+		}
+		dialog.addEventListener('click', (event) => {
+			if (!(event.target as Element).closest('[data-lightbox-close]')) close();
+		});
+		dialog.querySelector('[data-lightbox-close]')?.addEventListener('click', close);
+		dialog.addEventListener('cancel', (event) => {
+			event.preventDefault();
+			close();
+		});
+		addEventListener('resize', () => {
+			if (!current || !frame?.classList.contains('is-whole')) return;
+			const end = target(current.source);
+			place(end);
+			animate(box(end), box(end));
+		});
+	}
+</script>
+
+<style>
+	/* The button around each image: the image stays as it was */
+	:global(.lightbox-trigger) {
+		display: block;
+		inline-size: 100%;
+		block-size: 100%;
+		padding: 0;
+		border: 0;
+		background: none;
+		color: inherit;
+		font: inherit;
+		cursor: zoom-in;
+	}
+
+	:global(.lightbox-trigger:focus-visible) {
+		outline: 2px solid var(--focus);
+		outline-offset: -6px;
+	}
+
+	.lightbox {
+		position: fixed;
+		inset: 0;
+		inline-size: 100%;
+		block-size: 100%;
+		max-inline-size: none;
+		max-block-size: none;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: none;
+		color: var(--text);
+		overflow: hidden;
+	}
+
+	.lightbox::backdrop {
+		background: none;
+	}
+
+	:global(html:has(.lightbox[open])) {
+		overflow: hidden;
+	}
+
+	.lightbox-shade {
+		position: absolute;
+		inset: 0;
+		background: var(--ground-read);
+		opacity: 0;
+		cursor: zoom-out;
+	}
+
+	/* Geometry, not text: the frame is placed in screen coordinates */
+	.lightbox-stage {
+		position: absolute;
+		inset: 0;
+		direction: ltr;
+		pointer-events: none;
+	}
+
+	.lightbox-frame {
+		position: absolute;
+		inset-block-start: 0;
+		inset-inline-start: 0;
+		overflow: hidden;
+		-webkit-mask: var(--lightbox-mask) center / 100% 100% no-repeat;
+		mask: var(--lightbox-mask) center / 100% 100% no-repeat;
+		pointer-events: auto;
+		cursor: zoom-out;
+	}
+
+	/* Grown past its ink edge: the whole image */
+	.lightbox-frame.is-whole {
+		-webkit-mask: none;
+		mask: none;
+	}
+
+	.lightbox-image {
+		display: block;
+		inline-size: 100%;
+		block-size: 100%;
+		object-fit: cover;
+		filter: var(--art);
+	}
+
+	.lightbox :global(.lightbox-caption) {
+		position: absolute;
+		inset-inline: 0;
+		inline-size: fit-content;
+		max-inline-size: min(62ch, 90%);
+		margin-inline: auto;
+		text-align: center;
+	}
+
+	.lightbox-close {
+		position: absolute;
+		inset-block-start: 0.75rem;
+		inset-inline-end: 0.75rem;
+		display: grid;
+		place-items: center;
+		inline-size: 2.75rem;
+		block-size: 2.75rem;
+		padding: 0;
+		border: 1px solid var(--rule);
+		border-radius: 1px;
+		background: var(--ground-read);
+		color: var(--text);
+		cursor: pointer;
+	}
+
+	.lightbox-close:hover {
+		border-color: var(--text);
+	}
+
+	.lightbox-close svg {
+		inline-size: 1.25rem;
+		block-size: 1.25rem;
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 1.5;
+	}
+</style>

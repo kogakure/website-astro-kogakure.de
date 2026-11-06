@@ -126,3 +126,44 @@ test.describe('every page type in every language', () => {
 		}
 	}
 });
+
+test.describe('images', () => {
+	test('a plate opens whole in the lightbox and closes back into its edge', async ({ page }) => {
+		await page.goto('/niedergang/');
+		const opener = page.getByRole('button', { name: /^Bild vergrößern: / }).first();
+		await opener.focus();
+		await page.keyboard.press('Enter');
+		const dialog = page.getByRole('dialog');
+		await expect(dialog).toBeVisible();
+		await expect(page.getByRole('button', { name: 'Schließen' })).toBeFocused();
+		await expect(dialog.locator('.lightbox-caption')).toHaveText(
+			'Tokugawa wird durch die Berge geführt'
+		);
+		// The whole painting: the frame takes the original's proportion
+		const frame = dialog.locator('[data-lightbox-frame]');
+		await expect(frame).toHaveClass(/is-whole/);
+		const box = await frame.boundingBox();
+		expect((box?.width ?? 0) / (box?.height ?? 1)).toBeCloseTo(1536 / 1024, 1);
+
+		await page.keyboard.press('Escape');
+		await expect(dialog).toBeHidden();
+		await expect(opener).toBeFocused();
+	});
+
+	test('a figure of the text opens too, and closes with a click', async ({ page }) => {
+		await page.goto('/koerperwaffen/');
+		await page.locator('figure[data-kind="ken"] .lightbox-trigger').first().click();
+		const dialog = page.getByRole('dialog');
+		await expect(dialog).toBeVisible();
+		await dialog.locator('[data-lightbox-frame]').click();
+		await expect(dialog).toBeHidden();
+	});
+
+	test('no soft hyphen shows as text', async ({ page }) => {
+		for (const path of ['/', '/inhalt/', '/trainingsfaktoren/', '/en/', '/en/contents/']) {
+			await page.goto(path);
+			await expect(page.locator('body')).not.toContainText('&shy;');
+			expect(await page.title()).not.toContain('­');
+		}
+	});
+});
