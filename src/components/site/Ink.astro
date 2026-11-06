@@ -1,0 +1,27 @@
+---
+/**
+ * The one-time reveal: plates (`[data-reveal]`) and the figures of the text
+ * bloom out of their ink edge when they first come into view (motion.css).
+ * Without JavaScript, or with reduced motion, everything is simply there.
+ * Once per page, in BaseLayout.
+ */
+---
+
+<script>
+	// SiteHead.astro sets .js before first paint when motion is allowed
+	if (document.documentElement.classList.contains('js')) {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				for (const entry of entries) {
+					if (!entry.isIntersecting) continue;
+					entry.target.classList.add('is-revealed');
+					observer.unobserve(entry.target);
+				}
+			},
+			{ rootMargin: '0px 0px -12% 0px', threshold: 0.2 }
+		);
+		for (const element of document.querySelectorAll('[data-reveal], .prose figure')) {
+			observer.observe(element);
+		}
+	}
+</script>

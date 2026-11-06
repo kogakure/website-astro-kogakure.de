@@ -1,0 +1,80 @@
+---
+/**
+ * The brushstroke: black ink over the ochre wash (gofun over indigo by
+ * night). Between an article's opener and its text it draws in once from
+ * the reading start (`draw`); above the colophon it sinks into the band.
+ * Mirrored in rtl, wash included. Decorative.
+ */
+interface Props {
+	/** `divider` between opener and text; `band` above the colophon */
+	variant?: 'divider' | 'band';
+	/** Draw in once on load (motion.css) */
+	draw?: boolean;
+	class?: string;
+}
+
+const { variant = 'divider', draw = false, class: className } = Astro.props;
+---
+
+<div
+	class:list={['sweep', `sweep-${variant}`, className]}
+	data-draw={draw ? '' : undefined}
+	data-print="hidden"
+	aria-hidden="true"
+></div>
+
+<style>
+	.sweep {
+		position: relative;
+	}
+
+	.sweep:dir(rtl) {
+		scale: -1 1;
+	}
+
+	.sweep::before,
+	.sweep::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		-webkit-mask: url('/images/ink/sweep.webp') center / 100% 100% no-repeat;
+		mask: url('/images/ink/sweep.webp') center / 100% 100% no-repeat;
+	}
+
+	.sweep::before {
+		background: var(--wash);
+		opacity: var(--wash-alpha);
+	}
+
+	.sweep-divider {
+		inline-size: 100%;
+		block-size: clamp(3.5rem, 9vw, 7.5rem);
+		max-inline-size: 64rem;
+		margin-inline: auto;
+	}
+
+	.sweep-divider::before {
+		transform: translate(2.5%, 16%) scaleY(1.2);
+	}
+
+	.sweep-divider::after {
+		background: var(--ink);
+	}
+
+	/* The band covers the stroke's lower part: only its upper edge and the
+	   wash show on paper */
+	.sweep-band {
+		--h: clamp(4.5rem, 12vw, 9rem);
+		overflow-x: clip;
+		block-size: var(--h);
+		margin-block-end: calc(var(--h) * -0.8);
+	}
+
+	.sweep-band::before {
+		transform: translate(3%, -18%) scaleX(-1);
+	}
+
+	.sweep-band::after {
+		background: var(--band);
+	}
+</style>

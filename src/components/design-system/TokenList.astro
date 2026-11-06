@@ -1,0 +1,88 @@
+---
+/**
+ * A list of tokens with what they are for; `sample` draws each one (a bar
+ * of the spacing, a box with the shadow).
+ */
+import type { Token } from './tokens';
+
+interface Props {
+	title: string;
+	tokens: Token[];
+	sample?: 'space' | 'shadow';
+}
+
+const { title, tokens, sample } = Astro.props;
+---
+
+<div class="tokens">
+	<h3 class="tokens-title">{title}</h3>
+	<dl>
+		{tokens.map(({ name, use }) => (
+			<div class="token">
+				<dt>
+					<code>{name}</code>
+				</dt>
+				<dd>
+					{use}
+					{sample === 'space' && <span class="space" style={`--size: var(${name})`} />}
+					{sample === 'shadow' && <span class="shadow" style={`--size: var(${name})`} />}
+				</dd>
+			</div>
+		))}
+	</dl>
+</div>
+
+<style>
+	.tokens-title {
+		margin-block: 0 0.75rem;
+		font-size: 1.3rem;
+		font-weight: 600;
+	}
+
+	dl {
+		margin: 0;
+		font-size: 1rem;
+		line-height: 1.45;
+	}
+
+	.token {
+		display: grid;
+		gap: 0.25rem 1.5rem;
+		padding-block: 0.6rem;
+		border-block-end: 1px solid var(--rule);
+	}
+
+	@media (min-width: 48em) {
+		.token {
+			grid-template-columns: 14rem 1fr;
+		}
+	}
+
+	code {
+		font-family: var(--mono);
+		font-size: 0.9375rem;
+	}
+
+	dd {
+		margin: 0;
+		color: var(--text-2);
+	}
+
+	.space {
+		display: block;
+		inline-size: min(var(--size), 100%);
+		block-size: 0.5rem;
+		margin-block-start: 0.4rem;
+		background: var(--wash);
+		opacity: var(--wash-alpha);
+	}
+
+	.shadow {
+		display: block;
+		inline-size: 8rem;
+		block-size: 3rem;
+		margin-block: 0.75rem;
+		background: var(--plate);
+		box-shadow: var(--size);
+	}
+</style>

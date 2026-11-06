@@ -1,0 +1,168 @@
+---
+/**
+ * The language choice in the colophon: a native select of the page's
+ * translations, each language in its own name and script, and a button
+ * that goes there (choosing alone changes nothing, WCAG 3.2.2). Native, so
+ * it works with the keyboard and on touch; only its frame is restyled for
+ * the band. Without JavaScript a plain list of links.
+ */
+interface Language {
+	/** `lang` of the option: the language's own tag */
+	lang: string;
+	/** The language's name in itself */
+	name: string;
+	/** The page in that language */
+	href: string;
+	current?: boolean;
+}
+
+interface Props {
+	/** „Sprache“ */
+	label: string;
+	/** „Wechseln“ */
+	go: string;
+	languages: Language[];
+	class?: string;
+}
+
+const { label, go, languages, class: className } = Astro.props;
+---
+
+<div class:list={['language', className]} data-print="hidden">
+	<form class="language-form" data-language-form>
+		<label for="language-select">{label}</label>
+		<div class="language-row">
+			<select id="language-select" name="language">
+				{languages.map(({ lang, name, href, current }) => (
+					<option value={href} lang={lang} selected={current}>
+						{name}
+					</option>
+				))}
+			</select>
+			<button type="submit">{go}</button>
+		</div>
+	</form>
+	<noscript>
+		<p class="language-label">{label}</p>
+		<ul class="language-links">
+			{languages.map(({ lang, name, href, current }) => (
+				<li>
+					<a
+						href={href}
+						lang={lang}
+						hreflang={lang}
+						aria-current={current ? 'page' : undefined}
+					>
+						{name}
+					</a>
+				</li>
+			))}
+		</ul>
+	</noscript>
+</div>
+
+<script>
+	for (const form of document.querySelectorAll<HTMLFormElement>('[data-language-form]')) {
+		form.addEventListener('submit', (event) => {
+			event.preventDefault();
+			const select = form.querySelector('select');
+			if (select && select.value !== location.pathname) location.href = select.value;
+		});
+	}
+</script>
+
+<style>
+	.language {
+		display: grid;
+		gap: 0.4rem;
+		font-size: 1rem;
+	}
+
+	.language-form {
+		display: grid;
+		justify-items: start;
+		gap: 0.4rem;
+	}
+
+	@media (scripting: none) {
+		.language-form {
+			display: none;
+		}
+	}
+
+	label,
+	.language-label {
+		margin: 0;
+		font-family: var(--mono);
+		font-size: 0.875rem;
+		color: var(--band-mute);
+	}
+
+	.language-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	select,
+	button {
+		min-block-size: 2.75rem;
+		padding-block: 0.5em;
+		border: 1px solid var(--band-line);
+		border-radius: 1px;
+		background-color: var(--band);
+		color: var(--band-text);
+		font: inherit;
+		line-height: 1.4;
+		transition: border-color var(--duration-quick) ease-out;
+	}
+
+	select {
+		/* The arrow sits at the inline end. Background positions are physical,
+		   and the chevron's two halves trade places when it moves left */
+		--arrow-a: right 1.15em center;
+		--arrow-b: right 0.75em center;
+		appearance: none;
+		min-inline-size: 11rem;
+		padding-inline: 0.8em 2.4em;
+		background-image:
+			linear-gradient(45deg, transparent 50%, var(--band-mute) 50%),
+			linear-gradient(-45deg, transparent 50%, var(--band-mute) 50%);
+		background-position: var(--arrow-a), var(--arrow-b);
+		background-size: 0.4em 0.4em;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	select:dir(rtl) {
+		--arrow-a: left 0.75em center;
+		--arrow-b: left 1.15em center;
+	}
+
+	button {
+		padding-inline: 0.9em;
+		color: var(--band-mute);
+	}
+
+	:is(select, button):hover {
+		border-color: var(--band-mute);
+	}
+
+	button:hover {
+		color: var(--band-text);
+	}
+
+	option {
+		background: var(--band);
+		color: var(--band-text);
+	}
+
+	.language-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+</style>

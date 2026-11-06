@@ -1,0 +1,113 @@
+---
+/**
+ * The tanzaku: a vertical name plate with a heavy sumi frame and brush
+ * kanji (Yuji Syuku). The number (第一章) stands as a thin column beside
+ * the name; on the title plate the romaji sit below the kanji, set
+ * horizontally in the serif italic. Decorative by default: the heading next
+ * to it carries the meaning. As the h1 (`label`) its accessible name is
+ * „木隠 Kogakure“.
+ *
+ * Japanese runs left to right inside its vertical column on every page, so
+ * the plate pins dir="ltr": on a right-to-left page it would otherwise
+ * inherit rtl and flip its inline axis.
+ */
+interface Props {
+	/** The kanji on the plate */
+	name: string;
+	/** The number line (第一章), or the romaji on the title plate */
+	number?: string | null | undefined;
+	/** `title`: the book's plate in the ensō; `plate`: a scene; `opener`: an article; `small`: the colophon */
+	size?: 'title' | 'plate' | 'opener' | 'small';
+	/** Part of the accessible name (the h1), not decorative */
+	label?: boolean;
+	class?: string;
+}
+
+const { name, number, size = 'plate', label = false, class: className } = Astro.props;
+const isTitle = size === 'title';
+---
+
+<span
+	class:list={['tanzaku', `tanzaku-${size}`, className]}
+	lang="ja"
+	dir="ltr"
+	aria-hidden={label ? undefined : 'true'}
+>
+	{number && !isTitle && <span class="tanzaku-number">{number}</span>}
+	<span class="tanzaku-name">{name}</span>
+	{number && isTitle && ' '}
+	{number && isTitle && (
+		<span class="tanzaku-romaji" lang="ja-Latn">
+			{number}
+		</span>
+	)}
+</span>
+
+<style>
+	.tanzaku {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.2em;
+		writing-mode: vertical-rl;
+		padding-block: 0.28em;
+		padding-inline: 0.42em 0.55em;
+		background: var(--plate);
+		color: var(--plate-ink);
+		font-family: var(--brush);
+		font-size: var(--text-plate);
+		font-weight: 400;
+		line-height: 1.02;
+		letter-spacing: 0.06em;
+		border: 0.085em solid var(--plate-ink);
+		outline: 0.022em solid var(--plate-ink);
+		outline-offset: -0.17em;
+		box-shadow: var(--shadow-plate);
+		hyphens: manual;
+	}
+
+	.tanzaku-name,
+	.tanzaku-number {
+		font-family: var(--brush);
+	}
+
+	.tanzaku-number {
+		font-size: 0.36em;
+		padding-block-start: 0.35em;
+		color: var(--plate-num);
+	}
+
+	/* The title plate: the kanji centred in a vertical column, the romaji
+	   below them. Sized in container units of the ensō stage, so the plate
+	   keeps its proportion to the circle at every width */
+	.tanzaku-title {
+		writing-mode: horizontal-tb;
+		align-items: center;
+		gap: 0.14em;
+		padding-block: 0.3em 0.26em;
+		padding-inline: 0.24em;
+		font-size: 25cqi;
+	}
+
+	.tanzaku-title .tanzaku-name {
+		writing-mode: vertical-rl;
+	}
+
+	.tanzaku-romaji {
+		font-family: var(--serif);
+		font-size: max(0.16em, 0.8125rem);
+		font-style: italic;
+		line-height: 1.2;
+		letter-spacing: 0.04em;
+		color: var(--plate-num);
+	}
+
+	.tanzaku-opener {
+		font-size: clamp(1.5rem, 0.6rem + 3.8vw, 4.6rem);
+	}
+
+	.tanzaku-small {
+		font-size: 1.9rem;
+		box-shadow: none;
+	}
+</style>

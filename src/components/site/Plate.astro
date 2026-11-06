@@ -1,0 +1,210 @@
+---
+/**
+ * A plate: a painting cut by a wet ink edge, a name plate hanging over its
+ * top edge and the caption as a subtitle line. On the homepage one per part
+ * of the book (`scene`, revealed once when it comes into view); at the head
+ * of an article see OpenerPlate.astro. Without a painting it is the bare
+ * plate: the name plate on an ink wash cut by the same edge.
+ *
+ * The painting keeps its colour (dimmed a little by night) and its focus
+ * point (Picture.astro); paintings never mirror in rtl.
+ */
+import { inkFile } from '@/lib/images/images';
+import type { Edge } from '@/lib/book/plates';
+import NamePlate from './NamePlate.astro';
+import Picture from './Picture.astro';
+import Subtitle from './Subtitle.astro';
+
+interface Props {
+	/** The painting, as the texts use it (`/images/article/…`); none for the bare plate */
+	image?: { src: string; alt: string } | undefined;
+	/** The painting's caption as HTML, set as the subtitle */
+	caption?: string | undefined;
+	/** The name plate: kanji and number line */
+	plate: { name: string; number?: string | null | undefined };
+	/** One of the ten ink edges */
+	edge?: Edge;
+	/** Where the name plate hangs; scenes alternate */
+	side?: 'start' | 'end';
+	/** `bleed`: a cinematic band across the page; `tight`: cropped into the figures */
+	frame?: 'bleed' | 'tight' | undefined;
+	/** `scene` on the homepage, `opener` at the head of an article */
+	variant?: 'scene' | 'opener';
+	/** Bloom once when it comes into view (Ink.astro) */
+	reveal?: boolean;
+	/** Bloom once on load (the opener) */
+	bloom?: boolean;
+	/** The first image of the page: loaded first */
+	priority?: boolean;
+	class?: string;
+}
+
+const {
+	image,
+	caption,
+	plate,
+	edge = 'a',
+	side = 'end',
+	frame,
+	variant = 'scene',
+	reveal = false,
+	bloom = false,
+	priority = false,
+	class: className,
+} = Astro.props;
+const mask = `--edge-mask: url('${inkFile(`wash-edge-${edge}.webp`)}')`;
+---
+
+<figure
+	class:list={['plate', `plate-${variant}`, { 'is-bare': !image }, className]}
+	data-side={side}
+	data-frame={frame}
+	data-reveal={reveal ? '' : undefined}
+	data-bloom={bloom ? '' : undefined}
+>
+	<div class="plate-art" style={mask}>
+		{image && (
+			<Picture
+				src={image.src}
+				alt={image.alt}
+				sizes="band"
+				priority={priority}
+				class="plate-image"
+			/>
+		)}
+	</div>
+	<div class="plate-name">
+		<NamePlate
+			name={plate.name}
+			number={plate.number}
+			size={variant === 'opener' ? 'opener' : 'plate'}
+		/>
+	</div>
+	{caption && <Subtitle html={caption} as="figcaption" class="plate-subtitle" />}
+</figure>
+
+<style>
+	.plate {
+		position: relative;
+		margin: 0;
+	}
+
+	.plate-art {
+		overflow: clip;
+		aspect-ratio: 4 / 3;
+		-webkit-mask: var(--edge-mask) center / 100% 100% no-repeat;
+		mask: var(--edge-mask) center / 100% 100% no-repeat;
+	}
+
+	.plate-art :global(.plate-image) {
+		display: block;
+		inline-size: 100%;
+		block-size: 100%;
+		object-fit: cover;
+		filter: var(--art);
+	}
+
+	/* The bare plate: an ink wash where the painting would be */
+	.is-bare .plate-art {
+		aspect-ratio: 4 / 1;
+		background: var(--wash);
+		opacity: var(--wash-alpha);
+	}
+
+	.plate-name {
+		position: absolute;
+		z-index: 2;
+		display: flex;
+		inset-block-start: -0.9rem;
+		inset-inline-end: 1rem;
+	}
+
+	.plate :global(.plate-subtitle) {
+		position: relative;
+		z-index: 2;
+		inline-size: fit-content;
+		max-inline-size: min(46ch, 92%);
+		margin-block: -1.1rem 0;
+		margin-inline: auto;
+		text-align: center;
+	}
+
+	/* Tight: cropped hard, the wet edge cuts the figures */
+	.plate[data-frame='tight'] :global(.plate-image) {
+		scale: 1.45;
+	}
+
+	@media (min-width: 48em) {
+		.plate-art {
+			aspect-ratio: 16 / 9;
+		}
+
+		.plate-name {
+			inset-block-start: -1.6rem;
+			inset-inline-end: 6%;
+		}
+
+		.plate[data-side='start'] .plate-name {
+			inset-inline-end: auto;
+			inset-inline-start: 6%;
+		}
+
+		/* Centred without a translate, which would point the wrong way in rtl */
+		.plate :global(.plate-subtitle) {
+			position: absolute;
+			inset-inline: 0;
+			inset-block-end: 8%;
+			margin-block: 0;
+			max-inline-size: min(62ch, 78%);
+		}
+
+		/* Bleed: a wide cinematic band across the whole page */
+		.plate[data-frame='bleed'] {
+			margin-inline: calc(50% - 50vw);
+		}
+
+		.plate[data-frame='bleed'] .plate-art {
+			aspect-ratio: 12 / 5;
+		}
+
+		.plate[data-frame='bleed'] .plate-name {
+			inset-inline-end: max(6%, calc((100vw - 82rem) / 2));
+		}
+
+		.plate[data-frame='bleed'][data-side='start'] .plate-name {
+			inset-inline-end: auto;
+			inset-inline-start: max(6%, calc((100vw - 82rem) / 2));
+		}
+
+		/* The opener: wider than tall; portrait paintings bring their focus point */
+		.plate-opener .plate-art {
+			aspect-ratio: 2 / 1;
+		}
+
+		.plate-opener .plate-art :global(.plate-image) {
+			object-position: var(--focus, 50% 50%);
+		}
+
+		.plate-opener.is-bare .plate-art {
+			aspect-ratio: 4 / 1;
+		}
+	}
+
+	/* On wide screens the opener keeps its width and gives up height, so the
+	   title and lede are in the first screen (1440×900, 1280×720) */
+	@media (min-width: 75em) {
+		.plate-opener .plate-art {
+			aspect-ratio: auto;
+			block-size: min(44svh, 30rem);
+		}
+
+		/* Faces sit in the upper third of most paintings */
+		.plate-opener .plate-art :global(.plate-image) {
+			object-position: var(--focus, 50% 15%);
+		}
+
+		.plate-opener.is-bare .plate-art {
+			block-size: min(22svh, 15rem);
+		}
+	}
+</style>

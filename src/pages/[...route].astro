@@ -8,7 +8,7 @@ import PageText from '@/components/book/PageText.astro';
 import type { Lang } from '@/i18n/languages';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getBookPaths, getNeighbours, renderPage, type PageEntry } from '@/lib/book/book';
+import { getBookPaths, getNeighbours, parseId, renderPage, type PageEntry } from '@/lib/book/book';
 
 export const getStaticPaths = getBookPaths;
 
@@ -27,6 +27,8 @@ const { previous, next } = await getNeighbours(lang, entry.data.translationKey);
 	title={`${entry.data.title} · 木隠`}
 	description={entry.data.excerpt ?? t.subtitle}
 	lang={lang}
+	fontPage={parseId(entry.id).slug}
+	ground="read"
 >
 	<PageText title={entry.data.title} excerpt={entry.data.excerpt}>
 		<Content />

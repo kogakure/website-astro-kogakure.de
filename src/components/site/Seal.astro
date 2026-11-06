@@ -1,0 +1,27 @@
+---
+/**
+ * The hanko: the one accent, a small seal-red square. Only a mark (the
+ * reading position, a readable article, the read link), never text, and
+ * one per spot: a second red element on a screen means one is wrong.
+ * Decorative: the text next to it carries the meaning.
+ */
+interface Props {
+	class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<span class:list={['seal', className]} aria-hidden="true"></span>
+
+<style>
+	.seal {
+		display: inline-block;
+		flex: none;
+		inline-size: 0.62em;
+		block-size: 0.62em;
+		background: var(--seal);
+		border-radius: 1px;
+		box-shadow: inset 0 0 0 0.08em var(--seal-shine);
+	}
+</style>

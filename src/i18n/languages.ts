@@ -35,3 +35,12 @@ export function language(lang: Lang): Language {
 	if (!found) throw new Error(`Unknown language: ${lang}`);
 	return found;
 }
+
+/** The options of the language select: every language in its own name, linking to the page in it */
+export const languageChoices = (alternates: Readonly<Record<Lang, string>>, current: Lang) =>
+	LANGUAGES.map(({ code, htmlLang, name }) => ({
+		lang: htmlLang,
+		name,
+		href: alternates[code],
+		current: code === current,
+	}));

@@ -1,0 +1,85 @@
+---
+/**
+ * The design's part of every <head>: the self-hosted fonts of the page
+ * (inlined @font-face rules, the body face preloaded), the browser toolbar
+ * colour per mode, and three inline scripts that run before first paint: the
+ * stored light or dark mode, the .js class when motion is allowed, and the
+ * point the next page's ink spreads from.
+ */
+import type { Lang } from '@/i18n/languages';
+import { fontFaceCss, preloadFont } from '@/lib/fonts/fonts';
+import { GROUNDS, MODE_KEY } from '@/lib/mode/mode';
+
+interface Props {
+	lang: Lang;
+	/** The page's slug, for its own CJK and brush subsets; the homepage's without */
+	fontPage?: string | undefined;
+	/** More languages whose fonts the page sets (the samples on /design-system/) */
+	fontLangs?: Lang[];
+	/** The ground of the page, for the toolbar colour */
+	ground?: 'home' | 'read';
+}
+
+const { lang, fontPage = '', fontLangs = [], ground = 'home' } = Astro.props;
+
+const css = [
+	fontFaceCss(lang, fontPage),
+	...fontLangs.filter((other) => other !== lang).map((other) => fontFaceCss(other)),
+]
+	.join('\n')
+	.split('\n')
+	.filter((rule, i, rules) => rules.indexOf(rule) === i)
+	.join('\n');
+const preload = preloadFont(lang);
+---
+
+{preload && <link rel="preload" href={preload} as="font" type="font/woff2" crossorigin />}
+<style is:inline set:html={css} />
+{(['light', 'dark'] as const).map((natural) => (
+	<meta
+		name="theme-color"
+		media={`(prefers-color-scheme: ${natural})`}
+		content={GROUNDS[natural][ground]}
+		data-natural={natural}
+		data-light={GROUNDS.light[ground]}
+		data-dark={GROUNDS.dark[ground]}
+	/>
+))}
+<script is:inline define:vars={{ MODE_KEY }}>
+	// A stored light or dark choice, before first paint (src/lib/mode)
+	let mode;
+	try {
+		mode = localStorage.getItem(MODE_KEY);
+	} catch {}
+	if (mode === 'light' || mode === 'dark') {
+		document.documentElement.dataset.mode = mode;
+		for (const meta of document.querySelectorAll('meta[name="theme-color"]'))
+			meta.content = meta.dataset[mode];
+	}
+</script>
+<script is:inline>
+	// Motion runs once and only when allowed: motion.css waits for .js
+	if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window)
+		document.documentElement.classList.add('js');
+	// The new page spreads like wet ink from where the reader clicked, or
+	// from the middle (back, forward, a typed URL)
+	addEventListener('pagereveal', () => {
+		let at;
+		try {
+			at = JSON.parse(sessionStorage.getItem('kogakure-ink-at'));
+			sessionStorage.removeItem('kogakure-ink-at');
+		} catch {}
+		const html = document.documentElement;
+		html.style.setProperty('--ink-x', `${at?.x ?? innerWidth / 2}px`);
+		html.style.setProperty('--ink-y', `${at?.y ?? innerHeight / 2}px`);
+	});
+	addEventListener('click', (event) => {
+		if (!event.target.closest?.('a[href]')) return;
+		try {
+			sessionStorage.setItem(
+				'kogakure-ink-at',
+				JSON.stringify({ x: event.clientX, y: event.clientY })
+			);
+		} catch {}
+	});
+</script>

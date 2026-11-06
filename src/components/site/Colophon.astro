@@ -1,0 +1,142 @@
+---
+/**
+ * The colophon: the page ends on the sumi band (by night the deepest
+ * indigo), its top edge wet ink brushed in by a sweep. The small name
+ * plate, the book's name and subtitle, the copyright, one link back, and
+ * the reader's choices: the mode (ModeSwitch) and the language
+ * (LanguageSelect).
+ */
+import type { Lang } from '@/i18n/languages';
+import { ui } from '@/i18n/ui';
+import { BOOK_PLATE } from '@/lib/book/plates';
+import { inkFile } from '@/lib/images/images';
+import LanguageSelect from './LanguageSelect.astro';
+import ModeSwitch from './ModeSwitch.astro';
+import NamePlate from './NamePlate.astro';
+import Sweep from './Sweep.astro';
+
+interface Props {
+	lang: Lang;
+	/** The way back: to the contents, or to the top of the homepage */
+	back: { href: string; label: string };
+	/** The page in every language (LanguageSelect) */
+	languages: { lang: string; name: string; href: string; current?: boolean }[];
+	/** First year of the book */
+	since?: number;
+	author?: string;
+}
+
+const { lang, back, languages, since = 1999, author = 'Stefan Imhoff' } = Astro.props;
+const t = ui(lang);
+const year = new Date().getFullYear();
+const edge = `--band-edge: url('${inkFile('wash-edge-a.webp')}')`;
+---
+
+<footer class="colophon">
+	<Sweep variant="band" />
+	<div class="colophon-body" style={edge}>
+		<NamePlate name={BOOK_PLATE.name} size="small" />
+		<div class="colophon-text">
+			<p>
+				<span lang="ja">{BOOK_PLATE.name}</span> <i lang="ja-Latn">{BOOK_PLATE.romaji}</i>
+			</p>
+			<p>{t.subtitle}</p>
+			<p class="colophon-credit">
+				©{' '}
+				<span dir="ltr">
+					{since}–{year}
+				</span>{' '}
+				{author}
+			</p>
+			<p>
+				<a href={back.href}>{back.label}</a>
+			</p>
+		</div>
+		<ModeSwitch
+			class="colophon-mode"
+			legend={t.modeLegend}
+			labels={{ light: t.modeLight, dark: t.modeDark, system: t.modeSystem }}
+		/>
+		<LanguageSelect label={t.languageLabel} go={t.languageGo} languages={languages} />
+	</div>
+</footer>
+
+<style>
+	.colophon {
+		margin-block-start: clamp(6rem, 12vw, 10rem);
+		color: var(--band-text);
+	}
+
+	.colophon-body {
+		position: relative;
+		z-index: 1;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.5rem;
+		align-items: flex-start;
+		padding-block: 3.5rem 4rem;
+		padding-inline: var(--gutter);
+		background: var(--band);
+		font-size: 1.125rem;
+		/* The band's own top edge is wet ink too, so where the sweep runs dry
+		   no straight line shows: the top fringe of an ink edge, wider than
+		   the page so its sides fall outside; a solid layer covers the rest */
+		-webkit-mask:
+			var(--band-edge) center top / 116% 36rem no-repeat,
+			linear-gradient(#000, #000) center 12rem / 100% 100% no-repeat;
+		mask:
+			var(--band-edge) center top / 116% 36rem no-repeat,
+			linear-gradient(#000, #000) center 12rem / 100% 100% no-repeat;
+	}
+
+	.colophon-text {
+		flex: 1 1 14rem;
+		min-inline-size: 0;
+	}
+
+	.colophon-text p {
+		margin-block: 0 0.6rem;
+	}
+
+	.colophon-credit {
+		font-size: 1rem;
+		color: var(--band-mute);
+	}
+
+	.colophon :global(a) {
+		text-decoration-color: var(--band-line);
+	}
+
+	.colophon :global(a:active) {
+		color: var(--band-mute);
+	}
+
+	.colophon :global(:focus-visible) {
+		outline-color: var(--band-text);
+	}
+
+	.colophon-body :global(.colophon-mode) {
+		margin-inline-start: auto;
+	}
+
+	@media (max-width: 47.99em) {
+		.colophon-body :global(:is(.colophon-mode, .language)) {
+			flex-basis: 100%;
+			margin-inline-start: 0;
+		}
+	}
+
+	@media (min-width: 48em) {
+		.colophon-body {
+			padding-inline: max(var(--gutter), calc((100vw - 82rem) / 2));
+		}
+	}
+
+	@media print {
+		.colophon-body {
+			background: none;
+			-webkit-mask: none;
+			mask: none;
+		}
+	}
+</style>

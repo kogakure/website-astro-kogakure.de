@@ -1,0 +1,220 @@
+---
+/**
+ * The article's top bar: the way home (木隠 Inhalt) and the chapter. There
+ * is no site navigation bar; this is the way back. Below 75em it is sticky:
+ * it slides away while the reader reads on and comes back when they scroll
+ * up, then showing the position in the article („Abschnitt 3 von 6“), which
+ * opens the sections in a popover (SectionPopover, hydrated only there).
+ */
+import { BOOK_PLATE } from '@/lib/book/plates';
+import SectionPopover from './SectionPopover';
+
+interface Props {
+	/** Accessible name of the navigation („Buch“) */
+	label: string;
+	home: { href: string; label: string };
+	chapter?: { href: string; title: string; kanji?: string | undefined } | undefined;
+	/** The article's sections, for the position and its popover */
+	sections?: {
+		heading: string;
+		items: { id: string; text: string }[];
+		countLabel: string;
+		positionLabels: string[];
+	};
+}
+
+const { label, home, chapter, sections } = Astro.props;
+---
+
+<nav class="topbar" aria-label={label} data-topbar data-print="hidden">
+	<a href={home.href} class="topbar-home">
+		<span lang="ja">{BOOK_PLATE.name}</span>
+		<span class="topbar-text">{home.label}</span>
+	</a>
+	{chapter && (
+		<a href={chapter.href} class="topbar-chapter">
+			{chapter.kanji && <span lang="ja">{chapter.kanji}</span>}
+			<span class="topbar-text">{chapter.title}</span>
+		</a>
+	)}
+	{sections && sections.items.length > 0 && (
+		<div class="topbar-where">
+			<SectionPopover
+				client:media="(max-width: 74.99em)"
+				heading={sections.heading}
+				sections={sections.items}
+				countLabel={sections.countLabel}
+				positionLabels={sections.positionLabels}
+			/>
+		</div>
+	)}
+</nav>
+
+<script>
+	// Below 75em the bar comes back when the reader scrolls up, and goes
+	// away again when they read on (unless its popover is open)
+	const bar = document.querySelector<HTMLElement>('[data-topbar]');
+	const narrow = matchMedia('(max-width: 74.99em)');
+	let lastY = scrollY;
+	const follow = () => {
+		if (!bar) return;
+		const y = scrollY;
+		const below = y > bar.offsetHeight * 3;
+		const open = bar.querySelector('[data-popup-open]') !== null;
+		if (!narrow.matches || !below) delete bar.dataset.state;
+		else if (y < lastY - 4) bar.dataset.state = 'shown';
+		else if (y > lastY + 4 && !open) bar.dataset.state = 'hidden';
+		lastY = y;
+	};
+	let queued = false;
+	addEventListener(
+		'scroll',
+		() => {
+			if (queued) return;
+			queued = true;
+			requestAnimationFrame(() => {
+				queued = false;
+				follow();
+			});
+		},
+		{ passive: true }
+	);
+</script>
+
+<style>
+	.topbar {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.5rem 1.5rem;
+		max-inline-size: var(--page);
+		margin-inline: auto;
+		padding-block: 1.1rem;
+		padding-inline: var(--gutter);
+		font-size: 1rem;
+		line-height: 1.4;
+	}
+
+	.topbar > a {
+		display: inline-flex;
+		gap: 0.6em;
+		align-items: baseline;
+		padding-block: 0.35em;
+		text-decoration: none;
+	}
+
+	.topbar > a:hover .topbar-text {
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-decoration-color: var(--link-line);
+		text-underline-offset: 0.2em;
+	}
+
+	.topbar [lang='ja'] {
+		color: var(--text-3);
+		font-weight: 700;
+	}
+
+	.topbar-where {
+		display: none;
+	}
+
+	/* The position button (SectionPopover) */
+	.topbar :global(.where) {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.55em;
+		min-block-size: 2.75rem;
+		margin: 0;
+		padding-block: 0;
+		padding-inline: 0.2em;
+		border: 0;
+		background: none;
+		color: inherit;
+		font: 500 0.9375rem/1.4 var(--mono);
+	}
+
+	.topbar :global(.where .seal) {
+		display: inline-block;
+		inline-size: 0.62em;
+		block-size: 0.62em;
+		font-size: 1.1rem;
+		background: var(--seal);
+		border-radius: 1px;
+		box-shadow: inset 0 0 0 0.08em var(--seal-shine);
+	}
+
+	@media (max-width: 74.99em) {
+		.topbar {
+			position: sticky;
+			z-index: 4;
+			inset-block-start: 0;
+			max-inline-size: none;
+			padding-block: 0.4rem;
+			background: var(--ground-read);
+			transition: translate var(--duration-bar) var(--ease-out);
+		}
+
+		.topbar[data-state] {
+			border-block-end: 1px solid var(--rule);
+		}
+
+		.topbar[data-state='hidden']:not(:focus-within) {
+			translate: 0 -105%;
+		}
+
+		/* Back on screen: the way home and the position; the chapter is in
+		   the way home's place in the book, the popover lists the sections */
+		.topbar[data-state] .topbar-where,
+		.topbar-where:focus-within {
+			display: block;
+		}
+
+		.topbar[data-state] .topbar-chapter {
+			display: none;
+		}
+	}
+</style>
+
+<style is:global>
+	/* The popover's list (rendered in a portal, outside this component) */
+	.where-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.where-list a {
+		position: relative;
+		display: block;
+		padding-block: 0.5em;
+		padding-inline: 1.15em 0;
+		font-size: 1.0625rem;
+		line-height: 1.35;
+		color: var(--text-2);
+		text-decoration: none;
+		hyphens: manual;
+	}
+
+	.where-list a::before {
+		content: '';
+		position: absolute;
+		inset-inline-start: 0;
+		inset-block-start: 0.95em;
+		inline-size: 0.55em;
+		block-size: 0.55em;
+		border: 1px solid var(--link-line);
+		border-radius: 1px;
+	}
+
+	.where-list a[aria-current] {
+		color: var(--text);
+		font-weight: 600;
+	}
+
+	.where-list a[aria-current]::before {
+		background: var(--seal);
+		border-color: var(--seal);
+	}
+</style>

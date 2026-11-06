@@ -40,6 +40,8 @@ export interface Ui {
 	/** Accessible name of the mode toggle button */
 	modeToggleDark: string;
 	languageLabel: string;
+	/** Button beside the language select: goes to the page in the chosen language */
+	languageGo: string;
 	search: string;
 	searchPlaceholder: string;
 	searchNoResults: string;
@@ -78,6 +80,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'System',
 		modeToggleDark: 'Dunkle Darstellung',
 		languageLabel: 'Sprache',
+		languageGo: 'Wechseln',
 		search: 'Suche',
 		searchPlaceholder: 'Im Buch suchen',
 		searchNoResults: 'Nichts gefunden.',
@@ -108,6 +111,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'System',
 		modeToggleDark: 'Dark appearance',
 		languageLabel: 'Language',
+		languageGo: 'Go',
 		search: 'Search',
 		searchPlaceholder: 'Search the book',
 		searchNoResults: 'Nothing found.',
@@ -139,6 +143,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'Sistema',
 		modeToggleDark: 'Apariencia oscura',
 		languageLabel: 'Idioma',
+		languageGo: 'Ir',
 		search: 'Buscar',
 		searchPlaceholder: 'Buscar en el libro',
 		searchNoResults: 'No se encontró nada.',
@@ -170,6 +175,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'Système',
 		modeToggleDark: 'Apparence sombre',
 		languageLabel: 'Langue',
+		languageGo: 'Changer',
 		search: 'Recherche',
 		searchPlaceholder: 'Rechercher dans le livre',
 		searchNoResults: 'Aucun résultat.',
@@ -200,6 +206,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'Sistema',
 		modeToggleDark: 'Aparência escura',
 		languageLabel: 'Idioma',
+		languageGo: 'Ir',
 		search: 'Busca',
 		searchPlaceholder: 'Buscar no livro',
 		searchNoResults: 'Nada encontrado.',
@@ -230,6 +237,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'Sistema',
 		modeToggleDark: 'Aspetto scuro',
 		languageLabel: 'Lingua',
+		languageGo: 'Vai',
 		search: 'Cerca',
 		searchPlaceholder: 'Cerca nel libro',
 		searchNoResults: 'Nessun risultato.',
@@ -261,6 +269,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'Systeem',
 		modeToggleDark: 'Donkere weergave',
 		languageLabel: 'Taal',
+		languageGo: 'Ga',
 		search: 'Zoeken',
 		searchPlaceholder: 'Zoeken in het boek',
 		searchNoResults: 'Niets gevonden.',
@@ -293,6 +302,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'Как в системе',
 		modeToggleDark: 'Темное оформление',
 		languageLabel: 'Язык',
+		languageGo: 'Перейти',
 		search: 'Поиск',
 		searchPlaceholder: 'Искать в книге',
 		searchNoResults: 'Ничего не найдено.',
@@ -323,6 +333,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'システム',
 		modeToggleDark: 'ダーク表示',
 		languageLabel: '言語',
+		languageGo: '移動',
 		search: '検索',
 		searchPlaceholder: '本の中を検索',
 		searchNoResults: '見つかりませんでした。',
@@ -353,6 +364,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: '跟随系统',
 		modeToggleDark: '深色显示',
 		languageLabel: '语言',
+		languageGo: '切换',
 		search: '搜索',
 		searchPlaceholder: '在书中搜索',
 		searchNoResults: '未找到结果。',
@@ -383,6 +395,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: '시스템 설정',
 		modeToggleDark: '어두운 화면',
 		languageLabel: '언어',
+		languageGo: '이동',
 		search: '검색',
 		searchPlaceholder: '책에서 검색',
 		searchNoResults: '검색 결과 없음',
@@ -413,6 +426,7 @@ export const UI: Record<Lang, Ui> = {
 		modeSystem: 'לפי המערכת',
 		modeToggleDark: 'תצוגה כהה',
 		languageLabel: 'שפה',
+		languageGo: 'מעבר',
 		search: 'חיפוש',
 		searchPlaceholder: 'חיפוש בספר',
 		searchNoResults: 'לא נמצאו תוצאות.',

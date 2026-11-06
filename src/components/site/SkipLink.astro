@@ -1,4 +1,8 @@
 ---
+/**
+ * The first focusable link: jumps to the main content. Hidden above the
+ * page until it has focus, then a dark subtitle box with the seal's ring.
+ */
 interface Props {
 	/** Id of the main content, without the hash */
 	target?: string;
@@ -8,9 +12,27 @@ interface Props {
 const { target = 'main', label } = Astro.props;
 ---
 
-<a
-	href={`#${target}`}
-	class="sr-only focus:not-sr-only focus:fixed focus:inset-s-4 focus:top-4 focus:z-50 focus:bg-white focus:p-2 focus:text-black"
->
+<a href={`#${target}`} class="skip-link" data-print="hidden">
 	{label}
 </a>
+
+<style>
+	.skip-link {
+		position: absolute;
+		inset-inline-start: var(--gutter);
+		inset-block-start: 0.75rem;
+		z-index: 10;
+		padding-block: 0.4em;
+		padding-inline: 0.8em;
+		background: var(--sub-bg);
+		color: var(--sub-text);
+		font: 500 1rem/1.4 var(--mono);
+		text-decoration: none;
+		translate: 0 -200%;
+	}
+
+	.skip-link:focus-visible {
+		translate: none;
+		outline-color: var(--seal);
+	}
+</style>

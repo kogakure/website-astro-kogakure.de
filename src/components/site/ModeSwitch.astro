@@ -1,0 +1,128 @@
+---
+/**
+ * The mode choice in the colophon: „Darstellung: Hell · Dunkel · System“,
+ * three radios in a hairline frame, the chosen one lit (dark text on the
+ * pale band tone, about 9–10:1). „System“ follows prefers-color-scheme and
+ * is the default; a choice is stored and applied before first paint
+ * (SiteHead.astro). The change is instant. Hidden without JavaScript,
+ * where it could do nothing: the page follows the system.
+ */
+import { MODES } from '@/lib/mode/mode';
+
+interface Props {
+	/** „Darstellung“ */
+	legend: string;
+	labels: { light: string; dark: string; system: string };
+	class?: string;
+}
+
+const { legend, labels, class: className } = Astro.props;
+---
+
+<fieldset class:list={['mode-choice', className]} data-mode-choice data-print="hidden">
+	<legend>{legend}</legend>
+	<div class="mode-options">
+		{MODES.map((value) => (
+			<label>
+				<input type="radio" name="mode" value={value} checked={value === 'system'} />
+				<span>{labels[value]}</span>
+			</label>
+		))}
+	</div>
+</fieldset>
+
+<script>
+	import { isMode } from '@/lib/mode/mode';
+	import { chooseMode, storedMode, watchSystemMode } from '@/lib/mode/mode-client';
+
+	const radios = document.querySelectorAll<HTMLInputElement>('[data-mode-choice] input');
+	const sync = () => {
+		const mode = storedMode() ?? 'system';
+		for (const radio of radios) radio.checked = radio.value === mode;
+	};
+	sync();
+	watchSystemMode();
+	addEventListener('modechange', sync);
+	for (const radio of radios) {
+		radio.addEventListener('change', () =>
+			chooseMode(isMode(radio.value) ? radio.value : null)
+		);
+	}
+</script>
+
+<style>
+	.mode-choice {
+		display: grid;
+		gap: 0.4rem;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 1rem;
+	}
+
+	@media (scripting: none) {
+		.mode-choice {
+			display: none;
+		}
+	}
+
+	legend {
+		float: inline-start;
+		padding: 0;
+		font-family: var(--mono);
+		font-size: 0.875rem;
+		color: var(--band-mute);
+	}
+
+	.mode-options {
+		clear: both;
+		display: flex;
+		inline-size: fit-content;
+		border: 1px solid var(--band-line);
+		border-radius: 1px;
+	}
+
+	label {
+		position: relative;
+		cursor: pointer;
+	}
+
+	input {
+		position: absolute;
+		inset: 0;
+		margin: 0;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	span {
+		display: block;
+		min-block-size: 2.75rem;
+		padding-block: 0.5em;
+		padding-inline: 0.8em;
+		line-height: 1.75;
+		color: var(--band-mute);
+		transition:
+			background-color var(--duration-quick) ease-out,
+			color var(--duration-quick) ease-out;
+	}
+
+	label + label span {
+		border-inline-start: 1px solid var(--band-line);
+	}
+
+	label:hover span {
+		color: var(--band-text);
+	}
+
+	/* Lit: dark text on the pale tone */
+	input:checked + span {
+		background: var(--band-mute);
+		color: var(--band);
+	}
+
+	input:focus-visible + span {
+		outline: 2px solid var(--band-text);
+		outline-offset: -4px;
+	}
+</style>
