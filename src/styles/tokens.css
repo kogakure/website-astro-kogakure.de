@@ -1,0 +1,132 @@
+/*
+ * Design tokens (DESIGN.md). Every colour role is defined once as
+ * light-dark(<Washi>, <Aizome>) and resolved by color-scheme: `light dark`
+ * follows the system, data-mode="light" | "dark" on <html> pins it (set
+ * before first paint, src/lib/mode/). Only the three tokens that are not
+ * colours (--wash-alpha, --art, --grain) need the media query and the
+ * attribute. A component uses roles, never mode-specific values.
+ *
+ * .mode-light and .mode-dark pin a mode for one element and its content
+ * (the side-by-side samples on /design-system/).
+ */
+
+:root {
+	color-scheme: light dark;
+
+	/* -------------------------------------------------------- colour roles */
+
+	/* Washi | Aizome: the ground of both pages by day; by night the homepage
+	   on Aizome, the reading page on the lighter Aizome Read */
+	--ground: light-dark(#f3efe6, #111a25);
+	--ground-read: light-dark(#f3efe6, #152030);
+	--text: light-dark(#16110c, #e3dccb);
+	--text-2: light-dark(#33261a, #bdb8ab);
+	--text-3: light-dark(#5a3b1e, #8e9aa8);
+	/* Headings: sumi by day, khaki gold by night */
+	--heading: light-dark(#16110c, #c4b283);
+	--link-line: light-dark(#9a7444, #5d7896);
+	--rule: light-dark(rgb(154 116 68 / 0.45), rgb(142 154 168 / 0.28));
+	--focus: light-dark(#16110c, #e3dccb);
+	--select: light-dark(#d3bb8f, #2f4a6b);
+
+	/* The brush: sumi over an ochre wash by day, gofun over indigo by night */
+	--ink: light-dark(#16110c, #dcd6c8);
+	--wash: light-dark(#9a7444, #34557c);
+
+	/* Name plates: shoji paper with a sumi frame; lit paper by night */
+	--plate: light-dark(#faf8f4, #e6dfcf);
+	--plate-ink: light-dark(#16110c, #0e1620);
+	--plate-num: light-dark(#5a3b1e, #34557c);
+
+	/* The subtitle: one dark box per line */
+	--sub-bg: light-dark(#16110c, #070c13);
+	--sub-text: light-dark(#faf8f4, #ebe5d6);
+	--sub-edge: light-dark(#5a3b1e, #34557c);
+
+	/* The colophon band */
+	--band: light-dark(#16110c, #0a1019);
+	--band-text: light-dark(#faf8f4, #e3dccb);
+	--band-mute: light-dark(#d3bb8f, #9fb0c3);
+	--band-line: light-dark(#9a7444, #4b6585);
+
+	/* States */
+	--hover: light-dark(#faf8f4, #1b2a3c);
+	--press: light-dark(#d3bb8f, #233650);
+
+	/* The one accent: the seal, as a mark only, never text */
+	--seal: light-dark(#a3301c, #cf4a2e);
+	--seal-shine: light-dark(rgb(245 238 223 / 0.35), rgb(255 240 225 / 0.3));
+
+	--shadow-ink: light-dark(rgb(22 17 12 / 0.55), rgb(0 0 0 / 0.65));
+	--shadow-soft: light-dark(rgb(22 17 12 / 0.18), rgb(0 0 0 / 0.45));
+
+	/* --------------------------------------------- values per mode, no colour */
+
+	/* Opacity of the wash under the ink */
+	--wash-alpha: 0.55;
+	/* The paintings are light paper: dimmed a little by night */
+	--art: none;
+	/* Stone grain of the night ground (body::before) */
+	--grain: 0;
+
+	/* --------------------------------------------------------------- type */
+
+	/* Each stack names the size-adjusted local fallback (src/lib/fonts) */
+	--serif:
+		'Source Serif 4', 'Source Serif 4 Fallback', 'Frank Ruhl Libre', 'Shippori Mincho',
+		'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif;
+	--mincho: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif;
+	--brush:
+		'Yuji Syuku', 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif;
+	--mono:
+		'IBM Plex Mono', 'IBM Plex Mono Fallback', 'Frank Ruhl Libre', 'Shippori Mincho',
+		'Hiragino Mincho ProN', ui-monospace, monospace;
+
+	/* The type scale, easings and shadows are Tailwind theme values
+	   (@theme in global.css): --text-display, --ease-out, --shadow-plate, …
+	   The durations stay here */
+
+	/* -------------------------------------------------------------- space */
+
+	--gutter: clamp(1.25rem, 5vw, 4rem);
+	/* About 69 characters per line at 20–21.5px */
+	--measure: 32.5em;
+	--page: 86rem;
+	--scene: clamp(4.5rem, 9vw, 8rem);
+	--section: 2.6em;
+	--list-gap: 1.75rem;
+
+	/* ------------------------------------------------------------- motion */
+
+	--duration-quick: 150ms;
+	--duration-state: 200ms;
+	--duration-bar: 300ms;
+	--duration-reveal: 1100ms;
+	--duration-sweep: 1000ms;
+	--duration-vortex: 3400ms;
+	--duration-transition: 1100ms;
+}
+
+:root[data-mode='light'],
+.mode-light {
+	color-scheme: light;
+	--wash-alpha: 0.55;
+	--art: none;
+	--grain: 0;
+}
+
+:root[data-mode='dark'],
+.mode-dark {
+	color-scheme: dark;
+	--wash-alpha: 0.7;
+	--art: brightness(0.9) saturate(0.92);
+	--grain: 0.055;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-mode='light']) {
+		--wash-alpha: 0.7;
+		--art: brightness(0.9) saturate(0.92);
+		--grain: 0.055;
+	}
+}

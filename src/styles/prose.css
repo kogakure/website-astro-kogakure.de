@@ -1,0 +1,395 @@
+/*
+ * The reading text: the rendered Markdown of a page inside `.prose`
+ * (Prose.astro). Global, because the Markdown isn't part of a component's
+ * scope. Dry-brush dividers above the sections, figures cut by the ink
+ * edges with a small name plate as the caption marker, margin glosses from
+ * 75em, banners, quotes, lists and tables.
+ */
+
+.prose {
+	/* In rtl the brush starts at the right, so the dividers turn over */
+	--flip: 1;
+	counter-reset: fig;
+}
+
+.prose:dir(rtl) {
+	--flip: -1;
+}
+
+.prose p {
+	margin-block: 0 0.95em;
+	text-wrap: pretty;
+}
+
+.prose :is(h2, h3) {
+	color: var(--heading);
+	text-wrap: balance;
+	scroll-margin-block-start: 5rem;
+}
+
+.prose h2 {
+	margin-block: var(--section) 0.75em;
+	font-size: var(--text-title);
+	font-weight: 600;
+	line-height: 1.15;
+	letter-spacing: -0.015em;
+}
+
+/* Dry-brush divider above every section: five different strokes in turn,
+   each with its own length; on the second round they are mirrored, so no
+   two sections in a row open with the same mark */
+.prose h2::before {
+	content: '';
+	display: block;
+	inline-size: var(--divider-w, 10rem);
+	block-size: 2.4rem;
+	margin-block-end: 1.1rem;
+	background: var(--ink);
+	-webkit-mask: var(--divider) center / 100% 100% no-repeat;
+	mask: var(--divider) center / 100% 100% no-repeat;
+	scale: var(--flip) 1;
+}
+
+.prose h2:nth-of-type(5n + 1) {
+	--divider: url('/images/ink/divider-1.webp');
+	--divider-w: 10rem;
+}
+
+.prose h2:nth-of-type(5n + 2) {
+	--divider: url('/images/ink/divider-2.webp');
+	--divider-w: 12rem;
+}
+
+.prose h2:nth-of-type(5n + 3) {
+	--divider: url('/images/ink/divider-3.webp');
+	--divider-w: 9rem;
+}
+
+.prose h2:nth-of-type(5n + 4) {
+	--divider: url('/images/ink/divider-4.webp');
+	--divider-w: 11rem;
+}
+
+.prose h2:nth-of-type(5n + 5) {
+	--divider: url('/images/ink/divider-5.webp');
+	--divider-w: 8.5rem;
+}
+
+.prose
+	h2:is(
+		:nth-of-type(10n + 6),
+		:nth-of-type(10n + 7),
+		:nth-of-type(10n + 8),
+		:nth-of-type(10n + 9),
+		:nth-of-type(10n + 10)
+	)::before {
+	scale: calc(-1 * var(--flip)) 1;
+}
+
+.prose > h2:first-child {
+	margin-block-start: 0;
+}
+
+.prose > h2:first-child::before {
+	display: none;
+}
+
+.prose h3 {
+	margin-block: 2em 0.5em;
+	font-size: 1.3rem;
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.prose :is(em, cite) {
+	font-style: italic;
+}
+
+.prose :is(strong, b) {
+	font-weight: 600;
+}
+
+/* --------------------------------------------------------------- figures */
+
+/* Figures are wider than the text, cut by the ten ink edges in turn */
+.prose figure {
+	--figure: min(44em, 100vw - 2 * var(--gutter));
+	inline-size: var(--figure);
+	max-inline-size: none;
+	margin-block: 2.4em 2.6em;
+	margin-inline: calc((100% - var(--figure)) / 2);
+	counter-increment: fig;
+}
+
+.prose figure img {
+	display: block;
+	inline-size: 100%;
+	block-size: auto;
+	filter: var(--art);
+	-webkit-mask: var(--edge, url('/images/ink/wash-edge-b.webp')) center / 100% 100% no-repeat;
+	mask: var(--edge, url('/images/ink/wash-edge-b.webp')) center / 100% 100% no-repeat;
+}
+
+.prose figure:nth-of-type(10n + 1) {
+	--edge: url('/images/ink/wash-edge-b.webp');
+}
+
+.prose figure:nth-of-type(10n + 2) {
+	--edge: url('/images/ink/wash-edge-d.webp');
+}
+
+.prose figure:nth-of-type(10n + 3) {
+	--edge: url('/images/ink/wash-edge-f.webp');
+}
+
+.prose figure:nth-of-type(10n + 4) {
+	--edge: url('/images/ink/wash-edge-h.webp');
+}
+
+.prose figure:nth-of-type(10n + 5) {
+	--edge: url('/images/ink/wash-edge-j.webp');
+}
+
+.prose figure:nth-of-type(10n + 6) {
+	--edge: url('/images/ink/wash-edge-a.webp');
+}
+
+.prose figure:nth-of-type(10n + 7) {
+	--edge: url('/images/ink/wash-edge-c.webp');
+}
+
+.prose figure:nth-of-type(10n + 8) {
+	--edge: url('/images/ink/wash-edge-e.webp');
+}
+
+.prose figure:nth-of-type(10n + 9) {
+	--edge: url('/images/ink/wash-edge-g.webp');
+}
+
+.prose figure:nth-of-type(10n + 10) {
+	--edge: url('/images/ink/wash-edge-i.webp');
+}
+
+.prose figcaption {
+	display: flow-root;
+	max-inline-size: var(--measure);
+	margin-block: 1rem 0;
+	margin-inline: auto;
+	font-size: var(--text-caption);
+	line-height: 1.5;
+	color: var(--text-2);
+	hyphens: manual;
+}
+
+/* A small name plate as the caption marker: 図一, 図二, … Stacked as a
+   one-character-wide horizontal column rather than vertical-rl, so the
+   float and its margin follow the caption's direction in rtl too */
+.prose figcaption::before {
+	content: '図' counter(fig, cjk-decimal);
+	float: inline-start;
+	inline-size: 1em;
+	margin-block: 0.15rem 0.3rem;
+	margin-inline: 0 0.9rem;
+	padding-block: 0.38em 0.45em;
+	padding-inline: 0.24em;
+	background: var(--plate);
+	border: 0.12em solid var(--plate-ink);
+	outline: 0.03em solid var(--plate-ink);
+	outline-offset: -0.24em;
+	font-family: var(--brush);
+	font-size: 1.15rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-align: center;
+	word-break: break-all;
+	color: var(--plate-ink);
+}
+
+/* An article whose opener is its first figure (OpenerPlate) hides it here
+   and counts on from 図二 */
+.prose[data-opener] {
+	counter-reset: fig 1;
+}
+
+.prose[data-opener] figure:first-of-type {
+	display: none;
+}
+
+/* ---------------------------------------------------------------- glosses */
+
+/* A Japanese term with its kanji and meaning (glossed-terms.ts):
+   inline in parentheses on narrow screens, as in the source */
+.gloss::before {
+	content: ' (';
+}
+
+.gloss::after {
+	content: ')';
+}
+
+.gloss-term {
+	display: none;
+}
+
+.gloss-meaning::before {
+	content: ', ';
+}
+
+.gloss-kanji {
+	color: var(--heading);
+}
+
+/* In the outer margin (inline end) from 75em: the term, its kanji in the
+   brush face of the name plates, the meaning, hung on a short sumi rule.
+   Only where the reading grid has a margin column for it */
+@media (min-width: 75em) {
+	.prose-margin .gloss {
+		float: inline-end;
+		clear: inline-end;
+		inline-size: 13rem;
+		margin-block: 0.3rem 0.8rem;
+		margin-inline: 0 -16rem;
+		padding-block-start: 0.6rem;
+		border-block-start: 2px solid var(--ink);
+		font-size: 1rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1.4;
+		color: var(--text-2);
+		hyphens: manual;
+	}
+
+	.prose-margin .gloss::before,
+	.prose-margin .gloss::after,
+	.prose-margin .gloss-meaning::before {
+		content: none;
+	}
+
+	.prose-margin .gloss-term {
+		display: block;
+		font-style: italic;
+		color: var(--text);
+	}
+
+	.prose-margin .gloss-kanji {
+		display: block;
+		margin-block: 0.15rem 0.2rem;
+		font-family: var(--brush);
+		font-size: 2.1rem;
+		line-height: 1.15;
+		letter-spacing: 0.04em;
+	}
+
+	.prose-margin .gloss-meaning {
+		display: block;
+	}
+
+	/* Figures break out of the column: keep them clear of a hanging gloss */
+	.prose-margin figure {
+		clear: inline-end;
+	}
+}
+
+/* ---------------------------------------------------------------- banners */
+
+/* An info box (banners.ts, Banner.astro): no card, two hairlines and an
+   ink rule at the start, the title in the heading colour */
+.banner {
+	margin-block: 2em;
+	padding-block: 1.1rem 0.2rem;
+	padding-inline: 1.25rem 0;
+	border-block: 1px solid var(--rule);
+	border-inline-start: 2px solid var(--ink);
+}
+
+.banner .banner-title {
+	margin-block: 0 0.4em;
+	font-weight: 600;
+	color: var(--heading);
+}
+
+.banner .banner-title strong {
+	font-weight: inherit;
+}
+
+/* --------------------------------------------------- quotes, lists, tables */
+
+.prose blockquote {
+	margin-block: 1.6em;
+	margin-inline: 0;
+	padding-inline-start: 1.25rem;
+	border-inline-start: 1px solid var(--rule);
+	color: var(--text-2);
+}
+
+.prose blockquote p:last-child {
+	margin-block-end: 0;
+}
+
+.prose ul {
+	list-style: disc;
+}
+
+.prose ol {
+	list-style: decimal;
+}
+
+.prose :is(ul, ol) {
+	margin-block: 0 0.95em;
+	padding-inline-start: 1.4em;
+}
+
+.prose li {
+	margin-block: 0.25em;
+	padding-inline-start: 0.2em;
+}
+
+.prose li::marker {
+	color: var(--text-3);
+}
+
+.prose hr {
+	inline-size: 6rem;
+	margin-block: var(--section);
+	margin-inline: auto;
+	border: 0;
+	border-block-start: 1px solid var(--rule);
+}
+
+/* Tables scroll on their own on narrow screens, ruled with hairlines */
+.prose table {
+	display: block;
+	max-inline-size: 100%;
+	overflow-x: auto;
+	margin-block: 1.6em;
+	border-collapse: collapse;
+	font-size: 1.0625rem;
+	line-height: 1.45;
+}
+
+.prose :is(th, td) {
+	padding-block: 0.5em;
+	padding-inline: 0 1.25em;
+	border-block-end: 1px solid var(--rule);
+	text-align: start;
+	vertical-align: top;
+}
+
+.prose th {
+	font-weight: 600;
+	color: var(--heading);
+}
+
+.prose :is(dl) {
+	margin-block: 0 0.95em;
+}
+
+.prose dt {
+	font-weight: 600;
+}
+
+.prose dd {
+	margin-inline-start: 1.25rem;
+	margin-block-end: 0.6em;
+}
