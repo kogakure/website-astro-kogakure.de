@@ -9,6 +9,11 @@ categories:
   - philosophy
 ---
 
+<figure>
+<img src="/images/article/godai-03-from-earth-to-void.webp" alt="Eine Landschaft von links nach rechts: ein gewaltiger Felsblock, ein Bach über Steinen, eine Hütte mit glimmendem Feuer, vom Wind gebeugtes Gras und rechts ein offener, leerer Himmel über einer Ebene; auf einem Felsvorsprung sitzt ein Mönch in Meditation.">
+<figcaption>Von der Erde bis zur Leere</figcaption>
+</figure>
+
 ## Entwicklung eines natürlichen Bewusstseins
 
 Die Ninja wollten <q>durch und durch natürliche Wesen</q> werden. Ihr Ziel war das _kiai_-Bewusstsein (気合). Dazu muss man das Wirken der kosmischen Gesetze, des Universalbewusstseins, unmittelbar am eigenen Leib erfahren. Man beobachtet die Natur ohne Vorurteil und versteht die eigene Verbindung zu allen Dingen. Das führt zur Selbsterkenntnis.

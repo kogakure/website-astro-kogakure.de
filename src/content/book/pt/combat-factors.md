@@ -11,6 +11,11 @@ categories:
   - training
 ---
 
+<figure>
+<img src="/images/article/combat-factors-03-nagare-flowing-like-river.webp" alt="Na margem de cascalho de um rio, um homem com roupa de treino escura ataca com um bastão longo enquanto o outro gira para fora do seu alcance num único movimento fluido; as pegadas de ambos marcam a areia molhada.">
+<figcaption><em>Nagare</em>, fluir como o rio</figcaption>
+</figure>
+
 ## Nagare
 
 Sem fluxo, as técnicas parecem truncadas, como se cada uma fosse executada sozinha, sem ligação com a seguinte. Por isso o princípio da ação fluida, _nagare_ (流れ), está entre os mais importantes do treinamento. Quem não o domina tenta impor uma técnica a uma situação com toda a força. Como falta a adaptação fluida, só lhe resta a força dos músculos e dos ossos.

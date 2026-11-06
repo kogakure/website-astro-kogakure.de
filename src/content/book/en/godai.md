@@ -9,6 +9,11 @@ categories:
   - philosophy
 ---
 
+<figure>
+<img src="/images/article/godai-03-from-earth-to-void.webp" alt="A landscape from left to right: a huge boulder, a stream over rocks, a hut with a glowing fire, grass bent by the wind and, on the right, an open, empty sky above a plain; a monk sits in meditation on a ledge.">
+<figcaption>From earth to void</figcaption>
+</figure>
+
 ## Development of a Natural Consciousness
 
 The ninja wanted to become <q>thoroughly natural beings</q>. Their goal was _kiai_ (気合) consciousness. To reach it, you have to experience the workings of the cosmic laws, the universal consciousness, directly in yourself. You observe nature without prejudice and understand your own connection to all things. This leads to self-knowledge.

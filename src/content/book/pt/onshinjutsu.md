@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/onshinjutsu-04-hiding-among-scarecrows.webp" alt="Um arrozal colhido ao luar: uma patrulha com lanternas passa pelo dique, no campo um ninja encapuzado está imóvel entre os feixes de palha e um segundo está deitado num sulco.">
+<figcaption>Escondido no campo aberto</figcaption>
+</figure>
+
 ## A arte de se esconder
 
 Quem está escondido pode observar com relativa segurança ou esperar o momento certo. Por isso, esconder-se é provavelmente o meio mais eficaz de se proteger. A arte de se esconder, ocultar, camuflar e tornar-se invisível se chama **_onshin jutsu_** (隠身術), também _inton_ (隠遁) ou _inpō_ (隠法). Ela se divide em três áreas:

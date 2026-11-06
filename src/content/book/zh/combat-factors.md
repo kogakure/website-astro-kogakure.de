@@ -11,6 +11,11 @@ categories:
   - training
 ---
 
+<figure>
+<img src="/images/article/combat-factors-03-nagare-flowing-like-river.webp" alt="在河边的卵石滩上，一名身穿深色练功服的男子用长棍刺出，另一人以一个流畅的转身躲出他的攻击范围；湿沙上留着两人的脚印。">
+<figcaption>流，如河水般流动</figcaption>
+</figure>
+
 ## 流
 
 动作若不流畅，技法看起来就会断断续续，仿佛每一招都是单独施展的，与下一招毫不相干。因此，流畅行动的原则，即流（nagare），是训练中最重要的原则之一。不掌握这一原则的人，会竭尽全力把一项技法硬套到局面上。由于缺乏流畅的调整，他能依靠的只剩下肌肉和骨骼的力量。

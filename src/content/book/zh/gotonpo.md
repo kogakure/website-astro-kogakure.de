@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/gotonpo-04-escape-through-smoke-into-trees.webp" alt="夜里，一座瞭望塔起火，浓烟飘过广阔的原野；手持长矛的士兵奔向火场，而在右侧，一名蒙面忍者正攀上一棵松树的树冠。">
+<figcaption>火遁与木遁，穿过烟雾逃入树林</figcaption>
+</figure>
+
 完成任务之后，忍者必须脱身。为此，他们掌握了**五遁法**（gotonpō），即五种逃脱方法。每一种方法都利用五种元素之一，并以道家的五行（gogyō）原理为基础：忍者借助水（水遁，suiton）、木（木遁，mokuton）、火（火遁，katon）、土（土遁，doton）和金（金遁，kinton）来准备并实施逃脱。
 
 ## 水遁

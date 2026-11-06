@@ -11,6 +11,11 @@ categories:
   - training
 ---
 
+<figure>
+<img src="/images/article/combat-factors-03-nagare-flowing-like-river.webp" alt="Am Kiesufer eines Flusses stößt ein Mann in dunkler Übungskleidung mit einem langen Stock zu, während der andere sich in einer fließenden Drehung aus seiner Reichweite bewegt; im nassen Sand sind ihre Fußspuren zu sehen.">
+<figcaption><em>Nagare</em>, fließen wie der Fluss</figcaption>
+</figure>
+
 ## Nagare
 
 Ohne Fluss wirken Techniken abgehackt, als würde jede für sich und unabhängig von der nächsten ausgeführt. Deshalb gehört das Prinzip der fließenden Handlung, _nagare_ (流れ), zu den wichtigsten im Training. Wer es nicht beherrscht, versucht, eine Technik mit aller Kraft in eine Situation zu zwingen. Weil die fließende Anpassung fehlt, bleibt ihm nur die Kraft von Muskeln und Knochen.

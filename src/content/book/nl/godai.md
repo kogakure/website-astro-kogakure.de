@@ -9,6 +9,11 @@ categories:
   - philosophy
 ---
 
+<figure>
+<img src="/images/article/godai-03-from-earth-to-void.webp" alt="Een landschap van links naar rechts: een enorm rotsblok, een beek over stenen, een hut met een gloeiend vuur, gras dat buigt in de wind en rechts een open, lege hemel boven een vlakte; op een rotsrichel zit een monnik in meditatie.">
+<figcaption>Van aarde tot leegte</figcaption>
+</figure>
+
 ## Een natuurlijk bewustzijn ontwikkelen
 
 De ninja wilden <q>door en door natuurlijke wezens</q> worden. Hun doel was het _kiai_-bewustzijn (気合). Daarvoor moet je de werking van de kosmische wetten, het universele bewustzijn, rechtstreeks aan den lijve ervaren. Je observeert de natuur zonder vooroordeel en begrijpt je eigen verbinding met alle dingen. Dat leidt tot zelfkennis.

@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/gotonpo-04-escape-through-smoke-into-trees.webp" alt="’s Nachts brandt een wachttoren en dikke rook trekt over een wijd veld; soldaten met speren rennen naar het vuur, terwijl rechts een gemaskerde ninja in de kruin van een den klimt.">
+<figcaption><em>Katon</em> en <em>mokuton</em>, vluchten door de rook de bomen in</figcaption>
+</figure>
+
 Na een opdracht moest de ninja zien te ontkomen. Daarvoor kende hij het **_gotonpō_** (五遁法), de vijf methoden van ontsnapping. Elke methode gebruikt een van de vijf elementen en berust op het daoïstische principe van het _gogyō_ (五行): met water (_suiton_, 水遁), hout (_mokuton_, 木遁), vuur (_katon_, 火遁), aarde (_doton_, 土遁) en metaal (_kinton_, 金遁) bereidde de ninja zijn vlucht voor en voerde hij haar uit.
 
 ## Suiton – Vluchten met water

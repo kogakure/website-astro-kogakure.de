@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/onshinjutsu-04-hiding-among-scarecrows.webp" alt="A harvested rice field by moonlight: a patrol with lanterns passes along the dyke, a hooded ninja stands motionless among the straw sheaves in the field, and a second one lies flat in a furrow.">
+<figcaption>Hidden in the open field</figcaption>
+</figure>
+
 ## The Art of Hiding
 
 Someone who is hidden can watch in relative safety or wait for the right moment. That makes hiding probably the most effective way to protect yourself. The art of hiding, concealing, camouflaging, and making yourself invisible is called **_onshin jutsu_** (隠身術), also _inton_ (隠遁) or _inpō_ (隠法). It falls into three areas:

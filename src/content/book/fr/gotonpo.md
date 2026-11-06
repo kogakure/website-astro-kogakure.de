@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/gotonpo-04-escape-through-smoke-into-trees.webp" alt="La nuit, une tour de guet brûle et une épaisse fumée traverse un vaste champ ; des soldats armés de lances courent vers le feu tandis qu’à droite, un ninja encapuchonné grimpe dans la cime d’un pin.">
+<figcaption><em>Katon</em> et <em>mokuton</em>, fuite à travers la fumée vers les arbres</figcaption>
+</figure>
+
 Une mission accomplie, le ninja devait s’échapper. Il disposait pour cela du **_gotonpō_** (五遁法), les cinq méthodes de fuite. Chacune utilise l’un des cinq éléments et repose sur le principe daoïste du _gogyō_ (五行) : avec l’eau (_suiton_, 水遁), le bois (_mokuton_, 木遁), le feu (_katon_, 火遁), la terre (_doton_, 土遁) et le métal (_kinton_, 金遁), le ninja préparait et menait sa fuite.
 
 ## Suiton – Fuir par l’eau

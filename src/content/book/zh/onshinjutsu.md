@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/onshinjutsu-04-hiding-among-scarecrows.webp" alt="月光下一片收割过的稻田：一队提着灯笼的巡逻兵沿着田埂走过，田里一名蒙面忍者一动不动地站在草垛之间，另一人则平趴在垄沟里。">
+<figcaption>藏身于开阔的田野</figcaption>
+</figure>
+
 ## 藏身之术
 
 藏起来的人，可以在相对安全的状态下观察，或者等待合适的时机。因此，藏身大概是保护自己最有效的方法。藏身、隐匿、伪装和让自己不被看见的技艺，称为**隐身术**（onshin jutsu），也叫隐遁（inton）或隐法（inpō）。它分为三个方面：

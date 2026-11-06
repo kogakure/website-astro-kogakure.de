@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/onshinjutsu-04-hiding-among-scarecrows.webp" alt="Une rizière moissonnée au clair de lune : une patrouille munie de lanternes passe sur la digue, dans le champ un ninja encapuchonné se tient immobile parmi les gerbes de paille, et un second est couché à plat dans un sillon.">
+<figcaption>Caché en plein champ</figcaption>
+</figure>
+
 ## L’art de se cacher
 
 Celui qui est caché peut observer en relative sécurité ou attendre le bon moment. Se cacher est donc sans doute le moyen le plus efficace de se protéger. L’art de se cacher, de se dissimuler, de se camoufler et de se rendre invisible s’appelle **_onshin jutsu_** (隠身術), ou encore _inton_ (隠遁) ou _inpō_ (隠法). Il se divise en trois domaines :

@@ -9,9 +9,9 @@
 		"it": "34b2b415f25db2ff",
 		"nl": "3565e174d04fa0f3",
 		"ru": "90919a7900631295",
-		"ja": "2ea861228c7de302",
-		"zh": "b2a0391795bde908",
-		"ko": "bcdd8ae9a08e787b",
+		"ja": "3db5516537d4eaf8",
+		"zh": "6ab3541db5956d29",
+		"ko": "0c3dada16cd3179a",
 		"he": "30ed18d52a226f89"
 	},
 	"faces": [
@@ -1854,14 +1854,6 @@
 			"family": "Noto Serif SC",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-sc-400-page-bc5e6f9909.woff2",
-			"bytes": 29508,
-			"pages": ["zh/combat-factors"]
-		},
-		{
-			"family": "Noto Serif SC",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/noto-serif-sc-400-page-bf2c0e605c.woff2",
 			"bytes": 37872,
 			"pages": ["zh/body-weapons"]
@@ -1993,6 +1985,14 @@
 			"file": "/fonts/noto-serif-sc-400-page-f0b8582a59.woff2",
 			"bytes": 19800,
 			"pages": ["zh/chikairi"]
+		},
+		{
+			"family": "Noto Serif SC",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-sc-400-page-f1e560dd6b.woff2",
+			"bytes": 29968,
+			"pages": ["zh/combat-factors"]
 		},
 		{
 			"family": "Noto Serif SC",
@@ -2704,14 +2704,6 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/shippori-mincho-400-page-1249ebb56d.woff2",
-			"bytes": 22212,
-			"pages": ["ja/combat-factors"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/shippori-mincho-400-page-1492d9435b.woff2",
 			"bytes": 44236,
 			"pages": ["ja/chronology"]
@@ -3243,6 +3235,14 @@
 			"file": "/fonts/shippori-mincho-400-page-ea7d80c816.woff2",
 			"bytes": 15940,
 			"pages": ["ja/water-tools"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/shippori-mincho-400-page-ec4d97ae0c.woff2",
+			"bytes": 22308,
+			"pages": ["ja/combat-factors"]
 		},
 		{
 			"family": "Shippori Mincho",
