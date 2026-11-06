@@ -7,6 +7,7 @@
 | Runtime                  | Node 26 LTS, pnpm 12                                | Pinned in `mise.toml`, `.nvmrc` and `packageManager`                                  |
 | Styling                  | Tailwind CSS 4 via `@tailwindcss/vite`              | Design tokens in `src/styles/global.css`                                              |
 | Interactive parts        | React 19 islands, shadcn/ui on Base UI              | Style `base-lyra`, RTL enabled (`components.json`); `cn()` from clsx + tailwind-merge |
+| Content                  | Markdown with raw HTML, Sätteri                     | Imported from kogakure-texts (`docs/content.md`); HAST plugins in `src/lib/markdown/` |
 | Images                   | Pregenerated WebP sizes, committed                  | Astro's image service is `passthroughImageService()` (build time)                     |
 | Lint                     | Oxlint                                              | Also lints the script part of `.astro` files (`.oxlintrc.json`)                       |
 | Types                    | `astro check`                                       | Checks `.astro`, `.ts` and `.tsx`                                                     |

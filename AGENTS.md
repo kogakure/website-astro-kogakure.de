@@ -25,6 +25,7 @@ The plan and all issues are in the Linear project _Migration to Astro_ (P-SI-13)
 - Tech stack (`docs/tech-stack.md`): what the project uses and why
 - Directories (`docs/directories.md`): where things live
 - Commands (`docs/commands.md`): develop, check, test, build, Docker
+- Content (`docs/content.md`): import from kogakure-texts, validation, routes, UI strings, Markdown plugins
 - Testing (`docs/testing.md`): unit, component, accessibility and end-to-end tests
 - Git workflow (`docs/git-workflow.md`): branches, commits, pull requests, Linear
 
