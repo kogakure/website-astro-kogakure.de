@@ -26,7 +26,8 @@
 		"docker:build": "docker build -t kogakure-local .",
 		"docker:run": "docker run --rm -p 8080:80 kogakure-local",
 		"prepare": "husky",
-		"import:content": "node scripts/import-content.ts"
+		"import:content": "node scripts/import-content.ts",
+		"images": "node scripts/generate-images.ts"
 	},
 	"dependencies": {
 		"@astrojs/markdown-satteri": "^0.4.6",
@@ -64,6 +65,7 @@
 		"prettier": "^3.9.0",
 		"prettier-plugin-astro": "^1.1.0",
 		"prettier-plugin-tailwindcss": "^0.8.0",
+		"sharp": "0.35.5",
 		"typescript": "^6.0.3",
 		"vitest": "^5.1.0",
 		"yaml": "^2.9.1"
