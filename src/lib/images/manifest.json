@@ -197,6 +197,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 35%",
 			"widths": [
 				800,
 				1400,
@@ -4312,7 +4313,7 @@
 		},
 		"chronolyPage": {
 			"image": "article/chronology-01-book-growing-over-years.webp",
-			"hash": "065e0f0425351bff"
+			"hash": "9ffc8260aa077693"
 		},
 		"climbingToolsPage": {
 			"image": "article/climbing-tools-01-over-walls-and-ravines.webp",
