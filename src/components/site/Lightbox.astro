@@ -4,8 +4,9 @@
  * image, so every one of them opens whole. A click (or Enter) on the image
  * lets its ink edge grow outwards until the full image stands on the paper,
  * as large as the screen allows, with its caption as the subtitle; a click,
- * the close button or Escape brings it back into its edge, and the plate's
- * name and subtitle, hidden meanwhile, fade back in. A native modal
+ * the close button or Escape brings it back into its edge. The caption
+ * travels along between the page and the subtitle; the plate's name and
+ * subtitle, hidden meanwhile, settle back in. A native modal
  * <dialog> (focus, Escape, inert page) and a few lines of script: the script
  * wraps every image in a button, so without JavaScript nothing changes.
  * Reduced motion opens and closes at once. Once per page (BaseLayout).
@@ -54,6 +55,8 @@ const { zoom, close } = Astro.props;
 		zoom: number;
 		/** The plate's name and subtitle, hidden while the painting is whole */
 		overlays: HTMLElement[];
+		/** The painting's own caption on the page */
+		text: HTMLElement | null;
 	}
 	let current: Open | undefined;
 	let closing = false;
@@ -78,6 +81,19 @@ const { zoom, close } = Astro.props;
 	/** The caption stands right under the image */
 	function place(end: { y: number; height: number }) {
 		caption?.style.setProperty('inset-block-start', `${end.y + end.height + SPACE / 2}px`);
+	}
+
+	/**
+	 * From the lightbox's caption to the painting's own (or the foot of the
+	 * painting): the caption travels with the frame instead of waiting under it
+	 */
+	function towards(text: HTMLElement | null, start: DOMRect) {
+		if (!caption) return '0 0';
+		const from = caption.getBoundingClientRect();
+		const to =
+			text?.getBoundingClientRect() ??
+			new DOMRect(start.x, start.y + start.height, start.width, 0);
+		return `${to.x + to.width / 2 - (from.x + from.width / 2)}px ${to.y - from.y}px`;
 	}
 
 	const box = (rect: { x: number; y: number; width: number; height: number }) => ({
@@ -148,10 +164,9 @@ const { zoom, close } = Astro.props;
 					() => {}
 				);
 		}
-		current = { trigger, source, start, zoom, overlays };
+		const text = source.closest('figure')?.querySelector('figcaption') ?? null;
+		current = { trigger, source, start, zoom, overlays, text };
 
-		const figure = source.closest('figure');
-		const text = figure?.querySelector('figcaption');
 		const captionLine = caption?.querySelector('span');
 		if (caption && captionLine) {
 			captionLine.innerHTML = (text?.querySelector('span') ?? text)?.innerHTML ?? '';
@@ -170,6 +185,11 @@ const { zoom, close } = Astro.props;
 		dialog.showModal();
 		const end = target(source);
 		place(end);
+		caption?.animate([{ opacity: 0, translate: towards(text, start) }, { opacity: 1 }], {
+			...timing,
+			duration: still.matches ? 0 : 450,
+			fill: 'none',
+		});
 		if (source.srcset) {
 			const large = new Image();
 			large.sizes = `${Math.ceil(end.width)}px`;
@@ -194,8 +214,12 @@ const { zoom, close } = Astro.props;
 	async function close() {
 		if (!dialog?.open || !frame || !shade || !current || closing) return;
 		closing = true;
-		const { trigger, start, zoom } = current;
+		const { trigger, start, zoom, text } = current;
 		const now = frame.getBoundingClientRect();
+		caption?.animate([{ opacity: 1 }, { opacity: 0, translate: towards(text, start) }], {
+			...timing,
+			duration: still.matches ? 0 : 450,
+		});
 		frame.classList.remove('is-whole');
 		shade.animate([{ opacity: 1 }, { opacity: 0 }], {
 			duration: still.matches ? 0 : 300,
@@ -238,6 +262,7 @@ const { zoom, close } = Astro.props;
 		for (const running of [
 			...(frame?.getAnimations() ?? []),
 			...(image?.getAnimations() ?? []),
+			...(caption?.getAnimations() ?? []),
 		])
 			running.cancel();
 	}
