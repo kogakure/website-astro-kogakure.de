@@ -10,7 +10,7 @@ import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { LANGS, LANGUAGES, type Lang } from '../../i18n/languages.ts';
 import { ui } from '../../i18n/ui.ts';
-import { BOOK_PLATE, DESIGN_NAME, PLATE_TEXT } from '../book/plates.ts';
+import { BOOK_PLATE, DESIGN_NAME, PLATE_TEXT, SCENES } from '../book/plates.ts';
 import type { Glossary, Toc } from '../book/schema.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../../..');
@@ -71,6 +71,36 @@ function tocTitles(toc: Toc): string {
 		.join('\n');
 }
 
+/**
+ * What an article sets of other pages, in its top bar and after the text:
+ * its part's title and the titles of the previous and the next page
+ */
+function bookContext(toc: Toc): Map<string, string> {
+	const parts = [{ title: '', items: toc.preface }, ...toc.parts];
+	const order = parts.flatMap(({ title, items }) =>
+		items.map((item) => ({ ...item, part: title }))
+	);
+	return new Map(
+		order.map(({ slug, part }, i) => [
+			slug,
+			[part, order[i - 1]?.title, order[i + 1]?.title].filter(Boolean).join('\n'),
+		])
+	);
+}
+
+/** The caption of a painting, wherever a page of the language shows it */
+function captionOf(image: string, markdown: readonly string[]): string {
+	const escaped = image.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	const figure = new RegExp(
+		`<img\\b[^>]*\\bsrc="${escaped}"[^>]*>\\s*<figcaption>([\\s\\S]*?)</figcaption>`
+	);
+	for (const page of markdown) {
+		const match = figure.exec(page);
+		if (match) return match[1] ?? '';
+	}
+	return '';
+}
+
 const frontmatter = (page: string): Record<string, unknown> =>
 	(parseYaml(/^---\n([\s\S]*?)\n---/.exec(page)?.[1] ?? '') as Record<string, unknown>) ?? {};
 
@@ -100,6 +130,8 @@ function visibleText(page: string): string {
 	return [title, excerpt, plate, body].filter(Boolean).join('\n');
 }
 
+const stripTags = (html: string) => html.replace(/<[^>]+>/g, '');
+
 /** Emphasis in Markdown and HTML */
 const ITALIC = /(?<![\w*])[_*]([^_*\n]+)[_*](?![\w*])|<(em|i|cite)\b[^>]*>([^<]*)<\/\2>/gu;
 
@@ -109,29 +141,37 @@ const italicText = (page: string) =>
 export function languageText(lang: Lang): LanguageText {
 	const dir = path.join(CONTENT, 'book', lang);
 	const glossary = JSON.parse(read(path.join(CONTENT, 'glossary', `${lang}.json`))) as Glossary;
-	const pages = fs
+	const toc = JSON.parse(read(path.join(CONTENT, 'toc', `${lang}.json`))) as Toc;
+	const context = bookContext(toc);
+	const files = fs
 		.readdirSync(dir)
 		.filter((name) => name.endsWith('.md'))
 		.toSorted()
-		.map((name) => {
-			const slug = name.slice(0, -3);
-			const markdown = read(path.join(dir, name));
-			const isGlossary = slug === GLOSSARY;
-			return {
-				slug,
-				text: [visibleText(markdown), ...(isGlossary ? glossaryText(glossary) : [])].join(
-					'\n'
-				),
-				bold: [boldText(markdown), ...(isGlossary ? glossaryTerms(glossary) : [])].join(
-					'\n'
-				),
-				italic: [String(frontmatter(markdown).excerpt ?? ''), italicText(markdown)].join(
-					'\n'
-				),
-				glosses: glossKanji(markdown),
-			};
-		});
-	const toc = JSON.parse(read(path.join(CONTENT, 'toc', `${lang}.json`))) as Toc;
+		.map((name) => ({ slug: name.slice(0, -3), markdown: read(path.join(dir, name)) }));
+	const pages = files.map(({ slug, markdown }) => {
+		const isGlossary = slug === GLOSSARY;
+		const around = context.get(slug) ?? '';
+		return {
+			slug,
+			text: [
+				visibleText(markdown),
+				around,
+				...(isGlossary ? glossaryText(glossary) : []),
+			].join('\n'),
+			bold: [boldText(markdown), around, ...(isGlossary ? glossaryTerms(glossary) : [])].join(
+				'\n'
+			),
+			italic: [String(frontmatter(markdown).excerpt ?? ''), italicText(markdown)].join('\n'),
+			glosses: glossKanji(markdown),
+		};
+	});
+	// The homepage's scenes, also on the parts' pages
+	const captions = SCENES.map(({ image }) =>
+		captionOf(
+			image,
+			files.map((f) => f.markdown)
+		)
+	);
 	// /design-system/ is English and loads the English homepage's subsets
 	const design = lang === 'en' ? DESIGN_NAME.kanji : '';
 	const uiAndPlates = `${uiText(lang)}\n${PLATE_TEXT}${design}`;
@@ -139,9 +179,9 @@ export function languageText(lang: Lang): LanguageText {
 	return {
 		pages,
 		ui: uiAndPlates,
-		home: [uiAndPlates, tocTitles(toc), ...excerpts].join('\n'),
+		home: [uiAndPlates, tocTitles(toc), ...excerpts, ...captions.map(stripTags)].join('\n'),
 		homeBold: `${uiAndPlates}\n${tocTitles(toc)}`,
-		homeItalic: BOOK_PLATE.romaji,
+		homeItalic: [BOOK_PLATE.romaji, ...captions.map(italicText)].join('\n'),
 		languageNames: LANGUAGES.map(({ name }) => name).join(' '),
 	};
 }
