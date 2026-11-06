@@ -100,6 +100,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 65%",
 			"widths": [
 				800,
 				1400,
@@ -4292,7 +4293,7 @@
 		},
 		"bujinkanPage": {
 			"image": "article/bujinkan-01-nine-schools-in-one.webp",
-			"hash": "b1ef24618e2ceaad"
+			"hash": "a627ee65a71527d5"
 		},
 		"burglaryToolsPage": {
 			"image": "article/burglary-tools-01-into-every-fortress.webp",
