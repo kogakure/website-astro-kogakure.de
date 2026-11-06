@@ -92,6 +92,40 @@
 	}
 }
 
+/* The vortex of the prologue drifts once and comes to rest (3.4 s, under
+   5 s, so it needs no pause control): the ink turns back 16°, the ochre wash
+   48°, and the title plate fades in after them */
+@keyframes drift-ink {
+	from {
+		opacity: 0;
+		rotate: 16deg;
+		scale: 0.94;
+	}
+
+	30% {
+		opacity: 1;
+	}
+}
+
+@keyframes drift-wash {
+	from {
+		opacity: 0;
+		rotate: -48deg;
+	}
+}
+
+.js .vortex::after {
+	animation: drift-ink 3400ms var(--ease-rest) both;
+}
+
+.js .vortex::before {
+	animation: drift-wash 3400ms var(--ease-rest) both;
+}
+
+.js .prologue-title {
+	animation: appear 900ms ease-out 1100ms both;
+}
+
 @keyframes wipe {
 	from {
 		clip-path: inset(0 100% 0 0);
