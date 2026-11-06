@@ -6,8 +6,8 @@ import LanguageSelect from './LanguageSelect.astro';
 import ModeSwitch from './ModeSwitch.astro';
 
 const LANGUAGES = [
-	{ lang: 'de', name: 'Deutsch', href: '/', current: true },
-	{ lang: 'he', name: 'עברית', href: '/he/' },
+	{ code: 'de', lang: 'de', name: 'Deutsch', href: '/', current: true },
+	{ code: 'he', lang: 'he', name: 'עברית', href: '/he/' },
 ];
 
 describe('ModeSwitch', () => {
@@ -36,6 +36,10 @@ describe('LanguageSelect', () => {
 		const html = await renderAstro(LanguageSelect, props);
 		expect(html).toMatch(/<option value="\/" lang="de" selected[^>]*>/);
 		expect(html).toMatch(/<option value="\/he\/" lang="he"[^>]*>/);
+		// Each language names its body face, fetched once it is chosen
+		expect(html).toMatch(
+			/lang="he"[^>]*data-font="\/fonts\/frank-ruhl-libre-hebrew-[0-9a-f]+\.woff2"/
+		);
 		expect(html).toMatch(/<button type="submit"[^>]*>Wechseln<\/button>/);
 		expect(html).toContain('<noscript>');
 	});

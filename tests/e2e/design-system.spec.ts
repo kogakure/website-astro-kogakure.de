@@ -38,8 +38,12 @@ test.describe('design system page', () => {
 		await expect(html).not.toHaveAttribute('data-mode');
 	});
 
-	test('goes to the chosen language with the button', async ({ page }) => {
+	test('goes to the chosen language with the button, fetched on choosing', async ({ page }) => {
 		await page.goto('/design-system/');
+		const fetched = page.waitForRequest(/\/fonts\/noto-serif-sc-400-common-[0-9a-f]+\.woff2$/);
+		await page.getByLabel('Sprache').selectOption({ label: '中文' });
+		await fetched;
+		await expect(page).toHaveURL(/\/design-system\/$/);
 		await page.getByLabel('Sprache').selectOption({ label: 'English' });
 		await page.getByRole('button', { name: 'Wechseln' }).click();
 		await expect(page).toHaveURL(/\/en\/$/);
