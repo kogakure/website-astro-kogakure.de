@@ -9,6 +9,8 @@
 | Interactive parts        | React 19 islands, shadcn/ui on Base UI              | Style `base-lyra`, RTL enabled (`components.json`); `cn()` from clsx + tailwind-merge |
 | Content                  | Markdown with raw HTML, Sätteri                     | Imported from kogakure-texts (`docs/content.md`); HAST plugins in `src/lib/markdown/` |
 | Images                   | Pregenerated WebP sizes (sharp), committed          | `pnpm images`, `docs/images.md`; the build uses `passthroughImageService()`           |
+| Fonts                    | Self-hosted WOFF2 subsets (subset-font), committed  | `pnpm fonts`, `docs/fonts.md`; no font CDN                                            |
+| Design system            | Gekiga (`DESIGN.md`)                                | Tokens in `src/styles/`, light/dark with `light-dark()`, `/design-system/`            |
 | Lint                     | Oxlint                                              | Also lints the script part of `.astro` files (`.oxlintrc.json`)                       |
 | Types                    | `astro check`                                       | Checks `.astro`, `.ts` and `.tsx`                                                     |
 | Format                   | Prettier with the Astro and Tailwind plugins        | Tabs, single quotes, width 100                                                        |
