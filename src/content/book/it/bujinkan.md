@@ -32,7 +32,7 @@ Il loro compito è preservare questi ideali e vegliare su di essi. Dedicano tutt
 Sotto il dottor Hatsumi Masaaki furono riunite nove scuole guerriere e di ninja, trasmesse per generazioni da maestro ad allievo. In onore del suo maestro Takamatsu Toshitsugu, Hatsumi chiamò questi nove _ryūha_ (流派) Bujinkan (武神館). _Bu_ significa guerra, _jin_ dio, cuore o anima e _kan_ palazzo, edificio o grande casa. Una traduzione possibile è dunque <q>la sala del dio della guerra</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/bujinkan.webp" alt="I caratteri 武神 in nera scrittura a pennello su un disco rosso bordato di nero, al centro di un foglio di carta chiara.">
+<img src="/images/calligraphy/bujinkan.webp" alt="I caratteri 武神 in nera scrittura a pennello su un disco rosso bordato di nero, al centro di un foglio di carta chiara.">
 <figcaption>Emblema del Bujinkan (武神館)</figcaption>
 </figure>
 

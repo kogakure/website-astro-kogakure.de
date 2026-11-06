@@ -31,7 +31,7 @@ Voor velen blijft deze leer echter gesloten. De teksten zijn bijna zonder uitzon
 Wie het daoïsme wil begrijpen, begint bij de polariteit van yin en yang, in het Japans _in’yō_ (陰陽). Die vormt een centraal deel van de leer. Het symbool met de witte en de zwarte kant hebben industrie en media allang uitgebuit als populaire handelswaar, en velen dragen het aan een kettinkje om hun hals zonder te weten wat het betekent.
 
 <figure>
-<img src="/images/vector/calligraphy/inyo.webp" alt="Het in’yō-symbool midden op het blad, omgeven door een brede rand van leeg papier.">
+<img src="/images/calligraphy/inyo.webp" alt="Het in’yō-symbool midden op het blad, omgeven door een brede rand van leeg papier.">
 <figcaption><em>In’yō</em> (陰陽), het yin-yangsymbool</figcaption>
 </figure>
 

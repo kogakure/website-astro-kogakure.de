@@ -52,7 +52,7 @@ Nell’antica Cina tutto era soggetto a un ciclo eterno: le stagioni, i giorni, 
 ## Interdipendenza degli elementi
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="Cinque disegni disposti in cerchio su carta antica – una fiamma, un mattone d’argilla, una moneta, un’onda e un albero – collegati da frecce continue lungo il cerchio e da frecce tratteggiate che formano una stella; in basso un germoglio indica la linea continua, una pietra spezzata quella tratteggiata.">
+<img src="/images/diagrams/gogyo.webp" alt="Cinque disegni disposti in cerchio su carta antica – una fiamma, un mattone d’argilla, una moneta, un’onda e un albero – collegati da frecce continue lungo il cerchio e da frecce tratteggiate che formano una stella; in basso un germoglio indica la linea continua, una pietra spezzata quella tratteggiata.">
 <figcaption><em>Gogyō</em> (五行), diagramma dei cinque elementi</figcaption>
 </figure>
 

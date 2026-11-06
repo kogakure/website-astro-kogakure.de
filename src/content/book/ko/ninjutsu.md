@@ -27,28 +27,28 @@ translationKey: ninjutsuPage
 닌자라는 말은 일본어가 아닌 언어로 곧바로 옮길 수 없다.
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="두 글자 忍者가 섬유질이 보이는 밝은 종이 위에 검은 붓글씨로 나란히 쓰여 있다.">
+<img src="/images/calligraphy/ninja.webp" alt="두 글자 忍者가 섬유질이 보이는 밝은 종이 위에 검은 붓글씨로 나란히 쓰여 있다.">
 <figcaption>닌자(忍者)</figcaption>
 </figure>
 
 닌자와 인술에 모두 들어 있는 글자 닌(忍)은 시노부라고도 읽는다. 이 글자에는 <q>인내</q>, <q>끈기</q>, <q>자제</q>라는 뜻이 함께 담겨 있다. 사전에서는 닌이 <q>은밀함</q>, <q>숨김</q>, <q>숨음</q>을 뜻하기도 한다. 인술의 주쓰(術)는 <q>기술</q>을, 닌자의 자(者)는 <q>사람</q>을 뜻한다.
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="글자 忍이 밝은 종이 한가운데에 검은 붓글씨로 크게 쓰여 있다.">
+<img src="/images/calligraphy/shinobu.webp" alt="글자 忍이 밝은 종이 한가운데에 검은 붓글씨로 크게 쓰여 있다.">
 <figcaption>시노부(忍)</figcaption>
 </figure>
 
 닌이라는 글자는 다른 두 글자로 이루어져 있다. 위에는 <q>칼날</q>을 뜻하는 야이바(刃)가 있다.
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="글자 刃이 밝은 종이 한가운데에 검은 붓글씨로 크게 쓰여 있다.">
+<img src="/images/calligraphy/yaiba.webp" alt="글자 刃이 밝은 종이 한가운데에 검은 붓글씨로 크게 쓰여 있다.">
 <figcaption>야이바(刃)</figcaption>
 </figure>
 
 아래에는 <q>마음</q>을 뜻하는 일본어 고코로(心)가 있다.
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="글자 心이 밝은 종이 한가운데에 검은 붓글씨로 크게 쓰여 있다.">
+<img src="/images/calligraphy/kokoro.webp" alt="글자 心이 밝은 종이 한가운데에 검은 붓글씨로 크게 쓰여 있다.">
 <figcaption>고코로(心)</figcaption>
 </figure>
 

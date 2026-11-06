@@ -21,7 +21,7 @@ Gürtel, Pokale und Titel waren im Ninjutsu nie das Ziel. Diese Kampfweise entst
 Das Training soll eine natürliche Kampfweise hervorbringen, die ganz auf den Menschen zugeschnitten ist, der sie ausübt. Dazu braucht es vor allem ein zeitloses Verständnis davon, wie Menschen sich verhalten und wie ihr Körper gebaut ist.
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="Ein Baumdiagramm auf altem Papier: Unter dem Begriff Taijutsu verzweigen sich drei Äste für Körperbewegungen, Schlagtechniken und Grifftechniken, jeder mit einer Liste von Teilgebieten in Kanji und Umschrift.">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="Ein Baumdiagramm auf altem Papier: Unter dem Begriff Taijutsu verzweigen sich drei Äste für Körperbewegungen, Schlagtechniken und Grifftechniken, jeder mit einer Liste von Teilgebieten in Kanji und Umschrift.">
 <figcaption><em>Taijutsu zu</em>, Schema des <em>taijutsu</em></figcaption>
 </figure>
 

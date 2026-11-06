@@ -52,7 +52,7 @@ En la antigua China, todo estaba sujeto a un ciclo eterno: las estaciones, los d
 ## La interdependencia de los elementos
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="Cinco dibujos dispuestos en círculo sobre papel envejecido – una llama, un ladrillo de barro, una moneda, una ola y un árbol –, unidos por flechas continuas alrededor del círculo y por flechas discontinuas que forman una estrella; abajo, un brote representa la línea continua y una piedra rota, la discontinua.">
+<img src="/images/diagrams/gogyo.webp" alt="Cinco dibujos dispuestos en círculo sobre papel envejecido – una llama, un ladrillo de barro, una moneda, una ola y un árbol –, unidos por flechas continuas alrededor del círculo y por flechas discontinuas que forman una estrella; abajo, un brote representa la línea continua y una piedra rota, la discontinua.">
 <figcaption><em>Gogyō</em> (五行), diagrama de los cinco elementos</figcaption>
 </figure>
 

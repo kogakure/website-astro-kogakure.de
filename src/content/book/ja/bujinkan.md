@@ -32,7 +32,7 @@ categories:
 初見良昭博士のもとで、代々師から弟子へと受け継がれてきた武芸と忍術の九つの流派がひとつにまとめられた。初見は師の高松寿嗣を称えて、この九つの流派を武神館と名づけた。武は戦を、神は神や心、魂を、館は宮殿や建物、大きな屋敷を表す。訳すとすれば、<q>戦の神の館</q>となる。
 
 <figure>
-<img src="/images/vector/calligraphy/bujinkan.webp" alt="明るい色の紙の中央に、黒い縁取りのある赤い円が描かれ、その上に黒い筆文字で武神と書かれている。">
+<img src="/images/calligraphy/bujinkan.webp" alt="明るい色の紙の中央に、黒い縁取りのある赤い円が描かれ、その上に黒い筆文字で武神と書かれている。">
 <figcaption>武神館の紋章</figcaption>
 </figure>
 

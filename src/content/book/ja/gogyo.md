@@ -52,7 +52,7 @@ categories:
 ## 要素の相互関係
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="古い紙の上に炎、粘土の煉瓦、硬貨、波、木の五つの絵が円形に並び、円を巡る実線の矢印と星形をなす破線の矢印で結ばれ、下には実線を表す若芽と破線を表す割れた石が描かれている。">
+<img src="/images/diagrams/gogyo.webp" alt="古い紙の上に炎、粘土の煉瓦、硬貨、波、木の五つの絵が円形に並び、円を巡る実線の矢印と星形をなす破線の矢印で結ばれ、下には実線を表す若芽と破線を表す割れた石が描かれている。">
 <figcaption>五行、五要素の図</figcaption>
 </figure>
 

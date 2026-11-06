@@ -31,7 +31,7 @@ categories:
 道教を理解しようとする者は、陰と陽の極性、すなわち陰陽から始める。これは教えの中心をなすものである。白と黒に分かれたその図形は、とうの昔に産業とメディアによって人気の商品として売り物にされ、多くの人がその意味も知らずに首飾りにして身につけている。
 
 <figure>
-<img src="/images/vector/calligraphy/inyo.webp" alt="紙の中央に陰陽の図形が置かれ、その周りを何も描かれていない広い余白が囲んでいる。">
+<img src="/images/calligraphy/inyo.webp" alt="紙の中央に陰陽の図形が置かれ、その周りを何も描かれていない広い余白が囲んでいる。">
 <figcaption>陰陽の図形</figcaption>
 </figure>
 

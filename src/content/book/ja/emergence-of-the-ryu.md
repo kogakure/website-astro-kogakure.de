@@ -45,7 +45,7 @@ categories:
 ## 新しい流派の波
 
 <figure>
-<img src="/images/vector/diagrams/rekishi-chizu.webp" alt="1から60までの番号が振られた日本の旧国の地図で、赤い印の1から3が江戸、京都、大阪を示し、茶色の線が京都から江戸への東海道をたどり、灰色の部分が伊賀と甲賀を示し、上には甲賀と伊賀の紋が描かれている。">
+<img src="/images/diagrams/rekishi-chizu.webp" alt="1から60までの番号が振られた日本の旧国の地図で、赤い印の1から3が江戸、京都、大阪を示し、茶色の線が京都から江戸への東海道をたどり、灰色の部分が伊賀と甲賀を示し、上には甲賀と伊賀の紋が描かれている。">
 <figcaption>日本の歴史地図</figcaption>
 </figure>
 

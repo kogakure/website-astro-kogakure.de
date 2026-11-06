@@ -52,7 +52,7 @@ In ancient China, everything was subject to an eternal cycle: the seasons, the d
 ## Interdependence of the Elements
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="Five drawings arranged in a circle on aged paper – a flame, a clay brick, a coin, a wave, and a tree – linked by solid arrows around the circle and by dashed arrows forming a star; below, a sprout stands for the solid line and a cracked stone for the dashed one.">
+<img src="/images/diagrams/gogyo.webp" alt="Five drawings arranged in a circle on aged paper – a flame, a clay brick, a coin, a wave, and a tree – linked by solid arrows around the circle and by dashed arrows forming a star; below, a sprout stands for the solid line and a cracked stone for the dashed one.">
 <figcaption><em>Gogyō</em> (五行), five-elements diagram</figcaption>
 </figure>
 

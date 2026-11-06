@@ -31,7 +31,7 @@ categories:
 도교를 이해하려는 사람은 음과 양의 극성, 곧 음양(陰陽)에서 시작한다. 일본어로는 인요라고 읽는다. 음양은 이 가르침의 중심을 이루는 부분이다. 흰 면과 검은 면으로 된 그 상징은 산업과 대중 매체가 오래전에 인기 상품으로 팔아먹었고, 많은 사람이 그 뜻도 모른 채 목걸이에 걸고 다닌다.
 
 <figure>
-<img src="/images/vector/calligraphy/inyo.webp" alt="종이 한가운데 음양의 상징이 있고, 그 둘레를 넓은 빈 여백이 감싸고 있다.">
+<img src="/images/calligraphy/inyo.webp" alt="종이 한가운데 음양의 상징이 있고, 그 둘레를 넓은 빈 여백이 감싸고 있다.">
 <figcaption>음양(陰陽), 음양의 상징</figcaption>
 </figure>
 

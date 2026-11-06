@@ -27,28 +27,28 @@ Selon cette maxime, celui qui pratique le ninjutsu uniquement pour satisfaire se
 Le mot ninja ne se traduit directement dans aucune langue non japonaise.
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="Les deux caractères 忍者 côte à côte, tracés au pinceau à l’encre noire sur un papier clair et fibreux.">
+<img src="/images/calligraphy/ninja.webp" alt="Les deux caractères 忍者 côte à côte, tracés au pinceau à l’encre noire sur un papier clair et fibreux.">
 <figcaption>Ninja (忍者)</figcaption>
 </figure>
 
 La syllabe _nin_ (忍), présente dans ninja comme dans ninjutsu, se lit aussi _shinobu_. Elle réunit les sens d’<q>endurance</q>, de <q>persévérance</q> et de <q>retenue</q>. Dans le dictionnaire, _nin_ signifie aussi <q>furtivité</q>, <q>secret</q> ou <q>dissimulation</q>. _Jutsu_ (術) dans ninjutsu signifie <q>art</q>, et _ja_ (者) dans ninja <q>personne</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="Le caractère 忍 tracé en grand et centré, au pinceau à l’encre noire sur un papier clair.">
+<img src="/images/calligraphy/shinobu.webp" alt="Le caractère 忍 tracé en grand et centré, au pinceau à l’encre noire sur un papier clair.">
 <figcaption><em>Shinobu</em> (忍)</figcaption>
 </figure>
 
 Le caractère _nin_ se compose de deux autres caractères. En haut se trouve _yaiba_ (刃), la <q>lame</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="Le caractère 刃 tracé en grand et centré, au pinceau à l’encre noire sur un papier clair.">
+<img src="/images/calligraphy/yaiba.webp" alt="Le caractère 刃 tracé en grand et centré, au pinceau à l’encre noire sur un papier clair.">
 <figcaption><em>Yaiba</em> (刃)</figcaption>
 </figure>
 
 En bas se trouve _kokoro_ (心), le mot japonais pour <q>cœur</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="Le caractère 心 tracé en grand et centré, au pinceau à l’encre noire sur un papier clair.">
+<img src="/images/calligraphy/kokoro.webp" alt="Le caractère 心 tracé en grand et centré, au pinceau à l’encre noire sur un papier clair.">
 <figcaption><em>Kokoro</em> (心)</figcaption>
 </figure>
 

@@ -20,7 +20,7 @@ categories:
 ## 雁行
 
 <figure>
-<img src="/images/vector/formations/ganko.webp" alt="七人の武者が左上から右下へ斜めの一列に並び、それぞれが隣の者より一歩横、一歩後ろに立ち、全員が右を向いている。">
+<img src="/images/formations/ganko.webp" alt="七人の武者が左上から右下へ斜めの一列に並び、それぞれが隣の者より一歩横、一歩後ろに立ち、全員が右を向いている。">
 <figcaption>雁行</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ categories:
 ## 鋒矢
 
 <figure>
-<img src="/images/vector/formations/hoshi.webp" alt="十人の武者が右を指す矢じりの形をつくり、長い一列が矢柄となり、その先端から斜めの二つの翼が後ろへ広がっている。">
+<img src="/images/formations/hoshi.webp" alt="十人の武者が右を指す矢じりの形をつくり、長い一列が矢柄となり、その先端から斜めの二つの翼が後ろへ広がっている。">
 <figcaption>鋒矢</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ categories:
 ## 方円
 
 <figure>
-<img src="/images/vector/formations/hoen.webp" alt="十二人の武者が中央を空けた大きな円の上に等しい間隔で立ち、全員が右を向いている。">
+<img src="/images/formations/hoen.webp" alt="十二人の武者が中央を空けた大きな円の上に等しい間隔で立ち、全員が右を向いている。">
 <figcaption>方円</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ categories:
 ## 鶴翼
 
 <figure>
-<img src="/images/vector/formations/kakuyoku.webp" alt="七人の武者が横倒しになった大きなV字に並び、その頂点は左を向き、両腕は右へ開いている。">
+<img src="/images/formations/kakuyoku.webp" alt="七人の武者が横倒しになった大きなV字に並び、その頂点は左を向き、両腕は右へ開いている。">
 <figcaption>鶴翼</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ categories:
 ## 衡軛
 
 <figure>
-<img src="/images/vector/formations/koyaku.webp" alt="十人の武者が五人ずつ平行な二列に並び、左から右へ戦場を横切っている。">
+<img src="/images/formations/koyaku.webp" alt="十人の武者が五人ずつ平行な二列に並び、左から右へ戦場を横切っている。">
 <figcaption>衡軛</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ categories:
 ## 魚鱗
 
 <figure>
-<img src="/images/vector/formations/gyorin.webp" alt="弓兵と槍兵を含む十七人の武者が、右を指す鈍い楔形に並んでいる。">
+<img src="/images/formations/gyorin.webp" alt="弓兵と槍兵を含む十七人の武者が、右を指す鈍い楔形に並んでいる。">
 <figcaption>魚鱗</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ categories:
 ## 偃月
 
 <figure>
-<img src="/images/vector/formations/engetsu.webp" alt="十二人の武者が二人ずつ肩を並べた六組となり、下に向かって開いた半円の上に並んでいる。">
+<img src="/images/formations/engetsu.webp" alt="十二人の武者が二人ずつ肩を並べた六組となり、下に向かって開いた半円の上に並んでいる。">
 <figcaption>偃月</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ categories:
 ## 長蛇
 
 <figure>
-<img src="/images/vector/formations/choda.webp" alt="八人の武者が一本のまっすぐな列をつくり、等しい間隔で前後に並んで左から右へ戦場を横切っている。">
+<img src="/images/formations/choda.webp" alt="八人の武者が一本のまっすぐな列をつくり、等しい間隔で前後に並んで左から右へ戦場を横切っている。">
 <figcaption>長蛇</figcaption>
 </figure>
 

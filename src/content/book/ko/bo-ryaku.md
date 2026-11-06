@@ -20,7 +20,7 @@ categories:
 ## 간코 — 새의 비행
 
 <figure>
-<img src="/images/vector/formations/ganko.webp" alt="전사 일곱 명이 왼쪽 위에서 오른쪽 아래로 비스듬히 늘어서 있다. 저마다 옆 사람보다 한 걸음 옆, 한 걸음 뒤에 서 있고, 모두 오른쪽을 향한다.">
+<img src="/images/formations/ganko.webp" alt="전사 일곱 명이 왼쪽 위에서 오른쪽 아래로 비스듬히 늘어서 있다. 저마다 옆 사람보다 한 걸음 옆, 한 걸음 뒤에 서 있고, 모두 오른쪽을 향한다.">
 <figcaption>간코(雁行)</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ categories:
 ## 호시 — 화살촉
 
 <figure>
-<img src="/images/vector/formations/hoshi.webp" alt="전사 열 명이 오른쪽을 가리키는 화살촉 모양을 이룬다. 긴 줄이 화살대가 되고, 그 끝에서 비스듬한 두 날개가 뒤로 벌어진다.">
+<img src="/images/formations/hoshi.webp" alt="전사 열 명이 오른쪽을 가리키는 화살촉 모양을 이룬다. 긴 줄이 화살대가 되고, 그 끝에서 비스듬한 두 날개가 뒤로 벌어진다.">
 <figcaption>호시(鋒矢)</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ categories:
 ## 호엔 — 열쇠 구멍
 
 <figure>
-<img src="/images/vector/formations/hoen.webp" alt="전사 열두 명이 가운데가 빈 넓은 원 위에 같은 간격으로 서 있고, 모두 오른쪽을 향한다.">
+<img src="/images/formations/hoen.webp" alt="전사 열두 명이 가운데가 빈 넓은 원 위에 같은 간격으로 서 있고, 모두 오른쪽을 향한다.">
 <figcaption>호엔(方円)</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ categories:
 ## 가쿠요쿠 — 학의 날개
 
 <figure>
-<img src="/images/vector/formations/kakuyoku.webp" alt="전사 일곱 명이 옆으로 누운 넓은 V자를 이룬다. 꼭짓점은 왼쪽을 가리키고 두 변은 오른쪽으로 벌어진다.">
+<img src="/images/formations/kakuyoku.webp" alt="전사 일곱 명이 옆으로 누운 넓은 V자를 이룬다. 꼭짓점은 왼쪽을 가리키고 두 변은 오른쪽으로 벌어진다.">
 <figcaption>가쿠요쿠(鶴翼)</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ categories:
 ## 고야쿠 — 소의 멍에
 
 <figure>
-<img src="/images/vector/formations/koyaku.webp" alt="전사 열 명이 다섯 명씩 두 줄로 나란히 서서 왼쪽에서 오른쪽으로 들판을 가로지른다.">
+<img src="/images/formations/koyaku.webp" alt="전사 열 명이 다섯 명씩 두 줄로 나란히 서서 왼쪽에서 오른쪽으로 들판을 가로지른다.">
 <figcaption>고야쿠(衡軛)</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ categories:
 ## 교린 — 물고기 비늘
 
 <figure>
-<img src="/images/vector/formations/gyorin.webp" alt="궁수와 창병을 포함한 전사 열일곱 명이 오른쪽을 가리키는 뭉툭한 쐐기 모양으로 서 있다.">
+<img src="/images/formations/gyorin.webp" alt="궁수와 창병을 포함한 전사 열일곱 명이 오른쪽을 가리키는 뭉툭한 쐐기 모양으로 서 있다.">
 <figcaption>교린(魚鱗)</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ categories:
 ## 엔게쓰 — 반달
 
 <figure>
-<img src="/images/vector/formations/engetsu.webp" alt="전사 열두 명이 둘씩 어깨를 맞댄 여섯 쌍으로 아래쪽이 열린 반원 위에 서 있다.">
+<img src="/images/formations/engetsu.webp" alt="전사 열두 명이 둘씩 어깨를 맞댄 여섯 쌍으로 아래쪽이 열린 반원 위에 서 있다.">
 <figcaption>엔게쓰(偃月)</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ categories:
 ## 조다 — 긴 뱀
 
 <figure>
-<img src="/images/vector/formations/choda.webp" alt="전사 여덟 명이 같은 간격으로 앞뒤로 늘어선 한 줄을 이루어 왼쪽에서 오른쪽으로 들판을 가로지른다.">
+<img src="/images/formations/choda.webp" alt="전사 여덟 명이 같은 간격으로 앞뒤로 늘어선 한 줄을 이루어 왼쪽에서 오른쪽으로 들판을 가로지른다.">
 <figcaption>조다(長蛇)</figcaption>
 </figure>
 

@@ -52,7 +52,7 @@ Im alten China unterlag alles einem ewigen Kreislauf: die Jahreszeiten, die Tage
 ## Abhängigkeit der Elemente
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="Fünf Zeichnungen im Kreis auf altem Papier – Flamme, Lehmziegel, Münze, Welle und Baum –, verbunden durch durchgezogene Pfeile im Kreis und gestrichelte Pfeile, die einen Stern bilden; unten steht ein Spross für die durchgezogene, ein zerbrochener Stein für die gestrichelte Linie.">
+<img src="/images/diagrams/gogyo.webp" alt="Fünf Zeichnungen im Kreis auf altem Papier – Flamme, Lehmziegel, Münze, Welle und Baum –, verbunden durch durchgezogene Pfeile im Kreis und gestrichelte Pfeile, die einen Stern bilden; unten steht ein Spross für die durchgezogene, ein zerbrochener Stein für die gestrichelte Linie.">
 <figcaption><em>Gogyō</em> (五行), Diagramm der fünf Elemente</figcaption>
 </figure>
 

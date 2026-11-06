@@ -21,7 +21,7 @@ Ninjutsu was never about winning belts, collecting trophies, or earning titles. 
 The training aims at a natural fighting style, shaped entirely to the person who fights with it. Above all, this takes a timeless understanding of how people behave and how the human body is built.
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="A tree diagram on aged paper: under the term taijutsu, three branches for body movements, striking techniques, and gripping techniques, each with a list of sub-disciplines in kanji and romaji.">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="A tree diagram on aged paper: under the term taijutsu, three branches for body movements, striking techniques, and gripping techniques, each with a list of sub-disciplines in kanji and romaji.">
 <figcaption><em>Taijutsu zu</em>, schema of <em>taijutsu</em></figcaption>
 </figure>
 

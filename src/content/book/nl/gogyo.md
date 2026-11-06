@@ -52,7 +52,7 @@ In het oude China was alles onderworpen aan een eeuwige kringloop: de seizoenen,
 ## Onderlinge afhankelijkheid van de elementen
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="Vijf tekeningen in een cirkel op oud papier – vlam, leemsteen, munt, golf en boom –, verbonden door doorgetrokken pijlen in de cirkel en gestippelde pijlen die een ster vormen; onderaan staat een kiemplant voor de doorgetrokken en een gebroken steen voor de gestippelde lijn.">
+<img src="/images/diagrams/gogyo.webp" alt="Vijf tekeningen in een cirkel op oud papier – vlam, leemsteen, munt, golf en boom –, verbonden door doorgetrokken pijlen in de cirkel en gestippelde pijlen die een ster vormen; onderaan staat een kiemplant voor de doorgetrokken en een gebroken steen voor de gestippelde lijn.">
 <figcaption><em>Gogyō</em> (五行), diagram van de vijf elementen</figcaption>
 </figure>
 

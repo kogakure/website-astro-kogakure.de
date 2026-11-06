@@ -32,7 +32,7 @@ categories:
 在初见良昭（Hatsumi Masaaki）博士的领导下，九个世代由师父传给弟子的武士和忍者流派被汇集到一起。为了纪念老师高松寿嗣（Takamatsu Toshitsugu），初见将这九个流派（ryūha）命名为武神馆（Bujinkan）。武（bu）意为战争；神（jin）意为神、心或灵魂；馆（kan）意为宫殿、建筑或大宅。因此，一种可能的译法是<q>战神之殿</q>。
 
 <figure>
-<img src="/images/vector/calligraphy/bujinkan.webp" alt="一张浅色纸的中央有一个带黑色边框的红色圆盘，上面用黑色毛笔写着武神二字。">
+<img src="/images/calligraphy/bujinkan.webp" alt="一张浅色纸的中央有一个带黑色边框的红色圆盘，上面用黑色毛笔写着武神二字。">
 <figcaption>武神馆的徽标</figcaption>
 </figure>
 

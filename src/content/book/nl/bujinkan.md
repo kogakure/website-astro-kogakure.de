@@ -32,7 +32,7 @@ Die idealen te bewaren en erover te waken, is hun taak. Ze richten hun hele leve
 Onder dr. Hatsumi Masaaki werden negen krijgers- en ninjascholen samengebracht, die al generaties lang van leraar op leerling waren doorgegeven. Ter ere van zijn leraar Takamatsu Toshitsugu noemde Hatsumi deze negen _ryūha_ (流派) de Bujinkan (武神館). _Bu_ betekent oorlog, _jin_ god, hart of ziel en _kan_ paleis, gebouw of groot huis. Een mogelijke vertaling is dus <q>de hal van de oorlogsgod</q>.
 
 <figure>
-<img src="/images/vector/calligraphy/bujinkan.webp" alt="De tekens 武神 in zwart penseelschrift op een rode, zwart omrande schijf in het midden van een licht vel papier.">
+<img src="/images/calligraphy/bujinkan.webp" alt="De tekens 武神 in zwart penseelschrift op een rode, zwart omrande schijf in het midden van een licht vel papier.">
 <figcaption>Embleem van de Bujinkan (武神館)</figcaption>
 </figure>
 

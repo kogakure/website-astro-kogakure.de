@@ -27,28 +27,28 @@ translationKey: ninjutsuPage
 忍者という言葉は、日本語以外の言語にそのまま訳すことができない。
 
 <figure>
-<img src="/images/vector/calligraphy/ninja.webp" alt="忍者の二文字が、繊維の目立つ明るい紙に黒い筆文字で横に並んで書かれている。">
+<img src="/images/calligraphy/ninja.webp" alt="忍者の二文字が、繊維の目立つ明るい紙に黒い筆文字で横に並んで書かれている。">
 <figcaption>忍者</figcaption>
 </figure>
 
 忍者にも忍術にも含まれる忍の字は、にんのほかに、しのぶとも読む。この字には<q>耐えること</q>、<q>やり抜くこと</q>、<q>控えること</q>という意味が重なっている。辞書ではさらに<q>ひそかさ</q>、<q>秘めること</q>、<q>隠れること</q>の意味も挙げられている。忍術の術は<q>技</q>を、忍者の者は<q>人</q>を意味する。
 
 <figure>
-<img src="/images/vector/calligraphy/shinobu.webp" alt="忍の一字が、明るい紙の中央に黒い筆文字で大きく書かれている。">
+<img src="/images/calligraphy/shinobu.webp" alt="忍の一字が、明るい紙の中央に黒い筆文字で大きく書かれている。">
 <figcaption>忍</figcaption>
 </figure>
 
 忍の字は、二つの字を組み合わせてできている。上にあるのは、やいば、つまり<q>刀の刃</q>を表す刃である。
 
 <figure>
-<img src="/images/vector/calligraphy/yaiba.webp" alt="刃の一字が、明るい紙の中央に黒い筆文字で大きく書かれている。">
+<img src="/images/calligraphy/yaiba.webp" alt="刃の一字が、明るい紙の中央に黒い筆文字で大きく書かれている。">
 <figcaption>刃</figcaption>
 </figure>
 
 下にあるのは、日本語で<q>心臓</q>や<q>こころ</q>を表す心である。
 
 <figure>
-<img src="/images/vector/calligraphy/kokoro.webp" alt="心の一字が、明るい紙の中央に黒い筆文字で大きく書かれている。">
+<img src="/images/calligraphy/kokoro.webp" alt="心の一字が、明るい紙の中央に黒い筆文字で大きく書かれている。">
 <figcaption>心</figcaption>
 </figure>
 

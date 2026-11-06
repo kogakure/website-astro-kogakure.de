@@ -31,7 +31,7 @@ categories:
 想理解道家思想，就要从阴阳的两极说起，阴阳在日语中读作*in’yō*。它是这门学说的核心部分。工业和媒体早已把它那黑白两半的符号变成了畅销商品，许多人把它挂在项链上，却不知道它的含义。
 
 <figure>
-<img src="/images/vector/calligraphy/inyo.webp" alt="阴阳符号位于纸张正中，四周留着宽阔的空白。">
+<img src="/images/calligraphy/inyo.webp" alt="阴阳符号位于纸张正中，四周留着宽阔的空白。">
 <figcaption>阴阳（<em>in’yō</em>）符号</figcaption>
 </figure>
 

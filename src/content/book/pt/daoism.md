@@ -31,7 +31,7 @@ Para muitos, porém, esse ensinamento permanece fechado. Os textos são quase to
 Quem quer entender o daoísmo começa pela polaridade de yin e yang, em japonês _in’yō_ (陰陽). Ela é uma parte central do ensinamento. A indústria e a mídia há muito transformaram seu símbolo de lado branco e lado preto em mercadoria popular, e muita gente o usa num colar sem saber o que significa.
 
 <figure>
-<img src="/images/vector/calligraphy/inyo.webp" alt="O símbolo in’yō no centro da folha, cercado por uma ampla margem de papel em branco.">
+<img src="/images/calligraphy/inyo.webp" alt="O símbolo in’yō no centro da folha, cercado por uma ampla margem de papel em branco.">
 <figcaption><em>In’yō</em> (陰陽), o símbolo do yin-yang</figcaption>
 </figure>
 

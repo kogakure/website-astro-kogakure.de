@@ -21,7 +21,7 @@ categories:
 训练的目的，是形成一种完全适合习练者本人的自然格斗方式。为此，首先需要对人的行为方式和人体构造有一种不受时代局限的理解。
 
 <figure>
-<img src="/images/vector/diagrams/taijutsu-zu.webp" alt="旧纸上的一幅树状图：体术一词下分出三根枝杈，分别代表身体移动、打击技法和擒拿技法，每根枝杈下都列有用汉字和罗马字写成的分支科目。">
+<img src="/images/diagrams/taijutsu-zu.webp" alt="旧纸上的一幅树状图：体术一词下分出三根枝杈，分别代表身体移动、打击技法和擒拿技法，每根枝杈下都列有用汉字和罗马字写成的分支科目。">
 <figcaption><em>Taijutsu zu</em>，体术图解</figcaption>
 </figure>
 

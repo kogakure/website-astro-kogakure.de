@@ -97,7 +97,7 @@ describe('findOpener', () => {
 	it('takes the first painting, skipping diagrams, objects and technique images', () => {
 		expect(
 			findOpener([
-				'/images/vector/gogyo-cycle.webp',
+				'/images/diagrams/gogyo.webp',
 				'/images/kamae/ichimonji.webp',
 				'/images/historical/sonshi.webp',
 				'/images/article/gogyo-01.webp',

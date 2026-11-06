@@ -45,7 +45,7 @@ categories:
 ## 새 유파의 물결
 
 <figure>
-<img src="/images/vector/diagrams/rekishi-chizu.webp" alt="1부터 60까지 번호가 매겨진 일본 옛 지방의 지도. 붉은 표시 1~3은 에도, 교토, 오사카를 가리키고, 갈색 선은 교토에서 에도까지 도카이도를 따라가며, 회색 영역은 이가와 고가를 표시한다. 위쪽에는 고가와 이가의 문장이 있다.">
+<img src="/images/diagrams/rekishi-chizu.webp" alt="1부터 60까지 번호가 매겨진 일본 옛 지방의 지도. 붉은 표시 1~3은 에도, 교토, 오사카를 가리키고, 갈색 선은 교토에서 에도까지 도카이도를 따라가며, 회색 영역은 이가와 고가를 표시한다. 위쪽에는 고가와 이가의 문장이 있다.">
 <figcaption>일본 역사 지도</figcaption>
 </figure>
 

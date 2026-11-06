@@ -52,7 +52,7 @@ Dans la Chine ancienne, tout était soumis à un cycle éternel : les saisons, 
 ## Interdépendance des éléments
 
 <figure>
-<img src="/images/vector/diagrams/gogyo.webp" alt="Cinq dessins disposés en cercle sur un vieux papier – une flamme, une brique d’argile, une pièce de monnaie, une vague et un arbre –, reliés par des flèches pleines tout autour du cercle et par des flèches en pointillés qui forment une étoile ; en bas, une pousse représente la ligne pleine et une pierre fendue la ligne en pointillés.">
+<img src="/images/diagrams/gogyo.webp" alt="Cinq dessins disposés en cercle sur un vieux papier – une flamme, une brique d’argile, une pièce de monnaie, une vague et un arbre –, reliés par des flèches pleines tout autour du cercle et par des flèches en pointillés qui forment une étoile ; en bas, une pousse représente la ligne pleine et une pierre fendue la ligne en pointillés.">
 <figcaption><em>Gogyō</em> (五行), diagramme des cinq éléments</figcaption>
 </figure>
 
