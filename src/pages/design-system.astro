@@ -1,0 +1,372 @@
+---
+/**
+ * /design-system/: every token and component of the Gekiga design system
+ * on one page, for the visual review against the prototype
+ * (gekiga-2-modes). Not part of the book; noindex like every page until
+ * launch, and it stays out of the sitemap. The colophon's choice switches
+ * the whole page between light and dark; the colour roles and the script
+ * samples show both modes side by side.
+ */
+import Banner from '@/components/site/Banner.astro';
+import Colophon from '@/components/site/Colophon.astro';
+import Glossed from '@/components/site/Glossed.astro';
+import NamePlate from '@/components/site/NamePlate.astro';
+import OpenerPlate from '@/components/site/OpenerPlate.astro';
+import Picture from '@/components/site/Picture.astro';
+import Plate from '@/components/site/Plate.astro';
+import Prose from '@/components/site/Prose.astro';
+import ReadLink from '@/components/site/ReadLink.astro';
+import SectionList from '@/components/site/SectionList.astro';
+import Subtitle from '@/components/site/Subtitle.astro';
+import Sweep from '@/components/site/Sweep.astro';
+import TopBar from '@/components/site/TopBar.astro';
+import ColourRoles from '@/components/design-system/ColourRoles.astro';
+import ScriptSample from '@/components/design-system/ScriptSample.astro';
+import Specimen from '@/components/design-system/Specimen.astro';
+import TokenList from '@/components/design-system/TokenList.astro';
+import TypeScale from '@/components/design-system/TypeScale.astro';
+import {
+	BREAKPOINTS,
+	COLOUR_GROUPS,
+	MOTION,
+	SHADOWS,
+	SPACING,
+} from '@/components/design-system/tokens';
+import { languageChoices, type Lang } from '@/i18n/languages';
+import { HOME } from '@/i18n/routes';
+import { ui } from '@/i18n/ui';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAlternates, getPage, getToc } from '@/lib/book/book';
+import { openerFigure } from '@/lib/book/figures';
+import { BOOK_PLATE, chapterLabel, SECTION_PLATES, sceneEdge } from '@/lib/book/plates';
+
+const lang: Lang = 'de';
+const t = ui(lang);
+
+const SECTIONS = [
+	{ id: 'farben', text: 'Farben' },
+	{ id: 'schrift', text: 'Schrift' },
+	{ id: 'masse', text: 'Maße, Tiefe, Bewegung' },
+	{ id: 'tafeln', text: 'Namenstafeln und Tafeln' },
+	{ id: 'text', text: 'Der Text' },
+	{ id: 'zeichen', text: 'Siegel, Untertitel, Pinsel' },
+	{ id: 'navigation', text: 'Abschnitte und Kopfleiste' },
+	{ id: 'schriften', text: 'Drei Schriften' },
+];
+
+// Real paintings and captions of the book
+const ninjutsu = await getPage(lang, 'ninjutsuPage');
+const opener = openerFigure(ninjutsu.body ?? '');
+const origins = await getPage(lang, 'originsOfNinjutsuPage');
+const scene = openerFigure(origins.body ?? '');
+if (!opener || !scene) throw new Error('The sample pages have no painting');
+
+// The samples in Hebrew and Japanese come from the book, so their fonts
+// cover them (the homepage's subsets: contents and excerpts)
+const samples = await Promise.all(
+	(['de', 'he', 'ja'] as const).map(async (sampleLang) => {
+		const page = await getPage(sampleLang, 'ninjutsuPage');
+		const other = await getPage(sampleLang, 'originsOfNinjutsuPage');
+		const [, history] = await getToc(sampleLang);
+		return {
+			lang: sampleLang,
+			title: page.data.title,
+			lede: page.data.excerpt,
+			subtitle: ui(sampleLang).subtitle,
+			text: other.data.excerpt ?? '',
+			part: history?.title ?? '',
+		};
+	})
+);
+
+const languages = languageChoices(await getAlternates(HOME), lang);
+---
+
+<BaseLayout
+	title="Designsystem · 木隠"
+	description="Die Tokens und Komponenten des Gekiga-Designsystems von kogakure.de"
+	lang={lang}
+	fontLangs={['he', 'ja']}
+	ground="read"
+>
+	<TopBar
+		slot="before-main"
+		label={t.book}
+		home={{ href: '/', label: t.contents }}
+		chapter={{ href: '#tafeln', title: 'Designsystem', kanji: '図' }}
+		sections={{
+			heading: t.sections,
+			items: SECTIONS,
+			countLabel: t.sectionCount(SECTIONS.length),
+			positionLabels: SECTIONS.map((_, i) => t.sectionOf(i + 1, SECTIONS.length)),
+		}}
+	/>
+
+	<header class="ds-head">
+		<p class="ds-kicker">Gekiga 2 · Hell und Dunkel</p>
+		<h1 class="ds-title">Designsystem</h1>
+		<p class="ds-lede">
+			Der Prolog in Tusche: Tafeln mit nassen Tuschekanten, senkrechte Namenstafeln, eine
+			Untertitelzeile. Dann ruhiges Papier zum Lesen. Am Tag Sumi auf Washi, in der Nacht
+			helles Pigment auf Indigo.
+		</p>
+		<div class="ds-toc">
+			<SectionList heading={t.sections} sections={SECTIONS} />
+		</div>
+	</header>
+
+	<Specimen
+		id="farben"
+		title="Farben"
+		intro="Jede Rolle ist einmal definiert, mit einem Wert für den Tag und einem für die Nacht (light-dark). Komponenten nutzen nur Rollen."
+	>
+		{COLOUR_GROUPS.map(({ title, roles }) => (
+			<ColourRoles title={title} roles={roles} />
+		))}
+	</Specimen>
+
+	<Specimen
+		id="schrift"
+		title="Schrift"
+		intro="Source Serif 4 für Text und Überschriften, Shippori Mincho für Kanji im Text, Yuji Syuku nur auf Namenstafeln und in Randglossen, IBM Plex Mono nur für Untertitel. Alle Schriften liegen auf dem eigenen Server, als WOFF2-Teilmengen."
+	>
+		<TypeScale />
+	</Specimen>
+
+	<Specimen id="masse" title="Maße, Tiefe, Bewegung">
+		<TokenList title="Abstände" tokens={SPACING} sample="space" />
+		<TokenList title="Umbrüche" tokens={BREAKPOINTS} />
+		<TokenList title="Schatten" tokens={SHADOWS} sample="shadow" />
+		<TokenList title="Bewegung" tokens={MOTION} />
+	</Specimen>
+
+	<Specimen
+		id="tafeln"
+		title="Namenstafeln und Tafeln"
+		intro="Die Namenstafel (Tanzaku) trägt die Identität eines Teils in Pinselkanji, immer senkrecht. Eine Tafel ist ein Gemälde, geschnitten von einer nassen Tuschekante."
+	>
+		<div class="ds-plates">
+			<div class="ds-stage">
+				<NamePlate name={BOOK_PLATE.name} number={BOOK_PLATE.romaji} size="title" />
+			</div>
+			<NamePlate name={SECTION_PLATES[1].name} number={chapterLabel(1)} />
+			<NamePlate name={SECTION_PLATES[6].name} number={chapterLabel(6)} />
+			<NamePlate name={BOOK_PLATE.name} size="small" />
+		</div>
+		<div class="ds-wide">
+			<Plate
+				image={{ src: scene.src, alt: scene.alt }}
+				caption={scene.caption}
+				plate={{ name: SECTION_PLATES[1].name, number: chapterLabel(1) }}
+				edge={sceneEdge(1)}
+				reveal
+			/>
+		</div>
+		<div class="ds-wide">
+			<Plate
+				image={{ src: opener.src, alt: opener.alt }}
+				caption={opener.caption}
+				plate={{ name: SECTION_PLATES[5].name, number: chapterLabel(5) }}
+				edge={sceneEdge(2)}
+				side="start"
+				frame="bleed"
+				reveal
+			/>
+		</div>
+		<h3 class="ds-subtitle">Opener eines Artikels</h3>
+		<OpenerPlate image={opener} name={SECTION_PLATES[0].name} number={null} />
+		<h3 class="ds-subtitle">Opener ohne Gemälde</h3>
+		<OpenerPlate name={SECTION_PLATES[9].name} />
+	</Specimen>
+
+	<Specimen
+		id="text"
+		title="Der Text"
+		intro="Die Lesespalte ist eine gedruckte Seite: 20 bis 21,5 px, etwa 69 Zeichen je Zeile. Ab 75em stehen die Glossen im äußeren Rand."
+	>
+		<div class="ds-reading">
+			<Prose margin>
+				<h2 id="beispiel-erster">Was ist Ninjutsu?</h2>
+				<p>
+					Der Überlieferung nach war Momochi Sandayū einer der drei großen Anführer des
+					Iga-Ryū. Seine Lehre über die{' '}
+					<Glossed term="rekishi" kanji="歴史" meaning="<q>„Geschichte“</q>" /> der Schule
+					ist in einem Satz überliefert:
+				</p>
+				<blockquote>
+					<p>
+						Ninjutsu dient nicht dazu, die eigenen Begierden zu befriedigen. Ein Ninja
+						übt die Künste, weil er sein Land, seinen Herrn oder seine Familie schützen
+						muss.
+					</p>
+				</blockquote>
+				<h2 id="beispiel-zweiter">Die Schriftzeichen</h2>
+				<figure>
+					<Picture src={scene.src} alt={scene.alt} />
+					<figcaption set:html={scene.caption} />
+				</figure>
+				<Banner title="Bauchatmung lernen" id="beispiel-banner">
+					<p>
+						Früher lernte man die Bauchatmung mit einer einfachen Übung: Man wickelte
+						ein Tuch fest um den Bauch.
+					</p>
+				</Banner>
+				<ul>
+					<li>
+						<em>Shuriken</em> waren Wurfwaffen, keine Sterne.
+					</li>
+					<li>Die Kunst lebt von Geduld, nicht von Masken.</li>
+				</ul>
+			</Prose>
+		</div>
+	</Specimen>
+
+	<Specimen
+		id="zeichen"
+		title="Siegel, Untertitel, Pinsel"
+		intro="Das Siegelrot ist der einzige Akzent und nur eine Marke. Die Mono ist der Untertitel des Films: eine kurze Zeile in einem dunklen Kasten."
+	>
+		<div class="ds-row">
+			<ReadLink href="#text">Lesen: Was ist Ninjutsu?</ReadLink>
+		</div>
+		<Subtitle html={`„${t.subtitle}“`} size="large" />
+		<Subtitle html="Das verborgene Dorf der <em>genin</em>" />
+		<Sweep />
+		<p class="ds-note">
+			Fokus: ein 2 px breiter Ring in der Textfarbe, 3 px Abstand; der Sprunglink hat einen
+			siegelroten Ring (Tab). Auswahl: Ocker am Tag, Indigo in der Nacht.
+		</p>
+	</Specimen>
+
+	<Specimen
+		id="navigation"
+		title="Abschnitte und Kopfleiste"
+		intro="Ab 75em steht die Liste der Abschnitte neben dem Text, der aktuelle trägt das Siegel. Darunter kommt die Kopfleiste beim Zurückscrollen wieder und zeigt die Position; sie öffnet die Abschnitte als Popover."
+	>
+		<p class="ds-note">
+			Die Kopfleiste dieser Seite und die Liste oben sind die echten Komponenten. Die
+			Darstellung und die Sprache wählt das Kolophon am Ende.
+		</p>
+	</Specimen>
+
+	<Specimen
+		id="schriften"
+		title="Drei Schriften"
+		intro="Deutsch mit Silbentrennung, Hebräisch von rechts nach links ohne Kursive, Japanisch mit strengem Zeilenumbruch und weiterer Zeile."
+	>
+		{samples.map((sample) => (
+			<ScriptSample
+				lang={sample.lang}
+				plate={{ name: SECTION_PLATES[1].name, number: chapterLabel(1) }}
+				title={sample.title}
+				lede={sample.lede}
+				subtitle={sample.subtitle}
+			>
+				<p>{sample.text}</p>
+				<p>
+					<ReadLink href="#schriften">{sample.part}</ReadLink>
+				</p>
+			</ScriptSample>
+		))}
+	</Specimen>
+
+	<Colophon
+		slot="after-main"
+		lang={lang}
+		back={{ href: '/', label: t.backToContents }}
+		languages={languages}
+	/>
+</BaseLayout>
+
+<style>
+	.ds-head {
+		max-inline-size: var(--page);
+		margin-inline: auto;
+		padding-block: clamp(2rem, 5vw, 4rem) 0;
+		padding-inline: var(--gutter);
+		display: grid;
+		gap: 1.25rem;
+	}
+
+	.ds-kicker {
+		margin: 0;
+		font-family: var(--mono);
+		font-size: var(--text-label);
+		color: var(--text-3);
+	}
+
+	.ds-title {
+		margin: 0;
+		font-size: var(--text-display);
+		font-weight: 700;
+		line-height: 1.02;
+		letter-spacing: -0.025em;
+	}
+
+	.ds-lede {
+		max-inline-size: var(--measure);
+		margin: 0;
+		font-size: var(--text-lede);
+		font-style: italic;
+		line-height: 1.45;
+		color: var(--text-2);
+	}
+
+	.ds-toc {
+		max-inline-size: 26rem;
+	}
+
+	.ds-plates {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2.5rem;
+		align-items: flex-start;
+	}
+
+	.ds-stage {
+		display: grid;
+		place-items: center;
+		inline-size: min(100%, 16rem);
+		aspect-ratio: 1;
+		container-type: inline-size;
+	}
+
+	.ds-wide {
+		padding-block-start: 2rem;
+	}
+
+	.ds-subtitle {
+		margin-block: 1rem 0;
+		font-size: 1.3rem;
+	}
+
+	.ds-reading {
+		display: grid;
+		grid-template-columns: minmax(0, var(--measure));
+		justify-content: center;
+	}
+
+	@media (min-width: 75em) {
+		.ds-reading {
+			grid-template-columns: 13rem minmax(0, var(--measure)) 13rem;
+			column-gap: 3rem;
+		}
+
+		.ds-reading > :global(.prose) {
+			grid-column: 2;
+		}
+	}
+
+	.ds-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+		align-items: center;
+	}
+
+	.ds-note {
+		max-inline-size: var(--measure);
+		margin: 0;
+		color: var(--text-2);
+	}
+</style>

@@ -1,0 +1,177 @@
+---
+/**
+ * The sections of an article. From 75em a sticky list beside the text,
+ * never taller than the screen (a long article scrolls its list on its own
+ * and keeps the current section in view); below it stands after the title
+ * block. The current section, the last heading above the upper third of
+ * the screen, gets the seal (`aria-current="location"`); the script tells
+ * the top bar's popover (`sectionchange`, again on `sectionrequest`).
+ */
+export interface Section {
+	/** Id of the heading */
+	id: string;
+	text: string;
+}
+
+interface Props {
+	/** „Abschnitte“ */
+	heading: string;
+	sections: Section[];
+	class?: string;
+}
+
+const { heading, sections, class: className } = Astro.props;
+---
+
+{sections.length > 0 && (
+	<nav
+		class:list={['sections', className]}
+		aria-labelledby="sections-title"
+		data-section-list
+		data-print="hidden"
+	>
+		<h2 id="sections-title" class="sections-title">
+			{heading}
+		</h2>
+		<ol>
+			{sections.map(({ id, text }) => (
+				<li>
+					<a href={`#${id}`}>{text}</a>
+				</li>
+			))}
+		</ol>
+	</nav>
+)}
+
+<script>
+	// The reading position: the last section heading above the upper third
+	// of the screen, in this list and in the top bar's popover
+	const lists = document.querySelectorAll<HTMLElement>('[data-section-list]');
+	const headings = [...(lists[0]?.querySelectorAll<HTMLAnchorElement>('a[href^="#"]') ?? [])]
+		.map((link) => document.getElementById(decodeURIComponent(link.hash.slice(1))))
+		.filter((heading): heading is HTMLElement => heading !== null);
+
+	let current = -2;
+	const report = () =>
+		dispatchEvent(
+			new CustomEvent('sectionchange', { detail: { index: current, total: headings.length } })
+		);
+	const mark = () => {
+		const line = innerHeight * 0.3;
+		let index = -1;
+		headings.forEach((heading, i) => {
+			if (heading.getBoundingClientRect().top < line) index = i;
+		});
+		if (index === current) return;
+		current = index;
+		for (const list of lists) {
+			list.querySelectorAll('a').forEach((link, i) => {
+				if (i === index) {
+					link.setAttribute('aria-current', 'location');
+					// A long list scrolls on its own: keep the current section in view
+					if (list.scrollHeight > list.clientHeight)
+						link.scrollIntoView({ block: 'nearest' });
+				} else link.removeAttribute('aria-current');
+			});
+		}
+		report();
+	};
+
+	if (headings.length > 0) {
+		let queued = false;
+		addEventListener(
+			'scroll',
+			() => {
+				if (queued) return;
+				queued = true;
+				requestAnimationFrame(() => {
+					queued = false;
+					mark();
+				});
+			},
+			{ passive: true }
+		);
+		mark();
+		// The top bar's popover hydrates later and asks for the position
+		addEventListener('sectionrequest', report);
+	}
+</script>
+
+<style>
+	.sections {
+		padding-block: 1rem;
+		border-block: 1px solid var(--rule);
+	}
+
+	.sections-title {
+		margin-block: 0 0.4rem;
+		font-family: var(--serif);
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--heading);
+	}
+
+	ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	a {
+		position: relative;
+		display: block;
+		padding-block: 0.35em;
+		padding-inline: 1.15em 0;
+		font-size: 1rem;
+		line-height: 1.35;
+		color: var(--text-2);
+		text-decoration: none;
+		hyphens: manual;
+	}
+
+	/* A small hairline square that becomes the seal at the current section */
+	a::before {
+		content: '';
+		position: absolute;
+		inset-inline-start: 0;
+		inset-block-start: 0.78em;
+		inline-size: 0.55em;
+		block-size: 0.55em;
+		border: 1px solid var(--link-line);
+		border-radius: 1px;
+		transition:
+			background-color var(--duration-state) ease-out,
+			border-color var(--duration-state) ease-out;
+	}
+
+	a:hover {
+		color: var(--text);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-decoration-color: var(--link-line);
+	}
+
+	a[aria-current] {
+		color: var(--text);
+		font-weight: 600;
+	}
+
+	a[aria-current]::before {
+		background: var(--seal);
+		border-color: var(--seal);
+	}
+
+	@media (min-width: 75em) {
+		.sections {
+			position: sticky;
+			inset-block-start: 2rem;
+			align-self: start;
+			max-block-size: calc(100svh - 4rem);
+			overflow-y: auto;
+			overscroll-behavior: contain;
+			scrollbar-width: thin;
+			padding-block: 0;
+			border-block: 0;
+		}
+	}
+</style>

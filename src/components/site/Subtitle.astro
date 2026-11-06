@@ -1,0 +1,58 @@
+---
+/**
+ * The film's subtitle: IBM Plex Mono, every line in its own small dark box.
+ * Under or over a painting (a plate's caption), and the book's subtitle in
+ * the prologue. One or two lines, never a paragraph. The text comes as HTML
+ * (captions carry <em> terms).
+ */
+interface Props {
+	/** The line as HTML */
+	html: string;
+	/** `p` in running layout, `figcaption` under a painting */
+	as?: 'p' | 'figcaption';
+	/** The prologue's larger subtitle */
+	size?: 'label' | 'large';
+	class?: string;
+}
+
+const { html, as: Tag = 'p', size = 'label', class: className } = Astro.props;
+---
+
+<Tag class:list={['subtitle', `subtitle-${size}`, className]}>
+	<span set:html={html} />
+</Tag>
+
+<style>
+	.subtitle {
+		margin: 0;
+		font-family: var(--mono);
+		font-size: var(--text-label);
+		font-weight: 400;
+		line-height: 2;
+		hyphens: manual;
+		-webkit-hyphens: manual;
+		text-wrap: balance;
+	}
+
+	.subtitle-large {
+		font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.3rem);
+	}
+
+	.subtitle > span {
+		padding-block: 0.28em;
+		padding-inline: 0.7em;
+		background: var(--sub-bg);
+		color: var(--sub-text);
+		box-shadow: 0 0 0 1px var(--sub-edge);
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
+	}
+
+	.subtitle :global(:is(em, i)) {
+		font-style: italic;
+	}
+
+	.subtitle :global([lang='ja']) {
+		font-family: var(--mincho);
+	}
+</style>

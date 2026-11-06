@@ -1,0 +1,116 @@
+---
+/**
+ * The type scale of DESIGN.md, each style with a sample in its size.
+ */
+import { TYPE_SCALE } from './tokens';
+---
+
+<dl class="scale">
+	{TYPE_SCALE.map(({ name, use, sample, className }) => (
+		<div class="style">
+			<dt>
+				<span class="name">{name}</span>
+				<span class="use">{use}</span>
+			</dt>
+			<dd class={className} lang={className === 'type-plate' ? 'ja' : undefined}>
+				{sample}
+			</dd>
+		</div>
+	))}
+</dl>
+
+<style>
+	.scale {
+		margin: 0;
+	}
+
+	.style {
+		display: grid;
+		gap: 0.5rem 2rem;
+		padding-block: 1rem;
+		border-block-end: 1px solid var(--rule);
+	}
+
+	@media (min-width: 64em) {
+		.style {
+			grid-template-columns: 16rem 1fr;
+			align-items: baseline;
+		}
+	}
+
+	dt {
+		display: grid;
+		font-size: 1rem;
+		line-height: 1.4;
+	}
+
+	.name {
+		font-weight: 600;
+	}
+
+	.use {
+		color: var(--text-3);
+		font-size: 0.9375rem;
+	}
+
+	dd {
+		margin: 0;
+		min-inline-size: 0;
+	}
+
+	.type-display {
+		font-size: var(--text-display);
+		font-weight: 700;
+		line-height: 1.02;
+		letter-spacing: -0.025em;
+		color: var(--heading);
+	}
+
+	.type-headline {
+		font-size: var(--text-headline);
+		font-weight: 600;
+		line-height: 1.04;
+		letter-spacing: -0.02em;
+		color: var(--heading);
+	}
+
+	.type-title {
+		font-size: var(--text-title);
+		font-weight: 600;
+		line-height: 1.15;
+		letter-spacing: -0.015em;
+		color: var(--heading);
+	}
+
+	.type-lede {
+		font-size: var(--text-lede);
+		font-style: italic;
+		line-height: 1.45;
+		color: var(--text-2);
+	}
+
+	.type-body {
+		font-size: var(--text-body);
+		line-height: 1.62;
+	}
+
+	.type-caption {
+		font-size: var(--text-caption);
+		line-height: 1.5;
+		color: var(--text-2);
+	}
+
+	.type-label {
+		font-family: var(--mono);
+		font-size: var(--text-label);
+		line-height: 2;
+	}
+
+	.type-plate {
+		font-family: var(--brush);
+		font-size: var(--text-plate);
+		line-height: 1.02;
+		letter-spacing: 0.06em;
+		color: var(--heading);
+	}
+</style>

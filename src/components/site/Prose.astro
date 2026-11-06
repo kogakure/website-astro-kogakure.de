@@ -1,0 +1,27 @@
+---
+/**
+ * The reading text: wraps the rendered Markdown of a page (or any text) in
+ * `.prose`, the styles of prose.css. `margin`: the reading grid has an
+ * outer column for the glosses (from 75em). `opener`: the first figure is
+ * the article's opener plate, so it is hidden here and the figures count
+ * on from 図二.
+ */
+interface Props {
+	/** The element, e.g. `article` or `div` */
+	as?: 'div' | 'article' | 'section';
+	margin?: boolean;
+	opener?: boolean;
+	id?: string;
+	class?: string;
+}
+
+const { as: Tag = 'div', margin = false, opener = false, id, class: className } = Astro.props;
+---
+
+<Tag
+	id={id}
+	class:list={['prose', { 'prose-margin': margin }, className]}
+	data-opener={opener ? '' : undefined}
+>
+	<slot />
+</Tag>

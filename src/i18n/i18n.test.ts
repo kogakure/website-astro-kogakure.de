@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isLang, language, LANGS, PREFIXED_LANGS } from './languages';
+import { isLang, language, languageChoices, LANGS, PREFIXED_LANGS } from './languages';
 import { homePath, isInBook, notFoundPath, pagePath, routeOf, routeParam } from './routes';
 import { UI } from './ui';
 
@@ -15,6 +15,22 @@ describe('languages', () => {
 		expect(isLang('ja')).toBe(true);
 		expect(isLang('jp')).toBe(false);
 		expect(isLang(undefined)).toBe(false);
+	});
+
+	it('offers every language in its own name, linking to the page in it', () => {
+		const alternates = Object.fromEntries(LANGS.map((lang) => [lang, `/${lang}/x/`])) as Record<
+			(typeof LANGS)[number],
+			string
+		>;
+		const choices = languageChoices(alternates, 'he');
+		expect(choices).toHaveLength(12);
+		expect(choices.find((choice) => choice.current)).toEqual({
+			lang: 'he',
+			name: 'עברית',
+			href: '/he/x/',
+			current: true,
+		});
+		expect(choices.find((choice) => choice.lang === 'zh-Hans')?.name).toBe('中文');
 	});
 
 	it('prefixes every language but German', () => {

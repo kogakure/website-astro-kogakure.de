@@ -1,0 +1,55 @@
+---
+/**
+ * A section of /design-system/: a heading, a line on what it shows, the
+ * samples in the slot.
+ */
+interface Props {
+	id: string;
+	title: string;
+	intro?: string;
+}
+
+const { id, title, intro } = Astro.props;
+---
+
+<section class="specimen" id={id} aria-labelledby={`${id}-title`}>
+	<h2 id={`${id}-title`} class="specimen-title">
+		{title}
+	</h2>
+	{intro && <p class="specimen-intro">{intro}</p>}
+	<div class="specimen-body">
+		<slot />
+	</div>
+</section>
+
+<style>
+	.specimen {
+		max-inline-size: var(--page);
+		margin-inline: auto;
+		padding-block: var(--scene) 0;
+		padding-inline: var(--gutter);
+		scroll-margin-block-start: 1rem;
+	}
+
+	.specimen-title {
+		margin-block: 0 0.5rem;
+		padding-block-start: 0.9rem;
+		border-block-start: 1px solid var(--rule);
+		font-size: var(--text-headline);
+		font-weight: 600;
+		line-height: 1.04;
+		letter-spacing: -0.02em;
+		text-wrap: balance;
+	}
+
+	.specimen-intro {
+		max-inline-size: var(--measure);
+		margin-block: 0 2rem;
+		color: var(--text-2);
+	}
+
+	.specimen-body {
+		display: grid;
+		gap: 2.5rem;
+	}
+</style>

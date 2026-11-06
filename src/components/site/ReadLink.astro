@@ -1,0 +1,44 @@
+---
+/**
+ * A link with the seal: the way into a readable article (the prologue's
+ * „Lesen“, the way back after the text). Semibold, the underline on the
+ * text only.
+ */
+import Seal from './Seal.astro';
+
+interface Props {
+	href: string;
+	class?: string;
+}
+
+const { href, class: className } = Astro.props;
+---
+
+<a href={href} class:list={['read-link', className]}>
+	<Seal />
+	<span class="read-link-text">
+		<slot />
+	</span>
+</a>
+
+<style>
+	.read-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.65em;
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.read-link-text {
+		text-decoration-line: underline;
+		text-decoration-thickness: 1px;
+		text-decoration-color: var(--link-line);
+		text-underline-offset: 0.2em;
+		transition: text-decoration-color var(--duration-quick) ease-out;
+	}
+
+	.read-link:hover .read-link-text {
+		text-decoration-color: currentColor;
+	}
+</style>

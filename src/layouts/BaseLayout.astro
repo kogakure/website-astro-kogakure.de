@@ -1,4 +1,6 @@
 ---
+import Ink from '@/components/site/Ink.astro';
+import SiteHead from '@/components/site/SiteHead.astro';
 import SkipLink from '@/components/site/SkipLink.astro';
 import { DEFAULT_LANG, language, type Lang } from '@/i18n/languages';
 import { ui } from '@/i18n/ui';
@@ -8,9 +10,22 @@ interface Props {
 	title: string;
 	description: string;
 	lang?: Lang;
+	/** The page's slug in the book, for its own font subsets */
+	fontPage?: string | undefined;
+	/** More languages the page sets (the samples on /design-system/) */
+	fontLangs?: Lang[];
+	/** The calmer paper of the reading page */
+	ground?: 'home' | 'read';
 }
 
-const { title, description, lang = DEFAULT_LANG } = Astro.props;
+const {
+	title,
+	description,
+	lang = DEFAULT_LANG,
+	fontPage,
+	fontLangs,
+	ground = 'home',
+} = Astro.props;
 const { htmlLang, dir } = language(lang);
 ---
 
@@ -22,11 +37,16 @@ const { htmlLang, dir } = language(lang);
 		<meta name="description" content={description} />
 		<meta name="robots" content="noindex" />
 		<title>{title}</title>
+		<SiteHead lang={lang} fontPage={fontPage} fontLangs={fontLangs} ground={ground} />
+		<slot name="head" />
 	</head>
-	<body>
+	<body data-ground={ground}>
 		<SkipLink label={ui(lang).skipToText} />
+		<slot name="before-main" />
 		<main id="main" tabindex="-1">
 			<slot />
 		</main>
+		<slot name="after-main" />
+		<Ink />
 	</body>
 </html>

@@ -1,0 +1,31 @@
+---
+/**
+ * The opener of an article: its first painting as a plate (2:1, from 75em
+ * held to min(44svh, 30rem) so the title stays in the first screen), the
+ * article's name plate and the caption as the subtitle. It blooms once on
+ * load. An article without a painting gets the bare plate: the name plate
+ * on an ink wash cut by the same wet edge.
+ */
+import Plate from './Plate.astro';
+
+interface Props {
+	/** The article's first painting (findOpener), with its alt text and caption */
+	image?: { src: string; alt: string; caption?: string | undefined } | undefined;
+	/** The plate term: the article's `plate` field, or its chapter's kanji */
+	name: string;
+	/** The chapter, e.g. 第一章 */
+	number?: string | null | undefined;
+}
+
+const { image, name, number } = Astro.props;
+---
+
+<Plate
+	variant="opener"
+	image={image ? { src: image.src, alt: image.alt } : undefined}
+	caption={image?.caption}
+	plate={{ name, number }}
+	edge="a"
+	bloom
+	priority
+/>

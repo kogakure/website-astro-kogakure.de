@@ -1,0 +1,104 @@
+---
+/**
+ * One language on /design-system/, in light and dark side by side: a name
+ * plate, the title as a heading, the lede, a subtitle line and a paragraph
+ * in the slot. A `.script-root` with its own lang and dir, so the per-script
+ * rules apply (global.css): Hebrew mirrored and upright, Japanese with
+ * strict line breaking and a looser line.
+ */
+import { language, type Lang } from '@/i18n/languages';
+import NamePlate from '@/components/site/NamePlate.astro';
+import Subtitle from '@/components/site/Subtitle.astro';
+
+interface Props {
+	lang: Lang;
+	plate: { name: string; number?: string };
+	title: string;
+	lede?: string | undefined;
+	subtitle: string;
+}
+
+const { lang, plate, title, lede, subtitle } = Astro.props;
+const { htmlLang, dir, name } = language(lang);
+---
+
+<div class="script">
+	<p class="script-name">{name}</p>
+	<!-- The dark panel repeats the light one: hidden from assistive tech -->
+	<div class="modes">
+		{(['mode-light', 'mode-dark'] as const).map((mode) => (
+			<div
+				class:list={['script-root', 'panel', mode]}
+				lang={htmlLang}
+				dir={dir}
+				aria-hidden={mode === 'mode-dark' ? 'true' : undefined}
+				inert={mode === 'mode-dark'}
+			>
+				<NamePlate name={plate.name} number={plate.number} size="small" />
+				<div class="panel-text">
+					<h3>{title}</h3>
+					{lede && <p class="lede">{lede}</p>}
+					<Subtitle html={subtitle} />
+					<slot />
+				</div>
+			</div>
+		))}
+	</div>
+</div>
+
+<style>
+	.script-name {
+		margin-block: 0 0.75rem;
+		font-family: var(--mono);
+		font-size: 0.875rem;
+		color: var(--text-3);
+	}
+
+	.modes {
+		display: grid;
+		gap: 1rem;
+	}
+
+	@media (min-width: 64em) {
+		.modes {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	.panel {
+		display: flex;
+		gap: 1.5rem;
+		align-items: flex-start;
+		padding: clamp(1.25rem, 3vw, 2rem);
+		background: var(--ground-read);
+		color: var(--text);
+		border: 1px solid var(--rule);
+	}
+
+	.panel-text {
+		display: grid;
+		gap: 0.9rem;
+		min-inline-size: 0;
+	}
+
+	h3 {
+		margin: 0;
+		font-size: var(--text-title);
+		font-weight: 600;
+		line-height: 1.15;
+		letter-spacing: -0.015em;
+		color: var(--heading);
+	}
+
+	.lede {
+		margin: 0;
+		font-size: var(--text-lede);
+		font-style: italic;
+		line-height: 1.45;
+		color: var(--text-2);
+	}
+
+	.panel-text :global(p:not(.lede, .subtitle)) {
+		margin: 0;
+	}
+</style>

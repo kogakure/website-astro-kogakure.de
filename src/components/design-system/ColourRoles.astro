@@ -1,0 +1,108 @@
+---
+/**
+ * The colour roles of one group, each in both modes side by side: the same
+ * custom property, resolved once under `.mode-light` and once under
+ * `.mode-dark` (tokens.css).
+ */
+import type { Token } from './tokens';
+
+interface Props {
+	title: string;
+	roles: Token[];
+}
+
+const { title, roles } = Astro.props;
+const id = title.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-');
+---
+
+<div class="roles">
+	<h3 class="roles-title" id={`roles-${id}`}>
+		{title}
+	</h3>
+	<table aria-labelledby={`roles-${id}`}>
+		<thead>
+			<tr>
+				<th scope="col">Rolle</th>
+				<th scope="col">Hell (Washi)</th>
+				<th scope="col">Dunkel (Aizome)</th>
+			</tr>
+		</thead>
+		<tbody>
+			{roles.map(({ name, use }) => (
+				<tr>
+					<th scope="row">
+						<code>{name}</code>
+						<span class="use">{use}</span>
+					</th>
+					{(['mode-light', 'mode-dark'] as const).map((mode) => (
+						<td class={mode}>
+							<span class="swatch" style={`--swatch: var(${name})`} />
+							<span class="sr-only">{`${name}, ${mode === 'mode-light' ? 'Hell' : 'Dunkel'}`}</span>
+						</td>
+					))}
+				</tr>
+			))}
+		</tbody>
+	</table>
+</div>
+
+<style>
+	.roles-title {
+		margin-block: 0 0.75rem;
+		font-size: 1.3rem;
+		font-weight: 600;
+	}
+
+	table {
+		inline-size: 100%;
+		border-collapse: collapse;
+		font-size: 1rem;
+		line-height: 1.4;
+	}
+
+	th,
+	td {
+		padding-block: 0.6rem;
+		border-block-end: 1px solid var(--rule);
+		text-align: start;
+		vertical-align: middle;
+	}
+
+	thead th {
+		font-family: var(--mono);
+		font-size: 0.875rem;
+		font-weight: 400;
+		color: var(--text-3);
+	}
+
+	tbody th {
+		font-weight: 400;
+		padding-inline-end: 1rem;
+	}
+
+	code {
+		display: block;
+		font-family: var(--mono);
+		font-size: 0.9375rem;
+	}
+
+	.use {
+		display: block;
+		color: var(--text-2);
+		font-size: 0.9375rem;
+	}
+
+	td {
+		inline-size: 22%;
+		padding-inline: 0.75rem;
+		background: var(--ground);
+	}
+
+	.swatch {
+		display: block;
+		block-size: 2.5rem;
+		background: var(--swatch);
+		border: 1px solid var(--rule);
+		border-radius: 1px;
+	}
+</style>

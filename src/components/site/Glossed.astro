@@ -1,0 +1,36 @@
+---
+/**
+ * A Japanese term with its kanji and meaning, in the markup the Markdown
+ * plugin writes for the texts (src/lib/markdown/glossed-terms.ts), so the
+ * same styles (prose.css) set it: inline in parentheses on narrow screens,
+ * in the outer margin from 75em (inside Prose with `margin`). A screen
+ * reader hears „tengu 天狗 Himmelhund“; the repeated term is hidden from it.
+ * For terms outside the texts, e.g. on the design-system page.
+ */
+interface Props {
+	/** The romanized term, set in italic */
+	term: string;
+	/** Its kanji */
+	kanji: string;
+	/** Its meaning, as HTML (the texts quote it with <q>) */
+	meaning?: string | undefined;
+}
+
+const { term, kanji, meaning } = Astro.props;
+---
+
+<em lang="ja-Latn">{term}</em>
+<span class="gloss">
+	<span class="gloss-term" aria-hidden="true" lang="ja-Latn">
+		{term}
+	</span>
+	<span class="gloss-kanji" lang="ja">
+		{kanji}
+	</span>
+	{meaning && (
+		<>
+			{' '}
+			<span class="gloss-meaning" set:html={meaning} />
+		</>
+	)}
+</span>
