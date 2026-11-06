@@ -4,3 +4,6 @@ coverage/
 playwright-report/
 test-results/
 pnpm-lock.yaml
+
+# imported by pnpm import:content, never reformat
+src/content/
