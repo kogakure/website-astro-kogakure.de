@@ -129,11 +129,16 @@ const { zoom, close } = Astro.props;
 		const { start, zoom } = unscaled(source);
 		const style = getComputedStyle(source.closest('.plate-art') ?? source);
 		// The name plate lies on the painting: it would sit under the frame while
-		// it closes and jump on top at the end, so it waits and comes back after
+		// it closes and jump on top at the end, so it fades out with the shade
+		// and settles back once the painting is in its edge again
 		const hidden = [
 			...(source.closest('.plate')?.querySelectorAll('.plate-name, .plate-subtitle') ?? []),
 		].map((overlay) =>
-			overlay.animate([{ opacity: 0 }, { opacity: 0 }], { duration: 1, fill: 'forwards' })
+			overlay.animate([{ opacity: 1 }, { opacity: 0 }], {
+				duration: still.matches ? 0 : 250,
+				easing: 'ease-out',
+				fill: 'forwards',
+			})
 		);
 		current = { trigger, source, start, zoom, hidden };
 
@@ -199,13 +204,22 @@ const { zoom, close } = Astro.props;
 
 	/** However the dialog closed (also natively, mid-animation): back to rest */
 	function reset() {
+		// As on the page's first view (`settle` in motion.css): the name drops a
+		// little into place, the subtitle only fades
 		for (const hide of current?.hidden ?? []) {
 			hide.cancel();
-			(hide.effect as KeyframeEffect | null)?.target?.animate(
-				[{ opacity: 0 }, { opacity: 1 }],
+			const overlay = (hide.effect as KeyframeEffect | null)?.target;
+			const drop = overlay?.classList.contains('plate-name') ? '-0.5rem' : '0';
+			overlay?.animate(
+				[
+					{ opacity: 0, translate: `0 ${drop}` },
+					{ opacity: 1, translate: '0 0' },
+				],
 				{
-					duration: still.matches ? 0 : 400,
-					easing: 'ease-out',
+					duration: still.matches ? 0 : 600,
+					delay: still.matches ? 0 : 100,
+					easing: 'cubic-bezier(0.33, 1, 0.68, 1)',
+					fill: 'backwards',
 				}
 			);
 		}
