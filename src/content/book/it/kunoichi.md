@@ -40,6 +40,11 @@ Per prima cosa le ragazze imparavano tutto ciò che faceva di una giovane una _m
 
 Accanto a questa formazione di base procedeva un indottrinamento che doveva assicurare in seguito la loro lealtà assoluta. Chiyome ricordava di continuo alle ragazze che era stata lei a sottrarle alla povertà e a render loro possibile questa nuova vita. Così legava a sé emotivamente le future _kunoichi_. Più e più volte faceva tornare con la mente le sue protette all’infanzia: a chi era colpevole della loro povertà, a chi le aveva tradite e a chi, in quel periodo, le aveva trovate e aveva dato loro una nuova vita quando tutto sembrava perduto. A poco a poco nelle ragazze cresceva la convinzione che potevano sopravvivere solo restando unite alle loro sorelle e fedeli senza riserve a Mochizuki Chiyome.
 
+<figure>
+<img src="/images/article/kunoichi-03-training-kunoichi.webp" alt="In un cortile cintato da mura, giovani donne in giacche scure e pantaloni ampi si esercitano con bastoni, un’arma inastata a lama curva e un coltello, mentre una donna a braccia conserte le osserva davanti alla casa.">
+<figcaption>L’addestramento delle <em>kunoichi</em></figcaption>
+</figure>
+
 La terza fase della formazione riguardava il mestiere dell’agente. Le allieve imparavano a procurarsi informazioni preziose e a valutare correttamente le situazioni. Imparavano a seminare confusione e discordia con voci (false), a individuare messaggeri affidabili che trasmettessero notizie importanti ad altre _miko-kunoichi_ e a travestirsi. E imparavano, se necessario, a manipolare gli uomini con il loro fascino femminile. Concluse la formazione e l’indottrinamento all’accademia dei ninja di Nezu, le ragazze diventavano agenti attive nella squadra di _kunoichi_ di Mochizuki.
 
 In questo modo si raccoglievano informazioni importanti da entrambe le province prese di mira. Chiyome faceva inoltre interrogare minuziosamente i viaggiatori che avevano attraversato quei territori. Così poteva fornire a Takeda Shingen un quadro esatto della situazione politica e militare. Perché la rete restasse efficace e anonima, nessuno oltre al generale conosceva il ruolo di Chiyome. Il segreto lui non lo rivelò nemmeno ai suoi più stretti confidenti.
@@ -49,10 +54,5 @@ In questo modo si raccoglievano informazioni importanti da entrambe le province 
 Le _kunoichi_ del Medioevo venivano addestrate in modo simile ai loro compagni d’armi maschi, ma con più attenzione agli aspetti sottili del combattimento ravvicinato. Dove i ninja maschi imparavano la tattica di battaglia e la guerriglia, le donne si esercitavano nella psicologia pratica, nelle tecniche di manipolazione e nell’allenamento dell’intuito.
 
 Alla preparazione per il servizio attivo apparteneva naturalmente anche una solida formazione di base nei metodi di combattimento del ninjutsu: _taijutsu_ (体術), _bōjutsu_ (棒術) e _hanbōjutsu_ (半棒術), _tantōjutsu_ (短刀術), _yarijutsu_ (槍術) e _kenjutsu_ (剣術).
-
-<figure>
-<img src="/images/article/kunoichi-03-training-kunoichi.webp" alt="In un cortile cintato da mura, giovani donne in giacche scure e pantaloni ampi si esercitano con bastoni, un’arma inastata a lama curva e un coltello, mentre una donna a braccia conserte le osserva davanti alla casa.">
-<figcaption>L’addestramento delle <em>kunoichi</em></figcaption>
-</figure>
 
 Le tecniche di combattimento erano adattate alla situazione di una donna di corporatura più minuta. Comprendevano tra l’altro metodi di fuga e modi per respingere avversari maschi più forti. Gli assalti a posti di guardia o a postazioni militari, alla maniera di una squadra d’assalto, restavano invece riservati ai ninja maschi.
