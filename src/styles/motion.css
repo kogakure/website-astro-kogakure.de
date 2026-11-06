@@ -1,0 +1,176 @@
+/*
+ * Motion is ink, and it runs once: plates bloom out of their ink edge when
+ * they come into view (Ink.astro), the opener blooms on load and the brush
+ * sweeps once, the next page spreads like wet ink from the click. Nothing
+ * loops, nothing follows the scroll position. Everything here waits for
+ * .js on <html>, set before first paint only when motion is allowed
+ * (SiteHead.astro): without JavaScript or with reduced motion, everything
+ * is simply there.
+ */
+
+/* A plate blooms out of its ink edge, the name plate settles, the subtitle
+   appears last */
+.js [data-reveal] .plate-art {
+	transition:
+		-webkit-mask-size var(--duration-reveal) var(--ease-out),
+		mask-size var(--duration-reveal) var(--ease-out),
+		filter 900ms var(--ease-out),
+		opacity 700ms var(--ease-out);
+}
+
+/* On screen only: a page printed before it was read prints whole */
+@media screen {
+	.js [data-reveal]:not(.is-revealed) .plate-art {
+		-webkit-mask-size: 62% 62%;
+		mask-size: 62% 62%;
+		filter: blur(6px);
+		opacity: 0.4;
+	}
+}
+
+.js [data-reveal] .plate-name {
+	transition:
+		opacity 500ms var(--ease-out) 300ms,
+		translate 700ms var(--ease-out) 300ms;
+}
+
+/* On screen only: a page printed before it was read prints whole */
+@media screen {
+	.js [data-reveal]:not(.is-revealed) .plate-name {
+		opacity: 0;
+		translate: 0 -0.5rem;
+	}
+}
+
+.js [data-reveal] .plate-subtitle {
+	transition: opacity 400ms ease-out 750ms;
+}
+
+/* On screen only: a page printed before it was read prints whole */
+@media screen {
+	.js [data-reveal]:not(.is-revealed) .plate-subtitle {
+		opacity: 0;
+	}
+}
+
+.js .prose figure img {
+	transition:
+		-webkit-mask-size 1000ms var(--ease-out),
+		mask-size 1000ms var(--ease-out),
+		opacity 700ms var(--ease-out);
+}
+
+/* On screen only: a page printed before it was read prints whole */
+@media screen {
+	.js .prose figure:not(.is-revealed) img {
+		-webkit-mask-size: 64% 64%;
+		mask-size: 64% 64%;
+		opacity: 0.45;
+	}
+}
+
+/* The opener blooms on load, then the brush sweeps once */
+@keyframes bloom {
+	from {
+		-webkit-mask-size: 62% 62%;
+		mask-size: 62% 62%;
+		filter: blur(6px);
+		opacity: 0.4;
+	}
+}
+
+@keyframes settle {
+	from {
+		opacity: 0;
+		translate: 0 -0.5rem;
+	}
+}
+
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+}
+
+@keyframes wipe {
+	from {
+		clip-path: inset(0 100% 0 0);
+	}
+	to {
+		clip-path: inset(0 0 0 0);
+	}
+}
+
+.js [data-bloom] .plate-art {
+	animation: bloom 1200ms var(--ease-out) both;
+}
+
+.js [data-bloom] .plate-name {
+	animation: settle 700ms var(--ease-out) 350ms both;
+}
+
+.js [data-bloom] .plate-subtitle {
+	animation: appear 400ms ease-out 800ms both;
+}
+
+/* The sweep draws in from the reading start (it is mirrored in rtl, so the
+   physical inset follows) */
+.js .sweep[data-draw] {
+	animation: wipe var(--duration-sweep) var(--ease-wipe) 900ms both;
+}
+
+/* Between pages the new page spreads like wet ink from where the reader
+   clicked (SiteHead.astro carries the point); the old page holds still
+   under it. Chrome and Safari; other browsers change at once */
+@media (prefers-reduced-motion: no-preference) {
+	@view-transition {
+		navigation: auto;
+	}
+}
+
+@property --ink-r {
+	syntax: '<length>';
+	inherits: false;
+	initial-value: 0px;
+}
+
+@keyframes spread {
+	from {
+		--ink-r: 0px;
+	}
+	to {
+		--ink-r: 150vmax;
+	}
+}
+
+::view-transition-old(root) {
+	animation: none;
+}
+
+::view-transition-new(root) {
+	-webkit-mask: radial-gradient(
+		circle at var(--ink-x, 50%) var(--ink-y, 50%),
+		#000 var(--ink-r),
+		transparent calc(var(--ink-r) + 18vmax)
+	);
+	mask: radial-gradient(
+		circle at var(--ink-x, 50%) var(--ink-y, 50%),
+		#000 var(--ink-r),
+		transparent calc(var(--ink-r) + 18vmax)
+	);
+	animation: spread var(--duration-transition) cubic-bezier(0.33, 0, 0.2, 1) both;
+}
+
+/* Reduced motion: everything static, no view transition */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	::before,
+	::after {
+		animation: none !important;
+		transition: none !important;
+	}
+
+	html {
+		scroll-behavior: auto;
+	}
+}
