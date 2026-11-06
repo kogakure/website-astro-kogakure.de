@@ -4,19 +4,19 @@ import { describe, expect, it } from 'vitest';
 import Picture from './Picture.astro';
 
 // Real images of the manifest: a landscape painting and a portrait with a focus point
-const LANDSCAPE = '/images/article/kamae-01-stance-that-is-already-movement.webp';
+const LANDSCAPE = '/images/article/ukemi-01-rolling-away-from-fall.webp';
 const PORTRAIT = '/images/historical/hattori-hanzo.webp';
 
 describe('Picture', () => {
 	it('renders the generated widths with the size of the original', async () => {
-		const html = await renderAstro(Picture, { src: LANDSCAPE, alt: 'A stance' });
-		const base = '/images/article/kamae-01-stance-that-is-already-movement';
+		const html = await renderAstro(Picture, { src: LANDSCAPE, alt: 'A roll' });
+		const base = '/images/article/ukemi-01-rolling-away-from-fall';
 		expect(html).toContain(`src="${base}-1400.webp"`);
 		expect(html).toContain(`${base}-800.webp 800w`);
 		expect(html).toContain(`${base}-2750.webp 2750w`);
 		expect(html).toContain('width="2048"');
 		expect(html).toContain('height="1152"');
-		expect(html).toContain('alt="A stance"');
+		expect(html).toContain('alt="A roll"');
 	});
 
 	it('is lazy and sized for a figure by default', async () => {
@@ -78,7 +78,7 @@ describe('Picture', () => {
 	});
 
 	it('has no accessibility violations', async () => {
-		const html = await renderAstro(Picture, { src: LANDSCAPE, alt: 'A stance' });
+		const html = await renderAstro(Picture, { src: LANDSCAPE, alt: 'A roll' });
 		const violations = await axeViolations(html);
 		expect(violations, describeViolations(violations)).toHaveLength(0);
 	});
