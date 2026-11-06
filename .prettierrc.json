@@ -1,0 +1,28 @@
+{
+	"plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+	"tailwindStylesheet": "./src/styles/global.css",
+	"endOfLine": "lf",
+	"semi": true,
+	"singleQuote": true,
+	"useTabs": true,
+	"tabWidth": 4,
+	"printWidth": 100,
+	"trailingComma": "es5",
+	"overrides": [
+		{
+			"files": ["*.md", "*.mdx", "*.yml", "*.yaml"],
+			"options": {
+				"singleQuote": false,
+				"tabWidth": 2,
+				"useTabs": false,
+				"embeddedLanguageFormatting": "off"
+			}
+		},
+		{
+			"files": "*.astro",
+			"options": {
+				"parser": "astro"
+			}
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"plugins": ["typescript", "unicorn", "oxc", "import", "react", "jsx-a11y", "vitest"],
+	"categories": {
+		"correctness": "error",
+		"suspicious": "warn"
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es2024": true
+	},
+	"rules": {
+		"react/react-in-jsx-scope": "off",
+		"import/no-unassigned-import": ["warn", { "allow": ["**/*.css"] }],
+		"vitest/valid-expect": ["error", { "maxArgs": 2 }]
+	},
+	"ignorePatterns": [
+		"dist/**",
+		".astro/**",
+		"coverage/**",
+		"playwright-report/**",
+		"test-results/**"
+	]
+}
