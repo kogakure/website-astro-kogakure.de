@@ -12,7 +12,17 @@ categories:
 
 ## Mujeres ninja
 
+<figure>
+<img src="/images/article/kunoichi-02-miko-on-road.webp" alt="Dos jóvenes servidoras de santuario con túnicas blancas y faldas pantalón rojas caminan por un camino de montaña junto a un pequeño santuario al borde del camino; una lleva un hatillo, y un jinete con armadura se acerca en sentido contrario.">
+<figcaption><em>Miko</em> de camino</figcaption>
+</figure>
+
 En 1561, el señor de la guerra Mochizuki Moritoki cayó en la célebre batalla de Kawanakajima. Según la tradición, su viuda Chiyome se puso bajo la protección del poderoso Takeda Shingen, tío de su difunto marido. Lo habitual habría sido que se retirara a una orden religiosa y pasara el resto de sus días en silencio como monja. Chiyome hizo lo contrario: siguió volcándose por entero en los planes de poder del gran daimyō. Cuando Takeda le pidió que creara una red de _kunoichi_ (くノ一), aceptó. Llegó a ser una de las redes más eficaces y discretas de toda la Sengoku jidai (戦国時代).
+
+<figure>
+<img src="/images/article/kunoichi-01-mochizuki-chiyome-takes-in-orphans.webp" alt="Ante la puerta de una casa con techo de paja en las montañas, una mujer con kimono oscuro tiende un cuenco de arroz a una niña pequeña con ropa andrajosa, mientras dos muchachas mayores esperan detrás.">
+<figcaption>Mochizuki Chiyome acoge a huérfanas</figcaption>
+</figure>
 
 La idea partió de Takeda Shingen. Chiyome debía preparar a _miko_ (巫女) ya formadas, servidoras de santuario, para que, además de sus obligaciones propias, pudieran trabajar como espías, observadoras o correos. Su zona de actuación era la región de Kai (hoy Yamanashi), en el dominio de los Takeda, y el territorio de Shinano (hoy Nagano). Shinano tenía una importancia estratégica especial: tanto Takeda Shingen como su rival Uesugi Kenshin veían en él el objetivo principal de sus futuras conquistas.
 
@@ -20,17 +30,7 @@ La idea partió de Takeda Shingen. Chiyome debía preparar a _miko_ (巫女) ya 
 
 Durante su gobierno, Takeda confió mucho en los ninja como espías. Los reclutaba en su propio dominio, pero también en las filas de sus adversarios. Las _kunoichi_ eran solo un eslabón más de esta cadena de informantes. Reunían noticias y comprobaban los informes de otros agentes. Como jóvenes servidoras de templo podían viajar sin trabas y ponerse en contacto con los espías locales sin levantar sospechas. Así crecieron aún más el poder y el saber de la familia Takeda.
 
-<figure>
-<img src="/images/article/kunoichi-02-miko-on-road.webp" alt="Dos jóvenes servidoras de santuario con túnicas blancas y faldas pantalón rojas caminan por un camino de montaña junto a un pequeño santuario al borde del camino; una lleva un hatillo, y un jinete con armadura se acerca en sentido contrario.">
-<figcaption><em>Miko</em> de camino</figcaption>
-</figure>
-
 Chiyome fundó su escuela clandestina en Nezu, una aldea del distrito de Chiisagata, en la región de Shinshū (hoy Nagano). Desde entonces dirigió allí una escuela para mujeres ninja. Una _miko_ tenía que ser siempre joven y soltera. Por eso Chiyome buscaba a sus candidatas entre los innumerables niños que las guerras civiles habían dejado huérfanos y sin techo. Acogía a toda muchacha abandonada o fugada que llegaba a la región de Shinshū.
-
-<figure>
-<img src="/images/article/kunoichi-01-mochizuki-chiyome-takes-in-orphans.webp" alt="Ante la puerta de una casa con techo de paja en las montañas, una mujer con kimono oscuro tiende un cuenco de arroz a una niña pequeña con ropa andrajosa, mientras dos muchachas mayores esperan detrás.">
-<figcaption>Mochizuki Chiyome acoge a huérfanas</figcaption>
-</figure>
 
 Para los demás habitantes de Nezu, Chiyome era una mujer amable y cariñosa que hacía todo lo posible por salvar de la pobreza a muchachas solas, darles un hogar y transmitirles valores espirituales.
 
