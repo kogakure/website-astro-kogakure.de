@@ -43,7 +43,7 @@ An image's key is its URL path below `/images/`, as the texts use it: `/images/k
 ## Use
 
 - **Texts:** the `figures` Markdown plugin replaces the `src` of every figure with the generated file and adds `srcset`, `sizes`, `width`, `height`, `loading="lazy"`.
-- **Pages:** `Picture.astro` (`src/components/site/`). `priority` for the opener (eager, `fetchpriority="high"`), everything else lazy. `sizes="band"` for the opener and full-width bands, `figure` (default) for figures. A focus point becomes `--focus`; the image's `object-position` is `var(--focus, 50% 50%)`, and layouts that crop differently set their own fallback.
+- **Pages:** `Picture.astro` (`src/components/site/`). `priority` for the opener (eager, `fetchpriority="high"`), everything else lazy. `sizes="band"` for the opener and full-width bands, `figure` (default) for figures. A focus point becomes `--focal` (not `--focus`, the focus ring's colour); the image's `object-position` is `var(--focal, 50% 50%)`, and layouts that crop differently set their own fallback.
 - **Opener:** the article's first painting (`article/`, `historical/`); diagrams, objects and technique images don't open an article.
 
 The build fails if the texts use an image that isn't in the manifest or whose files are missing in `public/images/` (`src/integrations/validate-book.ts`).

@@ -19,7 +19,7 @@
 | `src/content.config.ts`         | Content collections `book`, `toc`, `glossary`                                                     |
 | `src/integrations/`             | Astro integrations (`validate-book.ts` fails the build on broken content)                         |
 | `src/components/book/`          | Astro components for the book's pages (prologue, scenes, contents, article head, previous/next)   |
-| `src/components/templates/`     | The page types (homepage, contents, part, article), rendered by `src/pages/[...route].astro`      |
+| `src/components/templates/`     | The page types (homepage, contents, article), rendered by `src/pages/[...route].astro`            |
 | `scripts/`                      | `import-content.ts`, `generate-images.ts`, `generate-fonts.ts`                                    |
 | `src/styles/`                   | `global.css` (Tailwind entry, theme, base, scripts), `tokens.css`, `prose.css`, `motion.css`      |
 | `src/test/`                     | Test helpers: `setup.ts`, `a11y.ts` (axe), `render.ts` (Astro container), `happy-dom-ssr.ts`      |

@@ -1,7 +1,7 @@
 ---
 /**
  * An image of the manifest in its pregenerated WebP widths. Width and height
- * of the original reserve the space; the focus point becomes `--focus`, so a
+ * of the original reserve the space; the focus point becomes `--focal`, so a
  * cropping layout (`object-fit: cover`) keeps the subject in view. The opener
  * of a page is `priority` (eager, high fetch priority); everything else is
  * lazy. Fails the build for an image that isn't in the manifest.
@@ -55,6 +55,6 @@ const layout = Object.hasOwn(SIZES, sizes) ? SIZES[sizes as keyof typeof SIZES] 
 	loading={priority ? 'eager' : 'lazy'}
 	decoding={priority ? undefined : 'async'}
 	fetchpriority={priority ? 'high' : undefined}
-	style={image.focus ? `--focus: ${image.focus}` : undefined}
-	class={cn('object-[var(--focus,50%_50%)]', className)}
+	style={image.focus ? `--focal: ${image.focus}` : undefined}
+	class={cn('object-[var(--focal,50%_50%)]', className)}
 />

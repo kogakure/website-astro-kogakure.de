@@ -52,6 +52,7 @@ const { zoom, close } = Astro.props;
 		start: DOMRect;
 	}
 	let current: Open | undefined;
+	let closing = false;
 
 	/** The largest box of the image's own proportion that fits the screen */
 	function target(source: HTMLImageElement) {
@@ -59,8 +60,9 @@ const { zoom, close } = Astro.props;
 		const ratio =
 			Number(source.getAttribute('width')) / Number(source.getAttribute('height')) ||
 			source.naturalWidth / source.naturalHeight;
-		// Room for the close button above, and the caption below the image
-		const below = caption?.hidden ? SPACE : 4 * SPACE;
+		// Room for the close button above, and the caption below the image (as
+		// tall as it is, once the dialog shows it)
+		const below = caption?.hidden ? SPACE : caption ? caption.offsetHeight + SPACE : SPACE;
 		const maxWidth = innerWidth - 2 * SPACE;
 		const maxHeight = innerHeight - 3 * SPACE - below;
 		const width = Math.min(maxWidth, maxHeight * ratio);
@@ -103,13 +105,19 @@ const { zoom, close } = Astro.props;
 			captionLine.innerHTML = (text?.querySelector('span') ?? text)?.innerHTML ?? '';
 			caption.hidden = !text?.textContent?.trim();
 		}
-		const end = target(source);
-		place(end);
-
 		image.src = source.currentSrc || source.src;
-		image.alt = source.alt;
+		// The dialog carries the alt text as its name; the image would repeat it
+		image.alt = '';
 		image.style.objectPosition = getComputedStyle(source).objectPosition;
 		// The largest file the screen needs, swapped in once loaded
+		dialog.setAttribute('aria-label', source.alt || caption?.textContent?.trim() || label);
+		if (caption?.hidden) dialog.removeAttribute('aria-describedby');
+		else dialog.setAttribute('aria-describedby', 'lightbox-caption');
+		frame.style.setProperty('--lightbox-mask', style.maskImage || 'none');
+
+		dialog.showModal();
+		const end = target(source);
+		place(end);
 		if (source.srcset) {
 			const large = new Image();
 			large.sizes = `${Math.ceil(end.width)}px`;
@@ -119,10 +127,6 @@ const { zoom, close } = Astro.props;
 				() => {}
 			);
 		}
-		dialog.setAttribute('aria-label', source.alt);
-		frame.style.setProperty('--lightbox-mask', style.maskImage || 'none');
-
-		dialog.showModal();
 		shade.animate([{ opacity: 0 }, { opacity: 1 }], {
 			duration: still.matches ? 0 : 300,
 			fill: 'forwards',
@@ -135,7 +139,8 @@ const { zoom, close } = Astro.props;
 	}
 
 	async function close() {
-		if (!dialog?.open || !frame || !shade || !current) return;
+		if (!dialog?.open || !frame || !shade || !current || closing) return;
+		closing = true;
 		const { trigger, start } = current;
 		const now = frame.getBoundingClientRect();
 		frame.classList.remove('is-whole');
@@ -147,13 +152,21 @@ const { zoom, close } = Astro.props;
 			{ ...box(now), maskSize: '190% 190%' },
 			{ ...box(start), maskSize: '100% 100%' }
 		);
-		current = undefined;
 		dialog.close();
 		trigger.focus({ preventScroll: true });
 	}
 
+	/** However the dialog closed (also natively, mid-animation): back to rest */
+	function reset() {
+		closing = false;
+		current = undefined;
+		frame?.classList.remove('is-whole');
+		for (const running of frame?.getAnimations() ?? []) running.cancel();
+	}
+
+	const label = dialog?.dataset.zoomLabel ?? '';
 	if (dialog) {
-		const label = dialog.dataset.zoomLabel ?? '';
+		if (caption) caption.id = 'lightbox-caption';
 		for (const source of document.querySelectorAll<HTMLImageElement>(IMAGES)) {
 			const trigger = document.createElement('button');
 			trigger.type = 'button';
@@ -165,7 +178,14 @@ const { zoom, close } = Astro.props;
 			trigger.addEventListener('click', () => open(trigger, source));
 		}
 		dialog.addEventListener('click', (event) => {
+			// Selecting the caption's text is no click to close
+			if (getSelection()?.toString()) return;
 			if (!(event.target as Element).closest('[data-lightbox-close]')) close();
+		});
+		dialog.addEventListener('close', () => {
+			const trigger = current?.trigger;
+			reset();
+			trigger?.focus({ preventScroll: true });
 		});
 		dialog.querySelector('[data-lightbox-close]')?.addEventListener('click', close);
 		dialog.addEventListener('cancel', (event) => {
@@ -195,9 +215,15 @@ const { zoom, close } = Astro.props;
 		cursor: zoom-in;
 	}
 
+	/* The ring goes around the plate or figure, outside the ink edge that
+	   masks the image; on the paper it has the ground's contrast */
 	:global(.lightbox-trigger:focus-visible) {
+		outline: none;
+	}
+
+	:global(:is(.plate, .prose figure):has(.lightbox-trigger:focus-visible)) {
 		outline: 2px solid var(--focus);
-		outline-offset: -6px;
+		outline-offset: 4px;
 	}
 
 	.lightbox {

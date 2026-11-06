@@ -6,7 +6,7 @@ import BookNav from './BookNav.astro';
 const labels = { label: 'Weiter im Buch', previousLabel: 'Zuvor', nextLabel: 'Als Nächstes' };
 const previous = { title: 'Vorwort', href: '/vorwort/' };
 const next = { title: 'Inrō – Reiseapotheke', href: '/inro/' };
-const back = { href: '/geschichte/', label: 'Zurück zu Geschichte', kanji: '第一章' };
+const back = { href: '/#geschichte', label: 'Zurück zu Geschichte', kanji: '第一章' };
 
 describe('BookNav', () => {
 	it('links the previous and the next page and the way back to the part', async () => {
@@ -16,7 +16,7 @@ describe('BookNav', () => {
 		expect(html).toMatch(/Als Nächstes<\/span>\s*<a href="\/inro\/" rel="next"/);
 		expect(html).toContain('Inrō – Reiseapotheke');
 		expect(html).toMatch(
-			/<a href="\/geschichte\/" class="read-link[\s\S]*第一章[\s\S]*Zurück zu Geschichte/
+			/<a href="\/#geschichte" class="read-link[\s\S]*第一章[\s\S]*Zurück zu Geschichte/
 		);
 	});
 

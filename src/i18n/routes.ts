@@ -44,9 +44,6 @@ export const HOME = 'home';
 /** Route key of the contents pages in the alternates map */
 export const CONTENTS = 'contents';
 
-/** Route key of the n-th section of the book (0: the front matter) */
-export const chapterKey = (index: number): string => `chapter-${index}`;
-
 /** `/inhalt/` in German, `/en/contents/`, `/ja/contents/`, … */
 export const contentsPath = (lang: Lang): string =>
 	pagePath(lang, lang === DEFAULT_LANG ? 'inhalt' : 'contents');
@@ -54,9 +51,9 @@ export const contentsPath = (lang: Lang): string =>
 const TRANSLITERATION: Record<string, string> = { ä: 'ae', ö: 'oe', ü: 'ue', ß: 'ss' };
 
 /**
- * The slug of a section's page, from its title: German from the German
- * title, every other language from the English one, like the articles
- * (`Organisation & Ausbildung` → `organisation-und-ausbildung`)
+ * The id of a part's scene on the homepage, from its title: German from the
+ * German title, every other language from the English one, like the
+ * articles' slugs (`Organisation & Ausbildung` → `organisation-und-ausbildung`)
  */
 export const chapterSlug = (title: string, lang: Lang): string =>
 	title
