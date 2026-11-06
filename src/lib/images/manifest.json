@@ -1,0 +1,4607 @@
+{
+	"images": {
+		"article/18-training-levels-01-training-grounds-of-eighteen-levels.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "2e6ba502ba8a4691"
+		},
+		"article/18-training-levels-02-suiren-water-training.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "85829bb090f932e8"
+		},
+		"article/18-training-levels-03-tenmon-and-chimon-weather-and-terrain.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "4b65ab177b8cdadc"
+		},
+		"article/atemi-te-01-master-shows-vital-points.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "482cc354bb7656fb"
+		},
+		"article/bansenshukai-01-fujibayashi-compiling-bansenshukai.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f20ab1cf5cbd5f84"
+		},
+		"article/bansenshukai-02-ten-hand-bound-volumes.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "cc1fe756de411995"
+		},
+		"article/bo-ryaku-01-reading-battle-formation.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "689b5bee42e09ff3"
+		},
+		"article/body-weapons-01-every-part-of-body-weapon.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "6189fd32a633cdde"
+		},
+		"article/bujinkan-01-nine-schools-in-one.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "22c58a9bbc4987fe"
+		},
+		"article/burglary-tools-01-into-every-fortress.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "626f71fb27b184aa"
+		},
+		"article/chikairi-01-forging-intercepted-letter.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "1768bc70840b7147"
+		},
+		"article/chikairi-02-moon-in-water.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "0cad194ed89efb23"
+		},
+		"article/chikairi-04-beggar-at-gate-guards-laughing.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "702d5cac72bd5274"
+		},
+		"article/choho-01-planted-agent-in-town.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "e2c564e03592a5c3"
+		},
+		"article/choho-02-kunoichi-in-generals-camp.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "3e4aa7b44ae39049"
+		},
+		"article/choho-03-hiding-behind-gods.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "e92fa1b3680235fc"
+		},
+		"article/chronology-01-book-growing-over-years.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f19810470c9f1130"
+		},
+		"article/climbing-tools-01-over-walls-and-ravines.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "31c71469af3df964"
+		},
+		"article/colophon-01-hidden-behind-leaves-and-trees.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "ba51d494570edaf3"
+		},
+		"article/combat-factors-01-kokyuho-learning-to-breathe.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"focus": "50% 18%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "de98fc9cd41a9ed7"
+		},
+		"article/combat-factors-02-maai-distance.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a229c71fdf26d529"
+		},
+		"article/combat-rules-01-blade-of-grass-as-weapon.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "fd33ac1bd5108a79"
+		},
+		"article/combat-rules-02-laying-down-sword.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "1b5967d8c9392939"
+		},
+		"article/consciousness-and-spirit-01-awakening-senses.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "9eec654393d0174c"
+		},
+		"article/consciousness-and-spirit-02-ascetic-on-remote-mountain.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d6e668f7b8b432ed"
+		},
+		"article/daoism-01-going-with-course-of-things.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "edc56fe5c6e49dd7"
+		},
+		"article/demise-01-guiding-tokugawa-through-mountains.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "1ceb42e4a55d7df1"
+		},
+		"article/demise-02-former-ninja-as-gardener.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "2de54946d15806cc"
+		},
+		"article/demise-03-perrys-black-ships.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f11a39854b6eb1d6"
+		},
+		"article/downloads-01-carving-secret-script.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "03ce0c6fadf9045c"
+		},
+		"article/enlightenment-01-musha-shugyo-warriors-wandering.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"focus": "50% 72%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ff918138d13d374e"
+		},
+		"article/enlightenment-02-moment-of-satori.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "57bd38f039f54b74"
+		},
+		"article/essence-of-ninjutsu-01-eyes-of-god.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "2e98444d3e460a0a"
+		},
+		"article/essence-of-ninjutsu-02-jihi-no-kokoro-benevolent-heart.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "26e7fe3441897f1a"
+		},
+		"article/fire-tools-01-fire-in-town-of-wood-and-paper.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "85076f6f863480db"
+		},
+		"article/gikan-ryu-01-uryu-hangan-gikanbo-breaking-blade.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "0f4664ab9275fcd0"
+		},
+		"article/gikan-ryu-02-deep-stances-of-gikan-ryu.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "7bc9ad1fdfeda611"
+		},
+		"article/glossary-01-scholar-compiling-dictionary.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "b8c3932b0f04348a"
+		},
+		"article/godai-01-five-elements-in-one-landscape.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "9c47dd3d951de52b"
+		},
+		"article/godai-02-gorinto-in-mountains.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"focus": "50% 28%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f9acb9ce47ad50ec"
+		},
+		"article/gogyo-01-five-elements.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a74db7a255dcb963"
+		},
+		"article/gotonpo-01-suiton-hiding-behind-reed-island.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "8189a57946222bc8"
+		},
+		"article/gotonpo-02-mokuton-hiding-in-tree-crown.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "179e1ee5c834d08f"
+		},
+		"article/gotonpo-03-katon-escape-through-smoke-and-fire.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a4b3a3d59e16cf27"
+		},
+		"article/guidelines-of-bujinkan-01-dojo-open-to-all-nations.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "2677d3f33b18be65"
+		},
+		"article/guidelines-of-bujinkan-02-fudoshin-immovable-heart.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "7f49a5f9480f15f0"
+		},
+		"article/gyokko-ryu-01-woman-martial-artist-at-tang-court.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a9629b85d325e692"
+		},
+		"article/gyokko-ryu-02-tang-nobles-fleeing-to-japan.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "cd96c60746f69a2d"
+		},
+		"article/gyokushin-ryu-01-nagenawa-throwing-rope.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "fa548d48d0936917"
+		},
+		"article/gyokushin-ryu-02-takamatsu-as-guest-at-kodokan.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "e757777f5910fe4b"
+		},
+		"article/heiho-01-coat-in-wind.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "3fdfebcef1b8d991"
+		},
+		"article/heiho-02-birds-in-rain.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "6638d81fca2775a5"
+		},
+		"article/heiho-03-waiting-in-rafters.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "519fcc574ae3b729"
+		},
+		"article/iga-no-ran-01-building-maruyama-castle.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "2c967ee2b45c8c0c"
+		},
+		"article/iga-no-ran-02-maruyama-castle-burning.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "413495b16b4d4a3c"
+		},
+		"article/iga-no-ran-03-ambush-in-mountain-pass.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "5aca2e13fdc62859"
+		},
+		"article/inro-01-inro.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"focus": "50% 45%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "bd7485862082bfef"
+		},
+		"article/inro-02-preparing-medicine-and-poison.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f430b40d44b612bb"
+		},
+		"article/inro-03-emergency-rations-for-mission.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "d681add50dbb6cab"
+		},
+		"article/invasion-of-iga-01-ambush-at-hijiyama.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"focus": "50% 75%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "3062f8fd93b7bd7e"
+		},
+		"article/invasion-of-iga-02-night-attack-on-tsutsuis-camp.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "fc05628205b168d2"
+		},
+		"article/invasion-of-iga-03-hijiyama-set-on-fire.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a8a6e5f2db2e4b8a"
+		},
+		"article/junan-taiso-01-strength-through-flexibility.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "636a7c0fb463bb67"
+		},
+		"article/kamae-01-stance-that-is-already-movement.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a04dcc34d2278947"
+		},
+		"article/koga-ryu-01-siege-of-fushimi-castle.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f995f53a7266403d"
+		},
+		"article/koga-ryu-02-mapping-hara-castle.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a766a158b3b2ea07"
+		},
+		"article/koga-ryu-03-night-at-hara-castle.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "de8aafc45fdaf4b5"
+		},
+		"article/koto-ryu-01-mangetsu-no-kamae.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "0dbb2157710d08ac"
+		},
+		"article/koto-ryu-02-five-holes-in-bark.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "d0599058cba0be0f"
+		},
+		"article/koto-ryu-03-ishikawa-goemon-on-temple-gate.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"focus": "50% 20%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "98705c5b23a9d7c6"
+		},
+		"article/kuji-in-01-nine-hand-seals.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "9c8d49f2bbfa1fa8"
+		},
+		"article/kukishinden-ryu-01-nine-demon-gods.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "5a587e8ccab46dc4"
+		},
+		"article/kukishinden-ryu-02-reconstructing-densho.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "e4b5f9b46f1e0a14"
+		},
+		"article/kumogakure-ryu-01-into-battle-in-demon-mask.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"focus": "50% 22%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7001439417f8d3e6"
+		},
+		"article/kumogakure-ryu-02-tree-to-tree-with-kama-yari.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "4f437db0e93e1204"
+		},
+		"article/kumogakure-ryu-03-making-fire-in-any-weather.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "353e9cd24a1b3005"
+		},
+		"article/kunoichi-01-mochizuki-chiyome-takes-in-orphans.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "2af960b24cae883e"
+		},
+		"article/kunoichi-02-miko-on-road.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "39297b4ac4b05720"
+		},
+		"article/kunoichi-03-training-kunoichi.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "5e76f09691fc33e9"
+		},
+		"article/mikkyo-01-kukai-and-saicho-sailing-to-china.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "5548dce1653a5d8e"
+		},
+		"article/mikkyo-02-founding-koyasan.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a871fe699f9c23ce"
+		},
+		"article/mikkyo-03-enryakuji-burning.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "17db27869b16923d"
+		},
+		"article/miscellaneous-equipment-01-telescope-compass-and-giant-kite.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "49b10771cf351d87"
+		},
+		"article/modern-history-01-night-watchman-at-match-factory.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "d4e3adab8f62df2e"
+		},
+		"article/modern-history-02-mongolian-tiger-in-china.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "fddc51ada4015f04"
+		},
+		"article/modern-history-03-long-walk-to-teacher.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "fb948cc74a26ac34"
+		},
+		"article/ninja-biographies-01-fuma-kotaros-night-raid.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "0bd45b66f2ed5062"
+		},
+		"article/ninja-biographies-02-saiga-magoichis-gunners.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "faaa6eab90820c75"
+		},
+		"article/ninja-biographies-03-tobi-kato-leaping-kato.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "960353430ef380ca"
+		},
+		"article/ninja-clothing-01-what-ninja-really-wore.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "424f7b4ba47d2288"
+		},
+		"article/ninja-no-hachimon-01-eight-gates-of-training.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "0531c1f43b654ef3"
+		},
+		"article/ninja-no-hachimon-02-yugei-social-arts.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "45502f570489fda2"
+		},
+		"article/ninjutsu-01-blade-above-heart.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "29b91797b8e95d71"
+		},
+		"article/ninpo-sanjurokkei-01-three-pillars.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "d8702bb1e93998b4"
+		},
+		"article/ninpo-sanjurokkei-02-kishajutsu-mounted-archery.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "a9bf54dded6b2a20"
+		},
+		"article/not-found-01-mouse-running-off-with-page.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "ec09fd2a4638fc0f"
+		},
+		"article/onshinjutsu-01-uzura-gakure-curled-up-like-stone.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f5a80b57b9bdc1ca"
+		},
+		"article/onshinjutsu-02-standing-like-scarecrow.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "11fa6d458eddc686"
+		},
+		"article/onshinjutsu-03-scabbard-as-probe-in-dark.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "e92134d7b768d491"
+		},
+		"article/organization-of-the-ryu-01-jonin.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "bdd23ec24a4ca497"
+		},
+		"article/organization-of-the-ryu-02-chunin-meets-client.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "49a641238ef7f58f"
+		},
+		"article/organization-of-the-ryu-03-hidden-genin-village.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "c5b96719f6517bc7"
+		},
+		"article/preface-01-waiting-for-book-ordered-from-catalogue.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "4990864f4932ab47"
+		},
+		"article/shichi-ho-de-01-seven-disguises.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "7e1b3a597c60badc"
+		},
+		"article/shichi-ho-de-02-komuso-at-gate.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "135dbb27d93aaf88"
+		},
+		"article/shichi-ho-de-03-vanishing-in-crowd.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "4ab559eda59990eb"
+		},
+		"article/shinden-fudo-ryu-01-training-in-nature.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"focus": "50% 45%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e1d9145bce841fec"
+		},
+		"article/shinden-fudo-ryu-02-drawing-long-sword.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "828ef61730215caa"
+		},
+		"article/shinden-fudo-ryu-03-war-axe-and-war-hammer.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "7fc7dafb1902d873"
+		},
+		"article/shinobi-iri-01-walking-without-sound.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "8e2bb9c7e48aad9c"
+		},
+		"article/taijutsu-01-fighting-without-rules.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "fdbe1b0c736b82b1"
+		},
+		"article/takagi-yoshin-ryu-01-willow-and-tall-tree.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "33d7cf57f7fef83f"
+		},
+		"article/takagi-yoshin-ryu-02-unryu-mountain-priest.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "14386880b9abcf56"
+		},
+		"article/tenchijin-01-false-alarm.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "84b6b5cd6607e17c"
+		},
+		"article/tenchijin-02-stone-in-moat.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f9a184b358dc1a12"
+		},
+		"article/tenchijin-03-drifting-with-current.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "1e34c62b5e942b76"
+		},
+		"article/the-5-commandments-of-the-ninja-01-letting-feelings-pass-like-smoke.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "3aef75acf3dcbeb5"
+		},
+		"article/the-5-commandments-of-the-ninja-02-reading-between-lines.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "4224386865715395"
+		},
+		"article/the-rules-of-the-ninja-01-truth-and-lie.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "8264d7acb9515193"
+		},
+		"article/the-rules-of-the-ninja-02-mastering-every-weapon.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "56dd619dff630ae7"
+		},
+		"article/the-seventh-sense-01-sakki-test.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "cab01b06eee2a156"
+		},
+		"article/the-seventh-sense-02-evading-unseen-blade.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "c08abec70c4de889"
+		},
+		"article/togakure-ryu-01-nishina-daisuke-flees-to-iga.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "694146c01bb7c2e1"
+		},
+		"article/togakure-ryu-02-kain-doshi-teaching-daisuke.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "751a4c0cf6c28d95"
+		},
+		"article/togakure-ryu-03-three-treasures.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "fa439a08830cbc35"
+		},
+		"article/toiri-01-firefly.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "4109a7d106fb0de7"
+		},
+		"article/toiri-02-man-on-moon.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "b13e376d088b0674"
+		},
+		"article/toiri-03-echo.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "12d67614bb37e600"
+		},
+		"article/toughening-up-01-conditioning-hands-on-tree.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"focus": "50% 38%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b33beb52ecec4b00"
+		},
+		"article/toughening-up-02-hardening-spear-hand-in-sand.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "95c287d257f0aecb"
+		},
+		"article/toughening-up-03-master-tearing-bark.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "5d40813e12c9f618"
+		},
+		"article/training-factors-01-endurance-running-in-forest.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "ac4f26676d8ff40d"
+		},
+		"article/training-factors-02-flexibility-stretching-at-dawn.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "878d6e0572baef57"
+		},
+		"article/training-of-the-ninja-01-children-balancing-on-poles.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "587990910e354a36"
+		},
+		"article/training-of-the-ninja-02-running-on-geta-across-ice.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "905b91e4cb94c44f"
+		},
+		"article/training-of-the-ninja-03-hanging-from-branch.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5ae89fb35830791a"
+		},
+		"article/ukemi-01-rolling-away-from-fall.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "f35d587c6eaf0504"
+		},
+		"article/water-tools-01-crossing-marsh.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "e556e2e516c224f9"
+		},
+		"article/weapons-01-every-weapon-tool.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "d1168d67717a8877"
+		},
+		"atemi/atemi-labelled.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "64873abd9e9d8247"
+		},
+		"historical/genpei-kassen.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "7415f3f9a47094ed"
+		},
+		"historical/hatsumi-masaaki-01-naginata.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "53cbac0a1bca79b9"
+		},
+		"historical/hatsumi-masaaki-02-spear.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "274ea2b0dcaefe18"
+		},
+		"historical/hatsumi-masaaki-03-kneeling-with-sword.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "ecd324f1b1f367d2"
+		},
+		"historical/hattori-hanzo.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"focus": "50% 20%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "978b17fb659ccccb"
+		},
+		"historical/iga-ueno-jo.webp": {
+			"width": 1536,
+			"height": 1152,
+			"aspect": 1.3333,
+			"focus": "50% 20%",
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "04827397e5b48f3e"
+		},
+		"historical/kongokai-mandara.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2ca2d1842b8aceb8"
+		},
+		"historical/sonshi.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "c81053e206c66e04"
+		},
+		"historical/taizokai-mandara.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"focus": "50% 30%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "903523ae8af75cd9"
+		},
+		"historical/takamatsu-toshitsugu-01-hanbo.webp": {
+			"width": 1024,
+			"height": 1536,
+			"aspect": 0.6667,
+			"focus": "50% 25%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "813c3d8041fb2c9d"
+		},
+		"historical/takamatsu-toshitsugu-02-with-young-hatsumi.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "9ebed9229b6139a1"
+		},
+		"historical/takamatsu-toshitsugu-03-staff-duel.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "200d9ac53d122408"
+		},
+		"historical/ushiwakamaru-to-tengu.webp": {
+			"width": 1672,
+			"height": 941,
+			"aspect": 1.7768,
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "9e2a5a93ba24e230"
+		},
+		"historical/yamabushi.webp": {
+			"width": 1152,
+			"height": 1536,
+			"aspect": 0.75,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c922e3518e24ae44"
+		},
+		"iri/ko-ashi-01-foot-raised.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "62630aee2da12a7c"
+		},
+		"iri/ko-ashi-02-knee-lifted.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "81fd335102325f90"
+		},
+		"iri/nuki-ashi-01-foot-lifting.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "863467f71865bf8e"
+		},
+		"iri/nuki-ashi-02-foot-planted.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1495aee24cd9ae3a"
+		},
+		"iri/salamander.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "cc372e60a18c4164"
+		},
+		"iri/yoko-aruki-01-legs-crossed.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9449db8125da983e"
+		},
+		"iri/yoko-aruki-02-legs-together.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1a2cc1088b46822e"
+		},
+		"kamae/bobi-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "76072e797cc3b62c"
+		},
+		"kamae/doko-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1c27ae87e74a59b9"
+		},
+		"kamae/fudoza-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "dfcc082ab33ebf69"
+		},
+		"kamae/gassho-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "4a2988ae6fa15e66"
+		},
+		"kamae/gedan-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "efb7f285c0e471e0"
+		},
+		"kamae/gyoja-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "6dfd815df70907ca"
+		},
+		"kamae/hanmi-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7602cda620536c0a"
+		},
+		"kamae/hicho-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "34bfa347c7b5cf37"
+		},
+		"kamae/hira-ichimonji-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "619ef545b00011f2"
+		},
+		"kamae/hoko-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2f5c739527761b3a"
+		},
+		"kamae/ichi-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2d59af622c958926"
+		},
+		"kamae/ichimonji-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "54f9dec936cde60a"
+		},
+		"kamae/jumonji-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "df94c86405d287f0"
+		},
+		"kamae/kosei-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2cb739d6a5d69e32"
+		},
+		"kamae/seigan-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "cb114f755677065f"
+		},
+		"kamae/seiza-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c7641a68292df9a4"
+		},
+		"kamae/shizen-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d162c87d06307a7b"
+		},
+		"kamae/totoku-hyoshi-no-kamae.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "74f58aaf69f7a72c"
+		},
+		"ken/fudo-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "09212359cd205c1e"
+		},
+		"ken/happa-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "419c682bb912d273"
+		},
+		"ken/kagi-koho-geri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2cdec83920009d6b"
+		},
+		"ken/kata-ashi-tobi-geri.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "05345b88fdf2e9f0"
+		},
+		"ken/kikaku-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0a734684c3d93f26"
+		},
+		"ken/koho-geri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5f3a0210c8c80317"
+		},
+		"ken/omote-soku-gyaku.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7020ff24e9883759"
+		},
+		"ken/ryo-ashi-tobi-geri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "acb7c74457afb666"
+		},
+		"ken/san-shitan-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f89226a490ce1906"
+		},
+		"ken/shako-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b8576de69f316647"
+		},
+		"ken/shishin-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c8773d89a60f8cc5"
+		},
+		"ken/shitan-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "da57782eac386c76"
+		},
+		"ken/shito-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c721d395ee042e7e"
+		},
+		"ken/shizen-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "dd91786956fd0a18"
+		},
+		"ken/shu-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f8c7d5bff1f786f7"
+		},
+		"ken/shuki-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "84c939e73c8741db"
+		},
+		"ken/shuto-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e73f778d15c76f33"
+		},
+		"ken/sokki-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ba0426a88aba5974"
+		},
+		"ken/soku-gyaku-ken.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c70fdb8a151b8ee4"
+		},
+		"ken/sokuho-geri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0200c6dfb9526094"
+		},
+		"ken/tobi-geri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "971f36af171526d1"
+		},
+		"ken/zenpo-geri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1853d88138889b7c"
+		},
+		"kuji-in/kuji-in-jin.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "4b6baf8725b262e0"
+		},
+		"kuji-in/kuji-in-kai.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b4b7a1d001e52c53"
+		},
+		"kuji-in/kuji-in-pyo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "cfabc4ae2764c784"
+		},
+		"kuji-in/kuji-in-retsu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b672398a4b957003"
+		},
+		"kuji-in/kuji-in-rin.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "54296d6ac39f844c"
+		},
+		"kuji-in/kuji-in-sha.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "abbab427efa344eb"
+		},
+		"kuji-in/kuji-in-toh.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "33565a2cd2d7e424"
+		},
+		"kuji-in/kuji-in-zai.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "a7e222024f57567a"
+		},
+		"kuji-in/kuji-in-zen.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "afbd9b353207eb07"
+		},
+		"kuji-kiri/kuji-kiri.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f4b8b3bb72ded4bf"
+		},
+		"old/chronology/gitbook-kogakure.jpg": {
+			"width": 1200,
+			"height": 1573,
+			"aspect": 0.7629,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "b7870b6ea56f10f4"
+		},
+		"old/chronology/history-1999.jpg": {
+			"width": 1200,
+			"height": 700,
+			"aspect": 1.7143,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "e9c328c0791e61e5"
+		},
+		"old/chronology/history-2001.jpg": {
+			"width": 1200,
+			"height": 700,
+			"aspect": 1.7143,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "5ea91979b06c7158"
+		},
+		"old/chronology/history-2002.jpg": {
+			"width": 1200,
+			"height": 704,
+			"aspect": 1.7045,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "95feed8239ddde07"
+		},
+		"old/chronology/history-2004.jpg": {
+			"width": 1200,
+			"height": 892,
+			"aspect": 1.3453,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "4a6e4c75f2f0b901"
+		},
+		"old/chronology/history-2006.jpg": {
+			"width": 1200,
+			"height": 861,
+			"aspect": 1.3937,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "9478cbd0aab06d6c"
+		},
+		"old/chronology/history-2008.jpg": {
+			"width": 1200,
+			"height": 720,
+			"aspect": 1.6667,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "2771861eb289fee0"
+		},
+		"old/chronology/history-2015.jpg": {
+			"width": 1200,
+			"height": 1041,
+			"aspect": 1.1527,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "494fd34576ed44c3"
+		},
+		"old/chronology/history-2017.jpg": {
+			"width": 1200,
+			"height": 966,
+			"aspect": 1.2422,
+			"widths": [
+				800,
+				1200
+			],
+			"hash": "4ba5b7ce3b44b049"
+		},
+		"old/chronology/history-2022-dark.jpg": {
+			"width": 1500,
+			"height": 1072,
+			"aspect": 1.3993,
+			"widths": [
+				800,
+				1400
+			],
+			"hash": "6ffb6e8c59d88f9b"
+		},
+		"old/chronology/history-2022-light.jpg": {
+			"width": 1500,
+			"height": 1073,
+			"aspect": 1.3979,
+			"widths": [
+				800,
+				1400
+			],
+			"hash": "51f636b9da8c70b7"
+		},
+		"old/downloads/ingo.jpg": {
+			"width": 1400,
+			"height": 1500,
+			"aspect": 0.9333,
+			"widths": [
+				800,
+				1400
+			],
+			"hash": "f5eeed4813a4f5a4"
+		},
+		"old/downloads/ogama.jpg": {
+			"width": 640,
+			"height": 480,
+			"aspect": 1.3333,
+			"widths": [
+				640
+			],
+			"hash": "6a3a2d6eaad037ac"
+		},
+		"taiso/deep-stretch.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7e0e55c8d48bc236"
+		},
+		"taiso/head-down.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f62e698398406e18"
+		},
+		"taiso/lean-back-on-heels.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "cb6b2c5e1c56bed8"
+		},
+		"taiso/legs-hover.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "8d75c66537337dde"
+		},
+		"taiso/legs-overhead.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "fc984b3b2ae87b91"
+		},
+		"taiso/push-thighs-down.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "885729cc7d2ad6cf"
+		},
+		"taiso/push-ups.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ed70a5520dce5ea0"
+		},
+		"taiso/reach-feet.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2ea75555fcd7ec9c"
+		},
+		"taiso/splits-forward-backward.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2ca58e44fe35961f"
+		},
+		"taiso/splits.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9d773ec4c4c11fc3"
+		},
+		"taiso/stamping-kick.webp": {
+			"width": 1021,
+			"height": 1540,
+			"aspect": 0.663,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "3679c202b944e4bb"
+		},
+		"taiso/upper-body-to-feet.webp": {
+			"width": 1023,
+			"height": 1537,
+			"aspect": 0.6656,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "66de01b2b08f6e38"
+		},
+		"tools/amigasa.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "cc263aaf4d400b15"
+		},
+		"tools/boenkyo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1819bb15e2aee5c5"
+		},
+		"tools/doka.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1be09e427e98a692"
+		},
+		"tools/gando.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e6ea2c52fc3c8b29"
+		},
+		"tools/geta.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e8403348b4db2b0b"
+		},
+		"tools/gi.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "37329a7446d01b71"
+		},
+		"tools/hakama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ce2adab96338b2e0"
+		},
+		"tools/hasami-bune.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d6a12215f5ea1e8a"
+		},
+		"tools/hashigo-yari.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ebc357855b5a6506"
+		},
+		"tools/inro.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2d93907b0b710198"
+		},
+		"tools/ippon-sugi-nobori.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "8b4f27a75cd9f665"
+		},
+		"tools/kabuto.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "806edb756159afab"
+		},
+		"tools/kagami.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5166cdaa07f169c4"
+		},
+		"tools/kagi-nawa.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ac154fd20551cccc"
+		},
+		"tools/kaiki.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7d55a19a7d6da88a"
+		},
+		"tools/kama-ikada.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "bc457b771e9e0246"
+		},
+		"tools/kasha.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "54e16037923dd5cb"
+		},
+		"tools/kasugai.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2928abaa7c2577ff"
+		},
+		"tools/kayaku-zutsu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "dd48c22f2011e0d8"
+		},
+		"tools/kiri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "996dd5e0748a9876"
+		},
+		"tools/kishi-yaku.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "4de4a7264ad81c7d"
+		},
+		"tools/kuda-bashigo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "72e6077434a43bdf"
+		},
+		"tools/kumo-bashigo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "daae49fb7eda7133"
+		},
+		"tools/kumo-gumo-bashigo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1c78a808024a0bb5"
+		},
+		"tools/kusari-katabira.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1a39909a619df6bf"
+		},
+		"tools/mizu-tsutsu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9938c58174fec67c"
+		},
+		"tools/mizugumo-ring.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "572364da31aba2f7"
+		},
+		"tools/mizugumo.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "eaa9c4ca5fd220bd"
+		},
+		"tools/musubi-bashigo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "a446afb20fd4620e"
+		},
+		"tools/ningu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "a4e2f1cbe7173729"
+		},
+		"tools/obi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "bfc13377b4440280"
+		},
+		"tools/onibi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "3a0817c101dd541d"
+		},
+		"tools/shikoro.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5dbef0c42b9758d0"
+		},
+		"tools/shinobi-kai.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "39fd7b3fa131d76a"
+		},
+		"tools/shinobi-shozoku.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ca39b998c5ede77e"
+		},
+		"tools/shinobi-yoroi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f288df08aedf6102"
+		},
+		"tools/tabi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "801d43d5ad6ae0e4"
+		},
+		"tools/taka-bashigo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f361e029abe66c9d"
+		},
+		"tools/tatami-bune.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "74e5936a5918c2d9"
+		},
+		"tools/tebukuro.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5a201372a4fa5370"
+		},
+		"tools/tobi-bashigo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ed51a7dd5753b184"
+		},
+		"tools/tobikunai.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0612aca628fd5e6b"
+		},
+		"tools/tsubo-giri.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9eac5d6ca9e64f77"
+		},
+		"tools/tsugi-bune.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "78a92d5d6f6ba533"
+		},
+		"tools/tsuri-bashigo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e4717b2009ad88ba"
+		},
+		"tools/uchi-dake.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "acd6c5b2bf69c3a3"
+		},
+		"tools/uki-daru.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "67d20830f7606470"
+		},
+		"tools/uwagi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d90fa7cee8fdc96f"
+		},
+		"tools/yajiri.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d4ee7b9727ac1ee1"
+		},
+		"ukemi/kiten.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b87c0fd0de88d3e6"
+		},
+		"ukemi/koho-kaiten.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "20d0e7b549418a62"
+		},
+		"ukemi/koho-ukemi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b629d30ece02c113"
+		},
+		"ukemi/kuhi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9c954b76716ec9cc"
+		},
+		"ukemi/kuten.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "48c80189ec33c3d4"
+		},
+		"ukemi/shiho-tenchi-tobi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "6ffc90e76837d1e2"
+		},
+		"ukemi/shoten-no-jutsu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2b653e030b99003d"
+		},
+		"ukemi/sokuho-kaiten.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "76397d92938a703b"
+		},
+		"ukemi/sokuho-kiten.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "92559b27f113adb1"
+		},
+		"ukemi/sokuho-tobi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e33cb94dbcab3045"
+		},
+		"ukemi/sokuho-ukemi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2b1ca0c21b157b9e"
+		},
+		"ukemi/zenpo-kaiten.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "a096ee0f62092312"
+		},
+		"ukemi/zenpo-ukemi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "3a4c5794efa3d999"
+		},
+		"vector/calligraphy/bujinkan.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c3a42d14df7592d7"
+		},
+		"vector/calligraphy/inyo.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "19b18cf10e1f931a"
+		},
+		"vector/calligraphy/kokoro.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b549e01d61be29dd"
+		},
+		"vector/calligraphy/ninja.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "386079538019d6a6"
+		},
+		"vector/calligraphy/shinobu.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5bff6068e7564b69"
+		},
+		"vector/calligraphy/yaiba.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "bb74ffa63240d591"
+		},
+		"vector/diagrams/gogyo.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0751dbba04f0a128"
+		},
+		"vector/diagrams/rekishi-chizu.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "006dbcf93a24a3a7"
+		},
+		"vector/diagrams/taijutsu-zu.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "3b07861da780f170"
+		},
+		"vector/formations/choda.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c7e8baf193d7fb2e"
+		},
+		"vector/formations/engetsu.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d370ae502cd488b7"
+		},
+		"vector/formations/ganko.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c6a834e1663b8ee2"
+		},
+		"vector/formations/gyorin.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "ab55943a93683469"
+		},
+		"vector/formations/hoen.webp": {
+			"width": 1024,
+			"height": 1024,
+			"aspect": 1,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9f4748aabd498e34"
+		},
+		"vector/formations/hoshi.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "bfe328549a153c92"
+		},
+		"vector/formations/kakuyoku.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0a4a317ce2d1f44a"
+		},
+		"vector/formations/koyaku.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e74824a60d84be08"
+		},
+		"weapons/ashi-ko.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5f585d5e7600d660"
+		},
+		"weapons/bakuhatsu-gama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d64fc2e7f4acb123"
+		},
+		"weapons/bisento.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "1eb791d625a57834"
+		},
+		"weapons/bo-shuriken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "20a984b44e92cd80"
+		},
+		"weapons/bo.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "3b7ee73a542be81c"
+		},
+		"weapons/bokken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e5e538b5b1ec842d"
+		},
+		"weapons/daisharin.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c00778de5f92a53a"
+		},
+		"weapons/endoku-ken.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "01c648995f7bf2e0"
+		},
+		"weapons/fukiya.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "01b55332d7a9f148"
+		},
+		"weapons/futokoro-teppo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "c696e26a275e3b10"
+		},
+		"weapons/hanbo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "07f9d8a20a931169"
+		},
+		"weapons/hankyu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f9d7b09293bb1e2a"
+		},
+		"weapons/hishi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "beb8947e91e10f11"
+		},
+		"weapons/iga-dama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d405c4c01e1cea3b"
+		},
+		"weapons/jo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "be700820e09122e8"
+		},
+		"weapons/jutte.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7f47616f54a38bfa"
+		},
+		"weapons/kagi-yari.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "fa41244ec0fdb07e"
+		},
+		"weapons/kama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "701c7ea4479d6033"
+		},
+		"weapons/kongosho.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "924924ef62f3d1b8"
+		},
+		"weapons/kumade.webp": {
+			"width": 1538,
+			"height": 1022,
+			"aspect": 1.5049,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "fec4d07210129d5f"
+		},
+		"weapons/kunai.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "18343459ded3e795"
+		},
+		"weapons/kusari-fundo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f572f54a8494f916"
+		},
+		"weapons/kusarigama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0f9552cdfdd72696"
+		},
+		"weapons/kyoketsu-shoge.webp": {
+			"width": 1501,
+			"height": 1047,
+			"aspect": 1.4336,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7617e2ff0fbecaa3"
+		},
+		"weapons/mamuki-gama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5c2d26dbe457dcc8"
+		},
+		"weapons/metsubushi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "4388a9b2cc4c8cb6"
+		},
+		"weapons/nage-teppo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "805bbcdc240500aa"
+		},
+		"weapons/naginata.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "dd2818f413d77397"
+		},
+		"weapons/neko-te.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "539a1493120aa062"
+		},
+		"weapons/ninja-to.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "20df4daf7bda3451"
+		},
+		"weapons/ogama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "08dcff47b5081dcb"
+		},
+		"weapons/ono.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "eedd2627e90c3880"
+		},
+		"weapons/ozutsu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "6b4c5b0fac242c50"
+		},
+		"weapons/shakujo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "652e2ac2b41cb2b1"
+		},
+		"weapons/shikomizue.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f37d3ff55041a522"
+		},
+		"weapons/shinbo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9dbab79e90c6a914"
+		},
+		"weapons/shinobi-tanto.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5f05f597224ff7ef"
+		},
+		"weapons/shinobi-yari.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "632bcc3468f46001"
+		},
+		"weapons/shinobi-zue.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "137f910542c1f2e8"
+		},
+		"weapons/shuko.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "afa8be88e1a3558b"
+		},
+		"weapons/shuriken.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "0473334c24d98cd7"
+		},
+		"weapons/sodezutsu.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "8f09d825af3f1bda"
+		},
+		"weapons/tachi.webp": {
+			"width": 1536,
+			"height": 1024,
+			"aspect": 1.5,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9744edf0ef83846e"
+		},
+		"weapons/tanegashima.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "b853f05485a093a8"
+		},
+		"weapons/tatami-gama.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "82b4eb7af66b639e"
+		},
+		"weapons/tessen.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2e7b7d9873d44126"
+		},
+		"weapons/tetsu-mari.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "11a3c3d4658c8d9a"
+		},
+		"weapons/tetsubishi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "66204892eacfe46a"
+		},
+		"weapons/tetsubo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "d9f58b2178faf73d"
+		},
+		"weapons/toami.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5967e6f2631f469e"
+		},
+		"weapons/uzume-bi.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "081b64e85a49b237"
+		},
+		"weapons/wakizashi-teppo.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "018313f01ee1db9d"
+		},
+		"weapons/ya.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "4a44a505641b2ba5"
+		},
+		"weapons/yari.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "dec52248e7e6e189"
+		},
+		"weapons/yumi-ya.webp": {
+			"width": 1537,
+			"height": 1023,
+			"aspect": 1.5024,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "2f2193d4a73ea6ae"
+		}
+	},
+	"og": {
+		"18trainingLevelsPage": {
+			"image": "article/18-training-levels-01-training-grounds-of-eighteen-levels.webp",
+			"hash": "5fb940d037db0d05"
+		},
+		"5CommandmentsOfNinjaPage": {
+			"image": "article/the-5-commandments-of-the-ninja-01-letting-feelings-pass-like-smoke.webp",
+			"hash": "4095a26291034d60"
+		},
+		"atemitePage": {
+			"image": "article/atemi-te-01-master-shows-vital-points.webp",
+			"hash": "b167302450778dc9"
+		},
+		"bansenshukaiPage": {
+			"image": "article/bansenshukai-01-fujibayashi-compiling-bansenshukai.webp",
+			"hash": "a113aae3ec5c5a7b"
+		},
+		"bodyWeaponsPage": {
+			"image": "article/body-weapons-01-every-part-of-body-weapon.webp",
+			"hash": "c7f3c095bdaacacc"
+		},
+		"boryakuPage": {
+			"image": "article/bo-ryaku-01-reading-battle-formation.webp",
+			"hash": "b9476e234c742ca2"
+		},
+		"bujinkanPage": {
+			"image": "article/bujinkan-01-nine-schools-in-one.webp",
+			"hash": "b1ef24618e2ceaad"
+		},
+		"burglaryToolsPage": {
+			"image": "article/burglary-tools-01-into-every-fortress.webp",
+			"hash": "b223ee759a6b89e2"
+		},
+		"chikairiPage": {
+			"image": "article/chikairi-01-forging-intercepted-letter.webp",
+			"hash": "f61b525b4e251a60"
+		},
+		"chohoPage": {
+			"image": "article/choho-01-planted-agent-in-town.webp",
+			"hash": "5451a2c4033d660b"
+		},
+		"chronolyPage": {
+			"image": "article/chronology-01-book-growing-over-years.webp",
+			"hash": "065e0f0425351bff"
+		},
+		"climbingToolsPage": {
+			"image": "article/climbing-tools-01-over-walls-and-ravines.webp",
+			"hash": "569abdeb37df46b0"
+		},
+		"colophonPage": {
+			"image": "article/colophon-01-hidden-behind-leaves-and-trees.webp",
+			"hash": "726578380927344d"
+		},
+		"combatFactorsPage": {
+			"image": "article/combat-factors-01-kokyuho-learning-to-breathe.webp",
+			"hash": "8d41e566593babda"
+		},
+		"combatRulesPage": {
+			"image": "article/combat-rules-01-blade-of-grass-as-weapon.webp",
+			"hash": "3618755c5202007d"
+		},
+		"consciousnessAndSpiritPage": {
+			"image": "article/consciousness-and-spirit-01-awakening-senses.webp",
+			"hash": "cb0e2aae798635a4"
+		},
+		"daoismPage": {
+			"image": "article/daoism-01-going-with-course-of-things.webp",
+			"hash": "7852ec9bc2c43561"
+		},
+		"demisePage": {
+			"image": "article/demise-01-guiding-tokugawa-through-mountains.webp",
+			"hash": "0bc49f2d3973b15a"
+		},
+		"downloadsPage": {
+			"image": "article/downloads-01-carving-secret-script.webp",
+			"hash": "efac31dd2f21866d"
+		},
+		"emergenceOfRyuPage": {
+			"image": "historical/genpei-kassen.webp",
+			"hash": "20c745a9ab1c868c"
+		},
+		"enlightenmentPage": {
+			"image": "article/enlightenment-01-musha-shugyo-warriors-wandering.webp",
+			"hash": "d39773abaddea87d"
+		},
+		"essenceOfNinjutsuPage": {
+			"image": "article/essence-of-ninjutsu-01-eyes-of-god.webp",
+			"hash": "1211ad4433979f1c"
+		},
+		"famousNinjaPage": {
+			"image": "historical/hattori-hanzo.webp",
+			"hash": "9e7925ab38e3cc5f"
+		},
+		"fireToolsPage": {
+			"image": "article/fire-tools-01-fire-in-town-of-wood-and-paper.webp",
+			"hash": "cbf398443e7a9dda"
+		},
+		"gikanRyuPage": {
+			"image": "article/gikan-ryu-01-uryu-hangan-gikanbo-breaking-blade.webp",
+			"hash": "c7706fc95a77d902"
+		},
+		"glossaryPage": {
+			"image": "article/glossary-01-scholar-compiling-dictionary.webp",
+			"hash": "ca0360d0bffffded"
+		},
+		"godaiPage": {
+			"image": "article/godai-02-gorinto-in-mountains.webp",
+			"hash": "aaeeabf24eef67f3"
+		},
+		"gogyoPage": {
+			"image": "article/gogyo-01-five-elements.webp",
+			"hash": "13fd4ac297a1b82e"
+		},
+		"gotonPoPage": {
+			"image": "article/gotonpo-01-suiton-hiding-behind-reed-island.webp",
+			"hash": "96a55533ebcfe7cd"
+		},
+		"guidelinesOfBujinkanPage": {
+			"image": "article/guidelines-of-bujinkan-02-fudoshin-immovable-heart.webp",
+			"hash": "879e21ab8a7d1e1c"
+		},
+		"gyokkoRyuPage": {
+			"image": "article/gyokko-ryu-01-woman-martial-artist-at-tang-court.webp",
+			"hash": "5fe4c647127c216a"
+		},
+		"gyokushinRyuPage": {
+			"image": "article/gyokushin-ryu-01-nagenawa-throwing-rope.webp",
+			"hash": "4056290963676611"
+		},
+		"hatsumiMasaakiPage": {
+			"image": "historical/hatsumi-masaaki-01-naginata.webp",
+			"hash": "227278cc295e4fa1"
+		},
+		"heihoPage": {
+			"image": "article/heiho-02-birds-in-rain.webp",
+			"hash": "cf9ac46937ac3d7e"
+		},
+		"igaNoRanPage": {
+			"image": "article/iga-no-ran-01-building-maruyama-castle.webp",
+			"hash": "85fe54a84272e04f"
+		},
+		"igaRyuPage": {
+			"image": "historical/iga-ueno-jo.webp",
+			"hash": "3f1e4a0688bbd134"
+		},
+		"inroPage": {
+			"image": "article/inro-01-inro.webp",
+			"hash": "125e1c7d59a67b74"
+		},
+		"invasionOfIgaPage": {
+			"image": "article/invasion-of-iga-01-ambush-at-hijiyama.webp",
+			"hash": "55e125a90e1323e7"
+		},
+		"junanTaisoPage": {
+			"image": "article/junan-taiso-01-strength-through-flexibility.webp",
+			"hash": "790ff2ad929e0ae1"
+		},
+		"kamaePage": {
+			"image": "article/kamae-01-stance-that-is-already-movement.webp",
+			"hash": "aa50f8918f648142"
+		},
+		"kogaRyuPage": {
+			"image": "article/koga-ryu-01-siege-of-fushimi-castle.webp",
+			"hash": "817489230b647811"
+		},
+		"kotoRyuPage": {
+			"image": "article/koto-ryu-03-ishikawa-goemon-on-temple-gate.webp",
+			"hash": "e15ff1dbf7733682"
+		},
+		"kujiInPage": {
+			"image": "article/kuji-in-01-nine-hand-seals.webp",
+			"hash": "3de4124712f7586f"
+		},
+		"kukishindenRyuPage": {
+			"image": "article/kukishinden-ryu-01-nine-demon-gods.webp",
+			"hash": "f250c62471b3e3d6"
+		},
+		"kumogakureRyuPage": {
+			"image": "article/kumogakure-ryu-01-into-battle-in-demon-mask.webp",
+			"hash": "bec6529e563c1842"
+		},
+		"kunoichiPage": {
+			"image": "article/kunoichi-02-miko-on-road.webp",
+			"hash": "656991ea2d45c62a"
+		},
+		"mikkyoPage": {
+			"image": "article/mikkyo-01-kukai-and-saicho-sailing-to-china.webp",
+			"hash": "94370aa6f01cdf9e"
+		},
+		"miscellaneousEquipmentPage": {
+			"image": "article/miscellaneous-equipment-01-telescope-compass-and-giant-kite.webp",
+			"hash": "5f156521ae48d6c5"
+		},
+		"modernHistoryPage": {
+			"image": "article/modern-history-01-night-watchman-at-match-factory.webp",
+			"hash": "21c5d8d19efadebd"
+		},
+		"ninjaBiographiesPage": {
+			"image": "article/ninja-biographies-01-fuma-kotaros-night-raid.webp",
+			"hash": "7a22156a7953abea"
+		},
+		"ninjaClothingPage": {
+			"image": "article/ninja-clothing-01-what-ninja-really-wore.webp",
+			"hash": "ba60017bad368423"
+		},
+		"ninjaNoHachimonPage": {
+			"image": "article/ninja-no-hachimon-01-eight-gates-of-training.webp",
+			"hash": "3e43926199b141eb"
+		},
+		"ninjutsuPage": {
+			"image": "article/ninjutsu-01-blade-above-heart.webp",
+			"hash": "f353e32f8bf94c80"
+		},
+		"ninpoSanjurokkeiPage": {
+			"image": "article/ninpo-sanjurokkei-01-three-pillars.webp",
+			"hash": "2451a633e9d55007"
+		},
+		"notFoundPage": {
+			"image": "article/not-found-01-mouse-running-off-with-page.webp",
+			"hash": "b4c180ed42aed86c"
+		},
+		"onshinjutsuPage": {
+			"image": "article/onshinjutsu-01-uzura-gakure-curled-up-like-stone.webp",
+			"hash": "d8f73603af9517b0"
+		},
+		"organizationOfRyuPage": {
+			"image": "article/organization-of-the-ryu-01-jonin.webp",
+			"hash": "8e240ede94b9c747"
+		},
+		"originsOfNinjutsuPage": {
+			"image": "historical/ushiwakamaru-to-tengu.webp",
+			"hash": "6f7b286c2fffefbf"
+		},
+		"prefacePage": {
+			"image": "article/preface-01-waiting-for-book-ordered-from-catalogue.webp",
+			"hash": "21669098994b4936"
+		},
+		"rulesOfNinjaPage": {
+			"image": "article/the-rules-of-the-ninja-01-truth-and-lie.webp",
+			"hash": "3e0b6ce85fe48b09"
+		},
+		"sanmitsuPage": {
+			"image": "historical/taizokai-mandara.webp",
+			"hash": "23c3bacf2e80bf58"
+		},
+		"seventhSensePage": {
+			"image": "article/the-seventh-sense-02-evading-unseen-blade.webp",
+			"hash": "da3714bf267d36be"
+		},
+		"shichiHoDePage": {
+			"image": "article/shichi-ho-de-03-vanishing-in-crowd.webp",
+			"hash": "f240164fc9e61ac4"
+		},
+		"shindenFudoRyuPage": {
+			"image": "article/shinden-fudo-ryu-01-training-in-nature.webp",
+			"hash": "a87da4872584814b"
+		},
+		"shinobiIriPage": {
+			"image": "article/shinobi-iri-01-walking-without-sound.webp",
+			"hash": "459c2422d565e056"
+		},
+		"taijutsuPage": {
+			"image": "article/taijutsu-01-fighting-without-rules.webp",
+			"hash": "e927fb145188a174"
+		},
+		"takagiYoshinRyuPage": {
+			"image": "article/takagi-yoshin-ryu-02-unryu-mountain-priest.webp",
+			"hash": "a1ba0e4e2f487c7b"
+		},
+		"takamatsuToshitsuguPage": {
+			"image": "historical/takamatsu-toshitsugu-01-hanbo.webp",
+			"hash": "88d364f774475dab"
+		},
+		"tenChiJinPage": {
+			"image": "article/tenchijin-03-drifting-with-current.webp",
+			"hash": "b5fe7606da0bab8f"
+		},
+		"togakureRyuPage": {
+			"image": "article/togakure-ryu-01-nishina-daisuke-flees-to-iga.webp",
+			"hash": "32c5a98a95a7d4d8"
+		},
+		"toiriPage": {
+			"image": "article/toiri-01-firefly.webp",
+			"hash": "d10aff98da13e770"
+		},
+		"toughningUpPage": {
+			"image": "article/toughening-up-01-conditioning-hands-on-tree.webp",
+			"hash": "05f05d97ab948785"
+		},
+		"trainingFactorsPage": {
+			"image": "article/training-factors-01-endurance-running-in-forest.webp",
+			"hash": "1c04b4226c7a1640"
+		},
+		"trainingOfNinjaPage": {
+			"image": "article/training-of-the-ninja-01-children-balancing-on-poles.webp",
+			"hash": "b60ab5d052a8b84a"
+		},
+		"ukemiPage": {
+			"image": "article/ukemi-01-rolling-away-from-fall.webp",
+			"hash": "798e563865ef09b7"
+		},
+		"waterToolsPage": {
+			"image": "article/water-tools-01-crossing-marsh.webp",
+			"hash": "9178eb3b366d2ac7"
+		},
+		"weaponsPage": {
+			"image": "article/weapons-01-every-weapon-tool.webp",
+			"hash": "fab77160d9f9d69e"
+		}
+	},
+	"ink": {
+		"divider-1.webp": {
+			"width": 900,
+			"height": 154,
+			"hash": "68bebb97ccbcd391"
+		},
+		"divider-2.webp": {
+			"width": 900,
+			"height": 120,
+			"hash": "474db1ea4dc97737"
+		},
+		"divider-3.webp": {
+			"width": 900,
+			"height": 123,
+			"hash": "01cf63550b5be0ae"
+		},
+		"divider-4.webp": {
+			"width": 900,
+			"height": 166,
+			"hash": "744e65c817076c19"
+		},
+		"divider-5.webp": {
+			"width": 900,
+			"height": 168,
+			"hash": "6eec1adb434e625b"
+		},
+		"sweep.webp": {
+			"width": 1800,
+			"height": 462,
+			"hash": "30d388361d534fe4"
+		},
+		"vortex-ninja.webp": {
+			"width": 1000,
+			"height": 985,
+			"hash": "9f655ad72817a770"
+		},
+		"vortex.webp": {
+			"width": 1000,
+			"height": 986,
+			"hash": "9367b81b6fb8f4c4"
+		},
+		"wash-edge-a.webp": {
+			"width": 1600,
+			"height": 1039,
+			"hash": "8568368abc164206"
+		},
+		"wash-edge-b.webp": {
+			"width": 1600,
+			"height": 1057,
+			"hash": "664d2501ad1e0016"
+		},
+		"wash-edge-c.webp": {
+			"width": 1600,
+			"height": 1067,
+			"hash": "d73d1e1a0d5f98e4"
+		},
+		"wash-edge-d.webp": {
+			"width": 1600,
+			"height": 1069,
+			"hash": "b620eb1b3653f365"
+		},
+		"wash-edge-e.webp": {
+			"width": 1600,
+			"height": 776,
+			"hash": "5e0b267c1ae27103"
+		},
+		"wash-edge-f.webp": {
+			"width": 1600,
+			"height": 637,
+			"hash": "70d2a43aaf83e0db"
+		},
+		"wash-edge-g.webp": {
+			"width": 1600,
+			"height": 1014,
+			"hash": "c02581afdfcba4a2"
+		},
+		"wash-edge-h.webp": {
+			"width": 1600,
+			"height": 1014,
+			"hash": "ce79056bcb88a23e"
+		},
+		"wash-edge-i.webp": {
+			"width": 1600,
+			"height": 998,
+			"hash": "66da1004408c57c2"
+		},
+		"wash-edge-j.webp": {
+			"width": 1600,
+			"height": 1068,
+			"hash": "f95008d980586a1a"
+		}
+	}
+}
