@@ -26,4 +26,12 @@ describe('hastQuotes', () => {
 	it('falls back to German for an unknown language', () => {
 		expect(render('<q lang="xx">?</q>')).toContain('„?“');
 	});
+
+	it('ignores romanized Japanese when choosing the marks', () => {
+		expect(render('<em lang="ja-Latn">Die <q>x</q></em>')).toContain('<q>„x“</q>');
+	});
+
+	it('alternates through three levels', () => {
+		expect(render('<q>a <q>b <q>c</q></q></q>')).toContain('<q>„a <q>‚b <q>„c“</q>‘</q>“</q>');
+	});
 });

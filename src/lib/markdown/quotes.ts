@@ -19,7 +19,11 @@ export const QUOTES: Record<Lang, readonly [string, string, string, string]> = {
 };
 
 const quotesFor = (lang: string | undefined, fallback: Lang) =>
-	QUOTES[(lang?.slice(0, 2) ?? '') as Lang] ?? QUOTES[fallback];
+	QUOTES[(lang?.split('-')[0] ?? '') as Lang] ?? QUOTES[fallback];
+
+/** A `lang` that sets quotation marks: romanized Japanese (`ja-Latn`) takes those of the text around it */
+const quoteLang = (value: unknown): string | undefined =>
+	typeof value === 'string' && !/-Latn\b/i.test(value) ? value : undefined;
 
 /**
  * Writes the quotation marks of the language into every `<q>`, as text: they
@@ -35,16 +39,14 @@ export const hastQuotes = (factory?: Pick<PluginFactoryContext, 'fileURL'>) => {
 			filter: ['q'],
 			visit(node, ctx) {
 				let depth = 0;
-				let lang =
-					typeof node.properties.lang === 'string' ? node.properties.lang : undefined;
+				let lang = quoteLang(node.properties.lang);
 				for (
 					let parent = ctx.parent(node);
 					parent?.type === 'element';
 					parent = ctx.parent(parent)
 				) {
 					if (parent.tagName === 'q') depth++;
-					if (!lang && typeof parent.properties.lang === 'string')
-						lang = parent.properties.lang;
+					lang ??= quoteLang(parent.properties.lang);
 				}
 				const [open, close, innerOpen, innerClose] = quotesFor(lang, pageLang);
 				const inner = depth % 2 === 1;
