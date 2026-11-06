@@ -55,6 +55,8 @@ export interface Ui {
 	searchPlaceholder: string;
 	searchNoResults: string;
 	close: string;
+	/** Opens an image whole, outside its ink edge */
+	zoomImage: string;
 	readingTime: (minutes: number) => string;
 }
 
@@ -99,6 +101,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Im Buch suchen',
 		searchNoResults: 'Nichts gefunden.',
 		close: 'Schließen',
+		zoomImage: 'Bild vergrößern',
 		readingTime: (n) => `${n} Min. Lesezeit`,
 	},
 	en: {
@@ -135,6 +138,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Search the book',
 		searchNoResults: 'Nothing found.',
 		close: 'Close',
+		zoomImage: 'Enlarge image',
 		readingTime: (n) => `${n} min read`,
 	},
 	es: {
@@ -172,6 +176,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Buscar en el libro',
 		searchNoResults: 'No se encontró nada.',
 		close: 'Cerrar',
+		zoomImage: 'Ampliar imagen',
 		readingTime: (n) => `${n} min de lectura`,
 	},
 	fr: {
@@ -209,6 +214,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Rechercher dans le livre',
 		searchNoResults: 'Aucun résultat.',
 		close: 'Fermer',
+		zoomImage: 'Agrandir l’image',
 		readingTime: (n) => `${n} min de lecture`,
 	},
 	pt: {
@@ -245,6 +251,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Buscar no livro',
 		searchNoResults: 'Nada encontrado.',
 		close: 'Fechar',
+		zoomImage: 'Ampliar imagem',
 		readingTime: (n) => `${n} min de leitura`,
 	},
 	it: {
@@ -281,6 +288,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Cerca nel libro',
 		searchNoResults: 'Nessun risultato.',
 		close: 'Chiudi',
+		zoomImage: 'Ingrandisci immagine',
 		readingTime: (n) => `${n} min di lettura`,
 	},
 	nl: {
@@ -318,6 +326,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Zoeken in het boek',
 		searchNoResults: 'Niets gevonden.',
 		close: 'Sluiten',
+		zoomImage: 'Afbeelding vergroten',
 		readingTime: (n) => `${n} min lezen`,
 	},
 	ru: {
@@ -357,6 +366,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'Искать в книге',
 		searchNoResults: 'Ничего не найдено.',
 		close: 'Закрыть',
+		zoomImage: 'Увеличить изображение',
 		readingTime: (n) => `${n} мин чтения`,
 	},
 	ja: {
@@ -393,6 +403,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: '本の中を検索',
 		searchNoResults: '見つかりませんでした。',
 		close: '閉じる',
+		zoomImage: '画像を拡大',
 		readingTime: (n) => `約${n}分`,
 	},
 	zh: {
@@ -429,6 +440,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: '在书中搜索',
 		searchNoResults: '未找到结果。',
 		close: '关闭',
+		zoomImage: '放大图片',
 		readingTime: (n) => `约${n}分钟`,
 	},
 	ko: {
@@ -465,6 +477,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: '책에서 검색',
 		searchNoResults: '검색 결과 없음',
 		close: '닫기',
+		zoomImage: '이미지 확대',
 		readingTime: (n) => `${n}분 분량`,
 	},
 	he: {
@@ -501,6 +514,7 @@ export const UI: Record<Lang, Ui> = {
 		searchPlaceholder: 'חיפוש בספר',
 		searchNoResults: 'לא נמצאו תוצאות.',
 		close: 'סגירה',
+		zoomImage: 'הגדלת התמונה',
 		readingTime: (n) => `${n} דקות קריאה`,
 	},
 };

@@ -1,5 +1,6 @@
 ---
 import Ink from '@/components/site/Ink.astro';
+import Lightbox from '@/components/site/Lightbox.astro';
 import SiteHead from '@/components/site/SiteHead.astro';
 import SkipLink from '@/components/site/SkipLink.astro';
 import { DEFAULT_LANG, language, type Lang } from '@/i18n/languages';
@@ -28,6 +29,8 @@ const {
 	ground = 'home',
 } = Astro.props;
 const { htmlLang, dir } = language(lang);
+// Soft hyphens break lines on the page, not in the tab or a search result
+const plain = (value: string) => value.replaceAll('\u00ad', '');
 ---
 
 <!doctype html>
@@ -35,9 +38,9 @@ const { htmlLang, dir } = language(lang);
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content={description} />
+		<meta name="description" content={plain(description)} />
 		<meta name="robots" content="noindex" />
-		<title>{title}</title>
+		<title>{plain(title)}</title>
 		<SiteHead lang={lang} fontPage={fontPage} fontPages={fontPages} ground={ground} />
 		<slot name="head" />
 	</head>
@@ -49,5 +52,6 @@ const { htmlLang, dir } = language(lang);
 		</main>
 		<slot name="after-main" />
 		<Ink />
+		<Lightbox zoom={ui(lang).zoomImage} close={ui(lang).close} />
 	</body>
 </html>
