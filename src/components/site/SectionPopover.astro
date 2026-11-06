@@ -1,0 +1,170 @@
+---
+/**
+ * The position in an article, shown in the top bar when it comes back on
+ * narrow screens: „Abschnitt 3 von 6“ with the seal, opening the sections
+ * in the browser's own popover (`popover`, `popovertarget`): Escape and a
+ * click outside close it, focus returns to the button. Follows the reading
+ * position that SectionList.astro reports (`sectionchange`). A section
+ * chosen closes it.
+ */
+interface Props {
+	/** „Abschnitte“ */
+	heading: string;
+	sections: { id: string; text: string }[];
+	/** „6 Abschnitte“: before the first section */
+	countLabel: string;
+	/** „Abschnitt 1 von 6“, … per section */
+	positionLabels: string[];
+}
+
+const { heading, sections, countLabel, positionLabels } = Astro.props;
+---
+
+<div
+	class="where-root"
+	data-where
+	data-count={countLabel}
+	data-positions={JSON.stringify(positionLabels)}
+>
+	<button class="where" type="button" popovertarget="where-list">
+		<span class="seal" aria-hidden="true"></span>
+		<span class="sr-only">{heading}: </span>
+		<span data-where-label>{countLabel}</span>
+	</button>
+	<div class="where-list" id="where-list" popover role="group" aria-labelledby="where-title">
+		<p class="where-title" id="where-title">
+			{heading}
+		</p>
+		<ol>
+			{sections.map(({ id, text }) => (
+				<li>
+					<a href={`#${id}`}>{text}</a>
+				</li>
+			))}
+		</ol>
+	</div>
+</div>
+
+<script>
+	for (const root of document.querySelectorAll<HTMLElement>('[data-where]')) {
+		const label = root.querySelector('[data-where-label]');
+		const list = root.querySelector<HTMLElement>('[popover]');
+		const links = [...(list?.querySelectorAll('a') ?? [])];
+		const positions = JSON.parse(root.dataset.positions ?? '[]') as string[];
+
+		addEventListener('sectionchange', (event) => {
+			const { index } = (event as CustomEvent<{ index: number }>).detail;
+			if (label) label.textContent = positions[index] ?? root.dataset.count ?? '';
+			links.forEach((link, i) => {
+				if (i === index) link.setAttribute('aria-current', 'location');
+				else link.removeAttribute('aria-current');
+			});
+		});
+		// The list may have marked the position before this script ran: ask again
+		dispatchEvent(new Event('sectionrequest'));
+
+		// A section chosen closes the popover
+		list?.addEventListener('click', (event) => {
+			if ((event.target as Element).closest('a')) list.hidePopover();
+		});
+	}
+</script>
+
+<style>
+	/* The position button: the seal and „Abschnitt 3 von 6“ */
+	.where {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.55em;
+		min-block-size: 2.75rem;
+		margin: 0;
+		padding-block: 0;
+		padding-inline: 0.2em;
+		border: 0;
+		background: none;
+		color: inherit;
+		font: 500 0.9375rem/1.4 var(--mono);
+		cursor: pointer;
+	}
+
+	.seal {
+		display: inline-block;
+		inline-size: 0.62em;
+		block-size: 0.62em;
+		font-size: 1.1rem;
+		background: var(--seal);
+		border-radius: 1px;
+		box-shadow: inset 0 0 0 0.08em var(--seal-shine);
+	}
+
+	/* The sections: reading paper with a hairline, below the bar at the
+	   reading end (the bar is sticky on narrow screens, so the popover's
+	   fixed place is right under it) */
+	.where-list {
+		position: fixed;
+		inset: auto;
+		inset-block-start: 4rem;
+		inset-inline-end: var(--gutter);
+		inline-size: min(26rem, 100vw - 2 * var(--gutter));
+		max-block-size: calc(100dvh - 5rem);
+		margin: 0;
+		overflow-y: auto;
+		padding-block: 1rem;
+		padding-inline: 1.25rem;
+		border: 1px solid var(--rule);
+		border-radius: 1px;
+		background: var(--ground-read);
+		color: var(--text);
+		box-shadow: var(--shadow-popover);
+	}
+
+	.where-title {
+		margin-block: 0 0.4rem;
+		font-family: var(--mono);
+		font-size: 0.875rem;
+		color: var(--text-3);
+	}
+
+	ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	a {
+		position: relative;
+		display: block;
+		padding-block: 0.5em;
+		padding-inline: 1.15em 0;
+		font-size: 1.0625rem;
+		line-height: 1.35;
+		color: var(--text-2);
+		text-decoration: none;
+		hyphens: manual;
+	}
+
+	a::before {
+		content: '';
+		position: absolute;
+		inset-inline-start: 0;
+		inset-block-start: 0.95em;
+		inline-size: 0.55em;
+		block-size: 0.55em;
+		border: 1px solid var(--link-line);
+		border-radius: 1px;
+	}
+
+	a:hover {
+		color: var(--text);
+	}
+
+	a[aria-current] {
+		color: var(--text);
+		font-weight: 600;
+	}
+
+	a[aria-current]::before {
+		background: var(--seal);
+		border-color: var(--seal);
+	}
+</style>

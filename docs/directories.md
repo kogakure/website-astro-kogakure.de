@@ -5,7 +5,7 @@
 | `src/pages/`                    | Routes. Pages only compose layouts and components                                                 |
 | `src/layouts/`                  | Page shells (`BaseLayout.astro`: head with fonts and mode, skip link, `<main>`, reveal)           |
 | `src/components/site/`          | Astro components for the site's structure (skip link, top bar, colophon, …)                       |
-| `src/components/ui/`            | shadcn/ui components on Base UI, restyled to the design tokens                                    |
+| `src/components/ui/`            | shadcn/ui components on Base UI, restyled to the design tokens (none yet; created on first use)   |
 | `src/components/COMPONENTS.md`  | Catalogue of all components                                                                       |
 | `src/lib/`                      | Shared code (`utils.ts` with `cn()`)                                                              |
 | `src/lib/book/`                 | Book data: schemas, import transforms, validation, alternates map, `book.ts` for pages            |
