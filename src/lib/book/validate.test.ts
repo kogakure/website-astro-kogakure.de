@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { LANGS, type Lang } from '@/i18n/languages';
+import { pageSchema, tocSchema } from './schema';
 import { validateBook, type BookInput, type SourcePage } from './validate';
 
 const slugs = (lang: Lang) =>
@@ -221,5 +222,25 @@ describe('validateBook', () => {
 		expect(validateBook(input)).toContain(
 			'de/en.md: the slug collides with a language prefix or the 404 page'
 		);
+	});
+});
+
+describe('titles', () => {
+	it('reject the &shy; leftovers of the old site', () => {
+		const page = {
+			title: 'Trainings&shy;faktoren',
+			priority: 1,
+			translationKey: 'trainingFactorsPage',
+		};
+		expect(pageSchema.safeParse(page).success).toBe(false);
+		expect(pageSchema.safeParse({ ...page, title: 'Trainingsfaktoren' }).success).toBe(true);
+		expect(
+			tocSchema.safeParse({
+				preface: [
+					{ title: 'Vor&shy;wort', slug: 'vorwort', translationKey: 'prefacePage' },
+				],
+				parts: [],
+			}).success
+		).toBe(false);
 	});
 });

@@ -1,5 +1,5 @@
 ---
-title: Inrō – Reise&shy;apotheke
+title: Inrō – Reiseapotheke
 priority: 430
 date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff

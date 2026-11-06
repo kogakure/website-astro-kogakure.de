@@ -22,14 +22,11 @@ export const CATEGORIES = [
 	'weapons',
 ] as const;
 
-/**
- * Titles mark their break points as `&shy;` (Trainings&shy;faktoren). The
- * texts are Markdown, so the body turns it into a soft hyphen; the front
- * matter and the TOC are plain strings, so the schema does
- */
-export const softHyphens = (value: string): string => value.replaceAll('&shy;', '\u00ad');
-
-const title = z.string().min(1).transform(softHyphens);
+/** A title; `&shy;` is a leftover of the old site, the browser hyphenates German itself */
+const title = z
+	.string()
+	.min(1)
+	.refine((value) => !value.includes('&shy;'), 'Leftover &shy; of the old site in a title');
 
 export const pageSchema = z
 	.object({

@@ -1,5 +1,5 @@
 ---
-title: Trainings&shy;faktoren
+title: Trainingsfaktoren
 priority: 320
 date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
