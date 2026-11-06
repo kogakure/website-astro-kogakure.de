@@ -48,4 +48,39 @@ test.describe('design system page', () => {
 		await page.getByRole('button', { name: 'Go' }).click();
 		await expect(page).toHaveURL(/:\d+\/$/);
 	});
+
+	test('opens the sections in the native popover on narrow screens, without React', async ({
+		page,
+	}) => {
+		const scripts: string[] = [];
+		page.on('request', (request) => {
+			if (request.resourceType() === 'script') scripts.push(request.url());
+		});
+		await page.setViewportSize({ width: 390, height: 844 });
+		await page.goto('/design-system/');
+		await page.mouse.wheel(0, 4000);
+		await page.waitForTimeout(300);
+		await page.mouse.wheel(0, -400);
+		const button = page.locator('.where');
+		await expect(button).toBeVisible();
+		await expect(button).toHaveText(/Section \d of 8/);
+
+		// The keyboard: Enter opens, Escape closes, focus returns
+		const list = page.locator('#where-list');
+		await button.focus();
+		await page.keyboard.press('Enter');
+		await expect(list).toBeVisible();
+		await expect(list.locator('a[aria-current="location"]')).toHaveCount(1);
+		await page.keyboard.press('Escape');
+		await expect(list).toBeHidden();
+		await expect(button).toBeFocused();
+
+		// A section chosen closes it
+		await button.click();
+		await list.getByRole('link', { name: 'Colours' }).click();
+		await expect(list).toBeHidden();
+		await expect(page).toHaveURL(/#colours$/);
+
+		expect(scripts.filter((url) => /react|client\.|SectionPopover/i.test(url))).toEqual([]);
+	});
 });
