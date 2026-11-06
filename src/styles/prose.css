@@ -302,9 +302,11 @@
 		display: block;
 	}
 
-	/* Figures break out of the column: keep them clear of a hanging gloss */
+	/* Figures break out of the column only across the gutters (Reading.astro),
+	   so they end where the margin column starts: the glosses run on beside
+	   them, and a long stack of glosses leaves no gap before a figure */
 	.prose-margin figure {
-		clear: inline-end;
+		--figure: calc(100% + 6rem);
 	}
 }
 
