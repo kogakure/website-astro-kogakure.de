@@ -3,7 +3,7 @@
  * write broken content, and the build runs the same checks on the imported
  * files (`src/integrations/validate-book.ts`).
  */
-import { DEFAULT_LANG, LANGS, type Lang } from '../../i18n/languages.ts';
+import { DEFAULT_LANG, isLang, LANGS, type Lang } from '../../i18n/languages.ts';
 import { homePath, isInBook, routeOf } from '../../i18n/routes.ts';
 import { glossarySchema, pageSchema, tocSchema, type Toc } from './schema.ts';
 import { imageUrls, internalLinks } from './transform.ts';
@@ -27,6 +27,8 @@ export interface BookInput {
 	assetExists?: (path: string) => boolean;
 }
 
+/** Link and image syntax that internalLinks() and imageUrls() don't read */
+const UNCHECKED_FORMS = /\b(?:src|href)='|!\[[^\]]*\]\(|\bsrcset=/;
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const ENGLISH: Lang = 'en';
 
@@ -39,6 +41,8 @@ export function validateBook(input: BookInput): string[] {
 	for (const page of input.pages) {
 		const where = `${page.lang}/${page.slug}.md`;
 		if (!SLUG.test(page.slug)) error(where, 'the file name is not a URL slug');
+		if (page.lang === DEFAULT_LANG && (isLang(page.slug) || page.slug === '404'))
+			error(where, 'the slug collides with a language prefix or the 404 page');
 		const parsed = pageSchema.safeParse(page.data);
 		if (!parsed.success) {
 			for (const issue of parsed.error.issues)
@@ -125,6 +129,11 @@ export function validateBook(input: BookInput): string[] {
 		for (const [key, slug] of slugs) routes.add(routeOf(lang, slug, key));
 	for (const page of input.pages) {
 		const where = `${page.lang}/${page.slug}.md`;
+		if (UNCHECKED_FORMS.test(page.body))
+			error(
+				where,
+				'uses a link or image form the checks do not read (single quotes, ![](), srcset)'
+			);
 		for (const link of internalLinks(page.body)) {
 			const isFile = /\.[a-z0-9]+$/i.test(link);
 			if (isFile ? !input.assetExists?.(link) : !routes.has(link))

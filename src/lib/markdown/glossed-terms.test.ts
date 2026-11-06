@@ -1,6 +1,7 @@
 import { renderMarkdown } from '@/test/markdown';
 import { describe, expect, it } from 'vitest';
 import { hastGlossedTerms } from './glossed-terms';
+import { BOOK_HAST_PLUGINS } from './index';
 
 const render = (markdown: string) => renderMarkdown(markdown, [hastGlossedTerms]);
 
@@ -44,5 +45,21 @@ describe('hastGlossedTerms', () => {
 	it('gives up on nested parentheses or other elements in the meaning', () => {
 		expect(render('_x_ (天狗, a (b) c)')).not.toContain('gloss');
 		expect(render('_x_ (天狗, <cite>Buch</cite>)')).not.toContain('gloss');
+	});
+
+	it('glosses in tight list items and table cells too', () => {
+		expect(render('- Die _yamabushi_ (山伏).')).toContain('class="gloss"');
+		expect(render('| A |\n| --- |\n| _hara_ (腹) |')).toContain('class="gloss"');
+	});
+});
+
+describe('the whole pipeline', () => {
+	it('glosses first, then writes the quotation marks of the page', () => {
+		const html = renderMarkdown(
+			'Ein _tengu_ (天狗, <q>Himmelhund</q>) fliegt.',
+			BOOK_HAST_PLUGINS
+		);
+		expect(html).toContain('<span class="gloss-meaning"><q>„Himmelhund“</q></span>');
+		expect(html).toContain('<em lang="ja-Latn">tengu</em>');
 	});
 });

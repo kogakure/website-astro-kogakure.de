@@ -201,4 +201,25 @@ describe('validateBook', () => {
 		expect(errors).toContain('zh/kamae.md: image /images/a.webp does not exist');
 		expect(errors).toContain('zh/kamae.md: image ../x.webp is not below /images/');
 	});
+
+	it('reports link and image forms the checks cannot read', () => {
+		const input = book();
+		page(input, 'en', 'kamae').body = "<img src='/images/a.webp' alt=''>";
+		page(input, 'es', 'kamae').body = '![Bild](/images/a.webp)';
+		const errors = validateBook(input);
+		expect(errors).toContainEqual(
+			expect.stringMatching(/^en\/kamae\.md: uses a link or image form/)
+		);
+		expect(errors).toContainEqual(
+			expect.stringMatching(/^es\/kamae\.md: uses a link or image form/)
+		);
+	});
+
+	it('reports a German slug that collides with a language prefix', () => {
+		const input = book();
+		page(input, 'de', 'kamae').slug = 'en';
+		expect(validateBook(input)).toContain(
+			'de/en.md: the slug collides with a language prefix or the 404 page'
+		);
+	});
 });

@@ -17,14 +17,15 @@ const OPENING = new RegExp(`^ \\((${CJK})(\\)|, )`);
  *   </span>
  *
  * A screen reader hears „tengu 天狗 Himmelhund“; the repeated term is hidden
- * from it. Only paragraphs: captions keep their kanji inline. Terms that are
+ * from it. Paragraphs, list items and table cells; captions keep their kanji
+ * inline. Terms that are
  * not italic (Hebrew, Korean) and Japanese (no romanization) get no gloss.
  */
 export const hastGlossedTerms = () =>
 	defineHastPlugin({
 		name: 'glossed-terms',
 		element: {
-			filter: ['p'],
+			filter: ['p', 'li', 'td', 'th'],
 			visit(node, ctx) {
 				const children = glossChildren(node.children);
 				if (children) ctx.replaceNode(node, { ...node, children });
