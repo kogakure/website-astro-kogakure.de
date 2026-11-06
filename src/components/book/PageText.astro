@@ -1,0 +1,22 @@
+---
+/**
+ * A page of the book: title, lede and the rendered text in the slot.
+ * Unstyled until the design system arrives (SI-473).
+ */
+import { noBreakDash } from '@/lib/markdown/no-break-dash';
+
+interface Props {
+	title: string;
+	excerpt?: string;
+}
+
+const { title, excerpt } = Astro.props;
+---
+
+<article class="mx-auto max-w-prose px-6 py-12">
+	<h1 class="text-3xl">{noBreakDash(title)}</h1>
+	{excerpt && <p class="mt-4 text-xl">{noBreakDash(excerpt)}</p>}
+	<div class="mt-8">
+		<slot />
+	</div>
+</article>

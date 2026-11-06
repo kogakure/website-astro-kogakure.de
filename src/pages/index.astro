@@ -1,13 +1,16 @@
 ---
+import BookTitle from '@/components/book/BookTitle.astro';
+import Contents from '@/components/book/Contents.astro';
+import { DEFAULT_LANG } from '@/i18n/languages';
+import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getToc } from '@/lib/book/book';
+
+const lang = DEFAULT_LANG;
+const t = ui(lang);
 ---
 
-<BaseLayout
-	title="木隠 · kogakure"
-	description="Ein Buch über Ninja und Ninjutsu. Die neue Website entsteht."
->
-	<div class="mx-auto max-w-prose px-6 py-24">
-		<h1 class="text-5xl">木隠</h1>
-		<p class="mt-6 text-xl">Die neue Website entsteht.</p>
-	</div>
+<BaseLayout title="木隠 · kogakure" description={t.subtitle} lang={lang}>
+	<BookTitle subtitle={t.subtitle} />
+	<Contents heading={t.contents} introduction={t.introduction} parts={await getToc(lang)} />
 </BaseLayout>

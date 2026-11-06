@@ -1,7 +1,7 @@
 import { AxeBuilder } from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
-test.describe('placeholder home page', () => {
+test.describe('German homepage', () => {
 	test('renders in German with the title', async ({ page }) => {
 		await page.goto('/');
 		await expect(page).toHaveTitle(/木隠/);
@@ -12,7 +12,7 @@ test.describe('placeholder home page', () => {
 	test('skip link moves focus to the main content', async ({ page }) => {
 		await page.goto('/');
 		await page.keyboard.press('Tab');
-		const skipLink = page.getByRole('link', { name: 'Zum Inhalt springen' });
+		const skipLink = page.getByRole('link', { name: 'Zum Text' });
 		await expect(skipLink).toBeFocused();
 		await skipLink.press('Enter');
 		await expect(page).toHaveURL(/#main$/);

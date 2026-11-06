@@ -1,14 +1,18 @@
 ---
+/** The German 404 page, from the text with translationKey notFoundPage */
+import PageText from '@/components/book/PageText.astro';
+import { DEFAULT_LANG } from '@/i18n/languages';
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPage } from '@/lib/book/book';
+import { render } from 'astro:content';
+
+const lang = DEFAULT_LANG;
+const entry = await getPage(lang, 'notFoundPage');
+const { Content } = await render(entry);
 ---
 
-<BaseLayout title="Seite nicht gefunden · 木隠" description="Diese Seite gibt es nicht.">
-	<div class="mx-auto max-w-prose px-6 py-24">
-		<h1 class="text-3xl">Seite nicht gefunden</h1>
-		<p class="mt-6">
-			<a class="underline" href="/">
-				Zur Startseite
-			</a>
-		</p>
-	</div>
+<BaseLayout title={`${entry.data.title} · 木隠`} description={entry.data.title} lang={lang}>
+	<PageText title={entry.data.title}>
+		<Content />
+	</PageText>
 </BaseLayout>
