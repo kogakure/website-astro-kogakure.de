@@ -9,6 +9,11 @@ categories:
   - philosophy
 ---
 
+<figure>
+<img src="/images/article/godai-03-from-earth-to-void.webp" alt="Un paysage de gauche à droite : un énorme rocher, un ruisseau sur les pierres, une cabane au feu rougeoyant, des herbes courbées par le vent et, à droite, un ciel ouvert et vide au-dessus d’une plaine ; un moine est assis en méditation sur une avancée rocheuse.">
+<figcaption>De la terre au vide</figcaption>
+</figure>
+
 ## Développer une conscience naturelle
 
 Les ninja voulaient devenir des <q>êtres naturels de part en part</q>. Leur but était la conscience du _kiai_ (気合). Pour l’atteindre, il faut faire l’expérience directe, dans son propre corps, de l’action des lois cosmiques, de la conscience universelle. On observe la nature sans préjugé et l’on comprend son propre lien avec toutes choses. Cela mène à la connaissance de soi.

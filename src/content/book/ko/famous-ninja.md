@@ -10,6 +10,11 @@ categories:
   - history
 ---
 
+<figure>
+<img src="/images/article/famous-ninja-01-three-houses-of-iga.webp" alt="새벽녘의 산골짜기. 세 언덕 위에 초가지붕을 얹은 요새 같은 저택이 하나씩 서 있고, 그 사이로 안개와 논이 펼쳐지며, 오솔길을 따라 세 남자가 걷고 있다.">
+<figcaption>이가의 세 가문</figcaption>
+</figure>
+
 ## 핫토리 가문
 
 여든 명. 오다 노부나가(織田信長)가 이가(伊賀)를 정복했을 때 세 핫토리 가문에서 살아남은 사람의 수다. 그때까지 핫토리는 이 지방에서 가장 이름난 가문 가운데 하나였다.

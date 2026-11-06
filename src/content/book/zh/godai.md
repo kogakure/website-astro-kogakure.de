@@ -9,6 +9,11 @@ categories:
   - philosophy
 ---
 
+<figure>
+<img src="/images/article/godai-03-from-earth-to-void.webp" alt="一幅从左到右展开的风景：一块巨大的岩石、流过石间的溪水、一间亮着火光的小屋、被风吹弯的草，右边是平原上空旷的天空；一位僧人在岩台上打坐冥想。">
+<figcaption>从地到空</figcaption>
+</figure>
+
 ## 培养自然的意识
 
 忍者想成为<q>彻头彻尾的自然之物</q>。他们的目标是气合（kiai）意识。为此，你必须在自己身上直接体验宇宙法则，也就是宇宙意识的作用。你不带成见地观察自然，理解自己与万物的联系。这会引向自我认识。

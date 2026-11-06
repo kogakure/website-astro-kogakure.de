@@ -11,6 +11,11 @@ categories:
   - training
 ---
 
+<figure>
+<img src="/images/article/combat-factors-03-nagare-flowing-like-river.webp" alt="On the pebbled bank of a river, a man in dark training clothes thrusts with a long staff while the other turns out of its reach in one flowing movement; their footprints show in the wet sand.">
+<figcaption><em>Nagare</em>, flowing like the river</figcaption>
+</figure>
+
 ## Nagare
 
 Without flow, techniques look choppy, as if each one were performed on its own, cut off from the next. That is why the principle of flowing action, _nagare_ (流れ), is one of the most important in training. Without it, you try to force a technique onto a situation with all your strength. With no fluid adaptation, all that is left is the strength of muscle and bone.

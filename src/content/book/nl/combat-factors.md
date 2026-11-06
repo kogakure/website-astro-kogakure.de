@@ -11,6 +11,11 @@ categories:
   - training
 ---
 
+<figure>
+<img src="/images/article/combat-factors-03-nagare-flowing-like-river.webp" alt="Op de kiezeloever van een rivier stoot een man in donkere trainingskleding toe met een lange stok, terwijl de ander in één vloeiende beweging buiten zijn bereik draait; hun voetsporen staan in het natte zand.">
+<figcaption><em>Nagare</em>, stromen als de rivier</figcaption>
+</figure>
+
 ## Nagare
 
 Zonder vloeiendheid ogen technieken hakkerig, alsof elke techniek op zichzelf en los van de volgende wordt uitgevoerd. Daarom hoort het principe van de vloeiende handeling, _nagare_ (流れ), tot de belangrijkste in de training. Wie het niet beheerst, probeert een techniek met alle kracht in een situatie te dwingen. Omdat de vloeiende aanpassing ontbreekt, blijft hem alleen de kracht van spieren en botten over.

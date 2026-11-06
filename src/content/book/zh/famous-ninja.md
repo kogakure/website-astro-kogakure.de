@@ -10,6 +10,11 @@ categories:
   - history
 ---
 
+<figure>
+<img src="/images/article/famous-ninja-01-three-houses-of-iga.webp" alt="黎明时分的山谷：三座茅草屋顶的设防宅邸分别坐落在三座山丘上，其间是雾气和稻田，三名男子沿着小路行走。">
+<figcaption>伊贺的三个家族</figcaption>
+</figure>
+
 ## 服部家族
 
 80个人。织田信长（Oda Nobunaga）征服伊贺（Iga）时，服部（Hattori）氏的三个家族只活下来这么多人。在那之前，服部氏一直是伊贺国最有名的家族之一。

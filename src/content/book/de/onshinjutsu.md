@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/onshinjutsu-04-hiding-among-scarecrows.webp" alt="Ein abgeerntetes Reisfeld bei Mondschein: Auf dem Damm zieht eine Patrouille mit Laternen vorbei, im Feld steht ein vermummter Ninja reglos zwischen Strohgarben, und ein zweiter liegt flach in einer Furche.">
+<figcaption>Verborgen auf dem offenen Feld</figcaption>
+</figure>
+
 ## Die Kunst des Versteckens
 
 Wer versteckt ist, kann in relativer Sicherheit beobachten oder auf den richtigen Augenblick warten. Verstecken ist deshalb die wohl wirksamste Methode, sich zu schützen. Die Kunst, sich zu verstecken, zu verbergen, zu tarnen und unsichtbar zu machen, heißt **_onshin jutsu_** (隠身術), auch _inton_ (隠遁) oder _inpō_ (隠法). Sie gliedert sich in drei Bereiche:

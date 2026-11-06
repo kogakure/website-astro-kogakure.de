@@ -11,6 +11,11 @@ categories:
   - training
 ---
 
+<figure>
+<img src="/images/article/combat-factors-03-nagare-flowing-like-river.webp" alt="Sur la rive caillouteuse d’une rivière, un homme en tenue d’entraînement sombre porte un coup avec un long bâton tandis que l’autre pivote hors de sa portée en un seul mouvement fluide ; leurs traces de pas marquent le sable mouillé.">
+<figcaption><em>Nagare</em>, couler comme la rivière</figcaption>
+</figure>
+
 ## Nagare
 
 Sans fluidité, les techniques paraissent hachées, comme si chacune était exécutée isolément, sans lien avec la suivante. C’est pourquoi le principe de l’action fluide, _nagare_ (流れ), compte parmi les plus importants de l’entraînement. Qui ne le maîtrise pas essaie de plaquer une technique de toutes ses forces sur une situation. Faute d’adaptation fluide, il ne lui reste que la force des muscles et des os.

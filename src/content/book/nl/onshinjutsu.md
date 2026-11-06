@@ -10,6 +10,11 @@ categories:
   - tactics
 ---
 
+<figure>
+<img src="/images/article/onshinjutsu-04-hiding-among-scarecrows.webp" alt="Een geoogst rijstveld bij maanlicht: over de dijk trekt een patrouille met lantaarns voorbij, in het veld staat een gemaskerde ninja roerloos tussen de strooschoven en een tweede ligt plat in een voor.">
+<figcaption>Verborgen in het open veld</figcaption>
+</figure>
+
 ## De kunst van het verstoppen
 
 Wie verstopt zit, kan in relatieve veiligheid observeren of wachten op het juiste moment. Zich verstoppen is daarom wellicht de doeltreffendste manier om zich te beschermen. De kunst om zich te verstoppen, te verbergen, te camoufleren en onzichtbaar te maken heet **_onshin jutsu_** (隠身術), ook _inton_ (隠遁) of _inpō_ (隠法). Ze valt uiteen in drie gebieden:

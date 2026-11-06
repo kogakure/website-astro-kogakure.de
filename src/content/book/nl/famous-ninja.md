@@ -10,6 +10,11 @@ categories:
   - history
 ---
 
+<figure>
+<img src="/images/article/famous-ninja-01-three-houses-of-iga.webp" alt="Een bergdal bij dageraad: op drie heuvels staan drie versterkte landhuizen met rieten daken, daartussen mist en rijstvelden, en over een pad lopen drie mannen.">
+<figcaption>De drie huizen van Iga</figcaption>
+</figure>
+
 ## De familie Hattori
 
 Tachtig mensen. Zoveel leden van de drie Hattori-families overleefden het toen Oda Nobunaga Iga veroverde. Tot dan toe hadden de Hattori tot de beroemdste families van de provincie behoord.

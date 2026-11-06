@@ -10,6 +10,11 @@ categories:
   - history
 ---
 
+<figure>
+<img src="/images/article/famous-ninja-01-three-houses-of-iga.webp" alt="Un valle de montaña al amanecer: tres casas señoriales fortificadas con techos de paja se alzan sobre tres colinas, entre ellas hay niebla y arrozales, y tres hombres caminan por un sendero.">
+<figcaption>Las tres casas de Iga</figcaption>
+</figure>
+
 ## La familia Hattori
 
 Ochenta personas. Esos fueron los supervivientes de las tres familias Hattori cuando Oda Nobunaga conquistó Iga. Hasta entonces, los Hattori habían sido una de las familias más célebres de la provincia.

@@ -232,7 +232,6 @@
 			"width": 1024,
 			"height": 1536,
 			"aspect": 0.6667,
-			"focus": "50% 18%",
 			"widths": [
 				800,
 				1400,
@@ -251,6 +250,18 @@
 				2750
 			],
 			"hash": "a229c71fdf26d529"
+		},
+		"article/combat-factors-03-nagare-flowing-like-river.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 72%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "86b95e3bd8b152e0"
 		},
 		"article/combat-rules-01-blade-of-grass-as-weapon.webp": {
 			"width": 1536,
@@ -407,6 +418,18 @@
 			],
 			"hash": "26e7fe3441897f1a"
 		},
+		"article/famous-ninja-01-three-houses-of-iga.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 45%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "57116f6bb2bae000"
+		},
 		"article/fire-tools-01-fire-in-town-of-wood-and-paper.webp": {
 			"width": 2048,
 			"height": 1152,
@@ -472,13 +495,24 @@
 			"width": 1152,
 			"height": 1536,
 			"aspect": 0.75,
-			"focus": "50% 28%",
 			"widths": [
 				800,
 				1400,
 				2000
 			],
 			"hash": "f9acb9ce47ad50ec"
+		},
+		"article/godai-03-from-earth-to-void.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 55%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "4813a490c3df011b"
 		},
 		"article/gogyo-01-five-elements.webp": {
 			"width": 2048,
@@ -526,6 +560,18 @@
 				2750
 			],
 			"hash": "a4b3a3d59e16cf27"
+		},
+		"article/gotonpo-04-escape-through-smoke-into-trees.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 40%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "9dca4c99b1b49f84"
 		},
 		"article/guidelines-of-bujinkan-01-dojo-open-to-all-nations.webp": {
 			"width": 2048,
@@ -1184,6 +1230,18 @@
 				2750
 			],
 			"hash": "e92134d7b768d491"
+		},
+		"article/onshinjutsu-04-hiding-among-scarecrows.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 50%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "75b778c560802b9d"
 		},
 		"article/organization-of-the-ryu-01-jonin.webp": {
 			"width": 1536,
@@ -4261,8 +4319,8 @@
 			"hash": "726578380927344d"
 		},
 		"combatFactorsPage": {
-			"image": "article/combat-factors-01-kokyuho-learning-to-breathe.webp",
-			"hash": "8d41e566593babda"
+			"image": "article/combat-factors-03-nagare-flowing-like-river.webp",
+			"hash": "c904a8bad328d7b5"
 		},
 		"combatRulesPage": {
 			"image": "article/combat-rules-01-blade-of-grass-as-weapon.webp",
@@ -4297,8 +4355,8 @@
 			"hash": "1211ad4433979f1c"
 		},
 		"famousNinjaPage": {
-			"image": "historical/hattori-hanzo.webp",
-			"hash": "9e7925ab38e3cc5f"
+			"image": "article/famous-ninja-01-three-houses-of-iga.webp",
+			"hash": "10df4a0fd8af4346"
 		},
 		"fireToolsPage": {
 			"image": "article/fire-tools-01-fire-in-town-of-wood-and-paper.webp",
@@ -4313,16 +4371,16 @@
 			"hash": "ca0360d0bffffded"
 		},
 		"godaiPage": {
-			"image": "article/godai-02-gorinto-in-mountains.webp",
-			"hash": "aaeeabf24eef67f3"
+			"image": "article/godai-03-from-earth-to-void.webp",
+			"hash": "1d6734b5e41be60a"
 		},
 		"gogyoPage": {
 			"image": "article/gogyo-01-five-elements.webp",
 			"hash": "13fd4ac297a1b82e"
 		},
 		"gotonPoPage": {
-			"image": "article/gotonpo-01-suiton-hiding-behind-reed-island.webp",
-			"hash": "96a55533ebcfe7cd"
+			"image": "article/gotonpo-04-escape-through-smoke-into-trees.webp",
+			"hash": "b89e282c4017d41b"
 		},
 		"guidelinesOfBujinkanPage": {
 			"image": "article/guidelines-of-bujinkan-02-fudoshin-immovable-heart.webp",
@@ -4429,8 +4487,8 @@
 			"hash": "b4c180ed42aed86c"
 		},
 		"onshinjutsuPage": {
-			"image": "article/onshinjutsu-01-uzura-gakure-curled-up-like-stone.webp",
-			"hash": "d8f73603af9517b0"
+			"image": "article/onshinjutsu-04-hiding-among-scarecrows.webp",
+			"hash": "19d287eae400fd29"
 		},
 		"organizationOfRyuPage": {
 			"image": "article/organization-of-the-ryu-01-jonin.webp",

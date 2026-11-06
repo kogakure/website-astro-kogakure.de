@@ -10,6 +10,11 @@ categories:
   - history
 ---
 
+<figure>
+<img src="/images/article/famous-ninja-01-three-houses-of-iga.webp" alt="夜明けの山あいの谷。三つの丘の上に茅葺き屋根の砦のような屋敷が一つずつ建ち、その間には霧と田んぼが広がり、小道を三人の男が歩いている。">
+<figcaption>伊賀の三つの家</figcaption>
+</figure>
+
 ## 服部家
 
 80人。織田信長が伊賀を制圧したとき、三つの服部家から生き残ったのはそれだけであった。それまで服部家は、この国で最も名の知られた一族の一つだった。

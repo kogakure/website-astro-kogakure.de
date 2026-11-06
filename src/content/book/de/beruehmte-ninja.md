@@ -10,6 +10,11 @@ categories:
   - history
 ---
 
+<figure>
+<img src="/images/article/famous-ninja-01-three-houses-of-iga.webp" alt="Ein Bergtal im Morgengrauen: Auf drei Hügeln stehen drei befestigte Gehöfte mit Strohdächern, dazwischen liegen Nebel und Reisfelder, und auf einem Weg gehen drei Männer.">
+<figcaption>Die drei Häuser von Iga</figcaption>
+</figure>
+
 ## Die Hattori-Familie
 
 Achtzig Menschen. So viele überlebten aus den drei Hattori-Familien, als Oda Nobunaga Iga eroberte. Bis dahin hatten die Hattori zu den berühmtesten Familien der Provinz gehört.
