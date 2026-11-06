@@ -2,9 +2,9 @@
 /**
  * A part of the book as a scene: its plate (the painting cut by an ink edge,
  * the part's name plate, the caption as the subtitle), then its title and,
- * from 64em beside it, its articles. On the homepage one of ten, revealed
- * as it comes into view, the title linking to the part's own page; on that
- * page the title is the h1 and the plate blooms on load.
+ * from 64em beside it, its articles. One of ten on the homepage, revealed
+ * as it comes into view; its id is the part's anchor, where the top bar,
+ * the contents and the way back after an article lead.
  */
 import Plate from '@/components/site/Plate.astro';
 import type { Chapter } from '@/lib/book/book';
@@ -16,20 +16,15 @@ interface Props {
 	chapter: Chapter;
 	/** „Kapitel 1, 10 Artikel“ */
 	credit: string;
-	/** The homepage's scenes are h2 and link to the part's page; the part's page has the h1 */
-	page?: boolean;
-	/** The page of the part, from the homepage */
-	href?: string | undefined;
 	/** The n-th scene on the page: the edge, and the side of the name plate */
 	position?: number;
 }
 
-const { chapter, credit, page = false, href, position = chapter.index } = Astro.props;
+const { chapter, credit, position = chapter.index } = Astro.props;
 const { scene, plate } = chapter;
-const Heading = page ? 'h1' : 'h2';
 ---
 
-<section class="scene" id={page ? undefined : chapter.slug}>
+<section class="scene" id={chapter.slug}>
 	<Plate
 		image={{ src: scene.image, alt: scene.alt, focus: scene.focus }}
 		caption={scene.caption}
@@ -37,20 +32,12 @@ const Heading = page ? 'h1' : 'h2';
 		edge={sceneEdge(position)}
 		side={position % 2 === 0 ? 'end' : 'start'}
 		frame={scene.frame}
-		reveal={!page}
-		bloom={page}
-		priority={page}
+		reveal
 	/>
 
 	<div class="scene-text">
 		<header class="scene-head">
-			<Heading class="scene-title">
-				{href ? (
-					<a href={href}>{noBreakDash(chapter.title)}</a>
-				) : (
-					noBreakDash(chapter.title)
-				)}
-			</Heading>
+			<h2 class="scene-title">{noBreakDash(chapter.title)}</h2>
 			<p class="scene-credit">{credit}</p>
 		</header>
 		<ArticleList items={chapter.items} />
@@ -83,10 +70,6 @@ const Heading = page ? 'h1' : 'h2';
 		line-height: var(--text-headline--line-height);
 		letter-spacing: var(--text-headline--letter-spacing);
 		text-wrap: balance;
-	}
-
-	.scene-title a {
-		text-decoration-thickness: 1px;
 	}
 
 	.scene-credit {

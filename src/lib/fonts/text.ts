@@ -165,7 +165,7 @@ export function languageText(lang: Lang): LanguageText {
 			glosses: glossKanji(markdown),
 		};
 	});
-	// The homepage's scenes, also on the parts' pages
+	// The captions of the homepage's scenes
 	const captions = SCENES.map(({ image }) =>
 		captionOf(
 			image,

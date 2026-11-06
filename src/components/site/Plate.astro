@@ -57,7 +57,7 @@ const {
 } = Astro.props;
 const mask = [
 	`--edge-mask: url('${inkFile(`wash-edge-${edge}.webp`)}')`,
-	image?.focus && `--focus: ${image.focus}`,
+	image?.focus && `--focal: ${image.focus}`,
 ]
 	.filter(Boolean)
 	.join('; ');
@@ -190,7 +190,7 @@ const mask = [
 		}
 
 		.plate-opener .plate-art :global(.plate-image) {
-			object-position: var(--focus, 50% 50%);
+			object-position: var(--focal, 50% 50%);
 		}
 
 		.plate-opener.is-bare .plate-art {
@@ -208,7 +208,7 @@ const mask = [
 
 		/* Faces sit in the upper third of most paintings */
 		.plate-opener .plate-art :global(.plate-image) {
-			object-position: var(--focus, 50% 15%);
+			object-position: var(--focal, 50% 15%);
 		}
 
 		.plate-opener.is-bare .plate-art {

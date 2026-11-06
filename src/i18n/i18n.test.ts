@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { isLang, language, languageChoices, LANGS, PREFIXED_LANGS } from './languages';
 import {
-	chapterKey,
 	chapterSlug,
 	contentsPath,
 	homePath,
@@ -51,10 +50,9 @@ describe('languages', () => {
 });
 
 describe('routes', () => {
-	it('gives the contents and the parts of the book their own pages', () => {
+	it('gives the contents its own page and the parts their anchors', () => {
 		expect(contentsPath('de')).toBe('/inhalt/');
 		expect(contentsPath('ja')).toBe('/ja/contents/');
-		expect(chapterKey(3)).toBe('chapter-3');
 		expect(chapterSlug('Organisation & Ausbildung', 'de')).toBe('organisation-und-ausbildung');
 		expect(chapterSlug('Körperliches Training', 'de')).toBe('koerperliches-training');
 		expect(chapterSlug('Einführung', 'de')).toBe('einfuehrung');

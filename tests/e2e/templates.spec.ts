@@ -10,7 +10,6 @@ const prefix = (lang: Lang) => (lang === 'de' ? '/' : `/${lang}/`);
 const PAGE_TYPES: Record<string, (lang: Lang) => string> = {
 	home: prefix,
 	contents: (lang) => prefix(lang) + (lang === 'de' ? 'inhalt/' : 'contents/'),
-	chapter: (lang) => prefix(lang) + (lang === 'de' ? 'geschichte/' : 'history/'),
 	article: (lang) => prefix(lang) + (lang === 'de' ? 'abhaertung/' : 'toughening-up/'),
 };
 
@@ -89,12 +88,17 @@ test.describe('reading', () => {
 		await expect(read).toHaveAttribute('href', '/en/toughening-up/');
 	});
 
-	test('an article links its part, and the part its articles', async ({ page }) => {
+	test('an article leads back to its part on the homepage', async ({ page }) => {
 		await page.goto('/abhaertung/');
 		await page.getByRole('link', { name: 'Zurück zu Körperliches Training' }).click();
-		await expect(page).toHaveURL('/koerperliches-training/');
-		await expect(page.getByRole('heading', { level: 1 })).toHaveText('Körperliches Training');
-		await page.getByRole('link', { name: 'Abhärtung', exact: true }).click();
+		await expect(page).toHaveURL('/#koerperliches-training');
+		await expect(page.locator('#koerperliches-training h2')).toHaveText(
+			'Körperliches Training'
+		);
+		await page
+			.locator('#koerperliches-training')
+			.getByRole('link', { name: 'Abhärtung', exact: true })
+			.click();
 		await expect(page).toHaveURL('/abhaertung/');
 	});
 });

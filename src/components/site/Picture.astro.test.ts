@@ -66,9 +66,9 @@ describe('Picture', () => {
 
 	it('sets the focus point for cropping layouts', async () => {
 		expect(await renderAstro(Picture, { src: PORTRAIT, alt: '' })).toContain(
-			'style="--focus: 50% 20%"'
+			'style="--focal: 50% 20%"'
 		);
-		expect(await renderAstro(Picture, { src: LANDSCAPE, alt: '' })).not.toContain('--focus:');
+		expect(await renderAstro(Picture, { src: LANDSCAPE, alt: '' })).not.toContain('--focal:');
 	});
 
 	it('fails for an image outside the manifest', async () => {

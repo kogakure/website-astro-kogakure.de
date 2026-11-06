@@ -4,7 +4,6 @@
 import { getCollection, getEntry, render, type CollectionEntry } from 'astro:content';
 import { DEFAULT_LANG, isLang, LANGS, type Lang } from '@/i18n/languages';
 import {
-	chapterKey,
 	chapterSlug,
 	CONTENTS,
 	contentsPath,
@@ -66,20 +65,12 @@ async function allAlternates(): Promise<Map<string, Alternates>> {
 		}))
 	);
 	map.set(CONTENTS, perLang(contentsPath));
-	const chapters = new Map(
-		await Promise.all(LANGS.map(async (lang) => [lang, await getChapters(lang)] as const))
-	);
-	for (const { index, key } of chapters.get(DEFAULT_LANG) ?? [])
-		map.set(
-			key,
-			perLang((lang) => chapters.get(lang)![index]!.href)
-		);
 	return map;
 }
 
 /**
- * All language versions of a page by its key: a page's translationKey, a
- * section's `chapter-<n>`, `contents` or `home`
+ * All language versions of a page by its key: a page's translationKey,
+ * `contents` or `home`
  */
 export async function getAlternates(key: string): Promise<Alternates> {
 	alternates ??= allAlternates();
@@ -148,15 +139,14 @@ export interface ChapterItem extends TocLink {
 	excerpt?: string | undefined;
 }
 
-/** A section of the book with its own page: the front matter, a chapter or the appendix */
+/** A section of the book, a scene on the homepage: the front matter, a chapter or the appendix */
 export interface Chapter {
 	/** 0 for the front matter, 1–8 for the chapters, 9 for the appendix */
 	index: number;
-	/** Its key in the alternates map */
-	key: string;
 	title: string;
-	/** Its page's slug, also the id of its scene on the homepage */
+	/** The id of its scene on the homepage */
 	slug: string;
+	/** Its scene on the homepage */
 	href: string;
 	/** The chapter's number, null for the front matter and the appendix */
 	number: number | null;
@@ -185,13 +175,11 @@ async function loadChapters(lang: Lang): Promise<Chapter[]> {
 			`The ${lang} TOC has ${toc.length} sections, the plates ${SECTION_PLATES.length}`
 		);
 	const excerpts = new Map(pages.map((entry) => [entry.data.translationKey, entry.data.excerpt]));
-	const slugs = new Set(pages.map((entry) => parseId(entry.id).slug));
 	return toc.map((part, index) => {
 		const title = part.title ?? ui(lang).introduction;
 		const slugTitle =
 			lang === DEFAULT_LANG ? title : (englishToc[index]?.title ?? ui('en').introduction);
 		const slug = chapterSlug(slugTitle, lang);
-		if (slugs.has(slug)) throw new Error(`The section ${slug} has the slug of a ${lang} page`);
 		const scene = SCENES[index]!;
 		const figure = figures.get(scene.image);
 		if (!figure) throw new Error(`No ${lang} page shows the scene ${scene.image}`);
@@ -199,10 +187,9 @@ async function loadChapters(lang: Lang): Promise<Chapter[]> {
 		const number = isChapter(index) ? index : null;
 		return {
 			index,
-			key: chapterKey(index),
 			title,
 			slug,
-			href: pagePath(lang, slug),
+			href: `${homePath(lang)}#${slug}`,
 			number,
 			plate: {
 				name: plate.name,
@@ -237,28 +224,20 @@ export const chapterOf = async (lang: Lang, translationKey: string) =>
 	);
 
 /**
- * The pages besides the book's articles, in every language: the homepage,
- * the contents and one page per section. The rest route renders them.
+ * The pages besides the book's articles, in every language: the homepage
+ * and the contents. The rest route renders them.
  */
-export async function getSitePaths() {
-	const paths = await Promise.all(
-		LANGS.map(async (lang) => {
-			const sections = await getChapters(lang);
-			return [
-				{ path: homePath(lang), props: { kind: 'home' as const, lang } },
-				{ path: contentsPath(lang), props: { kind: 'contents' as const, lang } },
-				...sections.map((chapter) => ({
-					path: chapter.href,
-					props: { kind: 'chapter' as const, lang, index: chapter.index },
-				})),
-			];
-		})
-	);
-	return paths.flat().map(({ path, props }) => ({
-		params: { route: routeParam(path) || undefined },
-		props,
-	}));
-}
+export const getSitePaths = () =>
+	LANGS.flatMap((lang) => [
+		{
+			params: { route: routeParam(homePath(lang)) || undefined },
+			props: { kind: 'home' as const, lang },
+		},
+		{
+			params: { route: routeParam(contentsPath(lang)) },
+			props: { kind: 'contents' as const, lang },
+		},
+	]);
 
 /** „Kapitel 1, 10 Artikel“: a part's place in the book and its size */
 export function chapterCredit(lang: Lang, chapter: Chapter): string {

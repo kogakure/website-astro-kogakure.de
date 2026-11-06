@@ -51,7 +51,7 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 	</Prologue>
 
 	{chapters.map((chapter) => (
-		<Scene chapter={chapter} credit={chapterCredit(lang, chapter)} href={chapter.href} />
+		<Scene chapter={chapter} credit={chapterCredit(lang, chapter)} />
 	))}
 
 	<Colophon
