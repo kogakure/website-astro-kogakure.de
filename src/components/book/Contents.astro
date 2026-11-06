@@ -21,32 +21,34 @@ interface Props {
 const { heading, parts } = Astro.props;
 ---
 
-<nav class="toc" aria-labelledby="toc-title">
+<div class="toc">
 	<h1 id="toc-title" class="toc-title">
 		{heading}
 	</h1>
-	<ol class="toc-parts">
-		{parts.map((part) => (
-			<li class="toc-part">
-				<h2 class="toc-part-title">
-					<a href={part.href}>
-						<span class="toc-k" lang="ja" aria-hidden="true">
-							{part.short}
-						</span>
-						<span>{noBreakDash(part.title)}</span>
-					</a>
-				</h2>
-				<ol class="toc-articles">
-					{part.items.map((item) => (
-						<li>
-							<a href={item.href}>{noBreakDash(item.title)}</a>
-						</li>
-					))}
-				</ol>
-			</li>
-		))}
-	</ol>
-</nav>
+	<nav aria-labelledby="toc-title">
+		<ol class="toc-parts">
+			{parts.map((part) => (
+				<li class="toc-part">
+					<h2 class="toc-part-title">
+						<a href={part.href}>
+							<span class="toc-k" lang="ja" aria-hidden="true">
+								{part.short}
+							</span>
+							<span>{noBreakDash(part.title)}</span>
+						</a>
+					</h2>
+					<ol class="toc-articles">
+						{part.items.map((item) => (
+							<li>
+								<a href={item.href}>{noBreakDash(item.title)}</a>
+							</li>
+						))}
+					</ol>
+				</li>
+			))}
+		</ol>
+	</nav>
+</div>
 
 <style>
 	.toc {
@@ -110,7 +112,7 @@ const { heading, parts } = Astro.props;
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		font-size: 1.0625rem;
+		font-size: var(--text-caption);
 		line-height: 1.3;
 	}
 

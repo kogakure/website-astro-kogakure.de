@@ -19,6 +19,8 @@ test.describe('German homepage', () => {
 	});
 
 	test('has no accessibility violations', async ({ page }) => {
+		// The settled page: axe can't judge contrast mid-animation
+		await page.emulateMedia({ reducedMotion: 'reduce' });
 		await page.goto('/');
 		const results = await new AxeBuilder({ page }).analyze();
 		expect(results.violations).toEqual([]);

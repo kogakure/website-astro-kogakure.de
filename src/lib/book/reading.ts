@@ -1,7 +1,7 @@
 /**
  * The reader's place in the book, for „Lesen“ on the homepage: the last
  * article opened and the section read in it, kept in localStorage. Browser
- * only (ReadingPosition.astro writes it, ResumeLink.astro reads it).
+ * only (Reading.astro writes it, ResumeLink.astro reads it).
  */
 
 export const READING_KEY = 'kogakure-reading';

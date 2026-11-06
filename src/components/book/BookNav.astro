@@ -32,16 +32,30 @@ const { label, previousLabel, nextLabel, previous, next, back } = Astro.props;
 			<ul class="after-pages">
 				{previous && (
 					<li class="after-previous">
-						<span class="after-label">{previousLabel}</span>
-						<a href={previous.href} rel="prev" class="after-title">
+						<span class="after-label" id="after-previous">
+							{previousLabel}
+						</span>
+						<a
+							href={previous.href}
+							rel="prev"
+							class="after-title"
+							aria-describedby="after-previous"
+						>
 							{noBreakDash(previous.title)}
 						</a>
 					</li>
 				)}
 				{next && (
 					<li class="after-next">
-						<span class="after-label">{nextLabel}</span>
-						<a href={next.href} rel="next" class="after-title">
+						<span class="after-label" id="after-next">
+							{nextLabel}
+						</span>
+						<a
+							href={next.href}
+							rel="next"
+							class="after-title"
+							aria-describedby="after-next"
+						>
 							{noBreakDash(next.title)}
 						</a>
 					</li>
@@ -111,7 +125,9 @@ const { label, previousLabel, nextLabel, previous, next, back } = Astro.props;
 		font-size: 1.125rem;
 	}
 
+	/* An inline block keeps the link's underline off the kanji */
 	.after-k {
+		display: inline-block;
 		margin-inline-end: 0.5em;
 		color: var(--text-3);
 		font-family: var(--mincho);
