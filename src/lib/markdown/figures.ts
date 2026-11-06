@@ -15,12 +15,16 @@ export interface FigureOptions {
 	lookup?: (src: string) => ImageInfo | undefined;
 }
 
+/** Images painted with a frame of their own, close to the edge of the sheet */
+const FRAMED = new Set(['/images/diagrams/taijutsu-zu.webp']);
+
 /**
  * The `<img>` of every `<figure>` in a text becomes a responsive picture:
  * lazy and async, with the generated file, size and `srcset` from `lookup`
  * (the image manifest). The figure gets the image's kind (`data-kind`, its
- * folder below /images/), for its ink edge (prose.css). Markdown can't render Astro components, so this
- * plugin is the Picture of the texts.
+ * folder below /images/), for its ink edge (prose.css), and `data-framed`
+ * if the painting has a frame the ink edge would cut. Markdown can't render
+ * Astro components, so this plugin is the Picture of the texts.
  */
 export const hastFigures = ({ lookup }: FigureOptions = {}) =>
 	defineHastPlugin({
@@ -40,6 +44,8 @@ export const hastFigures = ({ lookup }: FigureOptions = {}) =>
 						? /^\/images\/([^/]+)\//.exec(img.properties.src)?.[1]
 						: undefined;
 				if (kind) ctx.setProperty(node, 'dataKind', kind);
+				if (typeof img.properties.src === 'string' && FRAMED.has(img.properties.src))
+					ctx.setProperty(node, 'dataFramed', '');
 				const info =
 					typeof img.properties.src === 'string'
 						? lookup?.(img.properties.src)
