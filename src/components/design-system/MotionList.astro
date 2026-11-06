@@ -1,0 +1,215 @@
+---
+/**
+ * The motion tokens, drawn: an easing shows its curve, and every token a
+ * track as long as its duration (3400 ms is the whole width). „Abspielen“
+ * sends a dot along each track once, with the token's curve; the longest
+ * run is 3.4 s, so nothing moves on its own or longer than 5 s. With
+ * reduced motion or without JavaScript, curves and tracks stay a static
+ * picture and the button is hidden.
+ */
+import type { MotionToken } from './tokens';
+
+interface Props {
+	title: string;
+	tokens: MotionToken[];
+}
+
+const { title, tokens } = Astro.props;
+const longest = Math.max(...tokens.map(({ ms }) => ms));
+const path = ([x1, y1, x2, y2]: [number, number, number, number]) =>
+	`M0 1 C${x1} ${1 - y1} ${x2} ${1 - y2} 1 0`;
+---
+
+<div class="motion" data-motion>
+	<div class="motion-head">
+		<h3 class="motion-title">{title}</h3>
+		<button type="button" class="motion-play" data-motion-play>
+			Abspielen
+		</button>
+	</div>
+	<dl>
+		{tokens.map(({ name, use, ms, easing, curve }) => (
+			<div
+				class="token"
+				style={`--ms: ${ms}ms; --share: ${ms / longest}; --easing: ${easing}`}
+			>
+				<dt>
+					<code>{name}</code>
+				</dt>
+				<dd>
+					{use}
+					<span class="sample" aria-hidden="true">
+						{curve && (
+							<svg class="curve" viewBox="0 0 1 1" preserveAspectRatio="none">
+								<path class="curve-frame" d="M0 0 V1 H1" />
+								<path class="curve-line" d={path(curve)} />
+							</svg>
+						)}
+						<span class="track">
+							<span class="dot" />
+						</span>
+					</span>
+				</dd>
+			</div>
+		))}
+	</dl>
+</div>
+
+<script>
+	// Plays every dot once; pressed again, they start over
+	for (const list of document.querySelectorAll<HTMLElement>('[data-motion]')) {
+		list.querySelector('[data-motion-play]')?.addEventListener('click', () => {
+			delete list.dataset.playing;
+			void list.offsetWidth;
+			list.dataset.playing = '';
+		});
+	}
+</script>
+
+<style>
+	.motion-head {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.5rem 1.5rem;
+		margin-block-end: 0.75rem;
+	}
+
+	.motion-title {
+		margin: 0;
+		font-size: 1.3rem;
+		font-weight: 600;
+	}
+
+	.motion-play {
+		min-block-size: 2.75rem;
+		padding-block: 0.5em;
+		padding-inline: 0.9em;
+		border: 1px solid var(--link-line);
+		border-radius: 1px;
+		background: none;
+		color: var(--text-2);
+		font: inherit;
+		font-size: 1rem;
+		line-height: 1.4;
+		transition: border-color var(--duration-quick) ease-out;
+	}
+
+	.motion-play:hover {
+		border-color: var(--text);
+		color: var(--text);
+	}
+
+	/* Without motion, there is nothing to play */
+	@media (scripting: none), (prefers-reduced-motion: reduce) {
+		.motion-play {
+			display: none;
+		}
+	}
+
+	dl {
+		margin: 0;
+		font-size: 1rem;
+		line-height: 1.45;
+	}
+
+	.token {
+		display: grid;
+		gap: 0.25rem 1.5rem;
+		padding-block: 0.6rem;
+		border-block-end: 1px solid var(--rule);
+	}
+
+	@media (min-width: 48em) {
+		.token {
+			grid-template-columns: 14rem 1fr;
+		}
+	}
+
+	code {
+		font-family: var(--mono);
+		font-size: 0.9375rem;
+	}
+
+	dd {
+		margin: 0;
+		color: var(--text-2);
+	}
+
+	.sample {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin-block-start: 0.5rem;
+	}
+
+	.curve {
+		flex: none;
+		inline-size: 2.75rem;
+		block-size: 2.75rem;
+		overflow: visible;
+	}
+
+	.curve path {
+		fill: none;
+		vector-effect: non-scaling-stroke;
+	}
+
+	.curve-frame {
+		stroke: var(--rule);
+		stroke-width: 1;
+	}
+
+	.curve-line {
+		stroke: var(--ink);
+		stroke-width: 2;
+	}
+
+	/* The track: a hairline as long as the duration, the dot at its start */
+	.track {
+		position: relative;
+		container-type: inline-size;
+		inline-size: calc(var(--share) * (100% - 3.75rem));
+		min-inline-size: 1.5rem;
+		block-size: 0.7rem;
+		background: linear-gradient(var(--rule), var(--rule)) center / 100% 1px no-repeat;
+	}
+
+	.dot {
+		position: absolute;
+		inset-block-start: 0;
+		inset-inline-start: 0;
+		inline-size: 0.7rem;
+		block-size: 0.7rem;
+		border-radius: 50%;
+		background: var(--ink);
+	}
+
+	.token:not(:has(.curve)) .track {
+		margin-inline-start: 3.75rem;
+	}
+
+	@keyframes travel {
+		to {
+			translate: calc(100cqi - 0.7rem) 0;
+		}
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		[data-playing] .dot {
+			animation: travel var(--ms) var(--easing) both;
+		}
+
+		/* In rtl the track runs the other way */
+		[dir='rtl'] [data-playing] .dot {
+			animation-name: travel-rtl;
+		}
+	}
+
+	@keyframes travel-rtl {
+		to {
+			translate: calc(-100cqi + 0.7rem) 0;
+		}
+	}
+</style>

@@ -23,6 +23,7 @@ import TopBar from '@/components/site/TopBar.astro';
 import ColourRoles from '@/components/design-system/ColourRoles.astro';
 import ScriptSample from '@/components/design-system/ScriptSample.astro';
 import Specimen from '@/components/design-system/Specimen.astro';
+import MotionList from '@/components/design-system/MotionList.astro';
 import TokenList from '@/components/design-system/TokenList.astro';
 import TypeScale from '@/components/design-system/TypeScale.astro';
 import {
@@ -145,7 +146,7 @@ const languages = languageChoices(await getAlternates(HOME), lang);
 		<TokenList title="Abstände" tokens={SPACING} sample="space" />
 		<TokenList title="Umbrüche" tokens={BREAKPOINTS} />
 		<TokenList title="Schatten" tokens={SHADOWS} sample="shadow" />
-		<TokenList title="Bewegung" tokens={MOTION} />
+		<MotionList title="Bewegung" tokens={MOTION} />
 	</Specimen>
 
 	<Specimen

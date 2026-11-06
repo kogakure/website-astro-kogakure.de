@@ -126,13 +126,67 @@ export const SHADOWS: Token[] = [
 	{ name: '--shadow-popover', use: 'Die Abschnitte aus der Kopfleiste' },
 ];
 
-export const MOTION: Token[] = [
-	{ name: '--ease-out', use: 'cubic-bezier(0.16, 1, 0.3, 1): Tafeln, Kopfleiste' },
-	{ name: '--ease-rest', use: 'cubic-bezier(0.3, 0.5, 0.2, 1): die Tusche kommt zur Ruhe' },
-	{ name: '--ease-wipe', use: 'cubic-bezier(0.65, 0, 0.35, 1): der Pinselstrich' },
-	{ name: '--duration-reveal', use: '1100 ms: eine Tafel blüht auf' },
-	{ name: '--duration-sweep', use: '1000 ms: der Pinselstrich, 900 ms verzögert' },
-	{ name: '--duration-vortex', use: '3400 ms: der Wirbel des Prologs, unter 5 s' },
-	{ name: '--duration-transition', use: '1100 ms: die nächste Seite breitet sich aus' },
-	{ name: '--duration-bar', use: '300 ms: die Kopfleiste kommt und geht' },
+/**
+ * A motion token, drawn on the page: a dot travels a track whose length is
+ * the duration, with the token's timing curve; an easing also shows its
+ * curve (the control points of its cubic-bezier())
+ */
+export interface MotionToken extends Token {
+	ms: number;
+	easing: string;
+	curve?: [number, number, number, number];
+}
+
+export const MOTION: MotionToken[] = [
+	{
+		name: '--ease-out',
+		use: 'cubic-bezier(0.16, 1, 0.3, 1): Tafeln, Kopfleiste',
+		ms: 1100,
+		easing: 'var(--ease-out)',
+		curve: [0.16, 1, 0.3, 1],
+	},
+	{
+		name: '--ease-rest',
+		use: 'cubic-bezier(0.3, 0.5, 0.2, 1): die Tusche kommt zur Ruhe',
+		ms: 1100,
+		easing: 'var(--ease-rest)',
+		curve: [0.3, 0.5, 0.2, 1],
+	},
+	{
+		name: '--ease-wipe',
+		use: 'cubic-bezier(0.65, 0, 0.35, 1): der Pinselstrich',
+		ms: 1000,
+		easing: 'var(--ease-wipe)',
+		curve: [0.65, 0, 0.35, 1],
+	},
+	{
+		name: '--duration-reveal',
+		use: '1100 ms: eine Tafel blüht auf',
+		ms: 1100,
+		easing: 'var(--ease-out)',
+	},
+	{
+		name: '--duration-sweep',
+		use: '1000 ms: der Pinselstrich, 900 ms verzögert',
+		ms: 1000,
+		easing: 'var(--ease-wipe)',
+	},
+	{
+		name: '--duration-vortex',
+		use: '3400 ms: der Wirbel des Prologs, unter 5 s',
+		ms: 3400,
+		easing: 'var(--ease-rest)',
+	},
+	{
+		name: '--duration-transition',
+		use: '1100 ms: die nächste Seite breitet sich aus',
+		ms: 1100,
+		easing: 'cubic-bezier(0.33, 0, 0.2, 1)',
+	},
+	{
+		name: '--duration-bar',
+		use: '300 ms: die Kopfleiste kommt und geht',
+		ms: 300,
+		easing: 'var(--ease-out)',
+	},
 ];
