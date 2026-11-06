@@ -23,6 +23,24 @@
 		line-height: 1.6;
 		@apply bg-background text-foreground;
 	}
+
+	/* The quotes plugin writes the marks of the language as text (src/lib/markdown/quotes.ts) */
+	q {
+		quotes: none;
+	}
+
+	/* Glosses inline in parentheses until the design sets them in the margin (SI-473) */
+	.gloss-term {
+		display: none;
+	}
+
+	.gloss::before {
+		content: ' (';
+	}
+
+	.gloss::after {
+		content: ')';
+	}
 }
 
 @theme inline {
