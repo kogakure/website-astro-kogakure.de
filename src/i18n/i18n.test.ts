@@ -1,7 +1,17 @@
 import { describe, expect, it } from 'vitest';
 import { isLang, language, languageChoices, LANGS, PREFIXED_LANGS } from './languages';
-import { homePath, isInBook, notFoundPath, pagePath, routeOf, routeParam } from './routes';
-import { UI } from './ui';
+import {
+	chapterKey,
+	chapterSlug,
+	contentsPath,
+	homePath,
+	isInBook,
+	notFoundPath,
+	pagePath,
+	routeOf,
+	routeParam,
+} from './routes';
+import { joinCredit, UI } from './ui';
 
 describe('languages', () => {
 	it('has twelve languages, German first, Hebrew right to left', () => {
@@ -41,6 +51,17 @@ describe('languages', () => {
 });
 
 describe('routes', () => {
+	it('gives the contents and the parts of the book their own pages', () => {
+		expect(contentsPath('de')).toBe('/inhalt/');
+		expect(contentsPath('ja')).toBe('/ja/contents/');
+		expect(chapterKey(3)).toBe('chapter-3');
+		expect(chapterSlug('Organisation & Ausbildung', 'de')).toBe('organisation-und-ausbildung');
+		expect(chapterSlug('Körperliches Training', 'de')).toBe('koerperliches-training');
+		expect(chapterSlug('Einführung', 'de')).toBe('einfuehrung');
+		expect(chapterSlug('Weapons & Tools', 'ja')).toBe('weapons-and-tools');
+		expect(chapterSlug('The Legacy of the Ninja', 'en')).toBe('the-legacy-of-the-ninja');
+	});
+
 	it('keeps German at the root and prefixes the other languages', () => {
 		expect(homePath('de')).toBe('/');
 		expect(homePath('zh')).toBe('/zh/');
@@ -76,5 +97,18 @@ describe('UI strings', () => {
 		expect(UI.ru.sectionCount(3)).toBe('3 раздела');
 		expect(UI.ru.sectionCount(11)).toBe('11 разделов');
 		expect(UI.ru.credit(1999, 9, 76)).toBe('С 1999 года. 9 частей, 76 статей.');
+	});
+});
+
+describe('credit lines', () => {
+	it('joins with the comma of the language', () => {
+		expect(joinCredit('de', ['Kapitel 1', '10 Artikel'])).toBe('Kapitel 1, 10 Artikel');
+		expect(joinCredit('ja', ['第1章', '全10編'])).toBe('第1章、全10編');
+	});
+
+	it('counts articles by the plural rules of the language', () => {
+		expect(UI.en.articleCount(1)).toBe('1 article');
+		expect(UI.ru.articleCount(3)).toBe('3 статьи');
+		expect(UI.ru.articleCount(5)).toBe('5 статей');
 	});
 });

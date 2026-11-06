@@ -27,7 +27,9 @@ test.describe('article pages', () => {
 			const heading = page.getByRole('heading', { level: 1 });
 			if (title) await expect(heading).toHaveText(title);
 			else await expect(heading).not.toBeEmpty();
-			await expect(page.locator('main figure img').first()).toHaveAttribute(
+			// The opener loads first, the text's figures lazily
+			await expect(page.locator('.plate-opener img')).toHaveAttribute('loading', 'eager');
+			await expect(page.locator('.prose figure img').first()).toHaveAttribute(
 				'loading',
 				'lazy'
 			);
@@ -36,7 +38,7 @@ test.describe('article pages', () => {
 
 	test('figure images come in their generated widths and load', async ({ page, request }) => {
 		await page.goto('/en/kamae/');
-		const img = page.locator('main figure img').first();
+		const img = page.locator('.prose figure img').first();
 		await expect(img).toHaveAttribute(
 			'src',
 			/^\/images\/article\/kamae-01-[a-z-]+-1400\.webp$/
@@ -73,8 +75,8 @@ test.describe('homepages', () => {
 	test('every language has a homepage with its contents', async ({ page }) => {
 		for (const prefix of ['/', '/en/', '/ja/', '/he/']) {
 			await page.goto(prefix);
-			await expect(page.getByRole('heading', { level: 1 })).toHaveText('木隠');
-			await expect(page.getByRole('navigation').getByRole('link').first()).toHaveAttribute(
+			await expect(page.getByRole('heading', { level: 1 })).toHaveText('木隠 Kogakure');
+			await expect(page.locator('.article-title').first()).toHaveAttribute(
 				'href',
 				prefix === '/' ? '/vorwort/' : `${prefix}preface/`
 			);

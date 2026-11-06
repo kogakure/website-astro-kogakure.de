@@ -1,0 +1,110 @@
+---
+/**
+ * A part of the book as a scene: its plate (the painting cut by an ink edge,
+ * the part's name plate, the caption as the subtitle), then its title and,
+ * from 64em beside it, its articles. On the homepage one of ten, revealed
+ * as it comes into view, the title linking to the part's own page; on that
+ * page the title is the h1 and the plate blooms on load.
+ */
+import Plate from '@/components/site/Plate.astro';
+import type { Chapter } from '@/lib/book/book';
+import { sceneEdge } from '@/lib/book/plates';
+import { noBreakDash } from '@/lib/markdown/no-break-dash';
+import ArticleList from './ArticleList.astro';
+
+interface Props {
+	chapter: Chapter;
+	/** „Kapitel 1, 10 Artikel“ */
+	credit: string;
+	/** The homepage's scenes are h2 and link to the part's page; the part's page has the h1 */
+	page?: boolean;
+	/** The page of the part, from the homepage */
+	href?: string | undefined;
+	/** The n-th scene on the page: the edge, and the side of the name plate */
+	position?: number;
+}
+
+const { chapter, credit, page = false, href, position = chapter.index } = Astro.props;
+const { scene, plate } = chapter;
+const Heading = page ? 'h1' : 'h2';
+const headingId = `scene-${chapter.index}-title`;
+---
+
+<section class="scene" id={page ? undefined : chapter.slug} aria-labelledby={headingId}>
+	<Plate
+		image={{ src: scene.image, alt: scene.alt, focus: scene.focus }}
+		caption={scene.caption}
+		plate={{ name: plate.name, number: plate.number }}
+		edge={sceneEdge(position)}
+		side={position % 2 === 0 ? 'end' : 'start'}
+		frame={scene.frame}
+		reveal={!page}
+		bloom={page}
+		priority={page}
+	/>
+
+	<div class="scene-text">
+		<header class="scene-head">
+			<Heading id={headingId} class="scene-title">
+				{href ? (
+					<a href={href}>{noBreakDash(chapter.title)}</a>
+				) : (
+					noBreakDash(chapter.title)
+				)}
+			</Heading>
+			<p class="scene-credit">{credit}</p>
+		</header>
+		<ArticleList items={chapter.items} />
+	</div>
+</section>
+
+<style>
+	.scene {
+		max-inline-size: var(--page);
+		margin-inline: auto;
+		padding-block: clamp(4.5rem, 9vw, 8rem) 0;
+		padding-inline: var(--gutter);
+		scroll-margin-block-start: 1rem;
+	}
+
+	.scene:first-of-type {
+		padding-block-start: clamp(2.5rem, 4vw, 3rem);
+	}
+
+	.scene-text {
+		display: grid;
+		gap: 2rem;
+		margin-block-start: clamp(2.5rem, 5vw, 4rem);
+	}
+
+	.scene-title {
+		margin-block: 0 0.5rem;
+		font-size: clamp(2.2rem, 1.5rem + 2.6vw, 3.6rem);
+		font-weight: 600;
+		line-height: 1.04;
+		letter-spacing: -0.02em;
+		text-wrap: balance;
+	}
+
+	.scene-title a {
+		text-decoration-thickness: 1px;
+	}
+
+	.scene-credit {
+		margin: 0;
+		font-family: var(--mono);
+		font-size: var(--text-label);
+		color: var(--text-3);
+	}
+
+	@media (min-width: 64em) {
+		.scene-text {
+			grid-template-columns: minmax(14rem, 0.7fr) minmax(0, 2fr);
+			gap: clamp(2rem, 4vw, 4.5rem);
+		}
+
+		.scene-head {
+			padding-block-start: 0.6rem;
+		}
+	}
+</style>

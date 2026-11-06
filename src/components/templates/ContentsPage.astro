@@ -1,0 +1,46 @@
+---
+/**
+ * The compact contents of a language: the whole book in a few screens,
+ * because the homepage is about 17,000 px long.
+ */
+import Contents from '@/components/book/Contents.astro';
+import Colophon from '@/components/site/Colophon.astro';
+import TopBar from '@/components/site/TopBar.astro';
+import { languageChoices, type Lang } from '@/i18n/languages';
+import { CONTENTS, homePath } from '@/i18n/routes';
+import { ui } from '@/i18n/ui';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAlternates, getChapters } from '@/lib/book/book';
+import { BOOK_PLATE } from '@/lib/book/plates';
+
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = ui(lang);
+const chapters = await getChapters(lang);
+const languages = languageChoices(await getAlternates(CONTENTS), lang);
+const home = homePath(lang);
+---
+
+<BaseLayout title={`${t.contents} · 木隠`} description={t.subtitle} lang={lang}>
+	<TopBar slot="before-main" label={t.book} home={{ href: home, label: BOOK_PLATE.romaji }} />
+
+	<Contents
+		heading={t.contents}
+		parts={chapters.map((chapter) => ({
+			href: chapter.href,
+			title: chapter.title,
+			short: chapter.plate.short,
+			items: chapter.items,
+		}))}
+	/>
+
+	<Colophon
+		slot="after-main"
+		lang={lang}
+		back={{ href: '#main', label: t.backToContents }}
+		languages={languages}
+	/>
+</BaseLayout>

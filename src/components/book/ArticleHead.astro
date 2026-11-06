@@ -1,0 +1,110 @@
+---
+/**
+ * The head of an article: its opener plate (the first painting, the
+ * article's name plate, the caption), the title, the lede, the facts
+ * (chapter and sections), and the brushstroke drawing in towards the text.
+ */
+import OpenerPlate from '@/components/site/OpenerPlate.astro';
+import Sweep from '@/components/site/Sweep.astro';
+import { noBreakDash } from '@/lib/markdown/no-break-dash';
+
+interface Fact {
+	/** „Kapitel“ */
+	term: string;
+	text: string;
+	href?: string | undefined;
+}
+
+interface Props {
+	/** The opener painting (openerFigure); the bare plate without one */
+	image?: { src: string; alt: string; caption: string } | undefined;
+	/** The name plate: the article's term (`plate`) or its part's kanji, and 第一章 */
+	plate: { name: string; number: string | null };
+	title: string;
+	excerpt?: string | undefined;
+	facts: Fact[];
+}
+
+const { image, plate, title, excerpt, facts } = Astro.props;
+---
+
+<header class="opener">
+	<OpenerPlate image={image} name={plate.name} number={plate.number} />
+	<div class="opener-text">
+		<h1 class="opener-title">{noBreakDash(title)}</h1>
+		{excerpt && <p class="lede">{noBreakDash(excerpt)}</p>}
+		{facts.length > 0 && (
+			<dl class="facts">
+				{facts.map((fact) => (
+					<div>
+						<dt>{fact.term}</dt>
+						<dd>{fact.href ? <a href={fact.href}>{fact.text}</a> : fact.text}</dd>
+					</div>
+				))}
+			</dl>
+		)}
+	</div>
+	<Sweep draw />
+</header>
+
+<style>
+	.opener {
+		max-inline-size: var(--page);
+		margin-inline: auto;
+		padding-block: clamp(1.5rem, 3vw, 2.5rem) 0;
+		padding-inline: var(--gutter);
+	}
+
+	.opener-text {
+		max-inline-size: var(--measure);
+		margin-block: clamp(3rem, 6vw, 5rem) 0;
+		margin-inline: auto;
+	}
+
+	.opener-title {
+		margin: 0;
+		font-size: var(--text-display);
+		font-weight: 700;
+		line-height: 1.02;
+		letter-spacing: -0.025em;
+		text-wrap: balance;
+	}
+
+	.lede {
+		margin-block: 1.25rem 0;
+		font-size: var(--text-lede);
+		font-style: italic;
+		line-height: 1.45;
+		color: var(--text-2);
+		text-wrap: pretty;
+	}
+
+	.facts {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem 2rem;
+		margin-block: 1.75rem 0;
+		font-size: 1rem;
+		line-height: 1.5;
+		hyphens: manual;
+	}
+
+	.facts div {
+		display: flex;
+		gap: 0.6em;
+	}
+
+	.facts dt {
+		color: var(--text-3);
+	}
+
+	.facts dd {
+		margin: 0;
+	}
+
+	@media (min-width: 75em) {
+		.opener-text {
+			margin-block-start: 2.25rem;
+		}
+	}
+</style>
