@@ -1,0 +1,16 @@
+---
+interface Props {
+	/** Id of the main content, without the hash */
+	target?: string;
+	label: string;
+}
+
+const { target = 'main', label } = Astro.props;
+---
+
+<a
+	href={`#${target}`}
+	class="sr-only focus:not-sr-only focus:fixed focus:inset-s-4 focus:top-4 focus:z-50 focus:bg-white focus:p-2 focus:text-black"
+>
+	{label}
+</a>
