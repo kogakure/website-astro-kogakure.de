@@ -197,14 +197,14 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
-			"focus": "50% 35%",
+			"focus": "50% 50%",
 			"widths": [
 				800,
 				1400,
 				2000,
 				2750
 			],
-			"hash": "f19810470c9f1130"
+			"hash": "dc93d8d9b3ad432c"
 		},
 		"article/climbing-tools-01-over-walls-and-ravines.webp": {
 			"width": 2048,
@@ -222,13 +222,14 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 40%",
 			"widths": [
 				800,
 				1400,
 				2000,
 				2750
 			],
-			"hash": "ba51d494570edaf3"
+			"hash": "6d295c5cb973e975"
 		},
 		"article/combat-factors-01-kokyuho-learning-to-breathe.webp": {
 			"width": 1024,
@@ -261,9 +262,10 @@
 			"widths": [
 				800,
 				1400,
-				2000
+				2000,
+				2750
 			],
-			"hash": "86b95e3bd8b152e0"
+			"hash": "eda7437281587d6a"
 		},
 		"article/combat-rules-01-blade-of-grass-as-weapon.webp": {
 			"width": 1536,
@@ -429,21 +431,23 @@
 			"widths": [
 				800,
 				1400,
-				2000
+				2000,
+				2750
 			],
-			"hash": "57116f6bb2bae000"
+			"hash": "20a8c809a83aa38b"
 		},
 		"article/fire-tools-01-fire-in-town-of-wood-and-paper.webp": {
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 55%",
 			"widths": [
 				800,
 				1400,
 				2000,
 				2750
 			],
-			"hash": "85076f6f863480db"
+			"hash": "fafcb848bde9c283"
 		},
 		"article/gikan-ryu-01-uryu-hangan-gikanbo-breaking-blade.webp": {
 			"width": 1536,
@@ -513,9 +517,10 @@
 			"widths": [
 				800,
 				1400,
-				2000
+				2000,
+				2750
 			],
-			"hash": "4813a490c3df011b"
+			"hash": "37811ea5fd166cc1"
 		},
 		"article/gogyo-01-five-elements.webp": {
 			"width": 2048,
@@ -572,9 +577,10 @@
 			"widths": [
 				800,
 				1400,
-				2000
+				2000,
+				2750
 			],
-			"hash": "9dca4c99b1b49f84"
+			"hash": "78f5c9e0f17b0285"
 		},
 		"article/guidelines-of-bujinkan-01-dojo-open-to-all-nations.webp": {
 			"width": 2048,
@@ -809,13 +815,14 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 62%",
 			"widths": [
 				800,
 				1400,
 				2000,
 				2750
 			],
-			"hash": "a04dcc34d2278947"
+			"hash": "453fb5ad1cf75648"
 		},
 		"article/koga-ryu-01-siege-of-fushimi-castle.webp": {
 			"width": 2048,
@@ -893,13 +900,14 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 70%",
 			"widths": [
 				800,
 				1400,
 				2000,
 				2750
 			],
-			"hash": "9c8d49f2bbfa1fa8"
+			"hash": "9ac2592d317ccdf4"
 		},
 		"article/kukishinden-ryu-01-nine-demon-gods.webp": {
 			"width": 1536,
@@ -1243,9 +1251,10 @@
 			"widths": [
 				800,
 				1400,
-				2000
+				2000,
+				2750
 			],
-			"hash": "75b778c560802b9d"
+			"hash": "be8da0e430b92cc7"
 		},
 		"article/organization-of-the-ryu-01-jonin.webp": {
 			"width": 1536,
@@ -1382,6 +1391,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 50%",
 			"widths": [
 				800,
 				1400,
@@ -4313,7 +4323,7 @@
 		},
 		"chronolyPage": {
 			"image": "article/chronology-01-book-growing-over-years.webp",
-			"hash": "9ffc8260aa077693"
+			"hash": "ec6e33e40b286f9e"
 		},
 		"climbingToolsPage": {
 			"image": "article/climbing-tools-01-over-walls-and-ravines.webp",
@@ -4321,11 +4331,11 @@
 		},
 		"colophonPage": {
 			"image": "article/colophon-01-hidden-behind-leaves-and-trees.webp",
-			"hash": "726578380927344d"
+			"hash": "1a52817e45266f69"
 		},
 		"combatFactorsPage": {
 			"image": "article/combat-factors-03-nagare-flowing-like-river.webp",
-			"hash": "c904a8bad328d7b5"
+			"hash": "50c8713bf4f8be34"
 		},
 		"combatRulesPage": {
 			"image": "article/combat-rules-01-blade-of-grass-as-weapon.webp",
@@ -4361,11 +4371,11 @@
 		},
 		"famousNinjaPage": {
 			"image": "article/famous-ninja-01-three-houses-of-iga.webp",
-			"hash": "10df4a0fd8af4346"
+			"hash": "e11f0f3b8b9b7ad9"
 		},
 		"fireToolsPage": {
 			"image": "article/fire-tools-01-fire-in-town-of-wood-and-paper.webp",
-			"hash": "cbf398443e7a9dda"
+			"hash": "5d656d65a59fe915"
 		},
 		"gikanRyuPage": {
 			"image": "article/gikan-ryu-01-uryu-hangan-gikanbo-breaking-blade.webp",
@@ -4377,7 +4387,7 @@
 		},
 		"godaiPage": {
 			"image": "article/godai-03-from-earth-to-void.webp",
-			"hash": "1d6734b5e41be60a"
+			"hash": "ac2dac4be026f423"
 		},
 		"gogyoPage": {
 			"image": "article/gogyo-01-five-elements.webp",
@@ -4385,7 +4395,7 @@
 		},
 		"gotonPoPage": {
 			"image": "article/gotonpo-04-escape-through-smoke-into-trees.webp",
-			"hash": "b89e282c4017d41b"
+			"hash": "50d9cd47b084a70b"
 		},
 		"guidelinesOfBujinkanPage": {
 			"image": "article/guidelines-of-bujinkan-02-fudoshin-immovable-heart.webp",
@@ -4429,7 +4439,7 @@
 		},
 		"kamaePage": {
 			"image": "article/kamae-01-stance-that-is-already-movement.webp",
-			"hash": "aa50f8918f648142"
+			"hash": "effac01c1074f040"
 		},
 		"kogaRyuPage": {
 			"image": "article/koga-ryu-01-siege-of-fushimi-castle.webp",
@@ -4441,7 +4451,7 @@
 		},
 		"kujiInPage": {
 			"image": "article/kuji-in-01-nine-hand-seals.webp",
-			"hash": "3de4124712f7586f"
+			"hash": "4243a9068c393de5"
 		},
 		"kukishindenRyuPage": {
 			"image": "article/kukishinden-ryu-01-nine-demon-gods.webp",
@@ -4493,7 +4503,7 @@
 		},
 		"onshinjutsuPage": {
 			"image": "article/onshinjutsu-04-hiding-among-scarecrows.webp",
-			"hash": "19d287eae400fd29"
+			"hash": "99851945dbf7f003"
 		},
 		"organizationOfRyuPage": {
 			"image": "article/organization-of-the-ryu-01-jonin.webp",
@@ -4533,7 +4543,7 @@
 		},
 		"taijutsuPage": {
 			"image": "article/taijutsu-01-fighting-without-rules.webp",
-			"hash": "e927fb145188a174"
+			"hash": "7454ecc754e0de0d"
 		},
 		"takagiYoshinRyuPage": {
 			"image": "article/takagi-yoshin-ryu-02-unryu-mountain-priest.webp",
