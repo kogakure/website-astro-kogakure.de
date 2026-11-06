@@ -32,6 +32,9 @@ export function kanjiNumeral(n: number): string {
 /** 1 → 第一章 */
 export const chapterLabel = (n: number): string => `第${kanjiNumeral(n)}章`;
 
+/** The design's name, as /design-system/ shows it */
+export const DESIGN_NAME = { name: 'Gekiga', kanji: '劇画' } as const;
+
 /** Caption marker of the figures, 図二, 図三, … (`cjk-decimal` in CSS) */
 export const FIGURE_MARK = '図';
 

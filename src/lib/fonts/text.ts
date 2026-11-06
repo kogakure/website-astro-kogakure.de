@@ -10,7 +10,7 @@ import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { LANGS, LANGUAGES, type Lang } from '../../i18n/languages.ts';
 import { ui } from '../../i18n/ui.ts';
-import { BOOK_PLATE, PLATE_TEXT } from '../book/plates.ts';
+import { BOOK_PLATE, DESIGN_NAME, PLATE_TEXT } from '../book/plates.ts';
 import type { Glossary, Toc } from '../book/schema.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../../..');
@@ -132,7 +132,9 @@ export function languageText(lang: Lang): LanguageText {
 			};
 		});
 	const toc = JSON.parse(read(path.join(CONTENT, 'toc', `${lang}.json`))) as Toc;
-	const uiAndPlates = `${uiText(lang)}\n${PLATE_TEXT}`;
+	// /design-system/ is German and loads the German homepage's subsets
+	const design = lang === 'de' ? DESIGN_NAME.kanji : '';
+	const uiAndPlates = `${uiText(lang)}\n${PLATE_TEXT}${design}`;
 	const excerpts = pages.map(({ text }) => String(frontmatter(text).excerpt ?? ''));
 	return {
 		pages,
