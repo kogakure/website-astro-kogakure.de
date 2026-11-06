@@ -4,7 +4,8 @@
  * image, so every one of them opens whole. A click (or Enter) on the image
  * lets its ink edge grow outwards until the full image stands on the paper,
  * as large as the screen allows, with its caption as the subtitle; a click,
- * the close button or Escape brings it back into its edge. A native modal
+ * the close button or Escape brings it back into its edge, and the plate's
+ * name and subtitle, hidden meanwhile, fade back in. A native modal
  * <dialog> (focus, Escape, inert page) and a few lines of script: the script
  * wraps every image in a button, so without JavaScript nothing changes.
  * Reduced motion opens and closes at once. Once per page (BaseLayout).
@@ -50,6 +51,9 @@ const { zoom, close } = Astro.props;
 		trigger: HTMLButtonElement;
 		source: HTMLImageElement;
 		start: DOMRect;
+		zoom: number;
+		/** The plate's name and subtitle, hidden while the painting is whole */
+		hidden: Animation[];
 	}
 	let current: Open | undefined;
 	let closing = false;
@@ -82,21 +86,56 @@ const { zoom, close } = Astro.props;
 		height: `${rect.height}px`,
 	});
 
+	/**
+	 * Some images are scaled inside their ink edge (tight scene plates,
+	 * calligraphy): the edge cuts the unscaled box, so the frame starts and
+	 * ends there and the image inside it carries the scale
+	 */
+	function unscaled(source: HTMLImageElement) {
+		const zoom = Number.parseFloat(getComputedStyle(source).scale) || 1;
+		const rect = source.getBoundingClientRect();
+		const width = rect.width / zoom;
+		const height = rect.height / zoom;
+		return {
+			start: new DOMRect(
+				rect.x + (rect.width - width) / 2,
+				rect.y + (rect.height - height) / 2,
+				width,
+				height
+			),
+			zoom,
+		};
+	}
+
+	const timing: KeyframeAnimationOptions = {
+		easing: 'cubic-bezier(0.16, 1, 0.3, 1)',
+		fill: 'forwards',
+	};
+
 	/** Moves the frame from one box to another; it stays where it ends */
-	function animate(from: Keyframe, to: Keyframe) {
-		for (const running of frame?.getAnimations() ?? []) running.cancel();
-		return frame?.animate([from, to], {
-			duration: still.matches ? 0 : 450,
-			easing: 'cubic-bezier(0.16, 1, 0.3, 1)',
-			fill: 'forwards',
-		}).finished;
+	function animate(from: Keyframe, to: Keyframe, zoom: [number, number] = [1, 1]) {
+		const duration = still.matches ? 0 : 450;
+		for (const running of [
+			...(frame?.getAnimations() ?? []),
+			...(image?.getAnimations() ?? []),
+		])
+			running.cancel();
+		image?.animate([{ scale: zoom[0] }, { scale: zoom[1] }], { ...timing, duration });
+		return frame?.animate([from, to], { ...timing, duration }).finished;
 	}
 
 	async function open(trigger: HTMLButtonElement, source: HTMLImageElement) {
 		if (!dialog || !frame || !image || !shade) return;
-		const start = source.getBoundingClientRect();
+		const { start, zoom } = unscaled(source);
 		const style = getComputedStyle(source.closest('.plate-art') ?? source);
-		current = { trigger, source, start };
+		// The name plate lies on the painting: it would sit under the frame while
+		// it closes and jump on top at the end, so it waits and comes back after
+		const hidden = [
+			...(source.closest('.plate')?.querySelectorAll('.plate-name, .plate-subtitle') ?? []),
+		].map((overlay) =>
+			overlay.animate([{ opacity: 0 }, { opacity: 0 }], { duration: 1, fill: 'forwards' })
+		);
+		current = { trigger, source, start, zoom, hidden };
 
 		const figure = source.closest('figure');
 		const text = figure?.querySelector('figcaption');
@@ -133,7 +172,8 @@ const { zoom, close } = Astro.props;
 		});
 		await animate(
 			{ ...box(start), maskSize: '100% 100%' },
-			{ ...box(end), maskSize: '190% 190%' }
+			{ ...box(end), maskSize: '190% 190%' },
+			[zoom, 1]
 		);
 		frame.classList.add('is-whole');
 	}
@@ -141,7 +181,7 @@ const { zoom, close } = Astro.props;
 	async function close() {
 		if (!dialog?.open || !frame || !shade || !current || closing) return;
 		closing = true;
-		const { trigger, start } = current;
+		const { trigger, start, zoom } = current;
 		const now = frame.getBoundingClientRect();
 		frame.classList.remove('is-whole');
 		shade.animate([{ opacity: 1 }, { opacity: 0 }], {
@@ -150,7 +190,8 @@ const { zoom, close } = Astro.props;
 		});
 		await animate(
 			{ ...box(now), maskSize: '190% 190%' },
-			{ ...box(start), maskSize: '100% 100%' }
+			{ ...box(start), maskSize: '100% 100%' },
+			[1, zoom]
 		);
 		dialog.close();
 		trigger.focus({ preventScroll: true });
@@ -158,10 +199,24 @@ const { zoom, close } = Astro.props;
 
 	/** However the dialog closed (also natively, mid-animation): back to rest */
 	function reset() {
+		for (const hide of current?.hidden ?? []) {
+			hide.cancel();
+			(hide.effect as KeyframeEffect | null)?.target?.animate(
+				[{ opacity: 0 }, { opacity: 1 }],
+				{
+					duration: still.matches ? 0 : 400,
+					easing: 'ease-out',
+				}
+			);
+		}
 		closing = false;
 		current = undefined;
 		frame?.classList.remove('is-whole');
-		for (const running of frame?.getAnimations() ?? []) running.cancel();
+		for (const running of [
+			...(frame?.getAnimations() ?? []),
+			...(image?.getAnimations() ?? []),
+		])
+			running.cancel();
 	}
 
 	const label = dialog?.dataset.zoomLabel ?? '';

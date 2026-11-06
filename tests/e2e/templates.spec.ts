@@ -163,6 +163,36 @@ test.describe('images', () => {
 		await expect(dialog).toBeHidden();
 	});
 
+	test('a plate scaled inside its edge closes back onto the edge, not the scaled image', async ({
+		page,
+	}) => {
+		await page.goto('/');
+		const plate = page.locator('#koerperliches-training .plate-art');
+		await plate.scrollIntoViewIfNeeded();
+		const edge = await plate.boundingBox();
+		await plate.locator('.lightbox-trigger').click();
+		await expect(page.locator('[data-lightbox-frame]')).toHaveClass(/is-whole/);
+		// Where closing ends: the last keyframe, set as the close button is clicked
+		const end = await page.evaluate(() => {
+			const lightbox = document.querySelector('[data-lightbox]');
+			lightbox?.querySelector<HTMLButtonElement>('[data-lightbox-close]')?.click();
+			const [move] = lightbox?.querySelector('[data-lightbox-frame]')?.getAnimations() ?? [];
+			const keyframes = (move?.effect as KeyframeEffect | null)?.getKeyframes() ?? [];
+			const { width, height } = keyframes.at(-1) ?? { width: 0, height: 0 };
+			return {
+				width: Number.parseFloat(String(width)),
+				height: Number.parseFloat(String(height)),
+			};
+		});
+		expect(end.width).toBeCloseTo(edge?.width ?? 0, 0);
+		expect(end.height).toBeCloseTo(edge?.height ?? 0, 0);
+		// The name plate waits until the painting is back in its edge
+		const name = page.locator('#koerperliches-training .plate-name');
+		await expect(name).toHaveCSS('opacity', '0');
+		await expect(page.getByRole('dialog')).toBeHidden();
+		await expect(name).toHaveCSS('opacity', '1');
+	});
+
 	test('no soft hyphen shows as text', async ({ page }) => {
 		for (const path of ['/', '/inhalt/', '/trainingsfaktoren/', '/en/', '/en/contents/']) {
 			await page.goto(path);
