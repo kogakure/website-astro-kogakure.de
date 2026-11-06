@@ -590,6 +590,7 @@
 			"width": 1536,
 			"height": 1024,
 			"aspect": 1.5,
+			"focus": "50% 72%",
 			"widths": [
 				800,
 				1400,
@@ -4385,7 +4386,7 @@
 		},
 		"guidelinesOfBujinkanPage": {
 			"image": "article/guidelines-of-bujinkan-02-fudoshin-immovable-heart.webp",
-			"hash": "879e21ab8a7d1e1c"
+			"hash": "dea533c05a7183c4"
 		},
 		"gyokkoRyuPage": {
 			"image": "article/gyokko-ryu-01-woman-martial-artist-at-tang-court.webp",
