@@ -95,9 +95,12 @@ const { items } = Astro.props;
 		outline-offset: 0.75rem;
 	}
 
+	/* At once: the click leaves the page, and a transition caught halfway
+	   shows the paper and its ring in two colours */
 	.article:has(.article-title:active) {
 		background: var(--press);
 		box-shadow: 0 0 0 0.75rem var(--press);
+		transition: none;
 	}
 
 	@media (min-width: 48em) {
