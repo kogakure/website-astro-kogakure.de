@@ -7,24 +7,27 @@
  * point the next page's ink spreads from.
  */
 import type { Lang } from '@/i18n/languages';
-import { fontFaceCss, preloadFont } from '@/lib/fonts/fonts';
+import { fontFaceCss, preloadFont, type FontSource } from '@/lib/fonts/fonts';
 import { GROUNDS, MODE_KEY } from '@/lib/mode/mode';
 
 interface Props {
 	lang: Lang;
 	/** The page's slug, for its own CJK and brush subsets; the homepage's without */
 	fontPage?: string | undefined;
-	/** More languages whose fonts the page sets (the samples on /design-system/) */
-	fontLangs?: Lang[];
+	/**
+	 * More pages whose text the page quotes (the samples on /design-system/):
+	 * their language's homepage subsets, and with a slug that page's own
+	 */
+	fontPages?: FontSource[];
 	/** The ground of the page, for the toolbar colour */
 	ground?: 'home' | 'read';
 }
 
-const { lang, fontPage = '', fontLangs = [], ground = 'home' } = Astro.props;
+const { lang, fontPage = '', fontPages = [], ground = 'home' } = Astro.props;
 
 const css = [
 	fontFaceCss(lang, fontPage),
-	...fontLangs.filter((other) => other !== lang).map((other) => fontFaceCss(other)),
+	...fontPages.map((source) => fontFaceCss(source.lang, source.slug)),
 ]
 	.join('\n')
 	.split('\n')

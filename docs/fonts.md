@@ -26,7 +26,7 @@ pnpm fonts --force    # rewrite every file
 
 ## Use
 
-`SiteHead.astro` (in `BaseLayout`) inlines the `@font-face` rules of the page (`fontFaceCss(lang, slug)`): the shared files, the language's and the page's own; a page outside the book gets the homepage's. It preloads the body face (`preloadFont(lang)`). Every face has `font-display: swap`; Source Serif 4 and IBM Plex Mono have size-adjusted local fallbacks (Georgia, Courier New) in the stacks, so the swap moves no line. Book pages pass their slug (`fontPage`); `/design-system/` adds Hebrew and Japanese (`fontLangs`).
+`SiteHead.astro` (in `BaseLayout`) inlines the `@font-face` rules of the page (`fontFaceCss(lang, slug)`): the shared files, the language's and the page's own; a page outside the book gets the homepage's. It preloads the body face (`preloadFont(lang)`). Every face has `font-display: swap`; Source Serif 4 and IBM Plex Mono have size-adjusted local fallbacks (Georgia, Courier New) in the stacks, so the swap moves no line. Book pages pass their slug (`fontPage`). A page that quotes other pages declares their fonts too (`fontPages`: a language, and a slug for that page's own files); `/design-system/` does this for its paintings' captions and its German, Hebrew and Japanese samples.
 
 ## Budget
 

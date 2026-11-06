@@ -1,7 +1,7 @@
 ---
 /**
  * The motion tokens, drawn: an easing shows its curve, and every token a
- * track as long as its duration (3400 ms is the whole width). „Abspielen“
+ * track as long as its duration (3400 ms is the whole width). “Play”
  * sends a dot along each track once, with the token's curve; the longest
  * run is 3.4 s, so nothing moves on its own or longer than 5 s. With
  * reduced motion or without JavaScript, curves and tracks stay a static
@@ -24,7 +24,7 @@ const path = ([x1, y1, x2, y2]: [number, number, number, number]) =>
 	<div class="motion-head">
 		<h3 class="motion-title">{title}</h3>
 		<button type="button" class="motion-play" data-motion-play>
-			Abspielen
+			Play
 		</button>
 	</div>
 	<dl>

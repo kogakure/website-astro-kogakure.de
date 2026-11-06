@@ -22,9 +22,9 @@ const id = title.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-');
 	<table aria-labelledby={`roles-${id}`}>
 		<thead>
 			<tr>
-				<th scope="col">Rolle</th>
-				<th scope="col">Hell (Washi)</th>
-				<th scope="col">Dunkel (Aizome)</th>
+				<th scope="col">Role</th>
+				<th scope="col">Light (washi)</th>
+				<th scope="col">Dark (aizome)</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -37,7 +37,7 @@ const id = title.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-');
 					{(['mode-light', 'mode-dark'] as const).map((mode) => (
 						<td class={mode}>
 							<span class="swatch" style={`--swatch: var(${name})`} />
-							<span class="sr-only">{`${name}, ${mode === 'mode-light' ? 'Hell' : 'Dunkel'}`}</span>
+							<span class="sr-only">{`${name}, ${mode === 'mode-light' ? 'light' : 'dark'}`}</span>
 						</td>
 					))}
 				</tr>
