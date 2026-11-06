@@ -81,6 +81,10 @@ describe('hastFigures', () => {
 		expect(html).toContain('sizes="100vw"');
 	});
 
+	it('marks the figure with the kind of its image', () => {
+		expect(renderMarkdown(figure, [hastFigures()])).toContain('<figure data-kind="kamae">');
+	});
+
 	it('leaves images outside figures alone', () => {
 		expect(renderMarkdown('<p><img src="/x.webp" alt=""></p>', [hastFigures()])).not.toContain(
 			'loading'
