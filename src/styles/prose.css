@@ -185,15 +185,6 @@
 	mask-size: calc(100% / 1.05) calc(100% / 1.05);
 }
 
-/* A painting with a frame of its own (figures.ts, all 3:2): the ink edge
-   comes closest to the sides, where the frame runs about 3% inside the
-   sheet. The box is 8% narrower than the painting, so cover trims the frame
-   off both sides; the height stays, so the edge keeps clear of the title */
-.prose figure[data-framed] img {
-	aspect-ratio: calc(3 / 2 / 1.08);
-	object-fit: cover;
-}
-
 .prose figcaption {
 	display: flow-root;
 	max-inline-size: var(--measure);
