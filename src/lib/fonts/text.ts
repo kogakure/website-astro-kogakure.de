@@ -175,7 +175,7 @@ export function languageText(lang: Lang): LanguageText {
 	// /design-system/ is English and loads the English homepage's subsets
 	const design = lang === 'en' ? DESIGN_NAME.kanji : '';
 	const uiAndPlates = `${uiText(lang)}\n${PLATE_TEXT}${design}`;
-	const excerpts = pages.map(({ text }) => String(frontmatter(text).excerpt ?? ''));
+	const excerpts = files.map(({ markdown }) => String(frontmatter(markdown).excerpt ?? ''));
 	return {
 		pages,
 		ui: uiAndPlates,

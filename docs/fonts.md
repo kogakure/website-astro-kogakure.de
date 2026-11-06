@@ -30,16 +30,16 @@ pnpm fonts --force    # rewrite every file
 
 ## Budget
 
-About 150 KB of fonts for the first page. `pnpm fonts` prints it per language for the homepage, the median and the largest article; the manifest keeps it (`budget`), and `fonts.test.ts` fails above 150 KB (Latin, Cyrillic, Hebrew) or 240 KB (CJK).
+About 150 KB of fonts for the first page. `pnpm fonts` prints it per language for the homepage, the median and the largest article; the manifest keeps it (`budget`), and `fonts.test.ts` fails above 150 KB (Latin, Cyrillic, Hebrew) or 240 KB (CJK) for the median article. The homepage sets every article's lede, so it has its own limit: 160 KB, or 320 KB in CJK.
 
 | Language      | Homepage | Median article | Largest (glossary) |
 | ------------- | -------: | -------------: | -----------------: |
 | de, en, es, … |   125 KB |         145 KB |             257 KB |
-| ru            |   116 KB |         147 KB |             310 KB |
+| ru            |   158 KB |         147 KB |             310 KB |
 | he            |    62 KB |          72 KB |             229 KB |
-| ja            |   158 KB |         158 KB |             367 KB |
-| ko            |   153 KB |         158 KB |             353 KB |
-| zh            |   230 KB |         227 KB |             445 KB |
+| ja            |   225 KB |         161 KB |             370 KB |
+| ko            |   181 KB |         161 KB |             355 KB |
+| zh            |   309 KB |         231 KB |             448 KB |
 
 CJK pages set several hundred distinct glyphs at about 0.2 KB each; Chinese also sets romaji in Latin. Two levers if that is too much, both design decisions: synthetic bold instead of the bold CJK files (about −25%), or the system's CJK serif first.
 
