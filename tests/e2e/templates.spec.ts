@@ -131,6 +131,22 @@ test.describe('every page type in every language', () => {
 	}
 });
 
+test('the vortex of the prologue drifts once and comes to rest', async ({ page }) => {
+	await page.goto('/');
+	const motion = await page.evaluate(() => {
+		const vortex = document.querySelector('.vortex');
+		if (!vortex) return [];
+		return (['::before', '::after'] as const).map((part) => {
+			const style = getComputedStyle(vortex, part);
+			return [style.animationName, style.animationDuration, style.animationIterationCount];
+		});
+	});
+	expect(motion).toEqual([
+		['drift-wash', '3.4s', '1'],
+		['drift-ink', '3.4s', '1'],
+	]);
+});
+
 test.describe('images', () => {
 	test('a plate opens whole in the lightbox and closes back into its edge', async ({ page }) => {
 		await page.goto('/niedergang/');
