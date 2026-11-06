@@ -1,0 +1,431 @@
+{
+	"preface": [
+		{
+			"title": "머리말",
+			"slug": "preface",
+			"translationKey": "prefacePage"
+		},
+		{
+			"title": "들어가며",
+			"slug": "ninjutsu",
+			"translationKey": "ninjutsuPage"
+		}
+	],
+	"parts": [
+		{
+			"title": "역사",
+			"items": [
+				{
+					"title": "인술의 기원",
+					"slug": "origins-of-ninjutsu",
+					"translationKey": "originsOfNinjutsuPage"
+				},
+				{
+					"title": "류의 성립",
+					"slug": "emergence-of-the-ryu",
+					"translationKey": "emergenceOfRyuPage"
+				},
+				{
+					"title": "유명한 닌자",
+					"slug": "famous-ninja",
+					"translationKey": "famousNinjaPage"
+				},
+				{
+					"title": "닌자 열전",
+					"slug": "ninja-biographies",
+					"translationKey": "ninjaBiographiesPage"
+				},
+				{
+					"title": "이가류",
+					"slug": "iga-ryu",
+					"translationKey": "igaRyuPage"
+				},
+				{
+					"title": "고가류",
+					"slug": "koga-ryu",
+					"translationKey": "kogaRyuPage"
+				},
+				{
+					"title": "이가의 난",
+					"slug": "iga-no-ran",
+					"translationKey": "igaNoRanPage"
+				},
+				{
+					"title": "이가 침공",
+					"slug": "invasion-of-iga",
+					"translationKey": "invasionOfIgaPage"
+				},
+				{
+					"title": "쇠퇴",
+					"slug": "demise",
+					"translationKey": "demisePage"
+				},
+				{
+					"title": "근현대사",
+					"slug": "modern-history",
+					"translationKey": "modernHistoryPage"
+				}
+			]
+		},
+		{
+			"title": "조직과 훈련",
+			"items": [
+				{
+					"title": "류의 조직",
+					"slug": "organization-of-the-ryu",
+					"translationKey": "organizationOfRyuPage"
+				},
+				{
+					"title": "닌자의 훈련",
+					"slug": "training-of-the-ninja",
+					"translationKey": "trainingOfNinjaPage"
+				},
+				{
+					"title": "구노이치",
+					"slug": "kunoichi",
+					"translationKey": "kunoichiPage"
+				},
+				{
+					"title": "만천집해",
+					"slug": "bansenshukai",
+					"translationKey": "bansenshukaiPage"
+				}
+			]
+		},
+		{
+			"title": "신체 단련",
+			"items": [
+				{
+					"title": "다이주쓰",
+					"slug": "taijutsu",
+					"translationKey": "taijutsuPage"
+				},
+				{
+					"title": "전투의 규칙",
+					"slug": "combat-rules",
+					"translationKey": "combatRulesPage"
+				},
+				{
+					"title": "전투의 요소",
+					"slug": "combat-factors",
+					"translationKey": "combatFactorsPage"
+				},
+				{
+					"title": "주난타이소",
+					"slug": "junan-taiso",
+					"translationKey": "junanTaisoPage"
+				},
+				{
+					"title": "훈련의 요소",
+					"slug": "training-factors",
+					"translationKey": "trainingFactorsPage"
+				},
+				{
+					"title": "신체 무기",
+					"slug": "body-weapons",
+					"translationKey": "bodyWeaponsPage"
+				},
+				{
+					"title": "몸 단련",
+					"slug": "toughening-up",
+					"translationKey": "toughningUpPage"
+				},
+				{
+					"title": "아테미테",
+					"slug": "atemi-te",
+					"translationKey": "atemitePage"
+				},
+				{
+					"title": "가마에",
+					"slug": "kamae",
+					"translationKey": "kamaePage"
+				},
+				{
+					"title": "우케미",
+					"slug": "ukemi",
+					"translationKey": "ukemiPage"
+				},
+				{
+					"title": "시노비 이리",
+					"slug": "shinobi-iri",
+					"translationKey": "shinobiIriPage"
+				}
+			]
+		},
+		{
+			"title": "무기와 도구",
+			"items": [
+				{
+					"title": "무기",
+					"slug": "weapons",
+					"translationKey": "weaponsPage"
+				},
+				{
+					"title": "물의 도구",
+					"slug": "water-tools",
+					"translationKey": "waterToolsPage"
+				},
+				{
+					"title": "침입 도구",
+					"slug": "burglary-tools",
+					"translationKey": "burglaryToolsPage"
+				},
+				{
+					"title": "등반 도구",
+					"slug": "climbing-tools",
+					"translationKey": "climbingToolsPage"
+				},
+				{
+					"title": "불의 도구",
+					"slug": "fire-tools",
+					"translationKey": "fireToolsPage"
+				},
+				{
+					"title": "닌자의 옷",
+					"slug": "ninja-clothing",
+					"translationKey": "ninjaClothingPage"
+				},
+				{
+					"title": "기타 장비",
+					"slug": "miscellaneous-equipment",
+					"translationKey": "miscellaneousEquipmentPage"
+				},
+				{
+					"title": "인롱 — 여행용 약상자",
+					"slug": "inro",
+					"translationKey": "inroPage"
+				}
+			]
+		},
+		{
+			"title": "정신의 힘",
+			"items": [
+				{
+					"title": "밀교",
+					"slug": "mikkyo",
+					"translationKey": "mikkyoPage"
+				},
+				{
+					"title": "삼밀",
+					"slug": "sanmitsu",
+					"translationKey": "sanmitsuPage"
+				},
+				{
+					"title": "구지인",
+					"slug": "kuji-in",
+					"translationKey": "kujiInPage"
+				},
+				{
+					"title": "오대",
+					"slug": "godai",
+					"translationKey": "godaiPage"
+				},
+				{
+					"title": "오행",
+					"slug": "gogyo",
+					"translationKey": "gogyoPage"
+				},
+				{
+					"title": "덴치진",
+					"slug": "tenchijin",
+					"translationKey": "tenChiJinPage"
+				},
+				{
+					"title": "의식과 정신",
+					"slug": "consciousness-and-spirit",
+					"translationKey": "consciousnessAndSpiritPage"
+				},
+				{
+					"title": "제7감",
+					"slug": "the-seventh-sense",
+					"translationKey": "seventhSensePage"
+				},
+				{
+					"title": "깨달음",
+					"slug": "enlightenment",
+					"translationKey": "enlightenmentPage"
+				},
+				{
+					"title": "도교",
+					"slug": "daoism",
+					"translationKey": "daoismPage"
+				}
+			]
+		},
+		{
+			"title": "전략과 전술",
+			"items": [
+				{
+					"title": "고톤포",
+					"slug": "gotonpo",
+					"translationKey": "gotonPoPage"
+				},
+				{
+					"title": "온신 주쓰",
+					"slug": "onshinjutsu",
+					"translationKey": "onshinjutsuPage"
+				},
+				{
+					"title": "시치 호 데",
+					"slug": "shichi-ho-de",
+					"translationKey": "shichiHoDePage"
+				},
+				{
+					"title": "조호",
+					"slug": "choho",
+					"translationKey": "chohoPage"
+				},
+				{
+					"title": "헤이호",
+					"slug": "heiho",
+					"translationKey": "heihoPage"
+				},
+				{
+					"title": "보랴쿠",
+					"slug": "bo-ryaku",
+					"translationKey": "boryakuPage"
+				},
+				{
+					"title": "도이리",
+					"slug": "toiri",
+					"translationKey": "toiriPage"
+				},
+				{
+					"title": "지카이리",
+					"slug": "chikairi",
+					"translationKey": "chikairiPage"
+				}
+			]
+		},
+		{
+			"title": "닌자의 유산",
+			"items": [
+				{
+					"title": "다카마쓰 도시쓰구",
+					"slug": "takamatsu-toshitsugu",
+					"translationKey": "takamatsuToshitsuguPage"
+				},
+				{
+					"title": "하쓰미 마사아키",
+					"slug": "hatsumi-masaaki",
+					"translationKey": "hatsumiMasaakiPage"
+				},
+				{
+					"title": "부진칸",
+					"slug": "bujinkan",
+					"translationKey": "bujinkanPage"
+				},
+				{
+					"title": "부진칸의 지침",
+					"slug": "guidelines-of-bujinkan",
+					"translationKey": "guidelinesOfBujinkanPage"
+				},
+				{
+					"title": "도가쿠레류",
+					"slug": "togakure-ryu",
+					"translationKey": "togakureRyuPage"
+				},
+				{
+					"title": "굣코류",
+					"slug": "gyokko-ryu",
+					"translationKey": "gyokkoRyuPage"
+				},
+				{
+					"title": "구키신덴류",
+					"slug": "kukishinden-ryu",
+					"translationKey": "kukishindenRyuPage"
+				},
+				{
+					"title": "신덴후도류",
+					"slug": "shinden-fudo-ryu",
+					"translationKey": "shindenFudoRyuPage"
+				},
+				{
+					"title": "교쿠신류",
+					"slug": "gyokushin-ryu",
+					"translationKey": "gyokushinRyuPage"
+				},
+				{
+					"title": "고토류",
+					"slug": "koto-ryu",
+					"translationKey": "kotoRyuPage"
+				},
+				{
+					"title": "다카기요신류",
+					"slug": "takagi-yoshin-ryu",
+					"translationKey": "takagiYoshinRyuPage"
+				},
+				{
+					"title": "기칸류",
+					"slug": "gikan-ryu",
+					"translationKey": "gikanRyuPage"
+				},
+				{
+					"title": "구모가쿠레류",
+					"slug": "kumogakure-ryu",
+					"translationKey": "kumogakureRyuPage"
+				}
+			]
+		},
+		{
+			"title": "규칙과 철학",
+			"items": [
+				{
+					"title": "인술의 본질",
+					"slug": "essence-of-ninjutsu",
+					"translationKey": "essenceOfNinjutsuPage"
+				},
+				{
+					"title": "닌자의 규칙",
+					"slug": "the-rules-of-the-ninja",
+					"translationKey": "rulesOfNinjaPage"
+				},
+				{
+					"title": "닌자의 5계명",
+					"slug": "the-5-commandments-of-the-ninja",
+					"translationKey": "5CommandmentsOfNinjaPage"
+				},
+				{
+					"title": "18단계의 수련",
+					"slug": "18-training-levels",
+					"translationKey": "18trainingLevelsPage"
+				},
+				{
+					"title": "닌포 산주롯케이",
+					"slug": "ninpo-sanjurokkei",
+					"translationKey": "ninpoSanjurokkeiPage"
+				},
+				{
+					"title": "닌자노 하치몬",
+					"slug": "ninja-no-hachimon",
+					"translationKey": "ninjaNoHachimonPage"
+				}
+			]
+		},
+		{
+			"title": "부록",
+			"items": [
+				{
+					"title": "연표",
+					"slug": "chronology",
+					"translationKey": "chronolyPage"
+				},
+				{
+					"title": "내려받기",
+					"slug": "downloads",
+					"translationKey": "downloadsPage"
+				},
+				{
+					"title": "용어집",
+					"slug": "glossary",
+					"translationKey": "glossaryPage"
+				},
+				{
+					"title": "판권",
+					"slug": "colophon",
+					"translationKey": "colophonPage"
+				}
+			]
+		}
+	]
+}

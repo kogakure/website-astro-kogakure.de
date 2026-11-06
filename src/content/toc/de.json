@@ -1,0 +1,431 @@
+{
+	"preface": [
+		{
+			"title": "Vorwort",
+			"slug": "vorwort",
+			"translationKey": "prefacePage"
+		},
+		{
+			"title": "Einleitung",
+			"slug": "ninjutsu",
+			"translationKey": "ninjutsuPage"
+		}
+	],
+	"parts": [
+		{
+			"title": "Geschichte",
+			"items": [
+				{
+					"title": "Ursprünge des Ninjutsu",
+					"slug": "urspruenge-des-ninjutsu",
+					"translationKey": "originsOfNinjutsuPage"
+				},
+				{
+					"title": "Entstehung der Ryū",
+					"slug": "entstehung-der-ryu",
+					"translationKey": "emergenceOfRyuPage"
+				},
+				{
+					"title": "Berühmte Ninja",
+					"slug": "beruehmte-ninja",
+					"translationKey": "famousNinjaPage"
+				},
+				{
+					"title": "Ninja-Biographien",
+					"slug": "ninja-biographien",
+					"translationKey": "ninjaBiographiesPage"
+				},
+				{
+					"title": "Iga-Ryū",
+					"slug": "iga-ryu",
+					"translationKey": "igaRyuPage"
+				},
+				{
+					"title": "Kōga-Ryū",
+					"slug": "koga-ryu",
+					"translationKey": "kogaRyuPage"
+				},
+				{
+					"title": "Iga no Ran",
+					"slug": "iga-no-ran",
+					"translationKey": "igaNoRanPage"
+				},
+				{
+					"title": "Invasion von Iga",
+					"slug": "invasion-von-iga",
+					"translationKey": "invasionOfIgaPage"
+				},
+				{
+					"title": "Niedergang",
+					"slug": "niedergang",
+					"translationKey": "demisePage"
+				},
+				{
+					"title": "Moderne Geschichte",
+					"slug": "moderne-geschichte",
+					"translationKey": "modernHistoryPage"
+				}
+			]
+		},
+		{
+			"title": "Organisation & Ausbildung",
+			"items": [
+				{
+					"title": "Organisation der Ryū",
+					"slug": "organisation-der-ryu",
+					"translationKey": "organizationOfRyuPage"
+				},
+				{
+					"title": "Ausbildung der Ninja",
+					"slug": "ausbildung-der-ninja",
+					"translationKey": "trainingOfNinjaPage"
+				},
+				{
+					"title": "Kunoichi",
+					"slug": "kunoichi",
+					"translationKey": "kunoichiPage"
+				},
+				{
+					"title": "Bansenshūkai",
+					"slug": "bansenshukai",
+					"translationKey": "bansenshukaiPage"
+				}
+			]
+		},
+		{
+			"title": "Körperliches Training",
+			"items": [
+				{
+					"title": "Taijutsu",
+					"slug": "taijutsu",
+					"translationKey": "taijutsuPage"
+				},
+				{
+					"title": "Kampfregeln",
+					"slug": "kampfregeln",
+					"translationKey": "combatRulesPage"
+				},
+				{
+					"title": "Kampffaktoren",
+					"slug": "kampffaktoren",
+					"translationKey": "combatFactorsPage"
+				},
+				{
+					"title": "Jūnantaisō",
+					"slug": "junan-taiso",
+					"translationKey": "junanTaisoPage"
+				},
+				{
+					"title": "Trainings&shy;faktoren",
+					"slug": "trainingsfaktoren",
+					"translationKey": "trainingFactorsPage"
+				},
+				{
+					"title": "Körperwaffen",
+					"slug": "koerperwaffen",
+					"translationKey": "bodyWeaponsPage"
+				},
+				{
+					"title": "Abhärtung",
+					"slug": "abhaertung",
+					"translationKey": "toughningUpPage"
+				},
+				{
+					"title": "Atemite",
+					"slug": "atemi-te",
+					"translationKey": "atemitePage"
+				},
+				{
+					"title": "Kamae",
+					"slug": "kamae",
+					"translationKey": "kamaePage"
+				},
+				{
+					"title": "Ukemi",
+					"slug": "ukemi",
+					"translationKey": "ukemiPage"
+				},
+				{
+					"title": "Shinobi iri",
+					"slug": "shinobi-iri",
+					"translationKey": "shinobiIriPage"
+				}
+			]
+		},
+		{
+			"title": "Waffen & Werkzeuge",
+			"items": [
+				{
+					"title": "Waffen",
+					"slug": "waffen",
+					"translationKey": "weaponsPage"
+				},
+				{
+					"title": "Wasser&shy;werkzeuge",
+					"slug": "wasserwerkzeuge",
+					"translationKey": "waterToolsPage"
+				},
+				{
+					"title": "Einbruchs&shy;werkzeuge",
+					"slug": "einbruchswerkzeuge",
+					"translationKey": "burglaryToolsPage"
+				},
+				{
+					"title": "Kletterwerkzeuge",
+					"slug": "kletterwerkzeuge",
+					"translationKey": "climbingToolsPage"
+				},
+				{
+					"title": "Feuer&shy;werkzeuge",
+					"slug": "feuerwerkzeuge",
+					"translationKey": "fireToolsPage"
+				},
+				{
+					"title": "Ninja&shy;kleidung",
+					"slug": "ninjakleidung",
+					"translationKey": "ninjaClothingPage"
+				},
+				{
+					"title": "Sonstige Ausrüstung",
+					"slug": "sonstige-ausruestung",
+					"translationKey": "miscellaneousEquipmentPage"
+				},
+				{
+					"title": "Inrō – Reise&shy;apotheke",
+					"slug": "inro",
+					"translationKey": "inroPage"
+				}
+			]
+		},
+		{
+			"title": "Geistige Kräfte",
+			"items": [
+				{
+					"title": "Mikkyō",
+					"slug": "mikkyo",
+					"translationKey": "mikkyoPage"
+				},
+				{
+					"title": "Sanmitsu",
+					"slug": "sanmitsu",
+					"translationKey": "sanmitsuPage"
+				},
+				{
+					"title": "Kuji-in",
+					"slug": "kuji-in",
+					"translationKey": "kujiInPage"
+				},
+				{
+					"title": "Godai",
+					"slug": "godai",
+					"translationKey": "godaiPage"
+				},
+				{
+					"title": "Gogyō",
+					"slug": "gogyo",
+					"translationKey": "gogyoPage"
+				},
+				{
+					"title": "Tenchijin",
+					"slug": "tenchijin",
+					"translationKey": "tenChiJinPage"
+				},
+				{
+					"title": "Bewusstsein und Geist",
+					"slug": "bewusstsein-und-geist",
+					"translationKey": "consciousnessAndSpiritPage"
+				},
+				{
+					"title": "Der Siebte Sinn",
+					"slug": "der-siebte-sinn",
+					"translationKey": "seventhSensePage"
+				},
+				{
+					"title": "Erleuchtung",
+					"slug": "erleuchtung",
+					"translationKey": "enlightenmentPage"
+				},
+				{
+					"title": "Daoismus",
+					"slug": "daoismus",
+					"translationKey": "daoismPage"
+				}
+			]
+		},
+		{
+			"title": "Strategie & Taktik",
+			"items": [
+				{
+					"title": "Gotonpō",
+					"slug": "gotonpo",
+					"translationKey": "gotonPoPage"
+				},
+				{
+					"title": "Onshin jutsu",
+					"slug": "onshinjutsu",
+					"translationKey": "onshinjutsuPage"
+				},
+				{
+					"title": "Shichi hō de",
+					"slug": "shichi-ho-de",
+					"translationKey": "shichiHoDePage"
+				},
+				{
+					"title": "Chōhō",
+					"slug": "choho",
+					"translationKey": "chohoPage"
+				},
+				{
+					"title": "Heihō",
+					"slug": "heiho",
+					"translationKey": "heihoPage"
+				},
+				{
+					"title": "Bōryaku",
+					"slug": "bo-ryaku",
+					"translationKey": "boryakuPage"
+				},
+				{
+					"title": "Tōiri",
+					"slug": "toiri",
+					"translationKey": "toiriPage"
+				},
+				{
+					"title": "Chikairi",
+					"slug": "chikairi",
+					"translationKey": "chikairiPage"
+				}
+			]
+		},
+		{
+			"title": "Das Erbe der Ninja",
+			"items": [
+				{
+					"title": "Takamatsu Toshitsugu",
+					"slug": "takamatsu-toshitsugu",
+					"translationKey": "takamatsuToshitsuguPage"
+				},
+				{
+					"title": "Hatsumi Masaaki",
+					"slug": "hatsumi-masaaki",
+					"translationKey": "hatsumiMasaakiPage"
+				},
+				{
+					"title": "Bujinkan",
+					"slug": "bujinkan",
+					"translationKey": "bujinkanPage"
+				},
+				{
+					"title": "Richtlinien des Bujinkan",
+					"slug": "richtlinien-des-bujinkan",
+					"translationKey": "guidelinesOfBujinkanPage"
+				},
+				{
+					"title": "Togakure-Ryū",
+					"slug": "togakure-ryu",
+					"translationKey": "togakureRyuPage"
+				},
+				{
+					"title": "Gyokko-Ryū",
+					"slug": "gyokko-ryu",
+					"translationKey": "gyokkoRyuPage"
+				},
+				{
+					"title": "Kukishinden-Ryū",
+					"slug": "kukishinden-ryu",
+					"translationKey": "kukishindenRyuPage"
+				},
+				{
+					"title": "Shinden-Fudō-Ryū",
+					"slug": "shinden-fudo-ryu",
+					"translationKey": "shindenFudoRyuPage"
+				},
+				{
+					"title": "Gyokushin-Ryū",
+					"slug": "gyokushin-ryu",
+					"translationKey": "gyokushinRyuPage"
+				},
+				{
+					"title": "Kotō-Ryū",
+					"slug": "koto-ryu",
+					"translationKey": "kotoRyuPage"
+				},
+				{
+					"title": "Takagi-Yōshin-Ryū",
+					"slug": "takagi-yoshin-ryu",
+					"translationKey": "takagiYoshinRyuPage"
+				},
+				{
+					"title": "Gikan-Ryū",
+					"slug": "gikan-ryu",
+					"translationKey": "gikanRyuPage"
+				},
+				{
+					"title": "Kumogakure-Ryū",
+					"slug": "kumogakure-ryu",
+					"translationKey": "kumogakureRyuPage"
+				}
+			]
+		},
+		{
+			"title": "Regeln & Philosophie",
+			"items": [
+				{
+					"title": "Essenz des Ninjutsu",
+					"slug": "essenz-des-ninjutsu",
+					"translationKey": "essenceOfNinjutsuPage"
+				},
+				{
+					"title": "Die Regeln der Ninja",
+					"slug": "die-regeln-der-ninja",
+					"translationKey": "rulesOfNinjaPage"
+				},
+				{
+					"title": "Die 5 Gebote der Ninja",
+					"slug": "die-5-gebote-der-ninja",
+					"translationKey": "5CommandmentsOfNinjaPage"
+				},
+				{
+					"title": "18 Trainings&shy;ebenen",
+					"slug": "18-trainingsebenen",
+					"translationKey": "18trainingLevelsPage"
+				},
+				{
+					"title": "Ninpō Sanjūrokkei",
+					"slug": "ninpo-sanjurokkei",
+					"translationKey": "ninpoSanjurokkeiPage"
+				},
+				{
+					"title": "Ninja no Hachimon",
+					"slug": "ninja-no-hachimon",
+					"translationKey": "ninjaNoHachimonPage"
+				}
+			]
+		},
+		{
+			"title": "Anhänge",
+			"items": [
+				{
+					"title": "Chronologie",
+					"slug": "chronologie",
+					"translationKey": "chronolyPage"
+				},
+				{
+					"title": "Downloads",
+					"slug": "downloads",
+					"translationKey": "downloadsPage"
+				},
+				{
+					"title": "Glossar",
+					"slug": "glossar",
+					"translationKey": "glossaryPage"
+				},
+				{
+					"title": "Kolophon",
+					"slug": "kolophon",
+					"translationKey": "colophonPage"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,4925 @@
+{
+	"entries": [
+		{
+			"title": "aikidō",
+			"sort": "Aikido",
+			"japanese": "合気道",
+			"translation": "和合之道",
+			"description": "植芝盛平在1925–1969年间发展出的防御性武术。"
+		},
+		{
+			"title": "aikuchi",
+			"sort": "Aikuchi",
+			"japanese": "匕首",
+			"description": "小型的日本匕首。"
+		},
+		{
+			"title": "Ainu",
+			"sort": "Ainu",
+			"japanese": "アイヌ",
+			"description": "日本北方的原住民族，在语言和血统上有别于日本人；其祖先可追溯到绳文文化。在北海道厅2023年的调查中，约11,450人自认为阿伊努人，其后裔的人数则要多得多。日本人长期视他们为蛮族，与之交战数百年，例如1457年的Koshamain起义和1669–1672年的Shakushain战争。"
+		},
+		{
+			"title": "aisha",
+			"sort": "Aisha",
+			"japanese": "愛者",
+			"translation": "怀爱之人",
+			"description": "五情五欲的一项原则，利用人的同情心。"
+		},
+		{
+			"title": "Akechi Mitsuhide",
+			"sort": "Akechi Mitsuhide",
+			"japanese": "明智光秀",
+			"description": "织田信长的武将，背叛了自己的主君。趁信长身边没有护卫，明智发动袭击，杀死了他。明智的军队把信长的城池烧成了平地。"
+		},
+		{
+			"title": "akindo",
+			"sort": "Akindo",
+			"japanese": "商人",
+			"translation": "商人",
+			"description": "七方出中忍者喜用的一种伪装。"
+		},
+		{
+			"title": "ametori no jutsu",
+			"sort": "Ametori no jutsu",
+			"japanese": "雨鳥の術",
+			"translation": "雨中之鸟术",
+			"description": "一种战术，利用守卫在雨天或寒冷时擅离岗位或敷衍值守的习惯。"
+		},
+		{
+			"title": "amigasa",
+			"sort": "Amigasa",
+			"japanese": "編笠",
+			"description": "编织的草帽，宽大的帽檐可遮住面部。"
+		},
+		{
+			"title": "ashi",
+			"sort": "Ashi",
+			"japanese": "足",
+			"translation": "腿，脚"
+		},
+		{
+			"title": "ashi fumikae",
+			"sort": "Ashi fumikae",
+			"japanese": "足踏み替え",
+			"translation": "换腿"
+		},
+		{
+			"title": "ashi kō",
+			"sort": "Ashi ko",
+			"japanese": "足甲",
+			"translation": "披甲之足",
+			"description": "忍者用来攀登墙壁的脚爪。手上用的对应器具称为手钩，读作<em>shukō</em>或<em>tekagi</em>。"
+		},
+		{
+			"title": "ashigaru",
+			"sort": "Ashigaru",
+			"japanese": "足軽",
+			"translation": "脚步轻快的士兵",
+			"description": "武士的下层。和平时期，他们大多在田间务农。他们的武器和铠甲更轻，也更便宜。"
+		},
+		{
+			"title": "Ashikaga",
+			"sort": "Ashikaga",
+			"japanese": "足利",
+			"description": "源氏后裔的氏族，在足利时代（1338–1573年）出任日本的将军。"
+		},
+		{
+			"title": "ashinaka",
+			"sort": "Ashinaka",
+			"japanese": "足半",
+			"description": "没有后跟部分、只覆盖前脚掌的草鞋。脚趾直接抓住地面，即使在湿滑的地上也能站稳。"
+		},
+		{
+			"title": "atemi",
+			"sort": "Atemi",
+			"japanese": "当身",
+			"translation": "击打身体",
+			"description": "用拳脚攻击人的要害和神经中枢，使其昏迷、瘫痪或死亡。"
+		},
+		{
+			"title": "atemi waza",
+			"sort": "Atemi waza",
+			"japanese": "当身技",
+			"translation": "击打身体的技法",
+			"description": "击打要害和神经中枢的另一种说法。"
+		},
+		{
+			"title": "atemite",
+			"sort": "Atemite",
+			"japanese": "当身手",
+			"translation": "以手击打身体",
+			"description": "击打要害和神经中枢的另一种说法。"
+		},
+		{
+			"title": "ayumi ashi",
+			"sort": "Ayumi ashi",
+			"japanese": "歩み足",
+			"translation": "正常行走"
+		},
+		{
+			"title": "bajutsu",
+			"sort": "Bajutsu",
+			"japanese": "馬術",
+			"translation": "骑马之术"
+		},
+		{
+			"title": "bakemono jutsu",
+			"sort": "Bakemono jutsu",
+			"japanese": "化物術",
+			"translation": "鬼怪之术",
+			"description": "把自己化作鬼魂的技艺。据说伊贺崎道顺曾用它潜入一座要塞。"
+		},
+		{
+			"title": "bakufu",
+			"sort": "Bakufu",
+			"japanese": "幕府",
+			"translation": "帐幕政府",
+			"description": "最初指将军的野战营帐，后来成为其军事独裁政权的所在。中文同样称为<q>幕府</q>。"
+		},
+		{
+			"title": "bakuhatsu gama",
+			"sort": "Bakuhatsu gama",
+			"japanese": "爆発鎌",
+			"translation": "投弹之镰",
+			"description": "忍者的一种武器，由一把大镰和一条两米长的锁链组成，链端装有炸药、毒药或致盲粉。"
+		},
+		{
+			"title": "Bansenshūkai",
+			"sort": "Bansenshukai",
+			"japanese": "萬川集海",
+			"translation": "万川归海",
+			"description": "十卷本的忍术汇编，1676年由藤林保武编撰。"
+		},
+		{
+			"title": "banzai",
+			"sort": "Banzai",
+			"japanese": "万歳",
+			"translation": "万年",
+			"description": "日本人表达喜悦的欢呼，也是作战时的呐喊。"
+		},
+		{
+			"title": "bikenjutsu",
+			"sort": "Bikenjutsu",
+			"japanese": "秘剣術",
+			"description": "剑术格斗。与体术、棒术并称忍法的三大支柱。"
+		},
+		{
+			"title": "bisentō",
+			"sort": "Bisento",
+			"japanese": "眉尖刀",
+			"translation": "戟",
+			"description": "刃身宽阔的日本长戟。"
+		},
+		{
+			"title": "bisentōjutsu",
+			"sort": "Bisentojutsu",
+			"description": "使用长戟（眉尖刀）的格斗。<em>ninja jūhakkei</em>的18个领域之一。"
+		},
+		{
+			"title": "Biwako",
+			"sort": "Biwako",
+			"japanese": "琵琶湖",
+			"translation": "琵琶湖",
+			"description": "日本最大的湖泊（约670平方千米），靠近京都。其名得自湖的形状，形似琵琶。"
+		},
+		{
+			"title": "bō",
+			"sort": "Bo",
+			"japanese": "棒",
+			"translation": "棍，杖",
+			"description": "日本所有棍杖类武器的统称，狭义上指六尺棒。"
+		},
+		{
+			"title": "bō ken",
+			"sort": "Bo ken",
+			"japanese": "棒剣",
+			"translation": "棒剑",
+			"description": "用沉重的木材制成的练习用剑，亦称木剑或木刀。它本身就是一件相当危险的武器。"
+		},
+		{
+			"title": "bō shuriken",
+			"sort": "Bo shuriken",
+			"japanese": "棒手裏剣",
+			"description": "细长如匕首的投掷武器（手里剑），包括发簪、钉子和筷子。"
+		},
+		{
+			"title": "bōbi no kamae",
+			"sort": "Bobi no kamae",
+			"japanese": "防備の構え",
+			"description": "防御性的架势（构）。"
+		},
+		{
+			"title": "bōenkyō",
+			"sort": "Boenkyo",
+			"japanese": "望遠鏡",
+			"translation": "望远镜"
+		},
+		{
+			"title": "bōjutsu",
+			"sort": "Bojutsu",
+			"japanese": "棒術",
+			"description": "棍棒格斗。与体术、<em>bikenjutsu</em>并称忍法的三大支柱。"
+		},
+		{
+			"title": "bokken",
+			"sort": "Bokken",
+			"japanese": "木剣",
+			"translation": "木剑",
+			"description": "亦称<em>bō ken</em>或木刀。"
+		},
+		{
+			"title": "boku",
+			"sort": "Boku",
+			"japanese": "木",
+			"translation": "树，木",
+			"description": "亦读作<em>moku</em>。"
+		},
+		{
+			"title": "bokutō",
+			"sort": "Bokuto",
+			"japanese": "木刀",
+			"translation": "木剑",
+			"description": "亦称<em>bō ken</em>或木剑。"
+		},
+		{
+			"title": "bōryaku",
+			"sort": "Boryaku",
+			"japanese": "謀略",
+			"translation": "谋略",
+			"description": "日本兵法的一部分，其中包括各种阵形。"
+		},
+		{
+			"title": "boshi ken",
+			"sort": "Boshi ken",
+			"japanese": "母指拳",
+			"translation": "拇指拳",
+			"description": "以拇指指尖击中目标的打击。"
+		},
+		{
+			"title": "bu",
+			"sort": "Bu",
+			"japanese": "武",
+			"translation": "战争艺术，武人之道，军事",
+			"description": "亦读作<em>mu</em>。"
+		},
+		{
+			"title": "Buddha",
+			"sort": "Buddha",
+			"sanskrit": "बुद्ध",
+			"translation": "觉者",
+			"description": "指摆脱了轮回的人。通常指乔达摩·悉达多，他是迦毗罗卫的王子，也是佛教的创始人。日语称佛。"
+		},
+		{
+			"title": "budō",
+			"sort": "Budo",
+			"japanese": "武道",
+			"translation": "武艺",
+			"description": "日本所有武术的总称。"
+		},
+		{
+			"title": "budōka",
+			"sort": "Budoka",
+			"japanese": "武道家",
+			"translation": "习武者",
+			"description": "修习武道的人。"
+		},
+		{
+			"title": "bugei jūhappan",
+			"sort": "Bugei juhappan",
+			"japanese": "武芸十八般",
+			"description": "武术的十八个门类。忍者需要在这方面打下良好的基础；此外还要掌握<em>ninja jūhakkei</em>的十八类秘技。"
+		},
+		{
+			"title": "bugeisha",
+			"sort": "Bugeisha",
+			"japanese": "武芸者",
+			"translation": "武艺大师",
+			"description": "指修习武艺的战士（武士）。亦称武人。"
+		},
+		{
+			"title": "bujin",
+			"sort": "Bujin",
+			"japanese": "武人",
+			"translation": "军人",
+			"description": "亦称武艺者。"
+		},
+		{
+			"title": "Bujinkan",
+			"sort": "Bujinkan",
+			"japanese": "武神館",
+			"translation": "神武者之馆",
+			"description": "由初见良昭创立的组织，汇集了九个古老的武术与忍术流派。"
+		},
+		{
+			"title": "bujutsu",
+			"sort": "Bujutsu",
+			"japanese": "武術",
+			"translation": "武艺，武术",
+			"description": "武士所有武术的统称。"
+		},
+		{
+			"title": "buke",
+			"sort": "Buke",
+			"japanese": "武家",
+			"translation": "武士，战士，武士家族",
+			"description": "指贵族武士家族。"
+		},
+		{
+			"title": "bukkyō",
+			"sort": "Bukkyo",
+			"japanese": "仏教",
+			"translation": "佛教"
+		},
+		{
+			"title": "bushi",
+			"sort": "Bushi",
+			"japanese": "武士",
+			"translation": "战士，武士",
+			"description": "封建时代日本贵族武士的称呼。"
+		},
+		{
+			"title": "bushidō",
+			"sort": "Bushido",
+			"japanese": "武士道",
+			"translation": "武士之道",
+			"description": "武士的荣誉准则，要求自律、自我牺牲与自制。"
+		},
+		{
+			"title": "butsu",
+			"sort": "Butsu",
+			"japanese": "仏",
+			"translation": "佛陀"
+		},
+		{
+			"title": "chakuchi",
+			"sort": "Chakuchi",
+			"japanese": "着地",
+			"translation": "弓步"
+		},
+		{
+			"title": "chi",
+			"sort": "Chi",
+			"japanese": "地",
+			"translation": "大地，地面"
+		},
+		{
+			"title": "chi no kata",
+			"sort": "Chi no kata",
+			"japanese": "地の型",
+			"translation": "大地之型"
+		},
+		{
+			"title": "Chi ryaku no maki",
+			"sort": "Chi ryaku no maki",
+			"japanese": "地略の巻",
+			"translation": "大地谋略之卷",
+			"description": "论述大地之策略的书，与<cite>《天略之卷》</cite>和<cite>《人略之卷》</cite>同属一个系列。"
+		},
+		{
+			"title": "chigiriki",
+			"sort": "Chigiriki",
+			"japanese": "乳切木",
+			"description": "末端带有锁链和铁锤的长棍，是由连枷演变而来的武器。"
+		},
+		{
+			"title": "chikairi",
+			"sort": "Chikairi",
+			"japanese": "近入",
+			"translation": "就近而入",
+			"description": "忍者在战争中用来突破敌方防线的策略。"
+		},
+		{
+			"title": "chiken-in",
+			"sort": "Chiken-in",
+			"japanese": "智拳印",
+			"translation": "智慧之拳印",
+			"description": "九字印中对应<em>retsu</em>的手印。"
+		},
+		{
+			"title": "chikujō jutsu",
+			"sort": "Chikujo jutsu",
+			"japanese": "築城術",
+			"translation": "筑城之术",
+			"description": "野战筑城的方法。"
+		},
+		{
+			"title": "chikyū jutsu",
+			"sort": "Chikyu jutsu",
+			"japanese": "弛弓術",
+			"translation": "松弛之弓",
+			"description": "远入的一种战术。被俘的忍者接受敌方主君的提议，为其效力，一有机会便逃走。"
+		},
+		{
+			"title": "chimon",
+			"sort": "Chimon",
+			"japanese": "地文",
+			"translation": "地理"
+		},
+		{
+			"title": "chitsu mishi",
+			"sort": "Chitsu mishi",
+			"translation": "收买的眼睛",
+			"description": "为忍者效力的敌方领地居民。"
+		},
+		{
+			"title": "chōda",
+			"sort": "Choda",
+			"japanese": "長蛇",
+			"translation": "长蛇",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "chōhō",
+			"sort": "Choho",
+			"japanese": "諜報",
+			"translation": "间谍活动"
+		},
+		{
+			"title": "chōkyori kyōsō",
+			"sort": "Chokyori kyoso",
+			"japanese": "長距離競走",
+			"translation": "长跑",
+			"description": "忍者的奔跑技术，用于远距离传递消息。"
+		},
+		{
+			"title": "chūnin",
+			"sort": "Chunin",
+			"japanese": "中忍",
+			"translation": "中级忍者",
+			"description": "忍者的中间等级，是氏族首领（上忍）与执行任务的特工（下忍）之间的纽带。由于中忍通常负责与委托人接洽，其长处在于识人和伪装。"
+		},
+		{
+			"title": "dai",
+			"sort": "Dai",
+			"japanese": "大",
+			"translation": "大"
+		},
+		{
+			"title": "daikongō-in",
+			"sort": "Daikongo-in",
+			"japanese": "大金剛輪印",
+			"translation": "大金刚之印",
+			"description": "九字印中对应<em>pyō</em>的手印。"
+		},
+		{
+			"title": "daimyō",
+			"sort": "Daimyo",
+			"japanese": "大名",
+			"translation": "伟大的名字",
+			"description": "战国时代争夺日本统治权的新兴大地主。"
+		},
+		{
+			"title": "daisharin",
+			"sort": "Daisharin",
+			"japanese": "大車輪",
+			"translation": "大车轮",
+			"description": "忍者的一种武器，由一根车轴和两个大轮子组成，滚向对手的双腿。"
+		},
+		{
+			"title": "daishō",
+			"sort": "Daisho",
+			"japanese": "大小",
+			"translation": "大与小",
+			"description": "武士的双刀，即刀与脇差。"
+		},
+		{
+			"title": "daitō",
+			"sort": "Daito",
+			"japanese": "大刀",
+			"translation": "大刀",
+			"description": "指武士的长刀，与短刀相对。"
+		},
+		{
+			"title": "daken taijutsu",
+			"sort": "Daken taijutsu",
+			"japanese": "打拳体術",
+			"translation": "以拳击打身体之术",
+			"description": "体术中的格斗技法：踢、打和格挡。分为骨法术与骨指术。"
+		},
+		{
+			"title": "dan",
+			"sort": "Dan",
+			"japanese": "段",
+			"translation": "级别，等级",
+			"description": "师级段位的称呼。"
+		},
+		{
+			"title": "Dao",
+			"sort": "Dao",
+			"chinese": "道",
+			"translation": "道路",
+			"description": "在道家思想中，道是宇宙最高的实在与力量，是有与无的根源。它无法用言语界定。"
+		},
+		{
+			"title": "Daodejing",
+			"sort": "Daodejing",
+			"chinese": "道徳経",
+			"description": "道家的奠基经典，相传为老子所作。"
+		},
+		{
+			"title": "Dengyō Daishi",
+			"sort": "Dengyo Daishi",
+			"japanese": "伝教大師",
+			"description": "日本佛教天台宗及延历寺的创立者，又称最澄。"
+		},
+		{
+			"title": "densho",
+			"sort": "Densho",
+			"japanese": "伝書",
+			"translation": "传承下来的文书",
+			"description": "流派的秘密文献，记录其技法与规矩。"
+		},
+		{
+			"title": "do",
+			"sort": "Do",
+			"japanese": "土",
+			"translation": "大地，地面"
+		},
+		{
+			"title": "dō",
+			"sort": "Do",
+			"japanese": "道",
+			"translation": "道，路，原则",
+			"description": "指亚洲的世界观。"
+		},
+		{
+			"title": "dō no hi",
+			"sort": "Do no hi",
+			"japanese": "銅の火",
+			"translation": "铜之火",
+			"description": "怀炉胴火的另一个名称。"
+		},
+		{
+			"title": "dōjō",
+			"sort": "Dojo",
+			"japanese": "道場",
+			"translation": "训练场"
+		},
+		{
+			"title": "dōka",
+			"sort": "Doka",
+			"japanese": "胴火",
+			"translation": "身体之火",
+			"description": "怀炉，一种小炉子，忍者把一块闷燃的木炭放入其中。亦称<em>dō no hi</em>。"
+		},
+		{
+			"title": "dokko-in",
+			"sort": "Dokko-in",
+			"japanese": "独鈷印",
+			"translation": "藏传金刚杵雷电之印",
+			"description": "九字印中对应<em>rin</em>的手印。"
+		},
+		{
+			"title": "doko no kamae",
+			"sort": "Doko no kamae",
+			"japanese": "怒虎の構え",
+			"translation": "怒虎",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "dōkyō",
+			"sort": "Dokyo",
+			"japanese": "道教",
+			"translation": "道教",
+			"description": "源自中国的学说和宗教；在日语中，其哲学流派更确切地称为道家（dōka）。它教人亲近自然、理解宇宙。"
+		},
+		{
+			"title": "dosha",
+			"sort": "Dosha",
+			"japanese": "怒者",
+			"translation": "易怒之人",
+			"description": "五情五欲的一项原则，利用人的易怒。"
+		},
+		{
+			"title": "doteki",
+			"sort": "Doteki",
+			"japanese": "動的",
+			"translation": "动态的",
+			"description": "动力，即对力学（<em>kikaigaku</em>）最有效的运用。它包括正确运用能量、节奏与流动、力量与柔韧，以及感知一个动作并随之调整的能力。"
+		},
+		{
+			"title": "doton",
+			"sort": "Doton",
+			"japanese": "土遁",
+			"description": "借助土逃脱，五遁法的五种方法之一。"
+		},
+		{
+			"title": "doton jutsu",
+			"sort": "Doton jutsu",
+			"japanese": "土遁術",
+			"translation": "以土遁逃之术",
+			"description": "五遁法中的逃脱技法，以土为遁逃的手段。"
+		},
+		{
+			"title": "ebira",
+			"sort": "Ebira",
+			"japanese": "箙",
+			"translation": "箭袋"
+		},
+		{
+			"title": "Edo",
+			"sort": "Edo",
+			"japanese": "江戸",
+			"description": "日本首都的旧称，即今天的东京。"
+		},
+		{
+			"title": "eiku",
+			"sort": "Eiku",
+			"japanese": "櫂",
+			"description": "船桨，在冲绳的古武道中用作武器。伪装成渔夫的忍者可以用它很好地自卫。"
+		},
+		{
+			"title": "eki",
+			"sort": "Eki",
+			"japanese": "易",
+			"translation": "神谕",
+			"description": "用硬币或蓍草茎来求问，如中国的<cite>《易经》</cite>。"
+		},
+		{
+			"title": "endoku ken",
+			"sort": "Endoku ken",
+			"japanese": "煙毒剣",
+			"translation": "烟毒之刃",
+			"description": "可以点燃的星形飞镖（手里剑），点燃后会散发毒气。"
+		},
+		{
+			"title": "engetsu",
+			"sort": "Engetsu",
+			"japanese": "偃月",
+			"translation": "弯月",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "ennyū no jutsu",
+			"sort": "Ennyu no jutsu",
+			"translation": "佯攻",
+			"description": "一队人马佯装进攻。守军赶去抵御之际，忍者趁机潜入要塞，畅通无阻。"
+		},
+		{
+			"title": "Enryakuji",
+			"sort": "Enryakuji",
+			"japanese": "延暦寺",
+			"description": "天台宗位于京都附近比叡山上的总本山，奉桓武天皇之命创建，作为天台佛教的中心。据说在鼎盛时期，山上3,000座寺院中住着多达40,000名僧侣和僧兵。1571年9月，织田信长在讨伐一向一揆、忍者和僧兵的征战中摧毁了这座寺院，并杀死了大部分居民。"
+		},
+		{
+			"title": "fū",
+			"sort": "Fu",
+			"japanese": "風",
+			"translation": "风"
+		},
+		{
+			"title": "fū no kata",
+			"sort": "Fu no kata",
+			"japanese": "風の型",
+			"translation": "风之型"
+		},
+		{
+			"title": "fudō ken",
+			"sort": "Fudo ken",
+			"japanese": "不動拳",
+			"translation": "不动之拳",
+			"description": "许多武术中都有的握拳方式，即<q>普通</q>的拳。"
+		},
+		{
+			"title": "fudōmyō",
+			"sort": "Fudomyo",
+			"japanese": "不動明王",
+			"description": "不动明王，令人生畏的神话守护者，守护意志、法则以及宇宙的完整。在九字切中，忍者模仿他的火焰之剑。"
+		},
+		{
+			"title": "fudōshin",
+			"sort": "Fudoshin",
+			"japanese": "不動心",
+			"translation": "不动之心",
+			"description": "平静而坚定不移的心。"
+		},
+		{
+			"title": "fudōza no kamae",
+			"sort": "Fudoza no kamae",
+			"japanese": "不動座の構え",
+			"translation": "不动之座",
+			"description": "日本的一种坐姿，同时也是忍术中的一种架势（构）。"
+		},
+		{
+			"title": "Fujibayashi Nagato",
+			"sort": "Fujibayashi Nagato",
+			"japanese": "藤林長門",
+			"description": "伊贺地区著名的上忍。根据一种流行的说法，他只是百地三太夫的假身份。"
+		},
+		{
+			"title": "Fujita Seiko",
+			"sort": "Fujita Seiko",
+			"japanese": "藤田西湖",
+			"description": "忍术宗师，自称甲贺流第14代也是最后一代宗家；他没有指定继承人。1966年1月4日在东京去世。"
+		},
+		{
+			"title": "fukibari",
+			"sort": "Fukibari",
+			"japanese": "吹き針",
+			"translation": "吹针",
+			"description": "忍者的一种格斗技法，把小金属针（含针）吹向攻击者的脸。"
+		},
+		{
+			"title": "fukiya",
+			"sort": "Fukiya",
+			"japanese": "吹き矢",
+			"translation": "吹管与箭",
+			"description": "箭通常都涂有毒药。"
+		},
+		{
+			"title": "fukumi bari",
+			"sort": "Fukumi bari",
+			"japanese": "含み針",
+			"translation": "小箭",
+			"description": "吹针时吹出的小金属针。"
+		},
+		{
+			"title": "fukuro gaeshi jutsu",
+			"sort": "Fukuro gaeshi jutsu",
+			"japanese": "袋返術",
+			"translation": "翻转的袋子",
+			"description": "远入的一种战术。在一场看似真实的争吵之后，忍者转投新主，为其效力一段时间。到了战争的决定性阶段，忍者执行自己的任务，然后回到旧主身边。"
+		},
+		{
+			"title": "fukuro gaeshi zen jutsu",
+			"sort": "Fukuro gaeshi zen jutsu",
+			"japanese": "袋翻全術",
+			"description": "近入的一种战术。忍者截获敌方领主与其盟友之间的消息，加以伪造后再送出，以在他们之间制造猜忌。"
+		},
+		{
+			"title": "Fūma Kotarō",
+			"sort": "Fuma Kotaro",
+			"japanese": "風魔小太郎",
+			"description": "著名忍者，位居上忍，相传有200名追随者，擅长游击战。"
+		},
+		{
+			"title": "furyō",
+			"sort": "Furyo",
+			"japanese": "不良",
+			"translation": "违法的年轻人",
+			"description": "游手好闲之徒，年轻的打手。"
+		},
+		{
+			"title": "futokoro teppō",
+			"sort": "Futokoro teppo",
+			"japanese": "懐鉄砲",
+			"translation": "袖珍手枪",
+			"description": "一种青铜手枪，易于隐藏，深受忍者喜爱。"
+		},
+		{
+			"title": "gandō",
+			"sort": "Gando",
+			"japanese": "龕灯",
+			"translation": "佛坛之灯",
+			"description": "光源始终与地面保持垂直的灯。"
+		},
+		{
+			"title": "gankō",
+			"sort": "Ganko",
+			"japanese": "雁行",
+			"translation": "雁群之飞",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "gasshō no kamae",
+			"sort": "Gassho no kamae",
+			"japanese": "合掌の構え",
+			"translation": "祈祷之势",
+			"description": "忍术中的一种架势（构），双掌相合行礼。"
+		},
+		{
+			"title": "gebaku ken-in",
+			"sort": "Gebaku ken-in",
+			"japanese": "外縛拳印",
+			"translation": "外缚之拳印",
+			"description": "九字印中对应<em>kai</em>的手印，与祈祷时所用的手印相同。"
+		},
+		{
+			"title": "gedan no kamae",
+			"sort": "Gedan no kamae",
+			"japanese": "下段の構え",
+			"description": "低位的架势（构）。"
+		},
+		{
+			"title": "geinyū jutsu",
+			"sort": "Geinyu jutsu",
+			"japanese": "迎入術",
+			"description": "近入的一种战术。忍者潜入敌方领地，散布混乱、恐惧和惊慌，例如借助谣言、纵火和破坏活动。"
+		},
+		{
+			"title": "gekkenjutsu",
+			"sort": "Gekkenjutsu",
+			"japanese": "撃剣術",
+			"description": "剑术格斗。在武艺十八般中与剑术并列。"
+		},
+		{
+			"title": "genin",
+			"sort": "Genin",
+			"japanese": "下忍",
+			"translation": "下级忍者",
+			"description": "忍者的最低等级。这些执行任务的特工从中忍那里接受命令，通常并不认识上忍。他们的长处在于近身格斗、隐匿、渗透和破坏。"
+		},
+		{
+			"title": "Genji",
+			"sort": "Genji",
+			"japanese": "源氏",
+			"description": "对源一族的另一种称呼。"
+		},
+		{
+			"title": "genjutsu",
+			"sort": "Genjutsu",
+			"japanese": "幻術",
+			"translation": "幻象之术"
+		},
+		{
+			"title": "genmai",
+			"sort": "Genmai",
+			"japanese": "玄米",
+			"description": "未经精碾的稻米。"
+		},
+		{
+			"title": "Genpei kassen",
+			"sort": "Genpei kassen",
+			"japanese": "源平合戦",
+			"description": "平氏与源氏之间的源平战争（1180–1185年）。"
+		},
+		{
+			"title": "geri",
+			"sort": "Geri",
+			"japanese": "蹴り",
+			"translation": "踢",
+			"description": "亦读作<em>keri</em>。"
+		},
+		{
+			"title": "geta",
+			"sort": "Geta",
+			"japanese": "下駄",
+			"description": "木制的鞋，底部有高齿，配以交叉带或夹趾带。"
+		},
+		{
+			"title": "gi",
+			"sort": "Gi",
+			"japanese": "着",
+			"translation": "衣服，服装，制服",
+			"description": "训练服。"
+		},
+		{
+			"title": "Gikan-Ryū",
+			"sort": "Gikan-Ryu",
+			"japanese": "義鑑流",
+			"translation": "学习正义之流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "gisō jutsu",
+			"sort": "Giso jutsu",
+			"japanese": "擬装術",
+			"translation": "模仿与伪装之术",
+			"description": "设身处地化身他人、换上新身份的技艺。隐身术的一部分。"
+		},
+		{
+			"title": "godai",
+			"sort": "Godai",
+			"japanese": "五大",
+			"translation": "伟大的五者",
+			"description": "密教中宇宙的五大元素：地、水、火、风和空。"
+		},
+		{
+			"title": "godan",
+			"sort": "Godan",
+			"japanese": "五段",
+			"translation": "第五段",
+			"description": "在武神馆的五段考试中，老师持剑悄无声息地接近学生。学生必须感知危险，避开这一斩。"
+		},
+		{
+			"title": "gogyō",
+			"sort": "Gogyo",
+			"japanese": "五行",
+			"translation": "五元素之说",
+			"description": "从中国道家承袭而来的自然学说：水、木、火、土和金。"
+		},
+		{
+			"title": "gogyō no kata",
+			"sort": "Gogyo no kata",
+			"japanese": "五行の型",
+			"translation": "五种运行之型"
+		},
+		{
+			"title": "gogyō setsu",
+			"sort": "Gogyo setsu",
+			"japanese": "五行説",
+			"translation": "五元素之说",
+			"description": "简称五行。"
+		},
+		{
+			"title": "gojō goyoku",
+			"sort": "Gojo goyoku",
+			"japanese": "五情五欲",
+			"description": "忍者通过人的性格特点来操纵人的策略。其五项原则为<em>aisha</em>、<em>dosha</em>、<em>kisha</em>、<em>kyōsha</em>和<em>rakusha</em>。"
+		},
+		{
+			"title": "goku no kamae",
+			"sort": "Goku no kamae",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "Gorin no sho",
+			"sort": "Gorin no sho",
+			"japanese": "五輪の書",
+			"translation": "五轮之书",
+			"description": "宫本武藏论述剑术与战略的著作。"
+		},
+		{
+			"title": "gorintō",
+			"sort": "Gorinto",
+			"japanese": "五輪塔",
+			"description": "由五个部分叠成的石塔：立方体、球体、金字塔形、半月形和宝珠。"
+		},
+		{
+			"title": "goshin no kata",
+			"sort": "Goshin no kata",
+			"japanese": "梧心の型",
+			"translation": "梧桐之心之型"
+		},
+		{
+			"title": "goton jutsu",
+			"sort": "Goton jutsu",
+			"japanese": "五遁術",
+			"translation": "五种遁逃之术",
+			"description": "五遁法的另一个名称。"
+		},
+		{
+			"title": "gotonpō",
+			"sort": "Gotonpo",
+			"japanese": "五遁法",
+			"translation": "五种遁逃之法",
+			"description": "忍者借助五行的五种元素逃脱的原则。"
+		},
+		{
+			"title": "gu",
+			"sort": "Gu",
+			"japanese": "具",
+			"translation": "工具"
+		},
+		{
+			"title": "gunryaku heihō",
+			"sort": "Gunryaku heiho",
+			"description": "军事战略。<em>ninja jūhakkei</em>的18个领域之一。"
+		},
+		{
+			"title": "gyaku nagare",
+			"sort": "Gyaku nagare",
+			"japanese": "逆流れ",
+			"translation": "逆向流动",
+			"description": "从一文字之构开始的倒地练习（受身）。"
+		},
+		{
+			"title": "gyaku nage",
+			"sort": "Gyaku nage",
+			"japanese": "逆投げ",
+			"translation": "反向投",
+			"description": "带关节技的投摔。"
+		},
+		{
+			"title": "gyōja no kamae",
+			"sort": "Gyoja no kamae",
+			"japanese": "行者の構え",
+			"translation": "苦行者的架势",
+			"description": "一种架势（构），将长棍像手杖一样竖直握在身侧。"
+		},
+		{
+			"title": "gyōkaku ken",
+			"sort": "Gyokaku ken",
+			"translation": "合一之角",
+			"description": "食指、中指和无名指组成三叉戟，以指尖刺向颈部等身体柔软部位。"
+		},
+		{
+			"title": "Gyokko-Ryū",
+			"sort": "Gyokko-Ryu",
+			"japanese": "玉虎流",
+			"translation": "宝玉之虎的流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "gyokuro",
+			"sort": "Gyokuro",
+			"japanese": "玉露",
+			"description": "高品质的绿茶。据说忍者曾用它制毒：将茶叶埋入土中30至40天，然后与大豆酱混合。病人服后数日内即死，健康人至多70天后死亡。"
+		},
+		{
+			"title": "Gyokushin-Ryū",
+			"sort": "Gyokushin-Ryu",
+			"japanese": "玉心流",
+			"translation": "宝玉之心的流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "gyorin",
+			"sort": "Gyorin",
+			"japanese": "魚鱗",
+			"translation": "鱼鳞",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "ha jutsu",
+			"sort": "Ha jutsu",
+			"japanese": "破術",
+			"translation": "打破之术",
+			"description": "从擒拿中挣脱。"
+		},
+		{
+			"title": "Hagakure",
+			"sort": "Hagakure",
+			"japanese": "葉隠",
+			"translation": "隐藏的树叶",
+			"description": "武士山本常朝的著作，论述武士道的哲学层面。"
+		},
+		{
+			"title": "hakama",
+			"sort": "Hakama",
+			"japanese": "袴",
+			"description": "传统的裙裤。"
+		},
+		{
+			"title": "han",
+			"sort": "Han",
+			"japanese": "藩",
+			"translation": "封建领地，封地，地方",
+			"description": "大名的封地。"
+		},
+		{
+			"title": "hanbō",
+			"sort": "Hanbo",
+			"japanese": "半棒",
+			"translation": "半根棍",
+			"description": "正式名称为三尺棒。"
+		},
+		{
+			"title": "hanbōjutsu",
+			"sort": "Hanbojutsu",
+			"japanese": "半棒術",
+			"description": "使用短棍（半棒）的格斗。"
+		},
+		{
+			"title": "hankyū",
+			"sort": "Hankyu",
+			"japanese": "半弓",
+			"translation": "半弓",
+			"description": "忍者的短弓，有时可以折叠，便于携带。"
+		},
+		{
+			"title": "hanmi no kamae",
+			"sort": "Hanmi no kamae",
+			"japanese": "半身の構え",
+			"translation": "半身",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "happa ken",
+			"sort": "Happa ken",
+			"japanese": "八葉拳",
+			"translation": "八叶之拳"
+		},
+		{
+			"title": "happō hiken",
+			"sort": "Happo hiken",
+			"japanese": "八法秘剣",
+			"translation": "八法与秘剑",
+			"description": "九鬼神传流的八种方法（八法）与秘传剑技（秘剑）。"
+		},
+		{
+			"title": "happō hikenjutsu",
+			"sort": "Happo hikenjutsu",
+			"japanese": "八法秘剣術",
+			"description": "见八法秘剑。"
+		},
+		{
+			"title": "hara",
+			"sort": "Hara",
+			"japanese": "腹",
+			"translation": "腹",
+			"description": "胃与小腹之间的整个区域，被视为精神与身体力量的中心。"
+		},
+		{
+			"title": "hasami bune",
+			"sort": "Hasami bune",
+			"description": "忍者用来把装备运过水面的可折叠船。<cite>《万川集海》</cite>将这种折叠船称为挟箱船（hasamibako bune）：船板以铰链相连，折叠后可装进一只搬运箱。亦称<em>tatami bune</em>。"
+		},
+		{
+			"title": "hashigo",
+			"sort": "Hashigo",
+			"japanese": "梯子",
+			"translation": "梯子",
+			"description": "多以芦苇或竹子制成。在复合词中读作<em>bashigo</em>，例如<em>kumo bashigo</em>。"
+		},
+		{
+			"title": "hashigo yari",
+			"sort": "Hashigo yari",
+			"japanese": "梯子槍",
+			"translation": "梯子枪",
+			"description": "一根长杆，两侧成对伸出横档，顶端有铁钩，用作梯子。"
+		},
+		{
+			"title": "Hatsumi Masaaki",
+			"sort": "Hatsumi Masaaki",
+			"japanese": "初見良昭",
+			"description": "出生时的名字读作Hatsumi Yoshiaki。武神馆武道道场的创立者，武神馆九个流派的宗家，高松寿嗣的弟子。"
+		},
+		{
+			"title": "Hattori Hanzō",
+			"sort": "Hattori Hanzo",
+			"japanese": "服部半蔵",
+			"description": "伊贺地区著名的上忍，同时也是效力于德川家康的武士。"
+		},
+		{
+			"title": "Hayes, Stephen K.",
+			"sort": "Hayes, Stephen K.",
+			"description": "忍术教师，初见良昭的弟子。他是第一位成为指导士的非日本人。他在美国创立了刀心道。"
+		},
+		{
+			"title": "heihō",
+			"sort": "Heiho",
+			"japanese": "兵法",
+			"translation": "战士之法",
+			"description": "既包括作战方法，也包括作战策略（谋略）。"
+		},
+		{
+			"title": "Heike",
+			"sort": "Heike",
+			"japanese": "平家",
+			"description": "平氏的别称。"
+		},
+		{
+			"title": "heipo",
+			"sort": "Heipo",
+			"japanese": "平歩",
+			"translation": "蝾螈之道",
+			"description": "忍者的一种匍匐方法。"
+		},
+		{
+			"title": "hensō jutsu",
+			"sort": "Henso jutsu",
+			"japanese": "変装術",
+			"translation": "伪装之术",
+			"description": "忍者的伪装技艺。隐身术的一部分。"
+		},
+		{
+			"title": "hichō no kamae",
+			"sort": "Hicho no kamae",
+			"japanese": "飛鳥の構え",
+			"translation": "飞鸟之势",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "hidari",
+			"sort": "Hidari",
+			"japanese": "左",
+			"translation": "左"
+		},
+		{
+			"title": "hiken",
+			"sort": "Hiken",
+			"japanese": "秘剣",
+			"translation": "秘传剑技"
+		},
+		{
+			"title": "hira ichimonji no kamae",
+			"sort": "Hira ichimonji no kamae",
+			"japanese": "平一文字の構え",
+			"description": "平衡的架势（构），身体可以从中闪避。体重均匀地落在双脚上，双臂向两侧伸展，用以横扫、抓握或拦截攻击。"
+		},
+		{
+			"title": "hira no kamae",
+			"sort": "Hira no kamae",
+			"japanese": "平の構え",
+			"translation": "平坦的架势",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "hira shuriken",
+			"sort": "Hira shuriken",
+			"japanese": "平手裏剣",
+			"description": "扁平的星形飞镖（手里剑），大小和形状各异，尖角的数目也各不相同。"
+		},
+		{
+			"title": "hiragana",
+			"sort": "Hiragana",
+			"japanese": "平仮名",
+			"description": "用于书写纯日语词汇的日语音节文字。相传由弘法大师创制。"
+		},
+		{
+			"title": "hiraki ashi",
+			"sort": "Hiraki ashi",
+			"japanese": "開き足",
+			"description": "双脚向侧面滑动。"
+		},
+		{
+			"title": "hishi",
+			"sort": "Hishi",
+			"japanese": "菱",
+			"translation": "日本菱（Trapa japonica），菱角，铁蒺藜",
+			"description": "晒干的菱角，用途与铁菱相同。"
+		},
+		{
+			"title": "hisoken",
+			"sort": "Hisoken",
+			"translation": "隐藏之矛",
+			"description": "指刀拳的另一个名称，以拇指指尖刺入半软的目标。"
+		},
+		{
+			"title": "hito washi",
+			"sort": "Hito washi",
+			"japanese": "人鷲",
+			"translation": "人鹫",
+			"description": "忍者的飞行器。亦称<em>yamidoko</em>。"
+		},
+		{
+			"title": "hobakujutsu",
+			"sort": "Hobakujutsu",
+			"japanese": "捕縛術",
+			"description": "捆绑之术。在武艺十八般中与捕绳术并列。"
+		},
+		{
+			"title": "hōen",
+			"sort": "Hoen",
+			"japanese": "方円",
+			"translation": "方与圆",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "Hōjō",
+			"sort": "Hojo",
+			"japanese": "北条",
+			"description": "由武士崛起的氏族，是战国时代争夺权力的家族之一。"
+		},
+		{
+			"title": "hōjō jutsu",
+			"sort": "Hojo jutsu",
+			"japanese": "捕縄術",
+			"translation": "捆绑之术"
+		},
+		{
+			"title": "hojutsu",
+			"sort": "Hojutsu",
+			"description": "在真实与欺骗之间转换的方法，初见良昭将其等同于虚实转换法。在武艺十八般中，它代表幻象。"
+		},
+		{
+			"title": "hokamuri",
+			"sort": "Hokamuri",
+			"japanese": "頬被り",
+			"description": "包住头部和脸颊的布巾。手拭的另一个名称。"
+		},
+		{
+			"title": "hōkashi",
+			"sort": "Hokashi",
+			"description": "乐师。七方出中忍者的伪装之一。"
+		},
+		{
+			"title": "hōken jūroppō",
+			"sort": "Hoken juroppo",
+			"japanese": "宝拳十六法",
+			"translation": "宝贵之拳的十六种方法"
+		},
+		{
+			"title": "Hokkaidō",
+			"sort": "Hokkaido",
+			"japanese": "北海道",
+			"description": "日本最北端的岛屿，首府为札幌。"
+		},
+		{
+			"title": "hokō jutsu",
+			"sort": "Hoko jutsu",
+			"japanese": "歩行術",
+			"translation": "正确行走之术"
+		},
+		{
+			"title": "hōko no kamae",
+			"sort": "Hoko no kamae",
+			"japanese": "抱圍の構え",
+			"translation": "拥抱的架势",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "honbu",
+			"sort": "Honbu",
+			"japanese": "本部",
+			"translation": "总部"
+		},
+		{
+			"title": "hōshi",
+			"sort": "Hoshi",
+			"japanese": "鋒矢",
+			"translation": "箭头",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "hotarubi jutsu",
+			"sort": "Hotarubi jutsu",
+			"japanese": "蛍火術",
+			"translation": "萤火虫之光",
+			"description": "远入的一种战术。派一名信使携带伪造的消息穿越敌方领地，并故意让敌人将其截获。"
+		},
+		{
+			"title": "hyōjō hokō",
+			"sort": "Hyojo hoko",
+			"japanese": "氷上歩行",
+			"translation": "冰上行走"
+		},
+		{
+			"title": "iai jutsu",
+			"sort": "Iai jutsu",
+			"japanese": "居合術",
+			"translation": "快速拔刀",
+			"description": "武士的一种技艺，力求第一刀就将对手斩杀。"
+		},
+		{
+			"title": "iaidō",
+			"sort": "Iaido",
+			"japanese": "居合道",
+			"description": "由居合术发展而来的体育运动。"
+		},
+		{
+			"title": "iainuki",
+			"sort": "Iainuki",
+			"japanese": "居合抜き",
+			"translation": "快速拔刀",
+			"description": "快速拔刀，神传不动流专精于此。"
+		},
+		{
+			"title": "ichi no kamae",
+			"sort": "Ichi no kamae",
+			"japanese": "一の構え",
+			"translation": "一的架势",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "ichimonji no kamae",
+			"sort": "Ichimonji no kamae",
+			"japanese": "一文字の構え",
+			"translation": "直画的架势",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "Iga",
+			"sort": "Iga",
+			"japanese": "伊賀",
+			"description": "日本旧时的令制国，邻近京都，忍者在此尤为活跃。"
+		},
+		{
+			"title": "Iga Ueno",
+			"sort": "Iga Ueno",
+			"japanese": "伊賀上野",
+			"description": "伊贺地区的城市，曾是忍者的中心。如今有博物馆和节庆纪念他们。"
+		},
+		{
+			"title": "Iga Ueno-jō",
+			"sort": "Iga Ueno-jo",
+			"japanese": "伊賀上野城",
+			"description": "伊贺上野的城堡。"
+		},
+		{
+			"title": "iga dama",
+			"sort": "Iga dama",
+			"japanese": "伊賀玉",
+			"description": "蓟，见铁菱。"
+		},
+		{
+			"title": "Iga-Ryū",
+			"sort": "Iga-Ryu",
+			"japanese": "伊賀流",
+			"description": "忍术流派，即今天的云隐流。"
+		},
+		{
+			"title": "Igasaki Dōjun",
+			"sort": "Igasaki Dojun",
+			"japanese": "伊賀崎道順",
+			"description": "伊贺国的著名忍者，曾用一条令人惊叹的计策潜入敌方城堡。"
+		},
+		{
+			"title": "ikki",
+			"sort": "Ikki",
+			"japanese": "一揆",
+			"translation": "起义"
+		},
+		{
+			"title": "ikkō ikki",
+			"sort": "Ikko ikki",
+			"japanese": "一向一揆",
+			"translation": "净土真宗佛教徒的起义",
+			"description": "15、16世纪佛教净土真宗信徒发动的起义及其结成的同盟。"
+		},
+		{
+			"title": "in",
+			"sort": "In",
+			"japanese": "陰",
+			"translation": "阴影、负面、隐秘"
+		},
+		{
+			"title": "in shin ton kei",
+			"sort": "In shin ton kei",
+			"description": "忍术的原则：以最小的付出取得最大的效果，尽可能少地改变事物的自然进程。"
+		},
+		{
+			"title": "innin",
+			"sort": "Innin",
+			"japanese": "陰忍",
+			"translation": "隐秘潜入",
+			"description": "<cite>《万川集海》</cite>第五、六、七卷的标题。这几卷讲的是阴，即忍者知识的黑暗面，包括计谋、欺骗和突袭。"
+		},
+		{
+			"title": "inpō",
+			"sort": "Inpo",
+			"japanese": "隠法",
+			"description": "隐藏与伪装的技艺。"
+		},
+		{
+			"title": "inrō",
+			"sort": "Inro",
+			"japanese": "印籠",
+			"translation": "旅行药盒"
+		},
+		{
+			"title": "inton",
+			"sort": "Inton",
+			"japanese": "隠遁",
+			"description": "隐身术的别称，即隐藏与伪装的技艺。"
+		},
+		{
+			"title": "inton jutsu",
+			"sort": "Inton jutsu",
+			"japanese": "隠遁術",
+			"translation": "忍者逃脱与藏身的技艺"
+		},
+		{
+			"title": "in’yō",
+			"sort": "In’yo",
+			"japanese": "陰陽",
+			"translation": "宇宙的二元力量，阴与阳，日与月",
+			"description": "日本对阴阳的称法，阴阳是道家表示二元性的象征。"
+		},
+		{
+			"title": "ippon sugi nobori",
+			"sort": "Ippon sugi nobori",
+			"japanese": "一本杉登り",
+			"translation": "攀爬雪松的一种方法",
+			"description": "攀树用具：一块带钩的铁件，上面系着两根带把手的绳子。"
+		},
+		{
+			"title": "Ishikawa Goemon",
+			"sort": "Ishikawa Goemon",
+			"japanese": "石川五右衛門",
+			"description": "著名的盗贼，传说他是忍者，用忍术行窃，堪称日本的<q>罗宾汉</q>。"
+		},
+		{
+			"title": "ito",
+			"sort": "Ito",
+			"japanese": "意図",
+			"translation": "意图"
+		},
+		{
+			"title": "ja",
+			"sort": "Ja",
+			"japanese": "者",
+			"translation": "人"
+		},
+		{
+			"title": "jari bako",
+			"sort": "Jari bako",
+			"japanese": "砂利箱",
+			"translation": "碎石箱",
+			"description": "装满米、沙或碎石的容器，用来锻炼双手。也称<em>kanshu</em>。"
+		},
+		{
+			"title": "ji",
+			"sort": "Ji",
+			"japanese": "侍",
+			"description": "武士的另一种称呼。"
+		},
+		{
+			"title": "jihi no kokoro",
+			"sort": "Jihi no kokoro",
+			"japanese": "慈悲の心",
+			"translation": "仁慈之心",
+			"description": "忍法中开悟的标志，比爱本身更强大。它源于一次又一次行走在生与死的界线上。"
+		},
+		{
+			"title": "jikatabi",
+			"sort": "Jikatabi",
+			"japanese": "地下足袋",
+			"description": "忍者穿的鞋，大脚趾单独分开，特别适合无声地奔跑和攀爬。"
+		},
+		{
+			"title": "jin",
+			"sort": "Jin",
+			"japanese": "人",
+			"translation": "人"
+		},
+		{
+			"title": "Jin ryaku no maki",
+			"sort": "Jin ryaku no maki",
+			"japanese": "人略の巻",
+			"translation": "人之策略的卷轴",
+			"description": "论述人之策略的书，与<cite>《天略之卷》</cite>和<cite>《地略之卷》</cite>同属一个系列。"
+		},
+		{
+			"title": "jirai",
+			"sort": "Jirai",
+			"japanese": "地雷",
+			"translation": "地雷"
+		},
+		{
+			"title": "jitte",
+			"sort": "Jitte",
+			"japanese": "十手",
+			"translation": "十只手",
+			"description": "带钩的手持武器，用来架住刀剑的劈砍。也读作<em>jutte</em>。"
+		},
+		{
+			"title": "jō",
+			"sort": "Jo",
+			"japanese": "杖",
+			"translation": "手杖、行杖、棍",
+			"description": "全称为四尺棒。"
+		},
+		{
+			"title": "jōei jutsu",
+			"sort": "Joei jutsu",
+			"japanese": "如影術",
+			"translation": "如同影子",
+			"description": "远入的一种战术。在敌对行动爆发前不久，忍者进入敌方领地，那里普遍在备战，他很容易混迹其中，例如充当受雇的劳工或士兵。"
+		},
+		{
+			"title": "jōjutsu",
+			"sort": "Jojutsu",
+			"japanese": "杖術",
+			"description": "用行杖（杖）作战。属于武艺十八般和<em>ninja jūhakkei</em>。"
+		},
+		{
+			"title": "jōnin",
+			"sort": "Jonin",
+			"japanese": "上忍",
+			"translation": "上层忍者",
+			"description": "忍者的最高等级：一族的首领，其真实身份通常只有中忍知道。他向下忍分派任务。他的长处在于政治、战略和哲学。"
+		},
+		{
+			"title": "jū tai jutsu",
+			"sort": "Ju tai jutsu",
+			"japanese": "柔体術",
+			"translation": "柔软身体的技艺",
+			"description": "忍术体术中的擒拿、关节技和绞技。"
+		},
+		{
+			"title": "jūdō",
+			"sort": "Judo",
+			"japanese": "柔道",
+			"translation": "柔和之道",
+			"description": "日本格斗运动，由嘉纳治五郎教授于1882年在柔术的基础上创立。"
+		},
+		{
+			"title": "jūjutsu",
+			"sort": "Jujutsu",
+			"japanese": "柔術",
+			"translation": "顺势之术",
+			"description": "武士的古老日本武术。"
+		},
+		{
+			"title": "jumon",
+			"sort": "Jumon",
+			"japanese": "呪文",
+			"translation": "咒语",
+			"description": "<q>充满力量</q>的话语，日本与真言相对应的说法。它体现智性。"
+		},
+		{
+			"title": "jūmonji no kamae",
+			"sort": "Jumonji no kamae",
+			"japanese": "十文字の構え",
+			"translation": "十字的架势",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "jun nagare",
+			"sort": "Jun nagare",
+			"japanese": "順流れ",
+			"translation": "向前流动",
+			"description": "从一文字之构开始的倒地练习（受身）。"
+		},
+		{
+			"title": "jūnantaisō",
+			"sort": "Junantaiso",
+			"japanese": "柔軟体操",
+			"translation": "柔韧体操",
+			"description": "忍者锻炼灵活性和柔韧性的练习。"
+		},
+		{
+			"title": "jutsu",
+			"sort": "Jutsu",
+			"japanese": "術",
+			"translation": "技艺、手段、技术"
+		},
+		{
+			"title": "jutte",
+			"sort": "Jutte",
+			"japanese": "十手",
+			"translation": "十只手",
+			"description": "带钩的手持武器，用来架住刀剑的劈砍。也读作<em>jitte</em>。"
+		},
+		{
+			"title": "ka",
+			"sort": "Ka",
+			"japanese": "火",
+			"translation": "火"
+		},
+		{
+			"title": "ka jutsu",
+			"sort": "Ka jutsu",
+			"japanese": "火術",
+			"translation": "火之术",
+			"description": "对火、火器和爆炸物的运用。"
+		},
+		{
+			"title": "ka no kata",
+			"sort": "Ka no kata",
+			"japanese": "火の型",
+			"translation": "火之型"
+		},
+		{
+			"title": "kabuto",
+			"sort": "Kabuto",
+			"japanese": "兜",
+			"translation": "头盔",
+			"description": "日本盔甲的头盔。"
+		},
+		{
+			"title": "kagami",
+			"sort": "Kagami",
+			"japanese": "鏡",
+			"translation": "镜子"
+		},
+		{
+			"title": "kagi kōhō geri",
+			"sort": "Kagi koho geri",
+			"japanese": "鈎後方蹴り",
+			"translation": "向后的钩踢"
+		},
+		{
+			"title": "kagi nawa",
+			"sort": "Kagi nawa",
+			"japanese": "鈎縄",
+			"translation": "钩绳",
+			"description": "一端带钩的长绳。"
+		},
+		{
+			"title": "kagi yari",
+			"sort": "Kagi yari",
+			"japanese": "鈎槍",
+			"translation": "钩矛",
+			"description": "忍者的武器，可用来格挡刀剑的劈砍，也可用来攀树。也称镰枪。"
+		},
+		{
+			"title": "kaiki",
+			"sort": "Kaiki",
+			"japanese": "開器",
+			"translation": "开启用的工具",
+			"description": "<cite>《万川集海》</cite>中一卷的标题，讲述开门、开锁和破门而入的工具。作为手拭的别称，此词并无文献依据。"
+		},
+		{
+			"title": "kaiten",
+			"sort": "Kaiten",
+			"japanese": "回転",
+			"translation": "转动、旋转、翻滚"
+		},
+		{
+			"title": "kaki",
+			"sort": "Kaki",
+			"japanese": "火器",
+			"translation": "火之器具",
+			"description": "<cite>《万川集海》</cite>最后一卷的标题，收录炸药、烟雾弹、药物、麻醉剂和毒药的配方。"
+		},
+		{
+			"title": "kakushi kokeshi",
+			"sort": "Kakushi kokeshi",
+			"description": "内藏重物的人偶，用作武器。"
+		},
+		{
+			"title": "kakuyoku",
+			"sort": "Kakuyoku",
+			"japanese": "鶴翼",
+			"translation": "鹤的翅膀",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "kama",
+			"sort": "Kama",
+			"japanese": "鎌",
+			"translation": "镰刀",
+			"description": "整个亚洲用来收割谷物、稻子或甘蔗的工具。"
+		},
+		{
+			"title": "kama ikada",
+			"sort": "Kama ikada",
+			"japanese": "蒲筏",
+			"translation": "灯心草筏",
+			"description": "用灯心草扎成的单人筏子。"
+		},
+		{
+			"title": "kama yari",
+			"sort": "Kama yari",
+			"japanese": "鎌槍",
+			"translation": "钩矛",
+			"description": "忍者的武器，可用来格挡刀剑的劈砍，也可用来攀树。也称钩枪。"
+		},
+		{
+			"title": "kamae",
+			"sort": "Kamae",
+			"japanese": "構え",
+			"translation": "格斗架势"
+		},
+		{
+			"title": "kami gakure no jutsu",
+			"sort": "Kami gakure no jutsu",
+			"japanese": "神隠れの術",
+			"translation": "藏身于神之后的技艺",
+			"description": "迂回接近目标。目标人物戒备过于森严时，忍者便与其亲属或亲信结交，借此接近此人。"
+		},
+		{
+			"title": "kamikaze",
+			"sort": "Kamikaze",
+			"japanese": "神風",
+			"translation": "众神之风",
+			"description": "两场台风的名称，它们摧毁了忽必烈率领的蒙古大军。第二次世界大战中，被迫驾机执行自杀任务、撞向盟军舰船和基地的飞行员也被称为神风。"
+		},
+		{
+			"title": "kamiza",
+			"sort": "Kamiza",
+			"japanese": "神座",
+			"translation": "众神之座",
+			"description": "道场中最重要的位置，挂着宗家的画像，有时也摆放宗教物品。"
+		},
+		{
+			"title": "kana",
+			"sort": "Kana",
+			"japanese": "仮名",
+			"description": "日语的音节文字，是平假名和片假名的统称。日常书写中，它们与中国文字（汉字）混合使用。"
+		},
+		{
+			"title": "kangeiko",
+			"sort": "Kangeiko",
+			"japanese": "寒稽古",
+			"translation": "冬季训练"
+		},
+		{
+			"title": "kanji",
+			"sort": "Kanji",
+			"japanese": "漢字",
+			"translation": "中国文字",
+			"description": "日本人借用了这些文字，如今它们构成日语书写的大部分。"
+		},
+		{
+			"title": "kanjin kaname",
+			"sort": "Kanjin kaname",
+			"japanese": "肝心要",
+			"translation": "要义",
+			"description": "超脱物质世界、体验宇宙法则的人所获得的东西。户隐流的教义把它等同于神心神眼，即<q>神的心与眼</q>。"
+		},
+		{
+			"title": "kanshu",
+			"sort": "Kanshu",
+			"japanese": "慣手",
+			"description": "装满米、沙或碎石的容器，用来锻炼双手。也称砂利箱。"
+		},
+		{
+			"title": "kantō kusha",
+			"sort": "Kanto kusha",
+			"description": "女忍者的男性教官。"
+		},
+		{
+			"title": "kanzashi",
+			"sort": "Kanzashi",
+			"japanese": "簪",
+			"translation": "精美的发簪",
+			"description": "木制或金属制的发簪，像叉子一样有两个齿。"
+		},
+		{
+			"title": "karate dō",
+			"sort": "Karate do",
+			"japanese": "空手道",
+			"translation": "空手之道",
+			"description": "起源于冲绳的格斗运动，冲绳是日本南部的一组群岛。"
+		},
+		{
+			"title": "kasha",
+			"sort": "Kasha",
+			"japanese": "滑車",
+			"translation": "滑轮",
+			"description": "用于绳降的滑轮。"
+		},
+		{
+			"title": "kasugai",
+			"sort": "Kasugai",
+			"japanese": "鎹",
+			"translation": "扒钉",
+			"description": "忍者卡在门上、使门无法打开的扒钉。"
+		},
+		{
+			"title": "kata",
+			"sort": "Kata",
+			"japanese": "型",
+			"translation": "形式",
+			"description": "固定的动作套路。"
+		},
+		{
+			"title": "kata ashi tobi geri",
+			"sort": "Kata ashi tobi geri",
+			"japanese": "片足飛び蹴り",
+			"translation": "单腿跳踢",
+			"description": "一种跳踢：一只脚踢向对手，另一侧膝盖收向身体。"
+		},
+		{
+			"title": "kataga hasami bune",
+			"sort": "Kataga hasami bune",
+			"description": "小船。"
+		},
+		{
+			"title": "katagatae jutsu",
+			"sort": "Katagatae jutsu",
+			"japanese": "方違術",
+			"description": "近入的一种战术。敌人离开营地时，忍者潜入其中，破坏重要设施，使守卫陷入恐慌，并为己方部队打开大门。"
+		},
+		{
+			"title": "katakana",
+			"sort": "Katakana",
+			"japanese": "片仮名",
+			"description": "日语的一种音节文字，主要用于外来词、电报和拟声词。"
+		},
+		{
+			"title": "katana",
+			"sort": "Katana",
+			"japanese": "刀",
+			"translation": "刀",
+			"description": "武士的长刀，刀身弯曲，单面开刃，长61至76厘米。与脇差合称大小。"
+		},
+		{
+			"title": "katana kake",
+			"sort": "Katana kake",
+			"japanese": "刀懸け",
+			"translation": "刀架",
+			"description": "屋内放置刀的架子。脇差只在睡觉或沐浴时才放下，即便如此也放在伸手可及之处。"
+		},
+		{
+			"title": "katate",
+			"sort": "Katate",
+			"japanese": "片手",
+			"translation": "一只手",
+			"description": "单手，例如做倒地练习（受身）时。"
+		},
+		{
+			"title": "Katō Danzō",
+			"sort": "Kato Danzo",
+			"japanese": "加藤段蔵",
+			"description": "著名忍者，据说精通跳跃技巧。"
+		},
+		{
+			"title": "katon",
+			"sort": "Katon",
+			"japanese": "火遁",
+			"description": "借助火逃脱，五遁法的五种方法之一。"
+		},
+		{
+			"title": "katon jutsu",
+			"sort": "Katon jutsu",
+			"japanese": "火遁術",
+			"translation": "借火遁逃的技艺",
+			"description": "五遁法中的一种逃脱技术，以火为逃脱手段。"
+		},
+		{
+			"title": "katsura otoko jutsu",
+			"sort": "Katsura otoko jutsu",
+			"japanese": "桂男術",
+			"translation": "月中之人",
+			"description": "远入的一种战术，名称源自一个古老的中国传说。在敌国与同伴失去联系的忍者依靠当地人的帮助生存。这些当地人称为<em>chitsu mishi</em>，他们为他提供住处，并替他刺探情报。"
+		},
+		{
+			"title": "kayaku jutsu",
+			"sort": "Kayaku jutsu",
+			"japanese": "火薬術",
+			"translation": "运用火与炸药的技艺"
+		},
+		{
+			"title": "kayaku zutsu",
+			"sort": "Kayaku zutsu",
+			"japanese": "火薬筒",
+			"translation": "火药筒",
+			"description": "密封的竹筒，用来携带火药并使其保持干燥。"
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "拳",
+			"translation": "拳头",
+			"description": "作为身体武器的拳头。"
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "剣",
+			"translation": "剑、军刀、刀刃"
+		},
+		{
+			"title": "ken tai ichi jō",
+			"sort": "Ken tai ichi jo",
+			"japanese": "剣体一情",
+			"translation": "身体与武器合一"
+		},
+		{
+			"title": "kendō",
+			"sort": "Kendo",
+			"japanese": "剣道",
+			"translation": "剑之道",
+			"description": "由武士的剑术发展而来的格斗运动。如今以竹刀代替刀，并穿戴护具保护身体。"
+		},
+		{
+			"title": "kenjutsu",
+			"sort": "Kenjutsu",
+			"japanese": "剣術",
+			"translation": "剑的技艺",
+			"description": "封建时代日本的剑术。"
+		},
+		{
+			"title": "kenpō",
+			"sort": "Kenpo",
+			"japanese": "拳法",
+			"translation": "拳之法",
+			"description": "徒手格斗方法，在武艺十八般中与柔术并列。"
+		},
+		{
+			"title": "kensei",
+			"sort": "Kensei",
+			"japanese": "剣聖",
+			"translation": "剑圣",
+			"description": "彻底领悟道之本质、被视为几乎无敌的人。最著名的例子是宫本武藏。"
+		},
+		{
+			"title": "kenshō",
+			"sort": "Kensho",
+			"japanese": "見性",
+			"translation": "领悟宇宙真理",
+			"description": "对万物的理解，即开悟，也称悟。"
+		},
+		{
+			"title": "keri",
+			"sort": "Keri",
+			"japanese": "蹴り",
+			"translation": "踢",
+			"description": "也读作<em>geri</em>。"
+		},
+		{
+			"title": "ketsuin",
+			"sort": "Ketsuin",
+			"japanese": "結印",
+			"translation": "结手印",
+			"description": "手的姿势，日本与印相相对应的说法。它体现身体的行动。"
+		},
+		{
+			"title": "ki",
+			"sort": "Ki",
+			"japanese": "気",
+			"translation": "能量、生命力、生命活动"
+		},
+		{
+			"title": "kiai",
+			"sort": "Kiai",
+			"japanese": "気合",
+			"translation": "呼喊、斗志",
+			"description": "在战斗呼喊中释放能量，这一呼喊应伴随有效的技术。传说有些大师能用喊声杀死小动物，或让人短暂麻痹；能证实的只是，突如其来的喊声会让对手一时受惊。"
+		},
+		{
+			"title": "kiai jutsu",
+			"sort": "Kiai jutsu",
+			"japanese": "気合術",
+			"translation": "战斗呼喊的技艺",
+			"description": "运用气合的技艺。"
+		},
+		{
+			"title": "Kido Yazaemon",
+			"sort": "Kido Yazaemon",
+			"japanese": "城戸弥左衛門",
+			"description": "著名忍者，曾试图刺杀织田信长，但未能成功。"
+		},
+		{
+			"title": "kigomi",
+			"sort": "Kigomi",
+			"japanese": "着込み",
+			"translation": "内甲",
+			"description": "穿在衣服下面的护甲，例如锁帷子；有些用绗缝布料制成的款式还另加涂漆的小甲片。战士和旅人都会穿；没有证据表明忍者经常穿着。"
+		},
+		{
+			"title": "kihon happō gata",
+			"sort": "Kihon happo gata",
+			"japanese": "基本八法型",
+			"translation": "八种基本型"
+		},
+		{
+			"title": "kikaigaku",
+			"sort": "Kikaigaku",
+			"japanese": "機械学",
+			"translation": "力学",
+			"description": "身体对攻击最有效的反应，包括步法、侧闪、格斗距离以及身体武器的正确运用。"
+		},
+		{
+			"title": "kikaku ken",
+			"sort": "Kikaku ken",
+			"japanese": "鬼角拳",
+			"translation": "鬼角之拳"
+		},
+		{
+			"title": "kin",
+			"sort": "Kin",
+			"japanese": "金",
+			"translation": "金、金属"
+		},
+		{
+			"title": "kinton",
+			"sort": "Kinton",
+			"japanese": "金遁",
+			"description": "借助金属逃脱，五遁法的五种方法之一。"
+		},
+		{
+			"title": "kinton jutsu",
+			"sort": "Kinton jutsu",
+			"japanese": "金遁術",
+			"translation": "借金属遁逃的技艺",
+			"description": "五遁法中的一种逃脱技术，以金属为逃脱手段。"
+		},
+		{
+			"title": "kiri",
+			"sort": "Kiri",
+			"japanese": "切小刀",
+			"translation": "小锯"
+		},
+		{
+			"title": "kisha",
+			"sort": "Kisha",
+			"japanese": "綺者",
+			"translation": "美丽的人",
+			"description": "五情五欲中的一项原则，利用人的虚荣心。"
+		},
+		{
+			"title": "kishaku",
+			"sort": "Kishaku",
+			"japanese": "耆著",
+			"translation": "罗盘",
+			"description": "浮水罗盘：一块磁化的铁片，常做成鱼形或船形，浮在盛水的碗里。这一原理源自中国；<cite>《万川集海》</cite>介绍了这种罗盘的制作方法。"
+		},
+		{
+			"title": "kiten",
+			"sort": "Kiten",
+			"japanese": "起転",
+			"translation": "手翻",
+			"description": "从蹲姿经双手撑地成手倒立，再经桥形翻回，双脚落地。"
+		},
+		{
+			"title": "kiten ken",
+			"sort": "Kiten ken",
+			"japanese": "起転拳",
+			"translation": "产生转向的拳"
+		},
+		{
+			"title": "kitsune gakure no jutsu",
+			"sort": "Kitsune gakure no jutsu",
+			"japanese": "狐隠術",
+			"translation": "像狐狸一样藏身的技艺",
+			"description": "像狐狸那样藏身于芦苇丛中的技术。"
+		},
+		{
+			"title": "ko ashi",
+			"sort": "Ko ashi",
+			"japanese": "小足",
+			"translation": "小步",
+			"description": "忍者的一种步法。"
+		},
+		{
+			"title": "kō ken",
+			"sort": "Ko ken",
+			"japanese": "鈎拳",
+			"translation": "钩拳"
+		},
+		{
+			"title": "Kōbō Daishi",
+			"sort": "Kobo Daishi",
+			"japanese": "弘法大師",
+			"description": "佛教密宗宗派真言宗的创始人，又名空海。"
+		},
+		{
+			"title": "kobudō",
+			"sort": "Kobudo",
+			"japanese": "古武道",
+			"translation": "古老的武道",
+			"description": "在冲绳发展起来的武器体系，主要把农具当作武器使用。"
+		},
+		{
+			"title": "kobujutsu jūhappan",
+			"sort": "Kobujutsu juhappan",
+			"japanese": "古武術十八般",
+			"translation": "十八种古老武艺",
+			"description": "初见良昭随上野先生修习了三年的武艺。"
+		},
+		{
+			"title": "kodachi",
+			"sort": "Kodachi",
+			"japanese": "小太刀",
+			"translation": "小型的刀",
+			"description": "短刀。"
+		},
+		{
+			"title": "kodachijutsu",
+			"sort": "Kodachijutsu",
+			"japanese": "小太刀術",
+			"description": "以短刀（小太刀）作战，属于<em>bikenjutsu</em>。"
+		},
+		{
+			"title": "Kōga-Ryū",
+			"sort": "Koga-Ryu",
+			"japanese": "甲賀流",
+			"description": "忍术流派，如今很可能已经失传。"
+		},
+		{
+			"title": "kōgai",
+			"sort": "Kogai",
+			"japanese": "笄",
+			"translation": "发簪",
+			"description": "装在脇差侧面的针，用作修补皮具或护理马蹄的工具。"
+		},
+		{
+			"title": "kogakure",
+			"sort": "Kogakure",
+			"japanese": "木隠",
+			"translation": "隐于树叶与树木之后",
+			"description": "作者为本网站选用了这个名字。"
+		},
+		{
+			"title": "kōhō",
+			"sort": "Koho",
+			"japanese": "後方",
+			"translation": "向后"
+		},
+		{
+			"title": "kōhō geri",
+			"sort": "Koho geri",
+			"japanese": "後方蹴り",
+			"translation": "后踢"
+		},
+		{
+			"title": "kōhō kaiten",
+			"sort": "Koho kaiten",
+			"japanese": "後方回転",
+			"translation": "后滚翻"
+		},
+		{
+			"title": "kōhō ukemi",
+			"sort": "Koho ukemi",
+			"japanese": "後方受身",
+			"translation": "向后倒地",
+			"description": "向后的倒地练习（受身）。从站姿深蹲下去，然后向后滚动，背部着地。"
+		},
+		{
+			"title": "kokizami ashi",
+			"sort": "Kokizami ashi",
+			"japanese": "小刻み足",
+			"translation": "短步",
+			"description": "忍者的一种步法。"
+		},
+		{
+			"title": "kokoro",
+			"sort": "Kokoro",
+			"japanese": "心",
+			"translation": "心、精神"
+		},
+		{
+			"title": "koku",
+			"sort": "Koku",
+			"japanese": "石",
+			"description": "日本用于计量大米的容量单位。在封建时代的日本，人们以石领取报酬；一石约合180升大米。"
+		},
+		{
+			"title": "kokū",
+			"sort": "Kokuu",
+			"japanese": "虚空",
+			"translation": "空的空间",
+			"description": "空的空间，即虚无。"
+		},
+		{
+			"title": "kokyūhō",
+			"sort": "Kokyuho",
+			"japanese": "呼吸法",
+			"translation": "呼吸技巧、呼吸控制",
+			"description": "正确呼吸的方法。"
+		},
+		{
+			"title": "komusō",
+			"sort": "Komuso",
+			"japanese": "虚無僧",
+			"translation": "空无之僧",
+			"description": "普化宗的托钵僧。虚无僧云游日本，身穿白色和服，头戴遮住整张脸的大斗笠，携带一把刀、一根长行杖、一把扇子和一支笛子（尺八）。他们永远不得摘下斗笠，在非僧人面前也不得说话。这一宗派在官方层面已不复存在，但也许仍在地下延续。"
+		},
+		{
+			"title": "kongō",
+			"sort": "Kongo",
+			"japanese": "金剛",
+			"translation": "金色的力量",
+			"description": "佛教僧侣用来自卫的短小金属武器。这种权杖象征金刚石，即纯粹知识的标志。也被称为因陀罗的武器。"
+		},
+		{
+			"title": "kongōkai mandara",
+			"sort": "Kongokai mandara",
+			"japanese": "金剛界曼荼羅",
+			"translation": "金刚界的曼荼罗",
+			"description": "严格按几何结构构成的曼荼罗，诸佛与诸神分布在九个区域中。"
+		},
+		{
+			"title": "kongōsho",
+			"sort": "Kongosho",
+			"japanese": "金剛杵",
+			"translation": "金刚权杖",
+			"description": "佛教法器（伐折罗），两端各有三个向内弯曲的尖齿。"
+		},
+		{
+			"title": "koppō jutsu",
+			"sort": "Koppo jutsu",
+			"japanese": "骨法術",
+			"translation": "骨法的技艺",
+			"description": "断骨的技术。通过艰苦的训练强化手脚，以对骨骼施以毁灭性的打击。"
+		},
+		{
+			"title": "koppō ken",
+			"sort": "Koppo ken",
+			"japanese": "骨法拳",
+			"translation": "骨法之拳"
+		},
+		{
+			"title": "kōsei no kamae",
+			"sort": "Kosei no kamae",
+			"japanese": "攻勢の構え",
+			"translation": "进攻的能量",
+			"description": "忍术中的一种架势（构）。"
+		},
+		{
+			"title": "koshi jutsu",
+			"sort": "Koshi jutsu",
+			"japanese": "骨指術",
+			"translation": "骨指的技艺",
+			"description": "针对身体肌肉、造成剧痛的技术。"
+		},
+		{
+			"title": "koshizashi",
+			"sort": "Koshizashi",
+			"japanese": "腰差",
+			"translation": "持于腰间的火炮",
+			"description": "早期的手持火器，杉之坊明算在种子岛看到演示后，命人仿制。"
+		},
+		{
+			"title": "kosshi kihon sanpō",
+			"sort": "Kosshi kihon sanpo",
+			"japanese": "骨指基本三法",
+			"translation": "三种基本打击技术"
+		},
+		{
+			"title": "Kotō-Ryū",
+			"sort": "Koto-Ryu",
+			"japanese": "虎倒流",
+			"translation": "击倒猛虎的流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "kōyaku",
+			"sort": "Koyaku",
+			"japanese": "衡軛",
+			"translation": "牛轭",
+			"description": "谋略中的一种阵形。"
+		},
+		{
+			"title": "kū",
+			"sort": "Ku",
+			"japanese": "空",
+			"translation": "空、真空",
+			"description": "亚原子能量的源头，即虚无，万物的开端。"
+		},
+		{
+			"title": "kū no kata",
+			"sort": "Ku no kata",
+			"japanese": "空の型",
+			"translation": "空之型"
+		},
+		{
+			"title": "ku shaku bō",
+			"sort": "Ku shaku bo",
+			"japanese": "九尺棒",
+			"translation": "九尺长的棍",
+			"description": "超长的棍（2.73米）。"
+		},
+		{
+			"title": "kubotan",
+			"sort": "Kubotan",
+			"japanese": "クボタン",
+			"description": "小圆柱形的拳握武器，可用来对关节施压。"
+		},
+		{
+			"title": "kuda bashigo",
+			"sort": "Kuda bashigo",
+			"japanese": "管梯子",
+			"translation": "管梯"
+		},
+		{
+			"title": "kuden",
+			"sort": "Kuden",
+			"japanese": "口伝",
+			"translation": "口头传承",
+			"description": "以口耳相传而非文字的方式传授武术。"
+		},
+		{
+			"title": "kūhen no kata",
+			"sort": "Kuhen no kata",
+			"japanese": "空変の型",
+			"translation": "空之变化的型"
+		},
+		{
+			"title": "kūhi",
+			"sort": "Kuhi",
+			"japanese": "空飛",
+			"translation": "腾空跃起"
+		},
+		{
+			"title": "kuji goshin hō",
+			"sort": "Kuji goshin ho",
+			"japanese": "九字護身法",
+			"translation": "九字的护身方法",
+			"description": "九字切的别称。"
+		},
+		{
+			"title": "kuji-in",
+			"sort": "Kuji-in",
+			"japanese": "九字印",
+			"translation": "九字之印",
+			"description": "忍者使用的九种手指印（印相）。"
+		},
+		{
+			"title": "kuji-in jin",
+			"sort": "Kuji-in jin",
+			"japanese": "陣",
+			"description": "九字印的第六印。它表示完全依赖神的宇宙意识、信赖自身直觉的人。"
+		},
+		{
+			"title": "kuji-in kai",
+			"sort": "Kuji-in kai",
+			"japanese": "皆",
+			"description": "九字印的第五印。它表示努力接近神的人。其手印为<em>gebaku ken-in</em>。"
+		},
+		{
+			"title": "kuji-in pyō",
+			"sort": "Kuji-in pyo",
+			"japanese": "兵",
+			"description": "九字印的第二印，是金刚石的身体象征，因而也是知识的象征。其手印为<em>daikongō-in</em>。"
+		},
+		{
+			"title": "kuji-in retsu",
+			"sort": "Kuji-in retsu",
+			"japanese": "列",
+			"description": "九字印的第七印。其手印为智拳印。"
+		},
+		{
+			"title": "kuji-in rin",
+			"sort": "Kuji-in rin",
+			"japanese": "臨",
+			"description": "九字印的第一印。它代表金刚，即如金刚石般的闪电。其手印为<em>dokko-in</em>。"
+		},
+		{
+			"title": "kuji-in sha",
+			"sort": "Kuji-in sha",
+			"japanese": "者",
+			"description": "九字印的第四印。"
+		},
+		{
+			"title": "kuji-in tō",
+			"sort": "Kuji-in to",
+			"japanese": "闘",
+			"description": "九字印的第三印。其手印为<em>sotojishi-in</em>。"
+		},
+		{
+			"title": "kuji-in zai",
+			"sort": "Kuji-in zai",
+			"japanese": "在",
+			"description": "九字印的第八印。它象征火，火能焚尽一切不净，使心与宇宙合而为一。"
+		},
+		{
+			"title": "kuji-in zen",
+			"sort": "Kuji-in zen",
+			"japanese": "前",
+			"description": "九字印的第九印。它象征看透万物、完全开悟的人。"
+		},
+		{
+			"title": "kuji-kiri",
+			"sort": "Kuji-kiri",
+			"japanese": "九字切り",
+			"translation": "切九字",
+			"description": "用象征性的刀剑在空中画出防护网格的仪式。不要与九字印混淆。"
+		},
+		{
+			"title": "Kūkai",
+			"sort": "Kukai",
+			"japanese": "空海",
+			"description": "弘法大师的别名。"
+		},
+		{
+			"title": "Kukishinden-Ryū",
+			"sort": "Kukishinden-Ryu",
+			"japanese": "九鬼神伝流",
+			"translation": "九鬼神的流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "kuma",
+			"sort": "Kuma",
+			"japanese": "熊",
+			"translation": "熊"
+		},
+		{
+			"title": "kumade",
+			"sort": "Kumade",
+			"japanese": "熊手",
+			"translation": "耙子、熊爪",
+			"description": "忍者的武器，能造成可怕的伤口，也用于攀爬。"
+		},
+		{
+			"title": "Kumawaka",
+			"sort": "Kumawaka",
+			"description": "甲贺流的著名下忍，率领70名忍者开展游击作战。"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "雲梯子",
+			"translation": "云梯"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "蜘蛛梯子",
+			"translation": "蜘蛛梯"
+		},
+		{
+			"title": "Kumogakure-Ryū",
+			"sort": "Kumogakure-Ryu",
+			"japanese": "雲隠流",
+			"translation": "隐云的流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "kunai",
+			"sort": "Kunai",
+			"japanese": "苦無",
+			"translation": "撬具、忍者投掷刀"
+		},
+		{
+			"title": "kunashi",
+			"sort": "Kunashi",
+			"translation": "折叠铲"
+		},
+		{
+			"title": "kunoichi",
+			"sort": "Kunoichi",
+			"japanese": "くノ一",
+			"description": "女性忍者。据传她们与男性同伴一样接受近身格斗训练，但重点在于影响人的心理。"
+		},
+		{
+			"title": "kunoichi jutsu",
+			"sort": "Kunoichi jutsu",
+			"japanese": "くノ一術",
+			"description": "远入的一种战术，派女性充当特工，以接近关键的男性人物。"
+		},
+		{
+			"title": "Kuroi Ōkami",
+			"sort": "Kuroi Okami",
+			"japanese": "黒い狼",
+			"translation": "黑狼",
+			"description": "位于沃尔夫斯堡的武神馆道场的名称，由指导士马里奥·普吕克哈恩（Mario Plückhahn）主持。"
+		},
+		{
+			"title": "kuruma nagare",
+			"sort": "Kuruma nagare",
+			"japanese": "車流れ",
+			"translation": "滚动的流动",
+			"description": "倒地练习（受身），向后滚动（<em>kōhō kuruma nagare</em>）。"
+		},
+		{
+			"title": "kusari",
+			"sort": "Kusari",
+			"japanese": "鎖",
+			"translation": "链"
+		},
+		{
+			"title": "kusari fundō",
+			"sort": "Kusari fundo",
+			"japanese": "鎖分銅",
+			"description": "两端各有一个重物的短链。"
+		},
+		{
+			"title": "kusari katabira",
+			"sort": "Kusari katabira",
+			"japanese": "鎖帷子",
+			"translation": "锁子甲",
+			"description": "忍者在战斗中穿在忍装束里面或外面的锁子甲。这种链网也保护脸部和手掌。"
+		},
+		{
+			"title": "kusarigama",
+			"sort": "Kusarigama",
+			"japanese": "鎖鎌",
+			"translation": "链镰",
+			"description": "日本镰刀（镰），系有一条加重的链子（锁）。"
+		},
+		{
+			"title": "kusarijutsu",
+			"sort": "Kusarijutsu",
+			"description": "以短链类武器作战。"
+		},
+		{
+			"title": "kūten",
+			"sort": "Kuten",
+			"japanese": "空転",
+			"translation": "空中转身"
+		},
+		{
+			"title": "kyobako fune",
+			"sort": "Kyobako fune",
+			"translation": "箱船",
+			"description": "外面包着皮革的木箱。"
+		},
+		{
+			"title": "kyojitsu tenkan hō",
+			"sort": "Kyojitsu tenkan ho",
+			"japanese": "虚実転換法",
+			"translation": "谎言与真相",
+			"description": "把真话说成谎话、把谎话说成真话的战术，例如在虚弱时示强。"
+		},
+		{
+			"title": "kyoketsu shōge",
+			"sort": "Kyoketsu shoge",
+			"japanese": "距跋渉毛",
+			"description": "忍者喜爱的武器。一把带钩的刀，刀柄上系着一根4米长的绳子，绳端有一个钢环。"
+		},
+		{
+			"title": "kyōmon",
+			"sort": "Kyomon",
+			"description": "实用的教养、观察力和常识。<em>ninja no hachimon</em>的八项修习之一。"
+		},
+		{
+			"title": "kyōnin no jutsu",
+			"sort": "Kyonin no jutsu",
+			"description": "利用人们迷信心理的战术，例如使用恶魔面具、喷火或被认为邪恶的动物。"
+		},
+		{
+			"title": "kyōsha",
+			"sort": "Kyosha",
+			"japanese": "恐者",
+			"translation": "胆怯的人",
+			"description": "五情五欲中的一项原则，利用人的怯懦。"
+		},
+		{
+			"title": "Kyōto",
+			"sort": "Kyoto",
+			"japanese": "京都",
+			"description": "日本古老的皇都。"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "級",
+			"translation": "等级、阶段、类别、学员级别"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "弓",
+			"translation": "弓"
+		},
+		{
+			"title": "kyūdō",
+			"sort": "Kyudo",
+			"japanese": "弓道",
+			"translation": "弓之道",
+			"description": "由用于作战的弓术发展而来的体育运动。"
+		},
+		{
+			"title": "kyūjutsu",
+			"sort": "Kyujutsu",
+			"japanese": "弓術",
+			"translation": "弓的技艺",
+			"description": "武士用弓箭射击的方法。"
+		},
+		{
+			"title": "kyūsho",
+			"sort": "Kyusho",
+			"japanese": "急所",
+			"translation": "要害",
+			"description": "当身所针对的压力点。虎倒流包含完整的要害体系。"
+		},
+		{
+			"title": "li",
+			"sort": "Li",
+			"chinese": "理",
+			"translation": "结构、秩序",
+			"description": "道家思想中，道的结构与形式：一种从不重复、不遵循任何规则的不对称秩序。可以在流水、树皮或冰晶中看到它。"
+		},
+		{
+			"title": "Lin Kuei",
+			"sort": "Lin Kuei",
+			"description": "据称忍术在中国和朝鲜曾使用的名称；但这在历史上并无根据。"
+		},
+		{
+			"title": "ma",
+			"sort": "Ma",
+			"japanese": "間",
+			"translation": "间隙、空隙、间隔、距离"
+		},
+		{
+			"title": "maai",
+			"sort": "Maai",
+			"japanese": "間合い",
+			"translation": "间隔、距离、停顿",
+			"description": "时间与空间上和谐的距离。"
+		},
+		{
+			"title": "mae",
+			"sort": "Mae",
+			"japanese": "前",
+			"translation": "前方、向前、正面"
+		},
+		{
+			"title": "mae gaeshi",
+			"sort": "Mae gaeshi",
+			"japanese": "前返",
+			"translation": "向前的技法"
+		},
+		{
+			"title": "mamukigama",
+			"sort": "Mamukigama",
+			"description": "系着绳索的镰，绳端挂着毒蛇之类的有毒动物。忍者把它向敌人甩去；这只动物会缠住对手，甚至可能致其死亡。"
+		},
+		{
+			"title": "mandala",
+			"sort": "Mandala",
+			"japanese": "曼荼羅",
+			"description": "以一幅图像表现宇宙的示意图，源自坦特罗和密教。在三密中，它代表思想。"
+		},
+		{
+			"title": "mangetsu no kamae",
+			"sort": "Mangetsu no kamae",
+			"japanese": "満月の構え",
+			"translation": "满月架势",
+			"description": "虎倒流的一种架势。战斗者将剑举过头顶，让刀身上的阳光晃花对手的眼睛。"
+		},
+		{
+			"title": "manriki gusari",
+			"sort": "Manriki gusari",
+			"japanese": "万力鎖",
+			"translation": "具有一万之力的锁链",
+			"description": "两端带有铁制握柄的锁链。"
+		},
+		{
+			"title": "mantra",
+			"sort": "Mantra",
+			"japanese": "真言",
+			"translation": "真实之言",
+			"description": "源自坦特罗和密教的音声。在三密中，真言代表言语。"
+		},
+		{
+			"title": "menkyo kaiden",
+			"sort": "Menkyo kaiden",
+			"japanese": "免許皆伝",
+			"description": "证明完全掌握一门武术的证书。师父将它授予一名或多名弟子；持有者由此被认定为这一风格的正统继承人。"
+		},
+		{
+			"title": "metsubushi",
+			"sort": "Metsubushi",
+			"japanese": "目潰し",
+			"translation": "毁眼",
+			"description": "由铁屑、沙子、灰烬或化学物质制成的致盲粉。逃跑时，忍者把它撒向追兵的眼睛。"
+		},
+		{
+			"title": "migi",
+			"sort": "Migi",
+			"japanese": "右",
+			"translation": "右"
+		},
+		{
+			"title": "mikkyō",
+			"sort": "Mikkyo",
+			"japanese": "密教",
+			"translation": "秘密的教义",
+			"description": "佛教中各种坦特罗教法的总称。"
+		},
+		{
+			"title": "miko",
+			"sort": "Miko",
+			"japanese": "巫女",
+			"translation": "神社少女",
+			"description": "在神道神社中侍奉的年轻未婚女子。据传，望月千代女把孤女训练成巫女，同时也训练成女忍者，为武田家刺探情报。"
+		},
+		{
+			"title": "Minamoto",
+			"sort": "Minamoto",
+			"japanese": "源",
+			"description": "著名的家族，又称源氏，曾与平氏交战。"
+		},
+		{
+			"title": "minomushi jutsu",
+			"sort": "Minomushi jutsu",
+			"japanese": "身虫術",
+			"translation": "体内之虫",
+			"description": "<cite>《万川集海》</cite>记载的一种远入战术：忍者唆使敌方的仆从背叛主君。他们的地位越高，价值就越大。"
+		},
+		{
+			"title": "Miyamoto Musashi",
+			"sort": "Miyamoto Musashi",
+			"japanese": "宮本武蔵",
+			"description": "日本最著名的剑客。他多年游历各地以精进剑术，其间赢得了60多场决斗。他创立了Niten-Ichi-Ryū，这一流派同时使用两把剑作战。临终前不久，他写下了<cite>《五轮书》</cite>（<q>五轮之书</q>）。"
+		},
+		{
+			"title": "mizu",
+			"sort": "Mizu",
+			"japanese": "水",
+			"translation": "水"
+		},
+		{
+			"title": "mizu taimatsu",
+			"sort": "Mizu taimatsu",
+			"japanese": "水松炬",
+			"description": "在雨中也能持续燃烧的火把。"
+		},
+		{
+			"title": "mizu tsutsu",
+			"sort": "Mizu tsutsu",
+			"japanese": "水筒",
+			"translation": "呼吸管",
+			"description": "芦苇或木制的管子，忍者需要长时间待在水下时用它呼吸。"
+		},
+		{
+			"title": "mizugumo",
+			"sort": "Mizugumo",
+			"japanese": "水蜘蛛",
+			"translation": "水蜘蛛",
+			"description": "忍者用来穿越沼泽地的工具。"
+		},
+		{
+			"title": "mizukaki",
+			"sort": "Mizukaki",
+			"japanese": "水掻き",
+			"translation": "脚蹼"
+		},
+		{
+			"title": "Mochizuki Chiyome",
+			"sort": "Mochizuki Chiyome",
+			"japanese": "望月千代女",
+			"description": "著名的女忍者，据传受武田信玄之托，统领一个女忍者网络。"
+		},
+		{
+			"title": "moku",
+			"sort": "Moku",
+			"japanese": "木",
+			"translation": "木"
+		},
+		{
+			"title": "mokuton",
+			"sort": "Mokuton",
+			"japanese": "木遁",
+			"description": "借助木和植物遁逃，五遁法的五种方法之一。"
+		},
+		{
+			"title": "mokuton jutsu",
+			"sort": "Mokuton jutsu",
+			"japanese": "木遁術",
+			"translation": "借木遁逃的技法",
+			"description": "五遁法中以木为遁逃手段的遁术。"
+		},
+		{
+			"title": "mon",
+			"sort": "Mon",
+			"japanese": "紋",
+			"translation": "家纹"
+		},
+		{
+			"title": "mono",
+			"sort": "Mono",
+			"japanese": "者",
+			"translation": "人"
+		},
+		{
+			"title": "monomi no jutsu",
+			"sort": "Monomi no jutsu",
+			"japanese": "物見の術",
+			"translation": "侦察之术",
+			"description": "侦察敌方防御的薄弱之处，例如容易进入的房间、后门和无人使用的房间。"
+		},
+		{
+			"title": "Mōri",
+			"sort": "Mori",
+			"japanese": "毛利",
+			"description": "出身本州西部安艺的武士氏族，战国时代争夺权力的家族之一。在毛利元就治下，毛利氏统治了日本的中国地方，后来与织田信长对抗。"
+		},
+		{
+			"title": "mu",
+			"sort": "Mu",
+			"japanese": "武",
+			"translation": "尚武、军事",
+			"description": "亦读作<em>bu</em>。"
+		},
+		{
+			"title": "mudrā",
+			"sort": "Mudra",
+			"japanese": "印相",
+			"translation": "手印",
+			"description": "源自坦特罗和密教的手部姿势。其中九种被吸收进九字印。在三密中，它们代表行动。"
+		},
+		{
+			"title": "mumei mugei no jutsu",
+			"sort": "Mumei mugei no jutsu",
+			"japanese": "無名無芸の術",
+			"translation": "无名，无艺",
+			"description": "隐匿身份之术，是忍者从事谍报的成功秘诀。不应让任何人知道忍者的真面目。"
+		},
+		{
+			"title": "muon no hō",
+			"sort": "Muon no ho",
+			"japanese": "無音の法",
+			"translation": "无声之法"
+		},
+		{
+			"title": "musha dori",
+			"sort": "Musha dori",
+			"japanese": "武者捕り",
+			"description": "Musashi-Ryū的秘传技法。高松寿嗣15岁时与该流派的一名空手道家交手，由此见识了这一技法。"
+		},
+		{
+			"title": "musha shugyō",
+			"sort": "Musha shugyo",
+			"japanese": "武者修行",
+			"translation": "武者的游历",
+			"description": "一种修行方法：武者踏上漫长的旅途以提升自己。途中的艰辛磨炼品格，坚定意志。"
+		},
+		{
+			"title": "musubi bashigo",
+			"sort": "Musubi bashigo",
+			"japanese": "結び梯子",
+			"translation": "绳环梯",
+			"description": "按固定间隔打有绳环的绳索，忍者攀爬时把脚踩进绳环。"
+		},
+		{
+			"title": "musubi nawa",
+			"sort": "Musubi nawa",
+			"japanese": "結び縄",
+			"description": "用马毛制成的绳索。"
+		},
+		{
+			"title": "mute",
+			"sort": "Mute",
+			"japanese": "無手",
+			"translation": "无手",
+			"description": "不用手，例如在倒地练习（受身）中。"
+		},
+		{
+			"title": "nagamaki",
+			"sort": "Nagamaki",
+			"japanese": "長巻",
+			"description": "剑矛薙刀的一种样式。"
+		},
+		{
+			"title": "nagare",
+			"sort": "Nagare",
+			"japanese": "流れ",
+			"translation": "流水",
+			"description": "柔的原理。"
+		},
+		{
+			"title": "nage",
+			"sort": "Nage",
+			"japanese": "投げ",
+			"translation": "投、投掷"
+		},
+		{
+			"title": "nage teppō",
+			"sort": "Nage teppo",
+			"japanese": "投げ鉄砲",
+			"description": "用手或投石索掷向敌人的爆炸弹。其作用如同今天的手榴弹。"
+		},
+		{
+			"title": "nagenawa",
+			"sort": "Nagenawa",
+			"japanese": "投げ縄",
+			"translation": "投掷用的绳索",
+			"description": "套索。玉心流以善用套索著称。"
+		},
+		{
+			"title": "naginata",
+			"sort": "Naginata",
+			"japanese": "薙刀",
+			"translation": "用来砍倒敌人的刀",
+			"description": "剑矛，僧兵的武器，也是武士家女性最喜爱的武器。"
+		},
+		{
+			"title": "naginatadō",
+			"sort": "Naginatado",
+			"japanese": "薙刀道",
+			"translation": "薙刀之道",
+			"description": "使用薙刀的武术，第二次世界大战后主要由女性习练。"
+		},
+		{
+			"title": "nagishi shuriken",
+			"sort": "Nagishi shuriken",
+			"description": "尾端带有穗子以稳定飞行的手里剑。"
+		},
+		{
+			"title": "naibaku ken-in",
+			"sort": "Naibaku ken-in",
+			"japanese": "内縛拳印",
+			"translation": "内缚拳之印",
+			"description": "九字印中对应阵的手印。"
+		},
+		{
+			"title": "neko te",
+			"sort": "Neko te",
+			"japanese": "猫手",
+			"translation": "猫爪",
+			"description": "尖头的顶针，女忍者的武器。"
+		},
+		{
+			"title": "nenriki",
+			"sort": "Nenriki",
+			"japanese": "念力",
+			"translation": "意志力",
+			"description": "凝聚的意图，相当于日本的曼荼罗。它体现忍者的意志。"
+		},
+		{
+			"title": "nichirin-in",
+			"sort": "Nichirin-in",
+			"japanese": "日輪印",
+			"translation": "日轮之印",
+			"description": "九字印中对应在的手印。"
+		},
+		{
+			"title": "Nihon",
+			"sort": "Nihon",
+			"japanese": "日本",
+			"translation": "太阳之源",
+			"description": "日本。亦称Nippon。"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "人",
+			"translation": "人"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "忍",
+			"translation": "忍受、承受、坚持、回避",
+			"description": "亦读作<em>shinobu</em>。"
+		},
+		{
+			"title": "nin shokudai",
+			"sort": "Nin shokudai",
+			"japanese": "忍燭台",
+			"description": "可以悬挂起来的L形火把。"
+		},
+		{
+			"title": "ningu",
+			"sort": "Ningu",
+			"japanese": "忍具",
+			"translation": "忍者的工具"
+		},
+		{
+			"title": "ninja",
+			"sort": "Ninja",
+			"japanese": "忍者",
+			"description": "忍术的修习者：中世纪封建时代的战士、侦察兵、间谍、游击战士和特工。"
+		},
+		{
+			"title": "ninja aruki",
+			"sort": "Ninja aruki",
+			"japanese": "忍者歩き",
+			"translation": "步法",
+			"description": "忍者的各种行走方式，用于无声、隐蔽或快速地移动。"
+		},
+		{
+			"title": "ninja jūhakkei",
+			"sort": "Ninja juhakkei",
+			"japanese": "忍者十八形",
+			"description": "忍者在武艺十八般之外学习的18类秘传技法。两者合起来构成<em>ninpō sanjūrokkei</em>。"
+		},
+		{
+			"title": "ninja ken",
+			"sort": "Ninja ken",
+			"japanese": "忍者剣",
+			"translation": "忍者之剑",
+			"description": "亦称忍者刀。"
+		},
+		{
+			"title": "ninja tō",
+			"sort": "Ninja to",
+			"japanese": "忍者刀",
+			"translation": "忍者之剑",
+			"description": "亦称<em>ninja ken</em>。"
+		},
+		{
+			"title": "ninjutsu",
+			"sort": "Ninjutsu",
+			"japanese": "忍術",
+			"translation": "忍者的武术",
+			"description": "忍者所修习的所有流派的总称。其中常包含非常规的秘传格斗技法。"
+		},
+		{
+			"title": "ninjutsu ka",
+			"sort": "Ninjutsu ka",
+			"japanese": "忍術家",
+			"translation": "忍术的修习者"
+		},
+		{
+			"title": "ninki",
+			"sort": "Ninki",
+			"japanese": "忍器",
+			"translation": "忍者的工具",
+			"description": "<cite>《万川集海》</cite>中介绍装备的部分。它从第九卷开始，一直延续到最后一卷。"
+		},
+		{
+			"title": "ninniku yoroi",
+			"sort": "Ninniku yoroi",
+			"description": "忍装束的另一个名称，即忍者的服装。"
+		},
+		{
+			"title": "ninpō",
+			"sort": "Ninpo",
+			"japanese": "忍法",
+			"translation": "忍者的技艺",
+			"description": "作为人生观的忍术。忍法超越技术，还传授一条精神之路。"
+		},
+		{
+			"title": "ninpō ikkan",
+			"sort": "Ninpo ikkan",
+			"japanese": "忍法一貫",
+			"translation": "忍术是开端，没有终点"
+		},
+		{
+			"title": "ninpō inu bue",
+			"sort": "Ninpo inu bue",
+			"japanese": "忍法狗笛",
+			"description": "忍者驯养动物的技艺。"
+		},
+		{
+			"title": "ninpō mikkyō",
+			"sort": "Ninpo mikkyo",
+			"japanese": "忍法密教",
+			"description": "忍者的秘传教义，以密教为基础。"
+		},
+		{
+			"title": "ninpō sanjūrokkei",
+			"sort": "Ninpo sanjurokkei",
+			"japanese": "忍法三十六計",
+			"description": "忍者学习的36个领域：武艺十八般的18种武艺和<em>ninja jūhakkei</em>的18种秘传技法。这份清单并非一成不变；常有领域被删去，又有别的领域加入。"
+		},
+		{
+			"title": "ninpō taijutsu",
+			"sort": "Ninpo taijutsu",
+			"japanese": "忍法体術",
+			"description": "忍者的徒手格斗。其中也包括倒地法等其他身体技能。"
+		},
+		{
+			"title": "Nippon",
+			"sort": "Nippon",
+			"japanese": "日本",
+			"translation": "太阳之源",
+			"description": "日本。亦称Nihon。"
+		},
+		{
+			"title": "Nishina Daisuke",
+			"sort": "Nishina Daisuke",
+			"japanese": "仁科大助",
+			"description": "户隐流创始人户隐大助的本名。"
+		},
+		{
+			"title": "nodachi",
+			"sort": "Nodachi",
+			"japanese": "野太刀",
+			"translation": "大型战刀",
+			"description": "武士使用的极长的刀，长1–1.80米，通常由仆从携带。"
+		},
+		{
+			"title": "nuki ashi",
+			"sort": "Nuki ashi",
+			"japanese": "抜き足",
+			"translation": "无声的步伐"
+		},
+		{
+			"title": "nunchaku",
+			"sort": "Nunchaku",
+			"japanese": "双節棍",
+			"description": "古武道中的武器：两根木棍用短链或绳子连接而成。忍者是否用过它，非常值得怀疑。"
+		},
+		{
+			"title": "nuntebō",
+			"sort": "Nuntebo",
+			"description": "渔叉：渔民的工具，也可以当作武器使用。"
+		},
+		{
+			"title": "nyūdaki no jutsu",
+			"sort": "Nyudaki no jutsu",
+			"description": "利用守卫的弱点，例如他们的懒惰或愚蠢。"
+		},
+		{
+			"title": "nyūkyo no jutsu",
+			"sort": "Nyukyo no jutsu",
+			"translation": "入侵之术",
+			"description": "等待合适的时机潜入敌方城堡或营地，例如敌军出征之时。"
+		},
+		{
+			"title": "ō",
+			"sort": "O",
+			"japanese": "大",
+			"translation": "大"
+		},
+		{
+			"title": "ō ashi",
+			"sort": "O ashi",
+			"japanese": "大足",
+			"translation": "大步"
+		},
+		{
+			"title": "obi",
+			"sort": "Obi",
+			"japanese": "帯",
+			"translation": "腰带"
+		},
+		{
+			"title": "Oda Nobunaga",
+			"sort": "Oda Nobunaga",
+			"japanese": "織田信長",
+			"description": "军事独裁者，在战国时代试图夺取日本的政权。这位冷酷无情的统帅占据了日本中部，在京都附近修筑城堡，并毫不犹豫地使用欧洲火器。他死后，他的将领们完成了日本的统一。"
+		},
+		{
+			"title": "ōgama",
+			"sort": "Ogama",
+			"japanese": "大鎌",
+			"translation": "大镰",
+			"description": "锁镰的战场版本，体积大得多。"
+		},
+		{
+			"title": "ōkami",
+			"sort": "Okami",
+			"japanese": "狼",
+			"translation": "狼"
+		},
+		{
+			"title": "Okinawa",
+			"sort": "Okinawa",
+			"japanese": "沖縄",
+			"description": "日本南部的群岛。"
+		},
+		{
+			"title": "okuri ashi",
+			"sort": "Okuri ashi",
+			"japanese": "送り足",
+			"translation": "跟进的步伐"
+		},
+		{
+			"title": "ōmetsuke",
+			"sort": "Ometsuke",
+			"japanese": "大目付",
+			"description": "幕府中负责国家警察事务的官员。内战结束后，在秘密警察中效力的忍者归他们管辖。"
+		},
+		{
+			"title": "omote soku gyaku ken no keri",
+			"sort": "Omote soku gyaku ken no keri",
+			"description": "脚掌向内转的踢法。脚从外侧摆向自身身体正前方的中线，在这条线上击中对手，例如大腿内侧。"
+		},
+		{
+			"title": "ongyō no mono",
+			"sort": "Ongyo no mono",
+			"japanese": "隠形の者",
+			"translation": "隐藏之人",
+			"description": "甲贺忍者的别称。"
+		},
+		{
+			"title": "ongyō-in",
+			"sort": "Ongyo-in",
+			"japanese": "隠形印",
+			"translation": "隐形之印",
+			"description": "九字印中对应前的手印。"
+		},
+		{
+			"title": "oni",
+			"sort": "Oni",
+			"japanese": "鬼",
+			"translation": "恶魔、魔鬼、恶灵"
+		},
+		{
+			"title": "oni kudaki",
+			"sort": "Oni kudaki",
+			"japanese": "鬼砕",
+			"translation": "粉碎恶鬼",
+			"description": "关节技。"
+		},
+		{
+			"title": "onibi",
+			"sort": "Onibi",
+			"translation": "恶魔面具",
+			"description": "狰狞的木制面具，忍者用它来惊吓追兵。"
+		},
+		{
+			"title": "onmyōdō",
+			"sort": "Onmyodo",
+			"japanese": "陰陽道",
+			"translation": "占卜与占星术"
+		},
+		{
+			"title": "ono",
+			"sort": "Ono",
+			"japanese": "斧",
+			"translation": "战斧"
+		},
+		{
+			"title": "ono gama",
+			"sort": "Ono gama",
+			"japanese": "斧鎌",
+			"translation": "斧与镰",
+			"description": "战斧与镰组合而成的武器。"
+		},
+		{
+			"title": "onshin jutsu",
+			"sort": "Onshin jutsu",
+			"japanese": "隠身術",
+			"translation": "隐藏之术",
+			"description": "忍者隐藏、伪装和隐身的技艺。"
+		},
+		{
+			"title": "ōten",
+			"sort": "Oten",
+			"japanese": "横転",
+			"translation": "侧手翻"
+		},
+		{
+			"title": "ōtsuchi",
+			"sort": "Otsuchi",
+			"japanese": "大槌",
+			"translation": "大锤",
+			"description": "战锤，神传不动流的一种武器。"
+		},
+		{
+			"title": "ōzutsu",
+			"sort": "Ozutsu",
+			"japanese": "大筒",
+			"translation": "木炮"
+		},
+		{
+			"title": "rakusha",
+			"sort": "Rakusha",
+			"japanese": "楽者",
+			"translation": "贪图安逸的人",
+			"description": "五情五欲中利用人的懒惰的原理。"
+		},
+		{
+			"title": "rappa",
+			"sort": "Rappa",
+			"japanese": "乱破",
+			"description": "忍者的另一种称呼，例如追随风魔小太郎的游击战士。亦称透波。"
+		},
+		{
+			"title": "rei",
+			"sort": "Rei",
+			"japanese": "礼",
+			"translation": "问候、鞠躬、感谢"
+		},
+		{
+			"title": "renzoku",
+			"sort": "Renzoku",
+			"japanese": "連続",
+			"translation": "连续、组合、连贯"
+		},
+		{
+			"title": "ritsudō",
+			"sort": "Ritsudo",
+			"japanese": "律動",
+			"translation": "节奏、感觉"
+		},
+		{
+			"title": "roku shaku bō",
+			"sort": "Roku shaku bo",
+			"japanese": "六尺棒",
+			"translation": "六尺长的棒",
+			"description": "棒最常见的形式，长约1.82米。名称中的六是数字六，尺是日本的长度单位。"
+		},
+		{
+			"title": "rōnin",
+			"sort": "Ronin",
+			"japanese": "浪人",
+			"translation": "波浪之人",
+			"description": "没有主君的武士。失去主君（大名）的武士四处流浪。有的受雇为雇佣兵，有的成为武术教师，有的沦为劫掠农民的强盗。"
+		},
+		{
+			"title": "ryakuhon jutsu",
+			"sort": "Ryakuhon jutsu",
+			"japanese": "略本術",
+			"description": "近入的一种战术：忍者潜入敌营，冒充盟友。这要求那里的人已经认识他，而且他对当地了如指掌。"
+		},
+		{
+			"title": "ryō ashi tobi geri",
+			"sort": "Ryo ashi tobi geri",
+			"japanese": "両足飛び蹴り",
+			"translation": "双腿跳踢",
+			"description": "战斗者双腿同时起跳并保持并拢的跳踢。全身的冲击力都打在对手身上。"
+		},
+		{
+			"title": "ryō yoku geri",
+			"sort": "Ryo yoku geri",
+			"translation": "双腿展翼踢",
+			"description": "主要在战斗者从高处向对手跳下时使用的踢法。"
+		},
+		{
+			"title": "ryōhan jutsu",
+			"sort": "Ryohan jutsu",
+			"description": "近入的一种战术：忍者绑架一名关键人物，以迫使对方接受条件。其他关键人物必须为忍者效力，否则人质就会被处决。"
+		},
+		{
+			"title": "ryōte",
+			"sort": "Ryote",
+			"japanese": "両手",
+			"translation": "双手",
+			"description": "用双手，例如在倒地练习（受身）中。"
+		},
+		{
+			"title": "Ryū",
+			"sort": "Ryu",
+			"japanese": "流",
+			"translation": "流派、风格、传统"
+		},
+		{
+			"title": "ryūha",
+			"sort": "Ryuha",
+			"japanese": "流派",
+			"translation": "某一流派、风格或传统的学派",
+			"description": "流的较长形式。"
+		},
+		{
+			"title": "ryūsui",
+			"sort": "Ryusui",
+			"japanese": "流水",
+			"translation": "流水"
+		},
+		{
+			"title": "sabaki",
+			"sort": "Sabaki",
+			"japanese": "捌き",
+			"translation": "身体的移动"
+		},
+		{
+			"title": "sai",
+			"sort": "Sai",
+			"japanese": "釵",
+			"description": "古武道中的武器。"
+		},
+		{
+			"title": "Saichō",
+			"sort": "Saicho",
+			"japanese": "最澄",
+			"description": "传教大师的另一个名字。"
+		},
+		{
+			"title": "Saiga Magoichi",
+			"sort": "Saiga Magoichi",
+			"japanese": "雑賀孫一",
+			"description": "杂贺射手的首领，常被归入忍者之列，精通火器和炸药。他的部下都是出色的狙击手。他创立了<em>shaki no jutsu</em>。"
+		},
+		{
+			"title": "saimin jutsu",
+			"sort": "Saimin jutsu",
+			"japanese": "催眠術",
+			"translation": "催眠之术"
+		},
+		{
+			"title": "sake",
+			"sort": "Sake",
+			"japanese": "酒",
+			"translation": "米酒、酒"
+		},
+		{
+			"title": "sakki",
+			"sort": "Sakki",
+			"japanese": "殺気",
+			"translation": "杀意",
+			"description": "武神馆的五段考核以它命名：弟子必须在看不见的情况下躲开一把剑。初见良昭在高松寿嗣门下通过了这项考核。"
+		},
+		{
+			"title": "sakki jutsu",
+			"sort": "Sakki jutsu",
+			"japanese": "察気術",
+			"translation": "揣度他人心意之术",
+			"description": "一种直觉性的洞察，使战斗者能在攻击发出之前就将其躲开。"
+		},
+		{
+			"title": "samurai",
+			"sort": "Samurai",
+			"japanese": "侍",
+			"description": "日本的武士阶层。"
+		},
+		{
+			"title": "san shaku bō",
+			"sort": "San shaku bo",
+			"japanese": "三尺棒",
+			"translation": "三尺长的棒",
+			"description": "长三尺的棍，约91厘米。另一个名称是半棒。"
+		},
+		{
+			"title": "san shitan ken",
+			"sort": "San shitan ken",
+			"japanese": "三指端拳",
+			"description": "用三根手指的指端拳变体。"
+		},
+		{
+			"title": "sanmitsu",
+			"sort": "Sanmitsu",
+			"japanese": "三密",
+			"translation": "三种秘密",
+			"description": "密教的三种力量：思想、言语和行动。它们分别以曼荼罗、真言和印相为代表。"
+		},
+		{
+			"title": "sanmyaku",
+			"sort": "Sanmyaku",
+			"japanese": "山脈",
+			"translation": "山脉",
+			"description": "武神馆官方杂志的名称。"
+		},
+		{
+			"title": "sanpō hiden",
+			"sort": "Sanpo hiden",
+			"japanese": "三法秘伝",
+			"description": "户隐流的三件秘宝：手里剑<em>senban shuriken</em>、爪具手钩和竹筒<em>shindake</em>。"
+		},
+		{
+			"title": "sansa jutsu",
+			"sort": "Sansa jutsu",
+			"japanese": "散策術",
+			"description": "忍者的奔跑技法。"
+		},
+		{
+			"title": "sanshin no kata",
+			"sort": "Sanshin no kata",
+			"japanese": "三心の型",
+			"translation": "三心之型"
+		},
+		{
+			"title": "sashi ashi",
+			"sort": "Sashi ashi",
+			"japanese": "差し足",
+			"translation": "隐藏的步伐",
+			"description": "交叉步。"
+		},
+		{
+			"title": "satobito jutsu",
+			"sort": "Satobito jutsu",
+			"japanese": "里人術",
+			"description": "远入的一种战术：忍者收买敌方统治者手下心怀不满、贪财或野心勃勃的臣民为自己效力。这些人提供情报，保持退路畅通，或为他提供物资。"
+		},
+		{
+			"title": "satori",
+			"sort": "Satori",
+			"japanese": "悟り",
+			"translation": "领会、理解、开悟"
+		},
+		{
+			"title": "saya",
+			"sort": "Saya",
+			"japanese": "鞘",
+			"translation": "刀鞘"
+		},
+		{
+			"title": "sayū kaiten",
+			"sort": "Sayu kaiten",
+			"japanese": "左右廻転",
+			"translation": "左右翻滚"
+		},
+		{
+			"title": "seigan no kamae",
+			"sort": "Seigan no kamae",
+			"japanese": "正眼の構え",
+			"description": "对准对手双眼的架势。"
+		},
+		{
+			"title": "Seii taishōgun",
+			"sort": "Seii taishogun",
+			"japanese": "征夷大将軍",
+			"translation": "征服蛮夷的将军",
+			"description": "原为军队最高统帅的称号，后来简称为将军。"
+		},
+		{
+			"title": "seishin teki kyōyō",
+			"sort": "Seishin teki kyoyo",
+			"japanese": "精神的教養",
+			"translation": "心智与直觉的培养",
+			"description": "<em>ninja jūhakkei</em>18项修习内容中的第一项。"
+		},
+		{
+			"title": "seiza no kamae",
+			"sort": "Seiza no kamae",
+			"japanese": "正座の構え",
+			"translation": "正确的坐姿",
+			"description": "跪坐，忍术的一种构（即架势）。"
+		},
+		{
+			"title": "Sekigahara",
+			"sort": "Sekigahara",
+			"japanese": "関ヶ原",
+			"description": "美浓的一个小村庄，德川家康在此附近彻底战胜了他的敌人。"
+		},
+		{
+			"title": "senban",
+			"sort": "Senban",
+			"japanese": "銛盤",
+			"description": "有四个尖角的手里剑。"
+		},
+		{
+			"title": "senban shaken",
+			"sort": "Senban shaken",
+			"japanese": "銛盤捨剣",
+			"description": "中间有孔的手里剑。"
+		},
+		{
+			"title": "Sengoku jidai",
+			"sort": "Sengoku jidai",
+			"japanese": "戦国時代",
+			"translation": "诸国相争的时代",
+			"description": "日本血腥内战的时期，约1467–1615年。"
+		},
+		{
+			"title": "senjō jutsu",
+			"sort": "Senjo jutsu",
+			"japanese": "戦場術",
+			"translation": "战场之术",
+			"description": "调动部队。"
+		},
+		{
+			"title": "senjutsu",
+			"sort": "Senjutsu",
+			"japanese": "戦術",
+			"translation": "战争之术",
+			"description": "军事战略。"
+		},
+		{
+			"title": "sennin",
+			"sort": "Sennin",
+			"japanese": "仙人",
+			"translation": "荒野中的苦行者"
+		},
+		{
+			"title": "sensei",
+			"sort": "Sensei",
+			"japanese": "先生",
+			"translation": "先出生者",
+			"description": "老师。"
+		},
+		{
+			"title": "sha",
+			"sort": "Sha",
+			"japanese": "者",
+			"translation": "人"
+		},
+		{
+			"title": "shaken",
+			"sort": "Shaken",
+			"japanese": "車剣",
+			"description": "多尖角的手里剑。"
+		},
+		{
+			"title": "shaki no jutsu",
+			"sort": "Shaki no jutsu",
+			"japanese": "捨旗の術",
+			"translation": "丢弃旗帜",
+			"description": "杂贺孙一在难波·神崎川之战中使用的计谋：他的部下留下自己的旗帜，打着伪造的织田信长的旗帜进入新阵地，信长的部队把他们当成了友军。"
+		},
+		{
+			"title": "shako ken",
+			"sort": "Shako ken",
+			"japanese": "蝦蛄拳",
+			"translation": "螃蟹之拳"
+		},
+		{
+			"title": "shaku",
+			"sort": "Shaku",
+			"japanese": "尺",
+			"description": "日本的长度单位。一尺等于30.3厘米（10/33米）。"
+		},
+		{
+			"title": "shakuhachi",
+			"sort": "Shakuhachi",
+			"japanese": "尺八",
+			"description": "虚无僧的笛子。其名意为<q>一尺八寸</q>，约54.5厘米；标准的尺八有五个指孔。"
+		},
+		{
+			"title": "shakujō",
+			"sort": "Shakujo",
+			"japanese": "錫杖",
+			"translation": "锡杖",
+			"description": "末端带环的僧杖。僧人行走时，环相击发出的声响意在把爬行动物赶离道路，使佛教僧人能够遵守不杀生的戒律。"
+		},
+		{
+			"title": "shi shitan ken",
+			"sort": "Shi shitan ken",
+			"japanese": "四指端拳",
+			"description": "指端拳的一种变体，以拇指支撑。"
+		},
+		{
+			"title": "shiatsu",
+			"sort": "Shiatsu",
+			"japanese": "指圧",
+			"translation": "指压",
+			"description": "日本的一种按摩，据说通过按压身体的特定部位可以缓解或治疗昏厥及其他病症。"
+		},
+		{
+			"title": "shiba gakure no jutsu",
+			"sort": "Shiba gakure no jutsu",
+			"japanese": "柴隠れの術",
+			"description": "伊贺和甲贺传承中的一种隐身术技法：藏身于茂密的灌木丛、高草或柴堆中。"
+		},
+		{
+			"title": "shichi hō de",
+			"sort": "Shichi ho de",
+			"japanese": "七方出",
+			"translation": "七种行走之道",
+			"description": "忍者的七种传统伪装。"
+		},
+		{
+			"title": "shidōshi",
+			"sort": "Shidoshi",
+			"japanese": "指導士",
+			"translation": "指路之人",
+			"description": "传授开悟之武艺的教师。"
+		},
+		{
+			"title": "shihan",
+			"sort": "Shihan",
+			"japanese": "師範",
+			"translation": "大师级教练",
+			"description": "1695年，东山天皇任命高木折右卫门重俊为皇家卫队的师范。"
+		},
+		{
+			"title": "shihō tenchi tobi",
+			"sort": "Shiho tenchi tobi",
+			"japanese": "四方天地飛",
+			"translation": "向四方及天地跳跃"
+		},
+		{
+			"title": "shikan ken",
+			"sort": "Shikan ken",
+			"japanese": "指環拳",
+			"translation": "指环拳"
+		},
+		{
+			"title": "shiken haramitsu daikōmyō",
+			"sort": "Shiken haramitsu daikomyo",
+			"japanese": "四拳波羅蜜大光明",
+			"description": "训练开始时念诵的话语。极为简化地说，其意为<q>我们祈求庇护与开悟</q>。"
+		},
+		{
+			"title": "shikomizue",
+			"sort": "Shikomizue",
+			"japanese": "仕込み杖",
+			"translation": "剑杖",
+			"description": "藏在杖中的剑。"
+		},
+		{
+			"title": "shikoro",
+			"sort": "Shikoro",
+			"japanese": "錏",
+			"description": "细锯，忍者用来穿过木墙和木门。"
+		},
+		{
+			"title": "Shimabara no ran",
+			"sort": "Shimabara no ran",
+			"japanese": "島原の乱",
+			"translation": "岛原起义",
+			"description": "1637–1638年岛原半岛上的基督徒起义。它实际上是一场农民起义，却成了迫害基督徒的借口。"
+		},
+		{
+			"title": "shime ashi",
+			"sort": "Shime ashi",
+			"japanese": "締め足",
+			"translation": "稳固的步伐"
+		},
+		{
+			"title": "shime waza",
+			"sort": "Shime waza",
+			"japanese": "絞め技",
+			"translation": "绞技"
+		},
+		{
+			"title": "shinai",
+			"sort": "Shinai",
+			"japanese": "竹刀",
+			"translation": "竹剑",
+			"description": "由数根竹条以皮革和绳子捆扎、绷紧而成的剑，用于剑道。"
+		},
+		{
+			"title": "shinbō",
+			"sort": "Shinbo",
+			"japanese": "神棒",
+			"translation": "神之棒",
+			"description": "带有中指指环的拳握武器。"
+		},
+		{
+			"title": "Shinden-Fudō-Ryū",
+			"sort": "Shinden-Fudo-Ryu",
+			"japanese": "神伝不動流",
+			"translation": "不动心之流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "shingitai",
+			"sort": "Shingitai",
+			"japanese": "心技体",
+			"translation": "心、技、体",
+			"description": "武术最重要的原则之一。"
+		},
+		{
+			"title": "Shingon",
+			"sort": "Shingon",
+			"japanese": "真言",
+			"translation": "真言之宗",
+			"description": "弘法大师创立的佛教宗派。"
+		},
+		{
+			"title": "shinken gata taihen jutsu",
+			"sort": "Shinken gata taihen jutsu",
+			"japanese": "真剣型体変術",
+			"translation": "真刀之型"
+		},
+		{
+			"title": "shinobi",
+			"sort": "Shinobi",
+			"japanese": "忍び",
+			"translation": "潜入、刺探、秘密进入、忍耐",
+			"description": "忍者的简称。"
+		},
+		{
+			"title": "shinobi bune",
+			"sort": "Shinobi bune",
+			"japanese": "忍び舟",
+			"translation": "秘密之舟",
+			"description": "轻便狭长的小船。"
+		},
+		{
+			"title": "shinobi iri",
+			"sort": "Shinobi iri",
+			"japanese": "忍び入り",
+			"translation": "秘密进入",
+			"description": "忍者无声移动的技法。"
+		},
+		{
+			"title": "shinobi jutsu",
+			"sort": "Shinobi jutsu",
+			"japanese": "忍び術",
+			"translation": "秘密之术",
+			"description": "忍者各种技艺的总称。"
+		},
+		{
+			"title": "shinobi kai",
+			"sort": "Shinobi kai",
+			"japanese": "忍び櫂",
+			"translation": "秘密之桨",
+			"description": "内藏铁制部件的空心竹杖，这些部件能迅速组装成一支桨。"
+		},
+		{
+			"title": "shinobi katana",
+			"sort": "Shinobi katana",
+			"japanese": "忍び刀",
+			"translation": "秘密之刀",
+			"description": "忍者的刀。"
+		},
+		{
+			"title": "shinobi kenpō",
+			"sort": "Shinobi kenpo",
+			"japanese": "忍び剣法",
+			"translation": "秘密剑法",
+			"description": "忍者的剑术。"
+		},
+		{
+			"title": "shinobi no buki",
+			"sort": "Shinobi no buki",
+			"japanese": "忍びの武器",
+			"translation": "秘密的战具",
+			"description": "忍者的武器。"
+		},
+		{
+			"title": "shinobi no jutsu",
+			"sort": "Shinobi no jutsu",
+			"japanese": "忍びの術",
+			"translation": "秘密之术",
+			"description": "忍者各种技艺的总称。据传，这个名称出现于圣德太子时期。"
+		},
+		{
+			"title": "shinobi shobō",
+			"sort": "Shinobi shobo",
+			"japanese": "忍び小棒",
+			"translation": "秘密小棒",
+			"description": "拳握武器，也是指虎的前身：中指套进一个钢环，武器的其余部分藏在拳中。"
+		},
+		{
+			"title": "shinobi shōzoku",
+			"sort": "Shinobi shozoku",
+			"japanese": "忍び装束",
+			"translation": "秘密的衣物包",
+			"description": "忍者的深色战斗服，冬季则为浅灰色或白色。亦称<em>ninniku yoroi</em>。"
+		},
+		{
+			"title": "shinobi tantō",
+			"sort": "Shinobi tanto",
+			"japanese": "忍び短刀",
+			"translation": "秘密短刀",
+			"description": "藏在杖中的匕首（短刀）。"
+		},
+		{
+			"title": "shinobi yari",
+			"sort": "Shinobi yari",
+			"japanese": "忍び槍",
+			"description": "忍者的长枪。"
+		},
+		{
+			"title": "shinobi zue",
+			"sort": "Shinobi zue",
+			"japanese": "忍び杖",
+			"translation": "秘密之杖",
+			"description": "空心竹杖，内藏武器或致盲粉。"
+		},
+		{
+			"title": "shinobu",
+			"sort": "Shinobu",
+			"japanese": "忍",
+			"translation": "坚忍、宽容、耐心、自制、忍受、隐藏、间谍、潜行"
+		},
+		{
+			"title": "Shintō",
+			"sort": "Shinto",
+			"japanese": "神道",
+			"translation": "众神之道",
+			"description": "日本宗教，认为一切存在形态中都有更高的神灵。亦称<q>神道教</q>。"
+		},
+		{
+			"title": "shishi undō",
+			"sort": "Shishi undo",
+			"japanese": "四肢運動",
+			"translation": "四肢的运动",
+			"description": "手臂和腿的运动。"
+		},
+		{
+			"title": "shishin ken",
+			"sort": "Shishin ken",
+			"japanese": "指針拳",
+			"translation": "指针拳"
+		},
+		{
+			"title": "shitan ken",
+			"sort": "Shitan ken",
+			"japanese": "指端拳",
+			"translation": "指尖拳"
+		},
+		{
+			"title": "shitō ken",
+			"sort": "Shito ken",
+			"japanese": "指刀拳",
+			"translation": "指刀拳"
+		},
+		{
+			"title": "shizen ken",
+			"sort": "Shizen ken",
+			"japanese": "自然拳",
+			"translation": "天然武器",
+			"description": "身体的天然武器，如肩膀、体重或指甲。"
+		},
+		{
+			"title": "shizen kōun ryūsui",
+			"sort": "Shizen koun ryusui",
+			"japanese": "自然行雲流水",
+			"translation": "顺应潮流自然而行"
+		},
+		{
+			"title": "shizen no kamae",
+			"sort": "Shizen no kamae",
+			"japanese": "自然の構え",
+			"translation": "自然的架势",
+			"description": "忍术的一种构（即架势）。"
+		},
+		{
+			"title": "shizentai",
+			"sort": "Shizentai",
+			"japanese": "自然体",
+			"translation": "自然的身体",
+			"description": "放松、自然的架势。"
+		},
+		{
+			"title": "shō",
+			"sort": "Sho",
+			"japanese": "小",
+			"translation": "小"
+		},
+		{
+			"title": "shobō",
+			"sort": "Shobo",
+			"japanese": "小棒",
+			"translation": "小棒",
+			"description": "拳握武器。"
+		},
+		{
+			"title": "shōgun",
+			"sort": "Shogun",
+			"japanese": "将軍",
+			"translation": "统领军队的将领",
+			"description": "日本的军事统帅。"
+		},
+		{
+			"title": "shoshin go gata",
+			"sort": "Shoshin go gata",
+			"japanese": "初心五型",
+			"translation": "初学者之心的五种型"
+		},
+		{
+			"title": "shōten",
+			"sort": "Shoten",
+			"japanese": "昇天",
+			"description": "沿垂直面向上奔跑，一种受身练习。"
+		},
+		{
+			"title": "shōten no jutsu",
+			"sort": "Shoten no jutsu",
+			"japanese": "昇天の術",
+			"translation": "登天之术",
+			"description": "沿墙、篱笆、树或人向上奔跑。借足够的冲力扑向障碍物，用双腿蹬起，跃过障碍。这是现代训练中的一种练习，亦称升天术。"
+		},
+		{
+			"title": "Shōtoku Taishi",
+			"sort": "Shotoku Taishi",
+			"japanese": "聖徳太子",
+			"description": "摄政太子（574–622）。据说他是第一个派遣密探、以查明纷争真相的人。"
+		},
+		{
+			"title": "shu ken",
+			"sort": "Shu ken",
+			"translation": "鸟喙拳"
+		},
+		{
+			"title": "shugendō",
+			"sort": "Shugendo",
+			"japanese": "修験道",
+			"translation": "检验自我之道",
+			"description": "一种秘传教义和苦行形式，主要由山伏修行。"
+		},
+		{
+			"title": "shuki ken",
+			"sort": "Shuki ken",
+			"japanese": "手起拳",
+			"translation": "肘拳"
+		},
+		{
+			"title": "shukō",
+			"sort": "Shuko",
+			"japanese": "手鉤",
+			"translation": "手爪",
+			"description": "用于攀爬和格斗的爪具，户隐流三件秘宝之一。亦读作<em>tekagi</em>。"
+		},
+		{
+			"title": "shuriken",
+			"sort": "Shuriken",
+			"japanese": "手裏剣",
+			"translation": "掌中之刃",
+			"description": "忍者的投掷刃器，形状和大小各异。"
+		},
+		{
+			"title": "shutō ken",
+			"sort": "Shuto ken",
+			"japanese": "手刀拳",
+			"description": "用掌缘击打，与起转拳是同一种击法。"
+		},
+		{
+			"title": "sodezutsu",
+			"sort": "Sodezutsu",
+			"japanese": "袖筒",
+			"description": "手炮。"
+		},
+		{
+			"title": "sōhei",
+			"sort": "Sohei",
+			"japanese": "僧兵",
+			"translation": "佛教武僧",
+			"description": "为寺院效力的武僧和雇佣兵。"
+		},
+		{
+			"title": "sōke",
+			"sort": "Soke",
+			"japanese": "宗家",
+			"translation": "一家之长、创始人",
+			"description": "一个流派的掌门人。"
+		},
+		{
+			"title": "sokki ken",
+			"sort": "Sokki ken",
+			"japanese": "足起拳",
+			"translation": "膝拳"
+		},
+		{
+			"title": "soku gyaku ken",
+			"sort": "Soku gyaku ken",
+			"japanese": "足逆拳",
+			"translation": "反转的脚",
+			"description": "用脚尖踢向腹部或颈部等柔软目标的踢法；武神馆的术语。"
+		},
+		{
+			"title": "soku yaku ken",
+			"sort": "Soku yaku ken",
+			"japanese": "足躍拳",
+			"translation": "舞动的脚",
+			"description": "用脚跟和脚掌踢向半软或坚硬目标的踢法，例如从上方踢向膝盖；武神馆的术语。"
+		},
+		{
+			"title": "sokuhō geri",
+			"sort": "Sokuho geri",
+			"japanese": "側方蹴り",
+			"translation": "侧踢",
+			"description": "腿向侧面踢出、上身保持朝前的踢法。"
+		},
+		{
+			"title": "sokuhō kaiten",
+			"sort": "Sokuho kaiten",
+			"japanese": "側方回転",
+			"translation": "侧滚"
+		},
+		{
+			"title": "sokuhō kiten",
+			"sort": "Sokuho kiten",
+			"japanese": "側方起転",
+			"description": "以手撑地的侧翻，一种受身练习。"
+		},
+		{
+			"title": "sokuhō tobi",
+			"sort": "Sokuho tobi",
+			"japanese": "側方飛び",
+			"translation": "侧跳",
+			"description": "向侧面低跳，一种受身练习。"
+		},
+		{
+			"title": "sokuhō ukemi",
+			"sort": "Sokuho ukemi",
+			"japanese": "側方受身",
+			"translation": "侧倒"
+		},
+		{
+			"title": "sokuyaku suitei ken",
+			"sort": "Sokuyaku suitei ken",
+			"translation": "水平踢",
+			"description": "腿水平向前踢出，脚从侧面击中目标。"
+		},
+		{
+			"title": "Sonshi",
+			"sort": "Sonshi",
+			"japanese": "孫子",
+			"description": "日本对孙子的称呼。据传，孙子于公元前6世纪写成<cite>《孙子兵法》</cite>。此书很早就传入日本，据说影响了忍术的起源。"
+		},
+		{
+			"title": "soshin sosoku hō",
+			"sort": "Soshin sosoku ho",
+			"japanese": "早心早速法",
+			"translation": "快速移动之法"
+		},
+		{
+			"title": "Sugitani Zenjūbō",
+			"sort": "Sugitani Zenjubo",
+			"japanese": "杉谷善住坊",
+			"description": "著名的忍者，1570年曾试图用两颗子弹刺杀织田信长。两颗子弹都只打中了他的护肩。"
+		},
+		{
+			"title": "sui",
+			"sort": "Sui",
+			"japanese": "水",
+			"translation": "水"
+		},
+		{
+			"title": "sui no kata",
+			"sort": "Sui no kata",
+			"japanese": "水の型",
+			"translation": "水之型"
+		},
+		{
+			"title": "suikatsugan",
+			"sort": "Suikatsugan",
+			"japanese": "水渇丸",
+			"translation": "止渴丸",
+			"description": "由腌梅果肉、糖和麦冬根制成的止渴药丸，其配方见于<cite>《万川集海》</cite>。它能保持口腔和喉咙湿润。"
+		},
+		{
+			"title": "suiki",
+			"sort": "Suiki",
+			"japanese": "水器",
+			"translation": "水上工具",
+			"description": "<cite>《万川集海》</cite>第九卷中关于水上装备的部分。其内容大多来自海盗的建议，介绍如何渡河或在水下行进。"
+		},
+		{
+			"title": "suiren",
+			"sort": "Suiren",
+			"japanese": "水練",
+			"translation": "水中训练",
+			"description": "在水下停留和移动。"
+		},
+		{
+			"title": "suiton",
+			"sort": "Suiton",
+			"japanese": "水遁",
+			"description": "借助水遁逃，五遁法的五种方法之一。"
+		},
+		{
+			"title": "suiton jutsu",
+			"sort": "Suiton jutsu",
+			"japanese": "水遁術",
+			"translation": "借水遁逃的技法",
+			"description": "五遁法中以水为遁逃手段的遁术。"
+		},
+		{
+			"title": "suppa",
+			"sort": "Suppa",
+			"japanese": "透波",
+			"description": "忍者的另一种称呼，例如追随风魔小太郎或为武田家效力的游击战士。亦称乱破。"
+		},
+		{
+			"title": "tabi",
+			"sort": "Tabi",
+			"japanese": "足袋",
+			"translation": "脚袋",
+			"description": "大脚趾与其余脚趾分开的日式分趾袜。"
+		},
+		{
+			"title": "tachi",
+			"sort": "Tachi",
+			"japanese": "太刀",
+			"translation": "长刀",
+			"description": "与刀相似的刀剑，通常弯曲度更大，在战场上佩带。带有礼仪性的装饰，做工极为精巧。"
+		},
+		{
+			"title": "tachi nagare",
+			"sort": "Tachi nagare",
+			"japanese": "立ち流れ",
+			"translation": "站立中的流动",
+			"description": "流的一种：从站立姿势向后倒。"
+		},
+		{
+			"title": "tai",
+			"sort": "Tai",
+			"japanese": "体",
+			"translation": "身体、健康"
+		},
+		{
+			"title": "tai ken",
+			"sort": "Tai ken",
+			"japanese": "体拳",
+			"translation": "身体之拳"
+		},
+		{
+			"title": "tai sabaki",
+			"sort": "Tai sabaki",
+			"japanese": "体捌き",
+			"translation": "身体的驾驭",
+			"description": "躯干的移动。"
+		},
+		{
+			"title": "taihen jutsu",
+			"sort": "Taihen jutsu",
+			"japanese": "体変術",
+			"translation": "改变身体之术",
+			"description": "体术的一部分：架势、姿态、移动和倒地技法。"
+		},
+		{
+			"title": "taijutsu",
+			"sort": "Taijutsu",
+			"japanese": "体術",
+			"translation": "身体之术",
+			"description": "徒手格斗。"
+		},
+		{
+			"title": "taikai",
+			"sort": "Taikai",
+			"japanese": "大会",
+			"translation": "盛大的聚会",
+			"description": "习武者在各类活动中的聚会。"
+		},
+		{
+			"title": "Taira",
+			"sort": "Taira",
+			"japanese": "平",
+			"description": "著名家族，又称平家，曾与源氏交战。"
+		},
+		{
+			"title": "taizōkai mandara",
+			"sort": "Taizokai mandara",
+			"japanese": "胎蔵界曼荼羅",
+			"translation": "母胎世界的曼荼罗",
+			"description": "在三密中代表物质世界，即<q>沃土之界</q>。"
+		},
+		{
+			"title": "taka bashigo",
+			"sort": "Taka bashigo",
+			"japanese": "高梯子",
+			"translation": "高梯",
+			"description": "忍者用来越过深谷的梯子。中间另加一根绳索加固。"
+		},
+		{
+			"title": "Takagi-Yōshin-Ryū",
+			"sort": "Takagi-Yoshin-Ryu",
+			"japanese": "高木楊心流",
+			"translation": "高树与柳之精神的流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "Takamatsu Toshitsugu",
+			"sort": "Takamatsu Toshitsugu",
+			"japanese": "高松寿嗣",
+			"description": "多个忍术流派的老师，初见良昭的师父。为纪念他，这九个流派的合集被称为<q>武神馆</q>。"
+		},
+		{
+			"title": "Takeda Shingen",
+			"sort": "Takeda Shingen",
+			"japanese": "武田信玄",
+			"description": "著名武将（大名），在战国时代进行了一系列战争。"
+		},
+		{
+			"title": "tanagokoro",
+			"sort": "Tanagokoro",
+			"japanese": "掌",
+			"translation": "手掌",
+			"description": "掌中火把，撬开门锁时特别好用。"
+		},
+		{
+			"title": "tanegashima",
+			"sort": "Tanegashima",
+			"japanese": "種子島",
+			"translation": "火绳枪、火绳铳、钩铳",
+			"description": "葡萄牙人传入日本的火绳枪。也作铁炮。"
+		},
+		{
+			"title": "tantō",
+			"sort": "Tanto",
+			"japanese": "短刀",
+			"translation": "短小的刀",
+			"description": "匕首。"
+		},
+		{
+			"title": "tantōjutsu",
+			"sort": "Tantojutsu",
+			"japanese": "短刀術",
+			"translation": "匕首之术",
+			"description": "持刀格斗的技法。"
+		},
+		{
+			"title": "tantra",
+			"sort": "Tantra",
+			"sanskrit": "तन्त्र",
+			"translation": "织物、连续体、关联",
+			"description": "印度哲学和宗教的一个流派，最初是印度教的一种秘传形式，后来被藏传佛教吸收。"
+		},
+		{
+			"title": "tanuki gakure no jutsu",
+			"sort": "Tanuki gakure no jutsu",
+			"japanese": "狸隠",
+			"translation": "像貉一样藏身之术",
+			"description": "忍者的攀爬技法：爬上树木和杆柱，藏身高处。"
+		},
+		{
+			"title": "taru ikada",
+			"sort": "Taru ikada",
+			"japanese": "樽筏",
+			"translation": "桶筏",
+			"description": "忍者用两只木桶做成的水上工具：每只桶里放一只脚，忍者用桨在水面上移动。也作<em>uki daru</em>。"
+		},
+		{
+			"title": "tatami",
+			"sort": "Tatami",
+			"japanese": "畳",
+			"translation": "稻草席",
+			"description": "日本房屋和道场里的地面铺设物。"
+		},
+		{
+			"title": "tatami bune",
+			"sort": "Tatami bune",
+			"translation": "折叠船",
+			"description": "<em>hasami bune</em>的别称。"
+		},
+		{
+			"title": "tatami gama",
+			"sort": "Tatami gama",
+			"translation": "折叠镰",
+			"description": "带木柄的镰，弯曲的刀刃可以折叠展开。此名称是现代的描述，忍者典籍中并无记载。"
+		},
+		{
+			"title": "tebukuro",
+			"sort": "Tebukuro",
+			"japanese": "手袋",
+			"translation": "护手",
+			"description": "遮盖忍者手背和前臂的衣物。"
+		},
+		{
+			"title": "tekagi",
+			"sort": "Tekagi",
+			"japanese": "手鉤",
+			"translation": "手爪",
+			"description": "也读作<em>shukō</em>。"
+		},
+		{
+			"title": "tekken",
+			"sort": "Tekken",
+			"japanese": "鉄拳",
+			"description": "指虎。也作铁甲。"
+		},
+		{
+			"title": "tekkō",
+			"sort": "Tekko",
+			"japanese": "鉄甲",
+			"description": "指虎。也作铁拳。"
+		},
+		{
+			"title": "ten",
+			"sort": "Ten",
+			"japanese": "天",
+			"translation": "天空"
+		},
+		{
+			"title": "Ten ryaku no maki",
+			"sort": "Ten ryaku no maki",
+			"japanese": "天略の巻",
+			"translation": "天之策略卷轴"
+		},
+		{
+			"title": "Tendai",
+			"sort": "Tendai",
+			"japanese": "天台",
+			"translation": "天之台座",
+			"description": "密教中的一个秘传佛教宗派，由传教大师在日本创立。其中心是比叡山的延历寺。"
+		},
+		{
+			"title": "tengu",
+			"sort": "Tengu",
+			"japanese": "天狗",
+			"translation": "天上的狗",
+			"description": "日本传说中栖居山中的神怪：有的长着乌鸦的喙和翅膀（<em>karasu tengu</em>或<em>ko tengu</em>），有的是人形，长着红色的长鼻子（<em>dai tengu</em>）。它们有时被视为守护者，有时被视为捣乱者，十分危险。传说它们精通武艺，常被视为某一流派的师父。"
+		},
+		{
+			"title": "tenmon",
+			"sort": "Tenmon",
+			"japanese": "天文",
+			"translation": "天文与气象"
+		},
+		{
+			"title": "tennō",
+			"sort": "Tenno",
+			"japanese": "天皇",
+			"translation": "天上的君主",
+			"description": "日本的皇帝。"
+		},
+		{
+			"title": "tenugui",
+			"sort": "Tenugui",
+			"japanese": "手拭",
+			"translation": "擦手布",
+			"description": "棉布，忍者用它扎成面罩。"
+		},
+		{
+			"title": "teppō",
+			"sort": "Teppo",
+			"japanese": "鉄砲",
+			"translation": "火器",
+			"description": "种子岛的别称。"
+		},
+		{
+			"title": "tessen",
+			"sort": "Tessen",
+			"japanese": "鉄扇",
+			"translation": "铁制的扇子"
+		},
+		{
+			"title": "tetsu mari",
+			"sort": "Tetsu mari",
+			"translation": "铁球",
+			"description": "中空的铁球，向四面八方伸出长刺，与<em>iga dama</em>相似。此名称是现代的描述，忍者典籍中并无记载。"
+		},
+		{
+			"title": "tetsubishi",
+			"sort": "Tetsubishi",
+			"japanese": "鉄菱",
+			"translation": "铁制的菱角",
+			"description": "铁制蒺藜，忍者大量撒在地上，用来阻挡追兵。"
+		},
+		{
+			"title": "tetsubō",
+			"sort": "Tetsubo",
+			"japanese": "鉄棒",
+			"translation": "铁杖"
+		},
+		{
+			"title": "tō",
+			"sort": "To",
+			"japanese": "刀",
+			"translation": "剑、刀子"
+		},
+		{
+			"title": "tōami",
+			"sort": "Toami",
+			"japanese": "投網",
+			"translation": "投掷用的网",
+			"description": "忍者用来捕捉敌人的网。"
+		},
+		{
+			"title": "tobi ashi",
+			"sort": "Tobi ashi",
+			"japanese": "跳び足",
+			"translation": "跳跃的步子",
+			"description": "忍者的行走技法。"
+		},
+		{
+			"title": "tobi bashigo",
+			"sort": "Tobi bashigo",
+			"japanese": "跳び梯子",
+			"translation": "跳跃的梯子",
+			"description": "两端带钩、可以抛掷的梯子。"
+		},
+		{
+			"title": "tobi geri",
+			"sort": "Tobi geri",
+			"japanese": "飛び蹴り",
+			"translation": "跳踢",
+			"description": "跃起时踢出的踢法，如<em>kata ashi tobi geri</em>或<em>ryō ashi tobi geri</em>。"
+		},
+		{
+			"title": "tobi ori",
+			"sort": "Tobi ori",
+			"japanese": "飛び降り",
+			"translation": "跳下",
+			"description": "受身的练习：从高处跳下。"
+		},
+		{
+			"title": "tobikunai",
+			"sort": "Tobikunai",
+			"japanese": "飛苦無",
+			"description": "打开闩住的大门所用的工具。"
+		},
+		{
+			"title": "Toda Shinryūken Masamitsu",
+			"sort": "Toda Shinryuken Masamitsu",
+			"japanese": "戸田真竜軒正光",
+			"description": "忍者大师，高松寿嗣的老师。"
+		},
+		{
+			"title": "Togakure Daisuke",
+			"sort": "Togakure Daisuke",
+			"japanese": "戸隠大助",
+			"description": "户隐流的创始人。他在一次战败后逃往伊贺地区。"
+		},
+		{
+			"title": "Togakure-Ryū",
+			"sort": "Togakure-Ryu",
+			"japanese": "戸隠流",
+			"translation": "隐藏之门的流派",
+			"description": "武神馆九个流派之一。"
+		},
+		{
+			"title": "tōiri",
+			"sort": "Toiri",
+			"japanese": "遠入",
+			"translation": "自远而入",
+			"description": "忍者在和平时期预先采用的策略，主要是间谍活动。"
+		},
+		{
+			"title": "toki",
+			"sort": "Toki",
+			"japanese": "登器",
+			"translation": "攀爬用具"
+		},
+		{
+			"title": "Tokugawa Ieyasu",
+			"sort": "Tokugawa Ieyasu",
+			"japanese": "徳川家康",
+			"description": "著名大名，织田信长的盟友。战国时代结束后，他于1603年被任命为将军。德川家族的统治一直延续到1868年。"
+		},
+		{
+			"title": "Tōkyō",
+			"sort": "Tokyo",
+			"japanese": "東京",
+			"translation": "东方的首都",
+			"description": "日本首都，旧称江户。东京都约有1400万人口。"
+		},
+		{
+			"title": "tomoe nagare",
+			"sort": "Tomoe nagare",
+			"japanese": "巴流れ",
+			"translation": "回旋的流动",
+			"description": "流的一种：作为<em>kōhō tomoe nagare</em>，回旋着向后倒。"
+		},
+		{
+			"title": "tonki",
+			"sort": "Tonki",
+			"description": "投掷武器。手里剑的别称。"
+		},
+		{
+			"title": "tori no ko",
+			"sort": "Tori no ko",
+			"japanese": "鳥の子",
+			"description": "爆竹。"
+		},
+		{
+			"title": "torinawa",
+			"sort": "Torinawa",
+			"japanese": "捕り縄",
+			"translation": "捕缚用的绳",
+			"description": "忍者的武器，由一根带重物和尖头的绳索构成，用来捕捉和捆绑敌人。"
+		},
+		{
+			"title": "torite kihon gata go hō",
+			"sort": "Torite kihon gata go ho",
+			"japanese": "捕手基本型五法",
+			"translation": "五种手部反关节技法"
+		},
+		{
+			"title": "tōtoku hyōshi no kamae",
+			"sort": "Totoku hyoshi no kamae",
+			"japanese": "刀匿礮姿",
+			"description": "据武神馆的传承，户隐流的一种跪姿构：后膝着地，前膝立起，剑或双拳护在胸前。"
+		},
+		{
+			"title": "Toyotomi Hideyoshi",
+			"sort": "Toyotomi Hideyoshi",
+			"japanese": "豊臣秀吉",
+			"description": "出身平民的大名，织田信长麾下的将领。织田死后，他统一了日本。秀吉死后，德川家康转而对付他的继承人，丰臣一族被彻底消灭。"
+		},
+		{
+			"title": "tsuba",
+			"sort": "Tsuba",
+			"japanese": "鍔",
+			"translation": "刀镡",
+			"description": "刀上保护手部免受敌人刀击的部件。"
+		},
+		{
+			"title": "tsubo giri",
+			"sort": "Tsubo giri",
+			"japanese": "壺錐",
+			"description": "在木墙和木门上钻较大孔洞的钻子。"
+		},
+		{
+			"title": "tsugi bune",
+			"sort": "Tsugi bune",
+			"translation": "拼接的船",
+			"description": "由多个部件组成的船：据传，忍者小队的每名成员各携带一个部件，到了水边迅速组装起来。"
+		},
+		{
+			"title": "tsuki",
+			"sort": "Tsuki",
+			"japanese": "突き",
+			"translation": "打击、冲撞、劈砍、刺戳"
+		},
+		{
+			"title": "tsune ashi",
+			"sort": "Tsune ashi",
+			"japanese": "常足",
+			"translation": "普通的步子"
+		},
+		{
+			"title": "tsuri bashigo",
+			"sort": "Tsuri bashigo",
+			"japanese": "吊梯子",
+			"translation": "悬挂的梯子",
+			"description": "为了安全，可以另用钩子固定在墙上的梯子。"
+		},
+		{
+			"title": "uchi",
+			"sort": "Uchi",
+			"japanese": "打ち",
+			"description": "打击技法。"
+		},
+		{
+			"title": "uchi dake",
+			"sort": "Uchi dake",
+			"japanese": "内竹",
+			"translation": "竹子内部",
+			"description": "竹制容器，忍者用来随身携带火种，以便迅速生火。"
+		},
+		{
+			"title": "Uesugi Kenshin",
+			"sort": "Uesugi Kenshin",
+			"japanese": "上杉謙信",
+			"description": "战国时代试图夺取日本大权的大名。据传他死于厕所：一名忍者据说藏在粪坑里等候，将他杀死。"
+		},
+		{
+			"title": "uke",
+			"sort": "Uke",
+			"japanese": "受",
+			"translation": "抵挡、防御、接住、承受"
+		},
+		{
+			"title": "ukemi",
+			"sort": "Ukemi",
+			"japanese": "受身",
+			"translation": "倒地、护身倒法、倒地练习"
+		},
+		{
+			"title": "ukemi gata taihen jutsu",
+			"sort": "Ukemi gata taihen jutsu",
+			"japanese": "受身型体変術",
+			"translation": "翻滚与倒地之术"
+		},
+		{
+			"title": "uki daru",
+			"sort": "Uki daru",
+			"japanese": "浮き樽",
+			"translation": "漂浮的木桶",
+			"description": "忍者典籍所描述的一种水上工具，由两只木桶做成：每只桶里放一只脚，忍者用竿或桨在水面上移动。也作<em>taru ikada</em>。"
+		},
+		{
+			"title": "uma",
+			"sort": "Uma",
+			"japanese": "馬",
+			"translation": "马"
+		},
+		{
+			"title": "undō",
+			"sort": "Undo",
+			"japanese": "運動",
+			"translation": "动作"
+		},
+		{
+			"title": "ushiro gaeshi",
+			"sort": "Ushiro gaeshi",
+			"japanese": "後返",
+			"translation": "向后的技法"
+		},
+		{
+			"title": "Ushiwakamaru",
+			"sort": "Ushiwakamaru",
+			"japanese": "牛若丸",
+			"description": "源义经（Minamoto no Yoshitsune）的幼名。"
+		},
+		{
+			"title": "uwagi",
+			"sort": "Uwagi",
+			"japanese": "上着",
+			"translation": "上衣",
+			"description": "忍者的上衣，塞进裤子里，内有暗袋。"
+		},
+		{
+			"title": "uzume bi",
+			"sort": "Uzume bi",
+			"japanese": "埋め火",
+			"translation": "埋藏的火",
+			"description": "地雷。也称地雷（jirai）。"
+		},
+		{
+			"title": "uzura gakure no jutsu",
+			"sort": "Uzura gakure no jutsu",
+			"japanese": "鶉隠れの術",
+			"translation": "像鹌鹑一样藏身之术",
+			"description": "隐身术的一种技法：藏身于地洞、洼地和岩缝中，或躲在石头后面。"
+		},
+		{
+			"title": "wakizashi",
+			"sort": "Wakizashi",
+			"japanese": "脇差",
+			"translation": "短剑",
+			"description": "武士的短剑。它与刀合称大小。"
+		},
+		{
+			"title": "wakizashi teppō",
+			"sort": "Wakizashi teppo",
+			"japanese": "脇差鉄砲",
+			"description": "传统的短剑，内藏一把可发射一枪的手枪。"
+		},
+		{
+			"title": "wakō",
+			"sort": "Wako",
+			"japanese": "倭寇",
+			"description": "劫掠朝鲜半岛和中国沿海的日本海盗。几乎没有哪位将军能抵挡他们的强大势力。据说忍者许多别出心裁的武器都源自倭寇。"
+		},
+		{
+			"title": "wari ashi",
+			"sort": "Wari ashi",
+			"japanese": "割り足",
+			"translation": "随机应变的步子",
+			"description": "忍者的行走技法。"
+		},
+		{
+			"title": "watari",
+			"sort": "Watari",
+			"japanese": "渡り",
+			"translation": "漂泊的",
+			"description": "把自己的服务卖给出价最高者的忍者。"
+		},
+		{
+			"title": "wu wei",
+			"sort": "Wu wei",
+			"chinese": "無為",
+			"translation": "不行动",
+			"description": "道家的原则：不违背道的自然运行而行事。"
+		},
+		{
+			"title": "ya",
+			"sort": "Ya",
+			"japanese": "矢",
+			"translation": "箭"
+		},
+		{
+			"title": "yaiba",
+			"sort": "Yaiba",
+			"japanese": "刃",
+			"translation": "刀刃",
+			"description": "忍字的上半部分。"
+		},
+		{
+			"title": "yajiri",
+			"sort": "Yajiri",
+			"description": "刀刃坚固的锯，用来锯较粗的木料或树枝。"
+		},
+		{
+			"title": "yamabiko jutsu",
+			"sort": "Yamabiko jutsu",
+			"japanese": "山彦術",
+			"translation": "呼唤的回声",
+			"description": "远入的一种策略：一名忍者改换阵营，多年为新主效力，其忠诚从未受到怀疑。约定的信号一到，他在造成重大损失之后再倒戈回去。"
+		},
+		{
+			"title": "yamabiko shichō no jutsu",
+			"sort": "Yamabiko shicho no jutsu",
+			"japanese": "山彦伺聴の術",
+			"translation": "倾听回声之术",
+			"description": "谍报的一种技法：故意让嫌疑人得到重要文件，再观察其反应。"
+		},
+		{
+			"title": "yamabushi",
+			"sort": "Yamabushi",
+			"japanese": "山伏",
+			"translation": "山中苦行者、云游僧",
+			"description": "隐居山中、奉行修验道的隐士。"
+		},
+		{
+			"title": "yamidoko",
+			"sort": "Yamidoko",
+			"description": "忍者的飞行器。也作<em>hito washi</em>。"
+		},
+		{
+			"title": "yang",
+			"sort": "Yang",
+			"chinese": "陽",
+			"translation": "光明、积极、开放",
+			"description": "道家阴阳二元中积极的一方。日语读作<em>yō</em>。"
+		},
+		{
+			"title": "yari",
+			"sort": "Yari",
+			"japanese": "槍",
+			"translation": "长枪"
+		},
+		{
+			"title": "yarijutsu",
+			"sort": "Yarijutsu",
+			"japanese": "槍術",
+			"translation": "枪之术",
+			"description": "用枪的技法。"
+		},
+		{
+			"title": "yawara",
+			"sort": "Yawara",
+			"japanese": "柔",
+			"description": "握在拳中的武器。也作<em>kubotan</em>。"
+		},
+		{
+			"title": "yin",
+			"sort": "Yin",
+			"chinese": "陰",
+			"translation": "阴影、消极、隐蔽",
+			"description": "道家阴阳二元中消极的一方。日语读作<em>in</em>。"
+		},
+		{
+			"title": "yinyang",
+			"sort": "Yinyang",
+			"chinese": "陰陽",
+			"description": "光明与阴影、善与恶、小与大的二元性，是道家的重要原则。日语读作<em>in’yō</em>。"
+		},
+		{
+			"title": "yō",
+			"sort": "Yo",
+			"japanese": "陽",
+			"translation": "光明、积极、开放"
+		},
+		{
+			"title": "yoga",
+			"sort": "Yoga",
+			"sanskrit": "योग",
+			"translation": "轭、上轭、捆绑在一起、套上、驾上挽具",
+			"description": "印度关于身心的学说，有许多分支。在印度，每一条<q>通往开悟之路</q>都是一条<q>瑜伽之路</q>。哈他瑜伽使身体柔韧到能弯成极端的姿势。其他形式还包括饮食、冥想和呼吸。"
+		},
+		{
+			"title": "yōji gakure no jutsu",
+			"sort": "Yoji gakure no jutsu",
+			"description": "兵法的一种技法：忍者反复把一件东西扔过守卫的头顶，直到守卫不再理会每一个声响。"
+		},
+		{
+			"title": "yoko aruki",
+			"sort": "Yoko aruki",
+			"japanese": "横歩き",
+			"translation": "横向行走"
+		},
+		{
+			"title": "yoko gaeshi",
+			"sort": "Yoko gaeshi",
+			"japanese": "横返",
+			"translation": "侧向的技法"
+		},
+		{
+			"title": "yoko nagare",
+			"sort": "Yoko nagare",
+			"japanese": "横流れ",
+			"translation": "横向的流动",
+			"description": "流的一种：从站立姿势向侧面倒，向右（<em>migi yoko nagare</em>）或向左（<em>hidari yoko nagare</em>）。"
+		},
+		{
+			"title": "yomogami no jutsu",
+			"sort": "Yomogami no jutsu",
+			"translation": "发型须从四面看都一样",
+			"description": "谍报的一种原则：忍者总是备好几个名字和身份。"
+		},
+		{
+			"title": "yon shaku bō",
+			"sort": "Yon shaku bo",
+			"japanese": "四尺棒",
+			"translation": "四尺长的棒",
+			"description": "长四尺的棒，约121厘米。也作杖。"
+		},
+		{
+			"title": "yuki waraki",
+			"sort": "Yuki waraki",
+			"japanese": "雪藁き",
+			"translation": "雪与稻草",
+			"description": "也作木屐。"
+		},
+		{
+			"title": "yumi",
+			"sort": "Yumi",
+			"japanese": "弓",
+			"translation": "弓",
+			"description": "也读作<em>kyū</em>。"
+		},
+		{
+			"title": "yumi ya",
+			"sort": "Yumi ya",
+			"japanese": "弓矢",
+			"translation": "弓与箭"
+		},
+		{
+			"title": "zagarashijaku",
+			"sort": "Zagarashijaku",
+			"description": "用青梅或桃子制成的速效致命毒药。"
+		},
+		{
+			"title": "zazen",
+			"sort": "Zazen",
+			"japanese": "座禅",
+			"translation": "坐着冥想",
+			"description": "停留在无念而高度清醒的专注之中，心念不指向任何事物。这种修行可追溯到佛陀觉悟之前的冥想。"
+		},
+		{
+			"title": "zen",
+			"sort": "Zen",
+			"japanese": "禅",
+			"translation": "入定"
+		},
+		{
+			"title": "zenpō geri",
+			"sort": "Zenpo geri",
+			"japanese": "前方蹴り",
+			"translation": "向前踢"
+		},
+		{
+			"title": "zenpō kaiten",
+			"sort": "Zenpo kaiten",
+			"japanese": "前方回転",
+			"translation": "向前翻滚"
+		},
+		{
+			"title": "zenpō ukemi",
+			"sort": "Zenpo ukemi",
+			"japanese": "前方受身",
+			"translation": "向前倒地"
+		},
+		{
+			"title": "ziran",
+			"sort": "Ziran",
+			"chinese": "自然",
+			"translation": "自然而然、自身如此",
+			"description": "道家指自然发生之事：自发、出于自身、不受强迫。"
+		}
+	]
+}

@@ -1,0 +1,4925 @@
+{
+	"entries": [
+		{
+			"title": "aikidō",
+			"sort": "Aikido",
+			"japanese": "合気道",
+			"translation": "調和の道",
+			"description": "防御を旨とする武道で、植芝盛平が1925年から1969年にかけて築いた。"
+		},
+		{
+			"title": "aikuchi",
+			"sort": "Aikuchi",
+			"japanese": "匕首",
+			"description": "日本の小さな短刀である。"
+		},
+		{
+			"title": "Ainu",
+			"sort": "Ainu",
+			"japanese": "アイヌ",
+			"description": "日本の北方に暮らす先住民族で、言語も系統も日本人とは異なる。その祖先は縄文文化にさかのぼる。北海道が2023年に行った調査では約11,450人がアイヌであると答えたが、その子孫の数ははるかに多い。日本人は長くアイヌを蛮族とみなし、数百年にわたって戦った。1457年のコシャマインの戦いや1669–1672年のシャクシャインの戦いがその例である。"
+		},
+		{
+			"title": "aisha",
+			"sort": "Aisha",
+			"japanese": "愛者",
+			"translation": "愛する者",
+			"description": "五情五欲の原理の一つで、人の同情心につけ込む。"
+		},
+		{
+			"title": "Akechi Mitsuhide",
+			"sort": "Akechi Mitsuhide",
+			"japanese": "明智光秀",
+			"description": "織田信長の武将で、主君を裏切った。信長が護衛を伴わずにいたところを襲って討ち、その軍勢は信長の城を焼き払った。"
+		},
+		{
+			"title": "akindo",
+			"sort": "Akindo",
+			"japanese": "商人",
+			"translation": "商人",
+			"description": "七方出に含まれる、忍者が好んで用いた変装である。"
+		},
+		{
+			"title": "ametori no jutsu",
+			"sort": "Ametori no jutsu",
+			"japanese": "雨鳥の術",
+			"translation": "雨の中の鳥の術",
+			"description": "雨や寒さの中では見張りが持ち場を離れたり、気の抜けた番をしたりする習性につけ込む策である。"
+		},
+		{
+			"title": "amigasa",
+			"sort": "Amigasa",
+			"japanese": "編笠",
+			"description": "編んだ藁の笠で、広いつばが顔を隠す。"
+		},
+		{
+			"title": "ashi",
+			"sort": "Ashi",
+			"japanese": "足",
+			"translation": "脚、足"
+		},
+		{
+			"title": "ashi fumikae",
+			"sort": "Ashi fumikae",
+			"japanese": "足踏み替え",
+			"translation": "足の踏み替え"
+		},
+		{
+			"title": "ashi kō",
+			"sort": "Ashi ko",
+			"japanese": "足甲",
+			"translation": "鎧を着けた足",
+			"description": "忍者が塀や壁をよじ登るのに用いた足用の鉤爪である。手に着ける同じ道具は手鉤といい、しゅこうともてかぎとも読む。"
+		},
+		{
+			"title": "ashigaru",
+			"sort": "Ashigaru",
+			"japanese": "足軽",
+			"translation": "足の軽い兵",
+			"description": "侍の下層である。平時にはその多くが農民として田畑で働いた。武器も鎧も軽く、安価であった。"
+		},
+		{
+			"title": "Ashikaga",
+			"sort": "Ashikaga",
+			"japanese": "足利",
+			"description": "源氏の流れをくむ一族で、足利時代（1338–1573年）に日本の将軍職を担った。"
+		},
+		{
+			"title": "ashinaka",
+			"sort": "Ashinaka",
+			"japanese": "足半",
+			"description": "かかとの部分がなく、足の前半分だけを覆う藁草履である。足の指がじかに地面をつかむため、滑りやすい地面でも足元が定まる。"
+		},
+		{
+			"title": "atemi",
+			"sort": "Atemi",
+			"japanese": "当身",
+			"translation": "体への打撃",
+			"description": "人の急所や神経の集まる箇所を突き、蹴り、気絶させ、麻痺させ、あるいは殺す技である。"
+		},
+		{
+			"title": "atemi waza",
+			"sort": "Atemi waza",
+			"japanese": "当身技",
+			"translation": "体を打つ技",
+			"description": "急所や神経の集まる箇所を打つことの別称である。"
+		},
+		{
+			"title": "atemite",
+			"sort": "Atemite",
+			"japanese": "当身手",
+			"translation": "手で体を打つこと",
+			"description": "急所や神経の集まる箇所を打つことの別称である。"
+		},
+		{
+			"title": "ayumi ashi",
+			"sort": "Ayumi ashi",
+			"japanese": "歩み足",
+			"translation": "普通の歩き方"
+		},
+		{
+			"title": "bajutsu",
+			"sort": "Bajutsu",
+			"japanese": "馬術",
+			"translation": "馬を操る術"
+		},
+		{
+			"title": "bakemono jutsu",
+			"sort": "Bakemono jutsu",
+			"japanese": "化物術",
+			"translation": "霊の術",
+			"description": "幽霊に化ける術である。伊賀崎道順はこの術を用いて城に入り込んだと伝えられる。"
+		},
+		{
+			"title": "bakufu",
+			"sort": "Bakufu",
+			"japanese": "幕府",
+			"translation": "天幕の政府",
+			"description": "もとは将軍の陣営を指し、のちにその武家政権の本拠を指すようになった。西洋の言語では<q>ショーグネート</q>と訳される。"
+		},
+		{
+			"title": "bakuhatsu gama",
+			"sort": "Bakuhatsu gama",
+			"japanese": "爆発鎌",
+			"translation": "爆弾を投げる鎌",
+			"description": "大きな鎌と長さ2メートルの鎖からなる忍者の武器で、鎖の先には爆薬、毒、目つぶしの粉が付いていた。"
+		},
+		{
+			"title": "Bansenshūkai",
+			"sort": "Bansenshukai",
+			"japanese": "萬川集海",
+			"translation": "一万の川が海に注ぐ",
+			"description": "全10巻からなる忍術の集大成で、1676年に藤林保武が著した。"
+		},
+		{
+			"title": "banzai",
+			"sort": "Banzai",
+			"japanese": "万歳",
+			"translation": "一万年",
+			"description": "喜びの声であり、鬨の声でもある日本の掛け声である。"
+		},
+		{
+			"title": "bikenjutsu",
+			"sort": "Bikenjutsu",
+			"japanese": "秘剣術",
+			"description": "剣の戦い方である。体術、棒術とともに忍法を支える三本の柱の一つである。"
+		},
+		{
+			"title": "bisentō",
+			"sort": "Bisento",
+			"japanese": "眉尖刀",
+			"translation": "斧槍",
+			"description": "幅の広い刃をもつ日本の斧槍である。"
+		},
+		{
+			"title": "bisentōjutsu",
+			"sort": "Bisentojutsu",
+			"description": "眉尖刀を用いる戦い方である。忍者じゅうはっけいの18の分野の一つである。"
+		},
+		{
+			"title": "Biwako",
+			"sort": "Biwako",
+			"japanese": "琵琶湖",
+			"translation": "琵琶の湖",
+			"description": "日本最大の湖（約670平方キロメートル）で、京都の近くにある。その名は、形が楽器の琵琶に似ていることに由来する。"
+		},
+		{
+			"title": "bō",
+			"sort": "Bo",
+			"japanese": "棒",
+			"translation": "棒、杖",
+			"description": "日本の棒状の武器すべての総称で、狭い意味では六尺棒を指す。"
+		},
+		{
+			"title": "bō ken",
+			"sort": "Bo ken",
+			"japanese": "棒剣",
+			"translation": "棒の剣",
+			"description": "重い木で作った稽古用の刀で、木剣、木刀ともいう。これ自体が危険な武器である。"
+		},
+		{
+			"title": "bō shuriken",
+			"sort": "Bo shuriken",
+			"japanese": "棒手裏剣",
+			"description": "細長い短刀のような投げ物（手裏剣）で、かんざし、釘、箸などもこれに含まれる。"
+		},
+		{
+			"title": "bōbi no kamae",
+			"sort": "Bobi no kamae",
+			"japanese": "防備の構え",
+			"description": "身を守るための構えである。"
+		},
+		{
+			"title": "bōenkyō",
+			"sort": "Boenkyo",
+			"japanese": "望遠鏡",
+			"translation": "遠くを見る鏡"
+		},
+		{
+			"title": "bōjutsu",
+			"sort": "Bojutsu",
+			"japanese": "棒術",
+			"description": "棒の戦い方である。体術、びけんじゅつとともに忍法を支える三本の柱の一つである。"
+		},
+		{
+			"title": "bokken",
+			"sort": "Bokken",
+			"japanese": "木剣",
+			"translation": "木の剣",
+			"description": "ぼうけん、木刀ともいう。"
+		},
+		{
+			"title": "boku",
+			"sort": "Boku",
+			"japanese": "木",
+			"translation": "木、樹木",
+			"description": "もくとも読む。"
+		},
+		{
+			"title": "bokutō",
+			"sort": "Bokuto",
+			"japanese": "木刀",
+			"translation": "木の刀",
+			"description": "ぼうけん、木剣ともいう。"
+		},
+		{
+			"title": "bōryaku",
+			"sort": "Boryaku",
+			"japanese": "謀略",
+			"translation": "策略",
+			"description": "日本の兵法の一部で、陣形などがこれに含まれる。"
+		},
+		{
+			"title": "boshi ken",
+			"sort": "Boshi ken",
+			"japanese": "母指拳",
+			"translation": "親指の拳",
+			"description": "親指の先で的を打つ突きである。"
+		},
+		{
+			"title": "bu",
+			"sort": "Bu",
+			"japanese": "武",
+			"translation": "戦の術、武人の道、軍事",
+			"description": "むとも読む。"
+		},
+		{
+			"title": "Buddha",
+			"sort": "Buddha",
+			"sanskrit": "बुद्ध",
+			"translation": "目覚めた者",
+			"description": "輪廻の循環を断ち切った人を指す呼び名である。多くはカピラヴァストゥの王子で仏教の開祖、ゴータマ・シッダールタを指す。日本語では仏という。"
+		},
+		{
+			"title": "budō",
+			"sort": "Budo",
+			"japanese": "武道",
+			"translation": "武の道",
+			"description": "日本の武術すべての総称である。"
+		},
+		{
+			"title": "budōka",
+			"sort": "Budoka",
+			"japanese": "武道家",
+			"translation": "武術を修める人",
+			"description": "武道を修める者である。"
+		},
+		{
+			"title": "bugei jūhappan",
+			"sort": "Bugei juhappan",
+			"japanese": "武芸十八般",
+			"description": "武術の18の部門である。忍者はこれをしっかりと身に付けたうえで、さらに忍者じゅうはっけいの18部門の秘術を修めた。"
+		},
+		{
+			"title": "bugeisha",
+			"sort": "Bugeisha",
+			"japanese": "武芸者",
+			"translation": "武術の達人",
+			"description": "武術を修めた戦士（侍）を指す呼び名である。武人ともいう。"
+		},
+		{
+			"title": "bujin",
+			"sort": "Bujin",
+			"japanese": "武人",
+			"translation": "武に携わる人",
+			"description": "武芸者ともいう。"
+		},
+		{
+			"title": "Bujinkan",
+			"sort": "Bujinkan",
+			"japanese": "武神館",
+			"translation": "神なる武人の館",
+			"description": "初見良昭が創設した組織で、古い武術と忍術の九つの流派を束ねている。"
+		},
+		{
+			"title": "bujutsu",
+			"sort": "Bujutsu",
+			"japanese": "武術",
+			"translation": "武の術、ウーシュー",
+			"description": "侍の武術すべてを指す呼び名である。"
+		},
+		{
+			"title": "buke",
+			"sort": "Buke",
+			"japanese": "武家",
+			"translation": "侍、武人、武人の家",
+			"description": "高貴な武人の家を指す呼び名である。"
+		},
+		{
+			"title": "bukkyō",
+			"sort": "Bukkyo",
+			"japanese": "仏教",
+			"translation": "仏の教え"
+		},
+		{
+			"title": "bushi",
+			"sort": "Bushi",
+			"japanese": "武士",
+			"translation": "武人、侍",
+			"description": "封建時代の日本における高貴な武人を指す呼び名である。"
+		},
+		{
+			"title": "bushidō",
+			"sort": "Bushido",
+			"japanese": "武士道",
+			"translation": "武人の道",
+			"description": "侍の名誉の掟で、自らを律すること、身を捧げること、己を制することを求めた。"
+		},
+		{
+			"title": "butsu",
+			"sort": "Butsu",
+			"japanese": "仏",
+			"translation": "ブッダ"
+		},
+		{
+			"title": "chakuchi",
+			"sort": "Chakuchi",
+			"japanese": "着地",
+			"translation": "踏み込み"
+		},
+		{
+			"title": "chi",
+			"sort": "Chi",
+			"japanese": "地",
+			"translation": "大地、地面"
+		},
+		{
+			"title": "chi no kata",
+			"sort": "Chi no kata",
+			"japanese": "地の型",
+			"translation": "地の形"
+		},
+		{
+			"title": "Chi ryaku no maki",
+			"sort": "Chi ryaku no maki",
+			"japanese": "地略の巻",
+			"translation": "地の策の巻物",
+			"description": "地の策を説いた書で、<cite>『天略の巻』</cite>、<cite>『人略の巻』</cite>とともに一連の書をなす。"
+		},
+		{
+			"title": "chigiriki",
+			"sort": "Chigiriki",
+			"japanese": "乳切木",
+			"description": "鎖と鉄の分銅を先端に付けた長い棒で、殻竿から発展した武器である。"
+		},
+		{
+			"title": "chikairi",
+			"sort": "Chikairi",
+			"japanese": "近入",
+			"translation": "近くより入る",
+			"description": "忍者が戦の際に敵の戦線を突破するのに用いた策である。"
+		},
+		{
+			"title": "chiken-in",
+			"sort": "Chiken-in",
+			"japanese": "智拳印",
+			"translation": "智慧の拳の印",
+			"description": "九字印で列に対応する手の印である。"
+		},
+		{
+			"title": "chikujō jutsu",
+			"sort": "Chikujo jutsu",
+			"japanese": "築城術",
+			"translation": "城を築く術",
+			"description": "野戦築城の方法である。"
+		},
+		{
+			"title": "chikyū jutsu",
+			"sort": "Chikyu jutsu",
+			"japanese": "弛弓術",
+			"translation": "緩めた弓",
+			"description": "遠入の策の一つである。捕らえられた忍者が、敵の主君から仕えるよう誘われるとそれを受け入れ、機会が来るとすぐに逃げ出す。"
+		},
+		{
+			"title": "chimon",
+			"sort": "Chimon",
+			"japanese": "地文",
+			"translation": "地理"
+		},
+		{
+			"title": "chitsu mishi",
+			"sort": "Chitsu mishi",
+			"translation": "金で雇った目",
+			"description": "敵地の住民で、忍者のために働く者である。"
+		},
+		{
+			"title": "chōda",
+			"sort": "Choda",
+			"japanese": "長蛇",
+			"translation": "長い蛇",
+			"description": "謀略に含まれる陣形の一つである。"
+		},
+		{
+			"title": "chōhō",
+			"sort": "Choho",
+			"japanese": "諜報",
+			"translation": "諜報活動"
+		},
+		{
+			"title": "chōkyori kyōsō",
+			"sort": "Chokyori kyoso",
+			"japanese": "長距離競走",
+			"translation": "長い距離を走ること",
+			"description": "忍者が遠方へ知らせを届けるのに用いた走法である。"
+		},
+		{
+			"title": "chūnin",
+			"sort": "Chunin",
+			"japanese": "中忍",
+			"translation": "中位の忍者",
+			"description": "忍者の中位の階級で、一族の頭領（上忍）と現場で動く者（下忍）をつなぐ役であった。中忍は多くの場合、依頼主との接触を担ったため、人を見抜く力と変装に長けていた。"
+		},
+		{
+			"title": "dai",
+			"sort": "Dai",
+			"japanese": "大",
+			"translation": "大きい"
+		},
+		{
+			"title": "daikongō-in",
+			"sort": "Daikongo-in",
+			"japanese": "大金剛輪印",
+			"translation": "大いなる金剛の印",
+			"description": "九字印で兵に対応する手の印である。"
+		},
+		{
+			"title": "daimyō",
+			"sort": "Daimyo",
+			"japanese": "大名",
+			"translation": "大いなる名",
+			"description": "戦国時代に日本の覇権を争った、台頭する大土地所有者である。"
+		},
+		{
+			"title": "daisharin",
+			"sort": "Daisharin",
+			"japanese": "大車輪",
+			"translation": "大きな車輪",
+			"description": "1本の車軸と二つの大きな車輪からなる忍者の武器で、敵の足元へ転がして用いた。"
+		},
+		{
+			"title": "daishō",
+			"sort": "Daisho",
+			"japanese": "大小",
+			"translation": "大と小",
+			"description": "侍が帯びる二本一組の刀、刀と脇差である。"
+		},
+		{
+			"title": "daitō",
+			"sort": "Daito",
+			"japanese": "大刀",
+			"translation": "大きな刀",
+			"description": "侍の長い刀を指す呼び名で、短い刀に対していう。"
+		},
+		{
+			"title": "daken taijutsu",
+			"sort": "Daken taijutsu",
+			"japanese": "打拳体術",
+			"translation": "拳で体を打つ術",
+			"description": "体術に含まれる戦いの技で、蹴り、突き、受けからなる。骨法術と骨指術に分かれる。"
+		},
+		{
+			"title": "dan",
+			"sort": "Dan",
+			"japanese": "段",
+			"translation": "段階、等級",
+			"description": "師範格の等級を指す呼び名である。"
+		},
+		{
+			"title": "Dao",
+			"sort": "Dao",
+			"chinese": "道",
+			"translation": "道",
+			"description": "道教において宇宙の最高の実在であり力であって、有と無の根源である。言葉で定めることはできない。"
+		},
+		{
+			"title": "Daodejing",
+			"sort": "Daodejing",
+			"chinese": "道徳経",
+			"description": "道教の根本経典で、伝承では老子の作とされる。"
+		},
+		{
+			"title": "Dengyō Daishi",
+			"sort": "Dengyo Daishi",
+			"japanese": "伝教大師",
+			"description": "日本の天台宗と延暦寺の開祖で、最澄の名でも知られる。"
+		},
+		{
+			"title": "densho",
+			"sort": "Densho",
+			"japanese": "伝書",
+			"translation": "伝えられた書",
+			"description": "流派の秘伝の文書で、その技と掟を書き記したものである。"
+		},
+		{
+			"title": "do",
+			"sort": "Do",
+			"japanese": "土",
+			"translation": "土、地面"
+		},
+		{
+			"title": "dō",
+			"sort": "Do",
+			"japanese": "道",
+			"translation": "道、道筋、理",
+			"description": "アジアの世界観を表す言葉である。"
+		},
+		{
+			"title": "dō no hi",
+			"sort": "Do no hi",
+			"japanese": "銅の火",
+			"translation": "銅の火",
+			"description": "懐炉である胴火の別名である。"
+		},
+		{
+			"title": "dōjō",
+			"sort": "Dojo",
+			"japanese": "道場",
+			"translation": "修行の場"
+		},
+		{
+			"title": "dōka",
+			"sort": "Doka",
+			"japanese": "胴火",
+			"translation": "胴の火",
+			"description": "懐炉の一種で、小さな炉の中に忍者がくすぶる炭を一片入れた。どうのひともいう。"
+		},
+		{
+			"title": "dokko-in",
+			"sort": "Dokko-in",
+			"japanese": "独鈷印",
+			"translation": "チベットの金剛杵の印",
+			"description": "九字印で臨に対応する手の印である。"
+		},
+		{
+			"title": "doko no kamae",
+			"sort": "Doko no kamae",
+			"japanese": "怒虎の構え",
+			"translation": "怒る虎",
+			"description": "忍術の構えの一つである。"
+		},
+		{
+			"title": "dōkyō",
+			"sort": "Dokyo",
+			"japanese": "道教",
+			"translation": "道の教え",
+			"description": "中国に生まれた教えであり宗教である。日本語では、思想の学派としては道家と呼ぶ方が正確である。自然に向き合い、宇宙を理解することを説く。"
+		},
+		{
+			"title": "dosha",
+			"sort": "Dosha",
+			"japanese": "怒者",
+			"translation": "怒る者",
+			"description": "五情五欲の原理の一つで、人の怒りやすさにつけ込む。"
+		},
+		{
+			"title": "doteki",
+			"sort": "Doteki",
+			"japanese": "動的",
+			"translation": "動きのある",
+			"description": "動力学のことで、きかいがく、すなわち力学を最も効果的に応用したものである。力の正しい使い方、律動と流れ、強さとしなやかさ、そして動作を感じ取りそれに合わせる力がこれに含まれる。"
+		},
+		{
+			"title": "doton",
+			"sort": "Doton",
+			"japanese": "土遁",
+			"description": "土を用いて逃れる法で、五遁法の五つの方法の一つである。"
+		},
+		{
+			"title": "doton jutsu",
+			"sort": "Doton jutsu",
+			"japanese": "土遁術",
+			"translation": "土で逃れる術",
+			"description": "五遁法の逃走術の一つで、土を逃げる手段として用いる。"
+		},
+		{
+			"title": "ebira",
+			"sort": "Ebira",
+			"japanese": "箙",
+			"translation": "矢を入れる道具"
+		},
+		{
+			"title": "Edo",
+			"sort": "Edo",
+			"japanese": "江戸",
+			"description": "日本の首都のかつての名で、現在の東京である。"
+		},
+		{
+			"title": "eiku",
+			"sort": "Eiku",
+			"japanese": "櫂",
+			"description": "舟をこぐオールで、沖縄の古武道では武器として用いる。漁師に化けた忍者は、これで十分に身を守ることができた。"
+		},
+		{
+			"title": "eki",
+			"sort": "Eki",
+			"japanese": "易",
+			"translation": "占い",
+			"description": "硬貨やノコギリソウの茎を使って問う占いで、中国の<cite>『易経』</cite>と同じである。"
+		},
+		{
+			"title": "endoku ken",
+			"sort": "Endoku ken",
+			"japanese": "煙毒剣",
+			"translation": "煙と毒の刃",
+			"description": "火をつけることができ、燃えると毒の煙を出す投げ星（手裏剣）である。"
+		},
+		{
+			"title": "engetsu",
+			"sort": "Engetsu",
+			"japanese": "偃月",
+			"translation": "三日月",
+			"description": "謀略に含まれる陣形の一つである。"
+		},
+		{
+			"title": "ennyū no jutsu",
+			"sort": "Ennyu no jutsu",
+			"translation": "見せかけの攻め",
+			"description": "一隊が偽りの攻撃を仕掛ける。守り手がその防ぎに駆けつけている間に、忍者はやすやすと城に忍び込む。"
+		},
+		{
+			"title": "Enryakuji",
+			"sort": "Enryakuji",
+			"japanese": "延暦寺",
+			"description": "京都に近い比叡山にある天台宗の総本山で、桓武天皇の命により天台仏教の中心として創建された。最盛期には山上の3,000の寺に最大40,000人の僧と僧兵が暮らしていたと伝えられる。1571年9月、織田信長は一向一揆、忍者、僧兵に対する遠征の中でこの寺を破壊し、住人の大半を殺した。"
+		},
+		{
+			"title": "fū",
+			"sort": "Fu",
+			"japanese": "風",
+			"translation": "風"
+		},
+		{
+			"title": "fū no kata",
+			"sort": "Fu no kata",
+			"japanese": "風の型",
+			"translation": "風の形"
+		},
+		{
+			"title": "fudō ken",
+			"sort": "Fudo ken",
+			"japanese": "不動拳",
+			"translation": "動かない拳",
+			"description": "多くの武術に見られる拳の握り方で、<q>普通の</q>拳である。"
+		},
+		{
+			"title": "fudōmyō",
+			"sort": "Fudomyo",
+			"japanese": "不動明王",
+			"description": "不動明王は、意志と法と宇宙の完全さを守る恐ろしい姿の神話上の守護者である。九字切りでは、忍者はその炎の剣をまねる。"
+		},
+		{
+			"title": "fudōshin",
+			"sort": "Fudoshin",
+			"japanese": "不動心",
+			"translation": "動かない心",
+			"description": "落ち着いて揺るがない心である。"
+		},
+		{
+			"title": "fudōza no kamae",
+			"sort": "Fudoza no kamae",
+			"japanese": "不動座の構え",
+			"translation": "動かない座り方",
+			"description": "日本の座り方の一つで、忍術の構えでもある。"
+		},
+		{
+			"title": "Fujibayashi Nagato",
+			"sort": "Fujibayashi Nagato",
+			"japanese": "藤林長門",
+			"description": "伊賀の地の名高い上忍である。広く知られた説によれば、百地三太夫の偽りの身分にすぎない。"
+		},
+		{
+			"title": "Fujita Seiko",
+			"sort": "Fujita Seiko",
+			"japanese": "藤田西湖",
+			"description": "忍術の大家で、甲賀流の第14代にして最後の宗家を名乗り、後継者を指名しなかった。1966年1月4日、東京で没した。"
+		},
+		{
+			"title": "fukibari",
+			"sort": "Fukibari",
+			"japanese": "吹き針",
+			"translation": "針を吹くこと",
+			"description": "忍者の戦い方の一つで、小さな金属の針（含み針）を相手の顔に吹きつける。"
+		},
+		{
+			"title": "fukiya",
+			"sort": "Fukiya",
+			"japanese": "吹き矢",
+			"translation": "吹き筒と矢",
+			"description": "その矢には多くの場合、毒が塗られていた。"
+		},
+		{
+			"title": "fukumi bari",
+			"sort": "Fukumi bari",
+			"japanese": "含み針",
+			"translation": "小さな矢",
+			"description": "吹き針で吹きつける小さな金属の針である。"
+		},
+		{
+			"title": "fukuro gaeshi jutsu",
+			"sort": "Fukuro gaeshi jutsu",
+			"japanese": "袋返術",
+			"translation": "裏返した袋",
+			"description": "遠入の策の一つである。忍者は見せかけの仲たがいの後に新しい主君のもとへ移り、しばらくその主君に仕える。戦が決定的な局面を迎えると任務を果たし、元の主君のもとへ戻る。"
+		},
+		{
+			"title": "fukuro gaeshi zen jutsu",
+			"sort": "Fukuro gaeshi zen jutsu",
+			"japanese": "袋翻全術",
+			"description": "近入の策の一つである。忍者は敵の主君とその同盟者との間の書状を奪い、偽造して送り届け、両者の間に不信の種をまく。"
+		},
+		{
+			"title": "Fūma Kotarō",
+			"sort": "Fuma Kotaro",
+			"japanese": "風魔小太郎",
+			"description": "上忍の位にある名高い忍者で、伝承によれば200人の配下を率い、ゲリラ戦を得意とした。"
+		},
+		{
+			"title": "furyō",
+			"sort": "Furyo",
+			"japanese": "不良",
+			"translation": "素行の悪い若者",
+			"description": "ろくでなし、若いならず者である。"
+		},
+		{
+			"title": "futokoro teppō",
+			"sort": "Futokoro teppo",
+			"japanese": "懐鉄砲",
+			"translation": "懐に入れる銃",
+			"description": "青銅製の拳銃で、隠し持ちやすく、忍者に好まれた。"
+		},
+		{
+			"title": "gandō",
+			"sort": "Gando",
+			"japanese": "龕灯",
+			"translation": "仏壇の灯",
+			"description": "光源が常に地面に対して垂直に保たれる灯火である。"
+		},
+		{
+			"title": "gankō",
+			"sort": "Ganko",
+			"japanese": "雁行",
+			"translation": "雁の群れの飛行",
+			"description": "謀略に含まれる陣形の一つである。"
+		},
+		{
+			"title": "gasshō no kamae",
+			"sort": "Gassho no kamae",
+			"japanese": "合掌の構え",
+			"translation": "祈りの構え",
+			"description": "忍術の構えの一つで、両の掌を合わせて礼をする。"
+		},
+		{
+			"title": "gebaku ken-in",
+			"sort": "Gebaku ken-in",
+			"japanese": "外縛拳印",
+			"translation": "外で結んだ拳の印",
+			"description": "九字印で皆に対応する手の印で、祈るときと同じ印である。"
+		},
+		{
+			"title": "gedan no kamae",
+			"sort": "Gedan no kamae",
+			"japanese": "下段の構え",
+			"description": "低い構えである。"
+		},
+		{
+			"title": "geinyū jutsu",
+			"sort": "Geinyu jutsu",
+			"japanese": "迎入術",
+			"description": "近入の策の一つである。忍者は敵地に入り込み、偽りの噂、放火、破壊工作などによって混乱と恐怖を広げる。"
+		},
+		{
+			"title": "gekkenjutsu",
+			"sort": "Gekkenjutsu",
+			"japanese": "撃剣術",
+			"description": "剣の戦い方である。武芸十八般では剣術と並べて挙げられる。"
+		},
+		{
+			"title": "genin",
+			"sort": "Genin",
+			"japanese": "下忍",
+			"translation": "下位の忍者",
+			"description": "忍者の最下位の階級である。現場で動くこの者たちは中忍から命令を受け、多くの場合、上忍の顔を知らなかった。その強みは接近戦、身を隠すこと、潜入、破壊工作にあった。"
+		},
+		{
+			"title": "Genji",
+			"sort": "Genji",
+			"japanese": "源氏",
+			"description": "源の別名である。"
+		},
+		{
+			"title": "genjutsu",
+			"sort": "Genjutsu",
+			"japanese": "幻術",
+			"translation": "幻の術"
+		},
+		{
+			"title": "genmai",
+			"sort": "Genmai",
+			"japanese": "玄米",
+			"description": "精白していない米である。"
+		},
+		{
+			"title": "Genpei kassen",
+			"sort": "Genpei kassen",
+			"japanese": "源平合戦",
+			"description": "平と源の間で戦われた戦（1180–1185年）である。"
+		},
+		{
+			"title": "geri",
+			"sort": "Geri",
+			"japanese": "蹴り",
+			"translation": "蹴ること",
+			"description": "けりとも読む。"
+		},
+		{
+			"title": "geta",
+			"sort": "Geta",
+			"japanese": "下駄",
+			"description": "高い歯の付いた木の履物で、鼻緒は十字形か、足の指で挟む形である。"
+		},
+		{
+			"title": "gi",
+			"sort": "Gi",
+			"japanese": "着",
+			"translation": "衣服、装い、制服",
+			"description": "稽古着である。"
+		},
+		{
+			"title": "Gikan-Ryū",
+			"sort": "Gikan-Ryu",
+			"japanese": "義鑑流",
+			"translation": "正義を学ぶ流派",
+			"description": "武神館の九つの流派の一つである。"
+		},
+		{
+			"title": "gisō jutsu",
+			"sort": "Giso jutsu",
+			"japanese": "擬装術",
+			"translation": "まねて変装する術",
+			"description": "他人の身になりきり、新しい身分をまとう術である。隠身術の一部である。"
+		},
+		{
+			"title": "godai",
+			"sort": "Godai",
+			"japanese": "五大",
+			"translation": "五つの大いなるもの",
+			"description": "密教における宇宙の五つの元素で、地、水、火、風、空である。"
+		},
+		{
+			"title": "godan",
+			"sort": "Godan",
+			"japanese": "五段",
+			"translation": "五番目の段",
+			"description": "武神館の五段の試験では、師が刀を持って音もなく弟子に近づく。弟子は危険を感じ取り、その一撃をかわさなければならない。"
+		},
+		{
+			"title": "gogyō",
+			"sort": "Gogyo",
+			"japanese": "五行",
+			"translation": "五つの元素の理論",
+			"description": "中国の道教から取り入れた自然の見方で、水、木、火、土、金からなる。"
+		},
+		{
+			"title": "gogyō no kata",
+			"sort": "Gogyo no kata",
+			"japanese": "五行の型",
+			"translation": "五つの動きの形"
+		},
+		{
+			"title": "gogyō setsu",
+			"sort": "Gogyo setsu",
+			"japanese": "五行説",
+			"translation": "五つの元素の理論",
+			"description": "略して五行という。"
+		},
+		{
+			"title": "gojō goyoku",
+			"sort": "Gojo goyoku",
+			"japanese": "五情五欲",
+			"description": "人をその性格によって操る忍者の策である。その五つの原理はあいしゃ、どしゃ、きしゃ、きょうしゃ、らくしゃである。"
+		},
+		{
+			"title": "goku no kamae",
+			"sort": "Goku no kamae",
+			"description": "忍術の構えの一つである。"
+		},
+		{
+			"title": "Gorin no sho",
+			"sort": "Gorin no sho",
+			"japanese": "五輪の書",
+			"translation": "五つの輪の書",
+			"description": "宮本武蔵が剣術と兵法について記した書である。"
+		},
+		{
+			"title": "gorintō",
+			"sort": "Gorinto",
+			"japanese": "五輪塔",
+			"description": "五つの部分を積み重ねた石の記念碑で、立方体、球、角錐、半月、宝珠からなる。"
+		},
+		{
+			"title": "goshin no kata",
+			"sort": "Goshin no kata",
+			"japanese": "梧心の型",
+			"translation": "アオギリの心の形"
+		},
+		{
+			"title": "goton jutsu",
+			"sort": "Goton jutsu",
+			"japanese": "五遁術",
+			"translation": "五つの逃れの術",
+			"description": "五遁法の別名である。"
+		},
+		{
+			"title": "gotonpō",
+			"sort": "Gotonpo",
+			"japanese": "五遁法",
+			"translation": "五つの逃れの法",
+			"description": "五行の五つの元素を利用して逃れるという忍者の原理である。"
+		},
+		{
+			"title": "gu",
+			"sort": "Gu",
+			"japanese": "具",
+			"translation": "道具"
+		},
+		{
+			"title": "gunryaku heihō",
+			"sort": "Gunryaku heiho",
+			"description": "軍事上の戦略である。忍者じゅうはっけいの18の分野の一つである。"
+		},
+		{
+			"title": "gyaku nagare",
+			"sort": "Gyaku nagare",
+			"japanese": "逆流れ",
+			"translation": "逆向きの流れ",
+			"description": "一文字の構えから行う受身である。"
+		},
+		{
+			"title": "gyaku nage",
+			"sort": "Gyaku nage",
+			"japanese": "逆投げ",
+			"translation": "逆向きの投げ",
+			"description": "関節を極めて投げる技である。"
+		},
+		{
+			"title": "gyōja no kamae",
+			"sort": "Gyoja no kamae",
+			"japanese": "行者の構え",
+			"translation": "修行者の構え",
+			"description": "長い棒を杖のように体の横にまっすぐ立てて持つ構えである。"
+		},
+		{
+			"title": "gyōkaku ken",
+			"sort": "Gyokaku ken",
+			"translation": "合わさった角",
+			"description": "人差し指、中指、薬指で三叉の矛の形を作り、その先で首など体の柔らかい部分を突く。"
+		},
+		{
+			"title": "Gyokko-Ryū",
+			"sort": "Gyokko-Ryu",
+			"japanese": "玉虎流",
+			"translation": "宝玉の虎の流派",
+			"description": "武神館の九つの流派の一つである。"
+		},
+		{
+			"title": "gyokuro",
+			"sort": "Gyokuro",
+			"japanese": "玉露",
+			"description": "上質の緑茶である。忍者はこの茶を30日から40日土に埋め、それから味噌と混ぜて毒を作ったと伝えられる。病人は数日のうちに、健康な者でも遅くとも70日で死んだ。"
+		},
+		{
+			"title": "Gyokushin-Ryū",
+			"sort": "Gyokushin-Ryu",
+			"japanese": "玉心流",
+			"translation": "宝玉の心の流派",
+			"description": "武神館の九つの流派の一つである。"
+		},
+		{
+			"title": "gyorin",
+			"sort": "Gyorin",
+			"japanese": "魚鱗",
+			"translation": "魚のうろこ",
+			"description": "謀略に含まれる陣形の一つである。"
+		},
+		{
+			"title": "ha jutsu",
+			"sort": "Ha jutsu",
+			"japanese": "破術",
+			"translation": "打ち破る術",
+			"description": "つかまれた状態から抜け出すことである。"
+		},
+		{
+			"title": "Hagakure",
+			"sort": "Hagakure",
+			"japanese": "葉隠",
+			"translation": "隠れた葉",
+			"description": "侍の山本常朝が武士道の思想的な側面について記した書である。"
+		},
+		{
+			"title": "hakama",
+			"sort": "Hakama",
+			"japanese": "袴",
+			"description": "伝統的な、股の分かれたスカート状の衣である。"
+		},
+		{
+			"title": "han",
+			"sort": "Han",
+			"japanese": "藩",
+			"translation": "封建時代の領地、知行地、国",
+			"description": "大名の領地である。"
+		},
+		{
+			"title": "hanbō",
+			"sort": "Hanbo",
+			"japanese": "半棒",
+			"translation": "半分の棒",
+			"description": "正式な名は三尺棒である。"
+		},
+		{
+			"title": "hanbōjutsu",
+			"sort": "Hanbojutsu",
+			"japanese": "半棒術",
+			"description": "短い棒（半棒）を用いる戦い方である。"
+		},
+		{
+			"title": "hankyū",
+			"sort": "Hankyu",
+			"japanese": "半弓",
+			"translation": "半分の弓",
+			"description": "忍者の短い弓で、折り畳めるものもあり、持ち運びやすかった。"
+		},
+		{
+			"title": "hanmi no kamae",
+			"sort": "Hanmi no kamae",
+			"japanese": "半身の構え",
+			"translation": "半分の体",
+			"description": "忍術の構えの一つである。"
+		},
+		{
+			"title": "happa ken",
+			"sort": "Happa ken",
+			"japanese": "八葉拳",
+			"translation": "八枚の葉の拳"
+		},
+		{
+			"title": "happō hiken",
+			"sort": "Happo hiken",
+			"japanese": "八法秘剣",
+			"translation": "八つの法と秘密の剣",
+			"description": "九鬼神伝流に伝わる八つの方法と、秘剣と呼ばれる秘密の剣の技である。"
+		},
+		{
+			"title": "happō hikenjutsu",
+			"sort": "Happo hikenjutsu",
+			"japanese": "八法秘剣術",
+			"description": "八法秘剣を参照。"
+		},
+		{
+			"title": "hara",
+			"sort": "Hara",
+			"japanese": "腹",
+			"translation": "腹",
+			"description": "胃から下腹までの全体を指し、心と体の力の中心とされる。"
+		},
+		{
+			"title": "hasami bune",
+			"sort": "Hasami bune",
+			"description": "忍者が装備を水の向こうへ運ぶのに用いた折り畳み式の舟である。<cite>『萬川集海』</cite>はこのような折り畳み舟を挟箱船として記している。その板は蝶番でつながれ、畳むと担いで運ぶ箱に収まった。たたみぶねともいう。"
+		},
+		{
+			"title": "hashigo",
+			"sort": "Hashigo",
+			"japanese": "梯子",
+			"translation": "はしご",
+			"description": "多くは葦か竹で作る。複合語では濁ってばしごとなり、くも梯子のように用いる。"
+		},
+		{
+			"title": "hashigo yari",
+			"sort": "Hashigo yari",
+			"japanese": "梯子槍",
+			"translation": "はしごの槍",
+			"description": "対になって突き出た横木と、先端に鉄の鉤を備えた長い竿で、はしごとして用いた。"
+		},
+		{
+			"title": "Hatsumi Masaaki",
+			"sort": "Hatsumi Masaaki",
+			"japanese": "初見良昭",
+			"description": "生まれたときの名は初見良昭である。武神館武道道場の創設者で、武神館の九つの流派の宗家であり、高松寿嗣の弟子である。"
+		},
+		{
+			"title": "Hattori Hanzō",
+			"sort": "Hattori Hanzo",
+			"japanese": "服部半蔵",
+			"description": "伊賀の地の名高い上忍で、徳川家康に仕える侍でもあった。"
+		},
+		{
+			"title": "Hayes, Stephen K.",
+			"sort": "Hayes, Stephen K.",
+			"description": "忍術の指導者で、初見良昭の弟子である。日本人以外で初めて指導士となった。アメリカで刀心道という流派を創設した。"
+		},
+		{
+			"title": "heihō",
+			"sort": "Heiho",
+			"japanese": "兵法",
+			"translation": "武人の法",
+			"description": "戦いの方法と戦いの策（謀略）の両方を含む。"
+		},
+		{
+			"title": "Heike",
+			"sort": "Heike",
+			"japanese": "平家",
+			"description": "平の別名である。"
+		},
+		{
+			"title": "heipo",
+			"sort": "Heipo",
+			"japanese": "平歩",
+			"translation": "サンショウウオの歩み",
+			"description": "忍者の這い進む方法である。"
+		},
+		{
+			"title": "hensō jutsu",
+			"sort": "Henso jutsu",
+			"japanese": "変装術",
+			"translation": "変装する術",
+			"description": "忍者が姿を変える術である。隠身術の一部である。"
+		},
+		{
+			"title": "hichō no kamae",
+			"sort": "Hicho no kamae",
+			"japanese": "飛鳥の構え",
+			"translation": "飛ぶ鳥の構え",
+			"description": "忍術の構えの一つである。"
+		},
+		{
+			"title": "hidari",
+			"sort": "Hidari",
+			"japanese": "左",
+			"translation": "左"
+		},
+		{
+			"title": "hiken",
+			"sort": "Hiken",
+			"japanese": "秘剣",
+			"translation": "秘密の剣の技"
+		},
+		{
+			"title": "hira ichimonji no kamae",
+			"sort": "Hira ichimonji no kamae",
+			"japanese": "平一文字の構え",
+			"description": "体をかわすことのできる釣り合いの取れた構えである。体重を両足に均等にかけ、両腕を左右に伸ばして、払い、つかみ、あるいは打撃を受け止める。"
+		},
+		{
+			"title": "hira no kamae",
+			"sort": "Hira no kamae",
+			"japanese": "平の構え",
+			"translation": "平らな構え",
+			"description": "忍術の構えの一つである。"
+		},
+		{
+			"title": "hira shuriken",
+			"sort": "Hira shuriken",
+			"japanese": "平手裏剣",
+			"description": "平たい投げ星（手裏剣）で、大きさも形もさまざまであり、尖りの数も異なる。"
+		},
+		{
+			"title": "hiragana",
+			"sort": "Hiragana",
+			"japanese": "平仮名",
+			"description": "純粋な和語を書くための日本の音節文字である。伝承によれば、弘法大師が考案した。"
+		},
+		{
+			"title": "hiraki ashi",
+			"sort": "Hiraki ashi",
+			"japanese": "開き足",
+			"description": "両足で横へ滑るように動くことである。"
+		},
+		{
+			"title": "hishi",
+			"sort": "Hishi",
+			"japanese": "菱",
+			"translation": "ヒシ（Trapa japonica）、ヒシの実、鉄菱",
+			"description": "乾かしたヒシの実で、鉄菱と同じ役目を果たした。"
+		},
+		{
+			"title": "hisoken",
+			"sort": "Hisoken",
+			"translation": "隠れた槍",
+			"description": "指刀拳の別名で、親指の先で半ば柔らかい的を突く。"
+		},
+		{
+			"title": "hito washi",
+			"sort": "Hito washi",
+			"japanese": "人鷲",
+			"translation": "人の鷲",
+			"description": "忍者の飛行具である。やみどこともいう。"
+		},
+		{
+			"title": "hobakujutsu",
+			"sort": "Hobakujutsu",
+			"japanese": "捕縛術",
+			"description": "縛る術である。武芸十八般では捕縄術と並べて挙げられる。"
+		},
+		{
+			"title": "hōen",
+			"sort": "Hoen",
+			"japanese": "方円",
+			"translation": "四角と円",
+			"description": "謀略に含まれる陣形の一つである。"
+		},
+		{
+			"title": "Hōjō",
+			"sort": "Hojo",
+			"japanese": "北条",
+			"description": "台頭した侍の一族で、戦国時代に覇権を争った家の一つである。"
+		},
+		{
+			"title": "hōjō jutsu",
+			"sort": "Hojo jutsu",
+			"japanese": "捕縄術",
+			"translation": "縄で縛る術"
+		},
+		{
+			"title": "hojutsu",
+			"sort": "Hojutsu",
+			"description": "真実と偽りを切り替える方法で、初見良昭はこれを虚実転換法と同じものとしている。武芸十八般では幻惑の術を表す。"
+		},
+		{
+			"title": "hokamuri",
+			"sort": "Hokamuri",
+			"japanese": "頬被り",
+			"description": "頭と頬を覆って結ぶ布である。手拭の別名である。"
+		},
+		{
+			"title": "hōkashi",
+			"sort": "Hokashi",
+			"description": "楽人である。七方出に含まれる忍者の変装の一つである。"
+		},
+		{
+			"title": "hōken jūroppō",
+			"sort": "Hoken juroppo",
+			"japanese": "宝拳十六法",
+			"translation": "尊い拳の十六の法"
+		},
+		{
+			"title": "Hokkaidō",
+			"sort": "Hokkaido",
+			"japanese": "北海道",
+			"description": "日本の最北の島で、中心都市は札幌である。"
+		},
+		{
+			"title": "hokō jutsu",
+			"sort": "Hoko jutsu",
+			"japanese": "歩行術",
+			"translation": "正しく歩く術"
+		},
+		{
+			"title": "hōko no kamae",
+			"sort": "Hoko no kamae",
+			"japanese": "抱圍の構え",
+			"translation": "抱きかかえる構え",
+			"description": "忍術の構えの一つである。"
+		},
+		{
+			"title": "honbu",
+			"sort": "Honbu",
+			"japanese": "本部",
+			"translation": "本拠"
+		},
+		{
+			"title": "hōshi",
+			"sort": "Hoshi",
+			"japanese": "鋒矢",
+			"translation": "矢じり",
+			"description": "謀略に含まれる陣形の一つである。"
+		},
+		{
+			"title": "hotarubi jutsu",
+			"sort": "Hotarubi jutsu",
+			"japanese": "蛍火術",
+			"translation": "蛍の光",
+			"description": "遠入の策の一つである。偽の書状を持たせた使者を敵地に送り、わざと敵に捕らえさせる。"
+		},
+		{
+			"title": "hyōjō hokō",
+			"sort": "Hyojo hoko",
+			"japanese": "氷上歩行",
+			"translation": "氷の上を歩くこと"
+		},
+		{
+			"title": "iai jutsu",
+			"sort": "Iai jutsu",
+			"japanese": "居合術",
+			"translation": "素早い抜刀",
+			"description": "敵をできる限り最初の一太刀で斬り倒す、侍の術である。"
+		},
+		{
+			"title": "iaidō",
+			"sort": "Iaido",
+			"japanese": "居合道",
+			"description": "居合術から生まれた競技である。"
+		},
+		{
+			"title": "iainuki",
+			"sort": "Iainuki",
+			"japanese": "居合抜き",
+			"translation": "素早い抜刀",
+			"description": "刀を素早く抜くことで、神伝不動流はこれを専門とする。"
+		},
+		{
+			"title": "ichi no kamae",
+			"sort": "Ichi no kamae",
+			"japanese": "一の構え",
+			"translation": "一の姿勢",
+			"description": "忍術の構えのひとつである。"
+		},
+		{
+			"title": "ichimonji no kamae",
+			"sort": "Ichimonji no kamae",
+			"japanese": "一文字の構え",
+			"translation": "まっすぐな一本線の姿勢",
+			"description": "忍術の構えのひとつである。"
+		},
+		{
+			"title": "Iga",
+			"sort": "Iga",
+			"japanese": "伊賀",
+			"description": "京都に近い日本の国で、忍者が特に盛んに活動した。"
+		},
+		{
+			"title": "Iga Ueno",
+			"sort": "Iga Ueno",
+			"japanese": "伊賀上野",
+			"description": "伊賀地方の町で、かつて忍者の中心地であった。今日では博物館や祭りが忍者を偲んでいる。"
+		},
+		{
+			"title": "Iga Ueno-jō",
+			"sort": "Iga Ueno-jo",
+			"japanese": "伊賀上野城",
+			"description": "伊賀上野にある城である。"
+		},
+		{
+			"title": "iga dama",
+			"sort": "Iga dama",
+			"japanese": "伊賀玉",
+			"description": "アザミのことである。鉄菱を参照。"
+		},
+		{
+			"title": "Iga-Ryū",
+			"sort": "Iga-Ryu",
+			"japanese": "伊賀流",
+			"description": "忍術の流派で、今日の雲隠流である。"
+		},
+		{
+			"title": "Igasaki Dōjun",
+			"sort": "Igasaki Dojun",
+			"japanese": "伊賀崎道順",
+			"description": "伊賀国出身の名高い忍者で、意表を突く策略によって敵の城に入り込んだ。"
+		},
+		{
+			"title": "ikki",
+			"sort": "Ikki",
+			"japanese": "一揆",
+			"translation": "蜂起"
+		},
+		{
+			"title": "ikkō ikki",
+			"sort": "Ikko ikki",
+			"japanese": "一向一揆",
+			"translation": "浄土真宗の門徒の蜂起",
+			"description": "15世紀から16世紀にかけて、仏教の浄土真宗の門徒が起こした蜂起と、彼らが結んだ同盟である。"
+		},
+		{
+			"title": "in",
+			"sort": "In",
+			"japanese": "陰",
+			"translation": "影、負、隠れたもの"
+		},
+		{
+			"title": "in shin ton kei",
+			"sort": "In shin ton kei",
+			"description": "最小の労力で最大の効果を上げ、物事の自然な流れをできるだけ変えないという忍術の原則である。"
+		},
+		{
+			"title": "innin",
+			"sort": "Innin",
+			"japanese": "陰忍",
+			"translation": "隠れて入り込むこと",
+			"description": "<cite>『萬川集海』</cite>の第5巻、第6巻、第7巻の題名である。忍者の知識の暗い側面である陰を扱い、策略、欺き、奇襲について述べる。"
+		},
+		{
+			"title": "inpō",
+			"sort": "Inpo",
+			"japanese": "隠法",
+			"description": "身を隠し、姿を偽る術である。"
+		},
+		{
+			"title": "inrō",
+			"sort": "Inro",
+			"japanese": "印籠",
+			"translation": "旅行用の薬入れ"
+		},
+		{
+			"title": "inton",
+			"sort": "Inton",
+			"japanese": "隠遁",
+			"description": "隠身術の別名で、身を隠し、姿を偽る術である。"
+		},
+		{
+			"title": "inton jutsu",
+			"sort": "Inton jutsu",
+			"japanese": "隠遁術",
+			"translation": "逃れて身を隠す忍者の術"
+		},
+		{
+			"title": "in’yō",
+			"sort": "In’yo",
+			"japanese": "陰陽",
+			"translation": "宇宙の二元的な力、陰と陽、太陽と月",
+			"description": "道教で二元性を象徴する陰と陽を、日本語ではこう呼ぶ。"
+		},
+		{
+			"title": "ippon sugi nobori",
+			"sort": "Ippon sugi nobori",
+			"japanese": "一本杉登り",
+			"translation": "杉の木を登るひとつの方法",
+			"description": "木に登るための道具で、鉤の付いた鉄片に、持ち手の付いた二本の縄が取り付けてある。"
+		},
+		{
+			"title": "Ishikawa Goemon",
+			"sort": "Ishikawa Goemon",
+			"japanese": "石川五右衛門",
+			"description": "名高い盗賊で、伝説によれば忍者であり、その術を盗みに用いた。いわば日本の<q>ロビン・フッド</q>である。"
+		},
+		{
+			"title": "ito",
+			"sort": "Ito",
+			"japanese": "意図",
+			"translation": "意図、狙い"
+		},
+		{
+			"title": "ja",
+			"sort": "Ja",
+			"japanese": "者",
+			"translation": "人"
+		},
+		{
+			"title": "jari bako",
+			"sort": "Jari bako",
+			"japanese": "砂利箱",
+			"translation": "砂利の箱",
+			"description": "米や砂、砂利を詰めた容器で、手を鍛えるのに用いる。かんしゅともいう。"
+		},
+		{
+			"title": "ji",
+			"sort": "Ji",
+			"japanese": "侍",
+			"description": "侍の別の呼び名である。"
+		},
+		{
+			"title": "jihi no kokoro",
+			"sort": "Jihi no kokoro",
+			"japanese": "慈悲の心",
+			"translation": "慈しみ深い心",
+			"description": "忍法における悟りのしるしで、愛そのものよりも強い。生と死の境を繰り返し歩むことで生まれる。"
+		},
+		{
+			"title": "jikatabi",
+			"sort": "Jikatabi",
+			"japanese": "地下足袋",
+			"description": "親指の部分が分かれた忍者の履物である。音を立てずに走ったり登ったりするのに特に適していた。"
+		},
+		{
+			"title": "jin",
+			"sort": "Jin",
+			"japanese": "人",
+			"translation": "人"
+		},
+		{
+			"title": "Jin ryaku no maki",
+			"sort": "Jin ryaku no maki",
+			"japanese": "人略の巻",
+			"translation": "人の策略の巻物",
+			"description": "人の策略について記した書で、<cite>『天略の巻』</cite>、<cite>『地略の巻』</cite>と一連をなす。"
+		},
+		{
+			"title": "jirai",
+			"sort": "Jirai",
+			"japanese": "地雷",
+			"translation": "地中に仕掛ける爆薬"
+		},
+		{
+			"title": "jitte",
+			"sort": "Jitte",
+			"japanese": "十手",
+			"translation": "十の手",
+			"description": "刀の斬撃を受け止めるための鉤が付いた手持ちの武器である。じゅってとも読む。"
+		},
+		{
+			"title": "jō",
+			"sort": "Jo",
+			"japanese": "杖",
+			"translation": "散歩用の杖、旅の杖、棒",
+			"description": "正式な名称は四尺棒である。"
+		},
+		{
+			"title": "jōei jutsu",
+			"sort": "Joei jutsu",
+			"japanese": "如影術",
+			"translation": "影のように",
+			"description": "遠入の戦術のひとつである。戦が始まる直前に忍者は敵地へ入り、戦支度の騒ぎに紛れて、雇われた人足や兵士などとして容易に姿をくらます。"
+		},
+		{
+			"title": "jōjutsu",
+			"sort": "Jojutsu",
+			"japanese": "杖術",
+			"description": "杖を用いて戦う術である。武芸十八般と忍者じゅうはっけいに含まれる。"
+		},
+		{
+			"title": "jōnin",
+			"sort": "Jonin",
+			"japanese": "上忍",
+			"translation": "上位の忍者",
+			"description": "忍者の最高位で、一族の頭領である。その正体を知っていたのは、たいてい中忍だけであった。上忍は下忍に任務を与え、その強みは政治、戦略、哲学にあった。"
+		},
+		{
+			"title": "jū tai jutsu",
+			"sort": "Ju tai jutsu",
+			"japanese": "柔体術",
+			"translation": "しなやかな体の術",
+			"description": "忍術の体術に含まれる、組み技、関節技、絞め技である。"
+		},
+		{
+			"title": "jūdō",
+			"sort": "Judo",
+			"japanese": "柔道",
+			"translation": "穏やかな道",
+			"description": "1882年に嘉納治五郎教授が柔術から生み出した、日本の格闘スポーツである。"
+		},
+		{
+			"title": "jūjutsu",
+			"sort": "Jujutsu",
+			"japanese": "柔術",
+			"translation": "しなやかに受け流す術",
+			"description": "侍が用いた、日本の古い武術である。"
+		},
+		{
+			"title": "jumon",
+			"sort": "Jumon",
+			"japanese": "呪文",
+			"translation": "まじないの文句",
+			"description": "<q>力を帯びた</q>言葉で、真言に当たる日本のものである。知性を体現する。"
+		},
+		{
+			"title": "jūmonji no kamae",
+			"sort": "Jumonji no kamae",
+			"japanese": "十文字の構え",
+			"translation": "十字形の姿勢",
+			"description": "忍術の構えのひとつである。"
+		},
+		{
+			"title": "jun nagare",
+			"sort": "Jun nagare",
+			"japanese": "順流れ",
+			"translation": "前へ流れること",
+			"description": "一文字の構えから行う受身である。"
+		},
+		{
+			"title": "jūnantaisō",
+			"sort": "Junantaiso",
+			"japanese": "柔軟体操",
+			"translation": "体を柔らかくする体操",
+			"description": "敏捷さと柔軟さを養う、忍者の体操である。"
+		},
+		{
+			"title": "jutsu",
+			"sort": "Jutsu",
+			"japanese": "術",
+			"translation": "術、手段、技"
+		},
+		{
+			"title": "jutte",
+			"sort": "Jutte",
+			"japanese": "十手",
+			"translation": "十の手",
+			"description": "刀の斬撃を受け止めるための鉤が付いた手持ちの武器である。じってとも読む。"
+		},
+		{
+			"title": "ka",
+			"sort": "Ka",
+			"japanese": "火",
+			"translation": "火"
+		},
+		{
+			"title": "ka jutsu",
+			"sort": "Ka jutsu",
+			"japanese": "火術",
+			"translation": "火の術",
+			"description": "火、火器、爆薬を扱う術である。"
+		},
+		{
+			"title": "ka no kata",
+			"sort": "Ka no kata",
+			"japanese": "火の型",
+			"translation": "火の型"
+		},
+		{
+			"title": "kabuto",
+			"sort": "Kabuto",
+			"japanese": "兜",
+			"translation": "かぶと",
+			"description": "日本の甲冑のうち、頭を守る部分である。"
+		},
+		{
+			"title": "kagami",
+			"sort": "Kagami",
+			"japanese": "鏡",
+			"translation": "鏡"
+		},
+		{
+			"title": "kagi kōhō geri",
+			"sort": "Kagi koho geri",
+			"japanese": "鈎後方蹴り",
+			"translation": "後ろへの鉤状の蹴り"
+		},
+		{
+			"title": "kagi nawa",
+			"sort": "Kagi nawa",
+			"japanese": "鈎縄",
+			"translation": "鉤の付いた縄",
+			"description": "先端に鉤の付いた長い縄である。"
+		},
+		{
+			"title": "kagi yari",
+			"sort": "Kagi yari",
+			"japanese": "鈎槍",
+			"translation": "鉤の付いた槍",
+			"description": "刀の斬撃を防ぎ、木に登るのにも使われた忍者の武器である。鎌槍ともいう。"
+		},
+		{
+			"title": "kaiki",
+			"sort": "Kaiki",
+			"japanese": "開器",
+			"translation": "開けるための道具",
+			"description": "<cite>『萬川集海』</cite>のうち、戸や錠を開け、押し入るための道具を扱う巻の題名である。手拭の別名としての用例は確認されていない。"
+		},
+		{
+			"title": "kaiten",
+			"sort": "Kaiten",
+			"japanese": "回転",
+			"translation": "回ること、回転すること、転がること"
+		},
+		{
+			"title": "kaki",
+			"sort": "Kaki",
+			"japanese": "火器",
+			"translation": "火の道具",
+			"description": "<cite>『萬川集海』</cite>の最終巻の題名で、爆薬、煙玉、薬、麻酔薬、毒の調合法を収める。"
+		},
+		{
+			"title": "kakushi kokeshi",
+			"sort": "Kakushi kokeshi",
+			"description": "重りを隠したこけしで、武器として用いられた。"
+		},
+		{
+			"title": "kakuyoku",
+			"sort": "Kakuyoku",
+			"japanese": "鶴翼",
+			"translation": "鶴の翼",
+			"description": "謀略で用いる陣形のひとつである。"
+		},
+		{
+			"title": "kama",
+			"sort": "Kama",
+			"japanese": "鎌",
+			"translation": "草刈り用の刃物",
+			"description": "アジア全域で穀物や米、サトウキビを刈るのに使われた道具である。"
+		},
+		{
+			"title": "kama ikada",
+			"sort": "Kama ikada",
+			"japanese": "蒲筏",
+			"translation": "イグサの筏",
+			"description": "イグサで作った一人用の筏である。"
+		},
+		{
+			"title": "kama yari",
+			"sort": "Kama yari",
+			"japanese": "鎌槍",
+			"translation": "鉤の付いた槍",
+			"description": "刀の斬撃を防ぎ、木に登るのにも使われた忍者の武器である。鈎槍ともいう。"
+		},
+		{
+			"title": "kamae",
+			"sort": "Kamae",
+			"japanese": "構え",
+			"translation": "戦いの姿勢"
+		},
+		{
+			"title": "kami gakure no jutsu",
+			"sort": "Kami gakure no jutsu",
+			"japanese": "神隠れの術",
+			"translation": "神の陰に隠れる術",
+			"description": "回り道をして目標に近づく術である。忍者は、警護の厳しい標的の親族や側近と親しくなり、そうして標的の近くに入り込む。"
+		},
+		{
+			"title": "kamikaze",
+			"sort": "Kamikaze",
+			"japanese": "神風",
+			"translation": "神の風",
+			"description": "フビライ・ハンが率いたモンゴル軍を壊滅させた二つの台風の名である。第二次世界大戦では、自爆攻撃として機体ごと連合国の艦船や基地に突入させられた操縦士たちも神風と呼ばれた。"
+		},
+		{
+			"title": "kamiza",
+			"sort": "Kamiza",
+			"japanese": "神座",
+			"translation": "神々の座",
+			"description": "道場で最も重要な場所で、宗家の写真が掛けられ、宗教的な品が置かれることもある。"
+		},
+		{
+			"title": "kana",
+			"sort": "Kana",
+			"japanese": "仮名",
+			"description": "日本の音節文字で、平仮名と片仮名の総称である。日常では中国から伝わった文字である漢字と交ぜて書く。"
+		},
+		{
+			"title": "kangeiko",
+			"sort": "Kangeiko",
+			"japanese": "寒稽古",
+			"translation": "冬の稽古"
+		},
+		{
+			"title": "kanji",
+			"sort": "Kanji",
+			"japanese": "漢字",
+			"translation": "中国の文字",
+			"description": "日本人がこの文字を取り入れ、今日では日本の文字の大部分を占めている。"
+		},
+		{
+			"title": "kanjin kaname",
+			"sort": "Kanjin kaname",
+			"japanese": "肝心要",
+			"translation": "最も肝心なこと",
+			"description": "物質の世界を離れ、宇宙の法則を体得した者が到達するものである。戸隠流の教えは、これを神心神眼、すなわち<q>神の心と目</q>と同一視する。"
+		},
+		{
+			"title": "kanshu",
+			"sort": "Kanshu",
+			"japanese": "慣手",
+			"description": "米や砂、砂利を詰めた容器で、手を鍛えるのに用いる。砂利箱ともいう。"
+		},
+		{
+			"title": "kantō kusha",
+			"sort": "Kanto kusha",
+			"description": "くノ一を指導する男性の師である。"
+		},
+		{
+			"title": "kanzashi",
+			"sort": "Kanzashi",
+			"japanese": "簪",
+			"translation": "装飾を施した髪挿し",
+			"description": "木製または金属製の髪挿しで、フォークのような二本の歯がある。"
+		},
+		{
+			"title": "karate dō",
+			"sort": "Karate do",
+			"japanese": "空手道",
+			"translation": "何も持たない手の道",
+			"description": "日本の南にある島々、沖縄で生まれた格闘技である。"
+		},
+		{
+			"title": "kasha",
+			"sort": "Kasha",
+			"japanese": "滑車",
+			"translation": "ロープ用の車輪",
+			"description": "ロープを伝って降りるときに用いる車輪である。"
+		},
+		{
+			"title": "kasugai",
+			"sort": "Kasugai",
+			"japanese": "鎹",
+			"translation": "留め金",
+			"description": "忍者が戸に差し込んで、開かないようにした留め金である。"
+		},
+		{
+			"title": "kata",
+			"sort": "Kata",
+			"japanese": "型",
+			"translation": "形",
+			"description": "定められた一連の動きである。"
+		},
+		{
+			"title": "kata ashi tobi geri",
+			"sort": "Kata ashi tobi geri",
+			"japanese": "片足飛び蹴り",
+			"translation": "片足での跳び蹴り",
+			"description": "一方の足で相手を突き、もう一方の膝を体に引き寄せる跳び蹴りである。"
+		},
+		{
+			"title": "kataga hasami bune",
+			"sort": "Kataga hasami bune",
+			"description": "小さな舟である。"
+		},
+		{
+			"title": "katagatae jutsu",
+			"sort": "Katagatae jutsu",
+			"japanese": "方違術",
+			"description": "近入の戦術のひとつである。敵が陣営を離れると、忍者はそこへ忍び込み、重要な設備を壊し、残った見張りを恐慌に陥れ、味方の軍勢のために門を開く。"
+		},
+		{
+			"title": "katakana",
+			"sort": "Katakana",
+			"japanese": "片仮名",
+			"description": "日本の音節文字で、主に外来語、電報、擬音語や擬態語に用いる。"
+		},
+		{
+			"title": "katana",
+			"sort": "Katana",
+			"japanese": "刀",
+			"translation": "刀剣",
+			"description": "侍の長い刀で、刃は反りのある片刃、長さは61–76センチである。脇差と合わせて大小をなす。"
+		},
+		{
+			"title": "katana kake",
+			"sort": "Katana kake",
+			"japanese": "刀懸け",
+			"translation": "刀を掛ける台",
+			"description": "家の中で刀を置く台である。脇差は寝るときや風呂に入るときにだけ外し、その場合も手の届くところに置いた。"
+		},
+		{
+			"title": "katate",
+			"sort": "Katate",
+			"japanese": "片手",
+			"translation": "片方の手",
+			"description": "片手で行うことを指し、受身などに用いる。"
+		},
+		{
+			"title": "Katō Danzō",
+			"sort": "Kato Danzo",
+			"japanese": "加藤段蔵",
+			"description": "跳躍の技の達人であったといわれる名高い忍者である。"
+		},
+		{
+			"title": "katon",
+			"sort": "Katon",
+			"japanese": "火遁",
+			"description": "火を用いた逃走で、五遁法の五つの方法のひとつである。"
+		},
+		{
+			"title": "katon jutsu",
+			"sort": "Katon jutsu",
+			"japanese": "火遁術",
+			"translation": "火を用いて逃れる術",
+			"description": "五遁法の逃走術で、火を逃走の手段として用いる。"
+		},
+		{
+			"title": "katsura otoko jutsu",
+			"sort": "Katsura otoko jutsu",
+			"japanese": "桂男術",
+			"translation": "月に住む男",
+			"description": "遠入の戦術で、中国の古い昔話にちなむ。敵国で仲間から切り離された忍者は、地元の協力者であるちつみしの助けに頼る。彼らは忍者に宿を与え、忍者のために探りを入れる。"
+		},
+		{
+			"title": "kayaku jutsu",
+			"sort": "Kayaku jutsu",
+			"japanese": "火薬術",
+			"translation": "火と爆薬を扱う術"
+		},
+		{
+			"title": "kayaku zutsu",
+			"sort": "Kayaku zutsu",
+			"japanese": "火薬筒",
+			"translation": "火薬の筒",
+			"description": "火薬を乾いたまま持ち運ぶための、封をした竹筒である。"
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "拳",
+			"translation": "こぶし",
+			"description": "体の武器としてのこぶしである。"
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "剣",
+			"translation": "刀剣、サーベル、刃"
+		},
+		{
+			"title": "ken tai ichi jō",
+			"sort": "Ken tai ichi jo",
+			"japanese": "剣体一情",
+			"translation": "体と武器はひとつ"
+		},
+		{
+			"title": "kendō",
+			"sort": "Kendo",
+			"japanese": "剣道",
+			"translation": "剣の道",
+			"description": "侍の剣術から生まれた格闘スポーツである。今日では刀の代わりに竹刀を用い、身を守るために防具を着ける。"
+		},
+		{
+			"title": "kenjutsu",
+			"sort": "Kenjutsu",
+			"japanese": "剣術",
+			"translation": "剣の術",
+			"description": "封建時代の日本における刀の戦闘術である。"
+		},
+		{
+			"title": "kenpō",
+			"sort": "Kenpo",
+			"japanese": "拳法",
+			"translation": "こぶしの技法",
+			"description": "素手で戦う方法で、武芸十八般では柔術とともに挙げられる。"
+		},
+		{
+			"title": "kensei",
+			"sort": "Kensei",
+			"japanese": "剣聖",
+			"translation": "剣の聖人",
+			"description": "道の本質を完全に見抜き、ほとんど無敵とされた人物である。最もよく知られた例は宮本武蔵である。"
+		},
+		{
+			"title": "kenshō",
+			"sort": "Kensho",
+			"japanese": "見性",
+			"translation": "宇宙の真理を見抜くこと",
+			"description": "あらゆる物事を理解すること、すなわち目覚めである。悟りともいう。"
+		},
+		{
+			"title": "keri",
+			"sort": "Keri",
+			"japanese": "蹴り",
+			"translation": "蹴ること",
+			"description": "げりとも読む。"
+		},
+		{
+			"title": "ketsuin",
+			"sort": "Ketsuin",
+			"japanese": "結印",
+			"translation": "手の印を結ぶこと",
+			"description": "手の形であり、印相に当たる日本のものである。身体の行為を体現する。"
+		},
+		{
+			"title": "ki",
+			"sort": "Ki",
+			"japanese": "気",
+			"translation": "エネルギー、生命力、生命の働き"
+		},
+		{
+			"title": "kiai",
+			"sort": "Kiai",
+			"japanese": "気合",
+			"translation": "叫び、闘志",
+			"description": "戦いの叫びとしてエネルギーを放つことで、効果的な技にはこれが伴うべきとされる。伝説によれば、ある達人たちはこの叫びで小さな動物を殺し、人を一瞬麻痺させたという。証明できるのは、不意の叫びが相手を一瞬ひるませることだけである。"
+		},
+		{
+			"title": "kiai jutsu",
+			"sort": "Kiai jutsu",
+			"japanese": "気合術",
+			"translation": "戦いの叫びの術",
+			"description": "気合を用いる術である。"
+		},
+		{
+			"title": "Kido Yazaemon",
+			"sort": "Kido Yazaemon",
+			"japanese": "城戸弥左衛門",
+			"description": "織田信長の暗殺を企てたが失敗した、名高い忍者である。"
+		},
+		{
+			"title": "kigomi",
+			"sort": "Kigomi",
+			"japanese": "着込み",
+			"translation": "下に着る防具",
+			"description": "普段の衣服の下に着る防具で、鎖帷子などがある。刺し子の布で作ったものの中には、漆塗りの小札を加えたものもあった。武士や旅人が着用したが、忍者が日常的に着ていたという証拠はない。"
+		},
+		{
+			"title": "kihon happō gata",
+			"sort": "Kihon happo gata",
+			"japanese": "基本八法型",
+			"translation": "八つの基本の型"
+		},
+		{
+			"title": "kikaigaku",
+			"sort": "Kikaigaku",
+			"japanese": "機械学",
+			"translation": "力学",
+			"description": "攻撃に対する体の最も効果的な反応で、足さばき、横への回避、間合い、体の武器の正しい使い方などを含む。"
+		},
+		{
+			"title": "kikaku ken",
+			"sort": "Kikaku ken",
+			"japanese": "鬼角拳",
+			"translation": "鬼の角のこぶし"
+		},
+		{
+			"title": "kin",
+			"sort": "Kin",
+			"japanese": "金",
+			"translation": "金、金属"
+		},
+		{
+			"title": "kinton",
+			"sort": "Kinton",
+			"japanese": "金遁",
+			"description": "金属を用いた逃走で、五遁法の五つの方法のひとつである。"
+		},
+		{
+			"title": "kinton jutsu",
+			"sort": "Kinton jutsu",
+			"japanese": "金遁術",
+			"translation": "金属を用いて逃れる術",
+			"description": "五遁法の逃走術で、金属を逃走の手段として用いる。"
+		},
+		{
+			"title": "kiri",
+			"sort": "Kiri",
+			"japanese": "切小刀",
+			"translation": "小さなのこぎり"
+		},
+		{
+			"title": "kisha",
+			"sort": "Kisha",
+			"japanese": "綺者",
+			"translation": "美しい人",
+			"description": "人の虚栄心を利用する、五情五欲の原則である。"
+		},
+		{
+			"title": "kishaku",
+			"sort": "Kishaku",
+			"japanese": "耆著",
+			"translation": "方位磁針",
+			"description": "水に浮かべる羅針盤である。多くは魚や舟の形をした磁化した鉄片を、水を張った器に浮かべる。この原理は中国から伝わった。<cite>『萬川集海』</cite>は、こうした羅針盤の作り方を説明している。"
+		},
+		{
+			"title": "kiten",
+			"sort": "Kiten",
+			"japanese": "起転",
+			"translation": "倒立回転跳び",
+			"description": "しゃがんだ姿勢から両手をついて倒立し、さらにブリッジを経て再び足で立つ動きである。"
+		},
+		{
+			"title": "kiten ken",
+			"sort": "Kiten ken",
+			"japanese": "起転拳",
+			"translation": "転換を生むこぶし"
+		},
+		{
+			"title": "kitsune gakure no jutsu",
+			"sort": "Kitsune gakure no jutsu",
+			"japanese": "狐隠術",
+			"translation": "狐のように隠れる術",
+			"description": "狐のように葦の茂みに身を隠す技である。"
+		},
+		{
+			"title": "ko ashi",
+			"sort": "Ko ashi",
+			"japanese": "小足",
+			"translation": "小さな歩み",
+			"description": "忍者の歩き方のひとつである。"
+		},
+		{
+			"title": "kō ken",
+			"sort": "Ko ken",
+			"japanese": "鈎拳",
+			"translation": "鉤のこぶし"
+		},
+		{
+			"title": "Kōbō Daishi",
+			"sort": "Kobo Daishi",
+			"japanese": "弘法大師",
+			"description": "仏教の密教宗派である真言の開祖で、空海とも呼ばれる。"
+		},
+		{
+			"title": "kobudō",
+			"sort": "Kobudo",
+			"japanese": "古武道",
+			"translation": "古い武道",
+			"description": "沖縄で発達した武器術で、主に農具を武器として用いる。"
+		},
+		{
+			"title": "kobujutsu jūhappan",
+			"sort": "Kobujutsu juhappan",
+			"japanese": "古武術十八般",
+			"translation": "18の古い武術",
+			"description": "初見良昭がウエノ先生のもとで3年間修行した武術である。"
+		},
+		{
+			"title": "kodachi",
+			"sort": "Kodachi",
+			"japanese": "小太刀",
+			"translation": "小さな刀",
+			"description": "短い刀である。"
+		},
+		{
+			"title": "kodachijutsu",
+			"sort": "Kodachijutsu",
+			"japanese": "小太刀術",
+			"description": "小太刀を用いて戦う術で、びけんじゅつの一部である。"
+		},
+		{
+			"title": "Kōga-Ryū",
+			"sort": "Koga-Ryu",
+			"japanese": "甲賀流",
+			"description": "忍術の流派で、今日ではおそらく途絶えている。"
+		},
+		{
+			"title": "kōgai",
+			"sort": "Kogai",
+			"japanese": "笄",
+			"translation": "髪挿し",
+			"description": "脇差の側面に取り付けた針である。革製品の修繕や蹄の手入れのための道具として使われた。"
+		},
+		{
+			"title": "kogakure",
+			"sort": "Kogakure",
+			"japanese": "木隠",
+			"translation": "葉と木の陰に隠れたもの",
+			"description": "著者がこのウェブサイトのために選んだ名である。"
+		},
+		{
+			"title": "kōhō",
+			"sort": "Koho",
+			"japanese": "後方",
+			"translation": "後ろへ"
+		},
+		{
+			"title": "kōhō geri",
+			"sort": "Koho geri",
+			"japanese": "後方蹴り",
+			"translation": "後ろへの蹴り"
+		},
+		{
+			"title": "kōhō kaiten",
+			"sort": "Koho kaiten",
+			"japanese": "後方回転",
+			"translation": "後ろへの回転"
+		},
+		{
+			"title": "kōhō ukemi",
+			"sort": "Koho ukemi",
+			"japanese": "後方受身",
+			"translation": "後ろへの受身",
+			"description": "後ろへ倒れる受身である。立った姿勢から深くしゃがみ込み、背中へと転がる。"
+		},
+		{
+			"title": "kokizami ashi",
+			"sort": "Kokizami ashi",
+			"japanese": "小刻み足",
+			"translation": "短い歩み",
+			"description": "忍者の歩き方のひとつである。"
+		},
+		{
+			"title": "kokoro",
+			"sort": "Kokoro",
+			"japanese": "心",
+			"translation": "胸のうち、精神"
+		},
+		{
+			"title": "koku",
+			"sort": "Koku",
+			"japanese": "石",
+			"description": "米を量る日本の容積の単位である。封建時代の日本では報酬が石で支払われた。1石は米約180リットルに相当する。"
+		},
+		{
+			"title": "kokū",
+			"sort": "Kokuu",
+			"japanese": "虚空",
+			"translation": "空っぽの空間",
+			"description": "空っぽの空間、すなわち無である。"
+		},
+		{
+			"title": "kokyūhō",
+			"sort": "Kokyuho",
+			"japanese": "呼吸法",
+			"translation": "呼吸の技術、呼吸の制御",
+			"description": "正しい呼吸の方法である。"
+		},
+		{
+			"title": "komusō",
+			"sort": "Komuso",
+			"japanese": "虚無僧",
+			"translation": "空無の僧",
+			"description": "普化派の托鉢僧である。虚無僧は白い着物を着て、顔全体を覆う大きな笠をかぶり、刀、長い杖、扇、尺八を携えて日本各地を巡った。笠を取ることは決して許されず、僧以外の者の前で話すことも許されなかった。この宗派は公式にはもう存在しないが、ひそかに存続している可能性もある。"
+		},
+		{
+			"title": "kongō",
+			"sort": "Kongo",
+			"japanese": "金剛",
+			"translation": "黄金の力",
+			"description": "仏教の僧が身を守るために用いた、短い金属製の武器である。この笏はダイヤモンドを象徴し、清らかな知のしるしとされる。インドラの武器としても知られる。"
+		},
+		{
+			"title": "kongōkai mandara",
+			"sort": "Kongokai mandara",
+			"japanese": "金剛界曼荼羅",
+			"translation": "ダイヤモンドの世界の曼荼羅",
+			"description": "厳密に幾何学的な曼荼羅で、仏や神々が九つの区画に配されている。"
+		},
+		{
+			"title": "kongōsho",
+			"sort": "Kongosho",
+			"japanese": "金剛杵",
+			"translation": "ダイヤモンドの笏",
+			"description": "仏教の法具（ヴァジュラ）で、両端に内側へ曲がった三本の爪がある。"
+		},
+		{
+			"title": "koppō jutsu",
+			"sort": "Koppo jutsu",
+			"japanese": "骨法術",
+			"translation": "骨の技法の術",
+			"description": "骨を砕く技である。厳しい鍛錬で手足を強め、骨に破壊的な打撃を加えた。"
+		},
+		{
+			"title": "koppō ken",
+			"sort": "Koppo ken",
+			"japanese": "骨法拳",
+			"translation": "骨の技法のこぶし"
+		},
+		{
+			"title": "kōsei no kamae",
+			"sort": "Kosei no kamae",
+			"japanese": "攻勢の構え",
+			"translation": "攻めかかる気勢",
+			"description": "忍術の構えのひとつである。"
+		},
+		{
+			"title": "koshi jutsu",
+			"sort": "Koshi jutsu",
+			"japanese": "骨指術",
+			"translation": "骨の指の術",
+			"description": "体の筋肉に向けた技で、激しい痛みを引き起こす。"
+		},
+		{
+			"title": "koshizashi",
+			"sort": "Koshizashi",
+			"japanese": "腰差",
+			"translation": "腰に構える大砲",
+			"description": "杉之坊明算が種子島で実演を見せられ、複製させた初期の手持ち火器である。"
+		},
+		{
+			"title": "kosshi kihon sanpō",
+			"sort": "Kosshi kihon sanpo",
+			"japanese": "骨指基本三法",
+			"translation": "三つの基本の打撃技"
+		},
+		{
+			"title": "Kotō-Ryū",
+			"sort": "Koto-Ryu",
+			"japanese": "虎倒流",
+			"translation": "虎を倒す者の流派",
+			"description": "武神館の九つの流派のひとつである。"
+		},
+		{
+			"title": "kōyaku",
+			"sort": "Koyaku",
+			"japanese": "衡軛",
+			"translation": "牛のくびき",
+			"description": "謀略で用いる陣形のひとつである。"
+		},
+		{
+			"title": "kū",
+			"sort": "Ku",
+			"japanese": "空",
+			"translation": "空っぽ、真空",
+			"description": "素粒子のエネルギーの源、無、万物の始まりである。"
+		},
+		{
+			"title": "kū no kata",
+			"sort": "Ku no kata",
+			"japanese": "空の型",
+			"translation": "空っぽの型"
+		},
+		{
+			"title": "ku shaku bō",
+			"sort": "Ku shaku bo",
+			"japanese": "九尺棒",
+			"translation": "長さ九尺の棒",
+			"description": "特に長い棒で、長さは2.73メートルである。"
+		},
+		{
+			"title": "kubotan",
+			"sort": "Kubotan",
+			"japanese": "クボタン",
+			"description": "小さな円筒の形をした、握って使う武器で、関節に圧力をかけるのに用いる。"
+		},
+		{
+			"title": "kuda bashigo",
+			"sort": "Kuda bashigo",
+			"japanese": "管梯子",
+			"translation": "管の梯子"
+		},
+		{
+			"title": "kuden",
+			"sort": "Kuden",
+			"japanese": "口伝",
+			"translation": "口による伝承",
+			"description": "武術を書物ではなく、口から口へと伝えることである。"
+		},
+		{
+			"title": "kūhen no kata",
+			"sort": "Kuhen no kata",
+			"japanese": "空変の型",
+			"translation": "空が変化する型"
+		},
+		{
+			"title": "kūhi",
+			"sort": "Kuhi",
+			"japanese": "空飛",
+			"translation": "空中への跳躍"
+		},
+		{
+			"title": "kuji goshin hō",
+			"sort": "Kuji goshin ho",
+			"japanese": "九字護身法",
+			"translation": "九つの音節による護身の方法",
+			"description": "九字切りの別名である。"
+		},
+		{
+			"title": "kuji-in",
+			"sort": "Kuji-in",
+			"japanese": "九字印",
+			"translation": "九つの音節の印",
+			"description": "忍者が用いた九つの印相である。"
+		},
+		{
+			"title": "kuji-in jin",
+			"sort": "Kuji-in jin",
+			"japanese": "陣",
+			"description": "九字印の第六の印である。神の宇宙的な意識に身を委ね、自らの直感を信じる人を表す。"
+		},
+		{
+			"title": "kuji-in kai",
+			"sort": "Kuji-in kai",
+			"japanese": "皆",
+			"description": "九字印の第五の印である。神に近づこうと努める人を表す。手の形はげばくけん印である。"
+		},
+		{
+			"title": "kuji-in pyō",
+			"sort": "Kuji-in pyo",
+			"japanese": "兵",
+			"description": "九字印の第二の印で、ダイヤモンドの、ひいては知の身体的な象徴である。手の形はだいこんごう印である。"
+		},
+		{
+			"title": "kuji-in retsu",
+			"sort": "Kuji-in retsu",
+			"japanese": "列",
+			"description": "九字印の第七の印である。手の形は智拳印である。"
+		},
+		{
+			"title": "kuji-in rin",
+			"sort": "Kuji-in rin",
+			"japanese": "臨",
+			"description": "九字印の第一の印である。ダイヤモンドのような稲妻である金剛を表す。手の形はどっこ印である。"
+		},
+		{
+			"title": "kuji-in sha",
+			"sort": "Kuji-in sha",
+			"japanese": "者",
+			"description": "九字印の第四の印である。"
+		},
+		{
+			"title": "kuji-in tō",
+			"sort": "Kuji-in to",
+			"japanese": "闘",
+			"description": "九字印の第三の印である。手の形はそとじし印である。"
+		},
+		{
+			"title": "kuji-in zai",
+			"sort": "Kuji-in zai",
+			"japanese": "在",
+			"description": "九字印の第八の印である。あらゆる不浄を焼き尽くし、心を宇宙と一体にする火を象徴する。"
+		},
+		{
+			"title": "kuji-in zen",
+			"sort": "Kuji-in zen",
+			"japanese": "前",
+			"description": "九字印の第九の印である。万物を見通した、完全に悟った者を象徴する。"
+		},
+		{
+			"title": "kuji-kiri",
+			"sort": "Kuji-kiri",
+			"japanese": "九字切り",
+			"translation": "九つの音節を切ること",
+			"description": "象徴としての刀で、空中に守護の格子を描く儀式である。九字印と混同してはならない。"
+		},
+		{
+			"title": "Kūkai",
+			"sort": "Kukai",
+			"japanese": "空海",
+			"description": "弘法大師の別名である。"
+		},
+		{
+			"title": "Kukishinden-Ryū",
+			"sort": "Kukishinden-Ryu",
+			"japanese": "九鬼神伝流",
+			"translation": "九つの鬼神の流派",
+			"description": "武神館の九つの流派のひとつである。"
+		},
+		{
+			"title": "kuma",
+			"sort": "Kuma",
+			"japanese": "熊",
+			"translation": "熊"
+		},
+		{
+			"title": "kumade",
+			"sort": "Kumade",
+			"japanese": "熊手",
+			"translation": "落ち葉かき、熊の爪",
+			"description": "恐ろしい傷を負わせることのできる忍者の武器である。登るためにも用いられた。"
+		},
+		{
+			"title": "Kumawaka",
+			"sort": "Kumawaka",
+			"description": "甲賀流の名高い下忍で、70人の忍者をゲリラとして率いた。"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "雲梯子",
+			"translation": "雲の梯子"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "蜘蛛梯子",
+			"translation": "蜘蛛の梯子"
+		},
+		{
+			"title": "Kumogakure-Ryū",
+			"sort": "Kumogakure-Ryu",
+			"japanese": "雲隠流",
+			"translation": "隠れた雲の流派",
+			"description": "武神館の九つの流派のひとつである。"
+		},
+		{
+			"title": "kunai",
+			"sort": "Kunai",
+			"japanese": "苦無",
+			"translation": "こじ開ける道具、忍者の投げナイフ"
+		},
+		{
+			"title": "kunashi",
+			"sort": "Kunashi",
+			"translation": "折りたたみ式のシャベル"
+		},
+		{
+			"title": "kunoichi",
+			"sort": "Kunoichi",
+			"japanese": "くノ一",
+			"description": "女性の忍者である。伝承によれば、男性の仲間と同じく接近戦の訓練を受けていたが、その重点は人の心を動かすことに置かれていた。"
+		},
+		{
+			"title": "kunoichi jutsu",
+			"sort": "Kunoichi jutsu",
+			"japanese": "くノ一術",
+			"description": "遠入の戦術で、女性を工作員として用い、要となる男性に近づく。"
+		},
+		{
+			"title": "Kuroi Ōkami",
+			"sort": "Kuroi Okami",
+			"japanese": "黒い狼",
+			"translation": "黒い狼",
+			"description": "ヴォルフスブルクにある武神館の道場の名で、指導士マリオ・プリュックハーン（Mario Plückhahn）が率いる。"
+		},
+		{
+			"title": "kuruma nagare",
+			"sort": "Kuruma nagare",
+			"japanese": "車流れ",
+			"translation": "転がる流れ",
+			"description": "後ろへ転がりながら行う受身で、後方くるま流れという。"
+		},
+		{
+			"title": "kusari",
+			"sort": "Kusari",
+			"japanese": "鎖",
+			"translation": "鎖"
+		},
+		{
+			"title": "kusari fundō",
+			"sort": "Kusari fundo",
+			"japanese": "鎖分銅",
+			"description": "両端にそれぞれ重りの付いた短い鎖である。"
+		},
+		{
+			"title": "kusari katabira",
+			"sort": "Kusari katabira",
+			"japanese": "鎖帷子",
+			"translation": "鎖を編んだ衣",
+			"description": "忍者が戦の際に忍び装束の下または上に着た鎖の衣である。その編み目は顔や手のひらも守った。"
+		},
+		{
+			"title": "kusarigama",
+			"sort": "Kusarigama",
+			"japanese": "鎖鎌",
+			"translation": "鎖付きの鎌",
+			"description": "重りを付けた鎖を備えた日本の鎌である。"
+		},
+		{
+			"title": "kusarijutsu",
+			"sort": "Kusarijutsu",
+			"description": "短い鎖の武器を用いて戦う術である。"
+		},
+		{
+			"title": "kūten",
+			"sort": "Kuten",
+			"japanese": "空転",
+			"translation": "空中での転回"
+		},
+		{
+			"title": "kyobako fune",
+			"sort": "Kyobako fune",
+			"translation": "箱の舟",
+			"description": "外側を革で覆った木の箱である。"
+		},
+		{
+			"title": "kyojitsu tenkan hō",
+			"sort": "Kyojitsu tenkan ho",
+			"japanese": "虚実転換法",
+			"translation": "嘘と真実",
+			"description": "真実を嘘として、嘘を真実として示す戦術である。弱いときに強さを見せることなどがその例である。"
+		},
+		{
+			"title": "kyoketsu shōge",
+			"sort": "Kyoketsu shoge",
+			"japanese": "距跋渉毛",
+			"description": "忍者が好んで用いた武器である。鉤の付いた刃物で、柄に4メートルの縄が付き、その端に鋼の輪がある。"
+		},
+		{
+			"title": "kyōmon",
+			"sort": "Kyomon",
+			"description": "実践的な教養、観察、常識である。忍者のはちもんの八つの分野のひとつである。"
+		},
+		{
+			"title": "kyōnin no jutsu",
+			"sort": "Kyonin no jutsu",
+			"description": "人々の迷信を利用する戦術で、鬼の面、火吹き、悪いとされる動物などを用いる。"
+		},
+		{
+			"title": "kyōsha",
+			"sort": "Kyosha",
+			"japanese": "恐者",
+			"translation": "怖がる人",
+			"description": "人の臆病さを利用する、五情五欲の原則である。"
+		},
+		{
+			"title": "Kyōto",
+			"sort": "Kyoto",
+			"japanese": "京都",
+			"description": "日本の古い皇都である。"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "級",
+			"translation": "階級、段階、等級、生徒の位"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "弓",
+			"translation": "弓"
+		},
+		{
+			"title": "kyūdō",
+			"sort": "Kyudo",
+			"japanese": "弓道",
+			"translation": "弓の道",
+			"description": "武術としての弓術から発展した競技である。"
+		},
+		{
+			"title": "kyūjutsu",
+			"sort": "Kyujutsu",
+			"japanese": "弓術",
+			"translation": "弓の術",
+			"description": "侍が弓矢で射る方法である。"
+		},
+		{
+			"title": "kyūsho",
+			"sort": "Kyusho",
+			"japanese": "急所",
+			"translation": "体の弱点",
+			"description": "当身で狙う圧点である。虎倒流にはその完全な体系が含まれる。"
+		},
+		{
+			"title": "li",
+			"sort": "Li",
+			"chinese": "理",
+			"translation": "構造、秩序",
+			"description": "道教において、道（タオ）の構造と形である。決して繰り返さず、いかなる規則にも従わない非対称の秩序であり、流れる水、樹皮、氷の結晶に見て取れる。"
+		},
+		{
+			"title": "Lin Kuei",
+			"sort": "Lin Kuei",
+			"description": "忍術が中国や朝鮮でこの名のもとに存在したといわれるが、歴史的な裏付けはない。"
+		},
+		{
+			"title": "ma",
+			"sort": "Ma",
+			"japanese": "間",
+			"translation": "間、すき間、間隔、距離"
+		},
+		{
+			"title": "maai",
+			"sort": "Maai",
+			"japanese": "間合い",
+			"translation": "間隔、距離、休止",
+			"description": "時間と空間における調和のとれた距離である。"
+		},
+		{
+			"title": "mae",
+			"sort": "Mae",
+			"japanese": "前",
+			"translation": "前、前方、正面"
+		},
+		{
+			"title": "mae gaeshi",
+			"sort": "Mae gaeshi",
+			"japanese": "前返",
+			"translation": "前方へ向かう技"
+		},
+		{
+			"title": "mamukigama",
+			"sort": "Mamukigama",
+			"description": "縄の付いた鎌で、縄の先には蛇などの毒を持つ生き物を結び付けていた。忍者はこれを敵に投げつけ、生き物が相手の気をそらし、ときには命を奪うこともあった。"
+		},
+		{
+			"title": "mandala",
+			"sort": "Mandala",
+			"japanese": "曼荼羅",
+			"description": "宇宙を一枚の図に表したもので、タントラと密教に由来する。三密においては思考を表す。"
+		},
+		{
+			"title": "mangetsu no kamae",
+			"sort": "Mangetsu no kamae",
+			"japanese": "満月の構え",
+			"translation": "満月の姿勢",
+			"description": "虎倒流の構えである。戦う者は刀を頭上に掲げ、刃に反射した日光で相手の目をくらませる。"
+		},
+		{
+			"title": "manriki gusari",
+			"sort": "Manriki gusari",
+			"japanese": "万力鎖",
+			"translation": "一万の力を持つ鎖",
+			"description": "両端に鉄の握りが付いた鎖である。"
+		},
+		{
+			"title": "mantra",
+			"sort": "Mantra",
+			"japanese": "真言",
+			"translation": "真実の言葉",
+			"description": "タントラと密教に由来する音である。三密においては、真言は言葉を表す。"
+		},
+		{
+			"title": "menkyo kaiden",
+			"sort": "Menkyo kaiden",
+			"japanese": "免許皆伝",
+			"description": "ある武術を完全に修めたことを証する免状である。師はこれを一人または複数の弟子に与え、所持者がその流派の正統な継承者であることを示した。"
+		},
+		{
+			"title": "metsubushi",
+			"sort": "Metsubushi",
+			"japanese": "目潰し",
+			"translation": "目をつぶすこと",
+			"description": "鉄粉、砂、灰、あるいは薬品で作った目つぶしの粉である。追われた忍者は、これを追っ手の目に投げつけた。"
+		},
+		{
+			"title": "migi",
+			"sort": "Migi",
+			"japanese": "右",
+			"translation": "右"
+		},
+		{
+			"title": "mikkyō",
+			"sort": "Mikkyo",
+			"japanese": "密教",
+			"translation": "秘密の教え",
+			"description": "仏教のさまざまなタントラ的教えの総称である。"
+		},
+		{
+			"title": "miko",
+			"sort": "Miko",
+			"japanese": "巫女",
+			"translation": "神社に仕える乙女",
+			"description": "神社に仕える若い未婚の女性である。伝承によれば、望月千代女は孤児の少女たちを巫女として、同時に武田家のために諜報を行うくノ一として育てた。"
+		},
+		{
+			"title": "Minamoto",
+			"sort": "Minamoto",
+			"japanese": "源",
+			"description": "源氏とも呼ばれる名家で、平家と争った。"
+		},
+		{
+			"title": "minomushi jutsu",
+			"sort": "Minomushi jutsu",
+			"japanese": "身虫術",
+			"translation": "体の中の虫",
+			"description": "<cite>『萬川集海』</cite>が記す遠入の策である。忍者は敵の家臣や使用人をそそのかし、主君を裏切らせた。その身分が高いほど価値があった。"
+		},
+		{
+			"title": "Miyamoto Musashi",
+			"sort": "Miyamoto Musashi",
+			"japanese": "宮本武蔵",
+			"description": "日本で最も名高い剣豪である。剣の腕を磨くため長年にわたって諸国を巡り、その間に60回を超える勝負に勝った。二刀を同時に用いて戦う流派、にてんいち流を開いた。死の直前に<cite>『五輪の書』</cite>（<q>五つの輪の書</q>）を著した。"
+		},
+		{
+			"title": "mizu",
+			"sort": "Mizu",
+			"japanese": "水",
+			"translation": "水"
+		},
+		{
+			"title": "mizu taimatsu",
+			"sort": "Mizu taimatsu",
+			"japanese": "水松炬",
+			"description": "雨の中でも燃え続ける松明である。"
+		},
+		{
+			"title": "mizu tsutsu",
+			"sort": "Mizu tsutsu",
+			"japanese": "水筒",
+			"translation": "呼吸用の管",
+			"description": "葦または木の管で、忍者は長く水中にとどまるとき、これを通して呼吸した。"
+		},
+		{
+			"title": "mizugumo",
+			"sort": "Mizugumo",
+			"japanese": "水蜘蛛",
+			"translation": "水に浮かぶ蜘蛛",
+			"description": "湿地を歩いて渡るための忍者の道具である。"
+		},
+		{
+			"title": "mizukaki",
+			"sort": "Mizukaki",
+			"japanese": "水掻き",
+			"translation": "泳ぐためのひれ"
+		},
+		{
+			"title": "Mochizuki Chiyome",
+			"sort": "Mochizuki Chiyome",
+			"japanese": "望月千代女",
+			"description": "名高いくノ一で、伝承によれば武田信玄の命を受けてくノ一の組織を率いた。"
+		},
+		{
+			"title": "moku",
+			"sort": "Moku",
+			"japanese": "木",
+			"translation": "木"
+		},
+		{
+			"title": "mokuton",
+			"sort": "Mokuton",
+			"japanese": "木遁",
+			"description": "木や草を利用して逃れる方法で、五遁法の五つの方法の一つである。"
+		},
+		{
+			"title": "mokuton jutsu",
+			"sort": "Mokuton jutsu",
+			"japanese": "木遁術",
+			"translation": "木を用いて逃れる術",
+			"description": "木を逃走の手段として用いる、五遁法の逃走術である。"
+		},
+		{
+			"title": "mon",
+			"sort": "Mon",
+			"japanese": "紋",
+			"translation": "家の紋章"
+		},
+		{
+			"title": "mono",
+			"sort": "Mono",
+			"japanese": "者",
+			"translation": "人"
+		},
+		{
+			"title": "monomi no jutsu",
+			"sort": "Monomi no jutsu",
+			"japanese": "物見の術",
+			"translation": "偵察の術",
+			"description": "敵の守りの弱点を探ることである。たとえば、たやすく入り込める部屋、裏口、使われていない部屋などを調べる。"
+		},
+		{
+			"title": "Mōri",
+			"sort": "Mori",
+			"japanese": "毛利",
+			"description": "本州西部の安芸を本拠とした侍の一族で、戦国時代に覇権を争った家の一つである。毛利元就のもとで中国地方を支配し、のちに織田信長と対立した。"
+		},
+		{
+			"title": "mu",
+			"sort": "Mu",
+			"japanese": "武",
+			"translation": "武士の道、軍事",
+			"description": "ぶとも読む。"
+		},
+		{
+			"title": "mudrā",
+			"sort": "Mudra",
+			"japanese": "印相",
+			"translation": "手の印",
+			"description": "タントラと密教に由来する手の形である。そのうち九つが九字印に取り入れられた。三密においては行為を表す。"
+		},
+		{
+			"title": "mumei mugei no jutsu",
+			"sort": "Mumei mugei no jutsu",
+			"japanese": "無名無芸の術",
+			"translation": "名もなく、芸もなく",
+			"description": "正体を隠す術で、諜報における忍者の成功の秘訣である。忍者の素顔は誰にも知られてはならなかった。"
+		},
+		{
+			"title": "muon no hō",
+			"sort": "Muon no ho",
+			"japanese": "無音の法",
+			"translation": "音を立てない方法"
+		},
+		{
+			"title": "musha dori",
+			"sort": "Musha dori",
+			"japanese": "武者捕り",
+			"description": "むさし流の秘伝の技である。高松寿嗣は15歳のとき、この流派の空手家との戦いでこれを知った。"
+		},
+		{
+			"title": "musha shugyō",
+			"sort": "Musha shugyo",
+			"japanese": "武者修行",
+			"translation": "武者の遍歴",
+			"description": "修行の方法の一つで、武者は自らを高めるために長い旅に出た。道中の苦難が人格を形づくり、精神を鍛えた。"
+		},
+		{
+			"title": "musubi bashigo",
+			"sort": "Musubi bashigo",
+			"japanese": "結び梯子",
+			"translation": "輪の付いた梯子",
+			"description": "一定の間隔で輪を作った縄で、忍者は登るときにその輪に足を掛けた。"
+		},
+		{
+			"title": "musubi nawa",
+			"sort": "Musubi nawa",
+			"japanese": "結び縄",
+			"description": "馬の毛で作った縄である。"
+		},
+		{
+			"title": "mute",
+			"sort": "Mute",
+			"japanese": "無手",
+			"translation": "手を使わない",
+			"description": "手を使わないことで、受身などでいう。"
+		},
+		{
+			"title": "nagamaki",
+			"sort": "Nagamaki",
+			"japanese": "長巻",
+			"description": "薙刀の一種である。"
+		},
+		{
+			"title": "nagare",
+			"sort": "Nagare",
+			"japanese": "流れ",
+			"translation": "流れる水",
+			"description": "柔らかさの原理である。"
+		},
+		{
+			"title": "nage",
+			"sort": "Nage",
+			"japanese": "投げ",
+			"translation": "投げ、投げること"
+		},
+		{
+			"title": "nage teppō",
+			"sort": "Nage teppo",
+			"japanese": "投げ鉄砲",
+			"description": "手で、あるいは投石器を使って敵に投げつけた爆裂弾である。現代の手榴弾と同じように機能した。"
+		},
+		{
+			"title": "nagenawa",
+			"sort": "Nagenawa",
+			"japanese": "投げ縄",
+			"translation": "投げる縄",
+			"description": "投げ縄である。玉心流はその使い方で知られる。"
+		},
+		{
+			"title": "naginata",
+			"sort": "Naginata",
+			"japanese": "薙刀",
+			"translation": "敵をなぎ倒す刀",
+			"description": "長柄の刀の一種で、僧兵の武器であり、侍の女性が最も好んだ武器でもあった。"
+		},
+		{
+			"title": "naginatadō",
+			"sort": "Naginatado",
+			"japanese": "薙刀道",
+			"translation": "薙刀の道",
+			"description": "薙刀を用いる武道で、第二次世界大戦後は主に女性が稽古した。"
+		},
+		{
+			"title": "nagishi shuriken",
+			"sort": "Nagishi shuriken",
+			"description": "端に房を付けて飛び方を安定させた手裏剣である。"
+		},
+		{
+			"title": "naibaku ken-in",
+			"sort": "Naibaku ken-in",
+			"japanese": "内縛拳印",
+			"translation": "内側で結んだ拳の印",
+			"description": "九字印の陣の印である。"
+		},
+		{
+			"title": "neko te",
+			"sort": "Neko te",
+			"japanese": "猫手",
+			"translation": "猫の爪",
+			"description": "先を尖らせた指ぬきで、くノ一の武器である。"
+		},
+		{
+			"title": "nenriki",
+			"sort": "Nenriki",
+			"japanese": "念力",
+			"translation": "意志の力",
+			"description": "一点に集めた意図であり、曼荼羅に対応する日本の概念である。忍者の意志を体現する。"
+		},
+		{
+			"title": "nichirin-in",
+			"sort": "Nichirin-in",
+			"japanese": "日輪印",
+			"translation": "太陽の輪の印",
+			"description": "九字印の在の印である。"
+		},
+		{
+			"title": "Nihon",
+			"sort": "Nihon",
+			"japanese": "日本",
+			"translation": "太陽の源",
+			"description": "日本のこと。にっぽんとも読む。"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "人",
+			"translation": "人間"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "忍",
+			"translation": "耐える、忍ぶ、辛抱する、避ける",
+			"description": "しのぶとも読む。"
+		},
+		{
+			"title": "nin shokudai",
+			"sort": "Nin shokudai",
+			"japanese": "忍燭台",
+			"description": "吊るして使えるL字形の松明である。"
+		},
+		{
+			"title": "ningu",
+			"sort": "Ningu",
+			"japanese": "忍具",
+			"translation": "忍者の道具"
+		},
+		{
+			"title": "ninja",
+			"sort": "Ninja",
+			"japanese": "忍者",
+			"description": "忍術を修めた者である。中世封建時代の戦士、斥候、間者、ゲリラであり、特殊工作員であった。"
+		},
+		{
+			"title": "ninja aruki",
+			"sort": "Ninja aruki",
+			"japanese": "忍者歩き",
+			"translation": "歩き方の技",
+			"description": "音を立てずに、人目につかずに、あるいは素早く移動するための忍者の歩き方である。"
+		},
+		{
+			"title": "ninja jūhakkei",
+			"sort": "Ninja juhakkei",
+			"japanese": "忍者十八形",
+			"description": "忍者が武芸十八般に加えて学んだ、18の分野の秘伝の技である。両者を合わせて忍法さんじゅうろっけいとなる。"
+		},
+		{
+			"title": "ninja ken",
+			"sort": "Ninja ken",
+			"japanese": "忍者剣",
+			"translation": "忍者の刀",
+			"description": "忍者刀ともいう。"
+		},
+		{
+			"title": "ninja tō",
+			"sort": "Ninja to",
+			"japanese": "忍者刀",
+			"translation": "忍者の刀",
+			"description": "忍者けんともいう。"
+		},
+		{
+			"title": "ninjutsu",
+			"sort": "Ninjutsu",
+			"japanese": "忍術",
+			"translation": "忍者の武術",
+			"description": "忍者が修めたすべての流派の総称である。型にはまらない秘密の戦闘技術を含むことが多い。"
+		},
+		{
+			"title": "ninjutsu ka",
+			"sort": "Ninjutsu ka",
+			"japanese": "忍術家",
+			"translation": "忍術を修める者"
+		},
+		{
+			"title": "ninki",
+			"sort": "Ninki",
+			"japanese": "忍器",
+			"translation": "忍者の道具",
+			"description": "<cite>『萬川集海』</cite>のうち、装備を記した部分である。第9巻に始まり、最終巻にまで及ぶ。"
+		},
+		{
+			"title": "ninniku yoroi",
+			"sort": "Ninniku yoroi",
+			"description": "忍び装束、すなわち忍者の装束の別名である。"
+		},
+		{
+			"title": "ninpō",
+			"sort": "Ninpo",
+			"japanese": "忍法",
+			"translation": "忍者の技芸",
+			"description": "生き方としての忍術である。忍法は技術にとどまらず、精神の道も教える。"
+		},
+		{
+			"title": "ninpō ikkan",
+			"sort": "Ninpo ikkan",
+			"japanese": "忍法一貫",
+			"translation": "忍術は始まりであり、終わりはない"
+		},
+		{
+			"title": "ninpō inu bue",
+			"sort": "Ninpo inu bue",
+			"japanese": "忍法狗笛",
+			"description": "動物を仕込む忍者の術である。"
+		},
+		{
+			"title": "ninpō mikkyō",
+			"sort": "Ninpo mikkyo",
+			"japanese": "忍法密教",
+			"description": "密教に基づく忍者の秘密の教えである。"
+		},
+		{
+			"title": "ninpō sanjūrokkei",
+			"sort": "Ninpo sanjurokkei",
+			"japanese": "忍法三十六計",
+			"description": "忍者が学んだ36の分野で、武芸十八般の18の武芸と、忍者じゅうはっけいの18の秘伝の技からなる。この一覧は固定されたものではなく、しばしばある分野が外され、別の分野が加えられた。"
+		},
+		{
+			"title": "ninpō taijutsu",
+			"sort": "Ninpo taijutsu",
+			"japanese": "忍法体術",
+			"description": "忍者の素手の戦闘術である。受身のような、ほかの身体技能も含む。"
+		},
+		{
+			"title": "Nippon",
+			"sort": "Nippon",
+			"japanese": "日本",
+			"translation": "太陽の源",
+			"description": "日本のこと。にほんとも読む。"
+		},
+		{
+			"title": "Nishina Daisuke",
+			"sort": "Nishina Daisuke",
+			"japanese": "仁科大助",
+			"description": "戸隠流の開祖、戸隠大助の生まれたときの名である。"
+		},
+		{
+			"title": "nodachi",
+			"sort": "Nodachi",
+			"japanese": "野太刀",
+			"translation": "戦場用の大太刀",
+			"description": "侍の非常に長い刀で、長さは1–1.80メートルあり、たいていは従者が持ち運んだ。"
+		},
+		{
+			"title": "nuki ashi",
+			"sort": "Nuki ashi",
+			"japanese": "抜き足",
+			"translation": "音のない歩み"
+		},
+		{
+			"title": "nunchaku",
+			"sort": "Nunchaku",
+			"japanese": "双節棍",
+			"description": "古武道の武器で、二本の木片を短い鎖または紐でつないだものである。忍者がこれを使ったことがあるかどうかは、きわめて疑わしい。"
+		},
+		{
+			"title": "nuntebō",
+			"sort": "Nuntebo",
+			"description": "漁に使う銛で、漁師の道具であるが、武器としても使うことができた。"
+		},
+		{
+			"title": "nyūdaki no jutsu",
+			"sort": "Nyudaki no jutsu",
+			"description": "見張りの怠惰や愚かさといった弱点につけ込むことである。"
+		},
+		{
+			"title": "nyūkyo no jutsu",
+			"sort": "Nyukyo no jutsu",
+			"translation": "侵入の術",
+			"description": "敵の城や陣に入り込むのに適した時機を待つことである。たとえば、軍勢が出陣して留守になったときがそれにあたる。"
+		},
+		{
+			"title": "ō",
+			"sort": "O",
+			"japanese": "大",
+			"translation": "大きい"
+		},
+		{
+			"title": "ō ashi",
+			"sort": "O ashi",
+			"japanese": "大足",
+			"translation": "大きな歩み"
+		},
+		{
+			"title": "obi",
+			"sort": "Obi",
+			"japanese": "帯",
+			"translation": "帯"
+		},
+		{
+			"title": "Oda Nobunaga",
+			"sort": "Oda Nobunaga",
+			"japanese": "織田信長",
+			"description": "戦国時代に日本の覇権を握ろうとした軍事独裁者である。冷酷なこの武将は日本の中央部を押さえ、京都の近くに城を築き、ためらうことなくヨーロッパの火器を用いた。その死後、配下の武将たちが日本の統一を成し遂げた。"
+		},
+		{
+			"title": "ōgama",
+			"sort": "Ogama",
+			"japanese": "大鎌",
+			"translation": "大きな鎌",
+			"description": "戦場で使う、鎖鎌をはるかに大きくしたものである。"
+		},
+		{
+			"title": "ōkami",
+			"sort": "Okami",
+			"japanese": "狼",
+			"translation": "狼"
+		},
+		{
+			"title": "Okinawa",
+			"sort": "Okinawa",
+			"japanese": "沖縄",
+			"description": "日本の南にある諸島である。"
+		},
+		{
+			"title": "okuri ashi",
+			"sort": "Okuri ashi",
+			"japanese": "送り足",
+			"translation": "後に続く歩み"
+		},
+		{
+			"title": "ōmetsuke",
+			"sort": "Ometsuke",
+			"japanese": "大目付",
+			"description": "幕府の役人で、国の警察を担った。内乱が終わったのち秘密警察で働いた忍者は、彼らの指揮下にあった。"
+		},
+		{
+			"title": "omote soku gyaku ken no keri",
+			"sort": "Omote soku gyaku ken no keri",
+			"description": "足の裏を内側に向けて蹴る技である。足は外側から自分の体の正面の中心線へ振り込まれ、その線上で相手の内ももなどを捉える。"
+		},
+		{
+			"title": "ongyō no mono",
+			"sort": "Ongyo no mono",
+			"japanese": "隠形の者",
+			"translation": "隠れた者たち",
+			"description": "甲賀の忍者の異名である。"
+		},
+		{
+			"title": "ongyō-in",
+			"sort": "Ongyo-in",
+			"japanese": "隠形印",
+			"translation": "隠れた姿の印",
+			"description": "九字印の前の印である。"
+		},
+		{
+			"title": "oni",
+			"sort": "Oni",
+			"japanese": "鬼",
+			"translation": "悪魔、魔物、悪霊"
+		},
+		{
+			"title": "oni kudaki",
+			"sort": "Oni kudaki",
+			"japanese": "鬼砕",
+			"translation": "鬼を砕くもの",
+			"description": "関節技である。"
+		},
+		{
+			"title": "onibi",
+			"sort": "Onibi",
+			"translation": "悪魔の面",
+			"description": "恐ろしげな木製の面で、忍者はこれを使って追っ手を怯えさせた。"
+		},
+		{
+			"title": "onmyōdō",
+			"sort": "Onmyodo",
+			"japanese": "陰陽道",
+			"translation": "占いと占星術"
+		},
+		{
+			"title": "ono",
+			"sort": "Ono",
+			"japanese": "斧",
+			"translation": "戦斧"
+		},
+		{
+			"title": "ono gama",
+			"sort": "Ono gama",
+			"japanese": "斧鎌",
+			"translation": "斧と鎌",
+			"description": "戦斧と鎌を組み合わせた武器である。"
+		},
+		{
+			"title": "onshin jutsu",
+			"sort": "Onshin jutsu",
+			"japanese": "隠身術",
+			"translation": "身を隠す術",
+			"description": "身を隠し、姿を偽り、見えなくなる忍者の術である。"
+		},
+		{
+			"title": "ōten",
+			"sort": "Oten",
+			"japanese": "横転",
+			"translation": "側転"
+		},
+		{
+			"title": "ōtsuchi",
+			"sort": "Otsuchi",
+			"japanese": "大槌",
+			"translation": "大きな槌",
+			"description": "戦槌で、神伝不動流の武器である。"
+		},
+		{
+			"title": "ōzutsu",
+			"sort": "Ozutsu",
+			"japanese": "大筒",
+			"translation": "木製の大砲"
+		},
+		{
+			"title": "rakusha",
+			"sort": "Rakusha",
+			"japanese": "楽者",
+			"translation": "楽をしたがる者",
+			"description": "人の怠け心につけ込む、五情五欲の原理である。"
+		},
+		{
+			"title": "rappa",
+			"sort": "Rappa",
+			"japanese": "乱破",
+			"description": "忍者の別名で、たとえば風魔小太郎に従ったゲリラを指す。透波ともいう。"
+		},
+		{
+			"title": "rei",
+			"sort": "Rei",
+			"japanese": "礼",
+			"translation": "あいさつ、お辞儀、感謝"
+		},
+		{
+			"title": "renzoku",
+			"sort": "Renzoku",
+			"japanese": "連続",
+			"translation": "連続性、組み合わせ、連なり"
+		},
+		{
+			"title": "ritsudō",
+			"sort": "Ritsudo",
+			"japanese": "律動",
+			"translation": "リズム、感覚"
+		},
+		{
+			"title": "roku shaku bō",
+			"sort": "Roku shaku bo",
+			"japanese": "六尺棒",
+			"translation": "長さ六尺の棒",
+			"description": "棒の最も一般的な形で、長さは約1.82メートルである。六は数の6を表し、尺は日本の長さの単位である。"
+		},
+		{
+			"title": "rōnin",
+			"sort": "Ronin",
+			"japanese": "浪人",
+			"translation": "波の男たち",
+			"description": "主君を持たない侍である。主君（大名）を失った侍は諸国をさまよった。傭兵として雇われる者もいれば、武術の師範となる者もおり、農民を襲って略奪する盗賊となる者もいた。"
+		},
+		{
+			"title": "ryakuhon jutsu",
+			"sort": "Ryakuhon jutsu",
+			"japanese": "略本術",
+			"description": "近入の策である。忍者は敵の陣に潜り込み、味方を装った。そのためには、忍者がすでにそこで顔を知られており、その土地を熟知している必要があった。"
+		},
+		{
+			"title": "ryō ashi tobi geri",
+			"sort": "Ryo ashi tobi geri",
+			"japanese": "両足飛び蹴り",
+			"translation": "両足で跳ぶ蹴り",
+			"description": "両足で踏み切り、両脚をそろえたまま放つ跳び蹴りである。体の全重量が相手に当たる。"
+		},
+		{
+			"title": "ryō yoku geri",
+			"sort": "Ryo yoku geri",
+			"translation": "両足の翼の蹴り",
+			"description": "主に、高い位置から相手に向かって跳び降りるときに使う蹴りである。"
+		},
+		{
+			"title": "ryōhan jutsu",
+			"sort": "Ryohan jutsu",
+			"description": "近入の策である。忍者は要人をさらって自らの要求を通した。ほかの要人たちは忍者に仕えねばならず、さもなければ人質は処刑された。"
+		},
+		{
+			"title": "ryōte",
+			"sort": "Ryote",
+			"japanese": "両手",
+			"translation": "両方の手",
+			"description": "両手を使うことで、受身などでいう。"
+		},
+		{
+			"title": "Ryū",
+			"sort": "Ryu",
+			"japanese": "流",
+			"translation": "流儀、様式、伝統"
+		},
+		{
+			"title": "ryūha",
+			"sort": "Ryuha",
+			"japanese": "流派",
+			"translation": "ある流儀、様式、伝統の一派",
+			"description": "流のより長い形である。"
+		},
+		{
+			"title": "ryūsui",
+			"sort": "Ryusui",
+			"japanese": "流水",
+			"translation": "流れる水"
+		},
+		{
+			"title": "sabaki",
+			"sort": "Sabaki",
+			"japanese": "捌き",
+			"translation": "体の動き"
+		},
+		{
+			"title": "sai",
+			"sort": "Sai",
+			"japanese": "釵",
+			"description": "古武道の武器である。"
+		},
+		{
+			"title": "Saichō",
+			"sort": "Saicho",
+			"japanese": "最澄",
+			"description": "伝教大師の別名である。"
+		},
+		{
+			"title": "Saiga Magoichi",
+			"sort": "Saiga Magoichi",
+			"japanese": "雑賀孫一",
+			"description": "雑賀の鉄砲衆の頭目で、しばしば忍者に数えられ、火器と火薬の扱いに特に優れていた。配下の者たちは腕の立つ狙撃手であった。しゃきの術を考案した。"
+		},
+		{
+			"title": "saimin jutsu",
+			"sort": "Saimin jutsu",
+			"japanese": "催眠術",
+			"translation": "催眠の術"
+		},
+		{
+			"title": "sake",
+			"sort": "Sake",
+			"japanese": "酒",
+			"translation": "米の酒、酒類"
+		},
+		{
+			"title": "sakki",
+			"sort": "Sakki",
+			"japanese": "殺気",
+			"translation": "殺意",
+			"description": "武神館の五段の試験は、これにちなんで名づけられている。弟子は見えない刀をかわさなければならない。初見良昭は高松寿嗣のもとでこの試験を受けた。"
+		},
+		{
+			"title": "sakki jutsu",
+			"sort": "Sakki jutsu",
+			"japanese": "察気術",
+			"translation": "心を読み取る術",
+			"description": "直観による見通しで、戦う者は打撃が繰り出される前にそれをかわすことができる。"
+		},
+		{
+			"title": "samurai",
+			"sort": "Samurai",
+			"japanese": "侍",
+			"description": "日本の武士階級である。"
+		},
+		{
+			"title": "san shaku bō",
+			"sort": "San shaku bo",
+			"japanese": "三尺棒",
+			"translation": "長さ三尺の棒",
+			"description": "長さ三尺、約91センチの棒である。半棒ともいう。"
+		},
+		{
+			"title": "san shitan ken",
+			"sort": "San shitan ken",
+			"japanese": "三指端拳",
+			"description": "三本の指で突く指端拳の変形である。"
+		},
+		{
+			"title": "sanmitsu",
+			"sort": "Sanmitsu",
+			"japanese": "三密",
+			"translation": "三つの秘密",
+			"description": "密教の三つの力、すなわち思考、言葉、行為である。それぞれを曼荼羅、真言、印相が表す。"
+		},
+		{
+			"title": "sanmyaku",
+			"sort": "Sanmyaku",
+			"japanese": "山脈",
+			"translation": "山並み",
+			"description": "武神館の公式機関誌の名である。"
+		},
+		{
+			"title": "sanpō hiden",
+			"sort": "Sanpo hiden",
+			"japanese": "三法秘伝",
+			"description": "戸隠流の三つの秘宝で、せんばん手裏剣、手鉤、竹筒のしんだけである。"
+		},
+		{
+			"title": "sansa jutsu",
+			"sort": "Sansa jutsu",
+			"japanese": "散策術",
+			"description": "忍者の走法である。"
+		},
+		{
+			"title": "sanshin no kata",
+			"sort": "Sanshin no kata",
+			"japanese": "三心の型",
+			"translation": "三つの心の型"
+		},
+		{
+			"title": "sashi ashi",
+			"sort": "Sashi ashi",
+			"japanese": "差し足",
+			"translation": "隠れた歩み",
+			"description": "足を交差させる歩法である。"
+		},
+		{
+			"title": "satobito jutsu",
+			"sort": "Satobito jutsu",
+			"japanese": "里人術",
+			"description": "遠入の策である。忍者は、敵の領主に不満を抱く者、金に貪欲な者、野心のある者を味方に引き入れた。こうした者たちは情報を流し、逃げ道を確保し、物資を調達した。"
+		},
+		{
+			"title": "satori",
+			"sort": "Satori",
+			"japanese": "悟り",
+			"translation": "理解、会得、悟り"
+		},
+		{
+			"title": "saya",
+			"sort": "Saya",
+			"japanese": "鞘",
+			"translation": "刀の鞘"
+		},
+		{
+			"title": "sayū kaiten",
+			"sort": "Sayu kaiten",
+			"japanese": "左右廻転",
+			"translation": "左右に転がること"
+		},
+		{
+			"title": "seigan no kamae",
+			"sort": "Seigan no kamae",
+			"japanese": "正眼の構え",
+			"description": "相手の目に向けた構えである。"
+		},
+		{
+			"title": "Seii taishōgun",
+			"sort": "Seii taishogun",
+			"japanese": "征夷大将軍",
+			"translation": "夷狄を討つ将軍",
+			"description": "もとは軍の最高指揮官の称号で、のちに縮めて将軍と呼ばれた。"
+		},
+		{
+			"title": "seishin teki kyōyō",
+			"sort": "Seishin teki kyoyo",
+			"japanese": "精神的教養",
+			"translation": "心と直観を育むこと",
+			"description": "忍者じゅうはっけいの18の修行分野の第一である。"
+		},
+		{
+			"title": "seiza no kamae",
+			"sort": "Seiza no kamae",
+			"japanese": "正座の構え",
+			"translation": "正しい座り方",
+			"description": "膝をついて座る姿勢で、忍術の構えの一つである。"
+		},
+		{
+			"title": "Sekigahara",
+			"sort": "Sekigahara",
+			"japanese": "関ヶ原",
+			"description": "美濃国の小さな村で、徳川家康はこの地で敵に対する最終的な勝利を収めた。"
+		},
+		{
+			"title": "senban",
+			"sort": "Senban",
+			"japanese": "銛盤",
+			"description": "四つの尖端を持つ手裏剣である。"
+		},
+		{
+			"title": "senban shaken",
+			"sort": "Senban shaken",
+			"japanese": "銛盤捨剣",
+			"description": "中央に穴の開いた手裏剣である。"
+		},
+		{
+			"title": "Sengoku jidai",
+			"sort": "Sengoku jidai",
+			"japanese": "戦国時代",
+			"translation": "戦国の世",
+			"description": "日本で血なまぐさい内乱が続いた時代で、およそ1467–1615年である。"
+		},
+		{
+			"title": "senjō jutsu",
+			"sort": "Senjo jutsu",
+			"japanese": "戦場術",
+			"translation": "戦場の術",
+			"description": "軍勢を動かすことである。"
+		},
+		{
+			"title": "senjutsu",
+			"sort": "Senjutsu",
+			"japanese": "戦術",
+			"translation": "戦いの術",
+			"description": "軍事上の戦略である。"
+		},
+		{
+			"title": "sennin",
+			"sort": "Sennin",
+			"japanese": "仙人",
+			"translation": "荒野に住む修行者"
+		},
+		{
+			"title": "sensei",
+			"sort": "Sensei",
+			"japanese": "先生",
+			"translation": "先に生まれた者",
+			"description": "教師である。"
+		},
+		{
+			"title": "sha",
+			"sort": "Sha",
+			"japanese": "者",
+			"translation": "人"
+		},
+		{
+			"title": "shaken",
+			"sort": "Shaken",
+			"japanese": "車剣",
+			"description": "多くの尖端を持つ手裏剣である。"
+		},
+		{
+			"title": "shaki no jutsu",
+			"sort": "Shaki no jutsu",
+			"japanese": "捨旗の術",
+			"translation": "旗を捨てること",
+			"description": "難波・神崎川の戦いにおける雑賀孫一の計略である。配下の者たちは自軍の旗を捨て、織田信長の偽の旗を掲げて新たな陣を敷いた。信長の軍勢は彼らを味方と思い込んだ。"
+		},
+		{
+			"title": "shako ken",
+			"sort": "Shako ken",
+			"japanese": "蝦蛄拳",
+			"translation": "蟹の拳"
+		},
+		{
+			"title": "shaku",
+			"sort": "Shaku",
+			"japanese": "尺",
+			"description": "日本の長さの単位である。一尺は30.3センチ（1メートルの10/33）である。"
+		},
+		{
+			"title": "shakuhachi",
+			"sort": "Shakuhachi",
+			"japanese": "尺八",
+			"description": "虚無僧の笛である。名は<q>一尺八すん</q>を意味し、約54.5センチにあたる。一般的な笛には指穴が五つある。"
+		},
+		{
+			"title": "shakujō",
+			"sort": "Shakujo",
+			"japanese": "錫杖",
+			"translation": "錫の杖",
+			"description": "先端に輪の付いた僧の杖である。歩くたびに輪が鳴り、その音で這う生き物を道から追い払った。仏教の僧が殺生を禁じる戒めを守るためである。"
+		},
+		{
+			"title": "shi shitan ken",
+			"sort": "Shi shitan ken",
+			"japanese": "四指端拳",
+			"description": "親指で支える指端拳の変形である。"
+		},
+		{
+			"title": "shiatsu",
+			"sort": "Shiatsu",
+			"japanese": "指圧",
+			"translation": "指で押すこと",
+			"description": "日本の按摩で、体の特定の箇所を押すことで、失神そのほかの不調を和らげたり治したりするとされる。"
+		},
+		{
+			"title": "shiba gakure no jutsu",
+			"sort": "Shiba gakure no jutsu",
+			"japanese": "柴隠れの術",
+			"description": "伊賀と甲賀の伝承に伝わる隠身術の技である。茂った藪、丈の高い草、柴の山の中に身を隠す。"
+		},
+		{
+			"title": "shichi hō de",
+			"sort": "Shichi ho de",
+			"japanese": "七方出",
+			"translation": "出で立つ七つの道",
+			"description": "忍者の伝統的な七つの変装である。"
+		},
+		{
+			"title": "shidōshi",
+			"sort": "Shidoshi",
+			"japanese": "指導士",
+			"translation": "道を指し示す者",
+			"description": "悟りの武術を教える師である。"
+		},
+		{
+			"title": "shihan",
+			"sort": "Shihan",
+			"japanese": "師範",
+			"translation": "師たる指導者",
+			"description": "1695年、東山天皇はタカギ・オリエモン・シゲノブを宮中の護衛の師範に任じた。"
+		},
+		{
+			"title": "shihō tenchi tobi",
+			"sort": "Shiho tenchi tobi",
+			"japanese": "四方天地飛",
+			"translation": "四方へ、天と地へ向かって跳ぶこと"
+		},
+		{
+			"title": "shikan ken",
+			"sort": "Shikan ken",
+			"japanese": "指環拳",
+			"translation": "指の輪の拳"
+		},
+		{
+			"title": "shiken haramitsu daikōmyō",
+			"sort": "Shiken haramitsu daikomyo",
+			"japanese": "四拳波羅蜜大光明",
+			"description": "稽古の始めに唱える言葉である。ごく簡単にいえば、<q>守護と悟りを願う</q>という意味である。"
+		},
+		{
+			"title": "shikomizue",
+			"sort": "Shikomizue",
+			"japanese": "仕込み杖",
+			"translation": "刀を仕込んだ杖",
+			"description": "杖の中に隠した刀である。"
+		},
+		{
+			"title": "shikoro",
+			"sort": "Shikoro",
+			"japanese": "錏",
+			"description": "薄い鋸で、忍者はこれを使って木の壁や戸を切り抜けた。"
+		},
+		{
+			"title": "Shimabara no ran",
+			"sort": "Shimabara no ran",
+			"japanese": "島原の乱",
+			"translation": "島原の反乱",
+			"description": "1637–1638年に島原半島で起きたキリスト教徒の反乱である。実際には農民の一揆であったが、キリスト教徒を迫害する口実となった。"
+		},
+		{
+			"title": "shime ashi",
+			"sort": "Shime ashi",
+			"japanese": "締め足",
+			"translation": "しっかりした歩み"
+		},
+		{
+			"title": "shime waza",
+			"sort": "Shime waza",
+			"japanese": "絞め技",
+			"translation": "首を絞める技"
+		},
+		{
+			"title": "shinai",
+			"sort": "Shinai",
+			"japanese": "竹刀",
+			"translation": "竹の刀",
+			"description": "数本の竹片を革と紐でまとめて張った刀である。剣道で用いる。"
+		},
+		{
+			"title": "shinbō",
+			"sort": "Shinbo",
+			"japanese": "神棒",
+			"translation": "神々の棒",
+			"description": "中指を通す輪の付いた、拳に握る武器である。"
+		},
+		{
+			"title": "Shinden-Fudō-Ryū",
+			"sort": "Shinden-Fudo-Ryu",
+			"japanese": "神伝不動流",
+			"translation": "動かぬ心の流派",
+			"description": "武神館の九つの流派の一つである。"
+		},
+		{
+			"title": "shingitai",
+			"sort": "Shingitai",
+			"japanese": "心技体",
+			"translation": "心、技、体",
+			"description": "武道で最も重要な原理の一つである。"
+		},
+		{
+			"title": "Shingon",
+			"sort": "Shingon",
+			"japanese": "真言",
+			"translation": "真実の言葉の宗派",
+			"description": "弘法大師が開いた仏教の宗派である。"
+		},
+		{
+			"title": "shinken gata taihen jutsu",
+			"sort": "Shinken gata taihen jutsu",
+			"japanese": "真剣型体変術",
+			"translation": "真の刃による型"
+		},
+		{
+			"title": "shinobi",
+			"sort": "Shinobi",
+			"japanese": "忍び",
+			"translation": "忍び込むこと、探ること、ひそかに入ること、耐えること",
+			"description": "忍者の短い呼び名である。"
+		},
+		{
+			"title": "shinobi bune",
+			"sort": "Shinobi bune",
+			"japanese": "忍び舟",
+			"translation": "秘密の舟",
+			"description": "軽くて細い舟である。"
+		},
+		{
+			"title": "shinobi iri",
+			"sort": "Shinobi iri",
+			"japanese": "忍び入り",
+			"translation": "ひそかに入ること",
+			"description": "音を立てずに動くための忍者の技である。"
+		},
+		{
+			"title": "shinobi jutsu",
+			"sort": "Shinobi jutsu",
+			"japanese": "忍び術",
+			"translation": "秘密の術",
+			"description": "忍者のさまざまな術の総称である。"
+		},
+		{
+			"title": "shinobi kai",
+			"sort": "Shinobi kai",
+			"japanese": "忍び櫂",
+			"translation": "秘密の櫂",
+			"description": "中空の竹の棒で、中に鉄の部品が入っており、すぐに組み立てて櫂にすることができた。"
+		},
+		{
+			"title": "shinobi katana",
+			"sort": "Shinobi katana",
+			"japanese": "忍び刀",
+			"translation": "秘密の刀",
+			"description": "忍者の刀である。"
+		},
+		{
+			"title": "shinobi kenpō",
+			"sort": "Shinobi kenpo",
+			"japanese": "忍び剣法",
+			"translation": "秘密の剣の法",
+			"description": "忍者の剣術である。"
+		},
+		{
+			"title": "shinobi no buki",
+			"sort": "Shinobi no buki",
+			"japanese": "忍びの武器",
+			"translation": "秘密の戦の道具",
+			"description": "忍者の武器である。"
+		},
+		{
+			"title": "shinobi no jutsu",
+			"sort": "Shinobi no jutsu",
+			"japanese": "忍びの術",
+			"translation": "秘密の術",
+			"description": "忍者のさまざまな術の総称である。伝承によれば、この名は聖徳太子の時代に生まれた。"
+		},
+		{
+			"title": "shinobi shobō",
+			"sort": "Shinobi shobo",
+			"japanese": "忍び小棒",
+			"translation": "秘密の小さな棒",
+			"description": "拳に握る武器で、メリケンサックの前身である。中指を鋼の輪に通し、武器の残りの部分は拳の中に隠れる。"
+		},
+		{
+			"title": "shinobi shōzoku",
+			"sort": "Shinobi shozoku",
+			"japanese": "忍び装束",
+			"translation": "秘密の衣服の包み",
+			"description": "忍者の暗い色の戦闘服で、冬には薄い灰色か白であった。にんにくよろいともいう。"
+		},
+		{
+			"title": "shinobi tantō",
+			"sort": "Shinobi tanto",
+			"japanese": "忍び短刀",
+			"translation": "秘密の短い刀",
+			"description": "杖の中に隠した短刀である。"
+		},
+		{
+			"title": "shinobi yari",
+			"sort": "Shinobi yari",
+			"japanese": "忍び槍",
+			"description": "忍者の槍である。"
+		},
+		{
+			"title": "shinobi zue",
+			"sort": "Shinobi zue",
+			"japanese": "忍び杖",
+			"translation": "秘密の杖",
+			"description": "中空の竹の杖で、中に武器や目つぶしの粉を隠していた。"
+		},
+		{
+			"title": "shinobu",
+			"sort": "Shinobu",
+			"japanese": "忍",
+			"translation": "忍耐、辛抱、我慢、自制、耐える、隠す、間者、忍び寄る"
+		},
+		{
+			"title": "Shintō",
+			"sort": "Shinto",
+			"japanese": "神道",
+			"translation": "神々の道",
+			"description": "あらゆる存在の中に高次の霊を見る日本の宗教である。欧米の言葉では<q>シントイズム</q>とも呼ばれる。"
+		},
+		{
+			"title": "shishi undō",
+			"sort": "Shishi undo",
+			"japanese": "四肢運動",
+			"translation": "四肢の動き",
+			"description": "腕と脚の動きである。"
+		},
+		{
+			"title": "shishin ken",
+			"sort": "Shishin ken",
+			"japanese": "指針拳",
+			"translation": "指の針の拳"
+		},
+		{
+			"title": "shitan ken",
+			"sort": "Shitan ken",
+			"japanese": "指端拳",
+			"translation": "指先の拳"
+		},
+		{
+			"title": "shitō ken",
+			"sort": "Shito ken",
+			"japanese": "指刀拳",
+			"translation": "指の刀の拳"
+		},
+		{
+			"title": "shizen ken",
+			"sort": "Shizen ken",
+			"japanese": "自然拳",
+			"translation": "自然の武器",
+			"description": "肩、体重、爪など、体に備わった自然の武器である。"
+		},
+		{
+			"title": "shizen kōun ryūsui",
+			"sort": "Shizen koun ryusui",
+			"japanese": "自然行雲流水",
+			"translation": "潮の流れに自然に従うこと"
+		},
+		{
+			"title": "shizen no kamae",
+			"sort": "Shizen no kamae",
+			"japanese": "自然の構え",
+			"translation": "自然な姿勢",
+			"description": "忍術の構えの一つである。"
+		},
+		{
+			"title": "shizentai",
+			"sort": "Shizentai",
+			"japanese": "自然体",
+			"translation": "自然な体",
+			"description": "力を抜いた自然な構えである。"
+		},
+		{
+			"title": "shō",
+			"sort": "Sho",
+			"japanese": "小",
+			"translation": "小さい"
+		},
+		{
+			"title": "shobō",
+			"sort": "Shobo",
+			"japanese": "小棒",
+			"translation": "小さな棒",
+			"description": "拳に握る武器である。"
+		},
+		{
+			"title": "shōgun",
+			"sort": "Shogun",
+			"japanese": "将軍",
+			"translation": "軍勢の将",
+			"description": "日本の軍事上の最高指揮者である。"
+		},
+		{
+			"title": "shoshin go gata",
+			"sort": "Shoshin go gata",
+			"japanese": "初心五型",
+			"translation": "初心の五つの型"
+		},
+		{
+			"title": "shōten",
+			"sort": "Shoten",
+			"japanese": "昇天",
+			"description": "垂直な面を駆け上がることで、受身の稽古の一つである。"
+		},
+		{
+			"title": "shōten no jutsu",
+			"sort": "Shoten no jutsu",
+			"japanese": "昇天の術",
+			"translation": "天に昇る術",
+			"description": "壁、塀、木、あるいは人を駆け上がることである。十分な勢いをつけて障害物に跳びつき、脚で体を押し上げて、その上を跳び越える。現代の稽古で行う練習で、昇天術ともいう。"
+		},
+		{
+			"title": "Shōtoku Taishi",
+			"sort": "Shotoku Taishi",
+			"japanese": "聖徳太子",
+			"description": "摂政の皇子（574–622年）である。争いごとの真相を知るために、初めて間者を用いたといわれる。"
+		},
+		{
+			"title": "shu ken",
+			"sort": "Shu ken",
+			"translation": "くちばしの拳"
+		},
+		{
+			"title": "shugendō",
+			"sort": "Shugendo",
+			"japanese": "修験道",
+			"translation": "自らを試す道",
+			"description": "主に山伏が実践した秘教的な教えであり、苦行の一形態である。"
+		},
+		{
+			"title": "shuki ken",
+			"sort": "Shuki ken",
+			"japanese": "手起拳",
+			"translation": "肘の拳"
+		},
+		{
+			"title": "shukō",
+			"sort": "Shuko",
+			"japanese": "手鉤",
+			"translation": "手の爪",
+			"description": "登るためにも戦うためにも使う鉤爪で、戸隠流の三つの秘宝の一つである。手鉤ともいう。"
+		},
+		{
+			"title": "shuriken",
+			"sort": "Shuriken",
+			"japanese": "手裏剣",
+			"translation": "掌の刃",
+			"description": "忍者の投げる刃物で、形も大きさもさまざまである。"
+		},
+		{
+			"title": "shutō ken",
+			"sort": "Shuto ken",
+			"japanese": "手刀拳",
+			"description": "手刀で打つ技で、起転拳と同じ打撃である。"
+		},
+		{
+			"title": "sodezutsu",
+			"sort": "Sodezutsu",
+			"japanese": "袖筒",
+			"description": "手持ちの大砲である。"
+		},
+		{
+			"title": "sōhei",
+			"sort": "Sohei",
+			"japanese": "僧兵",
+			"translation": "仏教の戦う僧",
+			"description": "寺院に仕えた武装した僧と傭兵である。"
+		},
+		{
+			"title": "sōke",
+			"sort": "Soke",
+			"japanese": "宗家",
+			"translation": "家の長、開祖",
+			"description": "流派の長である。"
+		},
+		{
+			"title": "sokki ken",
+			"sort": "Sokki ken",
+			"japanese": "足起拳",
+			"translation": "膝の拳"
+		},
+		{
+			"title": "soku gyaku ken",
+			"sort": "Soku gyaku ken",
+			"japanese": "足逆拳",
+			"translation": "逆さの足",
+			"description": "足の指先で腹や首などの柔らかい箇所を蹴る技で、武神館の用語である。"
+		},
+		{
+			"title": "soku yaku ken",
+			"sort": "Soku yaku ken",
+			"japanese": "足躍拳",
+			"translation": "踊る足",
+			"description": "かかとと足の裏で、やや柔らかい箇所や硬い箇所を蹴る技で、たとえば膝を上から踏みつける。武神館の用語である。"
+		},
+		{
+			"title": "sokuhō geri",
+			"sort": "Sokuho geri",
+			"japanese": "側方蹴り",
+			"translation": "横への蹴り",
+			"description": "上体を前に向けたまま、脚を横へ蹴り出す蹴りである。"
+		},
+		{
+			"title": "sokuhō kaiten",
+			"sort": "Sokuho kaiten",
+			"japanese": "側方回転",
+			"translation": "横への転がり"
+		},
+		{
+			"title": "sokuhō kiten",
+			"sort": "Sokuho kiten",
+			"japanese": "側方起転",
+			"description": "両手をついて横へ回転する技で、受身の稽古の一つである。"
+		},
+		{
+			"title": "sokuhō tobi",
+			"sort": "Sokuho tobi",
+			"japanese": "側方飛び",
+			"translation": "横への跳躍",
+			"description": "横へ低く跳ぶ技で、受身の稽古の一つである。"
+		},
+		{
+			"title": "sokuhō ukemi",
+			"sort": "Sokuho ukemi",
+			"japanese": "側方受身",
+			"translation": "横への受身"
+		},
+		{
+			"title": "sokuyaku suitei ken",
+			"sort": "Sokuyaku suitei ken",
+			"translation": "水平の蹴り",
+			"description": "脚を水平に前へ蹴り出し、足で標的を横から打つ。"
+		},
+		{
+			"title": "Sonshi",
+			"sort": "Sonshi",
+			"japanese": "孫子",
+			"description": "欧米でSun Tzuと呼ばれる中国の兵法家の、日本での呼び名である。伝承によれば、紀元前6世紀に<cite>『孫子』</cite>を著した。この書は早くに日本へ伝わり、忍術の成り立ちに影響を与えたといわれる。"
+		},
+		{
+			"title": "soshin sosoku hō",
+			"sort": "Soshin sosoku ho",
+			"japanese": "早心早速法",
+			"translation": "素早く動く方法"
+		},
+		{
+			"title": "Sugitani Zenjūbō",
+			"sort": "Sugitani Zenjubo",
+			"japanese": "杉谷善住坊",
+			"description": "名高い忍者で、1570年に二発の弾丸で織田信長を殺そうとした。しかし、二発とも肩当てに当たっただけであった。"
+		},
+		{
+			"title": "sui",
+			"sort": "Sui",
+			"japanese": "水",
+			"translation": "水"
+		},
+		{
+			"title": "sui no kata",
+			"sort": "Sui no kata",
+			"japanese": "水の型",
+			"translation": "水の型"
+		},
+		{
+			"title": "suikatsugan",
+			"sort": "Suikatsugan",
+			"japanese": "水渇丸",
+			"translation": "渇きを止める丸薬",
+			"description": "梅干しの果肉、砂糖、麦門冬の根で作る、渇きを防ぐ丸薬で、その製法は<cite>『萬川集海』</cite>に伝わる。口と喉を潤しておくことができた。"
+		},
+		{
+			"title": "suiki",
+			"sort": "Suiki",
+			"japanese": "水器",
+			"translation": "水の道具",
+			"description": "<cite>『萬川集海』</cite>第9巻のうち、水に関する装備を扱う部分である。その多くは海賊の助言に基づいており、川の渡り方や水中での移動の仕方を示す。"
+		},
+		{
+			"title": "suiren",
+			"sort": "Suiren",
+			"japanese": "水練",
+			"translation": "水の修練",
+			"description": "水中にとどまり、水中を動くことである。"
+		},
+		{
+			"title": "suiton",
+			"sort": "Suiton",
+			"japanese": "水遁",
+			"description": "水を利用して逃れる方法で、五遁法の五つの方法の一つである。"
+		},
+		{
+			"title": "suiton jutsu",
+			"sort": "Suiton jutsu",
+			"japanese": "水遁術",
+			"translation": "水を用いて逃れる術",
+			"description": "水を逃走の手段として用いる、五遁法の逃走術である。"
+		},
+		{
+			"title": "suppa",
+			"sort": "Suppa",
+			"japanese": "透波",
+			"description": "忍者の別名で、たとえば風魔小太郎に従ったゲリラや、武田家に仕えたゲリラを指す。乱破ともいう。"
+		},
+		{
+			"title": "tabi",
+			"sort": "Tabi",
+			"japanese": "足袋",
+			"translation": "足を入れる袋",
+			"description": "親指とほかの指が分かれた日本の足袋である。"
+		},
+		{
+			"title": "tachi",
+			"sort": "Tachi",
+			"japanese": "太刀",
+			"translation": "長い刀",
+			"description": "刀に似た刀剣で、たいていは反りがより強く、戦場で身につけた。儀礼用に飾られ、きわめて精巧に作られている。"
+		},
+		{
+			"title": "tachi nagare",
+			"sort": "Tachi nagare",
+			"japanese": "立ち流れ",
+			"translation": "立った姿勢からの流れ",
+			"description": "流れの一つで、立った姿勢から後ろへ倒れる。"
+		},
+		{
+			"title": "tai",
+			"sort": "Tai",
+			"japanese": "体",
+			"translation": "体、健康"
+		},
+		{
+			"title": "tai ken",
+			"sort": "Tai ken",
+			"japanese": "体拳",
+			"translation": "体の拳"
+		},
+		{
+			"title": "tai sabaki",
+			"sort": "Tai sabaki",
+			"japanese": "体捌き",
+			"translation": "体のさばき方",
+			"description": "胴体の動きである。"
+		},
+		{
+			"title": "taihen jutsu",
+			"sort": "Taihen jutsu",
+			"japanese": "体変術",
+			"translation": "体を変える術",
+			"description": "体術の一部で、構え、姿勢、動き、倒れ方の技からなる。"
+		},
+		{
+			"title": "taijutsu",
+			"sort": "Taijutsu",
+			"japanese": "体術",
+			"translation": "体の術",
+			"description": "素手による戦いである。"
+		},
+		{
+			"title": "taikai",
+			"sort": "Taikai",
+			"japanese": "大会",
+			"translation": "大きな集まり",
+			"description": "催しで戦う者たちが集まることである。"
+		},
+		{
+			"title": "Taira",
+			"sort": "Taira",
+			"japanese": "平",
+			"description": "平家とも呼ばれる名高い一族で、源氏と戦った。"
+		},
+		{
+			"title": "taizōkai mandara",
+			"sort": "Taizokai mandara",
+			"japanese": "胎蔵界曼荼羅",
+			"translation": "母胎の世界の曼荼羅",
+			"description": "三密において物質の世界、すなわち<q>豊かな土壌の世界</q>を表す。"
+		},
+		{
+			"title": "taka bashigo",
+			"sort": "Taka bashigo",
+			"japanese": "高梯子",
+			"translation": "高い梯子",
+			"description": "忍者が深い谷を越えるのに使った梯子である。中央を別の縄で補強していた。"
+		},
+		{
+			"title": "Takagi-Yōshin-Ryū",
+			"sort": "Takagi-Yoshin-Ryu",
+			"japanese": "高木楊心流",
+			"translation": "高い木と柳の心の流派",
+			"description": "武神館の九つの流派の一つである。"
+		},
+		{
+			"title": "Takamatsu Toshitsugu",
+			"sort": "Takamatsu Toshitsugu",
+			"japanese": "高松寿嗣",
+			"description": "さまざまな忍術の流派を教えた師で、初見良昭の師匠である。九つの流派の総体は、彼に敬意を表して<q>武神館</q>と呼ばれる。"
+		},
+		{
+			"title": "Takeda Shingen",
+			"sort": "Takeda Shingen",
+			"japanese": "武田信玄",
+			"description": "戦国時代に一連の戦を戦った名高い武将（大名）である。"
+		},
+		{
+			"title": "tanagokoro",
+			"sort": "Tanagokoro",
+			"japanese": "掌",
+			"translation": "手のひら",
+			"description": "手のひらで扱う松明で、扉の錠をこじ開けるときにとくに役立った。"
+		},
+		{
+			"title": "tanegashima",
+			"sort": "Tanegashima",
+			"japanese": "種子島",
+			"translation": "火縄式の発火装置、火縄銃、鉤付きの銃",
+			"description": "ポルトガル人が日本にもたらした火縄銃である。鉄砲ともいう。"
+		},
+		{
+			"title": "tantō",
+			"sort": "Tanto",
+			"japanese": "短刀",
+			"translation": "小さな刀",
+			"description": "短剣である。"
+		},
+		{
+			"title": "tantōjutsu",
+			"sort": "Tantojutsu",
+			"japanese": "短刀術",
+			"translation": "短剣の術",
+			"description": "ナイフで戦う技である。"
+		},
+		{
+			"title": "tantra",
+			"sort": "Tantra",
+			"sanskrit": "तन्त्र",
+			"translation": "織物、連続するもの、つながり",
+			"description": "インドの哲学と宗教の一潮流で、もとはヒンドゥー教の秘教的な形態であり、のちにチベット仏教に取り入れられた。"
+		},
+		{
+			"title": "tanuki gakure no jutsu",
+			"sort": "Tanuki gakure no jutsu",
+			"japanese": "狸隠",
+			"translation": "タヌキのように隠れる術",
+			"description": "忍者の登る技で、木や柱をよじ登り、高い所に身を隠す。"
+		},
+		{
+			"title": "taru ikada",
+			"sort": "Taru ikada",
+			"japanese": "樽筏",
+			"translation": "樽のいかだ",
+			"description": "二つの樽からなる忍者の水器である。それぞれの樽に片足ずつ入れ、櫂で水上を進んだ。うきだるともいう。"
+		},
+		{
+			"title": "tatami",
+			"sort": "Tatami",
+			"japanese": "畳",
+			"translation": "稲わらの敷物",
+			"description": "日本の家屋や道場の床に敷くものである。"
+		},
+		{
+			"title": "tatami bune",
+			"sort": "Tatami bune",
+			"translation": "折り畳める舟",
+			"description": "はさみぶねの別名である。"
+		},
+		{
+			"title": "tatami gama",
+			"sort": "Tatami gama",
+			"translation": "折り畳める鎌",
+			"description": "木の柄を持つ鎌で、湾曲した刃を開いて使う。この名称は近代になってからの説明的な呼び名で、忍術の伝書には見られない。"
+		},
+		{
+			"title": "tebukuro",
+			"sort": "Tebukuro",
+			"japanese": "手袋",
+			"translation": "手の守り",
+			"description": "忍者の手の甲と前腕を覆う衣類である。"
+		},
+		{
+			"title": "tekagi",
+			"sort": "Tekagi",
+			"japanese": "手鉤",
+			"translation": "手の爪",
+			"description": "手鉤（しゅこう）ともいう。"
+		},
+		{
+			"title": "tekken",
+			"sort": "Tekken",
+			"japanese": "鉄拳",
+			"description": "拳にはめる打撃具である。鉄甲ともいう。"
+		},
+		{
+			"title": "tekkō",
+			"sort": "Tekko",
+			"japanese": "鉄甲",
+			"description": "拳にはめる打撃具である。鉄拳ともいう。"
+		},
+		{
+			"title": "ten",
+			"sort": "Ten",
+			"japanese": "天",
+			"translation": "天"
+		},
+		{
+			"title": "Ten ryaku no maki",
+			"sort": "Ten ryaku no maki",
+			"japanese": "天略の巻",
+			"translation": "天の戦略の巻物"
+		},
+		{
+			"title": "Tendai",
+			"sort": "Tendai",
+			"japanese": "天台",
+			"translation": "天の台座",
+			"description": "密教の秘教的な仏教宗派で、日本では伝教大師が開いた。その中心は比叡山の延暦寺であった。"
+		},
+		{
+			"title": "tengu",
+			"sort": "Tengu",
+			"japanese": "天狗",
+			"translation": "天の犬",
+			"description": "山に住むとされた、日本の伝承に登場する想像上の存在である。カラスのくちばしと翼を持つもの（からすてんぐ、またはこてんぐ）と、長く赤い鼻を持つ人の姿のもの（だいてんぐ）がある。守り手とされることもあれば、いたずら者や危険な存在とされることもあった。伝説では武術の達人であり、しばしばある流派の師とみなされる。"
+		},
+		{
+			"title": "tenmon",
+			"sort": "Tenmon",
+			"japanese": "天文",
+			"translation": "天文と気象"
+		},
+		{
+			"title": "tennō",
+			"sort": "Tenno",
+			"japanese": "天皇",
+			"translation": "天の君主",
+			"description": "日本の天皇である。"
+		},
+		{
+			"title": "tenugui",
+			"sort": "Tenugui",
+			"japanese": "手拭",
+			"translation": "手をぬぐう布",
+			"description": "忍者が覆面として結んだ木綿の布である。"
+		},
+		{
+			"title": "teppō",
+			"sort": "Teppo",
+			"japanese": "鉄砲",
+			"translation": "火器",
+			"description": "種子島の別名である。"
+		},
+		{
+			"title": "tessen",
+			"sort": "Tessen",
+			"japanese": "鉄扇",
+			"translation": "鉄の扇"
+		},
+		{
+			"title": "tetsu mari",
+			"sort": "Tetsu mari",
+			"translation": "鉄の球",
+			"description": "四方に長いとげが突き出た中空の鉄球で、いがだまに似ている。この名称は近代になってからの説明的な呼び名で、忍術の伝書には見られない。"
+		},
+		{
+			"title": "tetsubishi",
+			"sort": "Tetsubishi",
+			"japanese": "鉄菱",
+			"translation": "鉄のヒシの実",
+			"description": "鉄製の撒き菱で、忍者は追っ手を食い止めるために地面に大量に撒いた。"
+		},
+		{
+			"title": "tetsubō",
+			"sort": "Tetsubo",
+			"japanese": "鉄棒",
+			"translation": "鉄の棒"
+		},
+		{
+			"title": "tō",
+			"sort": "To",
+			"japanese": "刀",
+			"translation": "剣、刃物"
+		},
+		{
+			"title": "tōami",
+			"sort": "Toami",
+			"japanese": "投網",
+			"translation": "投げる網",
+			"description": "忍者が敵を捕らえるのに使えた網である。"
+		},
+		{
+			"title": "tobi ashi",
+			"sort": "Tobi ashi",
+			"japanese": "跳び足",
+			"translation": "跳ぶ足運び",
+			"description": "忍者の歩法である。"
+		},
+		{
+			"title": "tobi bashigo",
+			"sort": "Tobi bashigo",
+			"japanese": "跳び梯子",
+			"translation": "跳ぶ梯子",
+			"description": "両端に鉤のついた梯子で、投げて掛けることができた。"
+		},
+		{
+			"title": "tobi geri",
+			"sort": "Tobi geri",
+			"japanese": "飛び蹴り",
+			"translation": "跳んで蹴ること",
+			"description": "跳び上がって放つ蹴りで、かたあしとび蹴りやりょうあしとび蹴りがある。"
+		},
+		{
+			"title": "tobi ori",
+			"sort": "Tobi ori",
+			"japanese": "飛び降り",
+			"translation": "跳び降りること",
+			"description": "受身の稽古の一つで、高い所から跳び降りる。"
+		},
+		{
+			"title": "tobikunai",
+			"sort": "Tobikunai",
+			"japanese": "飛苦無",
+			"description": "閉ざされた門を開けるための道具である。"
+		},
+		{
+			"title": "Toda Shinryūken Masamitsu",
+			"sort": "Toda Shinryuken Masamitsu",
+			"japanese": "戸田真竜軒正光",
+			"description": "忍者の達人で、高松寿嗣の師である。"
+		},
+		{
+			"title": "Togakure Daisuke",
+			"sort": "Togakure Daisuke",
+			"japanese": "戸隠大助",
+			"description": "戸隠流の開祖である。戦に敗れたのち、伊賀の地へ逃れた。"
+		},
+		{
+			"title": "Togakure-Ryū",
+			"sort": "Togakure-Ryu",
+			"japanese": "戸隠流",
+			"translation": "隠れた戸の流派",
+			"description": "武神館の九つの流派の一つである。"
+		},
+		{
+			"title": "tōiri",
+			"sort": "Toiri",
+			"japanese": "遠入",
+			"translation": "遠くより入る",
+			"description": "忍者が平時に予防として用いた戦略で、主に諜報活動である。"
+		},
+		{
+			"title": "toki",
+			"sort": "Toki",
+			"japanese": "登器",
+			"translation": "登るための道具"
+		},
+		{
+			"title": "Tokugawa Ieyasu",
+			"sort": "Tokugawa Ieyasu",
+			"japanese": "徳川家康",
+			"description": "名高い大名で、織田信長の同盟者であった。戦国時代が終わったのち、1603年に将軍に任じられた。その一族は1868年まで支配した。"
+		},
+		{
+			"title": "Tōkyō",
+			"sort": "Tokyo",
+			"japanese": "東京",
+			"translation": "東の都",
+			"description": "日本の首都で、かつては江戸と呼ばれた。東京都には約1,400万人が暮らす。"
+		},
+		{
+			"title": "tomoe nagare",
+			"sort": "Tomoe nagare",
+			"japanese": "巴流れ",
+			"translation": "渦を巻く流れ",
+			"description": "流れの一つで、こうほうともえ流れとして後ろへ渦を巻くように倒れる。"
+		},
+		{
+			"title": "tonki",
+			"sort": "Tonki",
+			"description": "投げて飛ばす武器で、手裏剣の別名である。"
+		},
+		{
+			"title": "tori no ko",
+			"sort": "Tori no ko",
+			"japanese": "鳥の子",
+			"description": "爆竹である。"
+		},
+		{
+			"title": "torinawa",
+			"sort": "Torinawa",
+			"japanese": "捕り縄",
+			"translation": "捕らえる縄",
+			"description": "重りと尖端のついた縄からなる忍者の武器で、敵を捕らえて縛るのに使った。"
+		},
+		{
+			"title": "torite kihon gata go hō",
+			"sort": "Torite kihon gata go ho",
+			"japanese": "捕手基本型五法",
+			"translation": "手を極める五つの技"
+		},
+		{
+			"title": "tōtoku hyōshi no kamae",
+			"sort": "Totoku hyoshi no kamae",
+			"japanese": "刀匿礮姿",
+			"description": "武神館の伝承による戸隠流の膝をついた構えである。後ろの膝を地につけ、前の膝を立て、刀または拳を胸の前に構えて身を守る。"
+		},
+		{
+			"title": "Toyotomi Hideyoshi",
+			"sort": "Toyotomi Hideyoshi",
+			"japanese": "豊臣秀吉",
+			"description": "身分の低い家に生まれた大名で、織田信長に仕えた武将である。信長の死後、日本を統一した。秀吉の死後、徳川家康がその跡継ぎに敵対し、豊臣の一族はことごとく滅ぼされた。"
+		},
+		{
+			"title": "tsuba",
+			"sort": "Tsuba",
+			"japanese": "鍔",
+			"translation": "刀の手元を守る金具",
+			"description": "敵の斬撃から手を守る刀の部分である。"
+		},
+		{
+			"title": "tsubo giri",
+			"sort": "Tsubo giri",
+			"japanese": "壺錐",
+			"description": "木の壁や戸に大きめの穴を開けるための錐である。"
+		},
+		{
+			"title": "tsugi bune",
+			"sort": "Tsugi bune",
+			"translation": "継ぎ合わせた舟",
+			"description": "部品からなる舟である。伝承によれば、忍者の一団の各人が一つずつ部品を運び、水辺ですばやく組み立てた。"
+		},
+		{
+			"title": "tsuki",
+			"sort": "Tsuki",
+			"japanese": "突き",
+			"translation": "打つこと、突くこと、斬りつけること、刺すこと"
+		},
+		{
+			"title": "tsune ashi",
+			"sort": "Tsune ashi",
+			"japanese": "常足",
+			"translation": "普段の足運び"
+		},
+		{
+			"title": "tsuri bashigo",
+			"sort": "Tsuri bashigo",
+			"japanese": "吊梯子",
+			"translation": "吊るす梯子",
+			"description": "壁に別の鉤で留めて安全を確保できる梯子である。"
+		},
+		{
+			"title": "uchi",
+			"sort": "Uchi",
+			"japanese": "打ち",
+			"description": "打撃の技である。"
+		},
+		{
+			"title": "uchi dake",
+			"sort": "Uchi dake",
+			"japanese": "内竹",
+			"translation": "竹の内側",
+			"description": "忍者が火種を入れて持ち歩いた竹の容器である。これですばやく火を起こした。"
+		},
+		{
+			"title": "Uesugi Kenshin",
+			"sort": "Uesugi Kenshin",
+			"japanese": "上杉謙信",
+			"description": "戦国時代に日本の権力を握ろうとした大名である。伝承によれば、厠で最期を迎えた。忍者が便壺の中で待ち伏せし、彼を殺したという。"
+		},
+		{
+			"title": "uke",
+			"sort": "Uke",
+			"japanese": "受",
+			"translation": "防ぐ、守る、受け止める、受ける"
+		},
+		{
+			"title": "ukemi",
+			"sort": "Ukemi",
+			"japanese": "受身",
+			"translation": "倒れること、倒れ方の稽古、倒れる練習"
+		},
+		{
+			"title": "ukemi gata taihen jutsu",
+			"sort": "Ukemi gata taihen jutsu",
+			"japanese": "受身型体変術",
+			"translation": "転がり倒れる術"
+		},
+		{
+			"title": "uki daru",
+			"sort": "Uki daru",
+			"japanese": "浮き樽",
+			"translation": "浮かぶ樽",
+			"description": "忍術書に記された、二つの樽からなる水器である。それぞれの樽に片足ずつ入れ、竿か櫂で水上を進んだ。たるいかだともいう。"
+		},
+		{
+			"title": "uma",
+			"sort": "Uma",
+			"japanese": "馬",
+			"translation": "馬"
+		},
+		{
+			"title": "undō",
+			"sort": "Undo",
+			"japanese": "運動",
+			"translation": "動き"
+		},
+		{
+			"title": "ushiro gaeshi",
+			"sort": "Ushiro gaeshi",
+			"japanese": "後返",
+			"translation": "後ろへ向けた技"
+		},
+		{
+			"title": "Ushiwakamaru",
+			"sort": "Ushiwakamaru",
+			"japanese": "牛若丸",
+			"description": "源義経の幼名である。"
+		},
+		{
+			"title": "uwagi",
+			"sort": "Uwagi",
+			"japanese": "上着",
+			"translation": "上着",
+			"description": "忍者の上着で、ズボンの中に裾を入れて着た。内側に隠しポケットがある。"
+		},
+		{
+			"title": "uzume bi",
+			"sort": "Uzume bi",
+			"japanese": "埋め火",
+			"translation": "埋めた火",
+			"description": "地雷である。地雷（じらい）ともいう。"
+		},
+		{
+			"title": "uzura gakure no jutsu",
+			"sort": "Uzura gakure no jutsu",
+			"japanese": "鶉隠れの術",
+			"translation": "ウズラのように隠れる術",
+			"description": "隠身術の技で、地面の穴やくぼみ、岩の割れ目、あるいは石の陰に身を隠す。"
+		},
+		{
+			"title": "wakizashi",
+			"sort": "Wakizashi",
+			"japanese": "脇差",
+			"translation": "短い刀",
+			"description": "侍の短い刀である。刀とともに大小をなした。"
+		},
+		{
+			"title": "wakizashi teppō",
+			"sort": "Wakizashi teppo",
+			"japanese": "脇差鉄砲",
+			"description": "一発だけ撃てる短銃を隠した伝統的な短い刀である。"
+		},
+		{
+			"title": "wakō",
+			"sort": "Wako",
+			"japanese": "倭寇",
+			"description": "朝鮮と中国の沿岸を荒らした日本の海賊である。その勢力に太刀打ちできる将軍はほとんどいなかった。忍者の工夫に富んだ武器の多くは、倭寇にさかのぼるといわれる。"
+		},
+		{
+			"title": "wari ashi",
+			"sort": "Wari ashi",
+			"japanese": "割り足",
+			"translation": "状況に合わせる足運び",
+			"description": "忍者の歩法である。"
+		},
+		{
+			"title": "watari",
+			"sort": "Watari",
+			"japanese": "渡り",
+			"translation": "渡り歩くこと",
+			"description": "最も高い値をつけた者に自分の働きを売った忍者である。"
+		},
+		{
+			"title": "wu wei",
+			"sort": "Wu wei",
+			"chinese": "無為",
+			"translation": "行わないこと",
+			"description": "道教の原理で、道（タオ）の自然な流れに逆らって行動しないことである。"
+		},
+		{
+			"title": "ya",
+			"sort": "Ya",
+			"japanese": "矢",
+			"translation": "矢"
+		},
+		{
+			"title": "yaiba",
+			"sort": "Yaiba",
+			"japanese": "刃",
+			"translation": "刃",
+			"description": "忍の字の上の部分である。"
+		},
+		{
+			"title": "yajiri",
+			"sort": "Yajiri",
+			"description": "太めの木材や枝を切るための、頑丈な刃を持つのこぎりである。"
+		},
+		{
+			"title": "yamabiko jutsu",
+			"sort": "Yamabiko jutsu",
+			"japanese": "山彦術",
+			"translation": "呼び声へのこだま",
+			"description": "遠入の戦術である。忍者が寝返って新たな主君に仕え、何年にもわたって忠誠を疑われることなく過ごした。取り決めておいた合図があると、大きな損害を与えたうえで元の側へ戻った。"
+		},
+		{
+			"title": "yamabiko shichō no jutsu",
+			"sort": "Yamabiko shicho no jutsu",
+			"japanese": "山彦伺聴の術",
+			"translation": "こだまに耳を澄ます術",
+			"description": "諜報の技で、疑わしい人物に重要な文書をわざと渡し、その反応を観察した。"
+		},
+		{
+			"title": "yamabushi",
+			"sort": "Yamabushi",
+			"japanese": "山伏",
+			"translation": "山の修行者、遍歴の僧",
+			"description": "山にこもって暮らし、修験道を実践した隠者である。"
+		},
+		{
+			"title": "yamidoko",
+			"sort": "Yamidoko",
+			"description": "忍者の飛行具である。ひとわしともいう。"
+		},
+		{
+			"title": "yang",
+			"sort": "Yang",
+			"chinese": "陽",
+			"translation": "光、陽性、開いたもの",
+			"description": "道教における陰陽の二元性のうち、陽性の原理である。日本語の読みでは陽（よう）である。"
+		},
+		{
+			"title": "yari",
+			"sort": "Yari",
+			"japanese": "槍",
+			"translation": "槍"
+		},
+		{
+			"title": "yarijutsu",
+			"sort": "Yarijutsu",
+			"japanese": "槍術",
+			"translation": "槍の術",
+			"description": "槍の技である。"
+		},
+		{
+			"title": "yawara",
+			"sort": "Yawara",
+			"japanese": "柔",
+			"description": "拳に握って使う武器である。クボタンともいう。"
+		},
+		{
+			"title": "yin",
+			"sort": "Yin",
+			"chinese": "陰",
+			"translation": "影、陰性、隠れたもの",
+			"description": "道教における陰陽の二元性のうち、陰性の原理である。日本語の読みでは陰（いん）である。"
+		},
+		{
+			"title": "yinyang",
+			"sort": "Yinyang",
+			"chinese": "陰陽",
+			"description": "光と影、善と悪、小と大の二元性で、道教の重要な原理である。日本語の読みでは陰陽（いんよう）である。"
+		},
+		{
+			"title": "yō",
+			"sort": "Yo",
+			"japanese": "陽",
+			"translation": "光、陽性、開いたもの"
+		},
+		{
+			"title": "yoga",
+			"sort": "Yoga",
+			"sanskrit": "योग",
+			"translation": "くびき、くびきをかける、結び合わせる、馬具をつける",
+			"description": "多くの流派を持つ、インドの心身の教えである。インドでは、あらゆる<q>悟りへの道</q>が<q>ヨーガの道</q>である。ハタ・ヨーガは体を柔軟にし、極端な姿勢にも曲げられるようにする。ほかの形態には、食事、瞑想、呼吸も含まれる。"
+		},
+		{
+			"title": "yōji gakure no jutsu",
+			"sort": "Yoji gakure no jutsu",
+			"description": "兵法の技で、忍者は見張りの頭上越しに物を何度も投げ、見張りが物音のたびに確かめに行かなくなるまで続けた。"
+		},
+		{
+			"title": "yoko aruki",
+			"sort": "Yoko aruki",
+			"japanese": "横歩き",
+			"translation": "横に歩くこと"
+		},
+		{
+			"title": "yoko gaeshi",
+			"sort": "Yoko gaeshi",
+			"japanese": "横返",
+			"translation": "横へ向けた技"
+		},
+		{
+			"title": "yoko nagare",
+			"sort": "Yoko nagare",
+			"japanese": "横流れ",
+			"translation": "横への流れ",
+			"description": "流れの一つで、立った姿勢から横へ倒れる。右へ倒れるのがみぎよこ流れ、左へ倒れるのがひだりよこ流れである。"
+		},
+		{
+			"title": "yomogami no jutsu",
+			"sort": "Yomogami no jutsu",
+			"translation": "髪型は四方のどこから見ても同じに見えなければならない",
+			"description": "諜報の原則で、忍者は常にいくつもの名前と身分を用意していた。"
+		},
+		{
+			"title": "yon shaku bō",
+			"sort": "Yon shaku bo",
+			"japanese": "四尺棒",
+			"translation": "長さ4尺の棒",
+			"description": "長さ4尺、約121センチの棒である。杖ともいう。"
+		},
+		{
+			"title": "yuki waraki",
+			"sort": "Yuki waraki",
+			"japanese": "雪藁き",
+			"translation": "雪と藁",
+			"description": "下駄ともいう。"
+		},
+		{
+			"title": "yumi",
+			"sort": "Yumi",
+			"japanese": "弓",
+			"translation": "弓",
+			"description": "弓（きゅう）ともいう。"
+		},
+		{
+			"title": "yumi ya",
+			"sort": "Yumi ya",
+			"japanese": "弓矢",
+			"translation": "弓と矢"
+		},
+		{
+			"title": "zagarashijaku",
+			"sort": "Zagarashijaku",
+			"description": "青梅または桃から作る、速効性の猛毒である。"
+		},
+		{
+			"title": "zazen",
+			"sort": "Zazen",
+			"japanese": "座禅",
+			"translation": "座って行う瞑想",
+			"description": "思考から離れ、はっきりと目覚めた注意のうちにとどまることであり、心は何にも向けられない。この修行は、ブッダが目覚める前に行った瞑想にさかのぼる。"
+		},
+		{
+			"title": "zen",
+			"sort": "Zen",
+			"japanese": "禅",
+			"translation": "瞑想による没入"
+		},
+		{
+			"title": "zenpō geri",
+			"sort": "Zenpo geri",
+			"japanese": "前方蹴り",
+			"translation": "前への蹴り"
+		},
+		{
+			"title": "zenpō kaiten",
+			"sort": "Zenpo kaiten",
+			"japanese": "前方回転",
+			"translation": "前への回転"
+		},
+		{
+			"title": "zenpō ukemi",
+			"sort": "Zenpo ukemi",
+			"japanese": "前方受身",
+			"translation": "前への倒れ方"
+		},
+		{
+			"title": "ziran",
+			"sort": "Ziran",
+			"chinese": "自然",
+			"translation": "自然であること、おのずからそうであること",
+			"description": "道教において、おのずから生じること、すなわち自発的に、内側から、強制なしに起こることである。"
+		}
+	]
+}

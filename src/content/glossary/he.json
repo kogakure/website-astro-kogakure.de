@@ -1,0 +1,4925 @@
+{
+	"entries": [
+		{
+			"title": "aikidō",
+			"sort": "Aikido",
+			"japanese": "合気道",
+			"translation": "דרך ההרמוניה",
+			"description": "אמנות לחימה הגנתית שפיתח אואשיבה מוריהיי בין 1925 ל־1969."
+		},
+		{
+			"title": "aikuchi",
+			"sort": "Aikuchi",
+			"japanese": "匕首",
+			"description": "פגיון יפני קטן."
+		},
+		{
+			"title": "Ainu",
+			"sort": "Ainu",
+			"japanese": "アイヌ",
+			"description": "עם ילידי בצפון יפן, השונה מהיפנים בשפה ובמוצא; שורשי אבותיו בתרבות ג'ומון. בסקר של מחוז הוקאידו מ־2023 הגדירו את עצמם כ־11,450 איש כאינו, ומספר צאצאיהם גבוה בהרבה. היפנים ראו בהם זמן רב ברברים ונלחמו בהם במשך מאות שנים, למשל במרד קושאמאין ב־1457 ובמלחמת שאקושאין בשנים 1669–1672."
+		},
+		{
+			"title": "aisha",
+			"sort": "Aisha",
+			"japanese": "愛者",
+			"translation": "אדם אוהב",
+			"description": "עיקרון בגוג'ו גויוקו שמנצל את חמלתו של אדם."
+		},
+		{
+			"title": "Akechi Mitsuhide",
+			"sort": "Akechi Mitsuhide",
+			"japanese": "明智光秀",
+			"description": "גנרל של אודה נובונאגה שבגד באדונו. כשנובונאגה נותר בלי שומרי ראשו, תקף אותו אקצ'י והרג אותו. חייליו שרפו את טירתו של נובונאגה עד היסוד."
+		},
+		{
+			"title": "akindo",
+			"sort": "Akindo",
+			"japanese": "商人",
+			"translation": "סוחר",
+			"description": "תחפושת אהובה על הנינג'ה מתוך שיצ'י הו דה."
+		},
+		{
+			"title": "ametori no jutsu",
+			"sort": "Ametori no jutsu",
+			"japanese": "雨鳥の術",
+			"translation": "אמנות הציפורים בגשם",
+			"description": "טקטיקה שמנצלת את נטייתם של שומרים להתרחק מעמדותיהם, או לשמור בחצי לב, בגשם או בקור."
+		},
+		{
+			"title": "amigasa",
+			"sort": "Amigasa",
+			"japanese": "編笠",
+			"description": "כובע קש קלוע ששוליו הרחבים מסתירים את הפנים."
+		},
+		{
+			"title": "ashi",
+			"sort": "Ashi",
+			"japanese": "足",
+			"translation": "רגל, כף רגל"
+		},
+		{
+			"title": "ashi fumikae",
+			"sort": "Ashi fumikae",
+			"japanese": "足踏み替え",
+			"translation": "החלפת רגליים"
+		},
+		{
+			"title": "ashi kō",
+			"sort": "Ashi ko",
+			"japanese": "足甲",
+			"translation": "כפות רגליים משוריינות",
+			"description": "טפרים לרגליים שבעזרתם טיפסו הנינג'ה על חומות. המקבילה לידיים נקראת שוקו או טקאגי."
+		},
+		{
+			"title": "ashigaru",
+			"sort": "Ashigaru",
+			"japanese": "足軽",
+			"translation": "חייל קל רגליים",
+			"description": "השכבה הנמוכה של הסמוראים. בימי שלום עבדו רובם כאיכרים בשדות. כלי הנשק והשריון שלהם היו קלים וזולים יותר."
+		},
+		{
+			"title": "Ashikaga",
+			"sort": "Ashikaga",
+			"japanese": "足利",
+			"description": "שבט שמוצאו במינאמוטו ושהחזיק במשרת השוגון ביפן בתקופת אשיקאגה (1338–1573)."
+		},
+		{
+			"title": "ashinaka",
+			"sort": "Ashinaka",
+			"japanese": "足半",
+			"description": "סנדלי קש בלי עקב, המכסים רק את קדמת כף הרגל. האצבעות אוחזות ישירות בקרקע ומוצאות אחיזה בטוחה גם בשטח חלקלק."
+		},
+		{
+			"title": "atemi",
+			"sort": "Atemi",
+			"japanese": "当身",
+			"translation": "מכה בגוף",
+			"description": "אגרופים ובעיטות נגד הנקודות החיוניות ומרכזי העצבים של אדם, כדי להמם, לשתק או להרוג."
+		},
+		{
+			"title": "atemi waza",
+			"sort": "Atemi waza",
+			"japanese": "当身技",
+			"translation": "טכניקות של הכאה בגוף",
+			"description": "שם נוסף להכאה בנקודות החיוניות ובמרכזי העצבים."
+		},
+		{
+			"title": "atemite",
+			"sort": "Atemite",
+			"japanese": "当身手",
+			"translation": "הכאה בגוף ביד",
+			"description": "שם נוסף להכאה בנקודות החיוניות ובמרכזי העצבים."
+		},
+		{
+			"title": "ayumi ashi",
+			"sort": "Ayumi ashi",
+			"japanese": "歩み足",
+			"translation": "הליכה רגילה"
+		},
+		{
+			"title": "bajutsu",
+			"sort": "Bajutsu",
+			"japanese": "馬術",
+			"translation": "אמנות הרכיבה"
+		},
+		{
+			"title": "bakemono jutsu",
+			"sort": "Bakemono jutsu",
+			"japanese": "化物術",
+			"translation": "אמנויות הרוחות",
+			"description": "אמנות ההפיכה לרוח רפאים. מסופר שאיגאסאקי דוג'ון השתמש בה כדי לחדור למבצר."
+		},
+		{
+			"title": "bakufu",
+			"sort": "Bakufu",
+			"japanese": "幕府",
+			"translation": "ממשלת האוהל",
+			"description": "במקור מחנה השדה של השוגון, ולאחר מכן מושב הדיקטטורה הצבאית שלו. בעברית: <q>שוגונות</q>."
+		},
+		{
+			"title": "bakuhatsu gama",
+			"sort": "Bakuhatsu gama",
+			"japanese": "爆発鎌",
+			"translation": "מגל להשלכת פצצות",
+			"description": "נשק נינג'ה העשוי ממגל גדול (קמה) ומשרשרת באורך שני מטרים, שבקצה שלה חומר נפץ, רעל או אבקה מסנוורת."
+		},
+		{
+			"title": "Bansenshūkai",
+			"sort": "Bansenshukai",
+			"japanese": "萬川集海",
+			"translation": "עשרת אלפים נהרות זורמים אל הים",
+			"description": "קובץ מקיף של נינג'יטסו בעשרה חלקים, שכתב פוג'יבאיאשי יאסוטאקה ב־1676."
+		},
+		{
+			"title": "banzai",
+			"sort": "Banzai",
+			"japanese": "万歳",
+			"translation": "עשרת אלפים שנה",
+			"description": "קריאת שמחה וקריאת קרב יפנית."
+		},
+		{
+			"title": "bikenjutsu",
+			"sort": "Bikenjutsu",
+			"japanese": "秘剣術",
+			"description": "לחימה בחרב. לצד טאיג'וטסו ובוג'וטסו, אחד משלושת עמודי התווך של נינפו."
+		},
+		{
+			"title": "bisentō",
+			"sort": "Bisento",
+			"japanese": "眉尖刀",
+			"translation": "הלברד",
+			"description": "הלברד יפני בעל להב רחב."
+		},
+		{
+			"title": "bisentōjutsu",
+			"sort": "Bisentojutsu",
+			"description": "לחימה בהלברד (ביסנטו). אחד מ־18 התחומים של נינג'ה ג'והאקיי."
+		},
+		{
+			"title": "Biwako",
+			"sort": "Biwako",
+			"japanese": "琵琶湖",
+			"translation": "אגם ביווה",
+			"description": "האגם הגדול ביותר ביפן (כ־670 קילומטרים רבועים), סמוך לקיוטו. שמו ניתן לו בזכות צורתו, הדומה ללאוטה (ביווה)."
+		},
+		{
+			"title": "bō",
+			"sort": "Bo",
+			"japanese": "棒",
+			"translation": "מקל, מטה",
+			"description": "כינוי לכל כלי הנשק היפניים מסוג מטה; במובן הצר, רוקו שאקו בו."
+		},
+		{
+			"title": "bō ken",
+			"sort": "Bo ken",
+			"japanese": "棒剣",
+			"translation": "חרב מקל",
+			"description": "חרב אימון מעץ כבד, נקראת גם בוקן או בוקוטו. כלי נשק מסוכן בפני עצמו."
+		},
+		{
+			"title": "bō shuriken",
+			"sort": "Bo shuriken",
+			"japanese": "棒手裏剣",
+			"description": "כלי נשק מוארכים להטלה, דמויי פגיון (שוריקן), ביניהם סיכות שיער, מסמרים ומקלות אכילה."
+		},
+		{
+			"title": "bōbi no kamae",
+			"sort": "Bobi no kamae",
+			"japanese": "防備の構え",
+			"description": "עמידה הגנתית (קאמאה)."
+		},
+		{
+			"title": "bōenkyō",
+			"sort": "Boenkyo",
+			"japanese": "望遠鏡",
+			"translation": "טלסקופ"
+		},
+		{
+			"title": "bōjutsu",
+			"sort": "Bojutsu",
+			"japanese": "棒術",
+			"description": "לחימה במטה. לצד טאיג'וטסו וביקנג'וטסו, אחד משלושת עמודי התווך של נינפו."
+		},
+		{
+			"title": "bokken",
+			"sort": "Bokken",
+			"japanese": "木剣",
+			"translation": "חרב עץ",
+			"description": "נקראת גם בו קן או בוקוטו."
+		},
+		{
+			"title": "boku",
+			"sort": "Boku",
+			"japanese": "木",
+			"translation": "עץ, חומר עץ",
+			"description": "נקרא גם מוקו."
+		},
+		{
+			"title": "bokutō",
+			"sort": "Bokuto",
+			"japanese": "木刀",
+			"translation": "חרב עץ",
+			"description": "נקראת גם בו קן או בוקן."
+		},
+		{
+			"title": "bōryaku",
+			"sort": "Boryaku",
+			"japanese": "謀略",
+			"translation": "אסטרטגיה",
+			"description": "חלק מתורת המלחמה היפנית (הייהו) שכולל, בין השאר, את מערכי הקרב."
+		},
+		{
+			"title": "boshi ken",
+			"sort": "Boshi ken",
+			"japanese": "母指拳",
+			"translation": "אגרוף האגודל",
+			"description": "מכה שפוגעת במטרה בקצה האגודל."
+		},
+		{
+			"title": "bu",
+			"sort": "Bu",
+			"japanese": "武",
+			"translation": "אמנות המלחמה, לוחמנות, צבא",
+			"description": "נקרא גם מו."
+		},
+		{
+			"title": "Buddha",
+			"sort": "Buddha",
+			"sanskrit": "बुद्ध",
+			"translation": "המתעורר",
+			"description": "כינוי לאדם ששבר את מעגל הלידות מחדש. לרוב הכוונה לסידהרתה גאוטמה, נסיך מקפילווסטו ומייסד הבודהיזם. ביפנית: בוצו."
+		},
+		{
+			"title": "budō",
+			"sort": "Budo",
+			"japanese": "武道",
+			"translation": "אמנויות לחימה",
+			"description": "שם כולל לכל אמנויות הלחימה היפניות."
+		},
+		{
+			"title": "budōka",
+			"sort": "Budoka",
+			"japanese": "武道家",
+			"translation": "אמן לחימה",
+			"description": "מי שעוסק בבודו."
+		},
+		{
+			"title": "bugei jūhappan",
+			"sort": "Bugei juhappan",
+			"japanese": "武芸十八般",
+			"description": "18 הקטגוריות של אמנויות הלחימה. נינג'ה נזקק לבסיס טוב בהן, ועליהן נוספו 18 הקטגוריות של הטכניקות הסודיות בנינג'ה ג'והאקיי."
+		},
+		{
+			"title": "bugeisha",
+			"sort": "Bugeisha",
+			"japanese": "武芸者",
+			"translation": "אמן אמנויות הלחימה",
+			"description": "כינוי ללוחמים (סמוראים) שעסקו באמנויות הלחימה. נקראים גם בוג'ין."
+		},
+		{
+			"title": "bujin",
+			"sort": "Bujin",
+			"japanese": "武人",
+			"translation": "איש צבא",
+			"description": "נקרא גם בוגיישה."
+		},
+		{
+			"title": "Bujinkan",
+			"sort": "Bujinkan",
+			"japanese": "武神館",
+			"translation": "היכל הלוחם האלוהי",
+			"description": "ארגון שייסד האצומי מאסאקי ומאחד תשעה ריו עתיקים של לוחמים ושל נינג'יטסו."
+		},
+		{
+			"title": "bujutsu",
+			"sort": "Bujutsu",
+			"japanese": "武術",
+			"translation": "אמנויות הלחימה, וושו",
+			"description": "כינוי לכל אמנויות הלחימה של הסמוראים."
+		},
+		{
+			"title": "buke",
+			"sort": "Buke",
+			"japanese": "武家",
+			"translation": "סמוראי, לוחם, משפחת לוחמים",
+			"description": "כינוי למשפחות הלוחמים האצילות."
+		},
+		{
+			"title": "bukkyō",
+			"sort": "Bukkyo",
+			"japanese": "仏教",
+			"translation": "בודהיזם"
+		},
+		{
+			"title": "bushi",
+			"sort": "Bushi",
+			"japanese": "武士",
+			"translation": "לוחם, סמוראי",
+			"description": "כינוי ללוחמים האצילים של יפן הפאודלית."
+		},
+		{
+			"title": "bushidō",
+			"sort": "Bushido",
+			"japanese": "武士道",
+			"translation": "דרך הלוחם",
+			"description": "קוד הכבוד של הסמוראים, שדרש משמעת עצמית, הקרבה עצמית ושליטה עצמית."
+		},
+		{
+			"title": "butsu",
+			"sort": "Butsu",
+			"japanese": "仏",
+			"translation": "בודהה"
+		},
+		{
+			"title": "chakuchi",
+			"sort": "Chakuchi",
+			"japanese": "着地",
+			"translation": "צעד התקפה ארוך"
+		},
+		{
+			"title": "chi",
+			"sort": "Chi",
+			"japanese": "地",
+			"translation": "אדמה, קרקע"
+		},
+		{
+			"title": "chi no kata",
+			"sort": "Chi no kata",
+			"japanese": "地の型",
+			"translation": "צורת האדמה"
+		},
+		{
+			"title": "Chi ryaku no maki",
+			"sort": "Chi ryaku no maki",
+			"japanese": "地略の巻",
+			"translation": "מגילת האסטרטגיות של האדמה",
+			"description": "ספר על האסטרטגיות של האדמה, חלק מסדרה שכוללת גם את <cite>\"טן ריאקו נו מאקי\"</cite> ואת <cite>\"ג'ין ריאקו נו מאקי\"</cite>."
+		},
+		{
+			"title": "chigiriki",
+			"sort": "Chigiriki",
+			"japanese": "乳切木",
+			"description": "מטה ארוך עם שרשרת ומשקולת ברזל בקצה, כלי נשק שהתפתח ממחבט הדיש."
+		},
+		{
+			"title": "chikairi",
+			"sort": "Chikairi",
+			"japanese": "近入",
+			"translation": "חדירה קרובה",
+			"description": "אסטרטגיות שבהן השתמשו הנינג'ה במלחמה כדי לפרוץ את קווי האויב."
+		},
+		{
+			"title": "chiken-in",
+			"sort": "Chiken-in",
+			"japanese": "智拳印",
+			"translation": "סימן אגרוף החוכמה",
+			"description": "סימן היד של רצו בקוג'י־אין."
+		},
+		{
+			"title": "chikujō jutsu",
+			"sort": "Chikujo jutsu",
+			"japanese": "築城術",
+			"translation": "אמנות בניית הטירה",
+			"description": "שיטות של ביצור שדה."
+		},
+		{
+			"title": "chikyū jutsu",
+			"sort": "Chikyu jutsu",
+			"japanese": "弛弓術",
+			"translation": "קשת רפויה",
+			"description": "טקטיקה של טואירי. נינג'ה שבוי מקבל את הצעתו של אדון האויב לעבוד בשבילו, ונמלט בהזדמנות הראשונה."
+		},
+		{
+			"title": "chimon",
+			"sort": "Chimon",
+			"japanese": "地文",
+			"translation": "גאוגרפיה"
+		},
+		{
+			"title": "chitsu mishi",
+			"sort": "Chitsu mishi",
+			"translation": "עיניים בשכר",
+			"description": "תושבי שטח אויב שעובדים בשביל נינג'ה."
+		},
+		{
+			"title": "chōda",
+			"sort": "Choda",
+			"japanese": "長蛇",
+			"translation": "נחש ארוך",
+			"description": "מערך קרב של בוריאקו."
+		},
+		{
+			"title": "chōhō",
+			"sort": "Choho",
+			"japanese": "諜報",
+			"translation": "ריגול"
+		},
+		{
+			"title": "chōkyori kyōsō",
+			"sort": "Chokyori kyoso",
+			"japanese": "長距離競走",
+			"translation": "ריצה למרחקים ארוכים",
+			"description": "טכניקת ריצה שבה השתמשו הנינג'ה כדי להעביר הודעות למרחקים ארוכים."
+		},
+		{
+			"title": "chūnin",
+			"sort": "Chunin",
+			"japanese": "中忍",
+			"translation": "נינג'ה ביניים",
+			"description": "הדרגה האמצעית של הנינג'ה, החוליה המקשרת בין מנהיג השבט (ג'ונין) לבין הסוכנים בשטח (גנין). מאחר שהצ'ונין יצרו בדרך כלל את הקשר עם הלקוח, כוחם היה בהערכת אנשים ובהתחפשות."
+		},
+		{
+			"title": "dai",
+			"sort": "Dai",
+			"japanese": "大",
+			"translation": "גדול"
+		},
+		{
+			"title": "daikongō-in",
+			"sort": "Daikongo-in",
+			"japanese": "大金剛輪印",
+			"translation": "סימן היהלום הגדול",
+			"description": "סימן היד של פיו בקוג'י־אין."
+		},
+		{
+			"title": "daimyō",
+			"sort": "Daimyo",
+			"japanese": "大名",
+			"translation": "שם גדול",
+			"description": "בעלי האדמות הגדולים שעלו לגדולה ונאבקו על השלטון ביפן בתקופת סנגוקו."
+		},
+		{
+			"title": "daisharin",
+			"sort": "Daisharin",
+			"japanese": "大車輪",
+			"translation": "גלגל עגלה גדול",
+			"description": "נשק נינג'ה העשוי מציר ומשני גלגלים גדולים, שגולגל אל רגלי היריב."
+		},
+		{
+			"title": "daishō",
+			"sort": "Daisho",
+			"japanese": "大小",
+			"translation": "גדול וקטן",
+			"description": "זוג החרבות של הסמוראים, הקטאנה והוואקיזאשי."
+		},
+		{
+			"title": "daitō",
+			"sort": "Daito",
+			"japanese": "大刀",
+			"translation": "חרב גדולה",
+			"description": "כינוי לחרב הארוכה של הסמוראים, בניגוד לחרב הקצרה."
+		},
+		{
+			"title": "daken taijutsu",
+			"sort": "Daken taijutsu",
+			"japanese": "打拳体術",
+			"translation": "אמנות ההכאה בגוף באגרוף",
+			"description": "טכניקות לחימה מתוך טאיג'וטסו: בעיטות, אגרופים וחסימות. הן מתחלקות לקופו ג'וטסו ולקושי ג'וטסו."
+		},
+		{
+			"title": "dan",
+			"sort": "Dan",
+			"japanese": "段",
+			"translation": "דרגה, רמה",
+			"description": "כינוי לדרגות המאסטר."
+		},
+		{
+			"title": "Dao",
+			"sort": "Dao",
+			"chinese": "道",
+			"translation": "הדרך",
+			"description": "בטאואיזם, המציאות והכוח העליונים של היקום, היסוד של היש ושל האין. אי אפשר להגדיר אותו במילים."
+		},
+		{
+			"title": "Daodejing",
+			"sort": "Daodejing",
+			"chinese": "道徳経",
+			"description": "טקסט היסוד של הטאואיזם, שלפי המסורת נכתב בידי לאו דזה."
+		},
+		{
+			"title": "Dengyō Daishi",
+			"sort": "Dengyo Daishi",
+			"japanese": "伝教大師",
+			"description": "מייסד כת טנדאי היפנית של הבודהיזם ומייסד מנזר אנריאקוג'י, הידוע גם בשם סאיצ'ו."
+		},
+		{
+			"title": "densho",
+			"sort": "Densho",
+			"japanese": "伝書",
+			"translation": "כתבים שנמסרו",
+			"description": "מסמכים סודיים של ריו, שבהם מתועדים הטכניקות והכללים שלו."
+		},
+		{
+			"title": "do",
+			"sort": "Do",
+			"japanese": "土",
+			"translation": "אדמה, קרקע"
+		},
+		{
+			"title": "dō",
+			"sort": "Do",
+			"japanese": "道",
+			"translation": "דרך, שביל, עיקרון",
+			"description": "כינוי להשקפת העולם האסייתית."
+		},
+		{
+			"title": "dō no hi",
+			"sort": "Do no hi",
+			"japanese": "銅の火",
+			"translation": "אש נחושת",
+			"description": "שם נוסף למחמם הכיס דוקה."
+		},
+		{
+			"title": "dōjō",
+			"sort": "Dojo",
+			"japanese": "道場",
+			"translation": "אולם אימונים"
+		},
+		{
+			"title": "dōka",
+			"sort": "Doka",
+			"japanese": "胴火",
+			"translation": "אש הגוף",
+			"description": "מחמם כיס, תנור קטן שהנינג'ה הניח בו גחלת עוממת. נקרא גם דו נו הי."
+		},
+		{
+			"title": "dokko-in",
+			"sort": "Dokko-in",
+			"japanese": "独鈷印",
+			"translation": "סימן ברק הוג'רה הטיבטי",
+			"description": "סימן היד של רין בקוג'י־אין."
+		},
+		{
+			"title": "doko no kamae",
+			"sort": "Doko no kamae",
+			"japanese": "怒虎の構え",
+			"translation": "נמר זועם",
+			"description": "עמידה (קאמאה) בנינג'יטסו."
+		},
+		{
+			"title": "dōkyō",
+			"sort": "Dokyo",
+			"japanese": "道教",
+			"translation": "טאואיזם",
+			"description": "תורה ודת מסין; את האסכולה הפילוסופית מכנים ביפנית ביתר דיוק דוקה (道家). היא מלמדת פנייה אל הטבע והבנה של היקום."
+		},
+		{
+			"title": "dosha",
+			"sort": "Dosha",
+			"japanese": "怒者",
+			"translation": "אדם כועס",
+			"description": "עיקרון בגוג'ו גויוקו שמנצל את רגזנותו של אדם."
+		},
+		{
+			"title": "doteki",
+			"sort": "Doteki",
+			"japanese": "動的",
+			"translation": "דינמי",
+			"description": "הדינמיקה, היישום היעיל ביותר של המכניקה (קיקאיגאקו). היא כוללת שימוש נכון באנרגיה, קצב וזרימה, כוח וגמישות, ואת היכולת לחוש פעולה ולהסתגל אליה."
+		},
+		{
+			"title": "doton",
+			"sort": "Doton",
+			"japanese": "土遁",
+			"description": "בריחה בעזרת האדמה, אחת מחמש השיטות של גוטונפו."
+		},
+		{
+			"title": "doton jutsu",
+			"sort": "Doton jutsu",
+			"japanese": "土遁術",
+			"translation": "אמנות הבריחה בעזרת האדמה",
+			"description": "טכניקת בריחה מתוך גוטונפו, שמשתמשת באדמה כאמצעי מילוט."
+		},
+		{
+			"title": "ebira",
+			"sort": "Ebira",
+			"japanese": "箙",
+			"translation": "אשפת חצים"
+		},
+		{
+			"title": "Edo",
+			"sort": "Edo",
+			"japanese": "江戸",
+			"description": "שמה הקודם של בירת יפן, היום טוקיו."
+		},
+		{
+			"title": "eiku",
+			"sort": "Eiku",
+			"japanese": "櫂",
+			"description": "משוט סירה ששימש כנשק בקובודו של אוקינאווה. נינג'ה שהתחפש לדייג יכול היה להתגונן בו היטב."
+		},
+		{
+			"title": "eki",
+			"sort": "Eki",
+			"japanese": "易",
+			"translation": "אורקל",
+			"description": "שואלים אותו בעזרת מטבעות או גבעולי אכילאה, כמו בספר הסיני <cite>\"אי צ'ינג\"</cite>."
+		},
+		{
+			"title": "endoku ken",
+			"sort": "Endoku ken",
+			"japanese": "煙毒剣",
+			"translation": "להב עשן ורעל",
+			"description": "כוכב הטלה (שוריקן) שאפשר היה להצית, ואז פלט גזים רעילים."
+		},
+		{
+			"title": "engetsu",
+			"sort": "Engetsu",
+			"japanese": "偃月",
+			"translation": "סהר",
+			"description": "מערך קרב של בוריאקו."
+		},
+		{
+			"title": "ennyū no jutsu",
+			"sort": "Ennyu no jutsu",
+			"translation": "התקפת דמה",
+			"description": "חוליה מבצעת הסתערות דמה. בזמן שהמגינים ממהרים לבלום אותה, הנינג'ה מתגנב אל המבצר בלי הפרעה."
+		},
+		{
+			"title": "Enryakuji",
+			"sort": "Enryakuji",
+			"japanese": "延暦寺",
+			"description": "המנזר הראשי של כת טנדאי על הר היאיי ליד קיוטו, שנוסד ביוזמת הטנו קאנמו כמרכז של בודהיזם טנדאי. בשיאו חיו על ההר, כך מסופר, עד 40,000 נזירים וסוהיי ב־3,000 מקדשים. בספטמבר 1571 החריב אודה נובונאגה את המנזר במסע המלחמה שלו נגד האיקו איקי, הנינג'ה והסוהיי, והרג את רוב יושביו."
+		},
+		{
+			"title": "fū",
+			"sort": "Fu",
+			"japanese": "風",
+			"translation": "רוח"
+		},
+		{
+			"title": "fū no kata",
+			"sort": "Fu no kata",
+			"japanese": "風の型",
+			"translation": "צורת הרוח"
+		},
+		{
+			"title": "fudō ken",
+			"sort": "Fudo ken",
+			"japanese": "不動拳",
+			"translation": "אגרוף בלתי נע",
+			"description": "דרך לקפוץ אגרוף שמצויה באמנויות לחימה רבות: האגרוף <q>הרגיל</q>."
+		},
+		{
+			"title": "fudōmyō",
+			"sort": "Fudomyo",
+			"japanese": "不動明王",
+			"description": "פודו מיואו, המגן המיתי האימתני של הרצון, של החוקים ושל שלמות היקום. בקוג'י־קירי הנינג'ה מחקה את חרבו הלוהטת."
+		},
+		{
+			"title": "fudōshin",
+			"sort": "Fudoshin",
+			"japanese": "不動心",
+			"translation": "לב בלתי נע",
+			"description": "תודעה רגועה ובלתי מעורערת."
+		},
+		{
+			"title": "fudōza no kamae",
+			"sort": "Fudoza no kamae",
+			"japanese": "不動座の構え",
+			"translation": "מושב בלתי נע",
+			"description": "תנוחת ישיבה ביפן, וגם עמידה (קאמאה) בנינג'יטסו."
+		},
+		{
+			"title": "Fujibayashi Nagato",
+			"sort": "Fujibayashi Nagato",
+			"japanese": "藤林長門",
+			"description": "ג'ונין מפורסם מאזור איגה. לפי תאוריה נפוצה, לא יותר מזהות בדויה של מומוצ'י סאנדאיו."
+		},
+		{
+			"title": "Fujita Seiko",
+			"sort": "Fujita Seiko",
+			"japanese": "藤田西湖",
+			"description": "רב־אמן של נינג'יטסו שכינה את עצמו הראש ה־14 והאחרון של הקוגה ריו; הוא לא מינה יורש. הוא מת בטוקיו ב־4 בינואר 1966."
+		},
+		{
+			"title": "fukibari",
+			"sort": "Fukibari",
+			"japanese": "吹き針",
+			"translation": "נשיפת מחטים",
+			"description": "טכניקת לחימה של הנינג'ה: נשיפת מחטי מתכת קטנות (פוקומי בארי) אל פני התוקף."
+		},
+		{
+			"title": "fukiya",
+			"sort": "Fukiya",
+			"japanese": "吹き矢",
+			"translation": "צינור נשיפה וחץ",
+			"description": "החיצים היו בדרך כלל מורעלים."
+		},
+		{
+			"title": "fukumi bari",
+			"sort": "Fukumi bari",
+			"japanese": "含み針",
+			"translation": "חצים קטנים",
+			"description": "מחטי מתכת קטנות שנושפים בפוקיבארי."
+		},
+		{
+			"title": "fukuro gaeshi jutsu",
+			"sort": "Fukuro gaeshi jutsu",
+			"japanese": "袋返術",
+			"translation": "השק ההפוך",
+			"description": "טקטיקה של טואירי. אחרי מה שנראה כמריבה, הנינג'ה עובר צד ומשרת אדון חדש זמן מה. כשהמלחמה מגיעה לשלב מכריע, הוא מבצע את משימתו וחוזר אל אדונו הקודם."
+		},
+		{
+			"title": "fukuro gaeshi zen jutsu",
+			"sort": "Fukuro gaeshi zen jutsu",
+			"japanese": "袋翻全術",
+			"description": "טקטיקה של צ'יקאירי. הנינג'ה מיירט הודעות בין אדון האויב לבין בעלי בריתו, מזייף אותן ושולח אותן הלאה כדי לזרוע ביניהם חשדנות."
+		},
+		{
+			"title": "Fūma Kotarō",
+			"sort": "Fuma Kotaro",
+			"japanese": "風魔小太郎",
+			"description": "נינג'ה מפורסם בדרגת ג'ונין, שלפי המסורת עמדו לרשותו 200 אנשים, מומחה ללוחמת גרילה."
+		},
+		{
+			"title": "furyō",
+			"sort": "Furyo",
+			"japanese": "不良",
+			"translation": "צעירים עבריינים",
+			"description": "בטלנים, בריונים צעירים."
+		},
+		{
+			"title": "futokoro teppō",
+			"sort": "Futokoro teppo",
+			"japanese": "懐鉄砲",
+			"translation": "אקדח כיס",
+			"description": "אקדח ברונזה שהיה קל להסתיר ואהוב על הנינג'ה."
+		},
+		{
+			"title": "gandō",
+			"sort": "Gando",
+			"japanese": "龕灯",
+			"translation": "נר מזבח בודהיסטי",
+			"description": "פנס שמקור האור שלו נשאר תמיד זקוף."
+		},
+		{
+			"title": "gankō",
+			"sort": "Ganko",
+			"japanese": "雁行",
+			"translation": "מעוף אווזי הבר",
+			"description": "מערך קרב של בוריאקו."
+		},
+		{
+			"title": "gasshō no kamae",
+			"sort": "Gassho no kamae",
+			"japanese": "合掌の構え",
+			"translation": "עמידת תפילה",
+			"description": "עמידה (קאמאה) בנינג'יטסו, ברכה בכפות ידיים צמודות זו לזו."
+		},
+		{
+			"title": "gebaku ken-in",
+			"sort": "Gebaku ken-in",
+			"japanese": "外縛拳印",
+			"translation": "סימן האגרוף הקשור מבחוץ",
+			"description": "סימן היד של קאי בקוג'י־אין, אותו סימן שמשמש בתפילה."
+		},
+		{
+			"title": "gedan no kamae",
+			"sort": "Gedan no kamae",
+			"japanese": "下段の構え",
+			"description": "עמידה נמוכה (קאמאה)."
+		},
+		{
+			"title": "geinyū jutsu",
+			"sort": "Geinyu jutsu",
+			"japanese": "迎入術",
+			"description": "טקטיקה של צ'יקאירי. הנינג'ה חודר לשטח האויב כדי לזרוע בלבול, פחד ואימה, למשל בשמועות כוזבות, בהצתות ובחבלה."
+		},
+		{
+			"title": "gekkenjutsu",
+			"sort": "Gekkenjutsu",
+			"japanese": "撃剣術",
+			"description": "לחימה בחרב. מופיע בבוגיי ג'והאפאן לצד קנג'וטסו."
+		},
+		{
+			"title": "genin",
+			"sort": "Genin",
+			"japanese": "下忍",
+			"translation": "נינג'ה תחתון",
+			"description": "הדרגה הנמוכה ביותר של הנינג'ה. הסוכנים האלה בשטח קיבלו את פקודותיהם מהצ'ונין, ובדרך כלל לא הכירו את הג'ונין. כוחם היה בקרב מגע, בהסתתרות, בחדירה ובחבלה."
+		},
+		{
+			"title": "Genji",
+			"sort": "Genji",
+			"japanese": "源氏",
+			"description": "שם נוסף לשבט מינאמוטו."
+		},
+		{
+			"title": "genjutsu",
+			"sort": "Genjutsu",
+			"japanese": "幻術",
+			"translation": "אמנות האשליה"
+		},
+		{
+			"title": "genmai",
+			"sort": "Genmai",
+			"japanese": "玄米",
+			"description": "אורז לא מלוטש."
+		},
+		{
+			"title": "Genpei kassen",
+			"sort": "Genpei kassen",
+			"japanese": "源平合戦",
+			"description": "מלחמת גנפיי (1180–1185) בין שבט טאירה לשבט מינאמוטו."
+		},
+		{
+			"title": "geri",
+			"sort": "Geri",
+			"japanese": "蹴り",
+			"translation": "בעיטה",
+			"description": "נקרא גם קרי."
+		},
+		{
+			"title": "geta",
+			"sort": "Geta",
+			"japanese": "下駄",
+			"description": "סנדלי עץ המוגבהים על תמוכות גבוהות, עם רצועה מוצלבת או רצועת אצבע."
+		},
+		{
+			"title": "gi",
+			"sort": "Gi",
+			"japanese": "着",
+			"translation": "ביגוד, תלבושת, מדים",
+			"description": "בגדי אימון."
+		},
+		{
+			"title": "Gikan-Ryū",
+			"sort": "Gikan-Ryu",
+			"japanese": "義鑑流",
+			"translation": "אסכולת לימוד הצדק",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "gisō jutsu",
+			"sort": "Giso jutsu",
+			"japanese": "擬装術",
+			"translation": "אמנות החיקוי וההתחפשות",
+			"description": "האמנות להיכנס לנעליו של אדם אחר ולאמץ זהות חדשה. חלק מאונשין ג'וטסו."
+		},
+		{
+			"title": "godai",
+			"sort": "Godai",
+			"japanese": "五大",
+			"translation": "חמשת הגדולים",
+			"description": "חמשת יסודות היקום במיקיו: אדמה (צ'י), מים (סואי), אש (קה), רוח (פו) וריק (קו)."
+		},
+		{
+			"title": "godan",
+			"sort": "Godan",
+			"japanese": "五段",
+			"translation": "דאן חמישי",
+			"description": "במבחן לגודאן בבוג'ינקאן ניגש המורה אל התלמיד בשקט עם חרב. התלמיד צריך לחוש בסכנה ולהתחמק מהמכה."
+		},
+		{
+			"title": "gogyō",
+			"sort": "Gogyo",
+			"japanese": "五行",
+			"translation": "תורת חמשת היסודות",
+			"description": "השקפה על הטבע שאומצה מהטאואיזם הסיני: מים (סואי), עץ (מוקו), אש (קה), אדמה (דו) ומתכת (קין)."
+		},
+		{
+			"title": "gogyō no kata",
+			"sort": "Gogyo no kata",
+			"japanese": "五行の型",
+			"translation": "צורת חמש התנועות"
+		},
+		{
+			"title": "gogyō setsu",
+			"sort": "Gogyo setsu",
+			"japanese": "五行説",
+			"translation": "תורת חמשת היסודות",
+			"description": "בקיצור: גוגיו."
+		},
+		{
+			"title": "gojō goyoku",
+			"sort": "Gojo goyoku",
+			"japanese": "五情五欲",
+			"description": "אסטרטגיה של הנינג'ה להכוונת אנשים דרך תכונות האופי שלהם. חמשת עקרונותיה הם אישה, דושה, קישה, קיושה וראקושה."
+		},
+		{
+			"title": "goku no kamae",
+			"sort": "Goku no kamae",
+			"description": "עמידה (קאמאה) בנינג'יטסו."
+		},
+		{
+			"title": "Gorin no sho",
+			"sort": "Gorin no sho",
+			"japanese": "五輪の書",
+			"translation": "ספר חמש הטבעות",
+			"description": "יצירתו של מייאמוטו מוסאשי על אמנות החרב ועל אסטרטגיה."
+		},
+		{
+			"title": "gorintō",
+			"sort": "Gorinto",
+			"japanese": "五輪塔",
+			"description": "אנדרטת אבן מחמישה חלקים המונחים זה על גבי זה – קובייה, כדור, פירמידה, חצי ירח ותכשיט."
+		},
+		{
+			"title": "goshin no kata",
+			"sort": "Goshin no kata",
+			"japanese": "梧心の型",
+			"translation": "צורת הלב של עץ הפניקס"
+		},
+		{
+			"title": "goton jutsu",
+			"sort": "Goton jutsu",
+			"japanese": "五遁術",
+			"translation": "אמנות חמש הבריחות",
+			"description": "שם נוסף לגוטונפו."
+		},
+		{
+			"title": "gotonpō",
+			"sort": "Gotonpo",
+			"japanese": "五遁法",
+			"translation": "חמש שיטות הבריחה",
+			"description": "העיקרון של הנינג'ה להימלט בעזרת חמשת היסודות של גוגיו."
+		},
+		{
+			"title": "gu",
+			"sort": "Gu",
+			"japanese": "具",
+			"translation": "כלי"
+		},
+		{
+			"title": "gunryaku heihō",
+			"sort": "Gunryaku heiho",
+			"description": "אסטרטגיה צבאית. אחד מ־18 התחומים של נינג'ה ג'והאקיי."
+		},
+		{
+			"title": "gyaku nagare",
+			"sort": "Gyaku nagare",
+			"japanese": "逆流れ",
+			"translation": "זרימה הפוכה",
+			"description": "נפילה (אוקמי) מתוך איצ'ימונג'י נו קאמאה."
+		},
+		{
+			"title": "gyaku nage",
+			"sort": "Gyaku nage",
+			"japanese": "逆投げ",
+			"translation": "הטלה הפוכה",
+			"description": "הטלה עם נעילת מפרק."
+		},
+		{
+			"title": "gyōja no kamae",
+			"sort": "Gyoja no kamae",
+			"japanese": "行者の構え",
+			"translation": "עמידת הסגפן",
+			"description": "עמידה (קאמאה) שבה מחזיקים מטה ארוך זקוף לצד הגוף, כמו מקל הליכה."
+		},
+		{
+			"title": "gyōkaku ken",
+			"sort": "Gyokaku ken",
+			"translation": "קרניים מאוחדות",
+			"description": "האצבע המורה, האמה והקמיצה יוצרות קלשון שקצותיו ננעצים באזורים רכים בגוף, כמו הצוואר."
+		},
+		{
+			"title": "Gyokko-Ryū",
+			"sort": "Gyokko-Ryu",
+			"japanese": "玉虎流",
+			"translation": "אסכולת הנמר המשובץ אבני חן",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "gyokuro",
+			"sort": "Gyokuro",
+			"japanese": "玉露",
+			"description": "תה ירוק משובח. מסופר שהנינג'ה הכינו ממנו רעל: הם קברו את התה באדמה 30 עד 40 יום ואז ערבבו אותו במשחת פולי סויה. חולה מת ממנו בתוך ימים ספורים, ובריא לכל המאוחר אחרי 70 יום."
+		},
+		{
+			"title": "Gyokushin-Ryū",
+			"sort": "Gyokushin-Ryu",
+			"japanese": "玉心流",
+			"translation": "אסכולת הלב המשובץ אבני חן",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "gyorin",
+			"sort": "Gyorin",
+			"japanese": "魚鱗",
+			"translation": "קשקש דג",
+			"description": "מערך קרב של בוריאקו."
+		},
+		{
+			"title": "ha jutsu",
+			"sort": "Ha jutsu",
+			"japanese": "破術",
+			"translation": "אמנות השבירה",
+			"description": "השתחררות מאחיזות."
+		},
+		{
+			"title": "Hagakure",
+			"sort": "Hagakure",
+			"japanese": "葉隠",
+			"translation": "עלים נסתרים",
+			"description": "ספר מאת הסמוראי יאמאמוטו צונטומו על הצד הפילוסופי של הבושידו."
+		},
+		{
+			"title": "hakama",
+			"sort": "Hakama",
+			"japanese": "袴",
+			"description": "מכנסי־חצאית מסורתיים."
+		},
+		{
+			"title": "han",
+			"sort": "Han",
+			"japanese": "藩",
+			"translation": "תחום פאודלי, אחוזה פאודלית, מחוז",
+			"description": "האחוזה הפאודלית של דאימיו."
+		},
+		{
+			"title": "hanbō",
+			"sort": "Hanbo",
+			"japanese": "半棒",
+			"translation": "חצי מקל",
+			"description": "שמו הנכון הוא סאן שאקו בו."
+		},
+		{
+			"title": "hanbōjutsu",
+			"sort": "Hanbojutsu",
+			"japanese": "半棒術",
+			"description": "לחימה במקל הקצר (האנבו)."
+		},
+		{
+			"title": "hankyū",
+			"sort": "Hankyu",
+			"japanese": "半弓",
+			"translation": "חצי קשת",
+			"description": "קשת קצרה של הנינג'ה, לעיתים מתקפלת וקלה לנשיאה."
+		},
+		{
+			"title": "hanmi no kamae",
+			"sort": "Hanmi no kamae",
+			"japanese": "半身の構え",
+			"translation": "חצי גוף",
+			"description": "עמידה (קאמאה) בנינג'יטסו."
+		},
+		{
+			"title": "happa ken",
+			"sort": "Happa ken",
+			"japanese": "八葉拳",
+			"translation": "אגרוף שמונת העלים"
+		},
+		{
+			"title": "happō hiken",
+			"sort": "Happo hiken",
+			"japanese": "八法秘剣",
+			"translation": "שמונה שיטות וחרבות סודיות",
+			"description": "שמונה השיטות (האפו) וטכניקות החרב הסודיות (היקן) של הקוקישינדן ריו."
+		},
+		{
+			"title": "happō hikenjutsu",
+			"sort": "Happo hikenjutsu",
+			"japanese": "八法秘剣術",
+			"description": "ראו האפו היקן."
+		},
+		{
+			"title": "hara",
+			"sort": "Hara",
+			"japanese": "腹",
+			"translation": "בטן",
+			"description": "כל האזור שבין הקיבה לבטן התחתונה, שנחשב למרכז הכוח הנפשי והגופני."
+		},
+		{
+			"title": "hasami bune",
+			"sort": "Hasami bune",
+			"description": "סירה מתקפלת של הנינג'ה, ששימשה להעברת ציוד על פני מים. הספר <cite>\"באנסנשוקאי\"</cite> מתאר סירה מתקפלת כזאת בשם האסאמיבאקו בונה (挟箱船): הקרשים שלה חוברו בצירים, ומקופלת היא נכנסה לתיבת נשיאה. נקראת גם טטאמי בונה."
+		},
+		{
+			"title": "hashigo",
+			"sort": "Hashigo",
+			"japanese": "梯子",
+			"translation": "סולם",
+			"description": "עשוי בדרך כלל מקנים או מבמבוק. בצירופים: באשיגו, כמו בקומו באשיגו."
+		},
+		{
+			"title": "hashigo yari",
+			"sort": "Hashigo yari",
+			"japanese": "梯子槍",
+			"translation": "חנית סולם",
+			"description": "מוט ארוך עם יתדות שבולטות בזוגות ועם וו ברזל בראשו, ששימש כסולם."
+		},
+		{
+			"title": "Hatsumi Masaaki",
+			"sort": "Hatsumi Masaaki",
+			"japanese": "初見良昭",
+			"description": "נולד בשם האצומי יושיאקי. מייסד הבוג'ינקאן בודו דוג'ו, סוקה של תשעת הריו של הבוג'ינקאן ותלמידו של טאקאמאצו טושיצוגו."
+		},
+		{
+			"title": "Hattori Hanzō",
+			"sort": "Hattori Hanzo",
+			"japanese": "服部半蔵",
+			"description": "ג'ונין מפורסם מאזור איגה, שהיה גם סמוראי בשירותו של טוקוגאווה איאיאסו."
+		},
+		{
+			"title": "Hayes, Stephen K.",
+			"sort": "Hayes, Stephen K.",
+			"description": "מורה לנינג'יטסו ותלמידו של האצומי מאסאקי. הוא היה הלא־יפני הראשון שהפך לשידושי. בארצות הברית ייסד את אסכולת טושינדו."
+		},
+		{
+			"title": "heihō",
+			"sort": "Heiho",
+			"japanese": "兵法",
+			"translation": "שיטת הלוחם",
+			"description": "כוללת שיטות לחימה וגם אסטרטגיות לחימה (בוריאקו)."
+		},
+		{
+			"title": "Heike",
+			"sort": "Heike",
+			"japanese": "平家",
+			"description": "שם נוסף לשבט טאירה."
+		},
+		{
+			"title": "heipo",
+			"sort": "Heipo",
+			"japanese": "平歩",
+			"translation": "דרך הסלמנדרה",
+			"description": "שיטת זחילה של הנינג'ה."
+		},
+		{
+			"title": "hensō jutsu",
+			"sort": "Henso jutsu",
+			"japanese": "変装術",
+			"translation": "אמנות ההתחפשות",
+			"description": "אמנות ההתחפשות של הנינג'ה. חלק מאונשין ג'וטסו."
+		},
+		{
+			"title": "hichō no kamae",
+			"sort": "Hicho no kamae",
+			"japanese": "飛鳥の構え",
+			"translation": "עמידת הציפור המעופפת",
+			"description": "עמידה (קאמאה) בנינג'יטסו."
+		},
+		{
+			"title": "hidari",
+			"sort": "Hidari",
+			"japanese": "左",
+			"translation": "שמאל"
+		},
+		{
+			"title": "hiken",
+			"sort": "Hiken",
+			"japanese": "秘剣",
+			"translation": "טכניקות חרב סודיות"
+		},
+		{
+			"title": "hira ichimonji no kamae",
+			"sort": "Hira ichimonji no kamae",
+			"japanese": "平一文字の構え",
+			"description": "עמידה (קאמאה) מאוזנת שממנה הגוף יכול להתחמק. המשקל מתחלק שווה בשתי הרגליים, ושתי הזרועות מתוחות לצדדים כדי לטאטא, לתפוס או לבלום מכות."
+		},
+		{
+			"title": "hira no kamae",
+			"sort": "Hira no kamae",
+			"japanese": "平の構え",
+			"translation": "עמידה שטוחה",
+			"description": "עמידה (קאמאה) בנינג'יטסו."
+		},
+		{
+			"title": "hira shuriken",
+			"sort": "Hira shuriken",
+			"japanese": "平手裏剣",
+			"description": "כוכבי הטלה שטוחים (שוריקן) בגדלים ובצורות שונים, עם מספר משתנה של חודים."
+		},
+		{
+			"title": "hiragana",
+			"sort": "Hiragana",
+			"japanese": "平仮名",
+			"description": "כתב הברות יפני המשמש למילים יפניות טהורות. לפי המסורת המציא אותו קובו דאישי."
+		},
+		{
+			"title": "hiraki ashi",
+			"sort": "Hiraki ashi",
+			"japanese": "開き足",
+			"description": "החלקה הצידה בשתי הרגליים."
+		},
+		{
+			"title": "hishi",
+			"sort": "Hishi",
+			"japanese": "菱",
+			"translation": "Trapa japonica, ערמון מים, דרדר",
+			"description": "ערמוני מים מיובשים ששימשו לאותה מטרה כמו טצובישי."
+		},
+		{
+			"title": "hisoken",
+			"sort": "Hisoken",
+			"translation": "חנית נסתרת",
+			"description": "שם נוסף לשיטו קן, שבו קצה האגודל ננעץ במטרות רכות למחצה."
+		},
+		{
+			"title": "hito washi",
+			"sort": "Hito washi",
+			"japanese": "人鷲",
+			"translation": "אדם־נשר",
+			"description": "מתקן תעופה של הנינג'ה. נקרא גם יאמידוקו."
+		},
+		{
+			"title": "hobakujutsu",
+			"sort": "Hobakujutsu",
+			"japanese": "捕縛術",
+			"description": "אמנות הכבילה. מופיעה בבוגיי ג'והאפאן לצד הוג'ו ג'וטסו."
+		},
+		{
+			"title": "hōen",
+			"sort": "Hoen",
+			"japanese": "方円",
+			"translation": "ריבוע ועיגול",
+			"description": "מערך קרב של בוריאקו."
+		},
+		{
+			"title": "Hōjō",
+			"sort": "Hojo",
+			"japanese": "北条",
+			"description": "שבט של סמוראים שעלו לגדולה, אחת המשפחות שנאבקו על השליטה בתקופת סנגוקו."
+		},
+		{
+			"title": "hōjō jutsu",
+			"sort": "Hojo jutsu",
+			"japanese": "捕縄術",
+			"translation": "אמנות הכבילה"
+		},
+		{
+			"title": "hojutsu",
+			"sort": "Hojutsu",
+			"description": "השיטה של מעבר בין אמת להטעיה, שהאצומי מאסאקי משווה לקיוג'יצו טנקאן הו. בבוגיי ג'והאפאן היא מייצגת אשליות."
+		},
+		{
+			"title": "hokamuri",
+			"sort": "Hokamuri",
+			"japanese": "頬被り",
+			"description": "בד שנקשר על הראש ועל הלחיים. שם נוסף לטנוגואי."
+		},
+		{
+			"title": "hōkashi",
+			"sort": "Hokashi",
+			"description": "מוזיקאי. אחת מתחפושות הנינג'ה בשיצ'י הו דה."
+		},
+		{
+			"title": "hōken jūroppō",
+			"sort": "Hoken juroppo",
+			"japanese": "宝拳十六法",
+			"translation": "שש־עשרה שיטות האגרוף היקר"
+		},
+		{
+			"title": "Hokkaidō",
+			"sort": "Hokkaido",
+			"japanese": "北海道",
+			"description": "האי הצפוני ביותר של יפן, ובירתו סאפורו."
+		},
+		{
+			"title": "hokō jutsu",
+			"sort": "Hoko jutsu",
+			"japanese": "歩行術",
+			"translation": "אמנות ההליכה הנכונה"
+		},
+		{
+			"title": "hōko no kamae",
+			"sort": "Hoko no kamae",
+			"japanese": "抱圍の構え",
+			"translation": "עמידה מחבקת",
+			"description": "עמידה (קאמאה) בנינג'יטסו."
+		},
+		{
+			"title": "honbu",
+			"sort": "Honbu",
+			"japanese": "本部",
+			"translation": "מטה"
+		},
+		{
+			"title": "hōshi",
+			"sort": "Hoshi",
+			"japanese": "鋒矢",
+			"translation": "ראש חץ",
+			"description": "מערך קרב של בוריאקו."
+		},
+		{
+			"title": "hotarubi jutsu",
+			"sort": "Hotarubi jutsu",
+			"japanese": "蛍火術",
+			"translation": "זוהר הגחלילית",
+			"description": "טקטיקה של טואירי. שולחים שליח עם הודעה מזויפת דרך שטח האויב ומניחים לאויב ליירט אותו."
+		},
+		{
+			"title": "hyōjō hokō",
+			"sort": "Hyojo hoko",
+			"japanese": "氷上歩行",
+			"translation": "הליכה על קרח"
+		},
+		{
+			"title": "iai jutsu",
+			"sort": "Iai jutsu",
+			"japanese": "居合術",
+			"translation": "שליפת חרב מהירה",
+			"description": "אמנות הסמוראי להרוג יריב, אם אפשר, כבר במכה הראשונה."
+		},
+		{
+			"title": "iaidō",
+			"sort": "Iaido",
+			"japanese": "居合道",
+			"description": "ענף ספורט שהתפתח מאיאי ג'וטסו."
+		},
+		{
+			"title": "iainuki",
+			"sort": "Iainuki",
+			"japanese": "居合抜き",
+			"translation": "שליפה מהירה של החרב",
+			"description": "שליפת החרב המהירה, שבה מתמחה שינדן פודו ריו."
+		},
+		{
+			"title": "ichi no kamae",
+			"sort": "Ichi no kamae",
+			"japanese": "一の構え",
+			"translation": "עמידת האחד",
+			"description": "עמידה (קאמאה) מהנינג'יטסו."
+		},
+		{
+			"title": "ichimonji no kamae",
+			"sort": "Ichimonji no kamae",
+			"japanese": "一文字の構え",
+			"translation": "עמידת הקו הישר",
+			"description": "עמידה (קאמאה) מהנינג'יטסו."
+		},
+		{
+			"title": "Iga",
+			"sort": "Iga",
+			"japanese": "伊賀",
+			"description": "מחוז ביפן סמוך לקיוטו, שבו הנינג'ה היו פעילים במיוחד."
+		},
+		{
+			"title": "Iga Ueno",
+			"sort": "Iga Ueno",
+			"japanese": "伊賀上野",
+			"description": "עיר באזור איגה, בעבר מרכז הנינג'ה. כיום מוזיאונים ופסטיבלים מנציחים אותם."
+		},
+		{
+			"title": "Iga Ueno-jō",
+			"sort": "Iga Ueno-jo",
+			"japanese": "伊賀上野城",
+			"description": "טירת איגה אואנו."
+		},
+		{
+			"title": "iga dama",
+			"sort": "Iga dama",
+			"japanese": "伊賀玉",
+			"description": "דרדר, ראו טצובישי."
+		},
+		{
+			"title": "Iga-Ryū",
+			"sort": "Iga-Ryu",
+			"japanese": "伊賀流",
+			"description": "סגנון נינג'יטסו, שהוא כיום קומוגאקורה ריו."
+		},
+		{
+			"title": "Igasaki Dōjun",
+			"sort": "Igasaki Dojun",
+			"japanese": "伊賀崎道順",
+			"description": "נינג'ה מפורסם ממחוז איגה, שחדר לטירת אויב בעזרת תחבולה מפתיעה."
+		},
+		{
+			"title": "ikki",
+			"sort": "Ikki",
+			"japanese": "一揆",
+			"translation": "מרד"
+		},
+		{
+			"title": "ikkō ikki",
+			"sort": "Ikko ikki",
+			"japanese": "一向一揆",
+			"translation": "מרד הבודהיסטים של ג'ודו שינשו",
+			"description": "מרידות ובריתות של חסידי האסכולה הבודהיסטית ג'ודו שינשו במאות ה־15 וה־16."
+		},
+		{
+			"title": "in",
+			"sort": "In",
+			"japanese": "陰",
+			"translation": "צל, שלילי, נסתר"
+		},
+		{
+			"title": "in shin ton kei",
+			"sort": "In shin ton kei",
+			"description": "עיקרון של הנינג'יטסו: להשיג את ההשפעה הגדולה ביותר במאמץ הקטן ביותר, ולשנות את מהלכם הטבעי של הדברים כמה שפחות."
+		},
+		{
+			"title": "innin",
+			"sort": "Innin",
+			"japanese": "陰忍",
+			"translation": "חדירה נסתרת",
+			"description": "שמם של הכרכים החמישי, השישי והשביעי של <cite>\"באנסנשוקאי\"</cite>. הם עוסקים באין, הצד האפל של ידע הנינג'ה: תחבולה, הטעיה ומתקפות פתע."
+		},
+		{
+			"title": "inpō",
+			"sort": "Inpo",
+			"japanese": "隠法",
+			"description": "אמנות ההסתתרות וההסוואה."
+		},
+		{
+			"title": "inrō",
+			"sort": "Inro",
+			"japanese": "印籠",
+			"translation": "נרתיק תרופות לדרכים"
+		},
+		{
+			"title": "inton",
+			"sort": "Inton",
+			"japanese": "隠遁",
+			"description": "שם אחר לאונשין ג'וטסו, אמנות ההסתתרות וההסוואה."
+		},
+		{
+			"title": "inton jutsu",
+			"sort": "Inton jutsu",
+			"japanese": "隠遁術",
+			"translation": "אמנות הנינג'ה לברוח ולהסתתר"
+		},
+		{
+			"title": "in’yō",
+			"sort": "In’yo",
+			"japanese": "陰陽",
+			"translation": "הכוחות הקוסמיים הכפולים, יין ויאנג, שמש וירח",
+			"description": "המקבילה היפנית ליין ויאנג, הסמל הטאואיסטי של הדואליות."
+		},
+		{
+			"title": "ippon sugi nobori",
+			"sort": "Ippon sugi nobori",
+			"japanese": "一本杉登り",
+			"translation": "דרך לטפס על ארז",
+			"description": "מתקן לטיפוס על עץ: פיסת ברזל עם וו, הקשורה לשני חבלים עם ידיות."
+		},
+		{
+			"title": "Ishikawa Goemon",
+			"sort": "Ishikawa Goemon",
+			"japanese": "石川五右衛門",
+			"description": "גנב מפורסם שעל פי האגדה היה נינג'ה והשתמש באמנותו כדי לגנוב, מעין <q>רובין הוד</q> יפני."
+		},
+		{
+			"title": "ito",
+			"sort": "Ito",
+			"japanese": "意図",
+			"translation": "כוונה"
+		},
+		{
+			"title": "ja",
+			"sort": "Ja",
+			"japanese": "者",
+			"translation": "אדם"
+		},
+		{
+			"title": "jari bako",
+			"sort": "Jari bako",
+			"japanese": "砂利箱",
+			"translation": "ארגז חצץ",
+			"description": "כלים מלאים באורז, בחול או בחצץ, שבהם מקשיחים את הידיים. נקראים גם קאנשו."
+		},
+		{
+			"title": "ji",
+			"sort": "Ji",
+			"japanese": "侍",
+			"description": "כינוי אחר לסמוראי."
+		},
+		{
+			"title": "jihi no kokoro",
+			"sort": "Jihi no kokoro",
+			"japanese": "慈悲の心",
+			"translation": "לב רחום",
+			"description": "סימן ההארה בנינפו, חזק מהאהבה עצמה. הוא נולד מהליכה חוזרת ונשנית על הגבול שבין חיים למוות."
+		},
+		{
+			"title": "jikatabi",
+			"sort": "Jikatabi",
+			"japanese": "地下足袋",
+			"description": "נעלי הנינג'ה עם בוהן נפרדת, המתאימות במיוחד לריצה ולטיפוס בשקט."
+		},
+		{
+			"title": "jin",
+			"sort": "Jin",
+			"japanese": "人",
+			"translation": "אדם"
+		},
+		{
+			"title": "Jin ryaku no maki",
+			"sort": "Jin ryaku no maki",
+			"japanese": "人略の巻",
+			"translation": "מגילת האסטרטגיות של האדם",
+			"description": "ספר על האסטרטגיות של האדם, חלק מסדרה יחד עם <cite>\"טן ריאקו נו מאקי\"</cite> ועם <cite>\"צ'י ריאקו נו מאקי\"</cite>."
+		},
+		{
+			"title": "jirai",
+			"sort": "Jirai",
+			"japanese": "地雷",
+			"translation": "מוקש"
+		},
+		{
+			"title": "jitte",
+			"sort": "Jitte",
+			"japanese": "十手",
+			"translation": "עשר ידיים",
+			"description": "נשק יד עם וו ללכידת מכות חרב. נקרא גם ג'וטה."
+		},
+		{
+			"title": "jō",
+			"sort": "Jo",
+			"japanese": "杖",
+			"translation": "מקל הליכה, מטה",
+			"description": "שמו המלא הוא יון שאקו בו."
+		},
+		{
+			"title": "jōei jutsu",
+			"sort": "Joei jutsu",
+			"japanese": "如影術",
+			"translation": "כמו צל",
+			"description": "טקטיקה של טואירי. זמן קצר לפני פרוץ הקרבות נכנס נינג'ה לשטח האויב, שם ההכנות הכלליות למלחמה מקלות עליו להיבלע, למשל כפועל שכיר או כחייל."
+		},
+		{
+			"title": "jōjutsu",
+			"sort": "Jojutsu",
+			"japanese": "杖術",
+			"description": "לחימה במקל ההליכה (ג'ו). חלק מבוגיי ג'והאפאן ומנינג'ה ג'והאקיי."
+		},
+		{
+			"title": "jōnin",
+			"sort": "Jonin",
+			"japanese": "上忍",
+			"translation": "נינג'ה עליון",
+			"description": "הדרגה הגבוהה ביותר של הנינג'ה: מנהיג השבט, שזהותו האמיתית הייתה ידועה בדרך כלל רק לצ'ונין. הג'ונין הטילו על הגנין את משימותיהם, וכוחם היה בפוליטיקה, באסטרטגיה ובפילוסופיה."
+		},
+		{
+			"title": "jū tai jutsu",
+			"sort": "Ju tai jutsu",
+			"japanese": "柔体術",
+			"translation": "אמנות הגוף הגמיש",
+			"description": "טכניקות אחיזה, נעילות מפרקים וחניקות מתוך הטאיג'וטסו של הנינג'יטסו."
+		},
+		{
+			"title": "jūdō",
+			"sort": "Judo",
+			"japanese": "柔道",
+			"translation": "הדרך העדינה",
+			"description": "ספורט לחימה יפני שהפרופסור קאנו ג'יגורו פיתח מתוך הג'ו־ג'יטסו ב־1882."
+		},
+		{
+			"title": "jūjutsu",
+			"sort": "Jujutsu",
+			"japanese": "柔術",
+			"translation": "אמנות הוויתור",
+			"description": "אמנות לחימה יפנית עתיקה של הסמוראי."
+		},
+		{
+			"title": "jumon",
+			"sort": "Jumon",
+			"japanese": "呪文",
+			"translation": "לחש",
+			"description": "המילה <q>הטעונה</q>, המקבילה היפנית למנטרה. היא מגלמת את השכל."
+		},
+		{
+			"title": "jūmonji no kamae",
+			"sort": "Jumonji no kamae",
+			"japanese": "十文字の構え",
+			"translation": "עמידת הצלב",
+			"description": "עמידה (קאמאה) מהנינג'יטסו."
+		},
+		{
+			"title": "jun nagare",
+			"sort": "Jun nagare",
+			"japanese": "順流れ",
+			"translation": "זרימה קדימה",
+			"description": "תרגיל נפילה (אוקמי) מתוך איצ'ימונג'י נו קאמאה."
+		},
+		{
+			"title": "jūnantaisō",
+			"sort": "Junantaiso",
+			"japanese": "柔軟体操",
+			"translation": "תרגילי גמישות",
+			"description": "תרגילים של הנינג'ה לזריזות ולגמישות."
+		},
+		{
+			"title": "jutsu",
+			"sort": "Jutsu",
+			"japanese": "術",
+			"translation": "אמנות, אמצעי, טכניקה"
+		},
+		{
+			"title": "jutte",
+			"sort": "Jutte",
+			"japanese": "十手",
+			"translation": "עשר ידיים",
+			"description": "נשק יד עם וו ללכידת מכות חרב. נקרא גם ג'יטה."
+		},
+		{
+			"title": "ka",
+			"sort": "Ka",
+			"japanese": "火",
+			"translation": "אש"
+		},
+		{
+			"title": "ka jutsu",
+			"sort": "Ka jutsu",
+			"japanese": "火術",
+			"translation": "אמנות האש",
+			"description": "השימוש באש, בכלי ירייה ובחומרי נפץ."
+		},
+		{
+			"title": "ka no kata",
+			"sort": "Ka no kata",
+			"japanese": "火の型",
+			"translation": "צורת האש"
+		},
+		{
+			"title": "kabuto",
+			"sort": "Kabuto",
+			"japanese": "兜",
+			"translation": "קסדה",
+			"description": "הקסדה של השריון היפני."
+		},
+		{
+			"title": "kagami",
+			"sort": "Kagami",
+			"japanese": "鏡",
+			"translation": "מראה"
+		},
+		{
+			"title": "kagi kōhō geri",
+			"sort": "Kagi koho geri",
+			"japanese": "鈎後方蹴り",
+			"translation": "בעיטת וו לאחור"
+		},
+		{
+			"title": "kagi nawa",
+			"sort": "Kagi nawa",
+			"japanese": "鈎縄",
+			"translation": "חבל וו",
+			"description": "חבל ארוך עם וו בקצהו."
+		},
+		{
+			"title": "kagi yari",
+			"sort": "Kagi yari",
+			"japanese": "鈎槍",
+			"translation": "חנית וו",
+			"description": "נשק של הנינג'ה, שבו הדפו מכות חרב וטיפסו על עצים. נקרא גם קאמה יארי."
+		},
+		{
+			"title": "kaiki",
+			"sort": "Kaiki",
+			"japanese": "開器",
+			"translation": "כלי פתיחה",
+			"description": "שם הכרך של <cite>\"באנסנשוקאי\"</cite> העוסק בכלים לפתיחת דלתות ומנעולים ולפריצה. כשם אחר לטנוגואי המילה אינה מתועדת."
+		},
+		{
+			"title": "kaiten",
+			"sort": "Kaiten",
+			"japanese": "回転",
+			"translation": "סיבוב, הסתובבות, גלגול"
+		},
+		{
+			"title": "kaki",
+			"sort": "Kaki",
+			"japanese": "火器",
+			"translation": "כלי אש",
+			"description": "שם הכרך האחרון של <cite>\"באנסנשוקאי\"</cite>, ובו מתכונים לחומרי נפץ, לפצצות עשן, לתרופות, לחומרי הרדמה ולרעלים."
+		},
+		{
+			"title": "kakushi kokeshi",
+			"sort": "Kakushi kokeshi",
+			"description": "בובה ובתוכה משקולת נסתרת, ששימשה כנשק."
+		},
+		{
+			"title": "kakuyoku",
+			"sort": "Kakuyoku",
+			"japanese": "鶴翼",
+			"translation": "כנף העגור",
+			"description": "מערך קרב מתוך הבוריאקו."
+		},
+		{
+			"title": "kama",
+			"sort": "Kama",
+			"japanese": "鎌",
+			"translation": "מגל",
+			"description": "כלי שבו קצרו ברחבי אסיה תבואה, אורז או קני סוכר."
+		},
+		{
+			"title": "kama ikada",
+			"sort": "Kama ikada",
+			"japanese": "蒲筏",
+			"translation": "רפסודת גומא",
+			"description": "רפסודה מגומא לאדם אחד."
+		},
+		{
+			"title": "kama yari",
+			"sort": "Kama yari",
+			"japanese": "鎌槍",
+			"translation": "חנית וו",
+			"description": "נשק של הנינג'ה, שבו הדפו מכות חרב וטיפסו על עצים. נקרא גם קאגי יארי."
+		},
+		{
+			"title": "kamae",
+			"sort": "Kamae",
+			"japanese": "構え",
+			"translation": "עמידות לחימה"
+		},
+		{
+			"title": "kami gakure no jutsu",
+			"sort": "Kami gakure no jutsu",
+			"japanese": "神隠れの術",
+			"translation": "אמנות ההסתתרות מאחורי האל",
+			"description": "התקרבות אל מטרה בדרך עקיפה. הנינג'ה מתיידד עם קרוביה או מקורביה של מטרה שמוגנת היטב מדי, וכך מגיע אליה."
+		},
+		{
+			"title": "kamikaze",
+			"sort": "Kamikaze",
+			"japanese": "神風",
+			"translation": "רוח האלים",
+			"description": "שמן של שתי סופות הטייפון שהשמידו את הצבא המונגולי בפיקודו של קובלאי חאן. במלחמת העולם השנייה נקראו קמיקזה גם הטייסים שנאלצו להתרסק במטוסיהם על ספינות ובסיסים של בעלות הברית במשימות התאבדות."
+		},
+		{
+			"title": "kamiza",
+			"sort": "Kamiza",
+			"japanese": "神座",
+			"translation": "מושב האלים",
+			"description": "המקום החשוב ביותר בדוג'ו, שבו תלויות תמונות של המאסטר הגדול ולעיתים מוצבים חפצי פולחן."
+		},
+		{
+			"title": "kana",
+			"sort": "Kana",
+			"japanese": "仮名",
+			"description": "כתבי ההברות היפניים, השם הכולל להיראגאנה ולקאטאקאנה. בכתיבה היומיומית משלבים אותם עם סימנים סיניים (קאנג'י)."
+		},
+		{
+			"title": "kangeiko",
+			"sort": "Kangeiko",
+			"japanese": "寒稽古",
+			"translation": "אימון חורף"
+		},
+		{
+			"title": "kanji",
+			"sort": "Kanji",
+			"japanese": "漢字",
+			"translation": "סימנים סיניים",
+			"description": "היפנים אימצו את הסימנים האלה, והם מרכיבים כיום את רוב הכתב שלהם."
+		},
+		{
+			"title": "kanjin kaname",
+			"sort": "Kanjin kaname",
+			"japanese": "肝心要",
+			"translation": "העיקר",
+			"description": "מה שמשיג מי שמשאיר מאחוריו את העולם החומרי וחווה את החוקים הקוסמיים. תורת טוגאקורה ריו משווה אותו לשינשין שינגאן, <q>התודעה והעיניים של האל</q>."
+		},
+		{
+			"title": "kanshu",
+			"sort": "Kanshu",
+			"japanese": "慣手",
+			"description": "כלים מלאים באורז, בחול או בחצץ, שבהם מקשיחים את הידיים. נקראים גם ג'ארי באקו."
+		},
+		{
+			"title": "kantō kusha",
+			"sort": "Kanto kusha",
+			"description": "המדריך הגבר של קונואיצ'י."
+		},
+		{
+			"title": "kanzashi",
+			"sort": "Kanzashi",
+			"japanese": "簪",
+			"translation": "סיכת שיער מעוטרת",
+			"description": "סיכת שיער מעץ או ממתכת עם שתי שיניים, כמו מזלג."
+		},
+		{
+			"title": "karate dō",
+			"sort": "Karate do",
+			"japanese": "空手道",
+			"translation": "דרך היד הריקה",
+			"description": "ספורט לחימה שנולד באוקינאווה, קבוצת איים בדרום יפן."
+		},
+		{
+			"title": "kasha",
+			"sort": "Kasha",
+			"japanese": "滑車",
+			"translation": "גלגלת",
+			"description": "גלגלת לגלישה בחבל."
+		},
+		{
+			"title": "kasugai",
+			"sort": "Kasugai",
+			"japanese": "鎹",
+			"translation": "מהדק",
+			"description": "מהדק שהנינג'ה תקעו בדלתות כדי שלא ניתן יהיה לפתוח אותן."
+		},
+		{
+			"title": "kata",
+			"sort": "Kata",
+			"japanese": "型",
+			"translation": "צורה",
+			"description": "רצף תנועות קבוע מראש."
+		},
+		{
+			"title": "kata ashi tobi geri",
+			"sort": "Kata ashi tobi geri",
+			"japanese": "片足飛び蹴り",
+			"translation": "בעיטת קפיצה ברגל אחת",
+			"description": "בעיטת קפיצה שבה רגל אחת ננעצת ביריב והברך השנייה נמשכת אל הגוף."
+		},
+		{
+			"title": "kataga hasami bune",
+			"sort": "Kataga hasami bune",
+			"description": "סירה קטנה."
+		},
+		{
+			"title": "katagatae jutsu",
+			"sort": "Katagatae jutsu",
+			"japanese": "方違術",
+			"description": "טקטיקה של צ'יקאירי. כשהאויב עוזב את מחנהו, הנינג'ה מתגנב פנימה, מחבל במתקנים חיוניים, מטיל בהלה על השומרים שנותרו ופותח את השערים לכוחותיו."
+		},
+		{
+			"title": "katakana",
+			"sort": "Katakana",
+			"japanese": "片仮名",
+			"description": "כתב הברות יפני, המשמש בעיקר למילים לועזיות, למברקים ולמילים מחקות צליל."
+		},
+		{
+			"title": "katana",
+			"sort": "Katana",
+			"japanese": "刀",
+			"translation": "חרב",
+			"description": "החרב הארוכה של הסמוראי, עם להב מעוקל וחד־צדדי באורך 61 עד 76 סנטימטר. יחד עם הוואקיזאשי היא יוצרת את הדאישו."
+		},
+		{
+			"title": "katana kake",
+			"sort": "Katana kake",
+			"japanese": "刀懸け",
+			"translation": "מעמד לחרב",
+			"description": "מתקן להנחת הקטאנה בבית. את הוואקיזאשי הניחו רק לשינה או לרחצה, וגם אז הוא נשאר בהישג יד."
+		},
+		{
+			"title": "katate",
+			"sort": "Katate",
+			"japanese": "片手",
+			"translation": "יד אחת",
+			"description": "ביד אחת, למשל בתרגילי נפילה (אוקמי)."
+		},
+		{
+			"title": "Katō Danzō",
+			"sort": "Kato Danzo",
+			"japanese": "加藤段蔵",
+			"description": "נינג'ה מפורסם שלפי המסופר היה אמן טכניקות הקפיצה."
+		},
+		{
+			"title": "katon",
+			"sort": "Katon",
+			"japanese": "火遁",
+			"description": "בריחה בעזרת אש, אחת מחמש השיטות של גוטונפו."
+		},
+		{
+			"title": "katon jutsu",
+			"sort": "Katon jutsu",
+			"japanese": "火遁術",
+			"translation": "אמנות הבריחה באמצעות אש",
+			"description": "טכניקת בריחה מתוך גוטונפו, שמשתמשת באש כאמצעי בריחה."
+		},
+		{
+			"title": "katsura otoko jutsu",
+			"sort": "Katsura otoko jutsu",
+			"japanese": "桂男術",
+			"translation": "האיש שבירח",
+			"description": "טקטיקה של טואירי, על שם אגדה סינית עתיקה. נינג'ה שנותק מחבריו בארץ האויב נסמך על עזרת המקומיים, הצ'יצו מישי, שנותנים לו מחסה ומרגלים עבורו."
+		},
+		{
+			"title": "kayaku jutsu",
+			"sort": "Kayaku jutsu",
+			"japanese": "火薬術",
+			"translation": "אמנות השימוש באש ובחומרי נפץ"
+		},
+		{
+			"title": "kayaku zutsu",
+			"sort": "Kayaku zutsu",
+			"japanese": "火薬筒",
+			"translation": "צינור אבק שריפה",
+			"description": "צינורות במבוק אטומים, שבהם נשאו אבק שריפה בלי שיירטב."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "拳",
+			"translation": "אגרוף",
+			"description": "האגרוף ככלי נשק של הגוף."
+		},
+		{
+			"title": "ken",
+			"sort": "Ken",
+			"japanese": "剣",
+			"translation": "חרב, סייף, להב"
+		},
+		{
+			"title": "ken tai ichi jō",
+			"sort": "Ken tai ichi jo",
+			"japanese": "剣体一情",
+			"translation": "הגוף והנשק הם אחד"
+		},
+		{
+			"title": "kendō",
+			"sort": "Kendo",
+			"japanese": "剣道",
+			"translation": "דרך החרב",
+			"description": "ספורט לחימה שצמח מאמנות החרב (קנג'וטסו) של הסמוראי. כיום מחליף את החרב שינאי, ולובשים שריון להגנה."
+		},
+		{
+			"title": "kenjutsu",
+			"sort": "Kenjutsu",
+			"japanese": "剣術",
+			"translation": "אמנות החרב",
+			"description": "אמנות הלחימה בחרב של יפן הפאודלית."
+		},
+		{
+			"title": "kenpō",
+			"sort": "Kenpo",
+			"japanese": "拳法",
+			"translation": "שיטת האגרוף",
+			"description": "שיטת לחימה ללא נשק, הנזכרת בבוגיי ג'והאפאן יחד עם ג'ו־ג'יטסו."
+		},
+		{
+			"title": "kensei",
+			"sort": "Kensei",
+			"japanese": "剣聖",
+			"translation": "קדוש החרב",
+			"description": "אדם שתפס עד תום את מהות הדרך ונחשב כמעט בלתי מנוצח. הדוגמה הידועה ביותר היא מייאמוטו מוסאשי."
+		},
+		{
+			"title": "kenshō",
+			"sort": "Kensho",
+			"japanese": "見性",
+			"translation": "הכרת האמת הקוסמית",
+			"description": "ההבנה של כל הדברים, ההארה, נקראת גם סאטורי."
+		},
+		{
+			"title": "keri",
+			"sort": "Keri",
+			"japanese": "蹴り",
+			"translation": "בעיטה",
+			"description": "גם גרי."
+		},
+		{
+			"title": "ketsuin",
+			"sort": "Ketsuin",
+			"japanese": "結印",
+			"translation": "יצירת חותם יד",
+			"description": "תנוחת היד, המקבילה היפנית למודרה. היא מגלמת את הפעולה הגופנית."
+		},
+		{
+			"title": "ki",
+			"sort": "Ki",
+			"japanese": "気",
+			"translation": "אנרגיה, כוח חיים, פעילות חיים"
+		},
+		{
+			"title": "kiai",
+			"sort": "Kiai",
+			"japanese": "気合",
+			"translation": "צעקה, רוח לחימה",
+			"description": "שחרור אנרגיה בקריאת קרב, שאמורה ללוות טכניקה יעילה. אגדות מספרות על מאסטרים שהרגו בצעקה בעלי חיים קטנים ושיתקו לרגע בני אדם; מה שאפשר להוכיח הוא רק שצעקה פתאומית מבהילה את היריב לרגע."
+		},
+		{
+			"title": "kiai jutsu",
+			"sort": "Kiai jutsu",
+			"japanese": "気合術",
+			"translation": "אמנות קריאת הקרב",
+			"description": "אמנות השימוש בקיאי."
+		},
+		{
+			"title": "Kido Yazaemon",
+			"sort": "Kido Yazaemon",
+			"japanese": "城戸弥左衛門",
+			"description": "נינג'ה מפורסם שניסה להתנקש באודה נובונאגה ונכשל."
+		},
+		{
+			"title": "kigomi",
+			"sort": "Kigomi",
+			"japanese": "着込み",
+			"translation": "שריון תחתון",
+			"description": "שריון שנלבש מתחת לבגדים הרגילים, כמו קוסארי קאטאבירה; בכמה גרסאות מבד מרופד היו גם לוחיות מצופות לכה. לוחמים ונוסעים לבשו אותו; אין עדות לכך שנינג'ה לבשו אותו באופן קבוע."
+		},
+		{
+			"title": "kihon happō gata",
+			"sort": "Kihon happo gata",
+			"japanese": "基本八法型",
+			"translation": "שמונה הצורות הבסיסיות"
+		},
+		{
+			"title": "kikaigaku",
+			"sort": "Kikaigaku",
+			"japanese": "機械学",
+			"translation": "מכניקה",
+			"description": "התגובות היעילות ביותר של הגוף להתקפה, ובהן עבודת רגליים, התחמקות הצידה, טווח לחימה והשימוש הנכון בכלי הנשק של הגוף."
+		},
+		{
+			"title": "kikaku ken",
+			"sort": "Kikaku ken",
+			"japanese": "鬼角拳",
+			"translation": "אגרוף קרן השד"
+		},
+		{
+			"title": "kin",
+			"sort": "Kin",
+			"japanese": "金",
+			"translation": "זהב, מתכת"
+		},
+		{
+			"title": "kinton",
+			"sort": "Kinton",
+			"japanese": "金遁",
+			"description": "בריחה בעזרת מתכת, אחת מחמש השיטות של גוטונפו."
+		},
+		{
+			"title": "kinton jutsu",
+			"sort": "Kinton jutsu",
+			"japanese": "金遁術",
+			"translation": "אמנות הבריחה באמצעות מתכת",
+			"description": "טכניקת בריחה מתוך גוטונפו, שמשתמשת במתכת כאמצעי בריחה."
+		},
+		{
+			"title": "kiri",
+			"sort": "Kiri",
+			"japanese": "切小刀",
+			"translation": "מסור קטן"
+		},
+		{
+			"title": "kisha",
+			"sort": "Kisha",
+			"japanese": "綺者",
+			"translation": "אדם יפה",
+			"description": "עיקרון של גוג'ו גויוקו המנצל את יוהרתו של אדם."
+		},
+		{
+			"title": "kishaku",
+			"sort": "Kishaku",
+			"japanese": "耆著",
+			"translation": "מצפן",
+			"description": "מצפן צף: פיסת ברזל ממוגנטת, לרוב בצורת דג או סירה, הצפה בקערת מים. העיקרון הגיע מסין; <cite>\"באנסנשוקאי\"</cite> מתאר כיצד מכינים מצפן כזה."
+		},
+		{
+			"title": "kiten",
+			"sort": "Kiten",
+			"japanese": "起転",
+			"translation": "קפיצת ידיים",
+			"description": "מכריעה, דרך הידיים לעמידת ידיים, ומשם דרך גשר בחזרה אל הרגליים."
+		},
+		{
+			"title": "kiten ken",
+			"sort": "Kiten ken",
+			"japanese": "起転拳",
+			"translation": "אגרוף המחולל תפנית"
+		},
+		{
+			"title": "kitsune gakure no jutsu",
+			"sort": "Kitsune gakure no jutsu",
+			"japanese": "狐隠術",
+			"translation": "אמנות ההסתתרות כמו שועל",
+			"description": "טכניקה שבה מסתתרים בין הקנים כמו שועל."
+		},
+		{
+			"title": "ko ashi",
+			"sort": "Ko ashi",
+			"japanese": "小足",
+			"translation": "צעד קטן",
+			"description": "דרך הליכה של הנינג'ה."
+		},
+		{
+			"title": "kō ken",
+			"sort": "Ko ken",
+			"japanese": "鈎拳",
+			"translation": "אגרוף וו"
+		},
+		{
+			"title": "Kōbō Daishi",
+			"sort": "Kobo Daishi",
+			"japanese": "弘法大師",
+			"description": "מייסד הכת הבודהיסטית האזוטרית שינגון, הידוע גם בשם קוקאי."
+		},
+		{
+			"title": "kobudō",
+			"sort": "Kobudo",
+			"japanese": "古武道",
+			"translation": "בודו עתיק",
+			"description": "שיטת נשק שהתפתחה באוקינאווה ומשתמשת בעיקר בכלי חקלאות ככלי נשק."
+		},
+		{
+			"title": "kobujutsu jūhappan",
+			"sort": "Kobujutsu juhappan",
+			"japanese": "古武術十八般",
+			"translation": "18 אמנויות הלחימה העתיקות",
+			"description": "אמנויות לחימה שהאצומי מאסאקי תרגל שלוש שנים אצל אואנו סנסיי."
+		},
+		{
+			"title": "kodachi",
+			"sort": "Kodachi",
+			"japanese": "小太刀",
+			"translation": "חרב קטנה",
+			"description": "חרב קצרה."
+		},
+		{
+			"title": "kodachijutsu",
+			"sort": "Kodachijutsu",
+			"japanese": "小太刀術",
+			"description": "לחימה בחרב הקצרה (קודאצ'י), חלק מביקנג'וטסו."
+		},
+		{
+			"title": "Kōga-Ryū",
+			"sort": "Koga-Ryu",
+			"japanese": "甲賀流",
+			"description": "סגנון נינג'יטסו, שככל הנראה נכחד כיום."
+		},
+		{
+			"title": "kōgai",
+			"sort": "Kogai",
+			"japanese": "笄",
+			"translation": "סיכת שיער",
+			"description": "סיכה שהוצמדה לצד הוואקיזאשי. היא שימשה כלי לתיקון חפצי עור או לטיפול בפרסות."
+		},
+		{
+			"title": "kogakure",
+			"sort": "Kogakure",
+			"japanese": "木隠",
+			"translation": "חבוי מאחורי עלים ועצים",
+			"description": "את השם הזה בחר המחבר לאתר."
+		},
+		{
+			"title": "kōhō",
+			"sort": "Koho",
+			"japanese": "後方",
+			"translation": "לאחור"
+		},
+		{
+			"title": "kōhō geri",
+			"sort": "Koho geri",
+			"japanese": "後方蹴り",
+			"translation": "בעיטה לאחור"
+		},
+		{
+			"title": "kōhō kaiten",
+			"sort": "Koho kaiten",
+			"japanese": "後方回転",
+			"translation": "גלגול לאחור"
+		},
+		{
+			"title": "kōhō ukemi",
+			"sort": "Koho ukemi",
+			"japanese": "後方受身",
+			"translation": "נפילה לאחור",
+			"description": "תרגיל נפילה (אוקמי) לאחור. מעמידה יורדים לכריעה עמוקה ומתגלגלים על הגב."
+		},
+		{
+			"title": "kokizami ashi",
+			"sort": "Kokizami ashi",
+			"japanese": "小刻み足",
+			"translation": "צעד קצר",
+			"description": "דרך הליכה של הנינג'ה."
+		},
+		{
+			"title": "kokoro",
+			"sort": "Kokoro",
+			"japanese": "心",
+			"translation": "לב, נפש"
+		},
+		{
+			"title": "koku",
+			"sort": "Koku",
+			"japanese": "石",
+			"description": "מידת נפח יפנית לאורז. ביפן הפאודלית שילמו לאנשים בקוקו; קוקו אחד הוא כ־180 ליטר אורז."
+		},
+		{
+			"title": "kokū",
+			"sort": "Kokuu",
+			"japanese": "虚空",
+			"translation": "חלל ריק",
+			"description": "החלל הריק, הריקות."
+		},
+		{
+			"title": "kokyūhō",
+			"sort": "Kokyuho",
+			"japanese": "呼吸法",
+			"translation": "טכניקת נשימה, שליטה בנשימה",
+			"description": "שיטות לנשימה נכונה."
+		},
+		{
+			"title": "komusō",
+			"sort": "Komuso",
+			"japanese": "虚無僧",
+			"translation": "נזיר הריקות",
+			"description": "נזיר קבצן של מסדר פוקה. הקומוסו נדדו ברחבי יפן לבושים בקימונו לבן, עם כובע גדול שכיסה את כל הפנים, חרב (קטאנה), מטה הליכה ארוך, מניפה וחליל (שאקוהאצ'י). אסור היה להם להסיר את הכובע לעולם, ואסור היה להם לדבר בנוכחות מי שאינו נזיר. רשמית הכת אינה קיימת עוד, אבל ייתכן שהיא ממשיכה להתקיים במחתרת."
+		},
+		{
+			"title": "kongō",
+			"sort": "Kongo",
+			"japanese": "金剛",
+			"translation": "כוח הזהב",
+			"description": "נשק מתכת קצר שבו התגוננו כוהנים בודהיסטים. השרביט מסמל את היהלום, סימן הידיעה הטהורה. ידוע גם כנשקו של אינדרה."
+		},
+		{
+			"title": "kongōkai mandara",
+			"sort": "Kongokai mandara",
+			"japanese": "金剛界曼荼羅",
+			"translation": "מנדלה של עולם היהלום",
+			"description": "מנדלה גאומטרית לחלוטין, ובה בודהות ואלים מסודרים בתשעה חלקים."
+		},
+		{
+			"title": "kongōsho",
+			"sort": "Kongosho",
+			"japanese": "金剛杵",
+			"translation": "שרביט יהלום",
+			"description": "כלי פולחן בודהיסטי (וג'רה) עם שלוש שיניים המתעקלות פנימה בכל קצה."
+		},
+		{
+			"title": "koppō jutsu",
+			"sort": "Koppo jutsu",
+			"japanese": "骨法術",
+			"translation": "אמנות שיטות העצם",
+			"description": "טכניקות לשבירת עצמות. אימון קשה חיזק את הידיים והרגליים כדי להנחית מכות הרסניות על העצמות."
+		},
+		{
+			"title": "koppō ken",
+			"sort": "Koppo ken",
+			"japanese": "骨法拳",
+			"translation": "אגרוף שיטת העצם"
+		},
+		{
+			"title": "kōsei no kamae",
+			"sort": "Kosei no kamae",
+			"japanese": "攻勢の構え",
+			"translation": "אנרגיה תוקפת",
+			"description": "עמידה (קאמאה) מהנינג'יטסו."
+		},
+		{
+			"title": "koshi jutsu",
+			"sort": "Koshi jutsu",
+			"japanese": "骨指術",
+			"translation": "אמנות אצבעות העצם",
+			"description": "טכניקות נגד שרירי הגוף, הגורמות כאב עז."
+		},
+		{
+			"title": "koshizashi",
+			"sort": "Koshizashi",
+			"japanese": "腰差",
+			"translation": "תותח המוחזק במותן",
+			"description": "כלי ירייה ידני מוקדם, שהוצג לסוגינובו מיוסאן בטנגשימה ושהוא הורה להעתיק."
+		},
+		{
+			"title": "kosshi kihon sanpō",
+			"sort": "Kosshi kihon sanpo",
+			"japanese": "骨指基本三法",
+			"translation": "שלוש טכניקות המכה הבסיסיות"
+		},
+		{
+			"title": "Kotō-Ryū",
+			"sort": "Koto-Ryu",
+			"japanese": "虎倒流",
+			"translation": "אסכולת מכניע הנמר",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "kōyaku",
+			"sort": "Koyaku",
+			"japanese": "衡軛",
+			"translation": "עול שוורים",
+			"description": "מערך קרב מתוך הבוריאקו."
+		},
+		{
+			"title": "kū",
+			"sort": "Ku",
+			"japanese": "空",
+			"translation": "ריקות, ואקום",
+			"description": "מקור האנרגיה התת־אטומית, האין, ראשית כל הדברים."
+		},
+		{
+			"title": "kū no kata",
+			"sort": "Ku no kata",
+			"japanese": "空の型",
+			"translation": "צורת הריקות"
+		},
+		{
+			"title": "ku shaku bō",
+			"sort": "Ku shaku bo",
+			"japanese": "九尺棒",
+			"translation": "מטה בן תשעה שאקו",
+			"description": "מטה ארוך במיוחד (2.73 מטר)."
+		},
+		{
+			"title": "kubotan",
+			"sort": "Kubotan",
+			"japanese": "クボタン",
+			"description": "נשק אגרוף בצורת גליל קטן, שבו מפעילים לחץ על מפרקים."
+		},
+		{
+			"title": "kuda bashigo",
+			"sort": "Kuda bashigo",
+			"japanese": "管梯子",
+			"translation": "סולם צינורות"
+		},
+		{
+			"title": "kuden",
+			"sort": "Kuden",
+			"japanese": "口伝",
+			"translation": "מסירה בעל פה",
+			"description": "העברת אמנויות הלחימה מפה לאוזן במקום בכתב."
+		},
+		{
+			"title": "kūhen no kata",
+			"sort": "Kuhen no kata",
+			"japanese": "空変の型",
+			"translation": "צורות ההתמרה של הריקות"
+		},
+		{
+			"title": "kūhi",
+			"sort": "Kuhi",
+			"japanese": "空飛",
+			"translation": "קפיצה באוויר"
+		},
+		{
+			"title": "kuji goshin hō",
+			"sort": "Kuji goshin ho",
+			"japanese": "九字護身法",
+			"translation": "שיטת ההגנה של תשע ההברות",
+			"description": "שם אחר לקוג'י־קירי."
+		},
+		{
+			"title": "kuji-in",
+			"sort": "Kuji-in",
+			"japanese": "九字印",
+			"translation": "חותמות תשע ההברות",
+			"description": "תשעת סימני האצבעות (מודרה) שבהם השתמשו הנינג'ה."
+		},
+		{
+			"title": "kuji-in jin",
+			"sort": "Kuji-in jin",
+			"japanese": "陣",
+			"description": "החותם השישי של הקוג'י־אין. הוא מציג אדם שסומך לחלוטין על התודעה הקוסמית של האל ובוטח באינטואיציה שלו."
+		},
+		{
+			"title": "kuji-in kai",
+			"sort": "Kuji-in kai",
+			"japanese": "皆",
+			"description": "החותם החמישי של הקוג'י־אין. הוא מציג אדם השואף להתקרב לאל. סימן היד שלו הוא גבאקו קן־אין."
+		},
+		{
+			"title": "kuji-in pyō",
+			"sort": "Kuji-in pyo",
+			"japanese": "兵",
+			"description": "החותם השני של הקוג'י־אין, הסמל הגופני של היהלום ומכאן של הידיעה. סימן היד שלו הוא דאיקונגו־אין."
+		},
+		{
+			"title": "kuji-in retsu",
+			"sort": "Kuji-in retsu",
+			"japanese": "列",
+			"description": "החותם השביעי של הקוג'י־אין. סימן היד שלו הוא צ'יקן־אין."
+		},
+		{
+			"title": "kuji-in rin",
+			"sort": "Kuji-in rin",
+			"japanese": "臨",
+			"description": "החותם הראשון של הקוג'י־אין. הוא מייצג את הקונגו, הברק דמוי היהלום. סימן היד שלו הוא דוקו־אין."
+		},
+		{
+			"title": "kuji-in sha",
+			"sort": "Kuji-in sha",
+			"japanese": "者",
+			"description": "החותם הרביעי של הקוג'י־אין."
+		},
+		{
+			"title": "kuji-in tō",
+			"sort": "Kuji-in to",
+			"japanese": "闘",
+			"description": "החותם השלישי של הקוג'י־אין. סימן היד שלו הוא סוטוג'ישי־אין."
+		},
+		{
+			"title": "kuji-in zai",
+			"sort": "Kuji-in zai",
+			"japanese": "在",
+			"description": "החותם השמיני של הקוג'י־אין. הוא מסמל את האש שמכלה כל טומאה ומאחדת את התודעה עם היקום."
+		},
+		{
+			"title": "kuji-in zen",
+			"sort": "Kuji-in zen",
+			"japanese": "前",
+			"description": "החותם התשיעי של הקוג'י־אין. הוא מסמל את המואר בשלמות, שראה לעומק את כל הדברים."
+		},
+		{
+			"title": "kuji-kiri",
+			"sort": "Kuji-kiri",
+			"japanese": "九字切り",
+			"translation": "חיתוך תשע ההברות",
+			"description": "טקס שבו משרטטים באוויר רשת מגן בחרב סמלית. אין לבלבל עם קוג'י־אין."
+		},
+		{
+			"title": "Kūkai",
+			"sort": "Kukai",
+			"japanese": "空海",
+			"description": "שם אחר לקובו דאישי."
+		},
+		{
+			"title": "Kukishinden-Ryū",
+			"sort": "Kukishinden-Ryu",
+			"japanese": "九鬼神伝流",
+			"translation": "אסכולת תשעת אלי השדים",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "kuma",
+			"sort": "Kuma",
+			"japanese": "熊",
+			"translation": "דוב"
+		},
+		{
+			"title": "kumade",
+			"sort": "Kumade",
+			"japanese": "熊手",
+			"translation": "מגרפה, טופר דוב",
+			"description": "נשק של הנינג'ה, שיכול היה לגרום פצעים נוראים. הוא שימש גם לטיפוס."
+		},
+		{
+			"title": "Kumawaka",
+			"sort": "Kumawaka",
+			"description": "גנין מפורסם של קוגה ריו, שהוביל 70 נינג'ה כלוחמי גרילה."
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "雲梯子",
+			"translation": "סולם ענן"
+		},
+		{
+			"title": "kumo bashigo",
+			"sort": "Kumo bashigo",
+			"japanese": "蜘蛛梯子",
+			"translation": "סולם עכביש"
+		},
+		{
+			"title": "Kumogakure-Ryū",
+			"sort": "Kumogakure-Ryu",
+			"japanese": "雲隠流",
+			"translation": "אסכולת הענן הנסתר",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "kunai",
+			"sort": "Kunai",
+			"japanese": "苦無",
+			"translation": "כלי מנוף, סכין הטלה של נינג'ה"
+		},
+		{
+			"title": "kunashi",
+			"sort": "Kunashi",
+			"translation": "את חפירה מתקפלת"
+		},
+		{
+			"title": "kunoichi",
+			"sort": "Kunoichi",
+			"japanese": "くノ一",
+			"description": "נינג'ה נשים. לפי המסורת הן אומנו בלחימה פנים אל פנים כמו חבריהן הגברים, אבל עיקר עיסוקן היה השפעה על הנפש האנושית."
+		},
+		{
+			"title": "kunoichi jutsu",
+			"sort": "Kunoichi jutsu",
+			"japanese": "くノ一術",
+			"description": "טקטיקה של טואירי, שבה נשים משמשות סוכנות כדי להתקרב לגברים בעמדות מפתח."
+		},
+		{
+			"title": "Kuroi Ōkami",
+			"sort": "Kuroi Okami",
+			"japanese": "黒い狼",
+			"translation": "זאב שחור",
+			"description": "שם הדוג'ו של הבוג'ינקאן בוולפסבורג, בהדרכת השידושי מריו פליקהאן (Mario Plückhahn)."
+		},
+		{
+			"title": "kuruma nagare",
+			"sort": "Kuruma nagare",
+			"japanese": "車流れ",
+			"translation": "זרימה מתגלגלת",
+			"description": "תרגיל נפילה (אוקמי) בגלגול לאחור (קוהו קורומה נאגארה)."
+		},
+		{
+			"title": "kusari",
+			"sort": "Kusari",
+			"japanese": "鎖",
+			"translation": "שרשרת"
+		},
+		{
+			"title": "kusari fundō",
+			"sort": "Kusari fundo",
+			"japanese": "鎖分銅",
+			"description": "שרשרת קצרה עם משקולת בכל קצה."
+		},
+		{
+			"title": "kusari katabira",
+			"sort": "Kusari katabira",
+			"japanese": "鎖帷子",
+			"translation": "שריון טבעות",
+			"description": "שריון טבעות שהנינג'ה לבשו בקרבות מתחת לשינובי שוזוקו או מעליו. הרשת הגנה גם על הפנים ועל כפות הידיים."
+		},
+		{
+			"title": "kusarigama",
+			"sort": "Kusarigama",
+			"japanese": "鎖鎌",
+			"translation": "מגל שרשרת",
+			"description": "מגל יפני (קמה) עם שרשרת משוקללת (קוסארי)."
+		},
+		{
+			"title": "kusarijutsu",
+			"sort": "Kusarijutsu",
+			"description": "לחימה בכלי נשק קצרים של שרשרת."
+		},
+		{
+			"title": "kūten",
+			"sort": "Kuten",
+			"japanese": "空転",
+			"translation": "תפנית באוויר"
+		},
+		{
+			"title": "kyobako fune",
+			"sort": "Kyobako fune",
+			"translation": "סירת ארגז",
+			"description": "ארגז עץ מצופה עור מבחוץ."
+		},
+		{
+			"title": "kyojitsu tenkan hō",
+			"sort": "Kyojitsu tenkan ho",
+			"japanese": "虚実転換法",
+			"translation": "שקר ואמת",
+			"description": "טקטיקה של הצגת האמת כשקר ואת השקר כאמת, למשל להפגין כוח כשחלשים."
+		},
+		{
+			"title": "kyoketsu shōge",
+			"sort": "Kyoketsu shoge",
+			"japanese": "距跋渉毛",
+			"description": "נשק אהוב על הנינג'ה: סכין עם וו, שאל ידיתה קשור חבל באורך ארבעה מטרים ובקצהו טבעת פלדה."
+		},
+		{
+			"title": "kyōmon",
+			"sort": "Kyomon",
+			"description": "השכלה מעשית, התבוננות ושכל ישר. אחד משמונת התחומים של נינג'ה נו האצ'ימון."
+		},
+		{
+			"title": "kyōnin no jutsu",
+			"sort": "Kyonin no jutsu",
+			"description": "טקטיקה המנצלת את האמונות התפלות של בני אדם, למשל בעזרת מסכות שדים, יריקת אש או בעלי חיים הנחשבים מרושעים."
+		},
+		{
+			"title": "kyōsha",
+			"sort": "Kyosha",
+			"japanese": "恐者",
+			"translation": "אדם פחדן",
+			"description": "עיקרון של גוג'ו גויוקו המנצל את פחדנותו של אדם."
+		},
+		{
+			"title": "Kyōto",
+			"sort": "Kyoto",
+			"japanese": "京都",
+			"description": "עיר הבירה הקיסרית העתיקה של יפן."
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "級",
+			"translation": "דרגה, רמה, כיתה, דרגת תלמיד"
+		},
+		{
+			"title": "kyū",
+			"sort": "Kyu",
+			"japanese": "弓",
+			"translation": "קשת"
+		},
+		{
+			"title": "kyūdō",
+			"sort": "Kyudo",
+			"japanese": "弓道",
+			"translation": "דרך הקשת",
+			"description": "ענף ספורט שהתפתח מהקיוג'וטסו המלחמתי."
+		},
+		{
+			"title": "kyūjutsu",
+			"sort": "Kyujutsu",
+			"japanese": "弓術",
+			"translation": "אמנות הקשת",
+			"description": "שיטת הסמוראי לירות בחץ וקשת."
+		},
+		{
+			"title": "kyūsho",
+			"sort": "Kyusho",
+			"japanese": "急所",
+			"translation": "נקודות חיוניות",
+			"description": "נקודות הלחץ לאטמי. קוטו ריו כולל את השיטה המלאה שלהן."
+		},
+		{
+			"title": "li",
+			"sort": "Li",
+			"chinese": "理",
+			"translation": "מבנה, סדר",
+			"description": "בטאואיזם, המבנה והצורה של הטאו: סדר א־סימטרי שאינו חוזר על עצמו לעולם ואינו מציית לשום כלל. הוא ניכר במים זורמים, בקליפת עצים או בגבישי קרח."
+		},
+		{
+			"title": "Lin Kuei",
+			"sort": "Lin Kuei",
+			"description": "השם שתחתיו התקיים כביכול הנינג'יטסו בסין ובקוריאה; אין לכך עדות היסטורית."
+		},
+		{
+			"title": "ma",
+			"sort": "Ma",
+			"japanese": "間",
+			"translation": "רווח, פער, מרווח, מרחק"
+		},
+		{
+			"title": "maai",
+			"sort": "Maai",
+			"japanese": "間合い",
+			"translation": "מרווח, מרחק, הפסקה",
+			"description": "מרחק הרמוני בזמן ובמרחב."
+		},
+		{
+			"title": "mae",
+			"sort": "Mae",
+			"japanese": "前",
+			"translation": "קדימה, לפנים, חזיתי"
+		},
+		{
+			"title": "mae gaeshi",
+			"sort": "Mae gaeshi",
+			"japanese": "前返",
+			"translation": "טכניקות המכוונות קדימה"
+		},
+		{
+			"title": "mamukigama",
+			"sort": "Mamukigama",
+			"description": "מגל קשור לחבל, ובקצה החבל נתלתה חיה ארסית, למשל נחש. הנינג'ה הטיל אותו לעבר האויב; החיה העסיקה את היריב ואף עלולה הייתה להרוג אותו."
+		},
+		{
+			"title": "mandala",
+			"sort": "Mandala",
+			"japanese": "曼荼羅",
+			"description": "תיאור סכמטי של היקום בתמונה אחת, מן הטנטרה ומן המיקיו. בסאנמיצו הוא מייצג את המחשבה."
+		},
+		{
+			"title": "mangetsu no kamae",
+			"sort": "Mangetsu no kamae",
+			"japanese": "満月の構え",
+			"translation": "עמידת הירח המלא",
+			"description": "עמידה של הקוטו ריו. הלוחם מחזיק את החרב מעל ראשו, כך שאור השמש על הלהב מסנוור את היריב."
+		},
+		{
+			"title": "manriki gusari",
+			"sort": "Manriki gusari",
+			"japanese": "万力鎖",
+			"translation": "שרשרת בעוצמה של 10,000",
+			"description": "שרשרת עם ידיות ברזל בקצותיה."
+		},
+		{
+			"title": "mantra",
+			"sort": "Mantra",
+			"japanese": "真言",
+			"translation": "מילים אמיתיות",
+			"description": "צלילים מן הטנטריזם ומן המיקיו. בסאנמיצו המנטרה מייצגת את המילה."
+		},
+		{
+			"title": "menkyo kaiden",
+			"sort": "Menkyo kaiden",
+			"japanese": "免許皆伝",
+			"description": "תעודה על שליטה מלאה באמנות לחימה. המאסטר העניק אותה לתלמיד אחד או לכמה תלמידים; היא מזהה את בעליה כיורש החוקי של הסגנון."
+		},
+		{
+			"title": "metsubushi",
+			"sort": "Metsubushi",
+			"japanese": "目潰し",
+			"translation": "השמדת העין",
+			"description": "אבקת סנוור משבבי ברזל, חול, אפר או חומרים כימיים. כשנרדף, השליך הנינג'ה את האבקה אל עיני הרודף."
+		},
+		{
+			"title": "migi",
+			"sort": "Migi",
+			"japanese": "右",
+			"translation": "ימין"
+		},
+		{
+			"title": "mikkyō",
+			"sort": "Mikkyo",
+			"japanese": "密教",
+			"translation": "תורה סודית",
+			"description": "שם כולל לתורות טנטריות שונות של הבודהיזם."
+		},
+		{
+			"title": "miko",
+			"sort": "Miko",
+			"japanese": "巫女",
+			"translation": "עלמת מקדש",
+			"description": "אישה צעירה ולא נשואה בשירות מקדש שינטו. לפי המסורת הכשירה מוצ'יזוקי צ'ייומה נערות יתומות למיקו ובה בעת לקונואיצ'י שריגלו למען משפחת טקדה."
+		},
+		{
+			"title": "Minamoto",
+			"sort": "Minamoto",
+			"japanese": "源",
+			"description": "משפחה מפורסמת, המכונה גם גנג'י, שלחמה בטאירה."
+		},
+		{
+			"title": "minomushi jutsu",
+			"sort": "Minomushi jutsu",
+			"japanese": "身虫術",
+			"translation": "תולעת בגוף",
+			"description": "טקטיקה של טואירי המתוארת ב<cite>\"באנסנשוקאי\"</cite>: הנינג'ה הסית את משרתי האויב לבגוד באדונם. ככל שדרגתם הייתה גבוהה יותר, כך היה ערכם רב יותר."
+		},
+		{
+			"title": "Miyamoto Musashi",
+			"sort": "Miyamoto Musashi",
+			"japanese": "宮本武蔵",
+			"description": "הסייף המפורסם ביותר של יפן. במשך שנים רבות נדד ברחבי הארץ כדי לשפר את אמנות החרב שלו, ובדרך ניצח ביותר מ־60 דו־קרבות. הוא ייסד את הניטן איצ'י ריו, אסכולה הנלחמת בשתי חרבות בו־זמנית. זמן קצר לפני מותו כתב את <cite>\"גורין נו שו\"</cite> (<q>ספר חמש הטבעות</q>)."
+		},
+		{
+			"title": "mizu",
+			"sort": "Mizu",
+			"japanese": "水",
+			"translation": "מים"
+		},
+		{
+			"title": "mizu taimatsu",
+			"sort": "Mizu taimatsu",
+			"japanese": "水松炬",
+			"description": "לפיד שממשיך לבעור גם בגשם."
+		},
+		{
+			"title": "mizu tsutsu",
+			"sort": "Mizu tsutsu",
+			"japanese": "水筒",
+			"translation": "צינור נשימה",
+			"description": "צינור מקנה או מעץ שדרכו נשם הנינג'ה כשנאלץ לשהות זמן רב מתחת למים."
+		},
+		{
+			"title": "mizugumo",
+			"sort": "Mizugumo",
+			"japanese": "水蜘蛛",
+			"translation": "עכביש מים",
+			"description": "כלי של הנינג'ה להליכה על פני אדמת ביצה."
+		},
+		{
+			"title": "mizukaki",
+			"sort": "Mizukaki",
+			"japanese": "水掻き",
+			"translation": "סנפירי שחייה"
+		},
+		{
+			"title": "Mochizuki Chiyome",
+			"sort": "Mochizuki Chiyome",
+			"japanese": "望月千代女",
+			"description": "קונואיצ'י מפורסמת, שלפי המסורת ניהלה רשת של קונואיצ'י בשליחותו של טקדה שינגן."
+		},
+		{
+			"title": "moku",
+			"sort": "Moku",
+			"japanese": "木",
+			"translation": "עץ"
+		},
+		{
+			"title": "mokuton",
+			"sort": "Mokuton",
+			"japanese": "木遁",
+			"description": "בריחה בעזרת עץ וצמחים, אחת מחמש השיטות של הגוטונפו."
+		},
+		{
+			"title": "mokuton jutsu",
+			"sort": "Mokuton jutsu",
+			"japanese": "木遁術",
+			"translation": "טכניקת בריחה בעזרת עץ",
+			"description": "טכניקת בריחה של הגוטונפו, המשתמשת בעץ כאמצעי בריחה."
+		},
+		{
+			"title": "mon",
+			"sort": "Mon",
+			"japanese": "紋",
+			"translation": "סמל משפחה"
+		},
+		{
+			"title": "mono",
+			"sort": "Mono",
+			"japanese": "者",
+			"translation": "אדם"
+		},
+		{
+			"title": "monomi no jutsu",
+			"sort": "Monomi no jutsu",
+			"japanese": "物見の術",
+			"translation": "אמנות הסיור",
+			"description": "סיור אחר נקודות התורפה בהגנת האויב, כגון חדרים שקל להיכנס אליהם, דלתות אחוריות וחדרים שאינם בשימוש."
+		},
+		{
+			"title": "Mōri",
+			"sort": "Mori",
+			"japanese": "毛利",
+			"description": "שבט סמוראים מאקי שבמערב הונשו, אחת המשפחות שנאבקו על השלטון בתקופת סנגוקו. תחת מורי מוטונארי השתלט השבט על אזור צ'וגוקו, ומאוחר יותר עמד מול אודה נובונאגה."
+		},
+		{
+			"title": "mu",
+			"sort": "Mu",
+			"japanese": "武",
+			"translation": "לוחמנות, צבאיות",
+			"description": "גם בו."
+		},
+		{
+			"title": "mudrā",
+			"sort": "Mudra",
+			"japanese": "印相",
+			"translation": "סימן יד",
+			"description": "תנוחות ידיים מן הטנטרה ומן המיקיו. תשע מהן נכללו בקוג'י־אין. בסאנמיצו הן מייצגות את המעשה."
+		},
+		{
+			"title": "mumei mugei no jutsu",
+			"sort": "Mumei mugei no jutsu",
+			"japanese": "無名無芸の術",
+			"translation": "בלי שם, בלי אמנות",
+			"description": "אמנות האלמוניות, מתכון ההצלחה של הנינג'ה בריגול. איש לא היה אמור להכיר את פניו האמיתיות של הנינג'ה."
+		},
+		{
+			"title": "muon no hō",
+			"sort": "Muon no ho",
+			"japanese": "無音の法",
+			"translation": "שיטות השקט"
+		},
+		{
+			"title": "musha dori",
+			"sort": "Musha dori",
+			"japanese": "武者捕り",
+			"description": "טכניקה סודית של המוסאשי ריו. טאקאמאצו טושיצוגו למד אותה בגיל 15, בקרב מול לוחם קראטה מאותה אסכולה."
+		},
+		{
+			"title": "musha shugyō",
+			"sort": "Musha shugyo",
+			"japanese": "武者修行",
+			"translation": "נדודי הלוחם",
+			"description": "שיטת אימון שבה יצא הלוחם למסע ארוך כדי להשתפר. הקשיים בדרך עיצבו את אופיו וחיזקו את רוחו."
+		},
+		{
+			"title": "musubi bashigo",
+			"sort": "Musubi bashigo",
+			"japanese": "結び梯子",
+			"translation": "סולם לולאות",
+			"description": "חבל ובו לולאות במרווחים קבועים, שלתוכן הכניס הנינג'ה את רגליו בזמן הטיפוס."
+		},
+		{
+			"title": "musubi nawa",
+			"sort": "Musubi nawa",
+			"japanese": "結び縄",
+			"description": "חבל משיער סוס."
+		},
+		{
+			"title": "mute",
+			"sort": "Mute",
+			"japanese": "無手",
+			"translation": "בלי ידיים",
+			"description": "בלי ידיים, למשל בתרגילי נפילה (אוקמי)."
+		},
+		{
+			"title": "nagamaki",
+			"sort": "Nagamaki",
+			"japanese": "長巻",
+			"description": "גרסה של רומח החרב נאגינאטה."
+		},
+		{
+			"title": "nagare",
+			"sort": "Nagare",
+			"japanese": "流れ",
+			"translation": "מים זורמים",
+			"description": "עקרון הרכות."
+		},
+		{
+			"title": "nage",
+			"sort": "Nage",
+			"japanese": "投げ",
+			"translation": "הטלה, להטיל"
+		},
+		{
+			"title": "nage teppō",
+			"sort": "Nage teppo",
+			"japanese": "投げ鉄砲",
+			"description": "רימון נפץ שהושלך אל האויב ביד או בקלע. הוא פעל כמו רימון יד מודרני."
+		},
+		{
+			"title": "nagenawa",
+			"sort": "Nagenawa",
+			"japanese": "投げ縄",
+			"translation": "חבל הטלה",
+			"description": "לאסו. הגיוקושין ריו ידוע בשימוש בו."
+		},
+		{
+			"title": "naginata",
+			"sort": "Naginata",
+			"japanese": "薙刀",
+			"translation": "חרב לקצירת אויבים",
+			"description": "רומח חרב, נשקם של הסוהיי ונשקן המועדף של נשות הסמוראים."
+		},
+		{
+			"title": "naginatadō",
+			"sort": "Naginatado",
+			"japanese": "薙刀道",
+			"translation": "דרך הנאגינאטה",
+			"description": "אמנות הלחימה בנאגינאטה, שאחרי מלחמת העולם השנייה עסקו בה בעיקר נשים."
+		},
+		{
+			"title": "nagishi shuriken",
+			"sort": "Nagishi shuriken",
+			"description": "כוכב הטלה (שוריקן) ובקצהו ציצית המייצבת את מעופו."
+		},
+		{
+			"title": "naibaku ken-in",
+			"sort": "Naibaku ken-in",
+			"japanese": "内縛拳印",
+			"translation": "סימן האגרוף הקשור פנימה",
+			"description": "סימן היד של ג'ין בקוג'י־אין."
+		},
+		{
+			"title": "neko te",
+			"sort": "Neko te",
+			"japanese": "猫手",
+			"translation": "טופר חתול",
+			"description": "אצבעון מחודד, נשקן של הקונואיצ'י."
+		},
+		{
+			"title": "nenriki",
+			"sort": "Nenriki",
+			"japanese": "念力",
+			"translation": "כוח רצון",
+			"description": "הכוונה הממוקדת, המקבילה היפנית למנדלה. היא מגלמת את רצונו של הנינג'ה."
+		},
+		{
+			"title": "nichirin-in",
+			"sort": "Nichirin-in",
+			"japanese": "日輪印",
+			"translation": "סימן טבעת השמש",
+			"description": "סימן היד של זאי בקוג'י־אין."
+		},
+		{
+			"title": "Nihon",
+			"sort": "Nihon",
+			"japanese": "日本",
+			"translation": "מקור השמש",
+			"description": "יפן. גם ניפון."
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "人",
+			"translation": "בן אדם"
+		},
+		{
+			"title": "nin",
+			"sort": "Nin",
+			"japanese": "忍",
+			"translation": "לסבול, לשאת, להתמיד, להימנע",
+			"description": "גם שינובו."
+		},
+		{
+			"title": "nin shokudai",
+			"sort": "Nin shokudai",
+			"japanese": "忍燭台",
+			"description": "לפיד בצורת L שאפשר היה לתלות."
+		},
+		{
+			"title": "ningu",
+			"sort": "Ningu",
+			"japanese": "忍具",
+			"translation": "כלי הנינג'ה"
+		},
+		{
+			"title": "ninja",
+			"sort": "Ninja",
+			"japanese": "忍者",
+			"description": "מי שעוסק בנינג'יטסו: לוחם, סייר, מרגל, לוחם גרילה וסוכן מיוחד של ימי הביניים הפאודליים."
+		},
+		{
+			"title": "ninja aruki",
+			"sort": "Ninja aruki",
+			"japanese": "忍者歩き",
+			"translation": "טכניקות הליכה",
+			"description": "דרכי ההליכה של הנינג'ה, כדי לנוע בשקט, בלי להיראות או במהירות."
+		},
+		{
+			"title": "ninja jūhakkei",
+			"sort": "Ninja juhakkei",
+			"japanese": "忍者十八形",
+			"description": "18 הקטגוריות של טכניקות סודיות שלמד נינג'ה בנוסף לבוגיי ג'והאפאן. יחד הן מרכיבות את הנינפו סאנג'ורוקיי."
+		},
+		{
+			"title": "ninja ken",
+			"sort": "Ninja ken",
+			"japanese": "忍者剣",
+			"translation": "חרב הנינג'ה",
+			"description": "גם נינג'ה טו."
+		},
+		{
+			"title": "ninja tō",
+			"sort": "Ninja to",
+			"japanese": "忍者刀",
+			"translation": "חרב הנינג'ה",
+			"description": "גם נינג'ה קן."
+		},
+		{
+			"title": "ninjutsu",
+			"sort": "Ninjutsu",
+			"japanese": "忍術",
+			"translation": "אמנות הלחימה של הנינג'ה",
+			"description": "שם כולל לכל הריו שבהם עסקו הנינג'ה. לעיתים קרובות הם כוללים טכניקות לחימה לא שגרתיות וסודיות."
+		},
+		{
+			"title": "ninjutsu ka",
+			"sort": "Ninjutsu ka",
+			"japanese": "忍術家",
+			"translation": "מי שעוסק בנינג'יטסו"
+		},
+		{
+			"title": "ninki",
+			"sort": "Ninki",
+			"japanese": "忍器",
+			"translation": "כלי הנינג'ה",
+			"description": "החלק ב<cite>\"באנסנשוקאי\"</cite> המתאר את הציוד. הוא מתחיל בכרך התשיעי ונמשך עד הכרך האחרון."
+		},
+		{
+			"title": "ninniku yoroi",
+			"sort": "Ninniku yoroi",
+			"description": "שם אחר לשינובי שוזוקו, החליפה של הנינג'ה."
+		},
+		{
+			"title": "ninpō",
+			"sort": "Ninpo",
+			"japanese": "忍法",
+			"translation": "אמנויות הנינג'ה",
+			"description": "נינג'יטסו כהשקפת חיים. הנינפו חורג מן הטכניקה ומלמד גם דרך רוחנית."
+		},
+		{
+			"title": "ninpō ikkan",
+			"sort": "Ninpo ikkan",
+			"japanese": "忍法一貫",
+			"translation": "הנינג'יטסו הוא ההתחלה ואין לו סוף"
+		},
+		{
+			"title": "ninpō inu bue",
+			"sort": "Ninpo inu bue",
+			"japanese": "忍法狗笛",
+			"description": "אמנות הנינג'ה באילוף בעלי חיים."
+		},
+		{
+			"title": "ninpō mikkyō",
+			"sort": "Ninpo mikkyo",
+			"japanese": "忍法密教",
+			"description": "התורות הסודיות של הנינג'ה, המבוססות על המיקיו."
+		},
+		{
+			"title": "ninpō sanjūrokkei",
+			"sort": "Ninpo sanjurokkei",
+			"japanese": "忍法三十六計",
+			"description": "36 התחומים שלמד נינג'ה: 18 אמנויות המלחמה של הבוגיי ג'והאפאן ו־18 הטכניקות הסודיות של הנינג'ה ג'והאקיי. הרשימה לא הייתה קבועה; לעיתים קרובות הוסרו ממנה תחומים ונוספו אחרים."
+		},
+		{
+			"title": "ninpō taijutsu",
+			"sort": "Ninpo taijutsu",
+			"japanese": "忍法体術",
+			"description": "הלחימה ללא נשק של הנינג'ה. היא כוללת גם מיומנויות גופניות נוספות, כמו תרגילי נפילה."
+		},
+		{
+			"title": "Nippon",
+			"sort": "Nippon",
+			"japanese": "日本",
+			"translation": "מקור השמש",
+			"description": "יפן. גם ניהון."
+		},
+		{
+			"title": "Nishina Daisuke",
+			"sort": "Nishina Daisuke",
+			"japanese": "仁科大助",
+			"description": "שם הלידה של טוגאקורה דאיסוקה, מייסד הטוגאקורה ריו."
+		},
+		{
+			"title": "nodachi",
+			"sort": "Nodachi",
+			"japanese": "野太刀",
+			"translation": "חרב מלחמה גדולה",
+			"description": "חרב סמוראים ארוכה מאוד, באורך 1–1.80 מטר, שבדרך כלל נשא משרת."
+		},
+		{
+			"title": "nuki ashi",
+			"sort": "Nuki ashi",
+			"japanese": "抜き足",
+			"translation": "צעד שקט"
+		},
+		{
+			"title": "nunchaku",
+			"sort": "Nunchaku",
+			"japanese": "双節棍",
+			"description": "נשק מן הקובודו: שני מקלות עץ המחוברים בשרשרת קצרה או בחוט. ספק רב אם נינג'ה השתמש בו אי־פעם."
+		},
+		{
+			"title": "nuntebō",
+			"sort": "Nuntebo",
+			"description": "רומח דייגים: כלי עבודה של דייגים שאפשר היה להשתמש בו גם כנשק."
+		},
+		{
+			"title": "nyūdaki no jutsu",
+			"sort": "Nyudaki no jutsu",
+			"description": "ניצול חולשותיהם של שומרים, כמו עצלות או טיפשות."
+		},
+		{
+			"title": "nyūkyo no jutsu",
+			"sort": "Nyukyo no jutsu",
+			"translation": "אמנות הפלישה",
+			"description": "המתנה לרגע הנכון כדי לחדור למבצר או למחנה של האויב, למשל כשהצבא יצא למסע מלחמה."
+		},
+		{
+			"title": "ō",
+			"sort": "O",
+			"japanese": "大",
+			"translation": "גדול"
+		},
+		{
+			"title": "ō ashi",
+			"sort": "O ashi",
+			"japanese": "大足",
+			"translation": "צעד גדול"
+		},
+		{
+			"title": "obi",
+			"sort": "Obi",
+			"japanese": "帯",
+			"translation": "חגורה"
+		},
+		{
+			"title": "Oda Nobunaga",
+			"sort": "Oda Nobunaga",
+			"japanese": "織田信長",
+			"description": "שליט צבאי שניסה לתפוס את השלטון ביפן בתקופת סנגוקו. המצביא חסר המעצורים החזיק במרכז יפן, בנה מבצר ליד קיוטו והשתמש בלי היסוס בנשק חם אירופי. אחרי מותו הצליחו הגנרלים שלו לאחד את יפן."
+		},
+		{
+			"title": "ōgama",
+			"sort": "Ogama",
+			"japanese": "大鎌",
+			"translation": "מגל גדול",
+			"description": "גרסה גדולה בהרבה של הקוסאריגאמה, לשדה הקרב."
+		},
+		{
+			"title": "ōkami",
+			"sort": "Okami",
+			"japanese": "狼",
+			"translation": "זאב"
+		},
+		{
+			"title": "Okinawa",
+			"sort": "Okinawa",
+			"japanese": "沖縄",
+			"description": "קבוצת איים בדרום יפן."
+		},
+		{
+			"title": "okuri ashi",
+			"sort": "Okuri ashi",
+			"japanese": "送り足",
+			"translation": "צעד עוקב"
+		},
+		{
+			"title": "ōmetsuke",
+			"sort": "Ometsuke",
+			"japanese": "大目付",
+			"description": "פקידי הבאקופו במשטרת המדינה. תחת פיקודם עמדו הנינג'ה ששירתו במשטרה החשאית אחרי תום מלחמות האזרחים."
+		},
+		{
+			"title": "omote soku gyaku ken no keri",
+			"sort": "Omote soku gyaku ken no keri",
+			"description": "בעיטה שבה כף הרגל מסובבת פנימה. כף הרגל נעה מבחוץ אל קו האמצע שלפני הגוף של הבועט ופוגעת ביריב על הקו הזה, למשל בצד הפנימי של הירך."
+		},
+		{
+			"title": "ongyō no mono",
+			"sort": "Ongyo no mono",
+			"japanese": "隠形の者",
+			"translation": "אנשים נסתרים",
+			"description": "כינוי לנינג'ה מקוגה."
+		},
+		{
+			"title": "ongyō-in",
+			"sort": "Ongyo-in",
+			"japanese": "隠形印",
+			"translation": "סימן הצורה הנסתרת",
+			"description": "סימן היד של זן בקוג'י־אין."
+		},
+		{
+			"title": "oni",
+			"sort": "Oni",
+			"japanese": "鬼",
+			"translation": "שד, שטן, רוח רעה"
+		},
+		{
+			"title": "oni kudaki",
+			"sort": "Oni kudaki",
+			"japanese": "鬼砕",
+			"translation": "מרסק השדים",
+			"description": "נעילת מפרק."
+		},
+		{
+			"title": "onibi",
+			"sort": "Onibi",
+			"translation": "מסכת שטן",
+			"description": "מסכת עץ מבעיתה שבעזרתה הטיל הנינג'ה אימה על רודפיו."
+		},
+		{
+			"title": "onmyōdō",
+			"sort": "Onmyodo",
+			"japanese": "陰陽道",
+			"translation": "ניחוש עתידות ואסטרולוגיה"
+		},
+		{
+			"title": "ono",
+			"sort": "Ono",
+			"japanese": "斧",
+			"translation": "גרזן קרב"
+		},
+		{
+			"title": "ono gama",
+			"sort": "Ono gama",
+			"japanese": "斧鎌",
+			"translation": "גרזן ומגל",
+			"description": "נשק המשלב גרזן קרב ומגל."
+		},
+		{
+			"title": "onshin jutsu",
+			"sort": "Onshin jutsu",
+			"japanese": "隠身術",
+			"translation": "אמנות ההסתתרות",
+			"description": "אמנות הנינג'ה להסתתר, להסוות את עצמו ולהפוך לבלתי נראה."
+		},
+		{
+			"title": "ōten",
+			"sort": "Oten",
+			"japanese": "横転",
+			"translation": "גלגלון"
+		},
+		{
+			"title": "ōtsuchi",
+			"sort": "Otsuchi",
+			"japanese": "大槌",
+			"translation": "פטיש גדול",
+			"description": "פטיש מלחמה, נשק של השינדן פודו ריו."
+		},
+		{
+			"title": "ōzutsu",
+			"sort": "Ozutsu",
+			"japanese": "大筒",
+			"translation": "תותח עץ"
+		},
+		{
+			"title": "rakusha",
+			"sort": "Rakusha",
+			"japanese": "楽者",
+			"translation": "אדם נוח",
+			"description": "עיקרון של הגוג'ו גויוקו המנצל את עצלותו של אדם."
+		},
+		{
+			"title": "rappa",
+			"sort": "Rappa",
+			"japanese": "乱破",
+			"description": "שם אחר לנינג'ה, למשל ללוחמי הגרילה שבפמלייתו של פומה קוטארו. גם סופה."
+		},
+		{
+			"title": "rei",
+			"sort": "Rei",
+			"japanese": "礼",
+			"translation": "ברכה, קידה, תודה"
+		},
+		{
+			"title": "renzoku",
+			"sort": "Renzoku",
+			"japanese": "連続",
+			"translation": "רציפות, צירוף, שרשור"
+		},
+		{
+			"title": "ritsudō",
+			"sort": "Ritsudo",
+			"japanese": "律動",
+			"translation": "קצב, תחושה"
+		},
+		{
+			"title": "roku shaku bō",
+			"sort": "Roku shaku bo",
+			"japanese": "六尺棒",
+			"translation": "מקל באורך שישה שאקו",
+			"description": "הצורה הנפוצה ביותר של הבו, באורך של כ־1.82 מטר. רוקו פירושו שש, ושאקו הוא יחידת אורך יפנית."
+		},
+		{
+			"title": "rōnin",
+			"sort": "Ronin",
+			"japanese": "浪人",
+			"translation": "אנשי הגל",
+			"description": "סמוראי ללא אדון. סמוראים שאיבדו את אדונם (דאימיו) נדדו ברחבי הארץ. חלקם השכירו את עצמם כשכירי חרב, אחרים נעשו מורים לאמנויות לחימה, וחלקם הפכו לשודדים שבזזו איכרים."
+		},
+		{
+			"title": "ryakuhon jutsu",
+			"sort": "Ryakuhon jutsu",
+			"japanese": "略本術",
+			"description": "טקטיקה של צ'יקאירי: הנינג'ה התגנב למחנה האויב והתחזה שם לבן ברית. לשם כך היה עליו להיות מוכר שם כבר ולהכיר היטב את הסביבה."
+		},
+		{
+			"title": "ryō ashi tobi geri",
+			"sort": "Ryo ashi tobi geri",
+			"japanese": "両足飛び蹴り",
+			"translation": "בעיטת זינוק בשתי רגליים",
+			"description": "בעיטת זינוק שבה הלוחם ניתר משתי רגליו ומחזיק אותן צמודות. כל עוצמת הגוף פוגעת ביריב."
+		},
+		{
+			"title": "ryō yoku geri",
+			"sort": "Ryo yoku geri",
+			"translation": "בעיטת כנף בשתי רגליים",
+			"description": "בעיטה שמשמשת בעיקר כשהלוחם קופץ על היריב ממקום גבוה."
+		},
+		{
+			"title": "ryōhan jutsu",
+			"sort": "Ryohan jutsu",
+			"description": "טקטיקה של צ'יקאירי: הנינג'ה חטף דמות מפתח כדי לכפות את דרישותיו. דמויות מפתח אחרות נאלצו לשרת אותו, אחרת הוצא הקורבן להורג."
+		},
+		{
+			"title": "ryōte",
+			"sort": "Ryote",
+			"japanese": "両手",
+			"translation": "שתי ידיים",
+			"description": "בשתי ידיים, למשל בתרגילי נפילה (אוקמי)."
+		},
+		{
+			"title": "Ryū",
+			"sort": "Ryu",
+			"japanese": "流",
+			"translation": "אסכולה, סגנון, מסורת"
+		},
+		{
+			"title": "ryūha",
+			"sort": "Ryuha",
+			"japanese": "流派",
+			"translation": "אסכולה של סגנון או מסורת",
+			"description": "הצורה הארוכה של ריו."
+		},
+		{
+			"title": "ryūsui",
+			"sort": "Ryusui",
+			"japanese": "流水",
+			"translation": "מים זורמים"
+		},
+		{
+			"title": "sabaki",
+			"sort": "Sabaki",
+			"japanese": "捌き",
+			"translation": "תנועת גוף"
+		},
+		{
+			"title": "sai",
+			"sort": "Sai",
+			"japanese": "釵",
+			"description": "נשק מן הקובודו."
+		},
+		{
+			"title": "Saichō",
+			"sort": "Saicho",
+			"japanese": "最澄",
+			"description": "שם אחר לדנגיו דאישי."
+		},
+		{
+			"title": "Saiga Magoichi",
+			"sort": "Saiga Magoichi",
+			"japanese": "雑賀孫一",
+			"description": "מנהיג רובאי סאיקה, שנמנה לעיתים קרובות עם הנינג'ה, ובעל כישורים מיוחדים בנשק חם ובחומרי נפץ. אנשיו היו צלפים טובים. הוא פיתח את השאקי נו ג'וטסו."
+		},
+		{
+			"title": "saimin jutsu",
+			"sort": "Saimin jutsu",
+			"japanese": "催眠術",
+			"translation": "אמנות ההיפנוזה"
+		},
+		{
+			"title": "sake",
+			"sort": "Sake",
+			"japanese": "酒",
+			"translation": "יין אורז, אלכוהול"
+		},
+		{
+			"title": "sakki",
+			"sort": "Sakki",
+			"japanese": "殺気",
+			"translation": "כוונת הריגה",
+			"description": "על שמה נקרא בבוג'ינקאן המבחן לדאן החמישי: התלמיד צריך להתחמק מחרב בלי לראות אותה. האצומי מאסאקי עבר אותו אצל טאקאמאצו טושיצוגו."
+		},
+		{
+			"title": "sakki jutsu",
+			"sort": "Sakki jutsu",
+			"japanese": "察気術",
+			"translation": "אמנות ניחוש המחשבה",
+			"description": "ראייה אינטואיטיבית המאפשרת ללוחם להתחמק ממכה עוד לפני שהונחתה."
+		},
+		{
+			"title": "samurai",
+			"sort": "Samurai",
+			"japanese": "侍",
+			"description": "מעמד הלוחמים היפני."
+		},
+		{
+			"title": "san shaku bō",
+			"sort": "San shaku bo",
+			"japanese": "三尺棒",
+			"translation": "מקל באורך שלושה שאקו",
+			"description": "מקל באורך שלושה שאקו, כ־91 סנטימטר. שם אחר שלו הוא האנבו."
+		},
+		{
+			"title": "san shitan ken",
+			"sort": "San shitan ken",
+			"japanese": "三指端拳",
+			"description": "גרסה של השיטאן קן בשלוש אצבעות."
+		},
+		{
+			"title": "sanmitsu",
+			"sort": "Sanmitsu",
+			"japanese": "三密",
+			"translation": "שלושת הסודות",
+			"description": "שלושת הכוחות של המיקיו: מחשבה, מילה ומעשה. המנדלה, המנטרה והמודרה מייצגות אותם."
+		},
+		{
+			"title": "sanmyaku",
+			"sort": "Sanmyaku",
+			"japanese": "山脈",
+			"translation": "רכס הרים",
+			"description": "שמו של כתב העת הרשמי של הבוג'ינקאן."
+		},
+		{
+			"title": "sanpō hiden",
+			"sort": "Sanpo hiden",
+			"japanese": "三法秘伝",
+			"description": "שלושת האוצרות הסודיים של הטוגאקורה ריו: כוכב ההטלה סנבאן שוריקן, הטפרים שוקו וצינור הבמבוק שינדאקה."
+		},
+		{
+			"title": "sansa jutsu",
+			"sort": "Sansa jutsu",
+			"japanese": "散策術",
+			"description": "טכניקות הריצה של הנינג'ה."
+		},
+		{
+			"title": "sanshin no kata",
+			"sort": "Sanshin no kata",
+			"japanese": "三心の型",
+			"translation": "צורת שלושת הלבבות"
+		},
+		{
+			"title": "sashi ashi",
+			"sort": "Sashi ashi",
+			"japanese": "差し足",
+			"translation": "צעדים נסתרים",
+			"description": "צעד מוצלב."
+		},
+		{
+			"title": "satobito jutsu",
+			"sort": "Satobito jutsu",
+			"japanese": "里人術",
+			"description": "טקטיקה של טואירי: הנינג'ה גייס נתין ממורמר, חמדן או שאפתן של השליט האויב. אנשים כאלה סיפקו מידע, שמרו על נתיבי מילוט פתוחים או סיפקו חומרים."
+		},
+		{
+			"title": "satori",
+			"sort": "Satori",
+			"japanese": "悟り",
+			"translation": "תפיסה, הבנה, הארה"
+		},
+		{
+			"title": "saya",
+			"sort": "Saya",
+			"japanese": "鞘",
+			"translation": "נדן"
+		},
+		{
+			"title": "sayū kaiten",
+			"sort": "Sayu kaiten",
+			"japanese": "左右廻転",
+			"translation": "גלגול שמאלה וימינה"
+		},
+		{
+			"title": "seigan no kamae",
+			"sort": "Seigan no kamae",
+			"japanese": "正眼の構え",
+			"description": "עמידה המכוונת אל עיני היריב."
+		},
+		{
+			"title": "Seii taishōgun",
+			"sort": "Seii taishogun",
+			"japanese": "征夷大将軍",
+			"translation": "שוגון המכניע את הברברים",
+			"description": "במקור תוארו של המפקד העליון של הצבא, ומאוחר יותר קוצר לשוגון."
+		},
+		{
+			"title": "seishin teki kyōyō",
+			"sort": "Seishin teki kyoyo",
+			"japanese": "精神的教養",
+			"translation": "פיתוח הרוח והאינטואיציה",
+			"description": "הראשונה מבין 18 הדיסציפלינות של הנינג'ה ג'והאקיי."
+		},
+		{
+			"title": "seiza no kamae",
+			"sort": "Seiza no kamae",
+			"japanese": "正座の構え",
+			"translation": "תנוחת הישיבה הנכונה",
+			"description": "ישיבה על הברכיים, עמידה (קאמאה) של הנינג'יטסו."
+		},
+		{
+			"title": "Sekigahara",
+			"sort": "Sekigahara",
+			"japanese": "関ヶ原",
+			"description": "כפר קטן בפרובינציית מינו, שלידו השיג טוקוגאווה איאיאסו את הניצחון הסופי על אויביו."
+		},
+		{
+			"title": "senban",
+			"sort": "Senban",
+			"japanese": "銛盤",
+			"description": "כוכב הטלה (שוריקן) בעל ארבעה חודים."
+		},
+		{
+			"title": "senban shaken",
+			"sort": "Senban shaken",
+			"japanese": "銛盤捨剣",
+			"description": "כוכב הטלה (שוריקן) ובמרכזו חור."
+		},
+		{
+			"title": "Sengoku jidai",
+			"sort": "Sengoku jidai",
+			"japanese": "戦国時代",
+			"translation": "תקופת המדינות הלוחמות",
+			"description": "תקופת מלחמות האזרחים העקובות מדם ביפן, בערך 1467–1615."
+		},
+		{
+			"title": "senjō jutsu",
+			"sort": "Senjo jutsu",
+			"japanese": "戦場術",
+			"translation": "אמנות שדה הקרב",
+			"description": "תמרון כוחות."
+		},
+		{
+			"title": "senjutsu",
+			"sort": "Senjutsu",
+			"japanese": "戦術",
+			"translation": "אמנות המלחמה",
+			"description": "אסטרטגיה צבאית."
+		},
+		{
+			"title": "sennin",
+			"sort": "Sennin",
+			"japanese": "仙人",
+			"translation": "סגפן בשממה"
+		},
+		{
+			"title": "sensei",
+			"sort": "Sensei",
+			"japanese": "先生",
+			"translation": "מי שנולד קודם",
+			"description": "מורה."
+		},
+		{
+			"title": "sha",
+			"sort": "Sha",
+			"japanese": "者",
+			"translation": "אדם"
+		},
+		{
+			"title": "shaken",
+			"sort": "Shaken",
+			"japanese": "車剣",
+			"description": "כוכב הטלה (שוריקן) רב־חודים."
+		},
+		{
+			"title": "shaki no jutsu",
+			"sort": "Shaki no jutsu",
+			"japanese": "捨旗の術",
+			"translation": "השלכת הדגלים",
+			"description": "תכסיס של סאיגה מאגואיצ'י בקרב נאניווה קאנזאקיגאווה: אנשיו השאירו מאחור את דגליהם ותפסו את עמדתם החדשה תחת דגלים מזויפים של אודה נובונאגה, שחייליו חשבו אותם לבני ברית."
+		},
+		{
+			"title": "shako ken",
+			"sort": "Shako ken",
+			"japanese": "蝦蛄拳",
+			"translation": "אגרוף הסרטן"
+		},
+		{
+			"title": "shaku",
+			"sort": "Shaku",
+			"japanese": "尺",
+			"description": "יחידת אורך יפנית. שאקו אחד הוא 30.3 סנטימטר (10/33 מטר)."
+		},
+		{
+			"title": "shakuhachi",
+			"sort": "Shakuhachi",
+			"japanese": "尺八",
+			"description": "חליל של הקומוסו. השם פירושו <q>שאקו אחד ושמונה סון</q>, כלומר כ־54.5 סנטימטר; לחליל הרגיל חמישה חורי אצבע."
+		},
+		{
+			"title": "shakujō",
+			"sort": "Shakujo",
+			"japanese": "錫杖",
+			"translation": "מטה בדיל",
+			"description": "מטה כוהנים ובקצהו טבעות. צלצולן בזמן ההליכה נועד לגרש זוחלים מן הדרך, כדי שהנזירים הבודהיסטים יוכלו לקיים את מצוות אי־ההרג."
+		},
+		{
+			"title": "shi shitan ken",
+			"sort": "Shi shitan ken",
+			"japanese": "四指端拳",
+			"description": "גרסה של השיטאן קן, הנתמכת באגודל."
+		},
+		{
+			"title": "shiatsu",
+			"sort": "Shiatsu",
+			"japanese": "指圧",
+			"translation": "לחץ אצבעות",
+			"description": "עיסוי יפני שלפי הטענה מקל על עילפון ועל מכאובים אחרים או מרפא אותם בלחיצה על נקודות מסוימות בגוף."
+		},
+		{
+			"title": "shiba gakure no jutsu",
+			"sort": "Shiba gakure no jutsu",
+			"japanese": "柴隠れの術",
+			"description": "טכניקה של אונשין ג'וטסו ממסורות איגה וקוגה: הסתתרות בסבך צפוף, בעשב גבוה או בערימות זרדים."
+		},
+		{
+			"title": "shichi hō de",
+			"sort": "Shichi ho de",
+			"japanese": "七方出",
+			"translation": "שבע דרכי ההליכה",
+			"description": "שבע התחפושות המסורתיות של הנינג'ה."
+		},
+		{
+			"title": "shidōshi",
+			"sort": "Shidoshi",
+			"japanese": "指導士",
+			"translation": "מי שמורה את הדרך",
+			"description": "מורה של אמנות הלוחם של ההארה."
+		},
+		{
+			"title": "shihan",
+			"sort": "Shihan",
+			"japanese": "師範",
+			"translation": "מורה בכיר",
+			"description": "ב־1695 מינה הקיסר היגאשייאמה את טאקאגי אוריאמון שיגנובו לשיהאן של משמר הקיסר."
+		},
+		{
+			"title": "shihō tenchi tobi",
+			"sort": "Shiho tenchi tobi",
+			"japanese": "四方天地飛",
+			"translation": "קפיצה לארבעה כיוונים, אל השמיים ואל האדמה"
+		},
+		{
+			"title": "shikan ken",
+			"sort": "Shikan ken",
+			"japanese": "指環拳",
+			"translation": "אגרוף טבעת האצבע"
+		},
+		{
+			"title": "shiken haramitsu daikōmyō",
+			"sort": "Shiken haramitsu daikomyo",
+			"japanese": "四拳波羅蜜大光明",
+			"description": "מילים הנאמרות בתחילת אימון. בפישוט רב פירושן <q>אנו מבקשים הגנה והארה</q>."
+		},
+		{
+			"title": "shikomizue",
+			"sort": "Shikomizue",
+			"japanese": "仕込み杖",
+			"translation": "מקל חרב",
+			"description": "חרב המוסתרת בתוך מטה."
+		},
+		{
+			"title": "shikoro",
+			"sort": "Shikoro",
+			"japanese": "錏",
+			"description": "מסור דק שבעזרתו עברו הנינג'ה דרך קירות ודלתות עץ."
+		},
+		{
+			"title": "Shimabara no ran",
+			"sort": "Shimabara no ran",
+			"japanese": "島原の乱",
+			"translation": "מרד שימאבארה",
+			"description": "התקוממות הנוצרים בשנים 1637–1638 בחצי האי שימאבארה. למעשה היה זה מרד איכרים, ששימש עילה לרדיפת הנוצרים."
+		},
+		{
+			"title": "shime ashi",
+			"sort": "Shime ashi",
+			"japanese": "締め足",
+			"translation": "צעד יציב"
+		},
+		{
+			"title": "shime waza",
+			"sort": "Shime waza",
+			"japanese": "絞め技",
+			"translation": "חניקות"
+		},
+		{
+			"title": "shinai",
+			"sort": "Shinai",
+			"japanese": "竹刀",
+			"translation": "חרב במבוק",
+			"description": "חרב העשויה מכמה מקלות במבוק, המוחזקים יחד ונמתחים בעור ובחוטים. משתמשים בה בקנדו."
+		},
+		{
+			"title": "shinbō",
+			"sort": "Shinbo",
+			"japanese": "神棒",
+			"translation": "מטה האלים",
+			"description": "נשק אגרוף ובו טבעת לאצבע האמצעית."
+		},
+		{
+			"title": "Shinden-Fudō-Ryū",
+			"sort": "Shinden-Fudo-Ryu",
+			"japanese": "神伝不動流",
+			"translation": "אסכולת הלב שאינו זז",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "shingitai",
+			"sort": "Shingitai",
+			"japanese": "心技体",
+			"translation": "לב, טכניקה, גוף",
+			"description": "אחד העקרונות החשובים ביותר באמנויות הלחימה."
+		},
+		{
+			"title": "Shingon",
+			"sort": "Shingon",
+			"japanese": "真言",
+			"translation": "אסכולת המילה האמיתית",
+			"description": "כת בודהיסטית שייסד קובו דאישי."
+		},
+		{
+			"title": "shinken gata taihen jutsu",
+			"sort": "Shinken gata taihen jutsu",
+			"japanese": "真剣型体変術",
+			"translation": "צורה עם להב אמיתי"
+		},
+		{
+			"title": "shinobi",
+			"sort": "Shinobi",
+			"japanese": "忍び",
+			"translation": "התגנבות פנימה, ריגול, כניסה בחשאי, סבלנות",
+			"description": "צורה מקוצרת של נינג'ה."
+		},
+		{
+			"title": "shinobi bune",
+			"sort": "Shinobi bune",
+			"japanese": "忍び舟",
+			"translation": "סירה סודית",
+			"description": "סירה קלה וצרה."
+		},
+		{
+			"title": "shinobi iri",
+			"sort": "Shinobi iri",
+			"japanese": "忍び入り",
+			"translation": "כניסה סודית",
+			"description": "טכניקות הנינג'ה לנוע בשקט."
+		},
+		{
+			"title": "shinobi jutsu",
+			"sort": "Shinobi jutsu",
+			"japanese": "忍び術",
+			"translation": "אמנויות סודיות",
+			"description": "שם כולל לאמנויות השונות של הנינג'ה."
+		},
+		{
+			"title": "shinobi kai",
+			"sort": "Shinobi kai",
+			"japanese": "忍び櫂",
+			"translation": "משוט סודי",
+			"description": "מקל במבוק חלול ובתוכו חלקי ברזל שאפשר היה להרכיב מהם במהירות משוט."
+		},
+		{
+			"title": "shinobi katana",
+			"sort": "Shinobi katana",
+			"japanese": "忍び刀",
+			"translation": "חרב סודית",
+			"description": "חרב הנינג'ה."
+		},
+		{
+			"title": "shinobi kenpō",
+			"sort": "Shinobi kenpo",
+			"japanese": "忍び剣法",
+			"translation": "שיטות חרב סודיות",
+			"description": "אמנות החרב של הנינג'ה."
+		},
+		{
+			"title": "shinobi no buki",
+			"sort": "Shinobi no buki",
+			"japanese": "忍びの武器",
+			"translation": "כלי מלחמה סודיים",
+			"description": "כלי הנשק של הנינג'ה."
+		},
+		{
+			"title": "shinobi no jutsu",
+			"sort": "Shinobi no jutsu",
+			"japanese": "忍びの術",
+			"translation": "אמנות סודית",
+			"description": "שם כולל לאמנויות השונות של הנינג'ה. לפי המסורת נוצר השם בימי שוטוקו טאישי."
+		},
+		{
+			"title": "shinobi shobō",
+			"sort": "Shinobi shobo",
+			"japanese": "忍び小棒",
+			"translation": "מקל קטן סודי",
+			"description": "נשק אגרוף ומבשרו של האגרופן: האצבע האמצעית עוברת בטבעת פלדה, ושאר הנשק מוסתר באגרוף."
+		},
+		{
+			"title": "shinobi shōzoku",
+			"sort": "Shinobi shozoku",
+			"japanese": "忍び装束",
+			"translation": "צרור בגדים סודי",
+			"description": "חליפת הלחימה הכהה של הנינג'ה, בחורף אפורה בהירה או לבנה. גם נינניקו יורואי."
+		},
+		{
+			"title": "shinobi tantō",
+			"sort": "Shinobi tanto",
+			"japanese": "忍び短刀",
+			"translation": "חרב קצרה סודית",
+			"description": "פגיון (טאנטו) המוסתר בתוך מטה."
+		},
+		{
+			"title": "shinobi yari",
+			"sort": "Shinobi yari",
+			"japanese": "忍び槍",
+			"description": "חנית הנינג'ה."
+		},
+		{
+			"title": "shinobi zue",
+			"sort": "Shinobi zue",
+			"japanese": "忍び杖",
+			"translation": "מטה סודי",
+			"description": "מקל במבוק חלול ובו הוסתרו כלי נשק או אבקת סנוור."
+		},
+		{
+			"title": "shinobu",
+			"sort": "Shinobu",
+			"japanese": "忍",
+			"translation": "התמדה, סבלנות, אורך רוח, שליטה עצמית, לסבול, להסתיר, מרגל, להתגנב"
+		},
+		{
+			"title": "Shintō",
+			"sort": "Shinto",
+			"japanese": "神道",
+			"translation": "דרך האלים",
+			"description": "דת יפנית הרואה רוחות עליונות בכל צורות הקיום. נקראת גם <q>שינטואיזם</q>."
+		},
+		{
+			"title": "shishi undō",
+			"sort": "Shishi undo",
+			"japanese": "四肢運動",
+			"translation": "תנועת ארבע הגפיים",
+			"description": "תנועת הידיים והרגליים."
+		},
+		{
+			"title": "shishin ken",
+			"sort": "Shishin ken",
+			"japanese": "指針拳",
+			"translation": "אגרוף מחט האצבע"
+		},
+		{
+			"title": "shitan ken",
+			"sort": "Shitan ken",
+			"japanese": "指端拳",
+			"translation": "אגרוף קצות האצבעות"
+		},
+		{
+			"title": "shitō ken",
+			"sort": "Shito ken",
+			"japanese": "指刀拳",
+			"translation": "אגרוף חרב האצבע"
+		},
+		{
+			"title": "shizen ken",
+			"sort": "Shizen ken",
+			"japanese": "自然拳",
+			"translation": "כלי נשק טבעיים",
+			"description": "כלי הנשק הטבעיים של הגוף, כמו הכתף, משקל הגוף או הציפורניים."
+		},
+		{
+			"title": "shizen kōun ryūsui",
+			"sort": "Shizen koun ryusui",
+			"japanese": "自然行雲流水",
+			"translation": "ללכת באופן טבעי עם הגאות והשפל"
+		},
+		{
+			"title": "shizen no kamae",
+			"sort": "Shizen no kamae",
+			"japanese": "自然の構え",
+			"translation": "עמידה טבעית",
+			"description": "עמידה (קאמאה) של הנינג'יטסו."
+		},
+		{
+			"title": "shizentai",
+			"sort": "Shizentai",
+			"japanese": "自然体",
+			"translation": "גוף טבעי",
+			"description": "עמידה רפויה וטבעית."
+		},
+		{
+			"title": "shō",
+			"sort": "Sho",
+			"japanese": "小",
+			"translation": "קטן"
+		},
+		{
+			"title": "shobō",
+			"sort": "Shobo",
+			"japanese": "小棒",
+			"translation": "מקל קטן",
+			"description": "נשק אגרוף."
+		},
+		{
+			"title": "shōgun",
+			"sort": "Shogun",
+			"japanese": "将軍",
+			"translation": "גנרל הכוחות",
+			"description": "המפקד הצבאי של יפן."
+		},
+		{
+			"title": "shoshin go gata",
+			"sort": "Shoshin go gata",
+			"japanese": "初心五型",
+			"translation": "חמש הצורות של תודעת המתחיל"
+		},
+		{
+			"title": "shōten",
+			"sort": "Shoten",
+			"japanese": "昇天",
+			"description": "ריצה במעלה משטחים אנכיים, תרגיל של אוקמי."
+		},
+		{
+			"title": "shōten no jutsu",
+			"sort": "Shoten no jutsu",
+			"japanese": "昇天の術",
+			"translation": "אמנות הטיפוס אל השמיים",
+			"description": "ריצה במעלה קיר, גדר, עץ או אדם. בתנופה מספקת קופצים אל המכשול, נדחפים מעלה ברגליים ומזנקים מעליו. תרגיל מן האימון המודרני, גם שוטן ג'וטסו."
+		},
+		{
+			"title": "Shōtoku Taishi",
+			"sort": "Shotoku Taishi",
+			"japanese": "聖徳太子",
+			"description": "נסיך עוצר (574–622). לפי המסורת היה הראשון שהפעיל סוכנים כדי לגלות את האמת שמאחורי סכסוכים."
+		},
+		{
+			"title": "shu ken",
+			"sort": "Shu ken",
+			"translation": "אגרוף המקור"
+		},
+		{
+			"title": "shugendō",
+			"sort": "Shugendo",
+			"japanese": "修験道",
+			"translation": "הדרך לבחון את עצמך",
+			"description": "תורה אזוטרית וצורת סגפנות שבהן עסקו בעיקר היאמאבושי."
+		},
+		{
+			"title": "shuki ken",
+			"sort": "Shuki ken",
+			"japanese": "手起拳",
+			"translation": "אגרוף המרפק"
+		},
+		{
+			"title": "shukō",
+			"sort": "Shuko",
+			"japanese": "手鉤",
+			"translation": "טופר יד",
+			"description": "טפרים לטיפוס וללחימה, אחד משלושת האוצרות הסודיים של הטוגאקורה ריו. גם טקאגי."
+		},
+		{
+			"title": "shuriken",
+			"sort": "Shuriken",
+			"japanese": "手裏剣",
+			"translation": "להב כף היד",
+			"description": "להבי ההטלה של הנינג'ה, בכל הצורות והגדלים."
+		},
+		{
+			"title": "shutō ken",
+			"sort": "Shuto ken",
+			"japanese": "手刀拳",
+			"description": "מכה בצד כף היד, אותה מכה כמו קיטן קן."
+		},
+		{
+			"title": "sodezutsu",
+			"sort": "Sodezutsu",
+			"japanese": "袖筒",
+			"description": "תותח יד."
+		},
+		{
+			"title": "sōhei",
+			"sort": "Sohei",
+			"japanese": "僧兵",
+			"translation": "נזירים לוחמים בודהיסטים",
+			"description": "נזירים לוחמים ושכירי חרב בשירות מנזרים."
+		},
+		{
+			"title": "sōke",
+			"sort": "Soke",
+			"japanese": "宗家",
+			"translation": "ראש המשפחה, מייסד",
+			"description": "ראש של ריו."
+		},
+		{
+			"title": "sokki ken",
+			"sort": "Sokki ken",
+			"japanese": "足起拳",
+			"translation": "אגרוף הברך"
+		},
+		{
+			"title": "soku gyaku ken",
+			"sort": "Soku gyaku ken",
+			"japanese": "足逆拳",
+			"translation": "כף רגל הפוכה",
+			"description": "בעיטה בקצות אצבעות הרגליים אל מטרות רכות כמו הבטן או הצוואר; מונח מן הבוג'ינקאן."
+		},
+		{
+			"title": "soku yaku ken",
+			"sort": "Soku yaku ken",
+			"japanese": "足躍拳",
+			"translation": "כף רגל רוקדת",
+			"description": "בעיטה בעקב ובכף הרגל אל מטרות רכות למחצה או קשות, למשל מלמעלה אל הברך; מונח מן הבוג'ינקאן."
+		},
+		{
+			"title": "sokuhō geri",
+			"sort": "Sokuho geri",
+			"japanese": "側方蹴り",
+			"translation": "בעיטה צידית",
+			"description": "בעיטה שבה הרגל נשלחת הצידה בזמן שפלג הגוף העליון נשאר מופנה קדימה."
+		},
+		{
+			"title": "sokuhō kaiten",
+			"sort": "Sokuho kaiten",
+			"japanese": "側方回転",
+			"translation": "גלגול צידי"
+		},
+		{
+			"title": "sokuhō kiten",
+			"sort": "Sokuho kiten",
+			"japanese": "側方起転",
+			"description": "גלגלון צידי על הידיים, תרגיל של אוקמי."
+		},
+		{
+			"title": "sokuhō tobi",
+			"sort": "Sokuho tobi",
+			"japanese": "側方飛び",
+			"translation": "קפיצה הצידה",
+			"description": "קפיצה נמוכה הצידה, תרגיל של אוקמי."
+		},
+		{
+			"title": "sokuhō ukemi",
+			"sort": "Sokuho ukemi",
+			"japanese": "側方受身",
+			"translation": "נפילה צידית"
+		},
+		{
+			"title": "sokuyaku suitei ken",
+			"sort": "Sokuyaku suitei ken",
+			"translation": "בעיטה אופקית",
+			"description": "הרגל בועטת קדימה באופן אופקי, וכף הרגל פוגעת במטרה מהצד."
+		},
+		{
+			"title": "Sonshi",
+			"sort": "Sonshi",
+			"japanese": "孫子",
+			"description": "השם היפני של סון דזה, שלפי המסורת כתב את <cite>\"אמנות המלחמה\"</cite> במאה ה־6 לפני הספירה. החיבור הגיע ליפן מוקדם, ולפי הטענה עיצב את ראשית הנינג'יטסו."
+		},
+		{
+			"title": "soshin sosoku hō",
+			"sort": "Soshin sosoku ho",
+			"japanese": "早心早速法",
+			"translation": "שיטות לתנועה מהירה"
+		},
+		{
+			"title": "Sugitani Zenjūbō",
+			"sort": "Sugitani Zenjubo",
+			"japanese": "杉谷善住坊",
+			"description": "נינג'ה מפורסם שניסה ב־1570 להרוג את אודה נובונאגה בשני כדורים. שניהם פגעו רק במגן הכתף שלו."
+		},
+		{
+			"title": "sui",
+			"sort": "Sui",
+			"japanese": "水",
+			"translation": "מים"
+		},
+		{
+			"title": "sui no kata",
+			"sort": "Sui no kata",
+			"japanese": "水の型",
+			"translation": "צורת המים"
+		},
+		{
+			"title": "suikatsugan",
+			"sort": "Suikatsugan",
+			"japanese": "水渇丸",
+			"translation": "גלולת צמא",
+			"description": "גלולה נגד צמא מבשר שזיפים כבושים, סוכר ושורש אופיופוגון; המתכון שלה מתועד ב<cite>\"באנסנשוקאי\"</cite>. היא שמרה על הפה והגרון לחים."
+		},
+		{
+			"title": "suiki",
+			"sort": "Suiki",
+			"japanese": "水器",
+			"translation": "כלי מים",
+			"description": "פרק בכרך התשיעי של <cite>\"באנסנשוקאי\"</cite> על ציוד המים. הוא מבוסס במידה רבה על עצות של שודדי ים ומראה כיצד לחצות נהרות או לנוע מתחת למים."
+		},
+		{
+			"title": "suiren",
+			"sort": "Suiren",
+			"japanese": "水練",
+			"translation": "אימון מים",
+			"description": "שהייה ותנועה מתחת למים."
+		},
+		{
+			"title": "suiton",
+			"sort": "Suiton",
+			"japanese": "水遁",
+			"description": "בריחה בעזרת מים, אחת מחמש השיטות של הגוטונפו."
+		},
+		{
+			"title": "suiton jutsu",
+			"sort": "Suiton jutsu",
+			"japanese": "水遁術",
+			"translation": "טכניקת בריחה במים",
+			"description": "טכניקת בריחה של הגוטונפו, המשתמשת במים כאמצעי בריחה."
+		},
+		{
+			"title": "suppa",
+			"sort": "Suppa",
+			"japanese": "透波",
+			"description": "שם אחר לנינג'ה, למשל ללוחמי הגרילה שבפמלייתו של פומה קוטארו או ששירתו את משפחת טקדה. גם ראפה."
+		},
+		{
+			"title": "tabi",
+			"sort": "Tabi",
+			"japanese": "足袋",
+			"translation": "שק רגל",
+			"description": "גרבי אצבעות יפניות, שבהן הבוהן הגדולה מופרדת משאר האצבעות."
+		},
+		{
+			"title": "tachi",
+			"sort": "Tachi",
+			"japanese": "太刀",
+			"translation": "חרב ארוכה",
+			"description": "חרב הדומה לקטאנה, בדרך כלל מעוקלת יותר, שנישאה בשדה הקרב. מעוטרת לצורכי טקס ומעובדת באומנות רבה."
+		},
+		{
+			"title": "tachi nagare",
+			"sort": "Tachi nagare",
+			"japanese": "立ち流れ",
+			"translation": "זרימה מעמידה",
+			"description": "צורה של נאגארה: נפילה לאחור מעמידה."
+		},
+		{
+			"title": "tai",
+			"sort": "Tai",
+			"japanese": "体",
+			"translation": "גוף, בריאות"
+		},
+		{
+			"title": "tai ken",
+			"sort": "Tai ken",
+			"japanese": "体拳",
+			"translation": "אגרוף הגוף"
+		},
+		{
+			"title": "tai sabaki",
+			"sort": "Tai sabaki",
+			"japanese": "体捌き",
+			"translation": "הובלת הגוף",
+			"description": "תנועת הגו."
+		},
+		{
+			"title": "taihen jutsu",
+			"sort": "Taihen jutsu",
+			"japanese": "体変術",
+			"translation": "אומנות שינוי הגוף",
+			"description": "חלק מטאיג'וטסו: עמידות, תנוחות, תנועות וטכניקות נפילה."
+		},
+		{
+			"title": "taijutsu",
+			"sort": "Taijutsu",
+			"japanese": "体術",
+			"translation": "אומנות הגוף",
+			"description": "הלחימה ללא נשק."
+		},
+		{
+			"title": "taikai",
+			"sort": "Taikai",
+			"japanese": "大会",
+			"translation": "מפגש גדול",
+			"description": "מפגש של לוחמים באירועים."
+		},
+		{
+			"title": "Taira",
+			"sort": "Taira",
+			"japanese": "平",
+			"description": "משפחה מפורסמת, המכונה גם הייקה, שנלחמה במינאמוטו."
+		},
+		{
+			"title": "taizōkai mandara",
+			"sort": "Taizokai mandara",
+			"japanese": "胎蔵界曼荼羅",
+			"translation": "מנדלת עולם הרחם",
+			"description": "בסאנמיצו היא מייצגת את העולם החומרי, <q>עולם הקרקע הפורייה</q>."
+		},
+		{
+			"title": "taka bashigo",
+			"sort": "Taka bashigo",
+			"japanese": "高梯子",
+			"translation": "סולם גבוה",
+			"description": "סולם שבעזרתו חצו הנינג'ה תהומות. חבל נוסף חיזק את אמצעו."
+		},
+		{
+			"title": "Takagi-Yōshin-Ryū",
+			"sort": "Takagi-Yoshin-Ryu",
+			"japanese": "高木楊心流",
+			"translation": "האסכולה של העץ הגבוה ורוח הערבה",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "Takamatsu Toshitsugu",
+			"sort": "Takamatsu Toshitsugu",
+			"japanese": "高松寿嗣",
+			"description": "מורה לסגנונות נינג'יטסו שונים ורבו של האצומי מאסאקי. לכבודו נקרא אוסף תשעת הריו <q>בוג'ינקאן</q>."
+		},
+		{
+			"title": "Takeda Shingen",
+			"sort": "Takeda Shingen",
+			"japanese": "武田信玄",
+			"description": "מצביא מפורסם (דאימיו) שניהל שורה של מלחמות בתקופת סנגוקו."
+		},
+		{
+			"title": "tanagokoro",
+			"sort": "Tanagokoro",
+			"japanese": "掌",
+			"translation": "כף יד",
+			"description": "לפיד כף יד, שהועיל במיוחד לפריצת מנעולי דלתות."
+		},
+		{
+			"title": "tanegashima",
+			"sort": "Tanegashima",
+			"japanese": "種子島",
+			"translation": "מנגנון פתיל, ארקבוס, רובה וו",
+			"description": "ארקבוס שהפורטוגזים הביאו ליפן. גם טפו."
+		},
+		{
+			"title": "tantō",
+			"sort": "Tanto",
+			"japanese": "短刀",
+			"translation": "חרב קטנה",
+			"description": "פגיון."
+		},
+		{
+			"title": "tantōjutsu",
+			"sort": "Tantojutsu",
+			"japanese": "短刀術",
+			"translation": "אומנות הפגיון",
+			"description": "טכניקות של לחימה בסכין."
+		},
+		{
+			"title": "tantra",
+			"sort": "Tantra",
+			"sanskrit": "तन्त्र",
+			"translation": "אריג, רצף, קשר",
+			"description": "זרם בפילוסופיה ובדת של הודו, במקורו צורה אזוטרית של ההינדואיזם, ולימים אומץ בבודהיזם הטיבטי."
+		},
+		{
+			"title": "tanuki gakure no jutsu",
+			"sort": "Tanuki gakure no jutsu",
+			"japanese": "狸隠",
+			"translation": "אומנות ההסתתרות כמו כלב רקון",
+			"description": "טכניקת טיפוס של הנינג'ה: טיפוס על עצים ועל עמודים והסתתרות בגובה."
+		},
+		{
+			"title": "taru ikada",
+			"sort": "Taru ikada",
+			"japanese": "樽筏",
+			"translation": "רפסודת חביות",
+			"description": "כלי מים של הנינג'ה משתי חביות: בכל אחת הייתה רגל אחת, והנינג'ה נע על פני המים בעזרת משוט. גם אוקי דארו."
+		},
+		{
+			"title": "tatami",
+			"sort": "Tatami",
+			"japanese": "畳",
+			"translation": "מחצלות קש אורז",
+			"description": "חיפוי רצפה בבתים יפניים ובדוג'ו."
+		},
+		{
+			"title": "tatami bune",
+			"sort": "Tatami bune",
+			"translation": "סירה מתקפלת",
+			"description": "שם אחר להאסאמי בונה."
+		},
+		{
+			"title": "tatami gama",
+			"sort": "Tatami gama",
+			"translation": "מגל מתקפל",
+			"description": "מגל (קמה) עם ידית עץ, שאת להבו המעוקל אפשר לפתוח. השם הוא תיאור מודרני ואינו מופיע בספרי ההדרכה של הנינג'ה."
+		},
+		{
+			"title": "tebukuro",
+			"sort": "Tebukuro",
+			"japanese": "手袋",
+			"translation": "מגן יד",
+			"description": "פריט לבוש שכיסה את גב כפות הידיים ואת האמות של הנינג'ה."
+		},
+		{
+			"title": "tekagi",
+			"sort": "Tekagi",
+			"japanese": "手鉤",
+			"translation": "טופר יד",
+			"description": "גם שוקו."
+		},
+		{
+			"title": "tekken",
+			"sort": "Tekken",
+			"japanese": "鉄拳",
+			"description": "אגרופן. גם טקו."
+		},
+		{
+			"title": "tekkō",
+			"sort": "Tekko",
+			"japanese": "鉄甲",
+			"description": "אגרופן. גם טקן."
+		},
+		{
+			"title": "ten",
+			"sort": "Ten",
+			"japanese": "天",
+			"translation": "שמיים"
+		},
+		{
+			"title": "Ten ryaku no maki",
+			"sort": "Ten ryaku no maki",
+			"japanese": "天略の巻",
+			"translation": "מגילת האסטרטגיות השמימיות"
+		},
+		{
+			"title": "Tendai",
+			"sort": "Tendai",
+			"japanese": "天台",
+			"translation": "במה שמימית",
+			"description": "כת בודהיסטית אזוטרית של המיקיו, שייסד ביפן דנגיו דאישי. מרכזה היה מנזר אנריאקוג'י על הר היאיי."
+		},
+		{
+			"title": "tengu",
+			"sort": "Tengu",
+			"japanese": "天狗",
+			"translation": "כלב שמיים",
+			"description": "יצורים מיתיים של המסורת היפנית שחיו בהרים: עם מקורי עורב וכנפיים (קאראסו טנגו או קו טנגו) או בדמות אדם עם אף אדום וארוך (דאי טנגו). בחלק מהמקרים נחשבו למגינים, ובחלק לטרדנים ולמסוכנים. לפי האגדה היו אמני לחימה, ולעתים קרובות הם נחשבים למורים של סגנון."
+		},
+		{
+			"title": "tenmon",
+			"sort": "Tenmon",
+			"japanese": "天文",
+			"translation": "אסטרונומיה ומטאורולוגיה"
+		},
+		{
+			"title": "tennō",
+			"sort": "Tenno",
+			"japanese": "天皇",
+			"translation": "שליט שמימי",
+			"description": "הקיסר היפני."
+		},
+		{
+			"title": "tenugui",
+			"sort": "Tenugui",
+			"japanese": "手拭",
+			"translation": "מטפחת יד",
+			"description": "בד כותנה שממנו קשרו הנינג'ה את המסכה שלהם."
+		},
+		{
+			"title": "teppō",
+			"sort": "Teppo",
+			"japanese": "鉄砲",
+			"translation": "כלי ירייה",
+			"description": "שם אחר לטנגשימה."
+		},
+		{
+			"title": "tessen",
+			"sort": "Tessen",
+			"japanese": "鉄扇",
+			"translation": "מניפת ברזל"
+		},
+		{
+			"title": "tetsu mari",
+			"sort": "Tetsu mari",
+			"translation": "כדור ברזל",
+			"description": "כדור ברזל חלול עם קוצים ארוכים לכל הכיוונים, בדומה לאיגה דאמה. השם הוא תיאור מודרני ואינו מופיע בספרי ההדרכה של הנינג'ה."
+		},
+		{
+			"title": "tetsubishi",
+			"sort": "Tetsubishi",
+			"japanese": "鉄菱",
+			"translation": "ערמון מים מברזל",
+			"description": "דרדרי ברזל שהנינג'ה פיזר על הקרקע בכמויות גדולות כדי לעצור רודפים."
+		},
+		{
+			"title": "tetsubō",
+			"sort": "Tetsubo",
+			"japanese": "鉄棒",
+			"translation": "מוט ברזל"
+		},
+		{
+			"title": "tō",
+			"sort": "To",
+			"japanese": "刀",
+			"translation": "חרב, סכין"
+		},
+		{
+			"title": "tōami",
+			"sort": "Toami",
+			"japanese": "投網",
+			"translation": "רשת השלכה",
+			"description": "רשת שבעזרתה יכול היה הנינג'ה ללכוד יריבים."
+		},
+		{
+			"title": "tobi ashi",
+			"sort": "Tobi ashi",
+			"japanese": "跳び足",
+			"translation": "צעד קפיצה",
+			"description": "טכניקת הליכה של הנינג'ה."
+		},
+		{
+			"title": "tobi bashigo",
+			"sort": "Tobi bashigo",
+			"japanese": "跳び梯子",
+			"translation": "סולם קופץ",
+			"description": "סולם עם ווים בקצותיו, שאפשר היה להשליך אותו."
+		},
+		{
+			"title": "tobi geri",
+			"sort": "Tobi geri",
+			"japanese": "飛び蹴り",
+			"translation": "בעיטת קפיצה",
+			"description": "בעיטה מתוך קפיצה, כמו קאטה אשי טובי גרי או ריו אשי טובי גרי."
+		},
+		{
+			"title": "tobi ori",
+			"sort": "Tobi ori",
+			"japanese": "飛び降り",
+			"translation": "קפיצה למטה",
+			"description": "תרגיל של אוקמי: קפיצה מגובה למטה."
+		},
+		{
+			"title": "tobikunai",
+			"sort": "Tobikunai",
+			"japanese": "飛苦無",
+			"description": "כלי לפתיחת שערים נעולים."
+		},
+		{
+			"title": "Toda Shinryūken Masamitsu",
+			"sort": "Toda Shinryuken Masamitsu",
+			"japanese": "戸田真竜軒正光",
+			"description": "אמן נינג'ה ומורו של טאקאמאצו טושיצוגו."
+		},
+		{
+			"title": "Togakure Daisuke",
+			"sort": "Togakure Daisuke",
+			"japanese": "戸隠大助",
+			"description": "מייסד הטוגאקורה ריו. אחרי קרב אבוד נמלט לאזור איגה."
+		},
+		{
+			"title": "Togakure-Ryū",
+			"sort": "Togakure-Ryu",
+			"japanese": "戸隠流",
+			"translation": "האסכולה של הדלת הנסתרת",
+			"description": "אחד מתשעת הריו של הבוג'ינקאן."
+		},
+		{
+			"title": "tōiri",
+			"sort": "Toiri",
+			"japanese": "遠入",
+			"translation": "חדירה מרחוק",
+			"description": "אסטרטגיה שהנינג'ה הפעילו בימי שלום כאמצעי מנע, בעיקר ריגול."
+		},
+		{
+			"title": "toki",
+			"sort": "Toki",
+			"japanese": "登器",
+			"translation": "ציוד טיפוס"
+		},
+		{
+			"title": "Tokugawa Ieyasu",
+			"sort": "Tokugawa Ieyasu",
+			"japanese": "徳川家康",
+			"description": "דאימיו מפורסם ובעל בריתו של אודה נובונאגה. אחרי סוף תקופת סנגוקו מונה ב־1603 לשוגון. משפחתו שלטה עד 1868."
+		},
+		{
+			"title": "Tōkyō",
+			"sort": "Tokyo",
+			"japanese": "東京",
+			"translation": "הבירה המזרחית",
+			"description": "בירת יפן, לשעבר אדו. במחוז טוקיו חיים כ־14 מיליון בני אדם."
+		},
+		{
+			"title": "tomoe nagare",
+			"sort": "Tomoe nagare",
+			"japanese": "巴流れ",
+			"translation": "זרימה מסתחררת",
+			"description": "צורה של נאגארה: בתור קוהו טומוה נאגארה, הסתחררות לאחור."
+		},
+		{
+			"title": "tonki",
+			"sort": "Tonki",
+			"description": "קליעים להשלכה. שם אחר לשוריקן."
+		},
+		{
+			"title": "tori no ko",
+			"sort": "Tori no ko",
+			"japanese": "鳥の子",
+			"description": "חזיזים."
+		},
+		{
+			"title": "torinawa",
+			"sort": "Torinawa",
+			"japanese": "捕り縄",
+			"translation": "חבל לכידה",
+			"description": "נשק של הנינג'ה, עשוי חבל עם משקולת וחוד, ללכידת יריב ולכפיתתו."
+		},
+		{
+			"title": "torite kihon gata go hō",
+			"sort": "Torite kihon gata go ho",
+			"japanese": "捕手基本型五法",
+			"translation": "חמש טכניקות המנוף של היד"
+		},
+		{
+			"title": "tōtoku hyōshi no kamae",
+			"sort": "Totoku hyoshi no kamae",
+			"japanese": "刀匿礮姿",
+			"description": "עמידה כורעת (קאמאה) של הטוגאקורה ריו לפי מסורת הבוג'ינקאן: הברך האחורית על הקרקע, הברך הקדמית מורמת, החרב או האגרופים מוחזקים להגנה לפני החזה."
+		},
+		{
+			"title": "Toyotomi Hideyoshi",
+			"sort": "Toyotomi Hideyoshi",
+			"japanese": "豊臣秀吉",
+			"description": "דאימיו ממוצא לא אצילי וגנרל בשירותו של אודה נובונאגה. אחרי מותו של אודה איחד את יפן. אחרי מותו של הידיושי פנה טוקוגאווה איאיאסו נגד יורשיו, וכל משפחתו הושמדה."
+		},
+		{
+			"title": "tsuba",
+			"sort": "Tsuba",
+			"japanese": "鍔",
+			"translation": "מגן חרב",
+			"description": "חלק של החרב שהגן על היד מפני מכות היריב."
+		},
+		{
+			"title": "tsubo giri",
+			"sort": "Tsubo giri",
+			"japanese": "壺錐",
+			"description": "מקדח לחורים גדולים יותר בקירות ובדלתות עץ."
+		},
+		{
+			"title": "tsugi bune",
+			"sort": "Tsugi bune",
+			"translation": "סירה מחוברת",
+			"description": "סירה מחלקים: לפי המסורת נשא כל חבר בצוות נינג'ה חלק אחד, וליד המים הרכיבו אותה במהירות."
+		},
+		{
+			"title": "tsuki",
+			"sort": "Tsuki",
+			"japanese": "突き",
+			"translation": "מכה, דחיפה, חבטה, דקירה"
+		},
+		{
+			"title": "tsune ashi",
+			"sort": "Tsune ashi",
+			"japanese": "常足",
+			"translation": "צעד רגיל"
+		},
+		{
+			"title": "tsuri bashigo",
+			"sort": "Tsuri bashigo",
+			"japanese": "吊梯子",
+			"translation": "סולם תלוי",
+			"description": "סולם שאפשר היה לקבע לקיר בעזרת ווים נוספים, לביטחון."
+		},
+		{
+			"title": "uchi",
+			"sort": "Uchi",
+			"japanese": "打ち",
+			"description": "טכניקת הכאה."
+		},
+		{
+			"title": "uchi dake",
+			"sort": "Uchi dake",
+			"japanese": "内竹",
+			"translation": "בתוך הבמבוק",
+			"description": "מכל במבוק שבו נשא הנינג'ה גחלים, כדי להצית אש במהירות."
+		},
+		{
+			"title": "Uesugi Kenshin",
+			"sort": "Uesugi Kenshin",
+			"japanese": "上杉謙信",
+			"description": "דאימיו שניסה לתפוס את השלטון ביפן בתקופת סנגוקו. לפי המסורת מצא את מותו בבית השימוש: נינג'ה, כך מסופר, חיכה בפיר והרג אותו."
+		},
+		{
+			"title": "uke",
+			"sort": "Uke",
+			"japanese": "受",
+			"translation": "להדוף, להגן, לתפוס, לקבל"
+		},
+		{
+			"title": "ukemi",
+			"sort": "Ukemi",
+			"japanese": "受身",
+			"translation": "נפילה, אימון נפילות, תרגיל נפילה"
+		},
+		{
+			"title": "ukemi gata taihen jutsu",
+			"sort": "Ukemi gata taihen jutsu",
+			"japanese": "受身型体変術",
+			"translation": "אומנות הגלגול והנפילה"
+		},
+		{
+			"title": "uki daru",
+			"sort": "Uki daru",
+			"japanese": "浮き樽",
+			"translation": "חבית צפה",
+			"description": "כלי מים משתי חביות, כפי שמתארים אותו ספרי נינג'ה: בכל אחת הייתה רגל אחת, והנינג'ה נע על פני המים בעזרת מוט או משוט. גם טארו איקאדה."
+		},
+		{
+			"title": "uma",
+			"sort": "Uma",
+			"japanese": "馬",
+			"translation": "סוס"
+		},
+		{
+			"title": "undō",
+			"sort": "Undo",
+			"japanese": "運動",
+			"translation": "תנועה"
+		},
+		{
+			"title": "ushiro gaeshi",
+			"sort": "Ushiro gaeshi",
+			"japanese": "後返",
+			"translation": "טכניקות לאחור"
+		},
+		{
+			"title": "Ushiwakamaru",
+			"sort": "Ushiwakamaru",
+			"japanese": "牛若丸",
+			"description": "שם הילדות של מינאמוטו נו יושיצונה."
+		},
+		{
+			"title": "uwagi",
+			"sort": "Uwagi",
+			"japanese": "上着",
+			"translation": "ז'קט",
+			"description": "ז'קט של הנינג'ה, שהוכנס לתוך המכנסיים, עם כיסים פנימיים נסתרים."
+		},
+		{
+			"title": "uzume bi",
+			"sort": "Uzume bi",
+			"japanese": "埋め火",
+			"translation": "אש קבורה",
+			"description": "מוקש יבשתי. גם ג'יראי."
+		},
+		{
+			"title": "uzura gakure no jutsu",
+			"sort": "Uzura gakure no jutsu",
+			"japanese": "鶉隠れの術",
+			"translation": "אומנות ההסתתרות כמו שליו",
+			"description": "טכניקה של אונשין ג'וטסו: הסתתרות בבורות באדמה, בשקעים ובסדקי סלע, או מאחורי אבנים."
+		},
+		{
+			"title": "wakizashi",
+			"sort": "Wakizashi",
+			"japanese": "脇差",
+			"translation": "חרב קצרה",
+			"description": "החרב הקצרה של הסמוראי. יחד עם הקטאנה יצרה את הדאישו."
+		},
+		{
+			"title": "wakizashi teppō",
+			"sort": "Wakizashi teppo",
+			"japanese": "脇差鉄砲",
+			"description": "חרב קצרה מסורתית עם אקדח נסתר שיכול היה לירות ירייה אחת."
+		},
+		{
+			"title": "wakō",
+			"sort": "Wako",
+			"japanese": "倭寇",
+			"description": "שודדי ים יפנים שפשטו על חופי קוריאה וסין. כמעט אף שוגון לא עמד בכוחם. רבים מכלי הנשק המתוחכמים של הנינג'ה מקורם, כך מסופר, בשודדי הים האלה."
+		},
+		{
+			"title": "wari ashi",
+			"sort": "Wari ashi",
+			"japanese": "割り足",
+			"translation": "צעד מסתגל",
+			"description": "טכניקת הליכה של הנינג'ה."
+		},
+		{
+			"title": "watari",
+			"sort": "Watari",
+			"japanese": "渡り",
+			"translation": "נודד",
+			"description": "נינג'ה שמכרו את שירותיהם למרבה במחיר."
+		},
+		{
+			"title": "wu wei",
+			"sort": "Wu wei",
+			"chinese": "無為",
+			"translation": "אי־עשייה",
+			"description": "עיקרון בטאואיזם: לא לפעול נגד מהלכו הטבעי של הטאו."
+		},
+		{
+			"title": "ya",
+			"sort": "Ya",
+			"japanese": "矢",
+			"translation": "חץ"
+		},
+		{
+			"title": "yaiba",
+			"sort": "Yaiba",
+			"japanese": "刃",
+			"translation": "להב",
+			"description": "החלק העליון של הסימן נין (忍)."
+		},
+		{
+			"title": "yajiri",
+			"sort": "Yajiri",
+			"description": "מסור עם להב חזק לחלקי עץ עבים יותר או לענפים."
+		},
+		{
+			"title": "yamabiko jutsu",
+			"sort": "Yamabiko jutsu",
+			"japanese": "山彦術",
+			"translation": "ההד לקריאה",
+			"description": "טקטיקה של טואירי: נינג'ה עבר צד ושירת את אדונו החדש במשך שנים בלי לעורר ספק בנאמנותו. באות מוסכם חזר לצדו הקודם, אחרי שגרם נזק רב."
+		},
+		{
+			"title": "yamabiko shichō no jutsu",
+			"sort": "Yamabiko shicho no jutsu",
+			"japanese": "山彦伺聴の術",
+			"translation": "אומנות ההקשבה להד",
+			"description": "טכניקה של צ'והו: הדליפו לאדם חשוד מסמכים חשובים ועקבו אחר תגובתו."
+		},
+		{
+			"title": "yamabushi",
+			"sort": "Yamabushi",
+			"japanese": "山伏",
+			"translation": "סגפן ההרים, כוהן נודד",
+			"description": "נזירים מתבודדים שחיו בבדידות בהרים והלכו בדרך השוגנדו."
+		},
+		{
+			"title": "yamidoko",
+			"sort": "Yamidoko",
+			"description": "מתקן תעופה של הנינג'ה. גם היטו ואשי."
+		},
+		{
+			"title": "yang",
+			"sort": "Yang",
+			"chinese": "陽",
+			"translation": "אור, חיובי, פתוח",
+			"description": "העיקרון החיובי בדואליות של יין ויאנג בטאואיזם. ביפנית יו."
+		},
+		{
+			"title": "yari",
+			"sort": "Yari",
+			"japanese": "槍",
+			"translation": "חנית"
+		},
+		{
+			"title": "yarijutsu",
+			"sort": "Yarijutsu",
+			"japanese": "槍術",
+			"translation": "אומנות החנית",
+			"description": "טכניקות חנית."
+		},
+		{
+			"title": "yawara",
+			"sort": "Yawara",
+			"japanese": "柔",
+			"description": "נשק אגרוף. גם קובוטאן."
+		},
+		{
+			"title": "yin",
+			"sort": "Yin",
+			"chinese": "陰",
+			"translation": "צל, שלילי, נסתר",
+			"description": "העיקרון השלילי בדואליות של יין ויאנג בטאואיזם. ביפנית אין."
+		},
+		{
+			"title": "yinyang",
+			"sort": "Yinyang",
+			"chinese": "陰陽",
+			"description": "הדואליות של אור וצל, טוב ורע, קטן וגדול, עיקרון חשוב בטאואיזם. ביפנית אין־יו."
+		},
+		{
+			"title": "yō",
+			"sort": "Yo",
+			"japanese": "陽",
+			"translation": "אור, חיובי, פתוח"
+		},
+		{
+			"title": "yoga",
+			"sort": "Yoga",
+			"sanskrit": "योग",
+			"translation": "עול, לרתום בעול, לקשור יחד, לרתום",
+			"description": "תורה הודית של גוף ונפש עם ענפים רבים. בהודו כל <q>דרך להארה</q> היא <q>דרך של יוגה</q>. האטה יוגה הופכת את הגוף לגמיש עד כדי כך שהוא יכול להתכופף לתנוחות קיצוניות. צורות אחרות כוללות גם תזונה, מדיטציה ונשימה."
+		},
+		{
+			"title": "yōji gakure no jutsu",
+			"sort": "Yoji gakure no jutsu",
+			"description": "טכניקה של הייהו: הנינג'ה השליך שוב ושוב חפץ מעל ראשו של שומר, עד שהשומר הפסיק לבדוק כל רעש."
+		},
+		{
+			"title": "yoko aruki",
+			"sort": "Yoko aruki",
+			"japanese": "横歩き",
+			"translation": "הליכה הצידה"
+		},
+		{
+			"title": "yoko gaeshi",
+			"sort": "Yoko gaeshi",
+			"japanese": "横返",
+			"translation": "טכניקות לצדדים"
+		},
+		{
+			"title": "yoko nagare",
+			"sort": "Yoko nagare",
+			"japanese": "横流れ",
+			"translation": "זרימה הצידה",
+			"description": "צורה של נאגארה: נפילה הצידה מעמידה, ימינה (מיגי יוקו נאגארה) או שמאלה (הידארי יוקו נאגארה)."
+		},
+		{
+			"title": "yomogami no jutsu",
+			"sort": "Yomogami no jutsu",
+			"translation": "תסרוקת חייבת להיראות זהה מכל ארבעת הצדדים",
+			"description": "עיקרון של צ'והו: נינג'ה החזיק תמיד כמה שמות וזהויות מוכנים."
+		},
+		{
+			"title": "yon shaku bō",
+			"sort": "Yon shaku bo",
+			"japanese": "四尺棒",
+			"translation": "מקל באורך ארבעה שאקו",
+			"description": "מקל באורך ארבעה שאקו, כ־121 סנטימטר. גם ג'ו."
+		},
+		{
+			"title": "yuki waraki",
+			"sort": "Yuki waraki",
+			"japanese": "雪藁き",
+			"translation": "קש שלג",
+			"description": "גם גטה."
+		},
+		{
+			"title": "yumi",
+			"sort": "Yumi",
+			"japanese": "弓",
+			"translation": "קשת",
+			"description": "גם קיו."
+		},
+		{
+			"title": "yumi ya",
+			"sort": "Yumi ya",
+			"japanese": "弓矢",
+			"translation": "קשת וחצים"
+		},
+		{
+			"title": "zagarashijaku",
+			"sort": "Zagarashijaku",
+			"description": "רעל קטלני מהיר פעולה, העשוי משזיפים ירוקים או מאפרסקים."
+		},
+		{
+			"title": "zazen",
+			"sort": "Zazen",
+			"japanese": "座禅",
+			"translation": "מדיטציה בישיבה",
+			"description": "שהייה בקשב ער לגמרי ונקי ממחשבות, שבו המחשבות אינן מכוונות לשום דבר. תרגול זה מקורו במדיטציה של הבודהה לפני התעוררותו."
+		},
+		{
+			"title": "zen",
+			"sort": "Zen",
+			"japanese": "禅",
+			"translation": "שקיעה מדיטטיבית"
+		},
+		{
+			"title": "zenpō geri",
+			"sort": "Zenpo geri",
+			"japanese": "前方蹴り",
+			"translation": "בעיטה קדימה"
+		},
+		{
+			"title": "zenpō kaiten",
+			"sort": "Zenpo kaiten",
+			"japanese": "前方回転",
+			"translation": "גלגול קדימה"
+		},
+		{
+			"title": "zenpō ukemi",
+			"sort": "Zenpo ukemi",
+			"japanese": "前方受身",
+			"translation": "נפילה קדימה"
+		},
+		{
+			"title": "ziran",
+			"sort": "Ziran",
+			"chinese": "自然",
+			"translation": "טבעיות, היות כך מעצמו",
+			"description": "בטאואיזם, מה שקורה מעצמו: באופן ספונטני, מבפנים, ללא כפייה."
+		}
+	]
+}
