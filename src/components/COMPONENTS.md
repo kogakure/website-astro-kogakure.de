@@ -42,13 +42,14 @@ Plain markup until the templates arrive (SI-474), which compose them from the `s
 
 ## `design-system/`: the samples of `/design-system/`
 
-| Component            | Purpose                                                      | Props                                                          |
-| -------------------- | ------------------------------------------------------------ | -------------------------------------------------------------- |
-| `Specimen.astro`     | A section of the page                                        | `id`, `title`, `intro`                                         |
-| `ColourRoles.astro`  | Colour roles, light and dark side by side                    | `title`, `roles` (`tokens.ts`)                                 |
-| `TypeScale.astro`    | The type scale with samples                                  | none                                                           |
-| `TokenList.astro`    | Tokens with what they are for, drawn for spacing and shadows | `title`, `tokens`, `sample` (`space`, `shadow`)                |
-| `ScriptSample.astro` | One language in light and dark, with its per-script rules    | `lang`, `plate`, `title`, `lede`, `subtitle`; text in the slot |
+| Component            | Purpose                                                                                                                         | Props                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| `Specimen.astro`     | A section of the page                                                                                                           | `id`, `title`, `intro`                                         |
+| `ColourRoles.astro`  | Colour roles, light and dark side by side                                                                                       | `title`, `roles` (`tokens.ts`)                                 |
+| `TypeScale.astro`    | The type scale with samples                                                                                                     | none                                                           |
+| `TokenList.astro`    | Tokens with what they are for, drawn for spacing and shadows                                                                    | `title`, `tokens`, `sample` (`space`, `shadow`)                |
+| `MotionList.astro`   | The motion tokens drawn: each easing's curve, a track as long as each duration; „Abspielen“ sends a dot along each once. Script | `title`, `tokens` (`MOTION`)                                   |
+| `ScriptSample.astro` | One language in light and dark, with its per-script rules                                                                       | `lang`, `plate`, `title`, `lede`, `subtitle`; text in the slot |
 
 ## `ui/`: shadcn/ui on Base UI
 
