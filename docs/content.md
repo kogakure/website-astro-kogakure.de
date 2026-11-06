@@ -17,7 +17,7 @@ pnpm import:content path/to/kogakure-texts
 | `data/preface.json` + `data/toc.json`     | `src/content/toc/<lang>.json`      |
 | `data/glossary.json` (760 entries)        | `src/content/glossary/<lang>.json` |
 
-On the way it drops the `source` field, keeps the `<!-- WEBSITE-ONLY -->` parts (the website shows what the printed book skips) and rewrites image paths: `../../../images/new/<cat>/<name>.webp` → `/images/<cat>/<name>.webp`, `images/old/…` → `/images/old/…`. The path below `/images/` is the image's key in the manifest of the image pipeline (SI-472). The TOC items get the `translationKey` of their page.
+On the way it drops the `source` field, keeps the `<!-- WEBSITE-ONLY -->` parts (the website shows what the printed book skips) and rewrites image paths: `../../../images/new/<cat>/<name>.webp` → `/images/<cat>/<name>.webp`, `images/old/…` → `/images/old/…`. The path below `/images/` is the image's key in the image manifest (`docs/images.md`). The TOC items get the `translationKey` of their page.
 
 The import is repeatable: rerunning it on unchanged texts produces no diff. It writes nothing if the book fails validation. `src/content/` is in `.prettierignore`: Prettier would rewrite the Chinese `*…*` emphasis.
 
@@ -30,7 +30,7 @@ The import is repeatable: rerunning it on unchanged texts produces no diff. It w
 - the twelve TOCs have the same parts and order; every book page is in it once, pages outside the book are not
 - the twelve glossaries have the same entries in the same order
 - every internal link leads to a route or a file in `public/` (the font zip is pending, SI-477)
-- every image exists in kogakure-texts (import only: the build has no access to it)
+- every image exists: in kogakure-texts for the import, in the image manifest and `public/images/` for the build
 
 ## Routes
 
@@ -62,7 +62,7 @@ The texts stay `.md` with raw HTML. Astro renders them with Sätteri, `rawHtml: 
 | `glossed-terms` | `<em>term</em> (漢字, <q>…</q>)` in paragraphs → `span.gloss` (term, kanji, meaning)              |
 | `quotes`        | Writes the quotation marks of the language into `<q>` (`„…“`, `«…»`, `「…」`); CSS `quotes: none` |
 | `no-break-dash` | No-break space before a spaced dash; `noBreakDash()` for titles                                   |
-| `figures`       | Lazy figure images; size and `srcset` from the image manifest once SI-472 adds `lookup`           |
+| `figures`       | Figure images from the image manifest: generated file, `srcset`, `sizes`, size, lazy              |
 | `tables`        | `scope="col"` on the header cells of a table head                                                 |
 | `banners`       | `aside.banner` → `role="note"`, named by its bold title                                           |
 | `reading-time`  | `minutesRead` in the frontmatter (Han and kana per character)                                     |

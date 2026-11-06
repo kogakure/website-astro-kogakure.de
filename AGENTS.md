@@ -26,6 +26,7 @@ The plan and all issues are in the Linear project _Migration to Astro_ (P-SI-13)
 - Directories (`docs/directories.md`): where things live
 - Commands (`docs/commands.md`): develop, check, test, build, Docker
 - Content (`docs/content.md`): import from kogakure-texts, validation, routes, UI strings, Markdown plugins
+- Images (`docs/images.md`): pregenerated WebP sizes, manifest, Picture, OG images, ink assets
 - Testing (`docs/testing.md`): unit, component, accessibility and end-to-end tests
 - Git workflow (`docs/git-workflow.md`): branches, commits, pull requests, Linear
 
