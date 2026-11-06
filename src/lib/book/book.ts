@@ -1,9 +1,9 @@
 /**
  * The only way pages access the book. Hands out data, no markup.
  */
-import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import { getCollection, getEntry, render, type CollectionEntry } from 'astro:content';
 import { isLang, type Lang } from '@/i18n/languages';
-import { pagePath, routeOf } from '@/i18n/routes';
+import { isInBook, pagePath, routeOf, routeParam } from '@/i18n/routes';
 import { buildAlternates, type Alternates } from './alternates';
 
 export type PageEntry = CollectionEntry<'book'>;
@@ -19,6 +19,18 @@ export const pageUrl = (entry: PageEntry): string => {
 	const { lang, slug } = parseId(entry.id);
 	return routeOf(lang, slug, entry.data.translationKey);
 };
+
+/** `getStaticPaths` of the book pages: every page in the book, in every language */
+export async function getBookPaths() {
+	const pages = await getCollection('book', (entry) => isInBook(entry.data.translationKey));
+	return pages.map((entry) => ({
+		params: { route: routeParam(pageUrl(entry)) },
+		props: { entry, lang: parseId(entry.id).lang },
+	}));
+}
+
+/** The rendered text of a page */
+export const renderPage = (entry: PageEntry) => render(entry);
 
 export async function getPage(lang: Lang, translationKey: string): Promise<PageEntry> {
 	const entry = (await getCollection('book')).find(

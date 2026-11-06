@@ -4,18 +4,21 @@
  * per language prefix in SI-477.
  */
 import PageText from '@/components/book/PageText.astro';
-import { DEFAULT_LANG, LANGS, type Lang } from '@/i18n/languages';
+import { PREFIXED_LANGS, type Lang } from '@/i18n/languages';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getPage } from '@/lib/book/book';
-import { render } from 'astro:content';
+import { getPage, renderPage } from '@/lib/book/book';
 
 export function getStaticPaths() {
-	return LANGS.filter((lang) => lang !== DEFAULT_LANG).map((lang) => ({ params: { lang } }));
+	return PREFIXED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
-const lang = Astro.params.lang as Lang;
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
 const entry = await getPage(lang, 'notFoundPage');
-const { Content } = await render(entry);
+const { Content } = await renderPage(entry);
 ---
 
 <BaseLayout title={`${entry.data.title} · 木隠`} description={entry.data.title} lang={lang}>

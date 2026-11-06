@@ -63,6 +63,7 @@ The texts stay `.md` with raw HTML. Astro renders them with Sätteri, `rawHtml: 
 | `quotes`        | Writes the quotation marks of the language into `<q>` (`„…“`, `«…»`, `「…」`); CSS `quotes: none` |
 | `no-break-dash` | No-break space before a spaced dash; `noBreakDash()` for titles                                   |
 | `figures`       | Lazy figure images; size and `srcset` from the image manifest once SI-472 adds `lookup`           |
+| `tables`        | `scope="col"` on the header cells of a table head                                                 |
 | `banners`       | `aside.banner` → `role="note"`, named by its bold title                                           |
 | `reading-time`  | `minutesRead` in the frontmatter (Han and kana per character)                                     |
 

@@ -25,6 +25,9 @@ export const LANGS: readonly Lang[] = LANGUAGES.map(({ code }) => code);
 /** German lives at the root, with the German slugs of the old site */
 export const DEFAULT_LANG: Lang = 'de';
 
+/** The eleven languages with a URL prefix */
+export const PREFIXED_LANGS: readonly Lang[] = LANGS.filter((lang) => lang !== DEFAULT_LANG);
+
 export const isLang = (value: string | undefined): value is Lang => LANGS.includes(value as Lang);
 
 export function language(lang: Lang): Language {

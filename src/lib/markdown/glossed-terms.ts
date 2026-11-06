@@ -10,8 +10,8 @@ const OPENING = new RegExp(`^ \\((${CJK})(\\)|, )`);
  * the design can set inline or in the margin (ported from the prototype's
  * `Glossed.astro`):
  *
- *   <em>term</em><span class="gloss">
- *     <span class="gloss-term" aria-hidden="true">term</span>
+ *   <em lang="ja-Latn">term</em><span class="gloss">
+ *     <span class="gloss-term" aria-hidden="true" lang="ja-Latn">term</span>
  *     <span class="gloss-kanji" lang="ja">漢字</span>
  *     <span class="gloss-meaning"><q>meaning</q></span>
  *   </span>
@@ -45,13 +45,16 @@ export function glossChildren(children: readonly ElementContent[]): ElementConte
 			result.push(child);
 			continue;
 		}
-		const term = (child as Element).children
-			.map((c) => (c.type === 'text' ? c.value : ''))
-			.join('');
+		const em = child as Element;
+		const term = em.children.map((c) => (c.type === 'text' ? c.value : '')).join('');
 		result.push(
-			child,
+			{ ...em, properties: { ...em.properties, lang: 'ja-Latn' } },
 			element('span', { className: ['gloss'] }, [
-				element('span', { className: ['gloss-term'], ariaHidden: 'true' }, [text(term)]),
+				element(
+					'span',
+					{ className: ['gloss-term'], ariaHidden: 'true', lang: 'ja-Latn' },
+					[text(term)]
+				),
 				text(' '),
 				element('span', { className: ['gloss-kanji'], lang: 'ja' }, [text(gloss.kanji)]),
 				...(gloss.meaning.length > 0
