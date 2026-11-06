@@ -1,0 +1,33 @@
+# Dependencies and build output
+node_modules
+.pnpm-store
+dist
+.astro
+
+# Agents and docs
+AGENTS.md
+CLAUDE.md
+docs
+.claude
+.agents
+*.md
+
+# Tooling not needed in the image
+.git
+.github
+.husky
+.vscode
+.idea
+coverage
+test-results
+playwright-report
+tests
+
+# Local environment files
+.env
+.env.*
+
+# OS and temporary files
+.DS_Store
+*.log
+*.tmp
