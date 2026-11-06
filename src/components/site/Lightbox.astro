@@ -53,7 +53,7 @@ const { zoom, close } = Astro.props;
 		start: DOMRect;
 		zoom: number;
 		/** The plate's name and subtitle, hidden while the painting is whole */
-		hidden: Animation[];
+		overlays: HTMLElement[];
 	}
 	let current: Open | undefined;
 	let closing = false;
@@ -130,17 +130,25 @@ const { zoom, close } = Astro.props;
 		const style = getComputedStyle(source.closest('.plate-art') ?? source);
 		// The name plate lies on the painting: it would sit under the frame while
 		// it closes and jump on top at the end, so it fades out with the shade
-		// and settles back once the painting is in its edge again
-		const hidden = [
-			...(source.closest('.plate')?.querySelectorAll('.plate-name, .plate-subtitle') ?? []),
-		].map((overlay) =>
-			overlay.animate([{ opacity: 1 }, { opacity: 0 }], {
-				duration: still.matches ? 0 : 250,
-				easing: 'ease-out',
-				fill: 'forwards',
-			})
-		);
-		current = { trigger, source, start, zoom, hidden };
+		// and settles back once the painting is in its edge again. Hidden by an
+		// attribute, not a held animation: Safari lets those go on its layers
+		const overlays = [
+			...(source
+				.closest('.plate')
+				?.querySelectorAll<HTMLElement>('.plate-name, .plate-subtitle') ?? []),
+		];
+		for (const overlay of overlays) {
+			overlay
+				.animate([{ opacity: 1 }, { opacity: 0 }], {
+					duration: still.matches ? 0 : 250,
+					easing: 'ease-out',
+				})
+				.finished.then(
+					() => current?.overlays === overlays && (overlay.dataset.lightboxHidden = ''),
+					() => {}
+				);
+		}
+		current = { trigger, source, start, zoom, overlays };
 
 		const figure = source.closest('figure');
 		const text = figure?.querySelector('figcaption');
@@ -206,21 +214,22 @@ const { zoom, close } = Astro.props;
 	function reset() {
 		// As on the page's first view (`settle` in motion.css): the name drops a
 		// little into place, the subtitle only fades
-		for (const hide of current?.hidden ?? []) {
-			hide.cancel();
-			const overlay = (hide.effect as KeyframeEffect | null)?.target;
-			const drop = overlay?.classList.contains('plate-name') ? '-0.5rem' : '0';
-			overlay?.animate(
+		// The short wait is part of the keyframes, so nothing has to be held
+		for (const overlay of current?.overlays ?? []) {
+			for (const running of overlay.getAnimations()) {
+				if (!(running instanceof CSSAnimation || running instanceof CSSTransition))
+					running.cancel();
+			}
+			delete overlay.dataset.lightboxHidden;
+			const drop = overlay.classList.contains('plate-name') ? '-0.5rem' : '0';
+			const away = { opacity: 0, translate: `0 ${drop}` };
+			overlay.animate(
 				[
-					{ opacity: 0, translate: `0 ${drop}` },
+					away,
+					{ ...away, offset: 0.15, easing: 'cubic-bezier(0.33, 1, 0.68, 1)' },
 					{ opacity: 1, translate: '0 0' },
 				],
-				{
-					duration: still.matches ? 0 : 600,
-					delay: still.matches ? 0 : 100,
-					easing: 'cubic-bezier(0.33, 1, 0.68, 1)',
-					fill: 'backwards',
-				}
+				{ duration: still.matches ? 0 : 700 }
 			);
 		}
 		closing = false;
@@ -271,6 +280,11 @@ const { zoom, close } = Astro.props;
 </script>
 
 <style>
+	/* A plate's name and subtitle while its painting is whole */
+	:global([data-lightbox-hidden]) {
+		visibility: hidden;
+	}
+
 	/* The button around each image: the image stays as it was */
 	:global(.lightbox-trigger) {
 		display: block;
