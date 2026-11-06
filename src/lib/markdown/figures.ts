@@ -18,7 +18,8 @@ export interface FigureOptions {
 /**
  * The `<img>` of every `<figure>` in a text becomes a responsive picture:
  * lazy and async, with the generated file, size and `srcset` from `lookup`
- * (the image manifest). Markdown can't render Astro components, so this
+ * (the image manifest). The figure gets the image's kind (`data-kind`, its
+ * folder below /images/), for its ink edge (prose.css). Markdown can't render Astro components, so this
  * plugin is the Picture of the texts.
  */
 export const hastFigures = ({ lookup }: FigureOptions = {}) =>
@@ -33,6 +34,12 @@ export const hastFigures = ({ lookup }: FigureOptions = {}) =>
 				if (!img) return;
 				ctx.setProperty(img, 'loading', 'lazy');
 				ctx.setProperty(img, 'decoding', 'async');
+				// The kind of image (article, calligraphy, ken, …) decides its ink edge
+				const kind =
+					typeof img.properties.src === 'string'
+						? /^\/images\/([^/]+)\//.exec(img.properties.src)?.[1]
+						: undefined;
+				if (kind) ctx.setProperty(node, 'dataKind', kind);
 				const info =
 					typeof img.properties.src === 'string'
 						? lookup?.(img.properties.src)

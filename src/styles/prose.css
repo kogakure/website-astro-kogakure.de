@@ -170,6 +170,21 @@
 	--edge: url('/images/ink/wash-edge-i.webp');
 }
 
+/* Only paintings take the whole rotation. Technique images, objects,
+   diagrams and calligraphy hold what matters up to their edge, so they get
+   the gentlest edge: i bites about 4% deep, c up to 38% */
+.prose figure:not([data-kind='article'], [data-kind='historical']) {
+	--edge: url('/images/ink/wash-edge-i.webp');
+}
+
+/* Calligraphy and the hand seals are framed in black: the image grows 5%
+   under a mask that stays the same size, so the frame lies outside the edge */
+.prose figure:is([data-kind='calligraphy'], [data-kind='kuji-in']) img {
+	scale: 1.05;
+	-webkit-mask-size: calc(100% / 1.05) calc(100% / 1.05);
+	mask-size: calc(100% / 1.05) calc(100% / 1.05);
+}
+
 .prose figcaption {
 	display: flow-root;
 	max-inline-size: var(--measure);

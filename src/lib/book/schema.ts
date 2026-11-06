@@ -22,9 +22,18 @@ export const CATEGORIES = [
 	'weapons',
 ] as const;
 
+/**
+ * Titles mark their break points as `&shy;` (Trainings&shy;faktoren). The
+ * texts are Markdown, so the body turns it into a soft hyphen; the front
+ * matter and the TOC are plain strings, so the schema does
+ */
+export const softHyphens = (value: string): string => value.replaceAll('&shy;', '\u00ad');
+
+const title = z.string().min(1).transform(softHyphens);
+
 export const pageSchema = z
 	.object({
-		title: z.string().min(1),
+		title,
 		/** Sort key of the old site; the book order comes from the TOC */
 		priority: z.number().int(),
 		date: z.coerce.date().optional(),
@@ -43,7 +52,7 @@ export type PageData = z.infer<typeof pageSchema>;
 
 const tocItemSchema = z
 	.object({
-		title: z.string().min(1),
+		title,
 		slug: z.string().regex(/^[a-z0-9-]+$/),
 		translationKey: z.string(),
 	})
@@ -53,9 +62,7 @@ const tocItemSchema = z
 export const tocSchema = z
 	.object({
 		preface: z.array(tocItemSchema).min(1),
-		parts: z.array(
-			z.object({ title: z.string().min(1), items: z.array(tocItemSchema).min(1) }).strict()
-		),
+		parts: z.array(z.object({ title, items: z.array(tocItemSchema).min(1) }).strict()),
 	})
 	.strict();
 

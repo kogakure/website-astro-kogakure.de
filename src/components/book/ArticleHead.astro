@@ -44,7 +44,7 @@ const { image, plate, title, excerpt, facts } = Astro.props;
 			</dl>
 		)}
 	</div>
-	<Sweep draw />
+	<Sweep draw class="opener-sweep" />
 </header>
 
 <style>
@@ -77,6 +77,11 @@ const { image, plate, title, excerpt, facts } = Astro.props;
 		line-height: 1.45;
 		color: var(--text-2);
 		text-wrap: pretty;
+	}
+
+	/* Room between the facts, the brushstroke and the text, as in the prototype */
+	.opener :global(.opener-sweep) {
+		margin-block-start: clamp(3rem, 6vw, 5rem);
 	}
 
 	.facts {
