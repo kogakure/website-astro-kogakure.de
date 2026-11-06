@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { chapterLabel, kanjiNumeral, PLATE_TEXT, sceneEdge, SECTION_PLATES } from './plates';
+import {
+	chapterLabel,
+	isChapter,
+	kanjiNumeral,
+	PLATE_TEXT,
+	SCENES,
+	sceneEdge,
+	SECTION_PLATES,
+} from './plates';
 
 describe('plates', () => {
 	it('writes kanji numerals', () => {
@@ -13,8 +21,13 @@ describe('plates', () => {
 		expect(chapterLabel(3)).toBe('第三章');
 	});
 
-	it('has one plate per section of the book', () => {
+	it('has one plate and one scene per section of the book', () => {
 		expect(SECTION_PLATES).toHaveLength(10);
+		expect(SCENES).toHaveLength(10);
+	});
+
+	it('counts eight chapters between the front matter and the appendix', () => {
+		expect([0, 1, 8, 9].map(isChapter)).toEqual([false, true, true, false]);
 	});
 
 	it('alternates the ink edges so neighbours never repeat', () => {

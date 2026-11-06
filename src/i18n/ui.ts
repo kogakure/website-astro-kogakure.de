@@ -29,6 +29,15 @@ export interface Ui {
 	backToContents: string;
 	/** Start or resume reading */
 	read: string;
+	/** „Lesen: Vorwort“: where „Lesen“ on the homepage leads */
+	readTitle: (title: string) => string;
+	/** „Kapitel 1“ */
+	chapterNumber: (number: number) => string;
+	articleCount: (count: number) => string;
+	/** The front matter's place in the book */
+	beforeChapters: string;
+	/** The appendix's place in the book */
+	afterChapters: string;
 	/** Credit line of the homepage */
 	credit: (since: number, parts: number, articles: number) => string;
 	/** The book's subtitle, as the colophon of the language translates it */
@@ -72,6 +81,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Zurück zu ${title}`,
 		backToContents: 'Zum Inhalt des Buches',
 		read: 'Lesen',
+		readTitle: (title) => `Lesen: ${title}`,
+		chapterNumber: (n) => `Kapitel ${n}`,
+		articleCount: (n) => `${n} Artikel`,
+		beforeChapters: 'Vor den Kapiteln',
+		afterChapters: 'Nach den Kapiteln',
 		credit: (since, parts, articles) => `Seit ${since}. ${parts} Teile, ${articles} Artikel.`,
 		subtitle: 'Hinter Blättern und Bäumen verborgen',
 		modeLegend: 'Darstellung',
@@ -103,6 +117,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Back to ${title}`,
 		backToContents: 'To the book’s contents',
 		read: 'Read',
+		readTitle: (title) => `Read: ${title}`,
+		chapterNumber: (n) => `Chapter ${n}`,
+		articleCount: (n) => `${n} ${plural('en', n, { one: 'article', other: 'articles' })}`,
+		beforeChapters: 'Before the chapters',
+		afterChapters: 'After the chapters',
 		credit: (since, parts, articles) => `Since ${since}. ${parts} parts, ${articles} articles.`,
 		subtitle: 'Hidden behind leaves and trees',
 		modeLegend: 'Appearance',
@@ -134,6 +153,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Volver a ${title}`,
 		backToContents: 'Al índice del libro',
 		read: 'Leer',
+		readTitle: (title) => `Leer: ${title}`,
+		chapterNumber: (n) => `Capítulo ${n}`,
+		articleCount: (n) => `${n} ${plural('es', n, { one: 'artículo', other: 'artículos' })}`,
+		beforeChapters: 'Antes de los capítulos',
+		afterChapters: 'Después de los capítulos',
 		credit: (since, parts, articles) =>
 			`Desde ${since}. ${parts} partes, ${articles} artículos.`,
 		subtitle: 'Oculto tras hojas y árboles',
@@ -166,6 +190,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Retour à ${title}`,
 		backToContents: 'Au sommaire du livre',
 		read: 'Lire',
+		readTitle: (title) => `Lire\u00a0: ${title}`,
+		chapterNumber: (n) => `Chapitre ${n}`,
+		articleCount: (n) => `${n} ${plural('fr', n, { one: 'article', other: 'articles' })}`,
+		beforeChapters: 'Avant les chapitres',
+		afterChapters: 'Après les chapitres',
 		credit: (since, parts, articles) =>
 			`Depuis ${since}. ${parts} parties, ${articles} articles.`,
 		subtitle: 'Caché derrière les feuilles et les arbres',
@@ -198,6 +227,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Voltar para ${title}`,
 		backToContents: 'Para o sumário do livro',
 		read: 'Ler',
+		readTitle: (title) => `Ler: ${title}`,
+		chapterNumber: (n) => `Capítulo ${n}`,
+		articleCount: (n) => `${n} ${plural('pt', n, { one: 'artigo', other: 'artigos' })}`,
+		beforeChapters: 'Antes dos capítulos',
+		afterChapters: 'Depois dos capítulos',
 		credit: (since, parts, articles) => `Desde ${since}. ${parts} partes, ${articles} artigos.`,
 		subtitle: 'Escondido atrás de folhas e árvores',
 		modeLegend: 'Aparência',
@@ -229,6 +263,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Torna a ${title}`,
 		backToContents: 'All’indice del libro',
 		read: 'Leggi',
+		readTitle: (title) => `Leggi: ${title}`,
+		chapterNumber: (n) => `Capitolo ${n}`,
+		articleCount: (n) => `${n} ${plural('it', n, { one: 'articolo', other: 'articoli' })}`,
+		beforeChapters: 'Prima dei capitoli',
+		afterChapters: 'Dopo i capitoli',
 		credit: (since, parts, articles) => `Dal ${since}. ${parts} parti, ${articles} articoli.`,
 		subtitle: 'Nascosto dietro foglie e alberi',
 		modeLegend: 'Aspetto',
@@ -260,6 +299,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Terug naar ${title}`,
 		backToContents: 'Naar de inhoud van het boek',
 		read: 'Lezen',
+		readTitle: (title) => `Lezen: ${title}`,
+		chapterNumber: (n) => `Hoofdstuk ${n}`,
+		articleCount: (n) => `${n} ${plural('nl', n, { one: 'artikel', other: 'artikelen' })}`,
+		beforeChapters: 'Voor de hoofdstukken',
+		afterChapters: 'Na de hoofdstukken',
 		credit: (since, parts, articles) =>
 			`Sinds ${since}. ${parts} delen, ${articles} artikelen.`,
 		subtitle: 'Verborgen achter bladeren en bomen',
@@ -293,6 +337,12 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `Назад: ${title}`,
 		backToContents: 'К содержанию книги',
 		read: 'Читать',
+		readTitle: (title) => `Читать: ${title}`,
+		chapterNumber: (n) => `Глава ${n}`,
+		articleCount: (n) =>
+			`${n} ${plural('ru', n, { one: 'статья', few: 'статьи', many: 'статей', other: 'статьи' })}`,
+		beforeChapters: 'Перед главами',
+		afterChapters: 'После глав',
 		credit: (since, parts, articles) =>
 			`С ${since} года. ${parts} ${plural('ru', parts, { one: 'часть', few: 'части', many: 'частей', other: 'части' })}, ${articles} ${plural('ru', articles, { one: 'статья', few: 'статьи', many: 'статей', other: 'статьи' })}.`,
 		subtitle: 'Скрытый за листьями и деревьями',
@@ -325,6 +375,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `${title}に戻る`,
 		backToContents: '本の目次へ',
 		read: '読む',
+		readTitle: (title) => `読む：${title}`,
+		chapterNumber: (n) => `第${n}章`,
+		articleCount: (n) => `全${n}編`,
+		beforeChapters: '各章の前に',
+		afterChapters: '各章の後に',
 		credit: (since, parts, articles) => `${since}年から。全${parts}部、${articles}編。`,
 		subtitle: '木の葉と木々に隠れて',
 		modeLegend: '表示',
@@ -356,6 +411,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `返回${title}`,
 		backToContents: '返回本书目录',
 		read: '阅读',
+		readTitle: (title) => `阅读：${title}`,
+		chapterNumber: (n) => `第${n}章`,
+		articleCount: (n) => `${n}篇文章`,
+		beforeChapters: '正文之前',
+		afterChapters: '正文之后',
 		credit: (since, parts, articles) => `始于${since}年。共${parts}部分，${articles}篇文章。`,
 		subtitle: '隐于枝叶与树木之后',
 		modeLegend: '显示',
@@ -387,6 +447,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `돌아가기: ${title}`,
 		backToContents: '책 차례로',
 		read: '읽기',
+		readTitle: (title) => `읽기: ${title}`,
+		chapterNumber: (n) => `제${n}장`,
+		articleCount: (n) => `${n}편`,
+		beforeChapters: '본문에 앞서',
+		afterChapters: '본문에 이어',
 		credit: (since, parts, articles) => `${since}년부터. ${parts}부, ${articles}편.`,
 		subtitle: '나뭇잎과 나무 뒤에 숨어',
 		modeLegend: '화면 모드',
@@ -418,6 +483,11 @@ export const UI: Record<Lang, Ui> = {
 		backTo: (title) => `חזרה אל ${title}`,
 		backToContents: 'לתוכן העניינים של הספר',
 		read: 'לקריאה',
+		readTitle: (title) => `לקריאה: ${title}`,
+		chapterNumber: (n) => `פרק ${n}`,
+		articleCount: (n) => (n === 1 ? 'מאמר אחד' : `${n} מאמרים`),
+		beforeChapters: 'לפני הפרקים',
+		afterChapters: 'אחרי הפרקים',
 		credit: (since, parts, articles) => `מאז ${since}. ${parts} חלקים, ${articles} מאמרים.`,
 		subtitle: 'מוסתר מאחורי עלים ועצים',
 		modeLegend: 'תצוגה',
@@ -436,3 +506,7 @@ export const UI: Record<Lang, Ui> = {
 };
 
 export const ui = (lang: Lang): Ui => UI[lang];
+
+/** Joins the parts of a credit line: „Kapitel 1, 10 Artikel“, 「第1章、全10編」 */
+export const joinCredit = (lang: Lang, parts: string[]): string =>
+	parts.join(lang === 'ja' || lang === 'zh' ? '、' : ', ');

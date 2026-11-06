@@ -21,6 +21,61 @@ export const SECTION_PLATES = [
 	{ name: '附録', short: '附' },
 ] as const;
 
+/** Sections 1–8 are the chapters; 0 is the front matter, 9 the appendix */
+export const isChapter = (index: number): boolean => index >= 1 && index <= 8;
+
+export interface Scene {
+	/** The painting, as the texts use it; its alt text and caption come from the page that shows it */
+	image: string;
+	/** `bleed`: a cinematic band across the page; `tight`: cropped into the figures */
+	frame?: 'bleed' | 'tight';
+	/** object-position: where the scene's subject sits */
+	focus: string;
+}
+
+/**
+ * The scene of each section in book order, on the homepage and its chapter
+ * page: a painting of the book (gekiga-2-modes/plates.ts)
+ */
+export const SCENES: readonly Scene[] = [
+	{
+		image: '/images/article/the-5-commandments-of-the-ninja-02-reading-between-lines.webp',
+		focus: '40% 55%',
+	},
+	{
+		image: '/images/article/demise-01-guiding-tokugawa-through-mountains.webp',
+		frame: 'bleed',
+		focus: '55% 45%',
+	},
+	{
+		image: '/images/article/organization-of-the-ryu-03-hidden-genin-village.webp',
+		focus: '50% 60%',
+	},
+	{
+		image: '/images/article/training-factors-01-endurance-running-in-forest.webp',
+		frame: 'tight',
+		focus: '55% 55%',
+	},
+	{
+		image: '/images/article/kumogakure-ryu-03-making-fire-in-any-weather.webp',
+		frame: 'tight',
+		focus: '60% 55%',
+	},
+	{
+		image: '/images/article/godai-01-five-elements-in-one-landscape.webp',
+		frame: 'bleed',
+		focus: '50% 60%',
+	},
+	{ image: '/images/article/koga-ryu-02-mapping-hara-castle.webp', focus: '50% 55%' },
+	{ image: '/images/article/modern-history-03-long-walk-to-teacher.webp', focus: '40% 55%' },
+	{
+		image: '/images/article/the-5-commandments-of-the-ninja-01-letting-feelings-pass-like-smoke.webp',
+		frame: 'tight',
+		focus: '40% 50%',
+	},
+	{ image: '/images/article/bansenshukai-02-ten-hand-bound-volumes.webp', focus: '45% 50%' },
+];
+
 const NUMERALS = ['〇', '一', '二', '三', '四', '五', '六', '七', '八', '九', '十'] as const;
 
 /** 1 → 一, 12 → 十二 (up to 19) */
