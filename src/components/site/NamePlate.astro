@@ -50,8 +50,12 @@ const isTitle = size === 'title';
 		align-items: flex-start;
 		gap: 0.2em;
 		writing-mode: vertical-rl;
-		padding-block: 0.28em;
-		padding-inline: 0.42em 0.55em;
+		/* Optically centred: in vertical-rl the block padding is right and left,
+		   the inline padding top and bottom. The brush sets its ink a little
+		   right of the column's middle, and the letter spacing adds 0.06em
+		   after the last kanji */
+		padding-block: 0.31em 0.25em;
+		padding-inline: 0.47em 0.43em;
 		background: var(--plate);
 		color: var(--plate-ink);
 		font-family: var(--brush);
