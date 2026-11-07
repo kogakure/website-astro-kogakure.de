@@ -36,6 +36,6 @@ This website links to pages of other providers. Their operators alone are respon
 
 ## Privacy
 
-How this website handles data is described in the [privacy policy](/en/privacy/).
+How this website handles data is described in the [privacy policy](../privacy/).
 
 This English version is a translation; the [German imprint](/impressum/) is the binding one.

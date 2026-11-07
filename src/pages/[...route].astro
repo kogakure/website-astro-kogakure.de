@@ -4,7 +4,7 @@
  * homepages (/, /en/, …), the contents (/inhalt/, /en/contents/, …) and
  * the articles
  * (/abhaertung/, /en/toughening-up/, /ja/toughening-up/, …), and the legal
- * pages in German and English (/impressum/, /en/privacy/). The 404 pages
+ * pages (/impressum/, /en/privacy/, /ja/privacy/). The 404 pages
  * have their own route.
  */
 import ArticlePage from '@/components/templates/ArticlePage.astro';
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 type Props =
 	| { kind: 'home' | 'contents'; lang: Lang }
 	| { kind: 'article'; lang: Lang; entry: PageEntry }
-	| { kind: 'legal'; lang: 'de' | 'en'; page: LegalKey };
+	| { kind: 'legal'; lang: Lang; page: LegalKey };
 
 const props = Astro.props;
 ---

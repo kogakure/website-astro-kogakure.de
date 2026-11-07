@@ -3,7 +3,8 @@
  * The colophon: the page ends on the sumi band (by night the deepest
  * indigo), its top edge wet ink brushed in by a sweep. The small name
  * plate, the book's name and subtitle, the copyright, one link back, the
- * imprint and the privacy policy (English for every language but German),
+ * imprint and the privacy policy (their text English in every language
+ * but German),
  * and the reader's choices: the mode (ModeSwitch) and the language
  * (LanguageSelect).
  */
@@ -32,7 +33,7 @@ const { lang, back, languages, since = 1999, author = 'Stefan Imhoff' } = Astro.
 const t = ui(lang);
 const year = new Date().getFullYear();
 const edge = `--band-edge: url('${inkFile('wash-edge-a.webp')}')`;
-// The legal pages are German and English: a link to another language says so
+// The legal text is German or English: a link to an English text says so
 const legal = legalLang(lang);
 const hreflang = legal === lang ? undefined : legal;
 ---

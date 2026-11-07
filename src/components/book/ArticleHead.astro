@@ -5,6 +5,7 @@
  * (chapter and sections), and the brushstroke drawing in towards the text.
  */
 import OpenerPlate from '@/components/site/OpenerPlate.astro';
+import { language, type Lang } from '@/i18n/languages';
 import Sweep from '@/components/site/Sweep.astro';
 import { noBreakDash } from '@/lib/markdown/no-break-dash';
 
@@ -23,12 +24,19 @@ interface Props {
 	title: string;
 	excerpt?: string | undefined;
 	facts: Fact[];
+	/** The head is in another language than the page (the English legal text on /ja/imprint/) */
+	lang?: Lang | undefined;
 }
 
-const { image, plate, title, excerpt, facts } = Astro.props;
+const { image, plate, title, excerpt, facts, lang } = Astro.props;
+const own = lang && language(lang);
 ---
 
-<header class="opener">
+<header
+	class:list={['opener', { 'script-root': own }]}
+	lang={own ? own.htmlLang : undefined}
+	dir={own ? own.dir : undefined}
+>
 	<OpenerPlate image={image} name={plate.name} number={plate.number} />
 	<div class="opener-text">
 		<h1 class="opener-title">{noBreakDash(title)}</h1>

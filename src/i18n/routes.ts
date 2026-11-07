@@ -46,14 +46,15 @@ export const LEGAL_PAGES = {
 
 export type LegalPage = keyof typeof LEGAL_PAGES;
 
-/** The legal pages are German and English; the other languages read the English ones */
+/** The legal pages are written in German and English; the other languages show the English text */
 export const legalLang = (lang: Lang): 'de' | 'en' => (lang === DEFAULT_LANG ? 'de' : 'en');
 
-/** `/impressum/`, `/en/imprint/`; every language but German gets the English page */
-export const legalPath = (lang: Lang, page: LegalPage): string => {
-	const version = legalLang(lang);
-	return pagePath(version, LEGAL_PAGES[page][version]);
-};
+/**
+ * `/impressum/`, `/en/imprint/`, `/ja/imprint/`: every language has the page
+ * below its own prefix, so the way on stays in the reader's language
+ */
+export const legalPath = (lang: Lang, page: LegalPage): string =>
+	pagePath(lang, LEGAL_PAGES[page][legalLang(lang)]);
 
 /** Route key of the language homepages in the alternates map */
 export const HOME = 'home';
