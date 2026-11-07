@@ -4,6 +4,11 @@ description: "Welche Daten kogakure.de verarbeitet: keine Cookies, keine Dritten
 updated: 2026-11-07
 ---
 
+<figure>
+<img src="/images/article/privacy-01-hidden-behind-leaves-and-trees.webp" alt="In einem Tempelgarten im Herbst verbirgt sich ein Ninja im dichten Laub am Rand eines Steinwegs, nur seine Augen sind zu sehen. Zwei Mönche gehen ins Gespräch vertieft vorbei, ohne ihn zu bemerken; vorn schnuppert ein Fuchs an einem Reiskuchen auf einem Stein und lässt ihn liegen.">
+<figcaption>Hinter Blättern und Bäumen verborgen</figcaption>
+</figure>
+
 ## Kurz gesagt
 
 Diese Website setzt keine Cookies, bindet keine Inhalte Dritter ein und lädt alle Schriften und Bilder vom eigenen Server. Die Statistik zählt Besuche, ohne Sie wiederzuerkennen. Ihre Einstellungen (Darstellung, Sprache, Leseposition) bleiben in Ihrem Browser.

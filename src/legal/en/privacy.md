@@ -4,6 +4,11 @@ description: "Which data kogakure.de processes: no cookies, no third parties, st
 updated: 2026-11-07
 ---
 
+<figure>
+<img src="/images/article/privacy-01-hidden-behind-leaves-and-trees.webp" alt="In a temple garden in autumn a ninja hides in the dense leaves beside a stone path, only his eyes showing. Two monks walk past deep in conversation without noticing him; in front a fox sniffs at a rice cake on a stone and leaves it there.">
+<figcaption>Hidden behind leaves and trees</figcaption>
+</figure>
+
 ## In short
 
 This website sets no cookies, embeds no third-party content and loads all fonts and images from its own server. The statistics count visits without recognising you. Your settings (appearance, language, reading position) stay in your browser.

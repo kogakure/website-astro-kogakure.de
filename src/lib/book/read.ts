@@ -49,3 +49,28 @@ export function readImportedBook(root: string): BookInput {
 		assetExists: assetExists(root),
 	};
 }
+
+/** The website's own pages, written here (src/legal/, not imported) */
+export const LEGAL_DIR = 'src/legal';
+
+export interface LegalSource {
+	/** `de` or `en` */
+	lang: string;
+	/** The file name, `impressum`, `privacy`, … */
+	slug: string;
+	body: string;
+}
+
+/** The legal pages from disk, for the images they show */
+export function readLegalPages(root: string): LegalSource[] {
+	const dir = path.join(root, LEGAL_DIR);
+	return fs
+		.readdirSync(dir, { recursive: true, encoding: 'utf8' })
+		.filter((file) => file.endsWith('.md'))
+		.toSorted()
+		.map((file) => ({
+			lang: path.dirname(file),
+			slug: path.basename(file, '.md'),
+			body: splitFrontmatter(fs.readFileSync(path.join(dir, file), 'utf8')).body,
+		}));
+}

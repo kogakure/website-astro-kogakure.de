@@ -4,6 +4,11 @@ description: Who provides kogakure.de and is responsible for its content.
 updated: 2026-11-07
 ---
 
+<figure>
+<img src="/images/article/imprint-01-disguised-ninja-reading-edict-board.webp" alt="At a crossroads between rice fields stands a roofed wooden notice board hung with official edicts. An old merchant with a pack basket leans in and follows the plaques with his finger; beside him a traveller in a straw hat, a ninja in disguise, glances across at him.">
+<figcaption>Posted in public, for anyone to read</figcaption>
+</figure>
+
 ## Provider
 
 Information under § 5 of the German Digital Services Act (Digitale-Dienste-Gesetz, DDG):
