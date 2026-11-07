@@ -12,6 +12,8 @@ export default defineConfig({
 	reporter: process.env.CI ? [['github'], ['html', { open: 'never' }]] : 'list',
 	use: {
 		baseURL: `http://localhost:${port}`,
+		// A German browser: on its first visit, / sends other languages on (SI-478)
+		locale: 'de-DE',
 		trace: 'on-first-retry',
 	},
 	projects: [

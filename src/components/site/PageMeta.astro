@@ -1,0 +1,83 @@
+---
+/**
+ * What search engines and link previews read (src/lib/seo/seo.ts): title,
+ * description, robots, the canonical URL, the language versions with
+ * x-default, Open Graph and Twitter's card, and the structured data.
+ */
+import { language, LANGUAGES, type Lang } from '@/i18n/languages';
+import {
+	absoluteUrl,
+	hreflangs,
+	INDEXABLE,
+	jsonLdScript,
+	SITE_NAME,
+	type PageVersions,
+} from '@/lib/seo/seo';
+
+interface Props {
+	lang: Lang;
+	/** The `<title>` (`pageTitle()`) */
+	title: string;
+	/** The title for link previews, without the book's name */
+	ogTitle: string;
+	description: string;
+	/** The page's own URL; none on pages that aren't indexed */
+	canonical?: string | undefined;
+	/** The page's language versions for hreflang */
+	versions?: PageVersions | undefined;
+	/** The preview image, 1200×630 (`getOgImage()`) */
+	image?: { src: string; width: number; height: number; alt?: string | undefined } | undefined;
+	type?: 'website' | 'article';
+	jsonLd?: Record<string, unknown>[];
+	/** Kept out of search results: 404 pages, /design-system/ */
+	noindex?: boolean;
+}
+
+const {
+	lang,
+	title,
+	ogTitle,
+	description,
+	canonical,
+	versions,
+	image,
+	type = 'website',
+	jsonLd = [],
+	noindex = false,
+} = Astro.props;
+const { ogLocale } = language(lang);
+const alternates = versions ? hreflangs(versions) : [];
+const otherLocales = versions
+	? LANGUAGES.filter(({ code }) => code !== lang && versions[code]).map((other) => other.ogLocale)
+	: [];
+const url = canonical ? absoluteUrl(canonical) : undefined;
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+{(noindex || !INDEXABLE) && <meta name="robots" content="noindex" />}
+{url && <link rel="canonical" href={url} />}
+{alternates.map(({ hreflang, href }) => (
+	<link rel="alternate" hreflang={hreflang} href={href} />
+))}
+<meta property="og:site_name" content={SITE_NAME} />
+<meta property="og:type" content={type} />
+<meta property="og:title" content={ogTitle} />
+<meta property="og:description" content={description} />
+{url && <meta property="og:url" content={url} />}
+<meta property="og:locale" content={ogLocale} />
+{otherLocales.map((locale) => (
+	<meta property="og:locale:alternate" content={locale} />
+))}
+{image && (
+	<>
+		<meta property="og:image" content={absoluteUrl(image.src)} />
+		<meta property="og:image:width" content={String(image.width)} />
+		<meta property="og:image:height" content={String(image.height)} />
+		{image.alt && <meta property="og:image:alt" content={image.alt} />}
+	</>
+)}
+<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+{jsonLd.map((data) => (
+	<script type="application/ld+json" is:inline set:html={jsonLdScript(data)} />
+))}

@@ -23,7 +23,7 @@ Die Website liegt auf einem Server der Hetzner Online GmbH, Industriestr. 25, 91
 
 ## Statistik mit Umami
 
-Um zu sehen, welche Seiten gelesen werden, nutze ich [Umami](https://umami.is/), eine quelloffene Statistik, die ich selbst betreibe. Umami setzt keine Cookies und speichert keine IP-Adressen. Gezählt werden die aufgerufene Seite, die verweisende Seite, Browser, Betriebssystem, Geräteart, Bildschirmgröße, Sprache und das Land. Ein einzelner Besuch lässt sich daraus keiner Person zuordnen, und die Daten verlassen den eigenen Server nicht. Rechtsgrundlage ist mein berechtigtes Interesse, das Buch zu verbessern (Art. 6 Abs. 1 lit. f DSGVO).
+Um zu sehen, welche Seiten gelesen werden, nutze ich [Umami](https://umami.is/), eine quelloffene Statistik, die ich selbst betreibe. Umami setzt keine Cookies und speichert keine IP-Adressen. Gezählt werden die aufgerufene Seite, die verweisende Seite, Browser, Betriebssystem, Geräteart, Bildschirmgröße, Sprache und das Land, außerdem, wie oft jemand die Sprache oder die Darstellung wechselt oder eine Datei herunterlädt. Ein einzelner Besuch lässt sich daraus keiner Person zuordnen, und die Daten verlassen den eigenen Server nicht. Rechtsgrundlage ist mein berechtigtes Interesse, das Buch zu verbessern (Art. 6 Abs. 1 lit. f DSGVO).
 
 ## Schriften
 
@@ -31,7 +31,7 @@ Alle Schriften liegen auf dem Server dieser Website. Ihr Browser baut keine Verb
 
 ## Speicher im Browser
 
-Die Website merkt sich im Speicher Ihres Browsers (`localStorage`, `sessionStorage`), welche Darstellung (hell, dunkel) und welche Sprache Sie gewählt haben und wo Sie zuletzt gelesen haben. Diese Angaben verlassen Ihren Browser nicht; sie dienen nur Funktionen, die Sie selbst nutzen (§ 25 Abs. 2 Nr. 2 Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, TDDDG). Sie können sie jederzeit in den Einstellungen Ihres Browsers löschen.
+Die Website merkt sich im Speicher Ihres Browsers (`localStorage`, `sessionStorage`), welche Darstellung (hell, dunkel) und welche Sprache Sie gewählt haben, ob die Startseite Sie schon einmal zur Sprache Ihres Browsers geleitet hat und wo Sie zuletzt gelesen haben. Diese Angaben verlassen Ihren Browser nicht; sie dienen nur Funktionen, die Sie selbst nutzen (§ 25 Abs. 2 Nr. 2 Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, TDDDG). Sie können sie jederzeit in den Einstellungen Ihres Browsers löschen.
 
 ## E-Mail
 

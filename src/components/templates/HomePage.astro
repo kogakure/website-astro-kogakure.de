@@ -8,16 +8,21 @@ import Prologue from '@/components/book/Prologue.astro';
 import ResumeLink from '@/components/book/ResumeLink.astro';
 import Scene from '@/components/book/Scene.astro';
 import Colophon from '@/components/site/Colophon.astro';
-import { languageChoices, type Lang } from '@/i18n/languages';
+import FirstVisit from '@/components/site/FirstVisit.astro';
+import { DEFAULT_LANG, languageChoices, type Lang } from '@/i18n/languages';
 import { HOME } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { chapterCredit, getAlternates, getChapters } from '@/lib/book/book';
+import { getOgImage } from '@/lib/images/images';
 import { QUOTES } from '@/lib/markdown/quotes';
+import { bookJsonLd, SINCE } from '@/lib/seo/seo';
 
 interface Props {
 	lang: Lang;
 }
+
+const PREVIEW_PAGE = 'prefacePage';
 
 const { lang } = Astro.props;
 const t = ui(lang);
@@ -26,13 +31,26 @@ const articles = chapters.flatMap((chapter) => chapter.items);
 const [start] = articles;
 if (!start) throw new Error(`The ${lang} book has no articles`);
 const [open, close] = QUOTES[lang];
-const languages = languageChoices(await getAlternates(HOME), lang);
+const versions = await getAlternates(HOME);
+const languages = languageChoices(versions, lang);
+const credit = t.credit(SINCE, chapters.length, articles.length);
+// The preview shows the preface's painting, the book's first
+const image = getOgImage(PREVIEW_PAGE);
+const stop = lang === 'ja' || lang === 'zh' ? '。' : '. ';
 ---
 
-<BaseLayout title="木隠 · kogakure" description={t.subtitle} lang={lang}>
+<BaseLayout
+	description={`${t.topic}${stop}${credit}`}
+	lang={lang}
+	canonical={versions[lang]}
+	versions={versions}
+	image={image}
+	jsonLd={[bookJsonLd(lang, image?.src)]}
+>
+	{lang === DEFAULT_LANG && <FirstVisit slot="head" />}
 	<Prologue
 		subtitle={`${open}${t.subtitle}${close}`}
-		credit={t.credit(1999, chapters.length, articles.length)}
+		credit={credit}
 		heading={t.contents}
 		parts={chapters.map((chapter) => ({
 			href: `#${chapter.slug}`,

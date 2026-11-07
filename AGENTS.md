@@ -29,6 +29,7 @@ The plan and all issues are in the Linear project _Migration to Astro_ (P-SI-13)
 - Images (`docs/images.md`): pregenerated WebP sizes, manifest, Picture, OG images, ink assets
 - Fonts (`docs/fonts.md`): self-hosted WOFF2 subsets, per-page CJK files, the font budget
 - Testing (`docs/testing.md`): unit, component, accessibility and end-to-end tests
+- Languages, SEO, redirects and analytics (`docs/seo.md`): first visit to `/`, meta tags, hreflang, sitemap, the old URLs, Umami
 - Git workflow (`docs/git-workflow.md`): branches, commits, pull requests, Linear
 
 ## Agents

@@ -1,31 +1,33 @@
 # Directories
 
-| Path                            | Contents                                                                                          |
-| ------------------------------- | ------------------------------------------------------------------------------------------------- |
-| `src/pages/`                    | Routes. Pages only compose layouts and components                                                 |
-| `src/layouts/`                  | Page shells (`BaseLayout.astro`: head with fonts and mode, skip link, `<main>`, reveal)           |
-| `src/components/site/`          | Astro components for the site's structure (skip link, top bar, colophon, …)                       |
-| `src/components/ui/`            | shadcn/ui components on Base UI, restyled to the design tokens (none yet; created on first use)   |
-| `src/components/COMPONENTS.md`  | Catalogue of all components                                                                       |
-| `src/lib/`                      | Shared code (`utils.ts` with `cn()`)                                                              |
-| `src/lib/book/`                 | Book data: schemas, import transforms, validation, alternates map, `book.ts` for pages            |
-| `src/lib/markdown/`             | HAST plugins for the texts                                                                        |
-| `src/lib/images/`               | Image manifest (`manifest.json`, written by `pnpm images`) and its lookup (`images.ts`)           |
-| `src/lib/fonts/`                | Font manifest (`manifest.json`, written by `pnpm fonts`), @font-face rules, the texts' characters |
-| `src/lib/mode/`                 | Light and dark mode: constants (`mode.ts`) and the browser part (`mode-client.ts`)                |
-| `src/components/design-system/` | The samples of `/design-system/`                                                                  |
-| `src/i18n/`                     | Languages, URL scheme (`routes.ts`) and UI strings (`ui.ts`) in twelve languages                  |
-| `src/content/`                  | Imported book (`book/`, `toc/`, `glossary/`); never edit by hand                                  |
-| `src/content.config.ts`         | Content collections `book`, `toc`, `glossary`, `legal`                                            |
-| `src/legal/`                    | Imprint and privacy policy, German and English; written here, not imported                        |
-| `public/downloads/`             | Files the texts offer for download (the Iga ninja font)                                           |
-| `src/integrations/`             | Astro integrations (`validate-book.ts` fails the build on broken content)                         |
-| `src/components/book/`          | Astro components for the book's pages (prologue, scenes, contents, article head, previous/next)   |
-| `src/components/templates/`     | The page types (homepage, contents, article), rendered by `src/pages/[...route].astro`            |
-| `scripts/`                      | `import-content.ts`, `generate-images.ts`, `generate-fonts.ts`                                    |
-| `src/styles/`                   | `global.css` (Tailwind entry, theme, base, scripts), `tokens.css`, `prose.css`, `motion.css`      |
-| `src/test/`                     | Test helpers: `setup.ts`, `a11y.ts` (axe), `render.ts` (Astro container), `happy-dom-ssr.ts`      |
-| `tests/e2e/`                    | Playwright tests                                                                                  |
-| `public/`                       | Files copied as they are: generated images in `images/`, fonts and their licences in `fonts/`     |
-| `docs/`                         | Topic docs for agents and contributors                                                            |
-| `.claude/agents/`               | Project review agents                                                                             |
+| Path                            | Contents                                                                                                                                          |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/pages/`                    | Routes. Pages only compose layouts and components                                                                                                 |
+| `src/layouts/`                  | Page shells (`BaseLayout.astro`: head with fonts and mode, skip link, `<main>`, reveal)                                                           |
+| `src/components/site/`          | Astro components for the site's structure (skip link, top bar, colophon, …)                                                                       |
+| `src/components/ui/`            | shadcn/ui components on Base UI, restyled to the design tokens (none yet; created on first use)                                                   |
+| `src/components/COMPONENTS.md`  | Catalogue of all components                                                                                                                       |
+| `src/lib/`                      | Shared code (`utils.ts` with `cn()`)                                                                                                              |
+| `src/lib/book/`                 | Book data: schemas, import transforms, validation, alternates map, `book.ts` for pages                                                            |
+| `src/lib/markdown/`             | HAST plugins for the texts                                                                                                                        |
+| `src/lib/images/`               | Image manifest (`manifest.json`, written by `pnpm images`) and its lookup (`images.ts`)                                                           |
+| `src/lib/fonts/`                | Font manifest (`manifest.json`, written by `pnpm fonts`), @font-face rules, the texts' characters                                                 |
+| `src/lib/mode/`                 | Light and dark mode: constants (`mode.ts`) and the browser part (`mode-client.ts`)                                                                |
+| `src/lib/seo/`                  | Titles, canonical URLs, hreflang, sitemap and JSON-LD (`docs/seo.md`)                                                                             |
+| `src/lib/analytics/`            | Umami: its settings, the events, `trackEvent()`                                                                                                   |
+| `src/components/design-system/` | The samples of `/design-system/`                                                                                                                  |
+| `src/i18n/`                     | Languages, URL scheme (`routes.ts`), UI strings (`ui.ts`) in twelve languages, the first visit to `/` (`first-visit.ts`)                          |
+| `src/content/`                  | Imported book (`book/`, `toc/`, `glossary/`); never edit by hand                                                                                  |
+| `src/content.config.ts`         | Content collections `book`, `toc`, `glossary`, `legal`                                                                                            |
+| `src/legal/`                    | Imprint and privacy policy, German and English; written here, not imported                                                                        |
+| `public/downloads/`             | Files the texts offer for download (the Iga ninja font)                                                                                           |
+| `src/integrations/`             | Astro integrations (`validate-book.ts` fails the build on broken content)                                                                         |
+| `src/components/book/`          | Astro components for the book's pages (prologue, scenes, contents, article head, previous/next)                                                   |
+| `src/components/templates/`     | The page types (homepage, contents, article), rendered by `src/pages/[...route].astro`                                                            |
+| `scripts/`                      | `import-content.ts`, `generate-images.ts`, `generate-fonts.ts`, `check-old-urls.ts` with `old-urls.txt`                                           |
+| `src/styles/`                   | `global.css` (Tailwind entry, theme, base, scripts), `tokens.css`, `prose.css`, `motion.css`                                                      |
+| `src/test/`                     | Test helpers: `setup.ts`, `a11y.ts` (axe), `render.ts` (Astro container), `happy-dom-ssr.ts`                                                      |
+| `tests/e2e/`                    | Playwright tests                                                                                                                                  |
+| `public/`                       | Files copied as they are: generated images in `images/`, fonts and their licences in `fonts/`, `robots.txt`, `humans.txt`, the verification files |
+| `docs/`                         | Topic docs for agents and contributors                                                                                                            |
+| `.claude/agents/`               | Project review agents                                                                                                                             |

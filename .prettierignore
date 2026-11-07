@@ -10,3 +10,8 @@ src/content/
 
 # written by pnpm images
 src/lib/images/manifest.json
+
+# Verification files of search engines and services, served byte for byte
+public/*.html
+public/*.xml
+public/.well-known/

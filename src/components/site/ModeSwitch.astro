@@ -5,7 +5,8 @@
  * pale band tone, about 9–10:1). „System“ follows prefers-color-scheme and
  * is the default; a choice is stored and applied before first paint
  * (SiteHead.astro). The change is instant. Hidden without JavaScript,
- * where it could do nothing: the page follows the system.
+ * where it could do nothing: the page follows the system. A change counts
+ * as an event (src/lib/analytics).
  */
 import { MODES } from '@/lib/mode/mode';
 
@@ -34,6 +35,7 @@ const { legend, labels, class: className } = Astro.props;
 <script>
 	import { isMode } from '@/lib/mode/mode';
 	import { chooseMode, storedMode, watchSystemMode } from '@/lib/mode/mode-client';
+	import { EVENTS, trackEvent } from '@/lib/analytics/analytics';
 
 	const radios = document.querySelectorAll<HTMLInputElement>('[data-mode-choice] input');
 	const sync = () => {
@@ -44,9 +46,10 @@ const { legend, labels, class: className } = Astro.props;
 	watchSystemMode();
 	addEventListener('modechange', sync);
 	for (const radio of radios) {
-		radio.addEventListener('change', () =>
-			chooseMode(isMode(radio.value) ? radio.value : null)
-		);
+		radio.addEventListener('change', () => {
+			chooseMode(isMode(radio.value) ? radio.value : null);
+			trackEvent(EVENTS.mode, { mode: radio.value });
+		});
 	}
 </script>
 

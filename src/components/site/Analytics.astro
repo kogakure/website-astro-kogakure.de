@@ -1,0 +1,19 @@
+---
+/**
+ * Umami's script, in production only (src/lib/analytics/analytics.ts): the
+ * build sets `ANALYTICS` (Dockerfile), and Umami counts only on the live
+ * domain. Elsewhere nothing is loaded and `trackEvent` does nothing.
+ */
+import { ANALYTICS } from 'astro:env/server';
+import { UMAMI } from '@/lib/analytics/analytics';
+---
+
+{ANALYTICS && (
+	<script
+		is:inline
+		defer
+		src={UMAMI.script}
+		data-website-id={UMAMI.websiteId}
+		data-domains={UMAMI.domains}
+	/>
+)}

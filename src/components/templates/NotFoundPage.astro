@@ -33,9 +33,10 @@ const contents = contentsPath(lang);
 ---
 
 <BaseLayout
-	title={`${entry.data.title} · 木隠`}
+	title={entry.data.title}
 	description={entry.data.title}
 	lang={lang}
+	noindex
 	fontPage={parseId(entry.id).slug}
 	ground="read"
 >

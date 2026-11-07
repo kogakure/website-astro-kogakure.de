@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { LANGS, LANGUAGES, type Lang } from '../../i18n/languages.ts';
-import { ui } from '../../i18n/ui.ts';
+import { ui, type Ui } from '../../i18n/ui.ts';
 import { BOOK_PLATE, DESIGN_NAME, PLATE_TEXT, SCENES } from '../book/plates.ts';
 import type { Glossary, Toc } from '../book/schema.ts';
 import { GLOSSARY_PAGE } from '../book/transform.ts';
@@ -59,10 +59,14 @@ export interface LanguageText {
 
 const read = (file: string) => fs.readFileSync(file, 'utf8');
 
+/** UI strings only in the head (titles, link previews), never set in the fonts */
+const HEAD_ONLY: ReadonlySet<keyof Ui> = new Set(['topic']);
+
 /** The UI strings of a language, with the counting ones filled in */
 const uiText = (lang: Lang) =>
-	Object.values(ui(lang))
-		.map((value) => (typeof value === 'function' ? value(1, 2, 3) : String(value)))
+	Object.entries(ui(lang))
+		.filter(([key]) => !HEAD_ONLY.has(key as keyof Ui))
+		.map(([, value]) => (typeof value === 'function' ? value(1, 2, 3) : String(value)))
 		.join('\n');
 
 /** The titles of the contents */

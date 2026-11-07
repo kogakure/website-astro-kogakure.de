@@ -42,6 +42,8 @@ export interface Ui {
 	credit: (since: number, parts: number, articles: number) => string;
 	/** The book's subtitle, as the colophon of the language translates it */
 	subtitle: string;
+	/** What the book is about, after the name in the page titles: „Ninja, Ninjutsu & Kampfkunst“ */
+	topic: string;
 	modeLegend: string;
 	modeLight: string;
 	modeDark: string;
@@ -105,6 +107,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: 'Nach den Kapiteln',
 		credit: (since, parts, articles) => `Seit ${since}. ${parts} Teile, ${articles} Artikel.`,
 		subtitle: 'Hinter Blättern und Bäumen verborgen',
+		topic: 'Ninja, Ninjutsu & Kampfkunst',
 		modeLegend: 'Darstellung',
 		modeLight: 'Hell',
 		modeDark: 'Dunkel',
@@ -150,6 +153,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: 'After the chapters',
 		credit: (since, parts, articles) => `Since ${since}. ${parts} parts, ${articles} articles.`,
 		subtitle: 'Hidden behind leaves and trees',
+		topic: 'Ninja, Ninjutsu & Martial Arts',
 		modeLegend: 'Appearance',
 		modeLight: 'Light',
 		modeDark: 'Dark',
@@ -196,6 +200,7 @@ export const UI: Record<Lang, Ui> = {
 		credit: (since, parts, articles) =>
 			`Desde ${since}. ${parts} partes, ${articles} artículos.`,
 		subtitle: 'Oculto tras hojas y árboles',
+		topic: 'Ninja, ninjutsu y artes marciales',
 		modeLegend: 'Apariencia',
 		modeLight: 'Clara',
 		modeDark: 'Oscura',
@@ -242,6 +247,7 @@ export const UI: Record<Lang, Ui> = {
 		credit: (since, parts, articles) =>
 			`Depuis ${since}. ${parts} parties, ${articles} articles.`,
 		subtitle: 'Caché derrière les feuilles et les arbres',
+		topic: 'Ninja, ninjutsu et arts martiaux',
 		modeLegend: 'Apparence',
 		modeLight: 'Claire',
 		modeDark: 'Sombre',
@@ -287,6 +293,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: 'Depois dos capítulos',
 		credit: (since, parts, articles) => `Desde ${since}. ${parts} partes, ${articles} artigos.`,
 		subtitle: 'Escondido atrás de folhas e árvores',
+		topic: 'Ninja, ninjutsu e artes marciais',
 		modeLegend: 'Aparência',
 		modeLight: 'Clara',
 		modeDark: 'Escura',
@@ -332,6 +339,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: 'Dopo i capitoli',
 		credit: (since, parts, articles) => `Dal ${since}. ${parts} parti, ${articles} articoli.`,
 		subtitle: 'Nascosto dietro foglie e alberi',
+		topic: 'Ninja, ninjutsu e arti marziali',
 		modeLegend: 'Aspetto',
 		modeLight: 'Chiaro',
 		modeDark: 'Scuro',
@@ -378,6 +386,7 @@ export const UI: Record<Lang, Ui> = {
 		credit: (since, parts, articles) =>
 			`Sinds ${since}. ${parts} delen, ${articles} artikelen.`,
 		subtitle: 'Verborgen achter bladeren en bomen',
+		topic: 'Ninja, ninjutsu en vechtkunst',
 		modeLegend: 'Weergave',
 		modeLight: 'Licht',
 		modeDark: 'Donker',
@@ -426,6 +435,7 @@ export const UI: Record<Lang, Ui> = {
 		credit: (since, parts, articles) =>
 			`С ${since} года. ${parts} ${plural('ru', parts, { one: 'часть', few: 'части', many: 'частей', other: 'части' })}, ${articles} ${plural('ru', articles, { one: 'статья', few: 'статьи', many: 'статей', other: 'статьи' })}.`,
 		subtitle: 'Скрытый за листьями и деревьями',
+		topic: 'Ниндзя, ниндзюцу и боевые искусства',
 		modeLegend: 'Оформление',
 		modeLight: 'Светлое',
 		modeDark: 'Темное',
@@ -471,6 +481,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: '各章の後に',
 		credit: (since, parts, articles) => `${since}年から。全${parts}部、${articles}編。`,
 		subtitle: '木の葉と木々に隠れて',
+		topic: '忍者・忍術・武術',
 		modeLegend: '表示',
 		modeLight: 'ライト',
 		modeDark: 'ダーク',
@@ -516,6 +527,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: '正文之后',
 		credit: (since, parts, articles) => `始于${since}年。共${parts}部分，${articles}篇文章。`,
 		subtitle: '隐于枝叶与树木之后',
+		topic: '忍者、忍术与武术',
 		modeLegend: '显示',
 		modeLight: '浅色',
 		modeDark: '深色',
@@ -561,6 +573,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: '본문에 이어',
 		credit: (since, parts, articles) => `${since}년부터. ${parts}부, ${articles}편.`,
 		subtitle: '나뭇잎과 나무 뒤에 숨어',
+		topic: '닌자, 인술, 무술',
 		modeLegend: '화면 모드',
 		modeLight: '밝게',
 		modeDark: '어둡게',
@@ -606,6 +619,7 @@ export const UI: Record<Lang, Ui> = {
 		afterChapters: 'אחרי הפרקים',
 		credit: (since, parts, articles) => `מאז ${since}. ${parts} חלקים, ${articles} מאמרים.`,
 		subtitle: 'מוסתר מאחורי עלים ועצים',
+		topic: "נינג'ה, נינג'יטסו ואומנויות לחימה",
 		modeLegend: 'תצוגה',
 		modeLight: 'בהירה',
 		modeDark: 'כהה',

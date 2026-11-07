@@ -12,6 +12,8 @@ import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAlternates, getChapters } from '@/lib/book/book';
 import { BOOK_PLATE } from '@/lib/book/plates';
+import { getOgImage } from '@/lib/images/images';
+import { breadcrumbJsonLd, SITE_NAME } from '@/lib/seo/seo';
 
 interface Props {
 	lang: Lang;
@@ -20,11 +22,23 @@ interface Props {
 const { lang } = Astro.props;
 const t = ui(lang);
 const chapters = await getChapters(lang);
-const languages = languageChoices(await getAlternates(CONTENTS), lang);
+const versions = await getAlternates(CONTENTS);
+const languages = languageChoices(versions, lang);
 const home = homePath(lang);
+const titles = chapters
+	.map((chapter) => chapter.title)
+	.join(lang === 'ja' || lang === 'zh' ? '、' : ', ');
 ---
 
-<BaseLayout title={`${t.contents} · 木隠`} description={t.subtitle} lang={lang}>
+<BaseLayout
+	title={t.contents}
+	description={titles}
+	lang={lang}
+	canonical={versions[lang]}
+	versions={versions}
+	image={getOgImage('prefacePage')}
+	jsonLd={[breadcrumbJsonLd([{ name: SITE_NAME, path: home }, { name: t.contents }])]}
+>
 	<TopBar slot="before-main" label={t.book} home={{ href: home, label: BOOK_PLATE.romaji }} />
 
 	<Contents

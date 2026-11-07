@@ -1,17 +1,30 @@
 ---
+import Analytics from '@/components/site/Analytics.astro';
 import Ink from '@/components/site/Ink.astro';
 import Lightbox from '@/components/site/Lightbox.astro';
+import PageMeta from '@/components/site/PageMeta.astro';
 import SiteHead from '@/components/site/SiteHead.astro';
 import SkipLink from '@/components/site/SkipLink.astro';
 import { DEFAULT_LANG, language, type Lang } from '@/i18n/languages';
 import { ui } from '@/i18n/ui';
 import type { FontSource } from '@/lib/fonts/fonts';
+import { pageTitle, SITE_NAME } from '@/lib/seo/seo';
+import type { ComponentProps } from 'astro/types';
 import '@/styles/global.css';
 
+type Meta = ComponentProps<typeof PageMeta>;
+
 interface Props {
-	title: string;
+	/** The page's own title, without the book's name; none on the homepage */
+	title?: string | undefined;
 	description: string;
 	lang?: Lang;
+	canonical?: Meta['canonical'];
+	versions?: Meta['versions'];
+	image?: Meta['image'];
+	type?: Meta['type'];
+	jsonLd?: Meta['jsonLd'];
+	noindex?: Meta['noindex'];
 	/** The page's slug in the book, for its own font subsets */
 	fontPage?: string | undefined;
 	/** More pages whose text this page quotes (the samples on /design-system/) */
@@ -27,6 +40,7 @@ const {
 	fontPage,
 	fontPages,
 	ground = 'home',
+	...meta
 } = Astro.props;
 const { htmlLang, dir } = language(lang);
 ---
@@ -36,11 +50,17 @@ const { htmlLang, dir } = language(lang);
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content={description} />
-		<meta name="robots" content="noindex" />
-		<title>{title}</title>
-		<SiteHead lang={lang} fontPage={fontPage} fontPages={fontPages} ground={ground} />
+		{/* First, before the head loads anything: the first visit's redirect on / */}
 		<slot name="head" />
+		<PageMeta
+			lang={lang}
+			title={pageTitle(lang, title)}
+			ogTitle={title ?? SITE_NAME}
+			description={description}
+			{...meta}
+		/>
+		<SiteHead lang={lang} fontPage={fontPage} fontPages={fontPages} ground={ground} />
+		<Analytics />
 	</head>
 	<body data-ground={ground}>
 		<SkipLink label={ui(lang).skipToText} />

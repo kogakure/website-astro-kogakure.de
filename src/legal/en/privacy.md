@@ -23,7 +23,7 @@ The website runs on a server of Hetzner Online GmbH, Industriestr. 25, 91710 Gun
 
 ## Statistics with Umami
 
-To see which pages are read, I use [Umami](https://umami.is/), open-source statistics that I host myself. Umami sets no cookies and stores no IP addresses. It counts the page visited, the referring page, browser, operating system, device type, screen size, language and country. None of this links a single visit to a person, and the data never leaves my own server. The legal basis is my legitimate interest in improving the book (Art. 6 (1) (f) GDPR).
+To see which pages are read, I use [Umami](https://umami.is/), open-source statistics that I host myself. Umami sets no cookies and stores no IP addresses. It counts the page visited, the referring page, browser, operating system, device type, screen size, language and country, and also how often someone changes the language or the appearance or downloads a file. None of this links a single visit to a person, and the data never leaves my own server. The legal basis is my legitimate interest in improving the book (Art. 6 (1) (f) GDPR).
 
 ## Fonts
 
@@ -31,7 +31,7 @@ All fonts are served from this website’s server. Your browser makes no connect
 
 ## Storage in the browser
 
-The website remembers in your browser’s storage (`localStorage`, `sessionStorage`) which appearance (light, dark) and which language you chose and where you last read. This information never leaves your browser; it only serves functions you use yourself (§ 25 (2) no. 2 of the German Telecommunications Digital Services Data Protection Act, TDDDG). You can delete it at any time in your browser’s settings.
+The website remembers in your browser’s storage (`localStorage`, `sessionStorage`) which appearance (light, dark) and which language you chose, whether the homepage has already taken you to your browser’s language, and where you last read. This information never leaves your browser; it only serves functions you use yourself (§ 25 (2) no. 2 of the German Telecommunications Digital Services Data Protection Act, TDDDG). You can delete it at any time in your browser’s settings.
 
 ## Email
 

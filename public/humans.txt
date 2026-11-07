@@ -1,0 +1,15 @@
+/* humanstxt.org */
+
+/* TEAM */
+Author, designer, developer: Stefan Imhoff
+Site: https://www.stefanimhoff.de/
+Location: Hamburg, Germany
+
+/* THANKS */
+Everyone whose books and texts inspired this one: see the colophon.
+
+/* SITE */
+Online since: 1999
+Language: German, English, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Chinese, Korean, Hebrew
+Standards: HTML, CSS, JavaScript, WOFF2, WebP
+Components: Astro, Tailwind CSS, React, Base UI

@@ -1,6 +1,7 @@
 import type { HastPluginList } from 'satteri';
 import { getImage, SIZES } from '../images/images.ts';
 import { hastBanners } from './banners.ts';
+import { hastDownloads } from './downloads.ts';
 import { hastFigures } from './figures.ts';
 import { hastGlossedTerms } from './glossed-terms.ts';
 import { hastHeadingIds } from './heading-ids.ts';
@@ -30,5 +31,6 @@ export const BOOK_HAST_PLUGINS: HastPluginList = [
 	hastFigures({ lookup: figureImage }),
 	hastBanners,
 	hastTables,
+	hastDownloads,
 	hastReadingTime,
 ];
