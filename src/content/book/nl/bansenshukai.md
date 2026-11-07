@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: In 1676 bracht Fujibayashi Yasutake de kennis van tientallen ninja-Ryū uit Iga en Kōga samen. Tien delen over strategie, moraal, misleiding, weer en gereedschap.
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

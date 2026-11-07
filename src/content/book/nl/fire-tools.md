@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: In huizen van hout en papier was vuur het grootste gevaar. De ninja gebruikten het om paniek te zaaien – en om in het donker te kunnen zien.
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

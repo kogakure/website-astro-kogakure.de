@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: В основе ниндзюцу — свободный и справедливый дух. Как летописцы и СМИ исказили репутацию ниндзя и что говорит иероглиф 忍.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

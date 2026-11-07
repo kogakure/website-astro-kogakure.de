@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: Des échelles à lancer, à plier ou à tendre au-dessus des abîmes, des cordes en cheveux de femme, des griffes pour les mains et les pieds – ainsi les ninja gagnaient arbres, ravins et châteaux.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

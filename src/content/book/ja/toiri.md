@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: わざと捕らえさせる使者、何年も合図を待ち続ける寝返り者。遠入の戦術は、平時のうちから戦の準備を整えた。
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

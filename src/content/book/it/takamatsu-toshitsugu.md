@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: A 13 anni sconfisse un lottatore professionista di sumō, in Cina schivò per due ore un maestro di Shaolin. Takamatsu Toshitsugu fu il maestro di Hatsumi Masaaki e diede il nome al Bujinkan.
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

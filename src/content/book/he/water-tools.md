@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: סירות מתקפלות, צינורות נשימה, סנפירים – בעזרת כלי המים שלהם נעו הנינג'ה מהר על המים, מתחת למים ובביצות, והשאירו מאחור בקלות סמוראים כבדי שריון.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

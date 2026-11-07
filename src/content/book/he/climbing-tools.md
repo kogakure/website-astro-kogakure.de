@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: סולמות שאפשר לזרוק, לקפל או למתוח מעל תהומות, חבלים משיער נשים, טפרים לידיים ולרגליים – כך טיפסו הנינג'ה על עצים, חצו נקיקים וחדרו למבצרים.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

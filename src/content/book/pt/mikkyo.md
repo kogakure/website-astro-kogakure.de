@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: O mikkyō ensina que o acaso não existe. Como essa doutrina tântrica chegou da Índia ao Japão passando pela China e por que os ninja a usavam para aumentar suas forças.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

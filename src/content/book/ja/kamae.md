@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 三秒のうちに五つの構え。忍術の構えは固まった姿勢ではなく、内なる心構えの表れであり、自然な動きの一部である。
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

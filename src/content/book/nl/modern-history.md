@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: Na de Tweede Wereldoorlog verboden de Amerikanen de vechtkunsten in Japan grotendeels. De kennis van de ninja overleefde toch – via een nachtwaker, een avonturier in China en diens leerling Hatsumi.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

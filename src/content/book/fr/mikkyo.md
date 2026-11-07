@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: Le hasard n’existe pas, enseigne le mikkyō. Comment cette doctrine tantrique passa de l’Inde au Japon par la Chine, et pourquoi les ninja s’en servirent pour accroître leurs forces.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

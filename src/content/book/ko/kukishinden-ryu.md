@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: 다카마쓰는 구키신류의 덴쇼를 복원했고, 그 대가로 분파를 세울 수 있었다. 그것이 아홉 귀신의 류파, 구키신덴류다.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

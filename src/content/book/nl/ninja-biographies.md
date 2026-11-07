@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: Een weduwe die weesmeisjes tot spionnen opleidde, een scherpschutter die Nobunaga miste, een meesterdief die in olie werd gekookt – tien ninja die geschiedenis schreven.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Lang in het geheim onderwezen, meer gericht op spionage dan op gevecht en bekend om het werptouw – de school van het met juwelen getooide hart.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

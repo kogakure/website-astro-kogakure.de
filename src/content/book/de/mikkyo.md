@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: Es gibt keinen Zufall, lehrt das Mikkyō. Wie die tantrische Lehre von Indien über China nach Japan kam und warum die Ninja sie nutzten, um ihre Kräfte zu steigern.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

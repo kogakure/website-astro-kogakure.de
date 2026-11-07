@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: El azar no existe, enseña el mikkyō. Cómo esta doctrina tántrica llegó de la India a Japón a través de China y por qué los ninja la usaron para aumentar sus fuerzas.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

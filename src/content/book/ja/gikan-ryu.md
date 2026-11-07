@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: 開祖は一撃で刀身を折ったといわれる。義鑑流には型がなく、初見はこれまでこの流派を公に教えていない。
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

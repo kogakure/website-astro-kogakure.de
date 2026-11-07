@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: Due volte diciotto fanno le 36 strategie militari – 18 arti belliche fondamentali e 18 abilità speciali in cui si addestravano i ninja.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

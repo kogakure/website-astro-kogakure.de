@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: 忍術の核心にあるのは、自由で正しい心である。歴史の記録とメディアが忍者の評判をどう歪めたのか、そして忍という字が何を語るのか。
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

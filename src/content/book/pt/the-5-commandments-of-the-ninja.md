@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Deixar a tristeza, a raiva, a inveja e o ódio passarem como fumaça. Cinco mandamentos de Hatsumi Masaaki para os momentos de tristeza, doença, ferimento ou desespero.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

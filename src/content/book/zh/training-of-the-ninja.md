@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: 忍者是天生的，不是后天练成的。五六岁时，游戏变成了训练；后来又加上格斗、表演、心理学和心智的修炼。
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: Geen banden, geen bekers, geen regels. Taijutsu is de basis van het ninjutsu, een natuurlijke manier van vechten om te overleven, met bewegingen die aarde, water, vuur en wind volgen.
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

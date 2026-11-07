@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Vouwboten, ademhalingsbuizen, zwemvliezen – met hun watergereedschap kwamen de ninja snel over en onder water en door moerasland, en lieten ze gepantserde samurai ver achter zich.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

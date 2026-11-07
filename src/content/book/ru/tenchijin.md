@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: Изменить мир, изменить себя или лишь видимость — с помощью принципов неба, земли и человека ниндзя оценивали любое положение с нескольких точек зрения.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

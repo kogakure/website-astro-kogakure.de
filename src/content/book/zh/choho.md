@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: 一个间谍就能让一场战争缩短好几年。在中世纪，侦察和间谍活动是忍者最重要的任务领域，也是他们训练中固定的一部分。
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

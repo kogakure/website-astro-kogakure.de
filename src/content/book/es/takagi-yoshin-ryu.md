@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: Un sauce se dobla, un árbol alto se quiebra. Con esta enseñanza de su padre, Takagi Oriemon Shigenobu creó una escuela cuya filosofía es ceder.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

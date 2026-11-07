@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: בשקט על רצפות עץ, דרך מים רדודים, שטוחים על הקרקע כמו סלמנדרה. בטכניקות ההליכה והריצה האלה נעו הנינג'ה בלי להישמע.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

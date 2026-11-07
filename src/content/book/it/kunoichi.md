@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: 'Nel 1561 Mochizuki Moritoki cadde in battaglia. La vedova Chiyome non entrò in convento: per Takeda Shingen creò una rete di agenti donne, travestite da ancelle dei templi.'
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: Twee keer achttien maakt de 36 militaire strategieën – 18 basiskunsten van de oorlog en 18 bijzondere vaardigheden waarin de ninja trainden.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

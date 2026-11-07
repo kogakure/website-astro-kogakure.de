@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: Un seul espion peut abréger une guerre de plusieurs années. Au Moyen Âge, renseignement et espionnage étaient le principal terrain d’action des ninja – et un pilier de leur formation.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

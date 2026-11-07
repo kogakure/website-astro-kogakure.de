@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: Berge auf drei Seiten, Kyōto in der Nähe und ein chinesischer General auf der Flucht – wie in Iga eine der ältesten Ninja-Traditionen entstand und wer sie weitergab.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

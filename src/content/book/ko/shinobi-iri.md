@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 나무 마루 위를, 얕은 물속을, 도롱뇽처럼 땅에 납작 엎드려 소리 없이 움직인다. 닌자는 이런 걸음과 달리기 기술로 들키지 않고 움직였다.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

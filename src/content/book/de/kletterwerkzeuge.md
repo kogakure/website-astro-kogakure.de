@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: Leitern, die man werfen, falten oder über Abgründe spannen konnte, Seile aus Frauenhaar, Krallen für Hände und Füße – so kamen die Ninja auf Bäume, über Schluchten und in Burgen.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

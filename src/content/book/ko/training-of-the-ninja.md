@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: 닌자는 태어나는 것이었다. 다섯 살이나 여섯 살이 되면 아이들의 놀이가 훈련으로 바뀌었고, 나중에는 싸움, 연기, 심리학, 정신 수련이 더해졌다.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

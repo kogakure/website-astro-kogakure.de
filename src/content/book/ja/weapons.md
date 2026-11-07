@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: 鉄の棘、鉤の付いた槍、吹き矢、木製の大砲。忍者にとって武器はどれも道具にすぎなかった。その武器庫から選んだ品々を紹介する。
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

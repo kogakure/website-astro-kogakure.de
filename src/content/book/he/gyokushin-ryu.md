@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: נלמדה זמן רב בסתר, כוונה יותר לריגול מאשר ללחימה ונודעה בזכות חבל ההטלה – אסכולת הלב המשובץ באבני חן.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

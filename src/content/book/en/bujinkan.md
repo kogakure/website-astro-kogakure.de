@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: Some 250 Ryū once existed in Japan. The Bujinkan unites nine warrior and ninja schools – Hatsumi Masaaki named it in honor of his teacher Takamatsu.
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

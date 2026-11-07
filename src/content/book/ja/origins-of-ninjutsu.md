@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: 人々は森の天狗が忍者の師だと信じていた。だが忍術の根はおそらく中国にあり、山の修行者たちは時とともに密偵へと姿を変えていった。
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: Erkunden ohne zu töten, Wahrheit und Lüge im Wechsel, jede Waffe beherrschen. Die zehn Regeln, die Hatsumi Masaaki aus der Erfahrung der Ninja ableitet.
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

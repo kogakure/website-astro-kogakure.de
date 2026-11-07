@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Ensinada por muito tempo em segredo, voltada mais para a espionagem do que para o combate e conhecida pela corda de arremesso – a escola do coração adornado de joias.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

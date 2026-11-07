@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 닌자라는 말의 닌이라는 글자부터가 견디고, 참고, 숨긴다는 뜻이다. 숨는 일은 인술의 핵심이며, 확고한 규칙을 지닌 기술이다.
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: מבצר שאויביו עזרו לבנות, ו־12,000 איש שתקפו דרך שלושה מעברים ונכשלו – כך עמדה איגה ב־1579 מול נובואו, בנו של אודה נובונאגה.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

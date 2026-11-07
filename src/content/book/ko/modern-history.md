@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: 제2차 세계 대전 뒤 미국은 일본에서 무술을 대부분 금지했다. 그래도 닌자의 지식은 살아남았다. 한 야간 경비원과 중국을 떠돈 모험가, 그리고 그의 제자 하쓰미를 통해서다.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

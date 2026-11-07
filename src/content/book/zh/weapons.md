@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: 铁蒺藜、钩枪、吹箭、木制火炮——对忍者来说，每件武器都只是工具。这里从忍者的武器库中选出一部分加以介绍。
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

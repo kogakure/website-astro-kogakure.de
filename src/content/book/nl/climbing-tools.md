@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: Ladders om te werpen, op te vouwen of over afgronden te spannen, touwen van vrouwenhaar, klauwen voor handen en voeten – zo kwamen de ninja in bomen, over ravijnen en in burchten.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

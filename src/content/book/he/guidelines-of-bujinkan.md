@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: סבלנות, שליטה עצמית, אחריות אישית וכרטיס חבר – הכללים שקבע ד"ר האצומי מאסאקי לכל מי שרוצה להתאמן בבוג'ינקאן.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

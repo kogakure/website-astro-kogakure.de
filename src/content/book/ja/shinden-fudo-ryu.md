@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: 道場もなく、稽古の道具もない。神伝不動流では木々と竹林で稽古した。不動の心の流派は12世紀半ばに生まれた。
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

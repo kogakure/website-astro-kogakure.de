@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: Una espada que dirige el sol a los ojos del adversario, una mirada entre las cejas, cinco agujeros de dedos en la corteza de un árbol. El Kotō-Ryū y sus métodos insólitos.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

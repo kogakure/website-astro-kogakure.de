@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: Ein einziger Spion kann einen Krieg um Jahre verkürzen. Aufklärung und Spionage waren im Mittelalter das wichtigste Einsatzgebiet der Ninja – und ein fester Teil ihrer Ausbildung.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

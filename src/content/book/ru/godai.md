@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: Земля, вода, огонь, ветер и пустота. Через пять элементов годай ниндзя стремились понять, как устроено мироздание, — а вместе с ним и самих себя.
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

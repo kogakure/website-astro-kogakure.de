@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: 几百年间，日本的领主们相互征战，每个人都需要间谍。为了满足这种需求，伊贺和甲贺出现了几十个忍者流派。
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

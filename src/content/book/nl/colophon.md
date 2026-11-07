@@ -2,6 +2,7 @@
 title: Colofon
 priority: 920
 translationKey: colophonPage
+plate: 奥付
 ---
 
 <figure>

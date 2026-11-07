@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: Into any fortress, out of any prison – that was the ninja’s reputation. For it they carried tools for sawing, drilling, and digging.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

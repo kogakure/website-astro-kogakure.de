@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: 自分自身を知ることから天気の予測まで。戸隠流の忍者が自らを磨こうとした十八の教えの体系。
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

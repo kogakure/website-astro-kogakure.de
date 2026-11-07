@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: 자기 보호, 견디는 힘, 자비로운 마음. 다카마쓰 도시쓰구와 하쓰미 마사아키가 인술의 핵심으로 보는 것, 그리고 격투 기술만으로는 부족한 이유.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

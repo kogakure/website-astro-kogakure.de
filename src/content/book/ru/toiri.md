@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: Гонец, которого должны перехватить, перебежчик, годами ждущий сигнала, — тактики тоири готовили войну, пока еще царил мир.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

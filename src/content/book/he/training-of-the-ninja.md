@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: נינג'ה נולדו נינג'ה. בגיל חמש או שש הפכו משחקי הילדות לאימון, ואחר כך נוספו לחימה, משחק, פסיכולוגיה ואימון הרוח.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

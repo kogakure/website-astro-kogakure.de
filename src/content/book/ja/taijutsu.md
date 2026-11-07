@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: 帯も、トロフィーも、規則もない。体術は忍術の土台であり、生き延びるための自然な戦い方である。その動きは地、水、火、風に従う。
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

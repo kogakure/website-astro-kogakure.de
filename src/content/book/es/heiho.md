@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: Un falso ataque, un abrigo al viento, un centinela que con lluvia prefiere sentarse junto al fuego. Con ardides así, los ninja cruzaban territorio enemigo y entraban en castillos vigilados.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

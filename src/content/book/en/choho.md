@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: A single spy can shorten a war by years. In the Middle Ages, reconnaissance and espionage were the ninja’s main field of work – and a core part of their training.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

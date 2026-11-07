@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: 一个注定要被截获的信使，一个多年等待信号的倒戈者——远入的各种战术，早在和平时期就为战争做好了准备。
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

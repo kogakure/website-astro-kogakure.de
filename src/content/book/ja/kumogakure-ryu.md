@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: 鎧をまとい、ときに鬼の面をつけた忍者たち。猿飛佐助が木から木へ渡った鎌槍。隠れた雲の流派、雲隠流。
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: Takamatsu reconstructed the densho of the Kukishin-Ryū and in return was allowed to found a branch school – the Kukishinden-Ryū, the School of the Nine Demon Gods.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

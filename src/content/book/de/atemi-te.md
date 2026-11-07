@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: Rund 250 Stellen am Körper reagieren empfindlich auf Druck und Schlag, 69 davon können lähmen oder töten. Eine Karte der wichtigsten Trefferzonen.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

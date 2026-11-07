@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53の一族、戦の最中に寝返った武将、原城の前に立った10人の斥候。おそらく最後の継承者である藤田西湖に至るまでの甲賀流の歴史。
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

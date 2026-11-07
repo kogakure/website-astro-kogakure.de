@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Colpi contro gli alberi, dita affondate in secchi di sabbia e ghiaia – così i ninja irrobustivano le armi del corpo, finché quasi non sentivano più il dolore.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: 1581년 오다 노부나가는 4만 4,000명이 넘는 군대를 이끌고 여섯 갈래 길로 이가에 돌아왔다. 이 지역의 마지막 대봉기는 히지야마산에서 불길 속에 끝났다.
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

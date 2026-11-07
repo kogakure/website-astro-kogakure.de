@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: On naissait ninja. À cinq ou six ans, les jeux d’enfants devenaient entraînement ; plus tard s’y ajoutaient le combat, le jeu d’acteur, la psychologie et l’éducation de l’esprit.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

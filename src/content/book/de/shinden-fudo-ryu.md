@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: Kein Dōjō, keine Trainingsgeräte – im Shinden-Fudō-Ryū trainierte man an Bäumen und im Bambuswald. Die Schule des Unbewegten Herzens entstand Mitte des 12. Jahrhunderts.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

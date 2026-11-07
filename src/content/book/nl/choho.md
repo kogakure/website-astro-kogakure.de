@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: Eén spion kan een oorlog met jaren bekorten. In de middeleeuwen waren verkenning en spionage het belangrijkste werkterrein van de ninja – en een vast onderdeel van hun opleiding.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

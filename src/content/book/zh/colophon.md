@@ -2,6 +2,7 @@
 title: 版权页
 priority: 920
 translationKey: colophonPage
+plate: 奥付
 ---
 
 <figure>

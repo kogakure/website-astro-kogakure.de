@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: הרים משלושה צדדים, קיוטו בקרבת מקום ומצביא סיני במנוסה – איך קמה באיגה אחת ממסורות הנינג'ה העתיקות ביותר, ומי העביר אותה הלאה.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: L’adversaire le voit, mais ne le remarque pas. Avec le shichi hō de, les sept voies de la marche, le ninja jouait du filtre de chaque esprit pour se fondre dans la foule.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

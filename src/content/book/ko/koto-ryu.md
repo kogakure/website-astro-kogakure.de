@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: 햇빛을 상대의 눈에 비추는 칼, 미간을 겨누는 시선, 나무껍질에 뚫린 다섯 개의 손가락 구멍. 고토류와 그 독특한 방법들.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

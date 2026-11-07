@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: Flow, rhythm, breathing, distance, and intention decide how a fight ends. Nine factors of taijutsu, from nagare to ito.
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

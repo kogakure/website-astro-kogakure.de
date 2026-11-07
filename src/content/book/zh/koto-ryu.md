@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: 用剑把阳光反射进对手眼中，目光落在对方两眉之间，在树皮上戳出五个指洞。虎倒流及其与众不同的方法。
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: לשנות את הסביבה, לשנות את עצמך או לשנות רק את המראה החיצוני. בעזרת עקרונות השמיים, האדמה והאדם בחנו הנינג'ה כל מצב מכמה זוויות.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: Triboli di ferro, lance a uncino, cerbottane, cannoni di legno – per un ninja ogni arma era un attrezzo. Una selezione dal suo arsenale.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

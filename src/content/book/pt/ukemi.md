@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Saltar de um caminhão, transpor um muro, jogar-se no chão para escapar de uma bala. A primeira coisa que o ninjutsu ensina é rolar e cair direito.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: מדען, רופא, סוחר או לוחם – כל דרך יכולה להוביל להארה. הנינג'ה בחר בדרך הלוחם והלך בה כל חייו.
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

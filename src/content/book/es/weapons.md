@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: Abrojos de hierro, lanzas de gancho, cerbatanas, cañones de madera – para un ninja, toda arma era una herramienta. Una selección de su arsenal.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

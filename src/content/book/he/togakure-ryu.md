@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: קרב אבוד, מנוסה לאיגה ומורה בהרים – כך התחיל בית הספר של הדלת הנסתרת של טוגאקורה דאיסוקה.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

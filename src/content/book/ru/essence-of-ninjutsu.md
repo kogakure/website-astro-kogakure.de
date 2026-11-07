@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: Самозащита, стойкость и доброе сердце. Что Такамацу Тосицугу и Хацуми Масааки считают сутью ниндзюцу и почему одной боевой техники мало.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

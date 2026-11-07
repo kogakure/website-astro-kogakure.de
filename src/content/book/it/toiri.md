@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: Un messaggero che deve farsi catturare, un disertore che aspetta un segnale per anni – le tattiche del tōiri preparavano la guerra già in tempo di pace.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: 地、水、火、風、空。忍者は五大という五つの要素を通じて、天地の成り立ちを、そして自分自身を理解しようとした。
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

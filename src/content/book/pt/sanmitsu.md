@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: Pensamento, palavra e ação são os três segredos do mikkyō. Como mandala, mantra e mudrā os encarnam e por que um gesto de mãos, sozinho, não cura ferida nenhuma.
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

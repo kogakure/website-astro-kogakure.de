@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: 1676년 후지바야시 야스타케는 이가와 고가의 닌자 류 수십 곳의 지식을 한데 모았다. 전략, 도덕, 기만, 날씨, 도구를 다룬 열 권의 책이다.
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

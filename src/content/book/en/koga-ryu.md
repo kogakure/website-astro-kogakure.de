@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 families, a commander who changed sides mid-battle, and ten scouts outside Hara Castle – the story of the Kōga-Ryū up to Fujita Seiko, probably its last heir.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

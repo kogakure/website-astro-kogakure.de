@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: Vervalste brieven, een schijnaanval, een bedelaar aan de kasteelpoort – met de chikairi-tactieken saboteerden ninja de vijand en drongen ze zijn kastelen binnen zodra het conflict begon.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

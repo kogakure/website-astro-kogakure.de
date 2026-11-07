@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: 第二次世界大战后，美国人在日本基本禁止了武术。忍者的学问却依然留存下来——靠的是一位守夜人、一位闯荡中国的冒险者和他的弟子初见。
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

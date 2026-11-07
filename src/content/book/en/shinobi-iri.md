@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: Silent across wooden floors, through shallow water, flat on the ground like a salamander. These walking and running techniques let the ninja move unheard.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

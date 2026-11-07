@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Telescope, compass, medicine case, demon mask, even a glider: what the ninja carried on their missions besides weapons.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

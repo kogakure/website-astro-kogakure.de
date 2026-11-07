@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: כ־250 נקודות בגוף רגישות ללחץ ולמכות, ו־69 מהן עלולות לשתק או להרוג. מפה של אזורי הפגיעה החשובים ביותר.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

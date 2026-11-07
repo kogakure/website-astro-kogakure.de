@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: Uma espada que lança o sol nos olhos do adversário, um olhar entre as sobrancelhas, cinco furos de dedos na casca de uma árvore. O Kotō-Ryū e seus métodos incomuns.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

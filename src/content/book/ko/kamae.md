@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 3초 동안 다섯 가지 자세. 인술에서 가마에는 굳은 자세가 아니라 내면의 태도가 드러난 것이며 자연스러운 움직임의 일부다.
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

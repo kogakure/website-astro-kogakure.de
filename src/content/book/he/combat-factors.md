@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: זרימה, קצב, נשימה, מרחק וכוונה מכריעים איך יסתיים קרב. תשעה גורמים של הטאיג'וטסו, מנאגארה ועד איטו.
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: Pijlpunt, kraanvogelvleugel, visschub – acht slagordes van de Japanse veldheren, en waarom ook een ninja ze moest kennen.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

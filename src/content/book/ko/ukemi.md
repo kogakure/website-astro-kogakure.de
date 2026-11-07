@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 트럭에서 뛰어내리고, 담을 넘고, 총알을 피해 땅에 몸을 던진다. 인술에서 가장 먼저 배우는 것은 제대로 구르고 넘어지는 법이다.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

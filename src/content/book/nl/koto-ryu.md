@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: Een zwaard dat de zon in de ogen van de tegenstander werpt, een blik tussen de wenkbrauwen, vijf vingergaten in boomschors. De Kotō-Ryū en zijn ongewone methoden.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

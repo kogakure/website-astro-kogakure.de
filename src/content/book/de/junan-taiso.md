@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: Im Ninjutsu entsteht Stärke durch Flexibilität. Jūnantaisō, das Konditionstraining der Ninja, macht Muskeln und Sehnen wieder elastisch und hält den Körper bis ins Alter gesund.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

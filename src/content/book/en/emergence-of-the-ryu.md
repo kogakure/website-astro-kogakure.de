@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: For centuries Japan’s lords waged war on each other, and every one of them needed spies. In Iga and Kōga, dozens of ninja schools arose to meet the demand.
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

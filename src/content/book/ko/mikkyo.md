@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: 우연이란 없다고 밀교는 가르친다. 이 탄트라의 가르침이 인도에서 중국을 거쳐 일본에 이른 길과, 닌자가 이를 통해 힘을 키운 까닭.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

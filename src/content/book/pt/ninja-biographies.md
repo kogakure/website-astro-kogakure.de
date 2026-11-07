@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: Uma viúva que treinava órfãs como espiãs, um atirador que errou Nobunaga, um mestre ladrão cozido em óleo – dez ninja que fizeram história.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

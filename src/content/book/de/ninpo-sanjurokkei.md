@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: Zweimal achtzehn ergibt die 36 militärischen Strategien – 18 grundlegende Kriegskünste und 18 spezielle Fertigkeiten, in denen die Ninja trainierten.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

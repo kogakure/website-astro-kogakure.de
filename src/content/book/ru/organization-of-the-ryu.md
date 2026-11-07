@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: Даже под пыткой ниндзя не мог выдать, кто его послал. Он этого не знал. Три ранга защищали рю от предательства — дзёнин, тюнин и гэнин.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: Из дерева рождается огонь, из огня — пепел. Гогё, даосское учение о пяти элементах, описывает, как элементы порождают и подавляют друг друга.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

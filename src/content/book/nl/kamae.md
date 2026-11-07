@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: Vijf houdingen in drie seconden. In het ninjutsu zijn de kamae geen starre poses, maar een uitdrukking van de innerlijke houding en deel van de natuurlijke beweging.
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

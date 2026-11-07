@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: De la connaissance de soi aux prévisions météorologiques. Les 18 disciplines dans lesquelles les ninja du Togakure-Ryū cherchaient à se perfectionner.
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

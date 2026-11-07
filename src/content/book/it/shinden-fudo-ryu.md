@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: Niente dōjō, niente attrezzi – nello Shinden-Fudō-Ryū ci si allenava sugli alberi e nei boschi di bambù. La scuola del cuore immobile nacque a metà del XII secolo.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

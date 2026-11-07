@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: De 81 signos de manos y dedos, los ninja usaban nueve. Solo surten efecto con la actitud espiritual y religiosa adecuada y tras años de práctica.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

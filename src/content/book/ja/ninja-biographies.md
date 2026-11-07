@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: 孤児の娘たちを密偵に育てた未亡人、信長を撃ち損じた狙撃手、釜で煮られた大盗賊。歴史に名を刻んだ十人の忍者。
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

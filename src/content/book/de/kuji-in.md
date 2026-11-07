@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: Von 81 Hand- und Fingerzeichen nutzten die Ninja neun. Wirkung entfalten sie erst mit der richtigen geistigen und religiösen Haltung und nach jahrelanger Übung.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

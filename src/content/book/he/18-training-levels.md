@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: מהיכרות עם עצמך ועד חיזוי מזג האוויר. אלה 18 השיטות שבהן ביקשו הנינג'ה של טוגאקורה ריו להשתפר.
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

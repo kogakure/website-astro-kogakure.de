@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: 띠도, 트로피도, 규칙도 없다. 다이주쓰는 인술의 토대이자 살아남기 위한 자연스러운 싸움 방식이며, 그 움직임은 땅, 물, 불, 바람을 따른다.
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

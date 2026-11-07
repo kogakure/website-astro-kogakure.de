@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Scientist, doctor, merchant, or warrior – any path can lead to enlightenment. The ninja chose the path of the warrior and followed it for life.
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

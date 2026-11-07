@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: Основатель школы, по преданию, одним ударом сломал клинок меча. В Гикан-рю нет ката, и Хацуми до сих пор не преподавал ее открыто.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

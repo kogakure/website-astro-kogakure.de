@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: A willow bends, a tall tree breaks. With this lesson from his father, Takagi Oriemon Shigenobu built a school whose philosophy is yielding.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

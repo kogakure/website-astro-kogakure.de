@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: 忍術では、強さは柔軟さから生まれる。忍者の体力の鍛錬である柔軟体操は、筋肉と腱のしなやかさを取り戻し、老いるまで身体を健やかに保つ。
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

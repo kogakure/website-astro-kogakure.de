@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: Ein Fluss, ein Baum, ein Feuer, ein Erdloch, ein Spiegel – nach einem Auftrag nutzte der Ninja die fünf Elemente, um zu entkommen.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

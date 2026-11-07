@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: Una vedova che addestrava orfane come spie, un tiratore che mancò Nobunaga, un ladro bollito nell’olio – dieci ninja che hanno fatto la storia.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

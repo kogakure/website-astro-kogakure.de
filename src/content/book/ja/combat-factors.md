@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: 流れ、律動、呼吸、間合い、意図が戦いの行方を決める。流れから意図まで、体術の九つの要素。
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

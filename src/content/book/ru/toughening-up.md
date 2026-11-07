@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Удары по деревьям, пальцы в ведрах с песком и галькой — так ниндзя закаляли оружие своего тела, пока почти не переставали чувствовать боль.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

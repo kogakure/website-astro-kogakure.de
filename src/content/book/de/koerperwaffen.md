@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Stirn, Ellenbogen, Daumen, Fingerspitzen, Ferse – im Ninjutsu wird jeder Teil des Körpers zur Waffe gegen Muskeln, Sehnen und Knochen.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

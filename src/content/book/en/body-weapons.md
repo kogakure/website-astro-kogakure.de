@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Forehead, elbow, thumb, fingertips, heel – in ninjutsu every part of the body becomes a weapon against muscles, tendons, and bones.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

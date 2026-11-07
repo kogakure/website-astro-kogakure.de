@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: Thought, word, and deed are the three secrets of mikkyō. How mandala, mantra, and mudrā embody them, and why folding your hands into a sign won’t heal a wound.
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

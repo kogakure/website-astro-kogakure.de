@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: 1581年，织田信长率44,000余人分六路重返伊贺。在比自山，这一地区最后一场大规模起义在烈火中落幕。
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

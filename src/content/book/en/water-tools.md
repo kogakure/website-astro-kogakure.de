@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Folding boats, breathing tubes, swim fins – with their water tools the ninja moved quickly over and under water and through swamps, leaving armored samurai far behind.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

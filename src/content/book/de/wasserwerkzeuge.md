@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Faltboote, Atemrohre, Schwimmflossen – mit ihren Wasserwerkzeugen kamen die Ninja schnell über und unter Wasser und durch Sumpfland und ließen gepanzerte Samurai mühelos hinter sich.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

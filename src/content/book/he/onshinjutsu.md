@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: כבר הסימן נין במילה נינג'ה פירושו להחזיק מעמד, לסבול ולהסתיר. ההסתתרות היא לב הנינג'יטסו – ואמנות עם כללים ברורים.
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: O salgueiro se curva, a árvore alta se quebra. Com essa lição do pai, Takagi Oriemon Shigenobu construiu uma escola cuja filosofia é ceder.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

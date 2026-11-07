@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: 平和が忍者の時代を終わらせた。徳川の世で彼らは秘密警察や盗人、庭師となり、1853年にはその一人がペリーの船に忍び込むことになる。
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

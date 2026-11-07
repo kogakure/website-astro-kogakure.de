@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: El adversario lo ve, pero no repara en él. Con el shichi hō de, los siete caminos de andar, el ninja aprovechaba el filtro de cada mente para desaparecer entre la multitud.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

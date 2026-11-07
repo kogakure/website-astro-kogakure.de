@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: 身披铠甲、有时戴着鬼面的忍者，还有一杆让猿飞佐助在树间穿梭的钩枪。云隐流，隐云之流。
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

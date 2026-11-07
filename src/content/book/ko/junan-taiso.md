@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: 인술에서 힘은 유연함에서 나온다. 닌자의 체력 훈련인 주난타이소는 근육과 힘줄에 탄력을 되찾아 주고 늙어서까지 몸을 건강하게 지킨다.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

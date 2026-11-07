@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: 木は火となり、火は灰となる。道教の五要素の教えである五行は、要素が互いに生み出し、互いに抑え合うさまを説く。
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

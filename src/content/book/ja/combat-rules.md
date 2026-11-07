@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: 最良の戦いとは、起こらずに済む戦いである。精神の修行から身体の鍛錬にいたる忍術の三つの心得と、戦いが避けられないときの九つの要点。
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: Explorer sans tuer, alterner vérité et mensonge, maîtriser chaque arme. Les dix règles que Hatsumi Masaaki tire de l’expérience des ninja.
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

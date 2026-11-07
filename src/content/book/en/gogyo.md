@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: Wood becomes fire, fire becomes ash. The gogyō, the Daoist theory of the five elements, describes how the elements bring each other forth and hold each other in check.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

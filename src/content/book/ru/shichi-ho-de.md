@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Противник видит его, но не замечает. С помощью сити хо дэ, семи путей хождения, ниндзя пользовался фильтром в голове каждого человека, чтобы раствориться в толпе.'
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

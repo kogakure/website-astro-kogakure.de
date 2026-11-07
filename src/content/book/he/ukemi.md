@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: לקפוץ ממשאית, לדלג מעל חומה, להשליך את עצמך לקרקע כדי לחמוק מכדור. בנינג'יטסו לומדים קודם כול להתגלגל וליפול נכון.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

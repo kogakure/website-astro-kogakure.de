@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'גז שינה מאבקת חולדות, כרתי על פצע ירי, 30 גרגרי שומשום נגד צמא: מה רקח הנינג''ה בבית המרקחת שלו ומה לקח איתו למשימה.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

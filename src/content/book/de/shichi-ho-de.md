@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Der Gegner sieht ihn, aber er nimmt ihn nicht wahr. Mit dem Shichi hō de, den sieben Wegen des Gehens, nutzte der Ninja den Filter im Kopf jedes Menschen, um in der Masse zu verschwinden.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

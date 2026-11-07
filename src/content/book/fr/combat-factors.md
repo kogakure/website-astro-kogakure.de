@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: Fluidité, rythme, respiration, distance et intention décident de l’issue d’un combat. Neuf facteurs du taijutsu, de nagare à ito.
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

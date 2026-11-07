@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: Un tempo in Giappone esistevano circa 250 Ryū. Il Bujinkan riunisce nove scuole guerriere e di ninja – Hatsumi Masaaki gli diede il nome in onore del suo maestro Takamatsu.
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

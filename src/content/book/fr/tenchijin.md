@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: 'Changer le monde, se changer soi-même ou ne changer que les apparences : avec les principes du ciel, de la terre et de l’homme, les ninja jugeaient chaque situation sous plusieurs angles.'
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

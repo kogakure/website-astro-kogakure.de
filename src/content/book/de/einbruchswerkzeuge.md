@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: In jede Festung hinein, aus jedem Gefängnis heraus – das sagte man den Ninja nach. Dafür hatten sie Werkzeuge zum Sägen, Bohren und Graben.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

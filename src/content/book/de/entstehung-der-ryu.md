@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: Jahrhundertelang bekriegten sich Japans Fürsten, und jeder brauchte Spione. In Iga und Kōga entstanden Dutzende Ninja-Schulen, um die Nachfrage zu stillen.
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

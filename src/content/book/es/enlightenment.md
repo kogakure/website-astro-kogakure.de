@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Científico, médico, comerciante o guerrero: cualquier camino puede llevar a la iluminación. El ninja eligió el camino del guerrero y lo siguió toda la vida.'
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

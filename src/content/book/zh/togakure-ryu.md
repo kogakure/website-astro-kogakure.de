@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: 一场败仗，一次逃往伊贺的出奔，一位山中的老师：户隐大助创立的隐门之流就是这样开始的。
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

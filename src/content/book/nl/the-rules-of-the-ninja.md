@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: Verkennen zonder te doden, waarheid en leugen afwisselen, elk wapen beheersen. De tien regels die Hatsumi Masaaki afleidt uit de ervaring van de ninja.
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

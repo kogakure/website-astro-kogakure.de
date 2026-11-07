@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: Когда-то в Японии было около 250 рю. Будзинкан объединяет девять школ воинов и ниндзя — Хацуми Масааки назвал его в честь своего учителя Такамацу.
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

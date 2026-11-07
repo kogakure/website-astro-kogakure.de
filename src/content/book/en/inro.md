@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Sleeping gas from powdered rats, leeks on a gunshot wound, 30 sesame seeds against thirst: what the ninja mixed in a travel pharmacy and packed for a mission.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

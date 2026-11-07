@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: 흐름, 리듬, 호흡, 거리, 의도가 싸움의 결과를 가른다. 나가레에서 이토까지, 다이주쓰의 아홉 가지 요소.
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

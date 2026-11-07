@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: 改变环境，改变自己，或者只改变表象。忍者借天、地、人三种原则，从多个角度判断每一种局面。
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

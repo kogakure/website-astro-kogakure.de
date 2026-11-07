@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: Une bataille perdue, une fuite vers Iga et un maître dans les montagnes – ainsi commença l’école de la porte cachée, fondée par Togakure Daisuke.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

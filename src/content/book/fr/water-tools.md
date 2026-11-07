@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Bateaux pliants, tubes respiratoires, palmes – grâce à leurs outils aquatiques, les ninja passaient vite sur l’eau, sous l’eau et à travers les marais, loin devant les samurai en armure.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

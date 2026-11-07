@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: Une fausse attaque, un manteau au vent, un garde qui préfère le feu à la pluie – par de telles ruses, les ninja traversaient le territoire ennemi et entraient dans des châteaux gardés.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

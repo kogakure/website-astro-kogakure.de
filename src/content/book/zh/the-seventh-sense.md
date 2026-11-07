@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: '潜意识催促你做出决定，一种预感悄然浮现：忍者认真对待这样的感觉，并加以训练，直到能感知危险。'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

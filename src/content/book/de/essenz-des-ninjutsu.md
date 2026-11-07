@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: Selbstschutz, Ausdauer und ein gütiges Herz. Was Takamatsu Toshitsugu und Hatsumi Masaaki für den Kern des Ninjutsu halten und warum Kampftechnik allein nicht genügt.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

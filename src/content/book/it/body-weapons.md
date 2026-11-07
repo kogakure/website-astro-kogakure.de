@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Fronte, gomito, pollice, punta delle dita, tallone – nel ninjutsu ogni parte del corpo diventa un’arma contro muscoli, tendini e ossa.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

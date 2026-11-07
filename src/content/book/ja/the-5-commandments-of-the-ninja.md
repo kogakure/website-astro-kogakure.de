@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: 悲しみ、怒り、妬み、憎しみを煙のように流し去る。悲しいとき、病めるとき、傷ついたとき、絶望したときのための、初見良昭の五つの戒め。
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

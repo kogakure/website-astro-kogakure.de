@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: 어떤 요새에도 들어가고 어떤 감옥에서도 빠져나온다. 닌자는 그런 평판을 들었다. 이를 위해 그들은 톱질하고 구멍 뚫고 땅을 파는 도구를 지녔다.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

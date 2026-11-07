@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 真っ黒ではなく、覆面もまれで、専用の装束を着ないことも多かった。忍者が実際に何を身に着け、それぞれが何のためにあったのか。
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

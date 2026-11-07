@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: Le bois devient feu, le feu devient cendre. Le gogyō, la théorie daoïste des cinq éléments, décrit comment les éléments s’engendrent et se maîtrisent les uns les autres.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

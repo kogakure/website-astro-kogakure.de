@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: 갑옷 차림에 때로는 귀신 가면을 쓴 닌자, 그리고 사루토비 사스케를 나무에서 나무로 옮겨 준 갈고리 창. 숨은 구름의 류파, 구모가쿠레류.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

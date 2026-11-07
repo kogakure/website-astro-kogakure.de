@@ -5,6 +5,7 @@ priority: 110
 author: Stefan Imhoff
 excerpt: 伊賀を治めた服部、百地、藤林の三家。そこから服部半蔵と、二つの人生を生きたかもしれない男、百地三太夫が現れた。
 translationKey: famousNinjaPage
+plate: 服部半蔵
 categories:
   - biography
   - history

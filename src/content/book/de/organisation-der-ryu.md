@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: Selbst unter der Folter konnte ein Ninja nicht verraten, wer ihn geschickt hatte. Er wusste es nicht. Drei Ränge schützten die Ryū vor Verrat – jōnin, chūnin und genin.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

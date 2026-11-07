@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: גם תחת עינויים לא יכול היה סוכן נינג'ה להסגיר את המנהיג. הוא לא ידע מיהו. שלוש דרגות שמרו על הריו מפני בגידה – ג'ונין, צ'ונין וגנין.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

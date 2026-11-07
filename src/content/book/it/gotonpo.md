@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: Un fiume, un albero, un fuoco, una buca nel terreno, uno specchio – dopo una missione il ninja usava i cinque elementi per mettersi in salvo.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

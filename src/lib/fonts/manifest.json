@@ -1,18 +1,18 @@
 {
 	"commit": "38411257417e616c5d4daa1b9e91a3dbcebe1c2e",
 	"text": {
-		"de": "a56740f081129d91",
-		"en": "dc154b793f034581",
-		"es": "6e4bd19690d72ea9",
-		"fr": "b9268d85e08ef7ed",
-		"pt": "ced919e7fa0ed07a",
-		"it": "7c73665f5d85af3a",
-		"nl": "9981589def14db7a",
-		"ru": "e9c709873fbce5db",
-		"ja": "66b7142bfd8084a9",
-		"zh": "237a902d0bda1cb9",
-		"ko": "1966af623e9de703",
-		"he": "548ac57420cc9be7"
+		"de": "e3c67616bb63aa40",
+		"en": "a0a48901f7b62b2f",
+		"es": "d0638bfc0a622d61",
+		"fr": "9037cd2d69650d70",
+		"pt": "cbf4acc907fdc851",
+		"it": "6ffe4e8786f50219",
+		"nl": "d017691ce29d141f",
+		"ru": "4ee375cdeec1d050",
+		"ja": "0b827d9e6314a835",
+		"zh": "6cce5806aa9b3ee6",
+		"ko": "100e4d59e2d6e7a9",
+		"he": "0bf2d8012cdd8219"
 	},
 	"faces": [
 		{
@@ -5792,18 +5792,103 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-0187e72b1e.woff2",
-			"bytes": 4812,
+			"file": "/fonts/yuji-syuku-400-page-02eee79e82.woff2",
+			"bytes": 8248,
 			"pages": [
-				"de/wasserwerkzeuge",
-				"en/water-tools",
-				"es/water-tools",
-				"fr/water-tools",
-				"pt/water-tools",
-				"it/water-tools",
-				"nl/water-tools",
-				"ru/water-tools"
+				"de/bujinkan",
+				"en/bujinkan",
+				"es/bujinkan",
+				"fr/bujinkan",
+				"pt/bujinkan",
+				"it/bujinkan",
+				"nl/bujinkan",
+				"ru/bujinkan"
 			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-04a519187f.woff2",
+			"bytes": 2172,
+			"pages": [
+				"ja/ninpo-sanjurokkei",
+				"zh/ninpo-sanjurokkei",
+				"ko/ninpo-sanjurokkei",
+				"he/ninpo-sanjurokkei"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-07cded2383.woff2",
+			"bytes": 8472,
+			"pages": [
+				"de/moderne-geschichte",
+				"en/modern-history",
+				"es/modern-history",
+				"fr/modern-history",
+				"pt/modern-history",
+				"it/modern-history",
+				"nl/modern-history",
+				"ru/modern-history"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-083f8a51ce.woff2",
+			"bytes": 4928,
+			"pages": [
+				"de/kunoichi",
+				"en/kunoichi",
+				"es/kunoichi",
+				"fr/kunoichi",
+				"pt/kunoichi",
+				"it/kunoichi",
+				"nl/kunoichi",
+				"ru/kunoichi"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-087a661d5f.woff2",
+			"bytes": 1792,
+			"pages": [
+				"ja/gyokushin-ryu",
+				"zh/gyokushin-ryu",
+				"ko/gyokushin-ryu",
+				"he/gyokushin-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-0906e32440.woff2",
+			"bytes": 4484,
+			"pages": [
+				"de/daoismus",
+				"en/daoism",
+				"es/daoism",
+				"fr/daoism",
+				"pt/daoism",
+				"it/daoism",
+				"nl/daoism",
+				"ru/daoism"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-0a236919c9.woff2",
+			"bytes": 1528,
+			"pages": ["ja/shichi-ho-de", "zh/shichi-ho-de", "ko/shichi-ho-de", "he/shichi-ho-de"]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -5843,6 +5928,30 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-0d2d6ef8ae.woff2",
+			"bytes": 1452,
+			"pages": ["ja/body-weapons", "zh/body-weapons", "ko/body-weapons", "he/body-weapons"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-0f0488235f.woff2",
+			"bytes": 1892,
+			"pages": ["ja/inro", "zh/inro", "ko/inro", "he/inro"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-0f4b9f9706.woff2",
+			"bytes": 2184,
+			"pages": ["ja/choho", "zh/choho", "ko/choho", "he/choho"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-0ffb5aa267.woff2",
 			"bytes": 8140,
 			"pages": [
@@ -5854,6 +5963,27 @@
 				"it/ukemi",
 				"nl/ukemi",
 				"ru/ukemi"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-100792ba3a.woff2",
+			"bytes": 968,
+			"pages": [
+				"de/bewusstsein-und-geist",
+				"en/consciousness-and-spirit",
+				"es/consciousness-and-spirit",
+				"fr/consciousness-and-spirit",
+				"pt/consciousness-and-spirit",
+				"it/consciousness-and-spirit",
+				"nl/consciousness-and-spirit",
+				"ru/consciousness-and-spirit",
+				"ja/consciousness-and-spirit",
+				"zh/consciousness-and-spirit",
+				"ko/consciousness-and-spirit",
+				"he/consciousness-and-spirit"
 			]
 		},
 		{
@@ -5877,18 +6007,9 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-10ef9b711a.woff2",
-			"bytes": 4692,
-			"pages": [
-				"de/kukishinden-ryu",
-				"en/kukishinden-ryu",
-				"es/kukishinden-ryu",
-				"fr/kukishinden-ryu",
-				"pt/kukishinden-ryu",
-				"it/kukishinden-ryu",
-				"nl/kukishinden-ryu",
-				"ru/kukishinden-ryu"
-			]
+			"file": "/fonts/yuji-syuku-400-page-11c084b20e.woff2",
+			"bytes": 1196,
+			"pages": ["ja/onshinjutsu", "zh/onshinjutsu", "ko/onshinjutsu", "he/onshinjutsu"]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -5911,34 +6032,186 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-29ac757094.woff2",
-			"bytes": 2436,
+			"file": "/fonts/yuji-syuku-400-page-1d8c96e185.woff2",
+			"bytes": 14476,
 			"pages": [
-				"de/onshinjutsu",
-				"en/onshinjutsu",
-				"es/onshinjutsu",
-				"fr/onshinjutsu",
-				"pt/onshinjutsu",
-				"it/onshinjutsu",
-				"nl/onshinjutsu",
-				"ru/onshinjutsu"
+				"de/kamae",
+				"en/kamae",
+				"es/kamae",
+				"fr/kamae",
+				"pt/kamae",
+				"it/kamae",
+				"nl/kamae",
+				"ru/kamae"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-300d06bbcd.woff2",
-			"bytes": 4496,
+			"file": "/fonts/yuji-syuku-400-page-224deb425d.woff2",
+			"bytes": 6180,
 			"pages": [
-				"de/kunoichi",
-				"en/kunoichi",
-				"es/kunoichi",
-				"fr/kunoichi",
-				"pt/kunoichi",
-				"it/kunoichi",
-				"nl/kunoichi",
-				"ru/kunoichi"
+				"de/gyokko-ryu",
+				"en/gyokko-ryu",
+				"es/gyokko-ryu",
+				"fr/gyokko-ryu",
+				"pt/gyokko-ryu",
+				"it/gyokko-ryu",
+				"nl/gyokko-ryu",
+				"ru/gyokko-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-2486f14ba0.woff2",
+			"bytes": 1680,
+			"pages": ["ja/water-tools", "zh/water-tools", "ko/water-tools", "he/water-tools"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-291f8ee057.woff2",
+			"bytes": 12396,
+			"pages": [
+				"de/hatsumi-masaaki",
+				"en/hatsumi-masaaki",
+				"es/hatsumi-masaaki",
+				"fr/hatsumi-masaaki",
+				"pt/hatsumi-masaaki",
+				"it/hatsumi-masaaki",
+				"nl/hatsumi-masaaki",
+				"ru/hatsumi-masaaki"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-2adf2ddaa2.woff2",
+			"bytes": 1840,
+			"pages": [
+				"ja/kukishinden-ryu",
+				"zh/kukishinden-ryu",
+				"ko/kukishinden-ryu",
+				"he/kukishinden-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-2cbe2bd58c.woff2",
+			"bytes": 1784,
+			"pages": ["ja/bujinkan", "zh/bujinkan", "ko/bujinkan", "he/bujinkan"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-2da2fc211b.woff2",
+			"bytes": 6056,
+			"pages": [
+				"de/entstehung-der-ryu",
+				"en/emergence-of-the-ryu",
+				"es/emergence-of-the-ryu",
+				"fr/emergence-of-the-ryu",
+				"pt/emergence-of-the-ryu",
+				"it/emergence-of-the-ryu",
+				"nl/emergence-of-the-ryu",
+				"ru/emergence-of-the-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-2dabb8a5b5.woff2",
+			"bytes": 13576,
+			"pages": [
+				"de/shinden-fudo-ryu",
+				"en/shinden-fudo-ryu",
+				"es/shinden-fudo-ryu",
+				"fr/shinden-fudo-ryu",
+				"pt/shinden-fudo-ryu",
+				"it/shinden-fudo-ryu",
+				"nl/shinden-fudo-ryu",
+				"ru/shinden-fudo-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-2e33ab25b9.woff2",
+			"bytes": 1876,
+			"pages": [
+				"de/invasion-von-iga",
+				"en/invasion-of-iga",
+				"es/invasion-of-iga",
+				"fr/invasion-of-iga",
+				"pt/invasion-of-iga",
+				"it/invasion-of-iga",
+				"nl/invasion-of-iga",
+				"ru/invasion-of-iga"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-2e9e492175.woff2",
+			"bytes": 4004,
+			"pages": [
+				"de/feuerwerkzeuge",
+				"en/fire-tools",
+				"es/fire-tools",
+				"fr/fire-tools",
+				"pt/fire-tools",
+				"it/fire-tools",
+				"nl/fire-tools",
+				"ru/fire-tools"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-30cce8d830.woff2",
+			"bytes": 1492,
+			"pages": ["ja/toiri", "zh/toiri", "ko/toiri", "he/toiri"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-33bb7ac9bd.woff2",
+			"bytes": 7948,
+			"pages": [
+				"de/koto-ryu",
+				"en/koto-ryu",
+				"es/koto-ryu",
+				"fr/koto-ryu",
+				"pt/koto-ryu",
+				"it/koto-ryu",
+				"nl/koto-ryu",
+				"ru/koto-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-34c2d731ab.woff2",
+			"bytes": 1656,
+			"pages": [
+				"ja/invasion-of-iga",
+				"zh/invasion-of-iga",
+				"ko/invasion-of-iga",
+				"he/invasion-of-iga"
 			]
 		},
 		{
@@ -5962,23 +6235,6 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-35b6e9a490.woff2",
-			"bytes": 3392,
-			"pages": [
-				"de/feuerwerkzeuge",
-				"en/fire-tools",
-				"es/fire-tools",
-				"fr/fire-tools",
-				"pt/fire-tools",
-				"it/fire-tools",
-				"nl/fire-tools",
-				"ru/fire-tools"
-			]
-		},
-		{
-			"family": "Yuji Syuku",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-361365198c.woff2",
 			"bytes": 6408,
 			"pages": [
@@ -5996,8 +6252,37 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-3978d48a41.woff2",
-			"bytes": 7308,
+			"file": "/fonts/yuji-syuku-400-page-37bd739dbb.woff2",
+			"bytes": 1680,
+			"pages": ["ja/colophon", "zh/colophon", "ko/colophon", "he/colophon"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-3e044d2b93.woff2",
+			"bytes": 2748,
+			"pages": [
+				"de/iga-no-ran",
+				"en/iga-no-ran",
+				"es/iga-no-ran",
+				"fr/iga-no-ran",
+				"pt/iga-no-ran",
+				"it/iga-no-ran",
+				"nl/iga-no-ran",
+				"ru/iga-no-ran",
+				"ja/iga-no-ran",
+				"zh/iga-no-ran",
+				"ko/iga-no-ran",
+				"he/iga-no-ran"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-3f0074b894.woff2",
+			"bytes": 8180,
 			"pages": [
 				"de/togakure-ryu",
 				"en/togakure-ryu",
@@ -6013,17 +6298,13 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-3dd4cc231e.woff2",
-			"bytes": 22188,
+			"file": "/fonts/yuji-syuku-400-page-3f546942c3.woff2",
+			"bytes": 1780,
 			"pages": [
-				"de/bansenshukai",
-				"en/bansenshukai",
-				"es/bansenshukai",
-				"fr/bansenshukai",
-				"pt/bansenshukai",
-				"it/bansenshukai",
-				"nl/bansenshukai",
-				"ru/bansenshukai"
+				"ja/kumogakure-ryu",
+				"zh/kumogakure-ryu",
+				"ko/kumogakure-ryu",
+				"he/kumogakure-ryu"
 			]
 		},
 		{
@@ -6041,6 +6322,19 @@
 				"it/demise",
 				"nl/demise",
 				"ru/demise"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-40b653d823.woff2",
+			"bytes": 2360,
+			"pages": [
+				"ja/18-training-levels",
+				"zh/18-training-levels",
+				"ko/18-training-levels",
+				"he/18-training-levels"
 			]
 		},
 		{
@@ -6081,17 +6375,80 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-4af5883557.woff2",
-			"bytes": 7412,
+			"file": "/fonts/yuji-syuku-400-page-44346b5500.woff2",
+			"bytes": 3012,
 			"pages": [
-				"de/moderne-geschichte",
-				"en/modern-history",
-				"es/modern-history",
-				"fr/modern-history",
-				"pt/modern-history",
-				"it/modern-history",
-				"nl/modern-history",
-				"ru/modern-history"
+				"ja/the-rules-of-the-ninja",
+				"zh/the-rules-of-the-ninja",
+				"ko/the-rules-of-the-ninja",
+				"he/the-rules-of-the-ninja"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-45212ae2fc.woff2",
+			"bytes": 1308,
+			"pages": ["ja/sanmitsu", "zh/sanmitsu", "ko/sanmitsu", "he/sanmitsu"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-47e7f14009.woff2",
+			"bytes": 11480,
+			"pages": [
+				"de/bo-ryaku",
+				"en/bo-ryaku",
+				"es/bo-ryaku",
+				"fr/bo-ryaku",
+				"pt/bo-ryaku",
+				"it/bo-ryaku",
+				"nl/bo-ryaku",
+				"ru/bo-ryaku"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-4b6f94453a.woff2",
+			"bytes": 2348,
+			"pages": ["ja/koga-ryu", "zh/koga-ryu", "ko/koga-ryu", "he/koga-ryu"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-4e0ece31a2.woff2",
+			"bytes": 6460,
+			"pages": [
+				"de/gotonpo",
+				"en/gotonpo",
+				"es/gotonpo",
+				"fr/gotonpo",
+				"pt/gotonpo",
+				"it/gotonpo",
+				"nl/gotonpo",
+				"ru/gotonpo"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-4ee3fb4f8a.woff2",
+			"bytes": 5280,
+			"pages": [
+				"de/kukishinden-ryu",
+				"en/kukishinden-ryu",
+				"es/kukishinden-ryu",
+				"fr/kukishinden-ryu",
+				"pt/kukishinden-ryu",
+				"it/kukishinden-ryu",
+				"nl/kukishinden-ryu",
+				"ru/kukishinden-ryu"
 			]
 		},
 		{
@@ -6115,17 +6472,64 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-5032e9a305.woff2",
-			"bytes": 2232,
+			"file": "/fonts/yuji-syuku-400-page-5044c01292.woff2",
+			"bytes": 2916,
 			"pages": [
-				"de/choho",
-				"en/choho",
-				"es/choho",
-				"fr/choho",
-				"pt/choho",
-				"it/choho",
-				"nl/choho",
-				"ru/choho"
+				"de/onshinjutsu",
+				"en/onshinjutsu",
+				"es/onshinjutsu",
+				"fr/onshinjutsu",
+				"pt/onshinjutsu",
+				"it/onshinjutsu",
+				"nl/onshinjutsu",
+				"ru/onshinjutsu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-50fe69599e.woff2",
+			"bytes": 2756,
+			"pages": [
+				"ja/training-of-the-ninja",
+				"zh/training-of-the-ninja",
+				"ko/training-of-the-ninja",
+				"he/training-of-the-ninja"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-52b481473d.woff2",
+			"bytes": 1576,
+			"pages": [
+				"de/chronologie",
+				"en/chronology",
+				"es/chronology",
+				"fr/chronology",
+				"pt/chronology",
+				"it/chronology",
+				"nl/chronology",
+				"ru/chronology",
+				"ja/chronology",
+				"zh/chronology",
+				"ko/chronology",
+				"he/chronology"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-52d9ca14b3.woff2",
+			"bytes": 2052,
+			"pages": [
+				"ja/ninja-clothing",
+				"zh/ninja-clothing",
+				"ko/ninja-clothing",
+				"he/ninja-clothing"
 			]
 		},
 		{
@@ -6142,58 +6546,117 @@
 				"pt/chikairi",
 				"it/chikairi",
 				"nl/chikairi",
-				"ru/chikairi"
+				"ru/chikairi",
+				"ja/chikairi",
+				"zh/chikairi",
+				"ko/chikairi",
+				"he/chikairi"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-5c4a208c67.woff2",
-			"bytes": 3392,
+			"file": "/fonts/yuji-syuku-400-page-5b46a66d2a.woff2",
+			"bytes": 12632,
 			"pages": [
-				"de/einbruchswerkzeuge",
-				"en/burglary-tools",
-				"es/burglary-tools",
-				"fr/burglary-tools",
-				"pt/burglary-tools",
-				"it/burglary-tools",
-				"nl/burglary-tools",
-				"ru/burglary-tools"
+				"de/takagi-yoshin-ryu",
+				"en/takagi-yoshin-ryu",
+				"es/takagi-yoshin-ryu",
+				"fr/takagi-yoshin-ryu",
+				"pt/takagi-yoshin-ryu",
+				"it/takagi-yoshin-ryu",
+				"nl/takagi-yoshin-ryu",
+				"ru/takagi-yoshin-ryu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-69d71b255e.woff2",
-			"bytes": 3432,
+			"file": "/fonts/yuji-syuku-400-page-5d2a2e5f04.woff2",
+			"bytes": 3884,
 			"pages": [
-				"de/kolophon",
-				"en/colophon",
-				"es/colophon",
-				"fr/colophon",
-				"pt/colophon",
-				"it/colophon",
-				"nl/colophon",
-				"ru/colophon"
+				"de/kumogakure-ryu",
+				"en/kumogakure-ryu",
+				"es/kumogakure-ryu",
+				"fr/kumogakure-ryu",
+				"pt/kumogakure-ryu",
+				"it/kumogakure-ryu",
+				"nl/kumogakure-ryu",
+				"ru/kumogakure-ryu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-6ee33bc63d.woff2",
-			"bytes": 10540,
+			"file": "/fonts/yuji-syuku-400-page-5d4c1ba1f5.woff2",
+			"bytes": 2924,
 			"pages": [
-				"de/shinobi-iri",
-				"en/shinobi-iri",
-				"es/shinobi-iri",
-				"fr/shinobi-iri",
-				"pt/shinobi-iri",
-				"it/shinobi-iri",
-				"nl/shinobi-iri",
-				"ru/shinobi-iri"
+				"ja/hatsumi-masaaki",
+				"zh/hatsumi-masaaki",
+				"ko/hatsumi-masaaki",
+				"he/hatsumi-masaaki"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-64acf94979.woff2",
+			"bytes": 1184,
+			"pages": ["ja/gogyo", "zh/gogyo", "ko/gogyo", "he/gogyo"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-68bd728a15.woff2",
+			"bytes": 1308,
+			"pages": ["ja/daoism", "zh/daoism", "ko/daoism", "he/daoism"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-68e0eb318a.woff2",
+			"bytes": 3728,
+			"pages": [
+				"de/erleuchtung",
+				"en/enlightenment",
+				"es/enlightenment",
+				"fr/enlightenment",
+				"pt/enlightenment",
+				"it/enlightenment",
+				"nl/enlightenment",
+				"ru/enlightenment"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-6979d81b39.woff2",
+			"bytes": 1724,
+			"pages": [
+				"ja/combat-factors",
+				"zh/combat-factors",
+				"ko/combat-factors",
+				"he/combat-factors"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-6b01d08035.woff2",
+			"bytes": 1860,
+			"pages": [
+				"ja/climbing-tools",
+				"zh/climbing-tools",
+				"ko/climbing-tools",
+				"he/climbing-tools"
 			]
 		},
 		{
@@ -6217,6 +6680,62 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-702f8d60a8.woff2",
+			"bytes": 5404,
+			"pages": [
+				"de/wasserwerkzeuge",
+				"en/water-tools",
+				"es/water-tools",
+				"fr/water-tools",
+				"pt/water-tools",
+				"it/water-tools",
+				"nl/water-tools",
+				"ru/water-tools"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-73e63fa6b2.woff2",
+			"bytes": 1452,
+			"pages": [
+				"ja/origins-of-ninjutsu",
+				"zh/origins-of-ninjutsu",
+				"ko/origins-of-ninjutsu",
+				"he/origins-of-ninjutsu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-76849f8d39.woff2",
+			"bytes": 1720,
+			"pages": [
+				"ja/emergence-of-the-ryu",
+				"zh/emergence-of-the-ryu",
+				"ko/emergence-of-the-ryu",
+				"he/emergence-of-the-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-782f45f41d.woff2",
+			"bytes": 1852,
+			"pages": [
+				"ja/the-seventh-sense",
+				"zh/the-seventh-sense",
+				"ko/the-seventh-sense",
+				"he/the-seventh-sense"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-78ebd25e60.woff2",
 			"bytes": 7344,
 			"pages": [
@@ -6234,85 +6753,113 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-797aa1ec6a.woff2",
-			"bytes": 2752,
+			"file": "/fonts/yuji-syuku-400-page-7bb8c673c5.woff2",
+			"bytes": 11060,
 			"pages": [
-				"de/gyokushin-ryu",
-				"en/gyokushin-ryu",
-				"es/gyokushin-ryu",
-				"fr/gyokushin-ryu",
-				"pt/gyokushin-ryu",
-				"it/gyokushin-ryu",
-				"nl/gyokushin-ryu",
-				"ru/gyokushin-ryu"
+				"de/shinobi-iri",
+				"en/shinobi-iri",
+				"es/shinobi-iri",
+				"fr/shinobi-iri",
+				"pt/shinobi-iri",
+				"it/shinobi-iri",
+				"nl/shinobi-iri",
+				"ru/shinobi-iri"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-7ad1c3be0c.woff2",
-			"bytes": 13424,
+			"file": "/fonts/yuji-syuku-400-page-7f1735a970.woff2",
+			"bytes": 1656,
+			"pages": ["ja/togakure-ryu", "zh/togakure-ryu", "ko/togakure-ryu", "he/togakure-ryu"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-814025b955.woff2",
+			"bytes": 2360,
 			"pages": [
-				"de/kamae",
-				"en/kamae",
-				"es/kamae",
-				"fr/kamae",
-				"pt/kamae",
-				"it/kamae",
-				"nl/kamae",
-				"ru/kamae"
+				"de/essenz-des-ninjutsu",
+				"en/essence-of-ninjutsu",
+				"es/essence-of-ninjutsu",
+				"fr/essence-of-ninjutsu",
+				"pt/essence-of-ninjutsu",
+				"it/essence-of-ninjutsu",
+				"nl/essence-of-ninjutsu",
+				"ru/essence-of-ninjutsu",
+				"ja/essence-of-ninjutsu",
+				"zh/essence-of-ninjutsu",
+				"ko/essence-of-ninjutsu",
+				"he/essence-of-ninjutsu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-7ea12134b7.woff2",
-			"bytes": 8396,
+			"file": "/fonts/yuji-syuku-400-page-853e90e937.woff2",
+			"bytes": 2760,
+			"pages": ["ja/bansenshukai", "zh/bansenshukai", "ko/bansenshukai", "he/bansenshukai"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-86cd80185b.woff2",
+			"bytes": 9636,
 			"pages": [
-				"de/kampffaktoren",
-				"en/combat-factors",
-				"es/combat-factors",
-				"fr/combat-factors",
-				"pt/combat-factors",
-				"it/combat-factors",
-				"nl/combat-factors",
-				"ru/combat-factors"
+				"de/iga-ryu",
+				"en/iga-ryu",
+				"es/iga-ryu",
+				"fr/iga-ryu",
+				"pt/iga-ryu",
+				"it/iga-ryu",
+				"nl/iga-ryu",
+				"ru/iga-ryu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-889be1b1dd.woff2",
-			"bytes": 10564,
+			"file": "/fonts/yuji-syuku-400-page-89d60675da.woff2",
+			"bytes": 4640,
 			"pages": [
-				"de/takamatsu-toshitsugu",
-				"en/takamatsu-toshitsugu",
-				"es/takamatsu-toshitsugu",
-				"fr/takamatsu-toshitsugu",
-				"pt/takamatsu-toshitsugu",
-				"it/takamatsu-toshitsugu",
-				"nl/takamatsu-toshitsugu",
-				"ru/takamatsu-toshitsugu"
+				"de/koga-ryu",
+				"en/koga-ryu",
+				"es/koga-ryu",
+				"fr/koga-ryu",
+				"pt/koga-ryu",
+				"it/koga-ryu",
+				"nl/koga-ryu",
+				"ru/koga-ryu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-8a05f26b7e.woff2",
-			"bytes": 2928,
+			"file": "/fonts/yuji-syuku-400-page-8ac6c19576.woff2",
+			"bytes": 2004,
+			"pages": ["ja/gyokko-ryu", "zh/gyokko-ryu", "ko/gyokko-ryu", "he/gyokko-ryu"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-8b1d6c86e3.woff2",
+			"bytes": 42832,
 			"pages": [
-				"de/gikan-ryu",
-				"en/gikan-ryu",
-				"es/gikan-ryu",
-				"fr/gikan-ryu",
-				"pt/gikan-ryu",
-				"it/gikan-ryu",
-				"nl/gikan-ryu",
-				"ru/gikan-ryu"
+				"de/waffen",
+				"en/weapons",
+				"es/weapons",
+				"fr/weapons",
+				"pt/weapons",
+				"it/weapons",
+				"nl/weapons",
+				"ru/weapons"
 			]
 		},
 		{
@@ -6336,17 +6883,50 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-8fc53da917.woff2",
-			"bytes": 4148,
+			"file": "/fonts/yuji-syuku-400-page-8c8fc6feee.woff2",
+			"bytes": 3696,
 			"pages": [
-				"de/beruehmte-ninja",
-				"en/famous-ninja",
-				"es/famous-ninja",
-				"fr/famous-ninja",
-				"pt/famous-ninja",
-				"it/famous-ninja",
-				"nl/famous-ninja",
-				"ru/famous-ninja"
+				"de/choho",
+				"en/choho",
+				"es/choho",
+				"fr/choho",
+				"pt/choho",
+				"it/choho",
+				"nl/choho",
+				"ru/choho"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-8debc21287.woff2",
+			"bytes": 1840,
+			"pages": ["ja/kamae", "zh/kamae", "ko/kamae", "he/kamae"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-918261faad.woff2",
+			"bytes": 1340,
+			"pages": ["ja/gotonpo", "zh/gotonpo", "ko/gotonpo", "he/gotonpo"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-9331a51a33.woff2",
+			"bytes": 4836,
+			"pages": [
+				"de/gikan-ryu",
+				"en/gikan-ryu",
+				"es/gikan-ryu",
+				"fr/gikan-ryu",
+				"pt/gikan-ryu",
+				"it/gikan-ryu",
+				"nl/gikan-ryu",
+				"ru/gikan-ryu"
 			]
 		},
 		{
@@ -6370,18 +6950,9 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-96556b3083.woff2",
-			"bytes": 2836,
-			"pages": [
-				"de/kumogakure-ryu",
-				"en/kumogakure-ryu",
-				"es/kumogakure-ryu",
-				"fr/kumogakure-ryu",
-				"pt/kumogakure-ryu",
-				"it/kumogakure-ryu",
-				"nl/kumogakure-ryu",
-				"ru/kumogakure-ryu"
-			]
+			"file": "/fonts/yuji-syuku-400-page-980e9ee3ff.woff2",
+			"bytes": 1728,
+			"pages": ["ja/demise", "zh/demise", "ko/demise", "he/demise"]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -6397,7 +6968,11 @@
 				"pt/guidelines-of-bujinkan",
 				"it/guidelines-of-bujinkan",
 				"nl/guidelines-of-bujinkan",
-				"ru/guidelines-of-bujinkan"
+				"ru/guidelines-of-bujinkan",
+				"ja/guidelines-of-bujinkan",
+				"zh/guidelines-of-bujinkan",
+				"ko/guidelines-of-bujinkan",
+				"he/guidelines-of-bujinkan"
 			]
 		},
 		{
@@ -6424,32 +6999,36 @@
 			"file": "/fonts/yuji-syuku-400-page-9b0ec305f6.woff2",
 			"bytes": 964,
 			"pages": [
-				"de/invasion-von-iga",
-				"en/invasion-of-iga",
-				"es/invasion-of-iga",
-				"fr/invasion-of-iga",
-				"pt/invasion-of-iga",
-				"it/invasion-of-iga",
-				"nl/invasion-of-iga",
-				"ru/invasion-of-iga"
+				"ja/organization-of-the-ryu",
+				"zh/organization-of-the-ryu",
+				"ko/organization-of-the-ryu",
+				"he/organization-of-the-ryu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-9d0c2230dc.woff2",
-			"bytes": 5072,
+			"file": "/fonts/yuji-syuku-400-page-9b471a877b.woff2",
+			"bytes": 6812,
 			"pages": [
-				"de/entstehung-der-ryu",
-				"en/emergence-of-the-ryu",
-				"es/emergence-of-the-ryu",
-				"fr/emergence-of-the-ryu",
-				"pt/emergence-of-the-ryu",
-				"it/emergence-of-the-ryu",
-				"nl/emergence-of-the-ryu",
-				"ru/emergence-of-the-ryu"
+				"de/shichi-ho-de",
+				"en/shichi-ho-de",
+				"es/shichi-ho-de",
+				"fr/shichi-ho-de",
+				"pt/shichi-ho-de",
+				"it/shichi-ho-de",
+				"nl/shichi-ho-de",
+				"ru/shichi-ho-de"
 			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-9e05362156.woff2",
+			"bytes": 1816,
+			"pages": ["ja/ukemi", "zh/ukemi", "ko/ukemi", "he/ukemi"]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -6489,52 +7068,43 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-a1b23d46da.woff2",
-			"bytes": 3928,
+			"file": "/fonts/yuji-syuku-400-page-afb3a3307b.woff2",
+			"bytes": 12760,
 			"pages": [
-				"de/daoismus",
-				"en/daoism",
-				"es/daoism",
-				"fr/daoism",
-				"pt/daoism",
-				"it/daoism",
-				"nl/daoism",
-				"ru/daoism"
+				"de/takamatsu-toshitsugu",
+				"en/takamatsu-toshitsugu",
+				"es/takamatsu-toshitsugu",
+				"fr/takamatsu-toshitsugu",
+				"pt/takamatsu-toshitsugu",
+				"it/takamatsu-toshitsugu",
+				"nl/takamatsu-toshitsugu",
+				"ru/takamatsu-toshitsugu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-a7a621047f.woff2",
-			"bytes": 41384,
+			"file": "/fonts/yuji-syuku-400-page-b298d619d0.woff2",
+			"bytes": 6340,
 			"pages": [
-				"de/waffen",
-				"en/weapons",
-				"es/weapons",
-				"fr/weapons",
-				"pt/weapons",
-				"it/weapons",
-				"nl/weapons",
-				"ru/weapons"
+				"de/beruehmte-ninja",
+				"en/famous-ninja",
+				"es/famous-ninja",
+				"fr/famous-ninja",
+				"pt/famous-ninja",
+				"it/famous-ninja",
+				"nl/famous-ninja",
+				"ru/famous-ninja"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-b822144d80.woff2",
-			"bytes": 10356,
-			"pages": [
-				"de/hatsumi-masaaki",
-				"en/hatsumi-masaaki",
-				"es/hatsumi-masaaki",
-				"fr/hatsumi-masaaki",
-				"pt/hatsumi-masaaki",
-				"it/hatsumi-masaaki",
-				"nl/hatsumi-masaaki",
-				"ru/hatsumi-masaaki"
-			]
+			"file": "/fonts/yuji-syuku-400-page-b7c3c65c9e.woff2",
+			"bytes": 2692,
+			"pages": ["ja/gikan-ryu", "zh/gikan-ryu", "ko/gikan-ryu", "he/gikan-ryu"]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -6557,17 +7127,13 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-b8da7c361e.woff2",
-			"bytes": 7244,
+			"file": "/fonts/yuji-syuku-400-page-b9077637a6.woff2",
+			"bytes": 1792,
 			"pages": [
-				"de/bujinkan",
-				"en/bujinkan",
-				"es/bujinkan",
-				"fr/bujinkan",
-				"pt/bujinkan",
-				"it/bujinkan",
-				"nl/bujinkan",
-				"ru/bujinkan"
+				"ja/modern-history",
+				"zh/modern-history",
+				"ko/modern-history",
+				"he/modern-history"
 			]
 		},
 		{
@@ -6591,6 +7157,44 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-b9d2b1d234.woff2",
+			"bytes": 2372,
+			"pages": [
+				"ja/shinden-fudo-ryu",
+				"zh/shinden-fudo-ryu",
+				"ko/shinden-fudo-ryu",
+				"he/shinden-fudo-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-ba6de7be5c.woff2",
+			"bytes": 2952,
+			"pages": ["ja/famous-ninja", "zh/famous-ninja", "ko/famous-ninja", "he/famous-ninja"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-ba8ff59fa6.woff2",
+			"bytes": 3812,
+			"pages": [
+				"de/gyokushin-ryu",
+				"en/gyokushin-ryu",
+				"es/gyokushin-ryu",
+				"fr/gyokushin-ryu",
+				"pt/gyokushin-ryu",
+				"it/gyokushin-ryu",
+				"nl/gyokushin-ryu",
+				"ru/gyokushin-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-bb8623a6e9.woff2",
 			"bytes": 1744,
 			"pages": [
@@ -6603,6 +7207,47 @@
 				"nl/the-5-commandments-of-the-ninja",
 				"ru/the-5-commandments-of-the-ninja"
 			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-bbf8ce8a6b.woff2",
+			"bytes": 980,
+			"pages": ["ja/godai", "zh/godai", "ko/godai", "he/godai"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-bc7e8945c2.woff2",
+			"bytes": 13496,
+			"pages": [
+				"de/ninjakleidung",
+				"en/ninja-clothing",
+				"es/ninja-clothing",
+				"fr/ninja-clothing",
+				"pt/ninja-clothing",
+				"it/ninja-clothing",
+				"nl/ninja-clothing",
+				"ru/ninja-clothing"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-bd1b34b1b7.woff2",
+			"bytes": 1640,
+			"pages": ["ja/tenchijin", "zh/tenchijin", "ko/tenchijin", "he/tenchijin"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-bd3e3936aa.woff2",
+			"bytes": 2508,
+			"pages": ["ja/iga-ryu", "zh/iga-ryu", "ko/iga-ryu", "he/iga-ryu"]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -6625,52 +7270,9 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-c1863278c0.woff2",
-			"bytes": 6152,
-			"pages": [
-				"de/shichi-ho-de",
-				"en/shichi-ho-de",
-				"es/shichi-ho-de",
-				"fr/shichi-ho-de",
-				"pt/shichi-ho-de",
-				"it/shichi-ho-de",
-				"nl/shichi-ho-de",
-				"ru/shichi-ho-de"
-			]
-		},
-		{
-			"family": "Yuji Syuku",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-c18c4e5c31.woff2",
-			"bytes": 5892,
-			"pages": [
-				"de/gotonpo",
-				"en/gotonpo",
-				"es/gotonpo",
-				"fr/gotonpo",
-				"pt/gotonpo",
-				"it/gotonpo",
-				"nl/gotonpo",
-				"ru/gotonpo"
-			]
-		},
-		{
-			"family": "Yuji Syuku",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-c38e5d9751.woff2",
-			"bytes": 3600,
-			"pages": [
-				"de/erleuchtung",
-				"en/enlightenment",
-				"es/enlightenment",
-				"fr/enlightenment",
-				"pt/enlightenment",
-				"it/enlightenment",
-				"nl/enlightenment",
-				"ru/enlightenment"
-			]
+			"file": "/fonts/yuji-syuku-400-page-c4a0382f1f.woff2",
+			"bytes": 1148,
+			"pages": ["ja/kunoichi", "zh/kunoichi", "ko/kunoichi", "he/kunoichi"]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -6693,6 +7295,19 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-c8e53a5cfa.woff2",
+			"bytes": 1332,
+			"pages": [
+				"ja/toughening-up",
+				"zh/toughening-up",
+				"ko/toughening-up",
+				"he/toughening-up"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-cb6dad3837.woff2",
 			"bytes": 1516,
 			"pages": [
@@ -6703,75 +7318,53 @@
 				"pt/atemi-te",
 				"it/atemi-te",
 				"nl/atemi-te",
-				"ru/atemi-te"
+				"ru/atemi-te",
+				"ja/atemi-te",
+				"zh/atemi-te",
+				"ko/atemi-te",
+				"he/atemi-te"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-cdb7bc073a.woff2",
-			"bytes": 4916,
+			"file": "/fonts/yuji-syuku-400-page-ce3ae66b82.woff2",
+			"bytes": 1904,
 			"pages": [
-				"de/gyokko-ryu",
-				"en/gyokko-ryu",
-				"es/gyokko-ryu",
-				"fr/gyokko-ryu",
-				"pt/gyokko-ryu",
-				"it/gyokko-ryu",
-				"nl/gyokko-ryu",
-				"ru/gyokko-ryu"
+				"ja/burglary-tools",
+				"zh/burglary-tools",
+				"ko/burglary-tools",
+				"he/burglary-tools"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-cec88764bd.woff2",
-			"bytes": 1832,
-			"pages": [
-				"de/essenz-des-ninjutsu",
-				"en/essence-of-ninjutsu",
-				"es/essence-of-ninjutsu",
-				"fr/essence-of-ninjutsu",
-				"pt/essence-of-ninjutsu",
-				"it/essence-of-ninjutsu",
-				"nl/essence-of-ninjutsu",
-				"ru/essence-of-ninjutsu"
-			]
+			"file": "/fonts/yuji-syuku-400-page-d5e827f5e8.woff2",
+			"bytes": 2280,
+			"pages": ["ja/koto-ryu", "zh/koto-ryu", "ko/koto-ryu", "he/koto-ryu"]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-d1c096d4dc.woff2",
-			"bytes": 3096,
-			"pages": [
-				"de/koga-ryu",
-				"en/koga-ryu",
-				"es/koga-ryu",
-				"fr/koga-ryu",
-				"pt/koga-ryu",
-				"it/koga-ryu",
-				"nl/koga-ryu",
-				"ru/koga-ryu"
-			]
+			"file": "/fonts/yuji-syuku-400-page-d7482f5453.woff2",
+			"bytes": 2276,
+			"pages": ["ja/weapons", "zh/weapons", "ko/weapons", "he/weapons"]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-da65b530ab.woff2",
-			"bytes": 12012,
+			"file": "/fonts/yuji-syuku-400-page-d7ffcd1e4d.woff2",
+			"bytes": 892,
 			"pages": [
-				"de/shinden-fudo-ryu",
-				"en/shinden-fudo-ryu",
-				"es/shinden-fudo-ryu",
-				"fr/shinden-fudo-ryu",
-				"pt/shinden-fudo-ryu",
-				"it/shinden-fudo-ryu",
-				"nl/shinden-fudo-ryu",
-				"ru/shinden-fudo-ryu"
+				"ja/ninja-no-hachimon",
+				"zh/ninja-no-hachimon",
+				"ko/ninja-no-hachimon",
+				"he/ninja-no-hachimon"
 			]
 		},
 		{
@@ -6781,14 +7374,26 @@
 			"file": "/fonts/yuji-syuku-400-page-dc0b8db483.woff2",
 			"bytes": 2800,
 			"pages": [
+				"de/junan-taiso",
 				"de/trainingsfaktoren",
+				"en/junan-taiso",
 				"en/training-factors",
+				"es/junan-taiso",
 				"es/training-factors",
+				"fr/junan-taiso",
 				"fr/training-factors",
+				"pt/junan-taiso",
 				"pt/training-factors",
+				"it/junan-taiso",
 				"it/training-factors",
+				"nl/junan-taiso",
 				"nl/training-factors",
-				"ru/training-factors"
+				"ru/junan-taiso",
+				"ru/training-factors",
+				"ja/junan-taiso",
+				"zh/junan-taiso",
+				"ko/junan-taiso",
+				"he/junan-taiso"
 			]
 		},
 		{
@@ -6829,6 +7434,35 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-e1b62e58ed.woff2",
+			"bytes": 1296,
+			"pages": ["ja/shinobi-iri", "zh/shinobi-iri", "ko/shinobi-iri", "he/shinobi-iri"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-e2237f757f.woff2",
+			"bytes": 1604,
+			"pages": ["ja/fire-tools", "zh/fire-tools", "ko/fire-tools", "he/fire-tools"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-e29cc67ff9.woff2",
+			"bytes": 2792,
+			"pages": [
+				"ja/takagi-yoshin-ryu",
+				"zh/takagi-yoshin-ryu",
+				"ko/takagi-yoshin-ryu",
+				"he/takagi-yoshin-ryu"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-e4c085ea2c.woff2",
 			"bytes": 22308,
 			"pages": [
@@ -6846,6 +7480,14 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-e6fc3d5d7a.woff2",
+			"bytes": 2076,
+			"pages": ["ja/bo-ryaku", "zh/bo-ryaku", "ko/bo-ryaku", "he/bo-ryaku"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-e7ac06ed24.woff2",
 			"bytes": 5208,
 			"pages": ["de/godai", "nl/godai"]
@@ -6854,68 +7496,97 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-ef4003a2ef.woff2",
-			"bytes": 8392,
+			"file": "/fonts/yuji-syuku-400-page-ea20be1f2c.woff2",
+			"bytes": 8588,
 			"pages": [
-				"de/iga-ryu",
-				"en/iga-ryu",
-				"es/iga-ryu",
-				"fr/iga-ryu",
-				"pt/iga-ryu",
-				"it/iga-ryu",
-				"nl/iga-ryu",
-				"ru/iga-ryu"
+				"de/kampffaktoren",
+				"en/combat-factors",
+				"es/combat-factors",
+				"fr/combat-factors",
+				"pt/combat-factors",
+				"it/combat-factors",
+				"nl/combat-factors",
+				"ru/combat-factors"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-efeef649af.woff2",
-			"bytes": 10688,
+			"file": "/fonts/yuji-syuku-400-page-efd22ae05d.woff2",
+			"bytes": 3048,
 			"pages": [
-				"de/takagi-yoshin-ryu",
-				"en/takagi-yoshin-ryu",
-				"es/takagi-yoshin-ryu",
-				"fr/takagi-yoshin-ryu",
-				"pt/takagi-yoshin-ryu",
-				"it/takagi-yoshin-ryu",
-				"nl/takagi-yoshin-ryu",
-				"ru/takagi-yoshin-ryu"
+				"ja/takamatsu-toshitsugu",
+				"zh/takamatsu-toshitsugu",
+				"ko/takamatsu-toshitsugu",
+				"he/takamatsu-toshitsugu"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-f01fc6e447.woff2",
-			"bytes": 6944,
+			"file": "/fonts/yuji-syuku-400-page-efec4cb310.woff2",
+			"bytes": 24072,
 			"pages": [
-				"de/koto-ryu",
-				"en/koto-ryu",
-				"es/koto-ryu",
-				"fr/koto-ryu",
-				"pt/koto-ryu",
-				"it/koto-ryu",
-				"nl/koto-ryu",
-				"ru/koto-ryu"
+				"de/bansenshukai",
+				"en/bansenshukai",
+				"es/bansenshukai",
+				"fr/bansenshukai",
+				"pt/bansenshukai",
+				"it/bansenshukai",
+				"nl/bansenshukai",
+				"ru/bansenshukai"
 			]
 		},
 		{
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-f4aca573ad.woff2",
-			"bytes": 10208,
+			"file": "/fonts/yuji-syuku-400-page-f009c01452.woff2",
+			"bytes": 1944,
+			"pages": ["ja/mikkyo", "zh/mikkyo", "ko/mikkyo", "he/mikkyo"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-f16af854a1.woff2",
+			"bytes": 2396,
 			"pages": [
-				"de/bo-ryaku",
-				"en/bo-ryaku",
-				"es/bo-ryaku",
-				"fr/bo-ryaku",
-				"pt/bo-ryaku",
-				"it/bo-ryaku",
-				"nl/bo-ryaku",
-				"ru/bo-ryaku"
+				"de/glossar",
+				"en/glossary",
+				"es/glossary",
+				"fr/glossary",
+				"pt/glossary",
+				"it/glossary",
+				"nl/glossary",
+				"ru/glossary",
+				"ja/glossary",
+				"zh/glossary",
+				"ko/glossary",
+				"he/glossary"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-f1eaf3d5a8.woff2",
+			"bytes": 1588,
+			"pages": ["ja/kuji-in", "zh/kuji-in", "ko/kuji-in", "he/kuji-in"]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-f40108c102.woff2",
+			"bytes": 1456,
+			"pages": [
+				"ja/enlightenment",
+				"zh/enlightenment",
+				"ko/enlightenment",
+				"he/enlightenment"
 			]
 		},
 		{
@@ -6930,17 +7601,47 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-fe15457ce7.woff2",
-			"bytes": 12252,
+			"file": "/fonts/yuji-syuku-400-page-f6ee42ee40.woff2",
+			"bytes": 1776,
 			"pages": [
-				"de/ninjakleidung",
-				"en/ninja-clothing",
-				"es/ninja-clothing",
-				"fr/ninja-clothing",
-				"pt/ninja-clothing",
-				"it/ninja-clothing",
-				"nl/ninja-clothing",
-				"ru/ninja-clothing"
+				"ja/ninja-biographies",
+				"zh/ninja-biographies",
+				"ko/ninja-biographies",
+				"he/ninja-biographies"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-febd50c24f.woff2",
+			"bytes": 4548,
+			"pages": [
+				"de/einbruchswerkzeuge",
+				"en/burglary-tools",
+				"es/burglary-tools",
+				"fr/burglary-tools",
+				"pt/burglary-tools",
+				"it/burglary-tools",
+				"nl/burglary-tools",
+				"ru/burglary-tools"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-ffa424154a.woff2",
+			"bytes": 4352,
+			"pages": [
+				"de/kolophon",
+				"en/colophon",
+				"es/colophon",
+				"fr/colophon",
+				"pt/colophon",
+				"it/colophon",
+				"nl/colophon",
+				"ru/colophon"
 			]
 		},
 		{
@@ -6974,63 +7675,63 @@
 	"budget": {
 		"de": {
 			"home": 128336,
-			"median": 148932,
-			"max": 239140
+			"median": 149448,
+			"max": 241536
 		},
 		"en": {
 			"home": 129432,
-			"median": 150028,
-			"max": 240236
+			"median": 150544,
+			"max": 242632
 		},
 		"es": {
 			"home": 128336,
-			"median": 148932,
-			"max": 239140
+			"median": 149448,
+			"max": 241536
 		},
 		"fr": {
 			"home": 128336,
-			"median": 148932,
-			"max": 239140
+			"median": 149448,
+			"max": 241536
 		},
 		"pt": {
 			"home": 128336,
-			"median": 148932,
-			"max": 239140
+			"median": 149448,
+			"max": 241536
 		},
 		"it": {
 			"home": 128336,
-			"median": 148932,
-			"max": 239140
+			"median": 149448,
+			"max": 241536
 		},
 		"nl": {
 			"home": 128336,
-			"median": 148932,
-			"max": 239140
+			"median": 149448,
+			"max": 241536
 		},
 		"ru": {
 			"home": 161704,
 			"median": 150192,
-			"max": 295616
+			"max": 298012
 		},
 		"ja": {
 			"home": 234660,
-			"median": 170484,
-			"max": 383284
+			"median": 172276,
+			"max": 385680
 		},
 		"zh": {
 			"home": 321208,
-			"median": 241904,
-			"max": 462856
+			"median": 243520,
+			"max": 465252
 		},
 		"ko": {
 			"home": 186856,
-			"median": 166436,
-			"max": 365420
+			"median": 168076,
+			"max": 367816
 		},
 		"he": {
 			"home": 63728,
-			"median": 73520,
-			"max": 234564
+			"median": 75440,
+			"max": 236960
 		}
 	}
 }

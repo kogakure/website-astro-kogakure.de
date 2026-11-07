@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: 人体约有250处部位对按压和打击十分敏感，其中69处一击即可致瘫甚至致命。本文是一张主要打击区域的图表。
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

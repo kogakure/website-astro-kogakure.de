@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: '무의식이 결정을 재촉하고, 예감이 고개를 든다. 닌자는 이런 느낌을 진지하게 받아들여 위험을 감지할 수 있을 때까지 단련했다.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

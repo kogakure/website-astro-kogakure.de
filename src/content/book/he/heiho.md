@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: התקפה מדומה, מעיל שמתנופף ברוח, שומר שמעדיף לשבת ליד האש כשיורד גשם – בתחבולות כאלה חצו הנינג'ה שטח אויב וחדרו למבצרים שמורים.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

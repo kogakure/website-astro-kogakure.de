@@ -5,6 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: Eight gates decide whether a Ryū is a ninja art. What the ninja no hachimon requires, and why six of the nine Bujinkan schools are warrior Ryū.
 translationKey: ninjaNoHachimonPage
+plate: 火術
 categories:
   - guidelines
   - training

@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: 偽の書状、見せかけの攻撃、城門の物乞い。近入の戦術で、忍者は争いが始まるや敵を攪乱し、その城に入り込んだ。
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

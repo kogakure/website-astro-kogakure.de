@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: 見せかけの攻撃、風にはためく外套、雨の日は焚き火のそばを離れない見張り。こうした策略で、忍者は敵地を抜け、守りの固い城に入り込んだ。
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

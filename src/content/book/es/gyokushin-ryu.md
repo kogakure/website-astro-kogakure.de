@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Enseñada en secreto durante mucho tiempo, orientada más al espionaje que al combate y conocida por la cuerda arrojadiza. Así es la Escuela del Corazón Enjoyado.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

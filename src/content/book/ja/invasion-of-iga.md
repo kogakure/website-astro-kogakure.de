@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: 1581年、織田信長は44,000を超える兵を六つの道から伊賀へ差し向けた。比自山で、この地方最後の大きな抵抗は炎の中に終わった。
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

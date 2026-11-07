@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: 1561년 모치즈키 모리토키가 전사했다. 미망인 지요메는 출가하지 않았다. 그녀는 다케다 신겐을 위해 신사의 무녀로 위장한 여성 첩자들의 조직망을 만들었다.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

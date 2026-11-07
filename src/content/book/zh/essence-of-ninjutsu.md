@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: 保护自己、忍耐与一颗慈悲之心。高松寿嗣和初见良昭眼中忍术的核心是什么，为什么光有格斗技术还不够。
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

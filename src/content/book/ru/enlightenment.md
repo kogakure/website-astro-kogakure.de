@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Ученый, врач, торговец или воин — к просветлению может привести любой путь. Ниндзя выбрал путь воина и шел по нему всю жизнь.'
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

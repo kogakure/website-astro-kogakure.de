@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: Un messager qu’on veut voir capturé, un transfuge qui attend un signal pendant des années – les tactiques tōiri préparaient la guerre dès le temps de paix.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

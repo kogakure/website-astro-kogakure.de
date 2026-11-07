@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: Estrepes de ferro, lanças com gancho, zarabatanas, canhões de madeira – para um ninja, toda arma era uma ferramenta. Uma seleção do arsenal ninja.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: Of 81 hand and finger signs, the ninja used nine. They work only with the right spiritual and religious attitude and after years of practice.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

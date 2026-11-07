@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: Der beste Kampf ist der, zu dem es nie kommt. Drei Regeln des Ninjutsu, vom geistigen Training bis zur Körperbeherrschung, und neun Hinweise für den Fall, dass er sich nicht vermeiden lässt.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

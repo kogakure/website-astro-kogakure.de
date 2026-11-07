@@ -2,6 +2,7 @@
 title: Chronology
 priority: 900
 translationKey: chronolyPage
+plate: 年表
 ---
 
 <figure>

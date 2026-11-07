@@ -5,6 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: 八つの門が、ある流派が忍者の術かどうかを決める。忍者のはちもんが求めるものと、武神館の九流派のうち六つが武人の流派である理由。
 translationKey: ninjaNoHachimonPage
+plate: 火術
 categories:
   - guidelines
   - training

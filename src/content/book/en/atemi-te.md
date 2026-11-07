@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: About 250 spots on the body are sensitive to pressure and blows, and 69 of them can paralyze or kill. A map of the most important target zones.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

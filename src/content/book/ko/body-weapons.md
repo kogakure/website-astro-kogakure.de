@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: 이마, 팔꿈치, 엄지, 손가락 끝, 발뒤꿈치 — 인술에서는 몸의 모든 부분이 근육과 힘줄과 뼈를 겨누는 무기가 된다.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

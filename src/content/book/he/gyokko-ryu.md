@@ -5,6 +5,7 @@ date: '2006-04-02T15:07:00+02:00'
 author: Stefan Imhoff
 excerpt: התנועות שלו נולדו בחצר שושלת טאנג, והסוקה הראשון שלו חי בתקופת הוגן. הגיוקו ריו הוא העתיקה מבין תשע המסורות של הבוג'ינקאן.
 translationKey: gyokkoRyuPage
+plate: 玉虎流
 categories:
   - history
   - schools

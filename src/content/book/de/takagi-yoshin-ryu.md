@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: Eine Weide biegt sich, ein hoher Baum bricht. Mit dieser Lehre seines Vaters baute Takagi Oriemon Shigenobu eine Schule auf, deren Philosophie die Nachgiebigkeit ist.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

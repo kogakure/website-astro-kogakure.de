@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Kein tiefes Schwarz, selten eine Maske, oft gar kein Anzug: Was die Ninja wirklich trugen und wozu jedes Teil diente.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

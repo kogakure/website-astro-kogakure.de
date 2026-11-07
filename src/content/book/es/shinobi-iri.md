@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: En silencio sobre tarimas de madera, a través de aguas poco profundas, pegado al suelo como una salamandra. Así se movían los ninja sin ser oídos.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

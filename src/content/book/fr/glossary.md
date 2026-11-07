@@ -2,6 +2,7 @@
 title: Glossaire
 priority: 915
 translationKey: glossaryPage
+plate: 用語集
 ---
 
 <figure>

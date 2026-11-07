@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: Au fond, le ninjutsu repose sur un esprit libre et juste. Comment les historiens et les médias ont déformé la réputation des ninja, et ce que révèle le caractère 忍.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

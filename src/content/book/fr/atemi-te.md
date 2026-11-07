@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: Environ 250 points du corps sont sensibles à la pression et aux coups, et 69 d’entre eux peuvent paralyser ou tuer. Une carte des principales zones de frappe.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: ב־1581 חזר אודה נובונאגה לאיגה עם יותר מ־44,000 איש בשישה נתיבים. על הר היג'ייאמה נגמר המרד הגדול האחרון של האזור באש.
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

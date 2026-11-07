@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Один-единственный шпион может сократить войну на годы. В Средневековье разведка и шпионаж были главным делом ниндзя и прочной частью их подготовки.'
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

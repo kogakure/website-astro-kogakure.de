@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Von einem Laster springen, über eine Mauer setzen, sich vor einer Kugel zu Boden werfen. Im Ninjutsu lernt man zuerst, richtig zu rollen und zu fallen.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

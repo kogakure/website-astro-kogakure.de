@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Dejar pasar la tristeza, la ira, la envidia y el odio como el humo. Cinco mandamientos de Hatsumi Masaaki para los momentos de tristeza, enfermedad, heridas o desesperación.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

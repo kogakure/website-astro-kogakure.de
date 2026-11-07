@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: Gedachte, woord en daad zijn de drie geheimen van het mikkyō. Hoe mandala, mantra en mudrā ze belichamen en waarom gevouwen handen alleen geen wond genezen.
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

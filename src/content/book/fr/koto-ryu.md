@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: Un sabre qui renvoie le soleil dans les yeux de l’adversaire, un regard posé entre les sourcils, cinq trous de doigts dans l’écorce d’un arbre. Le Kotō-Ryū et ses méthodes insolites.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

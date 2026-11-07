@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Verrekijker, kompas, reisapotheek, demonenmasker en zelfs een vliegtoestel: wat de ninja naast wapens nog meenamen op hun missies.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Gas somnífero de ratas en polvo, puerro sobre una herida de bala, 30 semillas de sésamo contra la sed: lo que el ninja mezclaba en su botiquín y llevaba a una misión.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

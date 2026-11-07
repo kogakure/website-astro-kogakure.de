@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: 木と紙の家では、火こそが最大の脅威であった。忍者は火を使って混乱を引き起こし、夜の闇を照らした。
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

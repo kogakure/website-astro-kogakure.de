@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: 从认识自己到预测天气。户隐流的忍者在这十八个体系中力求精进。
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

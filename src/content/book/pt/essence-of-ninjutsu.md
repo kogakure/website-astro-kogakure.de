@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: Autoproteção, resistência e um coração benevolente. O que Takamatsu Toshitsugu e Hatsumi Masaaki veem como o núcleo do ninjutsu e por que a técnica de combate não basta.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

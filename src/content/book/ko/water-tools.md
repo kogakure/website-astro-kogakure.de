@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 접는 배, 숨대롱, 오리발. 닌자는 물의 도구로 물 위와 물속, 늪지를 빠르게 지나 갑옷 입은 사무라이를 손쉽게 따돌렸다.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: Entrar en cualquier fortaleza, salir de cualquier prisión – esa fama tenían los ninja. Para ello llevaban herramientas para serrar, perforar y cavar.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

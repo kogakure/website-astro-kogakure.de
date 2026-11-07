@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: 1561年、望月盛時が戦死した。未亡人の千代女は尼にならず、武田信玄のために巫女を装った女性諜報員の網を築き上げた。
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

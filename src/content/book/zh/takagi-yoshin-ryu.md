@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: 柳枝弯而不折，高树遇风则断。高木折右卫门重俊凭着父亲留下的这句教诲，创立了一个以柔顺为理念的流派。
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

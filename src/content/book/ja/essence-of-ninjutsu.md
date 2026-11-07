@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: 身を守ること、耐え忍ぶこと、そして慈悲の心。高松寿嗣と初見良昭が忍術の核心とみなすものと、戦いの技だけでは足りない理由。
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

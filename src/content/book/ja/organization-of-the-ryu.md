@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: 拷問にかけられても、忍者は誰に送り込まれたのかを明かせなかった。知らなかったからである。上忍、中忍、下忍の三つの位が流派を裏切りから守っていた。
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

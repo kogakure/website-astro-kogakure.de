@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: No ninjutsu, a força nasce da flexibilidade. O jūnantaisō, o condicionamento físico dos ninja, devolve a elasticidade a músculos e tendões e mantém o corpo saudável até a velhice.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

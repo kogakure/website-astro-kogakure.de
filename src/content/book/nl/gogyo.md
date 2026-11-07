@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: Hout wordt vuur, vuur wordt as. Het gogyō, de daoïstische leer van de vijf elementen, beschrijft hoe de elementen elkaar voortbrengen en bedwingen.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

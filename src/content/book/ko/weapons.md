@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: 쇠가시, 갈고리창, 취관, 나무 대포. 닌자에게 무기는 모두 도구였다. 닌자의 무기고에서 몇 가지를 골라 소개한다.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

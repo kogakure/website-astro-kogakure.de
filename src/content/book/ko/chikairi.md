@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: 위조한 편지, 거짓 공격, 성문 앞의 거지. 분쟁이 시작되면 닌자는 지카이리의 전술로 적을 교란하고 그 성 안으로 파고들었다.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

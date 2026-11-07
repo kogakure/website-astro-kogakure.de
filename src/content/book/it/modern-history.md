@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: Dopo la seconda guerra mondiale gli americani vietarono in gran parte le arti marziali. Il sapere dei ninja sopravvisse comunque – grazie a un guardiano notturno, a un avventuriero in Cina e al suo allievo Hatsumi.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: בבסיסו, הנינג'יטסו עוסק ברוח חופשית וצודקת. איך ההיסטוריונים והתקשורת עיוותו את שמם של הנינג'ה, ומה מגלה הסימן 忍.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

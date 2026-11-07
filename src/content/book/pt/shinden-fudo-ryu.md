@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: Nenhum dōjō, nenhum equipamento de treino – no Shinden-Fudō-Ryū se treinava nas árvores e no bambuzal. A escola do coração imóvel surgiu em meados do século XII.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

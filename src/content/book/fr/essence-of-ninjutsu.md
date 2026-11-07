@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: Protection de soi, endurance et cœur bienveillant. Ce que Takamatsu Toshitsugu et Hatsumi Masaaki tiennent pour le cœur du ninjutsu, et pourquoi la technique de combat ne suffit pas.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

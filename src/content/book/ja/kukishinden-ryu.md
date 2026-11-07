@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: 高松は九鬼神流の伝書を復元し、その礼として分派を開くことを許された。それが九つの鬼神の流派、九鬼神伝流である。
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 无声地走过木地板，蹚过浅水，像蝾螈一样贴地爬行。忍者靠这些步法和跑法行动，不被人听见。
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

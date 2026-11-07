@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: בגיל 13 ניצח מתאבק סומו מקצועי, ובסין התחמק במשך שעתיים ממאסטר שאולין. טאקאמאצו טושיצוגו היה המורה של האצומי מאסאקי, והבוג'ינקאן נקרא על שמו.
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

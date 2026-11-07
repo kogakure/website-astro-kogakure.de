@@ -1,8 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { openSync, type Font } from 'fontkit';
 import { describe, expect, it } from 'vitest';
 import { LANGS } from '@/i18n/languages';
-import { fontFaceCss, fontFiles, manifest, preloadFont, type FontManifest } from './fonts';
+import {
+	fontFaceCss,
+	fontFiles,
+	manifest,
+	preloadFont,
+	type FontFile,
+	type FontManifest,
+} from './fonts';
 import { allTextHashes, languageText } from './text';
 
 const PUBLIC = path.resolve(import.meta.dirname, '../../../public');
@@ -55,6 +63,33 @@ describe('font manifest', () => {
 			expect(fs.readFileSync(path.join(PUBLIC, 'fonts/licenses', name), 'utf8')).toContain(
 				'SIL OPEN FONT LICENSE'
 			);
+		}
+	});
+
+	it("sets every article's plate term in the brush face (SI-476)", () => {
+		// A shared file covers its unicode-range; a page's own file has none, it holds its glyphs
+		const glyphs = new Map<string, Font>();
+		const covers = ({ file, unicodeRange }: FontFile, cp: number) => {
+			if (unicodeRange)
+				return unicodeRange.split(',').some((part) => {
+					const [from, to = from] = part.slice(2).split('-');
+					return cp >= parseInt(from!, 16) && cp <= parseInt(to, 16);
+				});
+			if (!glyphs.has(file)) glyphs.set(file, openSync(path.join(PUBLIC, file)) as Font);
+			return glyphs.get(file)!.hasGlyphForCodePoint(cp);
+		};
+		for (const lang of LANGS) {
+			const plates = languageText(lang).pages.filter(({ plate }) => plate);
+			expect(plates.length, lang).toBeGreaterThan(70);
+			for (const { slug, plate } of plates) {
+				const brush = fontFiles(lang, slug).filter(({ family }) => family === 'Yuji Syuku');
+				for (const c of plate) {
+					expect(
+						brush.some((file) => covers(file, c.codePointAt(0)!)),
+						`${lang}/${slug}: ${c}`
+					).toBe(true);
+				}
+			}
 		}
 	});
 

@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja se nascia, não se tornava. Aos cinco ou seis anos, as brincadeiras viravam treino; depois vinham o combate, a arte de representar, a psicologia e a formação da mente.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

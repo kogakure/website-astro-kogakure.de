@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: 창시자는 한 번의 주먹질로 칼날을 부러뜨렸다고 한다. 기칸류에는 가타가 없고, 하쓰미는 아직 이 류파를 공개적으로 가르친 적이 없다.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

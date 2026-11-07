@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: Um castelo construído com a ajuda dos próprios inimigos e 12.000 homens que atacaram por três passos e fracassaram – como Iga resistiu em 1579 a Nobuo, filho de Oda Nobunaga.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

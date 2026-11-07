@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Sauter d’un camion, franchir un mur, se jeter à terre pour éviter une balle. En ninjutsu, on apprend d’abord à rouler et à chuter correctement.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

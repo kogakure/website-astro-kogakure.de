@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 鼠の粉末から作る眠り薬の煙、銃創に当てるネギ、渇きを癒やす30粒の胡麻。忍者が旅の薬入れで調合したもの、任務に携えたもの。
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

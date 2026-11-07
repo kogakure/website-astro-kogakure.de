@@ -24,14 +24,13 @@ export const CJK =
 /** `_tengu_ (天狗` and `<em>tengu</em> (天狗`: the kanji of a margin gloss, set in the brush face */
 const GLOSS = /(?:_[^_\n]+_|\*[^*\n]+\*|<em>[^<]+<\/em>) \(([\p{Script=Han}々〆〇]+)/gu;
 
-/** Front matter title and plate, headings, bold and table headers of a Markdown page */
-const BOLD =
-	/^(?:title|plate): (.*)$|^#{1,6} (.*)$|\*\*([^*\n]+)\*\*|<(strong|b|th)\b[^>]*>([^<]*)<\/\4>/gmu;
+/** Front matter title, headings, bold and table headers of a Markdown page */
+const BOLD = /^title: (.*)$|^#{1,6} (.*)$|\*\*([^*\n]+)\*\*|<(strong|b|th)\b[^>]*>([^<]*)<\/\4>/gmu;
 
 export interface PageText {
 	/** File name in src/content/book/<lang>/ without `.md` */
 	slug: string;
-	/** What it shows: title, excerpt, plate and the body without markup; the glossary page with its entries */
+	/** What it shows: title, excerpt and the body without markup; the glossary page with its entries */
 	text: string;
 	/** What it sets in bold: title, headings, `strong`, the glossary's terms */
 	bold: string;
@@ -39,6 +38,8 @@ export interface PageText {
 	italic: string;
 	/** The kanji of its margin glosses */
 	glosses: string;
+	/** Its name plate's term (`plate`, SI-476), set in the brush face like the glosses */
+	plate: string;
 }
 
 export interface LanguageText {
@@ -118,14 +119,14 @@ const glossaryTerms = (glossary: Glossary) => glossary.entries.map(({ title }) =
 const glossaryText = (glossary: Glossary) =>
 	glossary.entries.map((entry) => Object.values(entry).join('\n'));
 
-/** What a page shows: the front matter's title, excerpt and plate, the body without tags */
+/** What a page shows: the front matter's title and excerpt, the body without tags */
 function visibleText(page: string): string {
-	const { title, excerpt, plate } = frontmatter(page);
+	const { title, excerpt } = frontmatter(page);
 	const body = page
 		.replace(/^---\n[\s\S]*?\n---/, '')
 		.replace(/<[^>]+>/g, ' ')
 		.replace(/\]\([^)]*\)/g, ']');
-	return [title, excerpt, plate, body].filter(Boolean).join('\n');
+	return [title, excerpt, body].filter(Boolean).join('\n');
 }
 
 const stripTags = (html: string) => html.replace(/<[^>]+>/g, '');
@@ -162,6 +163,7 @@ export function languageText(lang: Lang): LanguageText {
 			),
 			italic: [String(frontmatter(markdown).excerpt ?? ''), italicText(markdown)].join('\n'),
 			glosses: glossKanji(markdown),
+			plate: String(frontmatter(markdown).plate ?? ''),
 		};
 	});
 	// The captions of the homepage's scenes
@@ -195,9 +197,9 @@ export function textHash(lang: Lang): string {
 	const hash = createHash('sha256');
 	for (const part of [home + languageNames, homeBold])
 		hash.update(characters(part).join('')).update('\0');
-	for (const { slug, text, bold, glosses } of pages) {
+	for (const { slug, text, bold, glosses, plate } of pages) {
 		hash.update(slug).update('\0');
-		for (const part of [text, bold, glosses])
+		for (const part of [text, bold, glosses, plate])
 			hash.update(characters(part).join('')).update('\0');
 	}
 	return hash.digest('hex').slice(0, 16);

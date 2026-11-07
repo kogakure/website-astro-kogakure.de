@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: Из 81 знака рук и пальцев ниндзя использовали девять. Действуют они лишь при верном духовном и религиозном настрое и после многолетней практики.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

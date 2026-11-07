@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: במשך מאות שנים נלחמו שליטי יפן זה בזה, וכל אחד מהם נזקק למרגלים. באיגה ובקוגה קמו עשרות אסכולות נינג'ה כדי לענות על הביקוש.
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

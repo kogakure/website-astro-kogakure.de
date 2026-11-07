@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: Het beste gevecht is het gevecht dat nooit plaatsvindt. Drie regels van het ninjutsu, van geestelijke training tot lichaamsbeheersing, en negen aanwijzingen voor als het toch zover komt.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

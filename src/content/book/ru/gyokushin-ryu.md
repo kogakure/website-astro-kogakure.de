@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Долго преподавалась тайно, больше занималась шпионажем, чем боем, и славилась метательной веревкой — школа сердца, украшенного драгоценностями.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: Punta di freccia, ala di gru, scaglia di pesce – otto formazioni di battaglia dei comandanti giapponesi, e perché anche un ninja doveva conoscerle.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

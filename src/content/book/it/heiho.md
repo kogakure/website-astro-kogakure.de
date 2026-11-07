@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: Un finto attacco, un mantello al vento, una guardia che con la pioggia preferisce stare accanto al fuoco – con astuzie come queste i ninja attraversavano il territorio nemico ed entravano nei castelli sorvegliati.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

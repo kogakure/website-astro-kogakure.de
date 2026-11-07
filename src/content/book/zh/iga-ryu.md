@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: 三面环山，京都近在咫尺，还有一位逃亡的中国将军：最古老的忍者传统之一如何在伊贺诞生，又由谁传承下去。
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

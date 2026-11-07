@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: ב־1561 נפל מוצ'יזוקי מוריטוקי בקרב. אלמנתו צ'ייומה לא נכנסה למנזר. היא בנתה בשביל טקדה שינגן רשת של סוכנות, מחופשות למשרתות מקדש.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

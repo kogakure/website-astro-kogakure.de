@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: IJzeren kraaienpoten, haaksperen, blaaspijpen, houten kanonnen – voor een ninja was elk wapen een stuk gereedschap. Een keuze uit zijn arsenaal.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

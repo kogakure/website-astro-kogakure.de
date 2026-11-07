@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: פעמיים שמונה עשרה הן 36 האסטרטגיות הצבאיות – 18 אמנויות לחימה בסיסיות ו־18 כישורים מיוחדים שבהם התאמנו הנינג'ה.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

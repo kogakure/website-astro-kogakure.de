@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 相手の目には映っているのに、気づかれない。七方出によって、忍者は誰の頭の中にもある選別の働きを利用し、人混みに姿を消した。
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

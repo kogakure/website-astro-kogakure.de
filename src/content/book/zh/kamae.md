@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 三秒之内五种架势。在忍术中，构不是僵硬的姿势，而是内在心态的表达，也是自然动作的一部分。
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

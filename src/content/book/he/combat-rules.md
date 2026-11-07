@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: הקרב הטוב ביותר הוא זה שלעולם אינו מתרחש. שלושה כללים של הנינג'יטסו, מהאימון הרוחני ועד השליטה בגוף, ותשעה טיפים למקרה שאי אפשר להימנע ממנו.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

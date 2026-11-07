@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: トラックから飛び降り、塀を越え、銃弾を避けて地に身を投げる。忍術でまず学ぶのは、正しく転がり、正しく倒れることである。
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Barche pieghevoli, tubi per respirare, pinne – con i loro strumenti acquatici i ninja si muovevano rapidi sopra e sotto l’acqua e nelle paludi, lasciandosi alle spalle i samurai in armatura.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: Вдова, превращавшая сирот в шпионок, стрелок, промахнувшийся по Нобунаге, вор, сваренный в кипящем масле, — десять ниндзя, вошедших в историю.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

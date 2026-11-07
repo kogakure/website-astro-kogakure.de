@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Slagen tegen bomen, vingers in emmers vol zand en grind – zo hardden de ninja hun lichaamswapens af, tot ze pijn nauwelijks nog voelden.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

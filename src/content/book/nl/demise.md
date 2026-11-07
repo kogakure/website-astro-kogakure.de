@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: De vrede maakte een einde aan het tijdperk van de ninja. Onder de Tokugawa werden ze geheime politie, dieven of tuinmannen – en in 1853 moest een van hen aan boord van Perry’s schepen sluipen.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

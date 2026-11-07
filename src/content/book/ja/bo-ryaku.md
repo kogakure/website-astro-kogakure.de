@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: 鋒矢、鶴翼、魚鱗。日本の武将が用いた八つの陣形と、忍者もそれを知っていなければならなかった理由。
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

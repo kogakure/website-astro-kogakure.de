@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: Der Frieden beendete die Zeit der Ninja. Unter den Tokugawa wurden sie Geheimpolizisten, Diebe oder Gärtner – und 1853 sollte sich einer auf Perrys Schiffe schleichen.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

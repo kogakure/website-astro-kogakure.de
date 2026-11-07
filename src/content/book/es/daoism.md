@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: El agua fluye, las nubes pasan, el sauce cede bajo la nieve. El daoísmo enseñó al ninja a moverse con el curso de las cosas en lugar de ir contra él.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

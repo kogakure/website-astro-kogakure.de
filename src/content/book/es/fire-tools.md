@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: En casas de madera y papel, el fuego era el mayor peligro. Los ninja lo usaban para sembrar el pánico – y para ver de noche.
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

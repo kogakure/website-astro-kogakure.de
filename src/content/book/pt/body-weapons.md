@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Testa, cotovelo, polegar, pontas dos dedos, calcanhar – no ninjutsu, cada parte do corpo se torna uma arma contra músculos, tendões e ossos.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

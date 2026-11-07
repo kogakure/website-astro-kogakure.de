@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: 13歳でプロの力士を破り、中国では少林の達人の攻撃を2時間かわし続けた。高松寿嗣は初見良昭の師であり、武神館の名の由来となった人物である。
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

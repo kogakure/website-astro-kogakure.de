@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: Ниндзя в доспехах, порой в маске демона, и копье с крюком, на котором Сарутоби Сасукэ перелетал с дерева на дерево. Кумогакурэ-рю — школа скрытого облака.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

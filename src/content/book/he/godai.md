@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: אדמה, מים, אש, רוח וריק. דרך חמשת היסודות של הגודאי ביקשו הנינג'ה להבין את הקשרים שבבריאה – ואיתם את עצמם.
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

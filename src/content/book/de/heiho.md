@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: Ein Scheinangriff, ein Mantel im Wind, eine Wache, die bei Regen lieber am Feuer sitzt – mit solchen Listen gelangten Ninja durch feindliches Gebiet und in bewachte Burgen.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

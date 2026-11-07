@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: 一条河、一棵树、一把火、一个地洞、一面镜子——完成任务之后，忍者借助五种元素脱身。
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

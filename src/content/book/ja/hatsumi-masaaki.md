@@ -5,6 +5,7 @@ date: '2006-04-02T15:02:00+02:00'
 author: Stefan Imhoff
 excerpt: 15年間、毎週末欠かさず師の高松のもとへ通った。初見良昭は今、武神館を率い、九つの流派をひとつのものとして教えている。
 translationKey: hatsumiMasaakiPage
+plate: 初見良昭
 categories:
   - biography
 ---

@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 familles, un chef qui change de camp en pleine bataille et dix éclaireurs devant le château de Hara – l’histoire du Kōga-Ryū jusqu’à Fujita Seiko, sans doute son dernier héritier.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

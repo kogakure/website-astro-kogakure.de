@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: De tegenstander ziet hem, maar neemt hem niet waar. Met het shichi hō de, de zeven manieren van gaan, gebruikte de ninja de filter in ieders hoofd om in de massa te verdwijnen.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

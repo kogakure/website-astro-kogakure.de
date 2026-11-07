@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: Cambiare l’ambiente, cambiare sé stessi o cambiare solo l’apparenza. Con i principi di cielo, terra e uomo i ninja giudicavano ogni situazione da più punti di vista.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

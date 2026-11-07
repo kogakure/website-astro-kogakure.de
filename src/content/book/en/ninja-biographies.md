@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: A widow who trained orphan girls as spies, a sniper who missed Nobunaga, a master thief boiled in oil – ten ninja who made history.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

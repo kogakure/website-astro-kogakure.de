@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: בלי דוג'ו ובלי ציוד אימון – בשינדן פודו ריו התאמנו על עצים וביערות במבוק. אסכולת הלב שאינו זע נולדה באמצע המאה ה־12.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

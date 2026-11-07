@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: מחשבה, דיבור ומעשה הם שלושת הסודות של המיקיו. כיצד המנדלה, המנטרה והמודרה מגלמות אותם, ומדוע תנועת ידיים מקופלות לבדה אינה מרפאת אף פצע.
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

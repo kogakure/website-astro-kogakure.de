@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: Keine Gürtel, keine Pokale, keine Regeln. Taijutsu ist die Grundlage des Ninjutsu, eine natürliche Kampfweise zum Überleben, deren Bewegungen den Elementen Erde, Wasser, Feuer und Wind folgen.
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: 도장도, 수련 도구도 없었다. 신덴후도류의 제자들은 나무와 대숲에서 수련했다. 흔들리지 않는 마음의 류파는 12세기 중엽까지 거슬러 올라간다.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Van een vrachtwagen springen, over een muur zetten, je voor een kogel op de grond werpen. In het ninjutsu leer je eerst goed rollen en vallen.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

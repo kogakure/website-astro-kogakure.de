@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: Circa 250 punti del corpo sono sensibili alla pressione e ai colpi, e 69 di essi possono paralizzare o uccidere. Una mappa delle principali zone bersaglio.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

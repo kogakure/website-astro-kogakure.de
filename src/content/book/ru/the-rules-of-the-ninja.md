@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: Разведывать, не убивая, чередовать правду и ложь, владеть любым оружием. Десять правил, которые Хацуми Масааки выводит из опыта ниндзя.
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

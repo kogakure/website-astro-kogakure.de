@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: מים זורמים, עננים נודדים, הערבה מתכופפת תחת השלג. הטאואיזם לימד את הנינג'ה ללכת עם מהלך הדברים ולא נגדו.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

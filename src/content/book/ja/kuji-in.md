@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: 81の手と指の印のうち、忍者が用いたのは九つである。その力が働くのは、正しい精神的・宗教的な心構えと長年の修練を経てからである。
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: 投げる梯子、たためる梯子、谷に架ける梯子、女性の髪で編んだ縄、手足に付ける鉤爪。忍者はこれらで木に登り、谷を越え、城に入り込んだ。
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

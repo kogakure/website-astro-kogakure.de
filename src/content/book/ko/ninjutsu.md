@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: 인술의 핵심은 자유롭고 올바른 정신이다. 역사 기록과 대중매체가 닌자의 평판을 어떻게 왜곡했는지, 그리고 글자 忍이 무엇을 말해 주는지 살펴본다.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

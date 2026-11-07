@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: Volgens de leer van de ninja trilt alles in het universum, van een steen tot een gedachte. De geest duidt die trillingen en verbindt bewustzijn en lichaam.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

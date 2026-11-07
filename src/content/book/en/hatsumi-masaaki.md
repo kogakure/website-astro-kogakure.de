@@ -5,6 +5,7 @@ date: '2006-04-02T15:02:00+02:00'
 author: Stefan Imhoff
 excerpt: For fifteen years he traveled to his teacher Takamatsu every weekend. Today Hatsumi Masaaki heads the Bujinkan, where he teaches nine schools as one.
 translationKey: hatsumiMasaakiPage
+plate: 初見良昭
 categories:
   - biography
 ---

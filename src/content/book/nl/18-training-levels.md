@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: Van zelfkennis tot weersvoorspelling. In deze 18 leersystemen probeerden de ninja van de Togakure-Ryū zich te verbeteren.
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

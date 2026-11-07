@@ -5,6 +5,7 @@ date: '2006-04-02T15:07:00+02:00'
 author: Stefan Imhoff
 excerpt: Ее движения сложились при дворе династии Тан, ее первый сокэ жил в эпоху Хогэн. Гёкко-рю — старейшая из девяти традиций Будзинкана.
 translationKey: gyokkoRyuPage
+plate: 玉虎流
 categories:
   - history
   - schools

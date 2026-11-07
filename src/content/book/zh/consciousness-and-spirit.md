@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: 按照忍者的教义，宇宙中的一切都在振动，从石头到思想。心灵解读这些振动，把意识和身体联结起来。
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

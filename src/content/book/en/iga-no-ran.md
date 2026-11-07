@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: A castle built with the help of its enemies, and 12,000 men who attacked through three passes and failed – how Iga held out against Oda Nobunaga’s son Nobuo in 1579.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

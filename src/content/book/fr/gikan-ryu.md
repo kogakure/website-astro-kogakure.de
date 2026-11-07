@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: Son fondateur aurait brisé une lame de sabre d’un seul coup. Le Gikan-Ryū ne connaît aucun kata, et Hatsumi ne l’a encore jamais enseigné en public.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

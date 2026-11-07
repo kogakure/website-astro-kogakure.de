@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: בבתים מעץ ומנייר, אש הייתה הסכנה הגדולה ביותר. הנינג'ה השתמשו בה כדי לזרוע בהלה – וכדי לראות בחושך.
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

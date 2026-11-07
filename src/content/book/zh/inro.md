@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 用老鼠粉制成的催眠气体，敷在枪伤上的韭葱，30粒芝麻解渴：忍者在随身药盒里调配了什么，执行任务时又带了些什么。
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

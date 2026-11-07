@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 从卡车上跳下，翻越围墙，扑倒在地躲开子弹。忍术首先教你的，是如何正确地翻滚和倒地。
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

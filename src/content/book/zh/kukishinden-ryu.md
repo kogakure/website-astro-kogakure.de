@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: 高松复原了九鬼神流的传书，作为答谢，他获准创立一个自己的分支流派：九鬼神传流，九位鬼神之流。
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

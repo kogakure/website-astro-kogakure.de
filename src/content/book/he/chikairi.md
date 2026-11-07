@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: מכתבים מזויפים, התקפה מדומה, קבצן בשער המבצר – בטקטיקות הצ'יקאירי חיבלו הנינג'ה באויב וחדרו למבצריו ברגע שפרץ הסכסוך.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

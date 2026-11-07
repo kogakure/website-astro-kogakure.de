@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: L’acqua scorre, le nuvole passano, il salice cede sotto la neve. Il daoismo insegnava al ninja ad andare con il corso delle cose invece che contro.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

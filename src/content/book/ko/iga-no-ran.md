@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: 적들이 짓는 데 손을 보탠 성, 그리고 세 고개로 쳐들어왔다가 실패한 1만 2,000명. 1579년 이가가 오다 노부나가의 아들 노부오를 어떻게 막아 냈는지 살펴본다.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

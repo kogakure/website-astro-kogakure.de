@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Geen diep zwart, zelden een masker, vaak helemaal geen pak: wat de ninja werkelijk droegen en waarvoor elk stuk diende.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

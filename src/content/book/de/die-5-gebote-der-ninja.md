@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Trauer, Wut, Neid und Hass vorbeiziehen lassen wie Rauch. Fünf Gebote von Hatsumi Masaaki für die Zeiten, in denen man traurig, krank, verwundet oder verzweifelt ist.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

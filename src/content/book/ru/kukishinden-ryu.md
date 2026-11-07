@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: Такамацу восстановил дэнсё Кукисин-рю и в благодарность получил право основать собственную ветвь — Кукисиндэн-рю, школу девяти демонических богов.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

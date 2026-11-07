@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: Sur 81 signes des mains et des doigts, les ninja en retinrent neuf. Ils n’agissent qu’avec la bonne attitude spirituelle et religieuse, et après des années de pratique.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

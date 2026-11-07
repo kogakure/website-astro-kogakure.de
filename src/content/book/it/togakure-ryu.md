@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: Una battaglia perduta, una fuga a Iga e un maestro sulle montagne – così nacque la scuola della porta nascosta fondata da Togakure Daisuke.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

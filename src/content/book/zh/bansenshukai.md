@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: 1676年，藤林保武汇集了伊贺与甲贺数十个忍者流派的知识。全书十卷，论及战略、道德、欺敌、天候与工具。
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

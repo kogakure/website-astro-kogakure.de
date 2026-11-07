@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: נהר, עץ, אש, בור באדמה, מראה – אחרי משימה ניצל הנינג'ה את חמשת היסודות כדי להימלט.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

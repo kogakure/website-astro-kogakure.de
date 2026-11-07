@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: La paz acabó con la época de los ninja. Bajo los Tokugawa se convirtieron en policías secretos, ladrones o jardineros, y en 1853 uno de ellos debía colarse en los barcos de Perry.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

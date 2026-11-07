@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: 日本曾有大约250个流派。武神馆汇集了九个武士和忍者流派，初见良昭为纪念老师高松而为它命名。
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

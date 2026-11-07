@@ -5,6 +5,7 @@ date: '2006-04-02T15:02:00+02:00'
 author: Stefan Imhoff
 excerpt: במשך חמש עשרה שנה נסע בכל סוף שבוע אל מורו טאקאמאצו. היום עומד האצומי מאסאקי בראש הבוג'ינקאן, ובו הוא מלמד תשעה בתי ספר כמקשה אחת.
 translationKey: hatsumiMasaakiPage
+plate: 初見良昭
 categories:
   - biography
 ---

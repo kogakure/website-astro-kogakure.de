@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: Après la Seconde Guerre mondiale, les Américains interdirent en grande partie les arts martiaux. Le savoir des ninja survécut pourtant – grâce à un veilleur de nuit, un aventurier en Chine et son élève Hatsumi.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

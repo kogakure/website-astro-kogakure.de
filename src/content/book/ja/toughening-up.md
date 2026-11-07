@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: 木を打ち、砂や砂利を満たした桶に指を突き入れる。忍者はこうして体の武器を鍛え、痛みをほとんど感じなくなるまで磨き上げた。
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

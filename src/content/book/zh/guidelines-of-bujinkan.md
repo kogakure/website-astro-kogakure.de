@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: 耐心、自制、自负其责，再加上一张会员卡：这是初见良昭博士为所有想在武神馆训练的人定下的规矩。
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

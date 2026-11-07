@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: מרגל אחד יכול לקצר מלחמה בשנים. בימי הביניים היו סיור וריגול תחום הפעולה העיקרי של הנינג'ה – וחלק קבוע מהכשרתם.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

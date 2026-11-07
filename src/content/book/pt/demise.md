@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: A paz pôs fim à era dos ninja. Sob os Tokugawa, eles viraram policiais secretos, ladrões ou jardineiros – e em 1853 um deles recebeu a ordem de se infiltrar nos navios de Perry.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

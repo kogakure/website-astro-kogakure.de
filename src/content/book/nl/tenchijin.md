@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: De omgeving veranderen, jezelf veranderen of alleen de schijn – met de principes van hemel, aarde en mens bekeken de ninja elke situatie vanuit meerdere hoeken.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

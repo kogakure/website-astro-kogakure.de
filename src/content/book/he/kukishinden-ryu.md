@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: טאקאמאצו שחזר את הדנשו של הקוקישין ריו, וכאות תודה הורשה לייסד בית ספר משנה משלו – הקוקישינדן ריו, בית הספר של תשעת אלי השדים.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

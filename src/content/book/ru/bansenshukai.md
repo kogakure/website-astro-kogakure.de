@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: В 1676 году Фудзибаяси Ясутакэ собрал знания десятков рю ниндзя из Ига и Кога. Десять томов о стратегии, морали, обмане, погоде и снаряжении.
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

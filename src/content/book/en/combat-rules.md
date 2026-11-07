@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: The best fight is the one that never happens. Three rules of ninjutsu, from mental training to mastery of the body, and nine pointers for when a fight cannot be avoided.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

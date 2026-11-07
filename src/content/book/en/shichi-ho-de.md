@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: The opponent sees them but does not notice them. With shichi hō de, the seven ways of walking, ninja used the filter in every mind to vanish into the crowd.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

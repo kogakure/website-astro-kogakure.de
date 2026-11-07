@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: En 1561 cayó Mochizuki Moritoki. Su viuda Chiyome no entró en un convento, sino que creó para Takeda Shingen una red de agentes femeninas disfrazadas de servidoras de templo.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

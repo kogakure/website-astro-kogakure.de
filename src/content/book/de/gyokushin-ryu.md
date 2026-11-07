@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Lange im Geheimen gelehrt, mehr auf Spionage als auf Kampf ausgerichtet und bekannt für das Wurfseil – die Schule des mit Juwelen geschmückten Herzens.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

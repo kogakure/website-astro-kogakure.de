@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: 能潜入任何要塞，能逃出任何牢狱，这是忍者的名声。为此，他们随身带着锯、钻和挖掘的工具。
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

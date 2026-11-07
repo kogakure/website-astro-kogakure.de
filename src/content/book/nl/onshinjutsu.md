@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: Het teken nin in het woord ninja betekent volharden, verdragen en verbergen. Zich verstoppen is de kern van het ninjutsu – en een kunst met vaste regels.
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

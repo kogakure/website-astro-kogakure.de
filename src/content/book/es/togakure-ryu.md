@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: Una batalla perdida, una huida a Iga y un maestro en las montañas. Así nació la Escuela de la Puerta Oculta que fundó Togakure Daisuke.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

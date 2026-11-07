@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: 人体にはおよそ250の急所があり、そのうち69か所は打てば体を麻痺させ、あるいは命を奪う。主な急所を図と表で示す。
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

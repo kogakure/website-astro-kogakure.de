@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: 忍者の教えでは、石から思考に至るまで、宇宙のあらゆるものが振動している。心がその振動を読み解き、意識と身体を結ぶ。
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

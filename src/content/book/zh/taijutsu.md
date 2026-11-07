@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: 没有腰带，没有奖杯，没有规则。体术是忍术的根基，一种为求生而生的自然格斗方式，其动作遵循地、水、火、风四种元素。
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

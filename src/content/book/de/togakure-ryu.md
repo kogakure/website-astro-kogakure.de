@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: Eine verlorene Schlacht, eine Flucht nach Iga und ein Lehrer in den Bergen – so begann die Schule der verborgenen Tür, die Togakure Daisuke gründete.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

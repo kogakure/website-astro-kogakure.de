@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: Takamatsu reconstruiu os densho do Kukishin-Ryū e, em troca, pôde fundar uma escola derivada – o Kukishinden-Ryū, a escola dos nove deuses-demônios.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

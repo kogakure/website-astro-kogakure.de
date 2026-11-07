@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Front, coude, pouce, bout des doigts, talon – dans le ninjutsu, chaque partie du corps devient une arme contre les muscles, les tendons et les os.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

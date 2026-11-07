@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: Niente cinture, niente coppe, niente regole. Il taijutsu è la base del ninjutsu, un modo naturale di combattere per sopravvivere, con movimenti che seguono terra, acqua, fuoco e vento.
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

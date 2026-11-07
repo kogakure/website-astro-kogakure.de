@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: 사람 몸에는 압박과 타격에 민감한 곳이 약 250군데 있고, 그 가운데 69군데는 마비를 일으키거나 목숨을 앗을 수 있다. 가장 중요한 타격 부위의 지도.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: Five stances in three seconds. In ninjutsu, kamae are not rigid poses but an expression of inner attitude and part of natural movement.
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

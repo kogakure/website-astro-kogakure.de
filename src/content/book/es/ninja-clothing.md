@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Ni negro intenso, rara vez máscara, a menudo ningún traje especial: lo que llevaban de verdad los ninja y para qué servía cada prenda.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

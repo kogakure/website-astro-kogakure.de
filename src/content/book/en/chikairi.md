@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: Forged letters, a mock assault, a beggar at the castle gate – with the chikairi tactics, ninja sabotaged the enemy and slipped into castles once a conflict began.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

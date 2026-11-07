@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: Een bode die onderschept moet worden, een overloper die jarenlang op een signaal wacht – de tōiri-tactieken bereidden de oorlog al in vredestijd voor.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: Même sous la torture, un ninja ne pouvait pas révéler qui l’avait envoyé. Il l’ignorait. Trois rangs protégeaient les Ryū de la trahison – jōnin, chūnin et genin.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

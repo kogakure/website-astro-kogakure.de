@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: 敗れた合戦、伊賀への逃避行、そして山中の師。戸隠大助が開いた隠れ戸の流派は、こうして始まった。
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

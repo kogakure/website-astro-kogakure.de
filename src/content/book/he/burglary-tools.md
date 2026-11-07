@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: לתוך כל מבצר, החוצה מכל כלא – זה היה המוניטין של הנינג'ה. לשם כך הם נשאו כלים לניסור, לקידוח ולחפירה.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

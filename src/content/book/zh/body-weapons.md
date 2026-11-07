@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: 额头、肘、拇指、指尖、脚跟。在忍术中，身体的每个部位都能成为对付肌肉、肌腱和骨骼的武器。
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

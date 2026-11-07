@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Не угольно-черный, редко с маской, часто вовсе без особого костюма: что на самом деле носили ниндзя и для чего служила каждая вещь.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

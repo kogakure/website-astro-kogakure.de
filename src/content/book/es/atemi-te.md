@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: Unos 250 puntos del cuerpo son sensibles a la presión y a los golpes, y 69 de ellos pueden paralizar o matar. Un mapa de las zonas de impacto más importantes.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

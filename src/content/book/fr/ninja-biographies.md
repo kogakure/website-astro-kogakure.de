@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: Une veuve qui fit d’orphelines des espionnes, un tireur d’élite qui manqua Nobunaga, un maître voleur ébouillanté – dix ninja qui ont marqué l’histoire.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

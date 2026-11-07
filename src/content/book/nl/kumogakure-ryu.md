@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja in harnas, soms met een demonenmasker, en een haakspeer waarmee Sarutobi Sasuke van boom naar boom ging. De Kumogakure-Ryū, de school van de verborgen wolk.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

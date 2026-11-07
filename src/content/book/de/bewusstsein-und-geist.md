@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: Nach der Lehre der Ninja schwingt alles im Universum, vom Stein bis zum Gedanken. Der Geist deutet diese Schwingungen und verbindet Bewusstsein und Körper.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

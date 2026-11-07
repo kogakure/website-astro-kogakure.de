@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Вода течет, облака плывут, ива гнется под снегом. Даосизм учил ниндзя двигаться вместе с ходом вещей, а не против него.'
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

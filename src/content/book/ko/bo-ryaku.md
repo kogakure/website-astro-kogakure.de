@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: 화살촉, 학의 날개, 물고기 비늘. 일본 장수들의 여덟 가지 진형과, 닌자도 그것을 알아야 했던 까닭.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: 오랫동안 비밀리에 전해졌고, 싸움보다 첩보에 맞춰져 있었으며, 던지는 밧줄로 이름난 류파. 보석으로 장식한 마음의 류파다.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

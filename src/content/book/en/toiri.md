@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: A messenger meant to be caught, a turncoat who waits years for a signal – the tōiri tactics prepared for war while there was still peace.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

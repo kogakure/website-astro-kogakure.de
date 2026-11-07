@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: Ни додзё, ни снарядов — в Синдэн-Фудо-рю тренировались у деревьев и в бамбуковых рощах. Школа неподвижного сердца возникла в середине XII века.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

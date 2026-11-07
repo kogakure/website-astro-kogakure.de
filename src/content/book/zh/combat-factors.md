@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: 流畅、节奏、呼吸、距离和意图，决定一场战斗的结局。体术的九个要素，从流（nagare）到意图（ito）。
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

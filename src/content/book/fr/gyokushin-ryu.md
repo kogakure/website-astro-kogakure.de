@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Longtemps enseignée en secret, tournée davantage vers l’espionnage que vers le combat et connue pour sa corde de lancer – l’école du cœur orné de joyaux.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

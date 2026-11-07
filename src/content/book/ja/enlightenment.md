@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 学者、医師、商人、武人。どの道も悟りへ通じうる。忍者は武人の道を選び、生涯をかけてそれを歩んだ。
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion
