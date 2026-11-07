@@ -1008,6 +1008,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 40%",
 			"widths": [
 				800,
 				1400,
@@ -1044,6 +1045,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 45%",
 			"widths": [
 				800,
 				1400,
@@ -1127,6 +1129,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 35%",
 			"widths": [
 				800,
 				1400,
@@ -4468,11 +4471,11 @@
 		},
 		"mikkyoPage": {
 			"image": "article/mikkyo-01-kukai-and-saicho-sailing-to-china.webp",
-			"hash": "94370aa6f01cdf9e"
+			"hash": "1ac3bdcd565bb856"
 		},
 		"miscellaneousEquipmentPage": {
 			"image": "article/miscellaneous-equipment-01-telescope-compass-and-giant-kite.webp",
-			"hash": "5f156521ae48d6c5"
+			"hash": "2c3697e93b4ce0b0"
 		},
 		"modernHistoryPage": {
 			"image": "article/modern-history-01-night-watchman-at-match-factory.webp",
@@ -4484,7 +4487,7 @@
 		},
 		"ninjaClothingPage": {
 			"image": "article/ninja-clothing-01-what-ninja-really-wore.webp",
-			"hash": "ba60017bad368423"
+			"hash": "5fa5fa3bb77f3536"
 		},
 		"ninjaNoHachimonPage": {
 			"image": "article/ninja-no-hachimon-01-eight-gates-of-training.webp",
