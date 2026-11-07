@@ -478,6 +478,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 55%",
 			"widths": [
 				800,
 				1400,
@@ -4389,7 +4390,7 @@
 		},
 		"glossaryPage": {
 			"image": "article/glossary-01-scholar-compiling-dictionary.webp",
-			"hash": "ca0360d0bffffded"
+			"hash": "93c1dac972948aa5"
 		},
 		"godaiPage": {
 			"image": "article/godai-03-from-earth-to-void.webp",
