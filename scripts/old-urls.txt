@@ -1,0 +1,190 @@
+# The URLs of the old site (SI-478), checked by scripts/check-old-urls.ts.
+#
+#   /path/                    answers 200
+#   /path/ → /new/            answers 301 to /new/, which answers 200
+#   /path/ ! SI-480           not there yet: the issue that brings it
+#
+# The old live sitemap (https://www.kogakure.de/sitemap.xml, 2026-11-07):
+
+/ninjutsu/
+/en/ninjutsu/
+/urspruenge-des-ninjutsu/
+/en/origins-of-ninjutsu/
+/entstehung-der-ryu/
+/en/emergence-of-the-ryu/
+/beruehmte-ninja/
+/en/famous-ninja/
+/ninja-biographien/
+/en/ninja-biographies/
+/iga-ryu/
+/en/iga-ryu/
+/koga-ryu/
+/en/koga-ryu/
+/iga-no-ran/
+/en/iga-no-ran/
+/invasion-von-iga/
+/en/invasion-of-iga/
+/niedergang/
+/en/demise/
+/moderne-geschichte/
+/en/modern-history/
+/organisation-der-ryu/
+/en/organization-of-the-ryu/
+/ausbildung-der-ninja/
+/en/training-of-the-ninja/
+/kunoichi/
+/en/kunoichi/
+/bansenshukai/
+/en/bansenshukai/
+/taijutsu/
+/en/taijutsu/
+/kampfregeln/
+/en/combat-rules/
+/kampffaktoren/
+/en/combat-factors/
+/junan-taiso/
+/en/junan-taiso/
+/trainingsfaktoren/
+/en/training-factors/
+/koerperwaffen/
+/en/body-weapons/
+/abhaertung/
+/en/toughening-up/
+/atemi-te/
+/en/atemi-te/
+/kamae/
+/en/kamae/
+/ukemi/
+/en/ukemi/
+/shinobi-iri/
+/en/shinobi-iri/
+/waffen/
+/en/weapons/
+/wasserwerkzeuge/
+/en/water-tools/
+/einbruchswerkzeuge/
+/en/burglary-tools/
+/kletterwerkzeuge/
+/en/climbing-tools/
+/feuerwerkzeuge/
+/en/fire-tools/
+/ninjakleidung/
+/en/ninja-clothing/
+/sonstige-ausruestung/
+/en/miscellaneous-equipment/
+/mikkyo/
+/en/mikkyo/
+/sanmitsu/
+/en/sanmitsu/
+/kuji-in/
+/en/kuji-in/
+/godai/
+/en/godai/
+/gogyo/
+/en/gogyo/
+/tenchijin/
+/en/tenchijin/
+/bewusstsein-und-geist/
+/en/consciousness-and-spirit/
+/der-siebte-sinn/
+/en/the-seventh-sense/
+/erleuchtung/
+/en/enlightenment/
+/daoismus/
+/en/daoism/
+/gotonpo/
+/en/gotonpo/
+/onshinjutsu/
+/en/onshinjutsu/
+/shichi-ho-de/
+/en/shichi-ho-de/
+/inro/
+/en/inro/
+/choho/
+/en/choho/
+/heiho/
+/en/heiho/
+/bo-ryaku/
+/en/bo-ryaku/
+/toiri/
+/en/toiri/
+/chikairi/
+/en/chikairi/
+/takamatsu-toshitsugu/
+/en/takamatsu-toshitsugu/
+/hatsumi-masaaki/
+/en/hatsumi-masaaki/
+/bujinkan/
+/en/bujinkan/
+/togakure-ryu/
+/en/togakure-ryu/
+/gyokko-ryu/
+/en/gyokko-ryu/
+/kukishinden-ryu/
+/en/kukishinden-ryu/
+/shinden-fudo-ryu/
+/en/shinden-fudo-ryu/
+/gyokushin-ryu/
+/en/gyokushin-ryu/
+/koto-ryu/
+/en/koto-ryu/
+/takagi-yoshin-ryu/
+/en/takagi-yoshin-ryu/
+/gikan-ryu/
+/en/gikan-ryu/
+/kumogakure-ryu/
+/en/kumogakure-ryu/
+/richtlinien-des-bujinkan/
+/en/guidelines-of-bujinkan/
+/essenz-des-ninjutsu/
+/en/essence-of-ninjutsu/
+/die-regeln-der-ninja/
+/en/the-rules-of-the-ninja/
+/die-5-gebote-der-ninja/
+/en/the-5-commandments-of-the-ninja/
+/ninpo-sanjurokkei/
+/en/ninpo-sanjurokkei/
+/18-trainingsebenen/
+/en/18-training-levels/
+/ninja-no-hachimon/
+/en/ninja-no-hachimon/
+/humans.txt
+/chronologie/
+/downloads/
+/empfehlungen/ → /kolophon/
+/glossar/
+/
+/kolophon/
+/vorwort/
+/en/chronology/
+/en/colophon/
+/en/downloads/
+/en/glossary/
+/en/
+/en/preface/
+/en/recommendations/ → /en/colophon/
+/robots.txt
+/manifest.webmanifest ! SI-480
+
+# Older URLs and files that other sites link to:
+
+/artikel/kamae/ → /kamae/
+/artikel/ninja-no-hachimon/ → /ninja-no-hachimon/
+/empfehlungen → /kolophon/
+/en/recommendations → /en/colophon/
+/downloads/book-kogakure.pdf → /downloads/
+/downloads/book-kogakure.epub → /downloads/
+/downloads/book-kogakure.mobi → /downloads/
+/downloads/iga-ninja-font.zip
+/assets/images/downloads/ingo.jpg → /images/old/downloads/ingo-1400.webp
+/assets/images/downloads/ogama.jpg → /images/old/downloads/ogama-640.webp
+/assets/images/branding/og/banner-de.png → /images/og/prefacePage.jpg
+/assets/images/branding/og/banner-en.png → /images/og/prefacePage.jpg
+/BingSiteAuth.xml
+/LiveSearchSiteAuth.xml
+/googleeac4fc886a6f9f8d.html
+/y_key_dc6ca9ea04c4d2d2.html
+/.well-known/keybase.txt
+/.well-known/brave-rewards-verification.txt
+/sitemap.xml
+/favicon.ico ! SI-480

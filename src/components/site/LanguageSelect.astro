@@ -10,7 +10,7 @@
  * button opens it from the cache: a speculation rule (prefetch, the HTML
  * only) where browsers know them, `<link rel="prefetch">` elsewhere. Each
  * choice replaces the last rule, so arrowing through the list fetches only
- * where it stops.
+ * where it stops. A change counts as an event (src/lib/analytics).
  */
 import type { Lang } from '@/i18n/languages';
 import { preloadFont } from '@/lib/fonts/fonts';
@@ -80,6 +80,7 @@ const { label, go, languages, class: className } = Astro.props;
 
 <script>
 	import { LANGUAGE_KEY } from '@/i18n/languages';
+	import { EVENTS, trackEvent } from '@/lib/analytics/analytics';
 
 	const fetched = new Set<string>();
 	let rule: HTMLScriptElement | undefined;
@@ -119,6 +120,8 @@ const { label, go, languages, class: className } = Astro.props;
 			event.preventDefault();
 			const option = form.querySelector('select')?.selectedOptions[0];
 			if (!option) return;
+			const from = document.documentElement.lang;
+			if (option.lang !== from) trackEvent(EVENTS.language, { from, to: option.lang });
 			// The reader's own choice: stored, so it wins over the browser's languages
 			try {
 				if (option.dataset.code) localStorage.setItem(LANGUAGE_KEY, option.dataset.code);

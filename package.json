@@ -28,7 +28,8 @@
 		"prepare": "husky",
 		"import:content": "node scripts/import-content.ts && node scripts/generate-fonts.ts",
 		"images": "node scripts/generate-images.ts",
-		"fonts": "node scripts/generate-fonts.ts"
+		"fonts": "node scripts/generate-fonts.ts",
+		"check:old-urls": "node scripts/check-old-urls.ts"
 	},
 	"dependencies": {
 		"@astrojs/markdown-satteri": "^0.4.6",

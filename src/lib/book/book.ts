@@ -17,6 +17,7 @@ import {
 	routeParam,
 } from '@/i18n/routes';
 import { joinCredit, ui } from '@/i18n/ui';
+import type { PageVersions } from '@/lib/seo/seo';
 import { buildAlternates, type Alternates } from './alternates';
 import { pageFigures } from './figures';
 import { glossaryLetters, type GlossaryLetter } from './glossary';
@@ -93,6 +94,19 @@ export async function getAlternates(key: string): Promise<Alternates> {
 	const versions = (await alternates).get(key);
 	if (!versions) throw new Error(`No page with key ${key}`);
 	return versions;
+}
+
+/**
+ * Every page for the sitemap, by its language versions: not the 404 pages,
+ * and the legal pages only in German and English, the languages of their text
+ */
+export async function getSitemapGroups(): Promise<PageVersions[]> {
+	alternates ??= allAlternates();
+	return [...(await alternates)]
+		.filter(([key]) => isInBook(key))
+		.map(([key, versions]) =>
+			Object.hasOwn(LEGAL_PAGES, key) ? { de: versions.de, en: versions.en } : versions
+		);
 }
 
 export interface TocLink {

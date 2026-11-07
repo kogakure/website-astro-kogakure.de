@@ -12,7 +12,7 @@ import Reading from '@/components/book/Reading.astro';
 import Colophon from '@/components/site/Colophon.astro';
 import TopBar from '@/components/site/TopBar.astro';
 import { languageChoices, type Lang } from '@/i18n/languages';
-import { contentsPath } from '@/i18n/routes';
+import { contentsPath, homePath } from '@/i18n/routes';
 import { joinCredit, ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import {
@@ -26,7 +26,9 @@ import {
 } from '@/lib/book/book';
 import { openerFigure, pageFigures } from '@/lib/book/figures';
 import { GLOSSARY_PAGE } from '@/lib/book/transform';
+import { getOgImage } from '@/lib/images/images';
 import { QUOTES } from '@/lib/markdown/quotes';
+import { articleJsonLd, breadcrumbJsonLd, SITE_NAME } from '@/lib/seo/seo';
 
 interface Props {
 	entry: PageEntry;
@@ -53,8 +55,13 @@ const chapter = await chapterOf(lang, key);
 if (!chapter) throw new Error(`${entry.id} is in no part of the book`);
 const body = entry.body ?? '';
 const opener = openerFigure(body);
-const languages = languageChoices(await getAlternates(key), lang);
+const versions = await getAlternates(key);
+const languages = languageChoices(versions, lang);
 const contents = contentsPath(lang);
+const path = versions[lang];
+const description = entry.data.excerpt ?? t.subtitle;
+const og = getOgImage(key);
+const image = og && { ...og, alt: opener?.alt };
 const kanji = chapter.plate.number ?? chapter.plate.short;
 
 const facts = [
@@ -74,9 +81,28 @@ const facts = [
 ---
 
 <BaseLayout
-	title={`${entry.data.title} · 木隠`}
-	description={entry.data.excerpt ?? t.subtitle}
+	title={entry.data.title}
+	description={description}
 	lang={lang}
+	canonical={path}
+	versions={versions}
+	image={image}
+	type="article"
+	jsonLd={[
+		articleJsonLd({
+			lang,
+			path,
+			title: entry.data.title,
+			description,
+			image: og?.src,
+			published: entry.data.date,
+		}),
+		breadcrumbJsonLd([
+			{ name: SITE_NAME, path: homePath(lang) },
+			{ name: chapter.title, path: chapter.href },
+			{ name: entry.data.title },
+		]),
+	]}
 	fontPage={parseId(entry.id).slug}
 	ground="read"
 >

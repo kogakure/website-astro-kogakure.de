@@ -1,0 +1,27 @@
+---
+/**
+ * The first visit to `/`: the browser's language decides once where the
+ * reader starts (src/i18n/first-visit.ts). Inline in the German homepage's
+ * head, so a reader sent on never sees the German page first.
+ */
+import { firstVisit, type FirstVisitConfig } from '@/i18n/first-visit';
+import {
+	DEFAULT_LANG,
+	FALLBACK_LANG,
+	FIRST_VISIT_KEY,
+	LANGS,
+	LANGUAGE_KEY,
+} from '@/i18n/languages';
+import { homePath } from '@/i18n/routes';
+
+const config: FirstVisitConfig = {
+	homes: Object.fromEntries(LANGS.map((lang) => [lang, homePath(lang)])),
+	root: DEFAULT_LANG,
+	fallback: FALLBACK_LANG,
+	choiceKey: LANGUAGE_KEY,
+	seenKey: FIRST_VISIT_KEY,
+};
+const script = `(${firstVisit.toString()})(${JSON.stringify(config)}, window);`;
+---
+
+<script is:inline set:html={script} />

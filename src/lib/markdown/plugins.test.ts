@@ -1,6 +1,7 @@
 import { renderMarkdown } from '@/test/markdown';
 import { describe, expect, it } from 'vitest';
 import { hastBanners } from './banners';
+import { hastDownloads } from './downloads';
 import { hastFigures } from './figures';
 import { hastHeadingIds, headingId } from './heading-ids';
 import { hastNoBreakDash, noBreakDash } from './no-break-dash';
@@ -138,5 +139,17 @@ describe('hastTables', () => {
 		expect(html).toContain('<th scope="col">Nr.</th>');
 		expect(html).toContain('<th scope="col">Name</th>');
 		expect(html).not.toContain('<td scope');
+	});
+});
+
+describe('downloads', () => {
+	it('marks links to files in /downloads/ as Umami events', () => {
+		expect(
+			renderMarkdown('[Schrift](/downloads/iga-ninja-font.zip) · [Downloads](/downloads/)', [
+				hastDownloads,
+			])
+		).toBe(
+			'<p><a href="/downloads/iga-ninja-font.zip" data-umami-event="download" data-umami-event-file="iga-ninja-font.zip">Schrift</a> · <a href="/downloads/">Downloads</a></p>\n'
+		);
 	});
 });

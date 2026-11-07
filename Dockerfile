@@ -20,6 +20,8 @@ RUN --mount=type=cache,id=pnpm,target=/root/.local/share/pnpm/store \
 # ---- Build ----
 FROM deps AS builder
 COPY . .
+# The production build loads Umami (src/lib/analytics), which counts only on www.kogakure.de
+ENV ANALYTICS=true
 RUN --mount=type=cache,id=astro-cache,target=/app/node_modules/.astro \
     pnpm run build && test -f dist/index.html
 
