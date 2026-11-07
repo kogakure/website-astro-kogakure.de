@@ -17,16 +17,16 @@ German lives at `/`. On the first visit to `/` itself, the browser's languages (
 
 `src/lib/seo/seo.ts` builds it, `PageMeta.astro` writes it into every head (through `BaseLayout`):
 
-| What                         | Where                                                                                                                                                  |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `<title>`                    | The old site's pattern: `Kamae · 木隠 · Ninja, Ninjutsu & Kampfkunst`, the homepage `木隠 Kogakure · …` (`pageTitle()`, `topic` in `src/i18n/ui.ts`)   |
-| Canonical URL                | Every indexed page. The legal pages of the ten languages without their own text point to the English page                                              |
-| hreflang                     | All twelve versions by their `htmlLang` (`pt-BR`, `zh-Hans`) and `x-default` → English; the legal pages German and English only                        |
-| Open Graph, Twitter card     | Title, description (the article's excerpt), `og:locale` and its alternates. Image: the article's opener crop (`images/og/<translationKey>.jpg`)        |
-| JSON-LD                      | `Book` on the homepages (the translations as `translationOfWork` of the German one), `Article` and `BreadcrumbList` on articles, breadcrumbs elsewhere |
-| `noindex`                    | The 404 pages and `/design-system/` always; every page until the launch (`INDEXABLE` in `seo.ts`, SI-482 turns it on)                                  |
-| `/sitemap.xml`               | `src/pages/sitemap.xml.ts`: every page in every language with its versions as `xhtml:link` alternates; no 404 pages, legal pages in German and English |
-| `/robots.txt`, `/humans.txt` | `public/`. `Disallow: /sprueche/` stays: it is required for legal reasons                                                                              |
+| What                         | Where                                                                                                                                                                                                                                                                   |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<title>`                    | The old site's pattern: `Kamae · 木隠 · Ninja, Ninjutsu & Kampfkunst`, the homepage `木隠 Kogakure · …` (`pageTitle()`, `topic` in `src/i18n/ui.ts`)                                                                                                                    |
+| Canonical URL                | Every indexed page                                                                                                                                                                                                                                                      |
+| hreflang                     | All twelve versions by their `htmlLang` (`pt-BR`, `zh-Hans`) and `x-default` → English                                                                                                                                                                                  |
+| Open Graph, Twitter card     | Title, description (the article's excerpt), `og:locale` and its alternates. Image: the article's opener crop (`images/og/<translationKey>.jpg`)                                                                                                                         |
+| JSON-LD                      | `Book` on the homepages (the translations as `translationOfWork` of the German one), `Article` and `BreadcrumbList` on articles, breadcrumbs elsewhere                                                                                                                  |
+| `noindex`                    | Always: the imprint and the privacy policy in every language, the 404 pages and `/design-system/` (no canonical, hreflang or sitemap entry). Every other page until the launch (`INDEXABLE` in `seo.ts`, SI-482 turns it on)                                            |
+| `/sitemap.xml`               | `src/pages/sitemap.xml.ts`: every indexed page in every language with its versions as `xhtml:link` alternates                                                                                                                                                           |
+| `/robots.txt`, `/humans.txt` | `public/`. `Disallow: /sprueche/` stays: it is required for legal reasons. The legal pages are not disallowed on purpose: a crawler that may not fetch them never sees their `noindex`, and every page links to them, so their bare URLs could still show up in results |
 
 The homepages and the contents have no opener: their preview image is the preface's painting, the book's first.
 

@@ -108,7 +108,8 @@ test.describe('search engines', () => {
 		expect(xml).toContain('<loc>https://www.kogakure.de/kamae/</loc>');
 		expect(xml).toContain('hreflang="x-default" href="https://www.kogakure.de/en/kamae/"');
 		expect(xml).not.toContain('/404/');
-		expect(xml).not.toContain('/ja/imprint/');
+		for (const legal of ['/impressum/', '/datenschutz/', '/en/imprint/', '/ja/privacy/'])
+			expect(xml).not.toContain(legal);
 		expect(xml).not.toContain('/design-system/');
 	});
 
@@ -117,6 +118,14 @@ test.describe('search engines', () => {
 		expect(robots).toContain('Disallow: /sprueche/');
 		expect(robots).toContain('Sitemap: https://www.kogakure.de/sitemap.xml');
 	});
+
+	for (const path of ['/impressum/', '/datenschutz/', '/en/imprint/', '/ja/privacy/'])
+		test(`the legal page ${path} stays out of the index`, async ({ page }) => {
+			await page.goto(path);
+			await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex');
+			await expect(page.locator('link[rel="canonical"]')).toHaveCount(0);
+			await expect(page.locator('link[rel="alternate"][hreflang]')).toHaveCount(0);
+		});
 
 	test('404 pages stay out of the index', async ({ page }) => {
 		await page.goto('/en/does-not-exist/');
