@@ -54,11 +54,11 @@ Umami, self-hosted at umami.kogakure.cloud, without cookies or IP addresses (the
 
 Besides page views it counts four events (`EVENTS` in `src/lib/analytics/analytics.ts`):
 
-| Event             | Data         | From                                                                       |
-| ----------------- | ------------ | -------------------------------------------------------------------------- |
-| `language-switch` | `from`, `to` | `LanguageSelect.astro`                                                     |
-| `mode-switch`     | `mode`       | `ModeSwitch.astro`                                                         |
-| `download`        | `file`       | Links into `/downloads/`: `data-umami-event` (Markdown plugin `downloads`) |
-| `search`          | (SI-479)     | The search                                                                 |
+| Event             | Data              | From                                                                                     |
+| ----------------- | ----------------- | ---------------------------------------------------------------------------------------- |
+| `language-switch` | `from`, `to`      | `LanguageSelect.astro`                                                                   |
+| `mode-switch`     | `mode`            | `ModeSwitch.astro`                                                                       |
+| `download`        | `file`            | Links into `/downloads/`: `data-umami-event` (Markdown plugin `downloads`)               |
+| `search`          | `lang`, `results` | `SearchDialog.tsx`: one per search, when the dialog closes; never the words searched for |
 
 `trackEvent()` does nothing without the script and never throws. A new event goes into `EVENTS` and into the privacy policy (`src/legal/`).

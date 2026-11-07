@@ -5,7 +5,8 @@
  * list. Each entry is an anchor: the romanized term, its kanji (from 75em
  * in the outer margin, where the articles set their glosses, in the text's
  * kanji face: the brush face for 600 kanji would weigh more than the page),
- * the meaning and the description.
+ * the meaning and the description. Left out of the page's search record:
+ * each entry is a search result of its own (src/lib/search/records.ts).
  */
 import type { GlossaryLetter } from '@/lib/book/glossary';
 
@@ -22,7 +23,7 @@ const [open, close] = quotes;
 const romanized = { ja: 'ja-Latn', zh: 'zh-Latn', sa: 'sa-Latn' } as const;
 ---
 
-<div class="glossary">
+<div class="glossary" data-pagefind-ignore>
 	{letters.map((group) => (
 		<div class="glossary-letter">
 			<h2 id={group.id} class="glossary-initial">

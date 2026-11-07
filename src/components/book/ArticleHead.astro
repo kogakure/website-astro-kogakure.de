@@ -42,7 +42,7 @@ const own = lang && language(lang);
 		<h1 class="opener-title">{noBreakDash(title)}</h1>
 		{excerpt && <p class="lede">{noBreakDash(excerpt)}</p>}
 		{facts.length > 0 && (
-			<dl class="facts">
+			<dl class="facts" data-pagefind-ignore>
 				{facts.map((fact) => (
 					<div>
 						<dt>{fact.term}</dt>

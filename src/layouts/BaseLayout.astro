@@ -3,11 +3,13 @@ import Analytics from '@/components/site/Analytics.astro';
 import Ink from '@/components/site/Ink.astro';
 import Lightbox from '@/components/site/Lightbox.astro';
 import PageMeta from '@/components/site/PageMeta.astro';
+import Search from '@/components/site/Search.astro';
 import SiteHead from '@/components/site/SiteHead.astro';
 import SkipLink from '@/components/site/SkipLink.astro';
 import { DEFAULT_LANG, language, type Lang } from '@/i18n/languages';
 import { ui } from '@/i18n/ui';
 import type { FontSource } from '@/lib/fonts/fonts';
+import { CHAPTER_META } from '@/lib/search/search';
 import { pageTitle, SITE_NAME } from '@/lib/seo/seo';
 import type { ComponentProps } from 'astro/types';
 import '@/styles/global.css';
@@ -31,6 +33,8 @@ interface Props {
 	fontPages?: FontSource[];
 	/** The calmer paper of the reading page */
 	ground?: 'home' | 'read';
+	/** In the search index (the book's articles), with the part of the book its results show */
+	search?: { chapter: string } | undefined;
 }
 
 const {
@@ -40,9 +44,16 @@ const {
 	fontPage,
 	fontPages,
 	ground = 'home',
+	search,
 	...meta
 } = Astro.props;
 const { htmlLang, dir } = language(lang);
+// Pagefind indexes only what is marked; the chapter as an attribute, since its title may hold a comma
+const indexed = search && {
+	'data-pagefind-body': '',
+	'data-pagefind-meta': `${CHAPTER_META}[data-chapter]`,
+	'data-chapter': search.chapter,
+};
 ---
 
 <!doctype html>
@@ -65,11 +76,12 @@ const { htmlLang, dir } = language(lang);
 	<body data-ground={ground}>
 		<SkipLink label={ui(lang).skipToText} />
 		<slot name="before-main" />
-		<main id="main" tabindex="-1">
+		<main id="main" tabindex="-1" {...indexed}>
 			<slot />
 		</main>
 		<slot name="after-main" />
 		<Ink />
 		<Lightbox zoom={ui(lang).zoomImage} close={ui(lang).close} />
+		<Search lang={lang} />
 	</body>
 </html>

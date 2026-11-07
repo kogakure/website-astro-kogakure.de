@@ -1,0 +1,18 @@
+---
+/**
+ * The search dialog's island (SearchDialog.tsx), in every page's body
+ * (BaseLayout): nothing of it loads until a search button
+ * (SearchButton.astro) or `/` opens it (`client:search`,
+ * src/integrations/search-directive.ts).
+ */
+import type { Lang } from '@/i18n/languages';
+import SearchDialog from './SearchDialog';
+
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<SearchDialog client:search lang={lang} />

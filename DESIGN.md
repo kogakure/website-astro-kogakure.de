@@ -268,7 +268,7 @@ Paper and ink, not cards. Depth comes from the ink layering (black ink over an o
 
 - **Plate hang** (`box-shadow: 0 0.35em 0.9em -0.45em var(--shadow-ink)`): a name plate in front of its painting.
 - **Lift** (`box-shadow: 0 0 0 0.75rem var(--hover), 0 0.75rem 1.5rem -0.5rem var(--shadow-soft)`): a readable article entry on hover or focus; the first spread extends the lighter paper around the entry.
-- **Popover** (`box-shadow: 0 1rem 2.5rem -1rem var(--shadow-ink)`): the section list opened from the top bar.
+- **Popover** (`box-shadow: 0 1rem 2.5rem -1rem var(--shadow-ink)`): the section list opened from the top bar, and the search dialog.
 
 ### Named Rules
 
@@ -321,6 +321,12 @@ A painting cut by an ink edge, with a name plate and a subtitle.
 ### Margin Gloss
 
 A Japanese term in the text, `tengu (天狗, „Himmelhund“)`, becomes a gloss at build time: inline in parentheses on narrow screens, in the outer margin from 75em (the term, its kanji in Yuji Syuku in the heading colour, the meaning). Screen readers hear it in the sentence ("tengu 天狗 Himmelhund"); the repeated term in the margin is hidden from them.
+
+### Search
+
+- **Entry:** „Suche“, quiet like the top bar's links: in the article's top bar (also in the bar that comes back on scroll up, the only way in on a phone), beside the contents' heading on the homepage and on the contents page, on the 404 page. The `/` key opens it on every page; its key cap shows beside the word from 48em on devices that hover. Hidden without JavaScript.
+- **Dialog:** the reading paper in a hairline frame with a 1px corner and the popover shadow, on a veil of the page's ground (85%), near the top of the screen; a short fade, none with reduced motion. The label „Suche“ and „Schließen“ in mono, the field in the text face, the count of results in mono.
+- **Results:** a list with hairlines between the entries; each entry one link (the title in 600), its part of the book in mono, the excerpt in the secondary text colour with the words found on the selection colour (never the seal). On hover the lighter paper.
 
 ### Colophon and Mode Choice
 

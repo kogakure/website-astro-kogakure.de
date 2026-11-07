@@ -123,7 +123,7 @@ export const BREAKPOINTS: Token[] = [
 export const SHADOWS: Token[] = [
 	{ name: '--shadow-plate', use: 'The name plate hangs in front of its painting' },
 	{ name: '--shadow-lift', use: 'A readable article lifts on hover' },
-	{ name: '--shadow-popover', use: 'The sections from the top bar' },
+	{ name: '--shadow-popover', use: 'The sections from the top bar, the search dialog' },
 ];
 
 /**

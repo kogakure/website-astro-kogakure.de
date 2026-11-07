@@ -39,7 +39,12 @@ const titles = chapters
 	image={getOgImage('prefacePage')}
 	jsonLd={[breadcrumbJsonLd([{ name: SITE_NAME, path: home }, { name: t.contents }])]}
 >
-	<TopBar slot="before-main" label={t.book} home={{ href: home, label: BOOK_PLATE.romaji }} />
+	<TopBar
+		slot="before-main"
+		label={t.book}
+		home={{ href: home, label: BOOK_PLATE.romaji }}
+		search={t.search}
+	/>
 
 	<Contents
 		heading={t.contents}

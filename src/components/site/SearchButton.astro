@@ -1,0 +1,74 @@
+---
+/**
+ * „Suche“: opens the search dialog (Search.astro), as `/` does anywhere
+ * on the page. Quiet, like the top bar's links; the key beside it from
+ * 48em, where there is a keyboard. Hidden without JavaScript.
+ */
+interface Props {
+	/** „Suche“ */
+	label: string;
+	class?: string;
+}
+
+const { label, class: className } = Astro.props;
+---
+
+<button
+	type="button"
+	class:list={['search-button', className]}
+	data-search-trigger
+	aria-haspopup="dialog"
+	aria-keyshortcuts="/"
+>
+	<span class="search-label">{label}</span>
+	<kbd aria-hidden="true">/</kbd>
+</button>
+
+<style>
+	.search-button {
+		display: inline-flex;
+		gap: 0.6em;
+		align-items: baseline;
+		justify-content: center;
+		min-block-size: 2.75rem;
+		min-inline-size: 2.75rem;
+		margin: 0;
+		padding-block: 0.35em;
+		padding-inline: 0;
+		border: 0;
+		background: none;
+		color: inherit;
+		font: inherit;
+		cursor: pointer;
+	}
+
+	@media (scripting: none) {
+		.search-button {
+			display: none;
+		}
+	}
+
+	.search-button:hover .search-label {
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-decoration-color: var(--link-line);
+		text-underline-offset: 0.2em;
+	}
+
+	kbd {
+		display: none;
+		min-inline-size: 1.5em;
+		padding-inline: 0.3em;
+		border: 1px solid var(--rule);
+		border-radius: 1px;
+		font: 0.9375rem/1.4 var(--mono);
+		text-align: center;
+		color: var(--text-3);
+	}
+
+	@media (min-width: 48em) and (hover: hover) {
+		kbd {
+			display: inline-block;
+		}
+	}
+</style>
