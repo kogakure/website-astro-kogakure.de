@@ -228,3 +228,33 @@ Technisch wordt de site nu gebouwd met [Eleventy](https://www.11ty.dev/) en maak
 ### 25 februari 2022
 
 Voor het eerst in zijn meer dan twintigjarige geschiedenis bestaat 木隠 nu ook in het Engels. Zo moet het werk een groter lezerspubliek bereiken.
+
+---
+
+## 2026
+
+### XX.XX.2026
+
+Met de herlancering in 2026 gaf ik niet alleen de website een nieuw ontwerp, maar herzag ik het hele boek. Het was de grootste herziening in de geschiedenis van 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+
+Elk van de 76 artikelen schreef ik helemaal opnieuw, in het Duits en in het Engels. Daarbij controleerde ik namen, jaartallen en lezingen, vergeleek ik ze met Japanse bronnen en verbeterde ik fouten die er in de loop der jaren in waren geslopen. Langere passages en citaten van andere auteurs verving ik door mijn eigen woorden.
+
+Bij de lancering verschijnt 木隠 in twaalf talen: Duits, Engels, Spaans, Frans, Portugees, Italiaans, Nederlands, Russisch, Japans, Chinees, Koreaans en Hebreeuws, dat van rechts naar links wordt gelezen.
+
+Bijna alle afbeeldingen zijn nieuw. Met hulp van AI maakte ik meer dan 360 afbeeldingen in de stijl van Japanse inktschilderingen en houtsneden, en elk artikel opent nu met een eigen schildering.
+
+Het nieuwe ontwerp moet aanvoelen als een boek van inkt en papier. Overdag lees je op licht papier, ’s nachts op donker indigo; de site volgt de instelling van het systeem, maar je kunt ook zelf kiezen. Elk artikel draagt een naambordje met een Japans begrip, en de hoofdstukken zijn genummerd met Japanse cijfers. Na meer dan twintig jaar heb ik de bamboe, sinds 2002 het kenmerk van de website, met pensioen gestuurd. Zijn plaats wordt ingenomen door een inktcirkel op de startpagina, waarin zich, zoals de naam belooft, een gestalte verbergt. De tekst is groter en de regels zijn korter, want lezen komt op de eerste plaats.
+
+Technisch wordt de site nu gebouwd met [Astro](https://astro.build/).
+
+Het nieuwe ontwerp is ook de basis voor een gedrukt boek en een nieuw e-book.
+
+<figure>
+<img src="/images/old/chronology/history-2026-light.jpg" alt="Screenshot van de website kogakure uit 2026 in het lichte ontwerp.">
+<figcaption>Website 2026, licht ontwerp</figcaption>
+</figure>
+
+<figure>
+<img src="/images/old/chronology/history-2026-dark.jpg" alt="Screenshot van de website kogakure uit 2026 in het donkere ontwerp.">
+<figcaption>Website 2026, donker ontwerp</figcaption>
+</figure>

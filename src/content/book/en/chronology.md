@@ -228,3 +228,33 @@ Technically, the site is now built with [Eleventy](https://www.11ty.dev/) and ma
 ### February 25, 2022
 
 For the first time in its more than 20-year history, 木隠 is now also available in English, so the work can reach a larger readership.
+
+---
+
+## 2026
+
+### XX.XX.2026
+
+With the relaunch in 2026, I not only redesigned the website but revised the whole book. It was the biggest revision in the history of 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+
+I rewrote every one of the 76 articles from scratch, in German and in English. Along the way, I checked names, dates, and readings, compared them with Japanese sources, and corrected errors that had crept in over the years. I replaced longer passages and quotes by other authors with my own words.
+
+At launch, 木隠 is available in twelve languages: German, English, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Chinese, Korean, and Hebrew, which reads from right to left.
+
+Almost all images are new. With the help of AI, I created more than 360 pictures in the style of Japanese ink paintings and woodblock prints, and every article now opens with a painting of its own.
+
+The new design is meant to feel like a book of ink and paper. By day you read on light paper, by night on dark indigo; the site follows the system setting, but you can also choose yourself. Every article carries a name plate with a Japanese term, and the chapters are numbered with Japanese numerals. After more than twenty years, I retired the bamboo, the site's emblem since 2002. Its place is taken by an ink circle on the home page in which, as the name promises, a figure is hidden. The text is larger and the lines are shorter, because reading comes first.
+
+Technically, the site is now built with [Astro](https://astro.build/).
+
+The new design is also the basis for a printed book and a new ebook.
+
+<figure>
+<img src="/images/old/chronology/history-2026-light.jpg" alt="Screenshot of the kogakure website from 2026 in the light design.">
+<figcaption>Website 2026, light design</figcaption>
+</figure>
+
+<figure>
+<img src="/images/old/chronology/history-2026-dark.jpg" alt="Screenshot of the kogakure website from 2026 in the dark design.">
+<figcaption>Website 2026, dark design</figcaption>
+</figure>

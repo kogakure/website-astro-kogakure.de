@@ -2872,6 +2872,26 @@
 			],
 			"hash": "51f636b9da8c70b7"
 		},
+		"old/chronology/history-2026-dark.jpg": {
+			"width": 1500,
+			"height": 1072,
+			"aspect": 1.3993,
+			"widths": [
+				800,
+				1400
+			],
+			"hash": "3594c085e9ff7f96"
+		},
+		"old/chronology/history-2026-light.jpg": {
+			"width": 1500,
+			"height": 1072,
+			"aspect": 1.3993,
+			"widths": [
+				800,
+				1400
+			],
+			"hash": "882f05a51f5357fc"
+		},
 		"old/downloads/ingo.jpg": {
 			"width": 1400,
 			"height": 1500,

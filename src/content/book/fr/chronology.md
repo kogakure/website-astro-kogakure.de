@@ -228,3 +228,33 @@ Techniquement, le site est désormais construit avec [Eleventy](https://www.11ty
 ### 25 février 2022
 
 Pour la première fois en plus de 20 ans d’histoire, 木隠 existe désormais aussi en anglais. L’ouvrage doit ainsi toucher un public plus large.
+
+---
+
+## 2026
+
+### XX.XX.2026
+
+Avec la relance de 2026, je ne refis pas seulement le design du site : je révisai le livre entier. Ce fut la plus grande révision de l’histoire de 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+
+Je réécrivis entièrement chacun des 76 articles, en allemand et en anglais. Ce faisant, je vérifiai les noms, les dates et les lectures, les comparai avec des sources japonaises et corrigeai les erreurs qui s’étaient glissées au fil des années. Je remplaçai les longs passages et les citations d’autres auteurs par mes propres mots.
+
+À son lancement, 木隠 est disponible en douze langues : allemand, anglais, espagnol, français, portugais, italien, néerlandais, russe, japonais, chinois, coréen et hébreu, qui se lit de droite à gauche.
+
+Presque toutes les images sont nouvelles. Avec l’aide de l’IA, je créai plus de 360 images dans le style de la peinture à l’encre et de l’estampe japonaises, et chaque article s’ouvre désormais sur une peinture qui lui est propre.
+
+Le nouveau design se veut un livre d’encre et de papier. Le jour, on lit sur un papier clair, la nuit sur un indigo sombre ; le site suit le réglage du système, mais on peut aussi choisir soi-même. Chaque article porte une plaque avec un terme japonais, et les chapitres sont numérotés en chiffres japonais. Après plus de vingt ans, je mis à la retraite le bambou, emblème du site depuis 2002. Il cède la place à un cercle d’encre sur la page d’accueil, où se cache, comme le promet le nom, une silhouette. Le texte est plus grand et les lignes sont plus courtes, car la lecture passe avant tout.
+
+Techniquement, le site est désormais construit avec [Astro](https://astro.build/).
+
+Le nouveau design sert aussi de base à un livre imprimé et à un nouvel ebook.
+
+<figure>
+<img src="/images/old/chronology/history-2026-light.jpg" alt="Capture d’écran du site kogakure en 2026, avec le design clair.">
+<figcaption>Site web en 2026, design clair</figcaption>
+</figure>
+
+<figure>
+<img src="/images/old/chronology/history-2026-dark.jpg" alt="Capture d’écran du site kogakure en 2026, avec le design sombre.">
+<figcaption>Site web en 2026, design sombre</figcaption>
+</figure>
