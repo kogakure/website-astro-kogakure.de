@@ -1,0 +1,8 @@
+# gitleaks (CI): the default rules, and the public verification files of
+# public/.well-known/, whose tokens are served on purpose (docs/seo.md)
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Domain verification tokens, public by design"
+paths = ['''^public/\.well-known/brave-rewards-verification\.txt$''']
