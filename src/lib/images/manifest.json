@@ -671,6 +671,7 @@
 			"width": 1536,
 			"height": 1024,
 			"aspect": 1.5,
+			"focus": "50% 70%",
 			"widths": [
 				800,
 				1400,
@@ -4419,7 +4420,7 @@
 		},
 		"heihoPage": {
 			"image": "article/heiho-02-birds-in-rain.webp",
-			"hash": "cf9ac46937ac3d7e"
+			"hash": "ff58f6cf1c75a1fa"
 		},
 		"igaNoRanPage": {
 			"image": "article/iga-no-ran-01-building-maruyama-castle.webp",
