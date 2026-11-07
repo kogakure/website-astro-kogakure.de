@@ -4,6 +4,11 @@ description: Wer kogakure.de anbietet und für den Inhalt verantwortlich ist.
 updated: 2026-11-07
 ---
 
+<figure>
+<img src="/images/article/imprint-01-disguised-ninja-reading-edict-board.webp" alt="An einer Wegkreuzung zwischen Reisfeldern steht ein überdachtes hölzernes Anschlagbrett mit amtlichen Bekanntmachungen. Ein alter Händler mit Kiepe beugt sich vor und fährt mit dem Finger die Tafeln entlang; neben ihm steht ein Reisender mit Strohhut, ein verkleideter Ninja, und schaut von der Seite herüber.">
+<figcaption>Öffentlich angeschlagen, für jeden zu lesen</figcaption>
+</figure>
+
 ## Anbieter
 
 Angaben nach § 5 Digitale-Dienste-Gesetz (DDG):

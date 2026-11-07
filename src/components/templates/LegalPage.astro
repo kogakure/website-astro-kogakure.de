@@ -1,7 +1,7 @@
 ---
 /**
  * A legal page (imprint, privacy policy) in German or English, from
- * src/legal/: the bare opener plate with the title and the date of the
+ * src/legal/: the opener with its painting, the title and the date of the
  * text, the text, the colophon. The other languages link to the English
  * page, so their language switch leads there too.
  */
@@ -14,6 +14,7 @@ import { contentsPath, type LegalPage } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAlternates, getLegalPage, renderLegalPage } from '@/lib/book/book';
+import { openerFigure } from '@/lib/book/figures';
 import { BOOK_PLATE } from '@/lib/book/plates';
 
 interface Props {
@@ -25,6 +26,7 @@ const { lang, page } = Astro.props;
 const t = ui(lang);
 const entry = await getLegalPage(lang, page);
 const { Content } = await renderLegalPage(entry);
+const opener = openerFigure(entry.body ?? '');
 const languages = languageChoices(await getAlternates(page), lang);
 const contents = contentsPath(lang);
 const updated = new Intl.DateTimeFormat(language(lang).htmlLang, { dateStyle: 'long' }).format(
@@ -41,12 +43,13 @@ const updated = new Intl.DateTimeFormat(language(lang).htmlLang, { dateStyle: 'l
 	<TopBar slot="before-main" label={t.book} home={{ href: contents, label: t.contents }} />
 
 	<ArticleHead
+		image={opener}
 		plate={{ name: BOOK_PLATE.name, number: null }}
 		title={entry.data.title}
 		facts={[{ term: t.updated, text: updated }]}
 	/>
 
-	<PageText>
+	<PageText opener={opener !== undefined}>
 		<Content />
 	</PageText>
 

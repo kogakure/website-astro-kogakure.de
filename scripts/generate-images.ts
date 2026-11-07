@@ -7,6 +7,7 @@
  *     + kogakure-ai-images/assets/**     → images/<key>-<width>.webp
  *   kogakure-texts/images/old/**         → images/old/<key>-<width>.webp
  *   the opener of every article          → images/og/<translationKey>.jpg
+ *   the images of src/legal/             → the same, og/imprint.jpg, og/privacy.jpg
  *   kogakure-prototyping ink assets      → images/ink/*.webp
  *
  * Only the images the imported texts use are generated (run
@@ -23,7 +24,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
 import sharp from 'sharp';
-import { readImportedBook } from '../src/lib/book/read.ts';
+import { readImportedBook, readLegalPages } from '../src/lib/book/read.ts';
 import { imageUrls } from '../src/lib/book/transform.ts';
 import {
 	BAND_WIDTH,
@@ -286,6 +287,19 @@ for (const page of book.pages) {
 	if (opener && known && known !== opener)
 		errors.push(`${page.lang}/${page.slug}: opener ${opener} differs from ${known}`);
 	if (opener) openers.set(translationKey, opener);
+}
+// The legal pages' openers, written here (src/legal/); their preview image is
+// named after the page: og/imprint.jpg, og/privacy.jpg
+for (const page of readLegalPages(ROOT)) {
+	const urls = imageUrls(page.body);
+	for (const url of urls) {
+		const key = imageKey(url);
+		if (key) keys.add(key);
+		else errors.push(`legal ${page.lang}/${page.slug}: image ${url} is not below /images/`);
+	}
+	const opener = imageKey(findOpener(urls) ?? '');
+	const name = page.lang === 'en' ? page.slug : undefined;
+	if (opener && name) openers.set(name, opener);
 }
 if (keys.size === 0) {
 	console.error('The imported texts use no images: run pnpm import:content first');

@@ -729,6 +729,18 @@
 			],
 			"hash": "5aca2e13fdc62859"
 		},
+		"article/imprint-01-disguised-ninja-reading-edict-board.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 55%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "331dde7eefda7626"
+		},
 		"article/inro-01-inro.webp": {
 			"width": 1152,
 			"height": 1536,
@@ -1310,6 +1322,18 @@
 				2750
 			],
 			"hash": "4990864f4932ab47"
+		},
+		"article/privacy-01-hidden-behind-leaves-and-trees.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 70%",
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "04c56233edc14ca7"
 		},
 		"article/shichi-ho-de-01-seven-disguises.webp": {
 			"width": 2048,
@@ -4432,6 +4456,10 @@
 			"image": "historical/iga-ueno-jo.webp",
 			"hash": "3f1e4a0688bbd134"
 		},
+		"imprint": {
+			"image": "article/imprint-01-disguised-ninja-reading-edict-board.webp",
+			"hash": "2cfa828ed7ffb3e7"
+		},
 		"inroPage": {
 			"image": "article/inro-01-inro.webp",
 			"hash": "125e1c7d59a67b74"
@@ -4523,6 +4551,10 @@
 		"prefacePage": {
 			"image": "article/preface-01-waiting-for-book-ordered-from-catalogue.webp",
 			"hash": "21669098994b4936"
+		},
+		"privacy": {
+			"image": "article/privacy-01-hidden-behind-leaves-and-trees.webp",
+			"hash": "e1c9c2dd3effa122"
 		},
 		"rulesOfNinjaPage": {
 			"image": "article/the-rules-of-the-ninja-01-truth-and-lie.webp",
