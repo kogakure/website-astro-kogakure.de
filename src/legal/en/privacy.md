@@ -15,7 +15,7 @@ This website sets no cookies, embeds no third-party content and loads all fonts 
 
 ## Controller
 
-The controller under Art. 4 (7) of the General Data Protection Regulation (GDPR) is Stefan Imhoff; address and email are in the [imprint](/en/imprint/).
+The controller under Art. 4 (7) of the General Data Protection Regulation (GDPR) is Stefan Imhoff; address and email are in the [imprint](../imprint/).
 
 ## Server and log files
 

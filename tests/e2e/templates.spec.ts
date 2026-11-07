@@ -70,7 +70,7 @@ test.describe('glossary', () => {
 });
 
 test.describe('legal pages', () => {
-	test('the colophon links the imprint and the privacy policy, English for the others', async ({
+	test('the colophon links the imprint and the privacy policy in every language', async ({
 		page,
 	}) => {
 		await page.goto('/');
@@ -81,8 +81,27 @@ test.describe('legal pages', () => {
 		await page.goto('/ja/');
 		await expect(page.getByRole('link', { name: /^プライバシー\s*（英語）$/ })).toHaveAttribute(
 			'href',
-			'/en/privacy/'
+			'/ja/privacy/'
 		);
+	});
+
+	test('another language keeps its own page around the English text', async ({ page }) => {
+		await page.goto('/ja/imprint/');
+		await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('Imprint');
+		await expect(page.locator('.page-text')).toHaveAttribute('lang', 'en');
+		// The way on stays Japanese: the contents, and the privacy policy from the text
+		await expect(page.getByRole('link', { name: '目次', exact: true }).first()).toHaveAttribute(
+			'href',
+			'/ja/contents/'
+		);
+		await page.locator('.page-text').getByRole('link', { name: 'privacy policy' }).click();
+		await expect(page).toHaveURL('/ja/privacy/');
+		await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
+
+		await page.goto('/he/privacy/');
+		await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+		await expect(page.locator('.page-text')).toHaveAttribute('dir', 'ltr');
 	});
 
 	test('the language switch leads from the German to the English version', async ({ page }) => {
@@ -93,7 +112,13 @@ test.describe('legal pages', () => {
 		await expect(page.locator('html')).toHaveAttribute('lang', 'en');
 	});
 
-	for (const path of ['/impressum/', '/datenschutz/', '/en/imprint/', '/en/privacy/']) {
+	for (const path of [
+		'/impressum/',
+		'/datenschutz/',
+		'/en/imprint/',
+		'/ja/privacy/',
+		'/he/imprint/',
+	]) {
 		test(`${path} has no accessibility violations`, async ({ page }) => {
 			await page.goto(path);
 			const results = await new AxeBuilder({ page }).analyze();

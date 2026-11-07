@@ -44,7 +44,7 @@ The import is repeatable: rerunning it on unchanged texts produces no diff. It w
 | Homepages          | `/`, `/en/`, `/ja/`, …          |                                |
 | Contents           | `/inhalt/`, `/<lang>/contents/` | `/en/contents/`                |
 | 404 (outside book) | `/404.html`, `/<lang>/404/`     | nginx per prefix               |
-| Legal (DE, EN)     | `/impressum/`, `/datenschutz/`  | `/en/imprint/`, `/en/privacy/` |
+| Legal              | `/impressum/`, `/datenschutz/`  | `/en/imprint/`, `/ja/privacy/` |
 
 Titles carry no `&shy;` (leftovers of the old site): the schema rejects them, the import and the build fail.
 
@@ -54,7 +54,7 @@ All of them come from the one rest route `src/pages/[...route].astro`. The parts
 
 **Glossary:** `getGlossary(lang)` groups the entries by the initial of `sort` (romanized in every language, so A–Z everywhere), with the anchors the old `h3`s had (`#kamae`). The page's section list is the A–Z jump list; an article with more than 40 sections runs its list on as an index (Waffen).
 
-**Legal pages:** imprint and privacy policy are website texts, not the book's: `src/legal/<de|en>/*.md` (collection `legal`), written here, German and English only. The colophon of every other language links to the English pages (`legalPath()`), and their language switch leads there too.
+**Legal pages:** imprint and privacy policy are website texts, not the book's: `src/legal/<de|en>/*.md` (collection `legal`), written here, German and English only. Every language has them below its own prefix (`legalPath()`: `/impressum/`, `/en/imprint/`, `/ja/imprint/`), the other ten with the English text in a `lang="en"` `.script-root` inside their own top bar and colophon, so the reader stays in their language. Links between the English texts are relative (`../privacy/`).
 
 **404:** nginx serves `/404.html` for unknown URLs, and `/<lang>/404/` below a language's prefix (`nginx.conf`; `i18n.test.ts` checks its language list).
 

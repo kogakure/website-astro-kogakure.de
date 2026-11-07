@@ -86,8 +86,7 @@ async function allAlternates(): Promise<Map<string, Alternates>> {
 
 /**
  * All language versions of a page by its key: a page's translationKey,
- * `contents`, `home`, or a legal page (`imprint`, `privacy`: English for
- * every language but German)
+ * `contents`, `home`, or a legal page (`imprint`, `privacy`)
  */
 export async function getAlternates(key: string): Promise<Alternates> {
 	alternates ??= allAlternates();
@@ -241,12 +240,11 @@ export const chapterOf = async (lang: Lang, translationKey: string) =>
 	);
 
 /**
- * The pages besides the book's articles: the homepage and the contents in
- * every language, the legal pages in German and English. The rest route
- * renders them.
+ * The pages besides the book's articles, in every language: the homepage,
+ * the contents and the legal pages. The rest route renders them.
  */
-export const getSitePaths = () => [
-	...LANGS.flatMap((lang) => [
+export const getSitePaths = () =>
+	LANGS.flatMap((lang) => [
 		{
 			params: { route: routeParam(homePath(lang)) || undefined },
 			props: { kind: 'home' as const, lang },
@@ -255,14 +253,11 @@ export const getSitePaths = () => [
 			params: { route: routeParam(contentsPath(lang)) },
 			props: { kind: 'contents' as const, lang },
 		},
-	]),
-	...(['de', 'en'] as const).flatMap((lang) =>
-		(Object.keys(LEGAL_PAGES) as LegalPage[]).map((page) => ({
+		...(Object.keys(LEGAL_PAGES) as LegalPage[]).map((page) => ({
 			params: { route: routeParam(legalPath(lang, page)) },
 			props: { kind: 'legal' as const, lang, page },
-		}))
-	),
-];
+		})),
+	]);
 
 export type LegalEntry = CollectionEntry<'legal'>;
 

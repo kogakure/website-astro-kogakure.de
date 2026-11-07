@@ -367,6 +367,27 @@
 	font-weight: 600;
 }
 
+/* English text inside a page of another script (the legal text on
+   /ja/imprint/, /he/privacy/): the Latin face, line and emphasis again */
+.script-root:lang(en) {
+	--serif:
+		'Source Serif 4', 'Source Serif 4 Fallback', 'Frank Ruhl Libre', 'Shippori Mincho',
+		'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif;
+	--mono:
+		'IBM Plex Mono', 'IBM Plex Mono Fallback', 'Frank Ruhl Libre', 'Shippori Mincho',
+		'Hiragino Mincho ProN', ui-monospace, monospace;
+	font-family: var(--serif);
+	line-break: auto;
+	line-height: var(--text-body--line-height);
+	word-break: normal;
+}
+
+.script-root:lang(en) :is(em, i, cite) {
+	font-style: italic;
+	font-weight: inherit;
+	text-emphasis: none;
+}
+
 /* ----------------------------------------------------------------- print */
 
 /* Print stays ink on paper, whatever the mode */

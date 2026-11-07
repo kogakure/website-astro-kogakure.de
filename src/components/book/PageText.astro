@@ -5,16 +5,24 @@
  * distance the reading grid keeps from the opener.
  */
 import Prose from '@/components/site/Prose.astro';
+import { language, type Lang } from '@/i18n/languages';
 
 interface Props {
 	/** The text's first figure is the opener plate */
 	opener?: boolean;
+	/** The text is in another language than the page (the English legal text on /ja/imprint/) */
+	lang?: Lang | undefined;
 }
 
-const { opener = false } = Astro.props;
+const { opener = false, lang } = Astro.props;
+const own = lang && language(lang);
 ---
 
-<div class="page-text">
+<div
+	class:list={['page-text', { 'script-root': own }]}
+	lang={own ? own.htmlLang : undefined}
+	dir={own ? own.dir : undefined}
+>
 	<Prose opener={opener}>
 		<slot />
 	</Prose>

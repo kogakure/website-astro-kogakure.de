@@ -89,11 +89,11 @@ describe('routes', () => {
 		expect(langs?.toSorted()).toEqual([...PREFIXED_LANGS].toSorted());
 	});
 
-	it('gives the legal pages in German and English, English for the others', () => {
+	it('gives every language its legal pages, below its own prefix', () => {
 		expect(legalPath('de', 'imprint')).toBe('/impressum/');
 		expect(legalPath('de', 'privacy')).toBe('/datenschutz/');
 		expect(legalPath('en', 'imprint')).toBe('/en/imprint/');
-		expect(legalPath('ja', 'privacy')).toBe('/en/privacy/');
+		expect(legalPath('ja', 'privacy')).toBe('/ja/privacy/');
 	});
 });
 

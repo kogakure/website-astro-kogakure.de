@@ -1,16 +1,17 @@
 ---
 /**
- * A legal page (imprint, privacy policy) in German or English, from
- * src/legal/: the opener with its painting, the title and the date of the
- * text, the text, the colophon. The other languages link to the English
- * page, so their language switch leads there too.
+ * A legal page (imprint, privacy policy) from src/legal/: the opener with
+ * its painting, the title and the date of the text, the text, the colophon.
+ * The text is German or English; every other language shows the English
+ * text in its own page (/ja/imprint/), so the top bar, the colophon and the
+ * way on stay in the reader's language.
  */
 import ArticleHead from '@/components/book/ArticleHead.astro';
 import PageText from '@/components/book/PageText.astro';
 import Colophon from '@/components/site/Colophon.astro';
 import TopBar from '@/components/site/TopBar.astro';
-import { language, languageChoices } from '@/i18n/languages';
-import { contentsPath, type LegalPage } from '@/i18n/routes';
+import { language, languageChoices, type Lang } from '@/i18n/languages';
+import { contentsPath, legalLang, type LegalPage } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAlternates, getLegalPage, renderLegalPage } from '@/lib/book/book';
@@ -18,18 +19,21 @@ import { openerFigure } from '@/lib/book/figures';
 import { BOOK_PLATE } from '@/lib/book/plates';
 
 interface Props {
-	lang: 'de' | 'en';
+	lang: Lang;
 	page: LegalPage;
 }
 
 const { lang, page } = Astro.props;
 const t = ui(lang);
-const entry = await getLegalPage(lang, page);
+// The language of the text: German or English
+const textLang = legalLang(lang);
+const foreign = textLang === lang ? undefined : textLang;
+const entry = await getLegalPage(textLang, page);
 const { Content } = await renderLegalPage(entry);
 const opener = openerFigure(entry.body ?? '');
 const languages = languageChoices(await getAlternates(page), lang);
 const contents = contentsPath(lang);
-const updated = new Intl.DateTimeFormat(language(lang).htmlLang, { dateStyle: 'long' }).format(
+const updated = new Intl.DateTimeFormat(language(textLang).htmlLang, { dateStyle: 'long' }).format(
 	entry.data.updated
 );
 ---
@@ -38,6 +42,7 @@ const updated = new Intl.DateTimeFormat(language(lang).htmlLang, { dateStyle: 'l
 	title={`${entry.data.title} · 木隠`}
 	description={entry.data.description}
 	lang={lang}
+	fontPages={foreign ? [{ lang: foreign }] : []}
 	ground="read"
 >
 	<TopBar slot="before-main" label={t.book} home={{ href: contents, label: t.contents }} />
@@ -46,10 +51,11 @@ const updated = new Intl.DateTimeFormat(language(lang).htmlLang, { dateStyle: 'l
 		image={opener}
 		plate={{ name: BOOK_PLATE.name, number: null }}
 		title={entry.data.title}
-		facts={[{ term: t.updated, text: updated }]}
+		facts={[{ term: ui(textLang).updated, text: updated }]}
+		lang={foreign}
 	/>
 
-	<PageText opener={opener !== undefined}>
+	<PageText opener={opener !== undefined} lang={foreign}>
 		<Content />
 	</PageText>
 
