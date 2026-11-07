@@ -1,6 +1,13 @@
 // @vitest-environment happy-dom
 import { afterEach, describe, expect, it } from 'vitest';
-import { loadPosition, READING_KEY, resumeTarget, savePosition } from './reading';
+import {
+	isPosition,
+	loadPosition,
+	READING_KEY,
+	resume,
+	resumeTarget,
+	savePosition,
+} from './reading';
 
 const ARTICLES = { toughningUpPage: ['/en/toughening-up/', 'Toughening Up'] as [string, string] };
 
@@ -36,4 +43,41 @@ describe('reading position', () => {
 		expect(resumeTarget(null, 'en', ARTICLES)).toBeNull();
 		expect(resumeTarget({ key: 'gone', lang: 'en', hash: '' }, 'en', ARTICLES)).toBeNull();
 	});
+});
+
+describe('resume', () => {
+	afterEach(() => {
+		localStorage.clear();
+		document.body.innerHTML = '';
+	});
+
+	// ResumeLink.astro inlines the function's source: it must run without its module
+	const inlined = new Function(`return ${resume.toString()}`)() as typeof resume;
+
+	function box() {
+		document.body.innerHTML = `<div data-resume data-lang="en" data-label="Read: {title}" data-articles='${JSON.stringify(ARTICLES)}'><a href="/en/preface/"><span class="read-link-text">Read: Preface</span></a></div>`;
+		return document.querySelector<HTMLElement>('[data-resume]')!;
+	}
+
+	for (const [name, fn] of [
+		['resume', resume],
+		['resume, inlined', inlined],
+	] as const) {
+		it(`${name}: points „Read“ at the stored article`, () => {
+			savePosition({ key: 'toughningUpPage', lang: 'en', hash: '#sand' });
+			const element = box();
+			fn(element, READING_KEY, isPosition, resumeTarget);
+			expect(element.querySelector('a')?.getAttribute('href')).toBe(
+				'/en/toughening-up/#sand'
+			);
+			expect(element.textContent).toBe('Read: Toughening Up');
+		});
+
+		it(`${name}: keeps the start without a valid position`, () => {
+			localStorage.setItem(READING_KEY, '{"key":1}');
+			const element = box();
+			fn(element, READING_KEY, isPosition, resumeTarget);
+			expect(element.querySelector('a')?.getAttribute('href')).toBe('/en/preface/');
+		});
+	}
 });

@@ -3,10 +3,18 @@
  * „Lesen“ on the homepage: to the start of the book, or, once the reader
  * has opened an article, back to it and the section they were in
  * (src/lib/book/reading.ts, stored by Reading.astro). Without
- * JavaScript or a stored position it leads to the start.
+ * JavaScript or a stored position it leads to the start. An inline script
+ * right after the link changes it while the page is parsed, so the start
+ * never shows first.
  */
 import ReadLink from '@/components/site/ReadLink.astro';
-import type { ArticleLinks } from '@/lib/book/reading';
+import {
+	isPosition,
+	READING_KEY,
+	resume,
+	resumeTarget,
+	type ArticleLinks,
+} from '@/lib/book/reading';
 
 interface Props {
 	lang: string;
@@ -20,6 +28,7 @@ interface Props {
 
 const { lang, start, label, articles } = Astro.props;
 const TITLE = '{title}';
+const script = `(${resume.toString()})(document.currentScript.previousElementSibling, ${JSON.stringify(READING_KEY)}, ${isPosition.toString()}, ${resumeTarget.toString()});`;
 ---
 
 <div
@@ -31,18 +40,4 @@ const TITLE = '{title}';
 	<ReadLink href={start.href}>{label(start.title)}</ReadLink>
 </div>
 
-<script>
-	import { loadPosition, resumeTarget, type ArticleLinks } from '@/lib/book/reading';
-
-	const box = document.querySelector<HTMLElement>('[data-resume]');
-	const link = box?.querySelector('a');
-	const text = box?.querySelector('.read-link-text');
-	if (box && link && text) {
-		const articles = JSON.parse(box.dataset.articles ?? '{}') as ArticleLinks;
-		const target = resumeTarget(loadPosition(), box.dataset.lang ?? '', articles);
-		if (target) {
-			link.href = target.href;
-			text.textContent = (box.dataset.label ?? '').replace('{title}', target.title);
-		}
-	}
-</script>
+<script is:inline set:html={script} />
