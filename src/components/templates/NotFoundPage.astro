@@ -40,7 +40,12 @@ const contents = contentsPath(lang);
 	fontPage={parseId(entry.id).slug}
 	ground="read"
 >
-	<TopBar slot="before-main" label={t.book} home={{ href: contents, label: t.contents }} />
+	<TopBar
+		slot="before-main"
+		label={t.book}
+		home={{ href: contents, label: t.contents }}
+		search={t.search}
+	/>
 
 	<ArticleHead
 		image={opener}

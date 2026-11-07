@@ -38,7 +38,7 @@ interface Props {
 const { entry, lang } = Astro.props;
 const t = ui(lang);
 const key = entry.data.translationKey;
-const { Content, headings } = await renderPage(entry);
+const { Content, headings, remarkPluginFrontmatter } = await renderPage(entry);
 // The glossary's entries come from glossary.json; its sections are the initials
 const glossary = key === GLOSSARY_PAGE ? await getGlossary(lang) : undefined;
 const sections = glossary
@@ -77,6 +77,15 @@ const facts = [
 		: sections.length > 0
 			? [{ term: t.sections, text: String(sections.length) }]
 			: []),
+	// The glossary's entries aren't in its text, so its reading time would mislead
+	...(glossary
+		? []
+		: [
+				{
+					term: t.readingTime,
+					text: t.minutes(remarkPluginFrontmatter.minutesRead as number),
+				},
+			]),
 ];
 ---
 
@@ -105,12 +114,14 @@ const facts = [
 	]}
 	fontPage={parseId(entry.id).slug}
 	ground="read"
+	search={{ chapter: chapter.title }}
 >
 	<TopBar
 		slot="before-main"
 		label={t.book}
 		home={{ href: contents, label: t.contents }}
 		chapter={{ href: chapter.href, title: chapter.title, kanji }}
+		search={t.search}
 		sections={{
 			heading: glossary ? t.alphabet : t.sections,
 			items: sections,

@@ -4,9 +4,10 @@
  * ring with a shinobi hidden in its brushwork, and the 木隠 name plate as
  * the h1. Beside it (from 60em) the book's subtitle, the credit line, the
  * „Lesen“ link (slot) and the contents: the ten parts, kanji and title,
- * leading to their scenes below.
+ * leading to their scenes below, and beside their heading the search.
  */
 import NamePlate from '@/components/site/NamePlate.astro';
+import SearchButton from '@/components/site/SearchButton.astro';
 import Subtitle from '@/components/site/Subtitle.astro';
 import { BOOK_PLATE } from '@/lib/book/plates';
 import { inkFile } from '@/lib/images/images';
@@ -21,9 +22,11 @@ interface Props {
 	heading: string;
 	/** The parts, linking to their scenes */
 	parts: { href: string; short: string; title: string }[];
+	/** „Suche“: opens the search */
+	search: string;
 }
 
-const { subtitle, credit, heading, parts } = Astro.props;
+const { subtitle, credit, heading, parts, search } = Astro.props;
 const masks = `--vortex: url('${inkFile('vortex.webp')}'); --vortex-ninja: url('${inkFile('vortex-ninja.webp')}')`;
 ---
 
@@ -41,10 +44,14 @@ const masks = `--vortex: url('${inkFile('vortex.webp')}'); --vortex-ninja: url('
 		<div class="prologue-read">
 			<slot />
 		</div>
-		<nav class="index" aria-labelledby="index-title">
+		{/* The search beside the heading, outside the contents' navigation */}
+		<div class="index-head">
 			<h2 id="index-title" class="index-title">
 				{heading}
 			</h2>
+			<SearchButton label={search} class="index-search" />
+		</div>
+		<nav class="index" aria-labelledby="index-title">
 			<ol>
 				{parts.map((part) => (
 					<li>
@@ -150,14 +157,28 @@ const masks = `--vortex: url('${inkFile('vortex.webp')}'); --vortex-ninja: url('
 		font-size: 1.125rem;
 	}
 
+	/* Close under its heading, inside the text's 1.4rem rhythm */
 	.index {
+		margin-block-start: -0.8rem;
+	}
+
+	.index-head {
+		display: flex;
+		gap: 1rem;
+		align-items: baseline;
+		justify-content: space-between;
 		margin-block-start: 1rem;
 	}
 
 	.index-title {
-		margin-block: 0 0.6rem;
+		margin: 0;
 		font-size: 1.125rem;
 		font-weight: 600;
+	}
+
+	.index-head :global(.index-search) {
+		font-size: 1rem;
+		color: var(--text-2);
 	}
 
 	.index ol {

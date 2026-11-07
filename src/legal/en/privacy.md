@@ -23,7 +23,7 @@ The website runs on a server of Hetzner Online GmbH, Industriestr. 25, 91710 Gun
 
 ## Statistics with Umami
 
-To see which pages are read, I use [Umami](https://umami.is/), open-source statistics that I host myself. Umami sets no cookies and stores no IP addresses. It counts the page visited, the referring page, browser, operating system, device type, screen size, language and country, and also how often someone changes the language or the appearance or downloads a file. None of this links a single visit to a person, and the data never leaves my own server. The legal basis is my legitimate interest in improving the book (Art. 6 (1) (f) GDPR).
+To see which pages are read, I use [Umami](https://umami.is/), open-source statistics that I host myself. Umami sets no cookies and stores no IP addresses. It counts the page visited, the referring page, browser, operating system, device type, screen size, language and country, and also how often someone changes the language or the appearance, downloads a file or searches the book (with the number of results, not the words searched for). None of this links a single visit to a person, and the data never leaves my own server. The legal basis is my legitimate interest in improving the book (Art. 6 (1) (f) GDPR).
 
 ## Fonts
 

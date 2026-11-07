@@ -4,9 +4,11 @@
  * is no site navigation bar; this is the way back. Below 75em it is sticky:
  * it slides away while the reader reads on and comes back when they scroll
  * up, then showing the position in the article („Abschnitt 3 von 6“), which
- * opens the sections in a popover (SectionPopover).
+ * opens the sections in a popover (SectionPopover). „Suche“ opens the search
+ * (SearchButton), also in the returned bar: on a phone it is the only way in.
  */
 import { BOOK_PLATE } from '@/lib/book/plates';
+import SearchButton from './SearchButton.astro';
 import SectionPopover from './SectionPopover.astro';
 
 interface Props {
@@ -21,9 +23,11 @@ interface Props {
 		countLabel: string;
 		positionLabels: string[];
 	};
+	/** „Suche“: opens the search */
+	search?: string | undefined;
 }
 
-const { label, home, chapter, sections } = Astro.props;
+const { label, home, chapter, sections, search } = Astro.props;
 ---
 
 <nav class="topbar" aria-label={label} data-topbar data-print="hidden">
@@ -43,6 +47,7 @@ const { label, home, chapter, sections } = Astro.props;
 			<span class="topbar-text">{chapter.title}</span>
 		</a>
 	)}
+	{search && <SearchButton label={search} class="topbar-search" />}
 	{sections && sections.items.length > 0 && (
 		<div class="topbar-where">
 			<SectionPopover
@@ -109,6 +114,11 @@ const { label, home, chapter, sections } = Astro.props;
 		text-decoration: none;
 	}
 
+	/* The way home at the start, the chapter, the search and the position at the end */
+	.topbar-home {
+		margin-inline-end: auto;
+	}
+
 	.topbar > a:hover .topbar-text {
 		text-decoration: underline;
 		text-decoration-thickness: 1px;
@@ -144,8 +154,9 @@ const { label, home, chapter, sections } = Astro.props;
 			translate: 0 -105%;
 		}
 
-		/* Back on screen: the way home and the position; the chapter is in
-		   the way home's place in the book, the popover lists the sections */
+		/* Back on screen: the way home, the search and the position; the
+		   chapter is in the way home's place in the book, the popover lists
+		   the sections */
 		.topbar[data-state] .topbar-where,
 		.topbar-where:focus-within,
 		.topbar-where:has(:popover-open) {
@@ -154,6 +165,20 @@ const { label, home, chapter, sections } = Astro.props;
 
 		.topbar[data-state] .topbar-chapter {
 			display: none;
+		}
+
+		/* One line: the way home as its kanji alone, its word still its name */
+		.topbar[data-state] {
+			flex-wrap: nowrap;
+		}
+
+		.topbar[data-state] .topbar-home .topbar-text {
+			position: absolute;
+			inline-size: 1px;
+			block-size: 1px;
+			overflow: hidden;
+			clip-path: inset(50%);
+			white-space: nowrap;
 		}
 	}
 </style>

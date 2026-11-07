@@ -68,6 +68,7 @@
 		"husky": "^9.1.7",
 		"lint-staged": "^17.6.0",
 		"oxlint": "^1.84.0",
+		"pagefind": "^1.6.0",
 		"prettier": "^3.9.0",
 		"prettier-plugin-astro": "^1.1.0",
 		"prettier-plugin-tailwindcss": "^0.8.0",

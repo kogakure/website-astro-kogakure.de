@@ -1,0 +1,158 @@
+/* The search dialog (SearchDialog.tsx) on the dialog's reading paper: the
+   field set in the text face, the results as a list with hairlines between
+   them, each entry one link (the title's ::after covers it), the words
+   found on the selection colour, never on the seal */
+.search {
+	--search-top: clamp(1rem, 10vh, 6rem);
+	--search-pad: 1.25rem;
+	inset-block-start: var(--search-top);
+	display: flex;
+	flex-direction: column;
+	max-inline-size: 40rem;
+	max-block-size: calc(100dvh - 2 * var(--search-top));
+	padding-block: 0.75rem 0.5rem;
+	font-family: var(--serif);
+}
+
+.search-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding-inline: var(--search-pad);
+}
+
+.search-field {
+	margin-inline: var(--search-pad);
+	padding-block: 0.4rem;
+	padding-inline: 0;
+	border: 0;
+	border-block-end: 1px solid var(--rule);
+	border-radius: 0;
+	background: none;
+	color: var(--text);
+	font: 400 1.375rem/1.4 var(--serif);
+	appearance: none;
+}
+
+.search-field::placeholder {
+	color: var(--text-3);
+	opacity: 1;
+}
+
+.search-field::-webkit-search-cancel-button {
+	appearance: none;
+}
+
+.search-status {
+	min-block-size: 1.5em;
+	margin-block: 0.6rem 0;
+	margin-inline: var(--search-pad);
+	font-family: var(--mono);
+	font-size: 0.9375rem;
+	line-height: 1.5;
+	color: var(--text-3);
+}
+
+/* The results and „Weitere Treffer“ scroll together, so neither is lost
+   when the screen is short (a phone held sideways, 400% zoom) */
+.search-body {
+	display: flex;
+	flex-direction: column;
+	min-block-size: 0;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+}
+
+.search-results {
+	margin-block: 0.4rem 0;
+	margin-inline: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.search-result {
+	position: relative;
+	display: grid;
+	gap: 0.2rem;
+	padding-block: 0.8rem;
+	padding-inline: var(--search-pad);
+	border-block-start: 1px solid var(--rule);
+}
+
+.search-result:hover {
+	background: var(--hover);
+}
+
+.search-result a {
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.35;
+	color: var(--text);
+	text-decoration: none;
+	hyphens: manual;
+}
+
+.search-result a::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+}
+
+.search-result:hover a {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-decoration-color: var(--link-line);
+	text-underline-offset: 0.2em;
+}
+
+/* The ring goes around the whole entry, inside the scrolling list */
+.search-result a:focus-visible {
+	outline: none;
+}
+
+.search-result:has(a:focus-visible) {
+	outline: 2px solid var(--focus);
+	outline-offset: -4px;
+}
+
+.search-chapter {
+	font-family: var(--mono);
+	font-size: 0.9375rem;
+	line-height: 1.5;
+	color: var(--text-3);
+}
+
+.search-excerpt {
+	font-size: var(--text-caption);
+	line-height: 1.5;
+	color: var(--text-2);
+}
+
+.search-excerpt mark {
+	padding-inline: 0.1em;
+	border-radius: 1px;
+	background: var(--select);
+	color: var(--text);
+}
+
+.search-more {
+	align-self: flex-start;
+	min-block-size: 2.75rem;
+	margin-block: 0.25rem;
+	margin-inline: var(--search-pad);
+	padding: 0;
+	border: 0;
+	background: none;
+	color: var(--text);
+	font: var(--text-caption) / 1.4 var(--serif);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-decoration-color: var(--link-line);
+	text-underline-offset: 0.2em;
+	cursor: pointer;
+}
+
+.search-more:hover {
+	text-decoration-color: currentColor;
+}

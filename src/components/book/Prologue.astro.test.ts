@@ -7,6 +7,7 @@ const props = {
 	subtitle: '„Hinter Blättern und Bäumen verborgen“',
 	credit: 'Seit 1999. 10 Teile, 76 Artikel.',
 	heading: 'Inhalt',
+	search: 'Suche',
 	parts: [
 		{ href: '#einfuehrung', short: '序', title: 'Einführung' },
 		{ href: '#geschichte', short: '一', title: 'Geschichte' },

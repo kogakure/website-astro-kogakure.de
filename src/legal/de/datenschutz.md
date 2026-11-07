@@ -23,7 +23,7 @@ Die Website liegt auf einem Server der Hetzner Online GmbH, Industriestr. 25, 91
 
 ## Statistik mit Umami
 
-Um zu sehen, welche Seiten gelesen werden, nutze ich [Umami](https://umami.is/), eine quelloffene Statistik, die ich selbst betreibe. Umami setzt keine Cookies und speichert keine IP-Adressen. Gezählt werden die aufgerufene Seite, die verweisende Seite, Browser, Betriebssystem, Geräteart, Bildschirmgröße, Sprache und das Land, außerdem, wie oft jemand die Sprache oder die Darstellung wechselt oder eine Datei herunterlädt. Ein einzelner Besuch lässt sich daraus keiner Person zuordnen, und die Daten verlassen den eigenen Server nicht. Rechtsgrundlage ist mein berechtigtes Interesse, das Buch zu verbessern (Art. 6 Abs. 1 lit. f DSGVO).
+Um zu sehen, welche Seiten gelesen werden, nutze ich [Umami](https://umami.is/), eine quelloffene Statistik, die ich selbst betreibe. Umami setzt keine Cookies und speichert keine IP-Adressen. Gezählt werden die aufgerufene Seite, die verweisende Seite, Browser, Betriebssystem, Geräteart, Bildschirmgröße, Sprache und das Land, außerdem, wie oft jemand die Sprache oder die Darstellung wechselt, eine Datei herunterlädt oder im Buch sucht (mit der Zahl der Treffer, nicht dem Suchbegriff). Ein einzelner Besuch lässt sich daraus keiner Person zuordnen, und die Daten verlassen den eigenen Server nicht. Rechtsgrundlage ist mein berechtigtes Interesse, das Buch zu verbessern (Art. 6 Abs. 1 lit. f DSGVO).
 
 ## Schriften
 

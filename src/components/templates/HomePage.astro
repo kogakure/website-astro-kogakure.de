@@ -52,6 +52,7 @@ const stop = lang === 'ja' || lang === 'zh' ? '。' : '. ';
 		subtitle={`${open}${t.subtitle}${close}`}
 		credit={credit}
 		heading={t.contents}
+		search={t.search}
 		parts={chapters.map((chapter) => ({
 			href: `#${chapter.slug}`,
 			short: chapter.plate.short,
