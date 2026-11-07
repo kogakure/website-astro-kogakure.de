@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: La madera se convierte en fuego; el fuego, en ceniza. El gogyō, la doctrina daoísta de los cinco elementos, describe cómo los elementos se generan y se dominan unos a otros.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

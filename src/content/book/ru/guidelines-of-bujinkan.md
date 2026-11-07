@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Терпение, самообладание, личная ответственность и членская карта — правила, которые доктор Хацуми Масааки установил для всех, кто хочет тренироваться в Будзинкане.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: 1676年、藤林保武は伊賀と甲賀の数十の忍者の流派の知識をまとめた。戦略、心構え、欺き、天候、道具を説く全十巻である。
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

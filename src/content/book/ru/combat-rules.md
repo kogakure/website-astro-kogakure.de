@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: Лучший бой — тот, которого не было. Три правила ниндзюцу, от духовной тренировки до владения телом, и девять советов на случай, если схватки не избежать.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: Проникнуть в любую крепость, вырваться из любой тюрьмы — такая слава шла о ниндзя. Для этого у них были инструменты, чтобы пилить, сверлить и копать.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

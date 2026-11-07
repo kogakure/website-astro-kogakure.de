@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: Lautlos über Holzdielen, durch seichtes Wasser, flach am Boden wie ein Salamander. Mit diesen Schritt- und Lauftechniken bewegten sich die Ninja ungehört.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

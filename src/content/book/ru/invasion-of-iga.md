@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: В 1581 году Ода Нобунага вернулся в Ига с армией более чем в 44 000 человек, наступавшей шестью путями. На горе Хидзияма последнее большое восстание края закончилось в огне.
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

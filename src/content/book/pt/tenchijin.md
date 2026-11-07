@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: Mudar o ambiente, mudar a si mesmo ou só a aparência – com os princípios do céu, da terra e do ser humano, os ninja avaliavam cada situação de vários ângulos.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

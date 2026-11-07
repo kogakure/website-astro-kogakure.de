@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Scienziato, medico, mercante o guerriero – ogni via può condurre all’illuminazione. Il ninja scelse la via del guerriero e la seguì per tutta la vita.
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

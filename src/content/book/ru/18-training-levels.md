@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: От знания самого себя до прогноза погоды. В этих 18 системах обучения стремились совершенствоваться ниндзя Тогакурэ-рю.
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

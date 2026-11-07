@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: Una sola spia può accorciare una guerra di anni. Nel Medioevo ricognizione e spionaggio erano il principale campo d’azione dei ninja – e una parte essenziale del loro addestramento.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Gás do sono de ratos em pó, alho-poró sobre ferida de bala, 30 sementes de gergelim contra a sede: o que o ninja misturava em sua farmácia de viagem e levava para uma missão.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

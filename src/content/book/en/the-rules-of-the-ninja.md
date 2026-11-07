@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: Scouting without killing, truth and lies in alternation, mastery of every weapon. The ten rules Hatsumi Masaaki draws from the experience of the ninja.
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

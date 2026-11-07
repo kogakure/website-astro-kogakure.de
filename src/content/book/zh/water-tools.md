@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 折叠船、呼吸管、脚蹼：借助这些水器，忍者能在水面、水下和沼泽中迅速穿行，把身披铠甲的武士远远甩在身后。
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

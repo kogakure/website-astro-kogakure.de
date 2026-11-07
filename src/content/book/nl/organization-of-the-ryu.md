@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: Zelfs onder marteling kon een ninja niet verraden wie hem had gestuurd. Hij wist het niet. Drie rangen beschermden de Ryū tegen verraad – jōnin, chūnin en genin.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

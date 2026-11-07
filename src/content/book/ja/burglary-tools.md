@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: どんな城にも忍び込み、どんな牢からも抜け出す。忍者はそう噂された。そのために、切る、穴をあける、掘るための道具を携えていた。
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

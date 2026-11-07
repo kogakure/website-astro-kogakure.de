@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: Zijn stichter zou met één slag een zwaardkling hebben gebroken. De Gikan-Ryū kent geen kata, en Hatsumi heeft hem tot nu toe niet in het openbaar onderwezen.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: Terra, acqua, fuoco, vento e vuoto. Attraverso i cinque elementi del godai i ninja cercavano di capire i nessi della creazione – e con essi sé stessi.
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: Le saule plie, le grand arbre se brise. De cette leçon de son père, Takagi Oriemon Shigenobu fit une école dont la philosophie est la souplesse.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

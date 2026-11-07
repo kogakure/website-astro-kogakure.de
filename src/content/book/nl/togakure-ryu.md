@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: Een verloren slag, een vlucht naar Iga en een leraar in de bergen – zo begon de school van de verborgen deur, die Togakure Daisuke stichtte.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

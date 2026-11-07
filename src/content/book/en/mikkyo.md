@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: There is no such thing as coincidence, the mikkyō teaches. How this tantric doctrine traveled from India through China to Japan, and why the ninja used it to sharpen their powers.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

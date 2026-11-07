@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: At 13 he beat a professional sumō wrestler; in China he dodged a Shaolin master for two hours. Takamatsu Toshitsugu was Hatsumi Masaaki’s teacher and the man the Bujinkan is named for.
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

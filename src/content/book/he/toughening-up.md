@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: מכות בעצים, אצבעות שננעצות בדליים מלאים חול וחצץ – כך הקשיחו הנינג'ה את כלי הנשק של גופם עד שכמעט לא חשו כאב.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

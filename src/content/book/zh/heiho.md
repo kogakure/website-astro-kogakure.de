@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: 一次佯攻，一件在风中飘动的外衣，一个下雨时宁愿坐在火边的守卫——忍者凭借这样的计策穿过敌境，潜入戒备森严的城堡。
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: 思想、言语和行为是密教的三种秘密。曼荼罗、真言和印相如何体现它们，为什么光是把双手结成手印并不能治愈伤口。
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: Поддельные письма, ложный штурм, нищий у ворот замка — тактиками тикаири ниндзя вредили врагу и проникали в его замки, как только начинался конфликт.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: 수백 년 동안 일본의 영주들은 서로 싸웠고, 누구나 첩자가 필요했다. 이가와 고가에서는 그 수요를 채우려고 수십 개의 닌자 유파가 생겨났다.
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

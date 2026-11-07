@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: Takamatsu reconstrueerde de densho van de Kukishin-Ryū en mocht als dank een eigen zijschool stichten – de Kukishinden-Ryū, de school van de negen demonengoden.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

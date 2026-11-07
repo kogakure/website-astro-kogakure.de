@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: 첩자 한 명이 전쟁을 몇 년이나 줄일 수 있다. 중세에 정찰과 첩보는 닌자의 가장 중요한 임무였고, 수련의 확고한 일부였다.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

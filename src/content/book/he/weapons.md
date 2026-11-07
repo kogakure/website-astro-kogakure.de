@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: קוצי ברזל, חניתות אנקול, רובי נשיפה, תותחי עץ – בעיני הנינג'ה כל נשק היה כלי עבודה. מבחר מתוך הארסנל שלהם.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: In 1581 keerde Oda Nobunaga met meer dan 44.000 man over zes routes terug naar Iga. Op de berg Hijiyama eindigde de laatste grote opstand van de regio in vuur.
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

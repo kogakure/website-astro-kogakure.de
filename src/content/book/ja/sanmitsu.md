@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: 思い、言葉、行い。それが密教の三つの秘密である。曼荼羅、真言、印相がそれをどう体現するのか、そしてなぜ手を組むだけでは傷が癒えないのか。
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

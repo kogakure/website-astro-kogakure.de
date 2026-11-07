@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: 땅, 물, 불, 바람, 공. 닌자는 오대의 다섯 원소를 통해 만물이 생겨난 이치를 이해하려 했고, 그와 함께 자기 자신을 이해하려 했다.
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'El subconsciente empuja hacia una decisión, asoma un presentimiento: los ninja se tomaban en serio esas sensaciones y las entrenaban hasta percibir el peligro.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

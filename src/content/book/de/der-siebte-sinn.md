@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Das Unterbewusstsein drängt zu einer Entscheidung, eine Vorahnung meldet sich: Die Ninja nahmen solche Gefühle ernst und schulten sie, bis sie Gefahr spürten.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

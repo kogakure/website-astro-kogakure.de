@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: 忍者は生まれによって忍者となった。五、六歳で遊びが修行に変わり、やがて戦闘、演技、心理術、心の鍛錬が加わった。
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

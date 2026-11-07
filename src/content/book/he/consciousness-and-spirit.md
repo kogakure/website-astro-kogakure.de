@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: לפי תורת הנינג'ה, כל דבר ביקום רוטט, מהאבן ועד המחשבה. הרוח מפרשת את התנודות האלה ומחברת בין התודעה לגוף.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

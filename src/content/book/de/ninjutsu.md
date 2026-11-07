@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: Im Kern geht es beim Ninjutsu um einen freien und gerechten Geist. Wie Geschichtsschreibung und Medien den Ruf der Ninja verfälscht haben und was das Schriftzeichen 忍 verrät.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

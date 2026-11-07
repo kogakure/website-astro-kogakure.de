@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: 密教认为，世上没有偶然。这一坦特罗教法如何从印度经中国传入日本，忍者又为何借它增强自身的力量。
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

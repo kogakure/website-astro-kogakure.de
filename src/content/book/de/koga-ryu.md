@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 Familien, ein Seitenwechsel mitten in der Schlacht und zehn Kundschafter vor der Burg Hara – die Geschichte des Kōga-Ryū bis zu Fujita Seiko, seinem wohl letzten Erben.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

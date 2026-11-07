@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja wurde man durch Geburt. Mit fünf oder sechs Jahren wurde aus Kinderspielen Training, später kamen Kampf, Schauspiel, Psychologie und geistige Schulung hinzu.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

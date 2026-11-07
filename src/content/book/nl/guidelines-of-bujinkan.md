@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Geduld, zelfbeheersing, eigen verantwoordelijkheid en een lidmaatschapskaart – de regels die dr. Hatsumi Masaaki heeft opgesteld voor iedereen die in de Bujinkan wil trainen.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

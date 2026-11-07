@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: Deux fois dix-huit donnent les 36 stratégies militaires – 18 arts guerriers fondamentaux et 18 savoir-faire particuliers dans lesquels les ninja s’entraînaient.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

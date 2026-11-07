@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: La gente credeva che i maestri dei ninja fossero gli spiriti dei boschi. Le radici del ninjutsu venivano forse dalla Cina, e col tempo gli asceti di montagna lasciarono il posto alle spie.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

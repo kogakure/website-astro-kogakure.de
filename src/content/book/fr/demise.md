@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: La paix mit fin à l’époque des ninja. Sous les Tokugawa, ils devinrent policiers secrets, voleurs ou jardiniers – et en 1853, l’un d’eux reçut l’ordre de s’introduire sur les navires de Perry.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

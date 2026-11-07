@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: In fondo il ninjutsu riguarda uno spirito libero e giusto. Come storici e media hanno distorto la reputazione dei ninja, e che cosa rivela il carattere 忍.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

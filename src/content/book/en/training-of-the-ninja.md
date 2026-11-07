@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja were born, not made. At five or six their games turned into training; combat, acting, psychology, and the schooling of the mind followed later.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: Toeval bestaat niet, leert het mikkyō. Hoe deze tantrische leer via China van India naar Japan kwam en waarom de ninja haar gebruikten om hun krachten te vergroten.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

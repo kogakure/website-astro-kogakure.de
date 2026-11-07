@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Des coups contre les arbres, des doigts plongés dans des seaux de sable et de gravier – ainsi les ninja endurcissaient leurs armes du corps jusqu’à ne presque plus sentir la douleur.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

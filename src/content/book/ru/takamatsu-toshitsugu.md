@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: В 13 лет он победил борца сумо, в Китае два часа уходил от ударов мастера Шаолиня. Такамацу Тосицугу был учителем Хацуми Масааки, и в его честь назван Будзинкан.
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

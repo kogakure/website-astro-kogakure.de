@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Gaz soporifique à base de rats en poudre, poireau sur une blessure par balle, 30 graines de sésame contre la soif : ce que le ninja préparait dans sa pharmacie de voyage.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

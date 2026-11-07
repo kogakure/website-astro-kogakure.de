@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: Dentro qualsiasi fortezza, fuori da qualsiasi prigione – questa era la fama dei ninja. Per riuscirci avevano attrezzi per segare, forare e scavare.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

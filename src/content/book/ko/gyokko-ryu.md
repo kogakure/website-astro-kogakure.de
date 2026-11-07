@@ -5,6 +5,7 @@ date: '2006-04-02T15:07:00+02:00'
 author: Stefan Imhoff
 excerpt: 그 움직임은 당나라 궁정에서 생겨났고, 첫 소케는 호겐 연간에 살았다. 굣코류는 부진칸의 아홉 전통 가운데 가장 오래된 것이다.
 translationKey: gyokkoRyuPage
+plate: 玉虎流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: Меч, направляющий солнце в глаза противнику, взгляд между бровей, пять дыр от пальцев в древесной коре. Кото-рю и ее необычные методы.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

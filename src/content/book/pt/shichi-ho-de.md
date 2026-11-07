@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: O adversário o vê, mas não o percebe. Com o shichi hō de, os sete modos de andar, o ninja usava o filtro da mente humana para sumir na multidão.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

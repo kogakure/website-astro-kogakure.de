@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: 让悲伤、愤怒、嫉妒和仇恨如烟般散去。初见良昭为悲伤、患病、受伤或绝望之时留下的五条戒律。
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

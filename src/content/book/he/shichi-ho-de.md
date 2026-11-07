@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: היריב רואה אותו, אבל אינו קולט אותו. בעזרת השיצ'י הו דה, שבע דרכי ההליכה, ניצל הנינג'ה את המסנן שבראשו של כל אדם כדי להיעלם בהמון.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

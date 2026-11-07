@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: 고아 소녀들을 첩자로 길러 낸 과부, 노부나가를 놓친 저격수, 끓는 기름에 삶아진 대도둑. 역사에 이름을 남긴 열 명의 닌자.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: Een schijnaanval, een mantel in de wind, een wacht die bij regen liever bij het vuur zit – met zulke listen trokken ninja door vijandelijk gebied en drongen ze bewaakte kastelen binnen.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

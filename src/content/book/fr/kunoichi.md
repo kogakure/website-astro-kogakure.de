@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: En 1561, Mochizuki Moritoki tomba au combat. Sa veuve Chiyome n’entra pas au couvent. Elle bâtit pour Takeda Shingen un réseau d’agentes – déguisées en servantes de temple.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

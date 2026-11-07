@@ -13,8 +13,9 @@
  *                             use them, so a page loads only the slices it
  *                             sets (unicode-range). The bold files only hold
  *                             what is set in bold (titles, headings, strong)
- *   Yuji Syuku                per language: the name plates, then the kanji
- *                             of the margin glosses
+ *   Yuji Syuku                per language: the name plates; per page its
+ *                             own plate term and the kanji of its margin
+ *                             glosses
  *
  * The sources are the OFL fonts of google/fonts at a pinned commit, checked
  * by SHA-256 and cached in .cache/fonts/ (git-ignored). Their licences go to
@@ -495,13 +496,13 @@ function units(lang: Lang): Unit[] {
 			bold: cjkSet(homeBold),
 			brush: plates,
 		},
-		...pages.map(({ slug, text, bold, italic, glosses }) => ({
+		...pages.map(({ slug, text, bold, italic, glosses, plate }) => ({
 			id: pageId(lang, slug),
 			text: `${ui}\n${text}`,
 			italic,
 			regular: cjkSet(ui, languageNames, text),
 			bold: cjkSet(ui, bold),
-			brush: new Set([...plates, ...glosses]),
+			brush: new Set([...plates, ...plate, ...glosses]),
 		})),
 	];
 }
@@ -545,8 +546,8 @@ for (const lang of LANGS) {
 	}
 	await subset(BRUSH, codePointsOf(plates), `${faceName(BRUSH)}-plates`, { lang });
 	for (const { id, brush } of pages) {
-		const glosses = [...brush].filter((c) => !plates.has(c));
-		await subset(BRUSH, codePointsOf(glosses), `${faceName(BRUSH)}-page`, { page: id });
+		const own = [...brush].filter((c) => !plates.has(c));
+		await subset(BRUSH, codePointsOf(own), `${faceName(BRUSH)}-page`, { page: id });
 	}
 }
 

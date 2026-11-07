@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'לא שחור משחור, רק לעתים רחוקות מסכה, ולעתים קרובות בלי חליפה בכלל: מה לבשו הנינג''ה באמת, ולמה שימש כל פריט.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

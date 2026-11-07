@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 famiglie, un comandante che cambiò schieramento in piena battaglia e dieci esploratori davanti al castello di Hara – la storia del Kōga-Ryū fino a Fujita Seiko, forse il suo ultimo erede.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

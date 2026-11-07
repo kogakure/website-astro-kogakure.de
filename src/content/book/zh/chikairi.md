@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: 伪造的信件，一次佯攻，城门前的一个乞丐——冲突一开始，忍者便借助近入的各种战术破坏敌人，潜入敌人的城堡。
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

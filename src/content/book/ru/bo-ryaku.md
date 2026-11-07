@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Наконечник стрелы, крыло журавля, рыбья чешуя — восемь боевых построений японских полководцев и почему ниндзя тоже должен был их знать.'
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

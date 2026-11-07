@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: Takamatsu reconstitua les densho du Kukishin-Ryū et obtint en retour le droit de fonder une branche – le Kukishinden-Ryū, l’école des neuf dieux démons.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

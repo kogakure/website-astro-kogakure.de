@@ -5,6 +5,7 @@ date: '2006-04-02T15:07:00+02:00'
 author: Stefan Imhoff
 excerpt: Zijn bewegingen ontstonden aan het hof van de Tang, zijn eerste sōke leefde in het Hōgen-tijdperk. De Gyokko-Ryū is de oudste van de negen tradities van de Bujinkan.
 translationKey: gyokkoRyuPage
+plate: 玉虎流
 categories:
   - history
   - schools

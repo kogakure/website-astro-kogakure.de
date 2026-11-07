@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: Vloeiendheid, ritme, ademhaling, afstand en intentie bepalen hoe een gevecht afloopt. Negen factoren van het taijutsu, van nagare tot ito.
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

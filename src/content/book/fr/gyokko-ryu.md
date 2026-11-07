@@ -5,6 +5,7 @@ date: '2006-04-02T15:07:00+02:00'
 author: Stefan Imhoff
 excerpt: Ses mouvements naquirent à la cour des Tang, son premier sōke vécut à l’ère Hōgen. Le Gyokko-Ryū est la plus ancienne des neuf traditions du Bujinkan.
 translationKey: gyokkoRyuPage
+plate: 玉虎流
 categories:
   - history
   - schools

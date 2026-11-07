@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: 가장 좋은 싸움은 일어나지 않는 싸움이다. 정신 훈련에서 몸의 통제에 이르는 인술의 세 가지 규칙과, 싸움을 피할 수 없을 때를 위한 아홉 가지 요령.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: 나무는 불이 되고, 불은 재가 된다. 다섯 원소에 관한 도교의 가르침인 오행은 원소들이 서로를 어떻게 낳고 누르는지를 설명한다.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

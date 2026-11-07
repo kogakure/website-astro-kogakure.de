@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: La gente creía que los espíritus del bosque habían sido los maestros de los ninja. Las raíces del ninjutsu estaban más bien en China, y con el tiempo los ascetas de montaña dieron paso a los espías.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: אנשים האמינו שרוחות היער לימדו את הנינג'ה. שורשי הנינג'יטסו היו כנראה בסין, ועם הזמן הפכו סגפני ההרים למרגלים.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: 額、肘、親指、指先、踵。忍術では体のあらゆる部位が、筋肉、腱、骨を狙う武器となる。
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Patience, maîtrise de soi, responsabilité personnelle et une carte de membre – les règles fixées par le Dr Hatsumi Masaaki pour tous ceux qui veulent s’entraîner au Bujinkan.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

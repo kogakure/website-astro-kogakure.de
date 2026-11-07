@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: 一位把孤女训练成女间谍的寡妇，一个没能射中信长的神枪手，一个死在锅里的大盗：十位写下历史的忍者。
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

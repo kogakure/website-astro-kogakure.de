@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: Selon l’enseignement des ninja, tout vibre dans l’univers, de la pierre à la pensée. L’esprit interprète ces vibrations et relie la conscience au corps.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

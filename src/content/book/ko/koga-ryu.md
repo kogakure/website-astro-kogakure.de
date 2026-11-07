@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53개 가문, 전투 한가운데서 편을 바꾼 지휘관, 하라성 앞의 정찰병 열 명. 아마도 마지막 계승자였을 후지타 세이코에 이르기까지 고가류의 역사.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

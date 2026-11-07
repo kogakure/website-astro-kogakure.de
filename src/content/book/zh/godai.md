@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: 地、水、火、风、空。忍者借五大这五种元素，探寻造化万物之间的关联，也由此认识自己。
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

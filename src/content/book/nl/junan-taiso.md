@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: In het ninjutsu ontstaat kracht uit flexibiliteit. Jūnantaisō, de conditietraining van de ninja, maakt spieren en pezen weer elastisch en houdt het lichaam gezond tot op hoge leeftijd.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

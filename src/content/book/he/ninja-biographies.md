@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: אלמנה שהכשירה נערות יתומות למרגלות, צלף שהחטיא את נובונאגה, גנב־על בקלחת – עשרה נינג'ה שכתבו היסטוריה.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

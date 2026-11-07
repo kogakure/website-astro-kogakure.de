@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Подзорная труба, компас, дорожная аптечка, маска демона и даже летательный аппарат: что ниндзя брали на задания помимо оружия.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

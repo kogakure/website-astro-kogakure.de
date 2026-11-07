@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Jumping off a truck, vaulting a wall, diving to the ground to dodge a bullet. The first thing ninjutsu teaches is how to roll and fall.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

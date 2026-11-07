@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: Un mensajero al que se deja capturar, un desertor que espera años una señal. Las tácticas tōiri preparaban la guerra cuando aún reinaba la paz.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

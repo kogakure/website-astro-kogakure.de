@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Barcos dobráveis, tubos de respiração, nadadeiras – com suas ferramentas aquáticas, os ninja cruzavam água e pântanos depressa e deixavam para trás os samurai de armadura.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

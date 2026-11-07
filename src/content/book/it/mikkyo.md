@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: Il caso non esiste, insegna il mikkyō. Come questa dottrina tantrica giunse dall’India in Giappone passando per la Cina, e perché i ninja se ne servivano per accrescere le proprie forze.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

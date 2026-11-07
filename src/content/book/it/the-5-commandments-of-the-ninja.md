@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Lasciar passare tristezza, rabbia, invidia e odio come fumo. Cinque comandamenti di Hatsumi Masaaki per i momenti in cui si è tristi, malati, feriti o disperati.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

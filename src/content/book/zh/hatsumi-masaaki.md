@@ -5,6 +5,7 @@ date: '2006-04-02T15:02:00+02:00'
 author: Stefan Imhoff
 excerpt: 十五年间，他每个周末都去老师高松那里。如今初见良昭领导着武神馆，把九个流派作为一个整体来传授。
 translationKey: hatsumiMasaakiPage
+plate: 初見良昭
 categories:
   - biography
 ---

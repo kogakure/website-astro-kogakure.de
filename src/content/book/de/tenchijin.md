@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: Die Umwelt ändern, sich selbst ändern oder nur den Schein – mit den Prinzipien von Himmel, Erde und Mensch beurteilten die Ninja jede Lage aus mehreren Blickwinkeln.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

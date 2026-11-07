@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: Un fleuve, un arbre, un feu, un trou dans la terre, un miroir – après une mission, le ninja se servait des cinq éléments pour s’échapper.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

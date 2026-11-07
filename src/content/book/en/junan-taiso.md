@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: In ninjutsu, strength comes from flexibility. Jūnantaisō, the conditioning training of the ninja, restores the elasticity of muscles and tendons and keeps the body healthy into old age.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

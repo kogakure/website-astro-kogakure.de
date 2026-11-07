@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: Nel 1676 Fujibayashi Yasutake raccolse il sapere di decine di Ryū di ninja di Iga e Kōga. Dieci volumi su strategia, morale, inganno, meteo e strumenti.
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

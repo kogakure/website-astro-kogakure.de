@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Longue-vue, boussole, pharmacie de voyage, masque de démon et même un engin volant : ce que les ninja emportaient en mission en plus de leurs armes.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: Dans le ninjutsu, la force naît de la souplesse. Le jūnantaisō, la préparation physique des ninja, rend leur élasticité aux muscles et aux tendons et garde le corps sain jusque dans la vieillesse.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

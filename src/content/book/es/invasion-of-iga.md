@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: En 1581, Oda Nobunaga volvió a Iga con más de 44 000 hombres por seis rutas. En el monte Hijiyama, la última gran rebelión de la región terminó entre las llamas.
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

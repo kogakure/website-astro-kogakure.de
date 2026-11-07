@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: Eeuwenlang voerden de Japanse vorsten oorlog tegen elkaar, en elk van hen had spionnen nodig. In Iga en Kōga ontstonden tientallen ninjascholen om aan die vraag te voldoen.
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

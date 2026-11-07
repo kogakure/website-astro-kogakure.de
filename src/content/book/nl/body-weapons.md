@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Voorhoofd, elleboog, duim, vingertoppen, hiel – in het ninjutsu wordt elk deel van het lichaam een wapen tegen spieren, pezen en botten.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

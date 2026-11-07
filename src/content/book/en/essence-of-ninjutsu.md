@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: Self-protection, endurance, and a benevolent heart. What Takamatsu Toshitsugu and Hatsumi Masaaki see as the core of ninjutsu, and why fighting technique alone is not enough.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: Um mensageiro que deve ser capturado, um desertor que espera anos por um sinal – as táticas tōiri preparavam a guerra ainda em tempos de paz.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

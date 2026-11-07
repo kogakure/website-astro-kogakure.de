@@ -5,6 +5,7 @@ priority: 110
 author: Stefan Imhoff
 excerpt: 'Tres familias dominaban Iga: los Hattori, los Momochi y los Fujibayashi. De ellas salieron Hattori Hanzō y Momochi Sandayū, el hombre que quizá vivió dos vidas.'
 translationKey: famousNinjaPage
+plate: 服部半蔵
 categories:
   - biography
   - history

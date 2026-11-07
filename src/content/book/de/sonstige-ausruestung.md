@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Fernrohr, Kompass, Reiseapotheke, Dämonenmaske und sogar ein Fluggerät: Was die Ninja außer Waffen noch auf ihre Einsätze mitnahmen.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: 和平终结了忍者的时代。在德川治下，他们成了秘密警察、盗贼或园丁——1853年，还有一名忍者奉命潜上佩里的船。
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

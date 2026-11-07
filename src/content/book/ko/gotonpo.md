@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: 강, 나무, 불, 땅굴, 거울. 임무를 마친 닌자는 다섯 원소를 이용해 몸을 빼냈다.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

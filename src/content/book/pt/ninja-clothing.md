@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Nada de preto absoluto, raramente uma máscara, muitas vezes nenhum traje especial: o que os ninja de fato vestiam e para que servia cada peça.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

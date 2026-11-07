@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: Случайностей не бывает, учит миккё. Как тантрическое учение пришло из Индии через Китай в Японию и почему ниндзя использовали его, чтобы умножить свои силы.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

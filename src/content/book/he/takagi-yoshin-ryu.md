@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: ערבה מתכופפת, עץ גבוה נשבר. על השיעור הזה מאביו ביסס טאקאגי אוריאמון שיגנובו אסכולה שהפילוסופיה שלה היא ההיענות.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

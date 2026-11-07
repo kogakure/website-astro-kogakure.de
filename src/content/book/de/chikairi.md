@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: Gefälschte Briefe, ein Scheinangriff, ein Bettler am Burgtor – mit den Chikairi-Taktiken sabotierten Ninja den Feind und drangen in seine Burgen ein, sobald der Konflikt begann.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

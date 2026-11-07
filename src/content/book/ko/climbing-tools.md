@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: 던지고, 접고, 낭떠러지 위에 걸쳐 놓는 사다리, 여자의 머리카락으로 꼰 밧줄, 손발에 끼우는 발톱. 닌자는 이것들로 나무에 오르고 골짜기를 건너 성안으로 들어갔다.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

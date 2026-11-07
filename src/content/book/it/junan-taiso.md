@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: Nel ninjutsu la forza nasce dalla flessibilità. Il jūnantaisō, l’allenamento atletico dei ninja, restituisce elasticità a muscoli e tendini e mantiene il corpo sano fino alla vecchiaia.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

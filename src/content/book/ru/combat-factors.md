@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: Исход боя решают поток, ритм, дыхание, дистанция и намерение. Девять факторов тайдзюцу, от нагарэ до ито.
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

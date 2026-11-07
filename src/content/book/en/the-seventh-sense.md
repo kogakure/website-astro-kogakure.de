@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'The subconscious pushes toward a decision, a premonition stirs: the ninja took such feelings seriously and trained them until they could sense danger.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

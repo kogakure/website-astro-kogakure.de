@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Schlafgas aus Rattenpulver, Lauch auf der Schusswunde, 30 Sesamkörner gegen den Durst: Was der Ninja in seiner Reiseapotheke mischte und was er auf eine Mission mitnahm.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

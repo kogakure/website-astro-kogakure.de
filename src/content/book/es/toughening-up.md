@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Golpes contra árboles, dedos hundidos en cubos de arena y grava – así endurecían los ninja sus armas del cuerpo hasta apenas sentir el dolor.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

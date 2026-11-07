@@ -5,6 +5,7 @@ date: '2006-04-02T15:08:00+02:00'
 author: Stefan Imhoff
 excerpt: Takamatsu rekonstruierte die Densho des Kukishin-Ryū und durfte zum Dank eine eigene Zweigschule gründen – den Kukishinden-Ryū, die Schule der neun Dämonengötter.
 translationKey: kukishindenRyuPage
+plate: 九鬼神伝流
 categories:
   - history
   - schools

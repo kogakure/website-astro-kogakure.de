@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: 敵自身が建設に加わった城と、三つの峠から攻め込んで敗れた12,000人の軍勢。1579年、伊賀は織田信長の子信雄をいかに退けたのか。
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

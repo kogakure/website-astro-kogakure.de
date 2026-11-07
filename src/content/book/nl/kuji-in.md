@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: Van 81 hand- en vingertekens gebruikten de ninja er negen. Ze werken pas met de juiste geestelijke en religieuze houding en na jarenlange oefening.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

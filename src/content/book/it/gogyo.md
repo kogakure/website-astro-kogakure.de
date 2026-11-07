@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: Dal legno nasce il fuoco, dal fuoco la cenere. Il gogyō, la dottrina daoista dei cinque elementi, descrive come gli elementi si generano e si vincono a vicenda.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

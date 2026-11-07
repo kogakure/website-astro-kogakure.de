@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Niente nero profondo, raramente una maschera, spesso nessuna tenuta speciale: che cosa indossavano davvero i ninja e a che cosa serviva ogni capo.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

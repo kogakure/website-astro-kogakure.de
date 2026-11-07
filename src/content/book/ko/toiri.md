@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: 일부러 붙잡히게 하는 전령, 몇 년 동안 신호를 기다리는 변절자. 도이리의 전술은 평화로운 때에 이미 전쟁을 준비했다.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: אחרי מלחמת העולם השנייה אסרו האמריקאים ביפן על רוב אמנויות הלחימה. הידע של הנינג'ה שרד בכל זאת – דרך שומר לילה, הרפתקן בסין ותלמידו האצומי.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

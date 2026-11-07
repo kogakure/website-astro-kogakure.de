@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: 평화가 닌자의 시대를 끝냈다. 도쿠가와 치하에서 닌자는 비밀경찰, 도둑, 정원사가 되었고, 1853년에는 한 닌자가 페리의 함선에 몰래 올라야 했다.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

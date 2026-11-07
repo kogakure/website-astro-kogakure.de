@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: Del conocimiento de uno mismo a la predicción del tiempo. Estos son los 18 sistemas en los que los ninja del Togakure-Ryū procuraban perfeccionarse.
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

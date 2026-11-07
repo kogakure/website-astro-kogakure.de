@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: O melhor combate é aquele que nunca acontece. Três regras do ninjutsu, do treino mental ao domínio do corpo, e nove orientações para quando a luta não pode ser evitada.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

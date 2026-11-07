@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja con armadura, a veces tras una máscara de demonio, y una lanza de gancho con la que Sarutobi Sasuke pasaba de árbol en árbol. El Kumogakure-Ryū, la Escuela de la Nube Oculta.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

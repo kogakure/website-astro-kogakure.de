@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: על מייסדו מסופר ששבר להב חרב במכה אחת. בגיקאן ריו אין קאטה, והאצומי עוד לא לימד אותו בפומבי.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

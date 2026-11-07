@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: 사람들은 숲의 정령이 닌자를 가르쳤다고 믿었다. 실제로 인술의 뿌리는 아마 중국에 있었고, 세월이 흐르며 산속의 수행자는 첩자가 되었다.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

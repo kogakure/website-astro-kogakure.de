@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: Vom Wissen über sich selbst bis zur Wettervorhersage. In diesen 18 Lehrsystemen versuchten sich die Ninja des Togakure-Ryū zu verbessern.
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

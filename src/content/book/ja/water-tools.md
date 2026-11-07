@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 折りたたみ舟、呼吸用の筒、足ひれ。水器を使い、忍者は水上も水中も湿地も素早く進み、鎧をまとった侍を楽々と引き離した。
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Il subconscio spinge verso una decisione, si fa sentire un presentimento: i ninja prendevano sul serio queste sensazioni e le allenavano finché non avvertivano il pericolo.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

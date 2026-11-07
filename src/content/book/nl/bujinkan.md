@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: Ooit bestonden er in Japan zo’n 250 Ryū. De Bujinkan verenigt negen krijgers- en ninjascholen – Hatsumi Masaaki gaf haar de naam ter ere van zijn leraar Takamatsu.
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

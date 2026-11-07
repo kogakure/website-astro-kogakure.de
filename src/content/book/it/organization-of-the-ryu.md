@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: Nemmeno sotto tortura un ninja poteva rivelare chi lo aveva mandato. Non lo sapeva. Tre ranghi proteggevano i Ryū dal tradimento – jōnin, chūnin e genin.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

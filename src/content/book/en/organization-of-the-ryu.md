@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: Even under torture, a ninja agent could not betray the leader. They didn’t know who he was. Three ranks guarded the Ryū against treachery – jōnin, chūnin, and genin.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

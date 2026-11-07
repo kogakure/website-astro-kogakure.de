@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: 一座敌人亲手参与修建的城堡，12,000名分三路翻山进攻却铩羽而归的士兵——1579年，伊贺如何顶住了织田信长之子信雄的进攻。
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

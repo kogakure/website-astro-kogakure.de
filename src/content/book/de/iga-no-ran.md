@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: Eine Burg, an der die Feinde selbst mitbauten, und 12.000 Mann, die über drei Pässe angriffen und scheiterten – wie Iga sich 1579 gegen Oda Nobunagas Sohn Nobuo behauptete.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

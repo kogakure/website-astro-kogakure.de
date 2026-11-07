@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: Aus Holz wird Feuer, aus Feuer Asche. Das Gogyō, die daoistische Lehre der fünf Elemente, beschreibt, wie die Elemente einander hervorbringen und bezwingen.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: Cartas falsificadas, um falso ataque, um mendigo no portão do castelo – com as táticas chikairi, os ninja sabotavam o inimigo e entravam em seus castelos assim que o conflito começava.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

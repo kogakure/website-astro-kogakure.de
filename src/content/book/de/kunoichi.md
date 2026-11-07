@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: 1561 fiel Mochizuki Moritoki. Seine Witwe Chiyome ging nicht ins Kloster. Sie baute für Takeda Shingen ein Netz weiblicher Agentinnen auf – getarnt als Tempeldienerinnen.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

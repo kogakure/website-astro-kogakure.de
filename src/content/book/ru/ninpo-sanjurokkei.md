@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: Дважды восемнадцать дают 36 военных стратегий — 18 основных боевых искусств и 18 особых навыков, в которых тренировались ниндзя.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

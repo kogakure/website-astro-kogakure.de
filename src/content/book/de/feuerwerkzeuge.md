@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: In Häusern aus Holz und Papier war Feuer die größte Gefahr. Die Ninja nutzten es, um Panik zu stiften – und um nachts sehen zu können.
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

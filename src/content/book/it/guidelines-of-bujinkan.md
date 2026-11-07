@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Pazienza, autocontrollo, responsabilità personale e una tessera associativa – le regole che il dottor Hatsumi Masaaki ha stabilito per chiunque voglia allenarsi nel Bujinkan.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

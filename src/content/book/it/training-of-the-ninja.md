@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja si nasceva. A cinque o sei anni i giochi diventavano allenamento; poi venivano il combattimento, la recitazione, la psicologia e la disciplina della mente.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

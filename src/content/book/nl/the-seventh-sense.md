@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Het onderbewuste dringt aan op een beslissing, een voorgevoel dient zich aan: de ninja namen zulke gevoelens serieus en trainden ze tot ze gevaar aanvoelden.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

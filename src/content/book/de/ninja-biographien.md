@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: Eine Witwe, die Waisenmädchen zu Spioninnen ausbildete, ein Scharfschütze, der Nobunaga verfehlte, ein Meisterdieb im Kessel – zehn Ninja, die Geschichte schrieben.
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

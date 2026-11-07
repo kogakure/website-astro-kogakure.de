@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: 锋矢、鹤翼、鱼鳞——日本将领的八种战阵，以及忍者为什么也必须熟悉它们。
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

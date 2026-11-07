@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: On croyait que des esprits de la forêt avaient instruit les ninja. Les racines du ninjutsu venaient plutôt de Chine, et avec le temps les ascètes des montagnes devinrent des espions.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

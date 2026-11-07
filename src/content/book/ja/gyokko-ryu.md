@@ -5,6 +5,7 @@ date: '2006-04-02T15:07:00+02:00'
 author: Stefan Imhoff
 excerpt: その動きは唐の宮廷で形づくられ、最初の宗家は12世紀半ばに生きた。玉虎流は武神館に伝わる九つの流派のうち最も古い。
 translationKey: gyokkoRyuPage
+plate: 玉虎流
 categories:
   - history
   - schools

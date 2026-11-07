@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: Geen dōjō, geen trainingstoestellen – in de Shinden-Fudō-Ryū trainde men aan bomen en in het bamboebos. De school van het onbewogen hart ontstond halverwege de 12e eeuw.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

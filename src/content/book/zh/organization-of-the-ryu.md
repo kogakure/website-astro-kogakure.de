@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: 即使在酷刑之下，忍者也供不出派他来的人，因为他根本不知道。上忍、中忍、下忍三个等级，保护流派免遭背叛。
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

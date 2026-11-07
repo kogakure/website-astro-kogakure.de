@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: Eiserne Dornen, Hakenspeere, Blasrohre, hölzerne Kanonen – für einen Ninja war jede Waffe ein Werkzeug. Eine Auswahl aus seinem Arsenal.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

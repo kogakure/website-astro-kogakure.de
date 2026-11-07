@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 적은 그를 보지만 알아차리지 못한다. 일곱 가지 걷는 법인 시치 호 데로 닌자는 모든 사람의 머릿속에 있는 거름망을 이용해 군중 속으로 사라졌다.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

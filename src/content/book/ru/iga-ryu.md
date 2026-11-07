@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: Горы с трех сторон, Киото поблизости и бежавший из Китая полководец — как в Ига возникла одна из древнейших традиций ниндзя и кто передавал ее дальше.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

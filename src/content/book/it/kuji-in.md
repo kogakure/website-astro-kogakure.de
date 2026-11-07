@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: Di 81 segni delle mani e delle dita, i ninja ne usavano nove. Agiscono solo con il giusto atteggiamento spirituale e religioso e dopo anni di pratica.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

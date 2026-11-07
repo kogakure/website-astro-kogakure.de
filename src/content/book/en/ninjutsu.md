@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: At its core, ninjutsu is about a free and just spirit. How historians and the media distorted the reputation of the ninja, and what the character 忍 reveals.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

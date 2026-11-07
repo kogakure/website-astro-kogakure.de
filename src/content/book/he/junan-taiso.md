@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: בנינג'יטסו הכוח נולד מגמישות. ג'ונאנטאיסו, אימון הכושר של הנינג'ה, מחזיר לשרירים ולגידים את גמישותם ושומר על בריאות הגוף עד גיל מבוגר.
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: בלי חגורות, בלי גביעים, בלי חוקים. טאיג'וטסו הוא היסוד של הנינג'יטסו, דרך לחימה טבעית שנועדה להישרדות, ותנועותיה הולכות בעקבות האדמה, המים, האש והרוח.
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

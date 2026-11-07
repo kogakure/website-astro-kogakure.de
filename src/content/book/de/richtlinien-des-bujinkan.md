@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Geduld, Selbstkontrolle, eigene Verantwortung und eine Mitgliedskarte – die Regeln, die Dr. Hatsumi Masaaki für alle aufgestellt hat, die im Bujinkan trainieren wollen.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

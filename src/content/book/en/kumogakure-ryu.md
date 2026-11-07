@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja in armor, sometimes behind a demon mask, and a hook spear that carried Sarutobi Sasuke from tree to tree. The Kumogakure-Ryū, the School of the Hidden Cloud.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

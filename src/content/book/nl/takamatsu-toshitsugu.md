@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: Op zijn dertiende versloeg hij een sumō-prof, in China ontweek hij twee uur lang een Shaolin-meester. Takamatsu Toshitsugu was de leraar van Hatsumi Masaaki en de naamgever van de Bujinkan.
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

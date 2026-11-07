@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: Een rivier, een boom, een vuur, een kuil in de grond, een spiegel – na een opdracht gebruikte de ninja de vijf elementen om te ontkomen.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

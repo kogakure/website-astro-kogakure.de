@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: Punta de flecha, ala de grulla, escama de pez. Ocho formaciones de batalla de los generales japoneses y por qué también un ninja tenía que conocerlas.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Letting sadness, anger, envy, and hatred pass like smoke. Five commandments from Hatsumi Masaaki for times when you are sad, sick, wounded, or in despair.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

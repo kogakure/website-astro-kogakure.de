@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Подсознание подталкивает к решению, просыпается предчувствие. Ниндзя относились к таким ощущениям всерьез и тренировали их, пока не начинали чуять опасность.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

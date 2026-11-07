@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Verdriet, woede, afgunst en haat laten voorbijtrekken als rook. Vijf geboden van Hatsumi Masaaki voor tijden waarin je verdrietig, ziek, gewond of wanhopig bent.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

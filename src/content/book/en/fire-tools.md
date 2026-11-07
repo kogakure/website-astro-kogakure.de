@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: In houses of wood and paper, fire was the greatest danger. The ninja used it to spread panic – and to see in the dark.
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

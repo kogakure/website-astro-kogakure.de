@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: In 1561 sneuvelde Mochizuki Moritoki. Zijn weduwe Chiyome ging niet het klooster in. Ze bouwde voor Takeda Shingen een netwerk van vrouwelijke agenten op – vermomd als tempeldienaressen.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

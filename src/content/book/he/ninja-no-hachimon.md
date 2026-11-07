@@ -5,6 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: שמונה שערים קובעים אם ריו הוא אמנות נינג'ה. מה דורש הנינג'ה נו האצ'ימון, ומדוע שש מתשע האסכולות של הבוג'ינקאן הן ריו של לוחמים.
 translationKey: ninjaNoHachimonPage
+plate: 火術
 categories:
   - guidelines
   - training

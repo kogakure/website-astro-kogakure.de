@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: Arrowhead, crane wing, fish scale – eight battle formations of the Japanese generals, and why a ninja had to know them too.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

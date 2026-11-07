@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53个家族，一位在战斗中途倒戈的将领，十名潜伏在原城外的探子——甲贺流的历史，一直讲到它可能的最后传人藤田西湖。
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

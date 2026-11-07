@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: The character nin in the word ninja means to endure, to persevere, and to conceal. Hiding is the core of ninjutsu – and an art with firm rules.
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

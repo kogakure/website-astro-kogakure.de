@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: 1561年，望月盛时战死。他的遗孀千代女没有出家，而是为武田信玄建起了一张由女密探组成的网——她们的身份是神社的侍女。
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: 열세 살에 프로 스모 선수를 이겼고, 중국에서는 소림 고수의 공격을 두 시간 동안 피했다. 다카마쓰 도시쓰구는 하쓰미 마사아키의 스승이자 부진칸이라는 이름의 유래가 된 인물이다.
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

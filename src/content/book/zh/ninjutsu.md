@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: 忍术的核心是一颗自由而正直的心。历史书写和媒体如何扭曲了忍者的名声，忍字又透露了什么。
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

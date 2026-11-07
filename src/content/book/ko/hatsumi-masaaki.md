@@ -5,6 +5,7 @@ date: '2006-04-02T15:02:00+02:00'
 author: Stefan Imhoff
 excerpt: 15년 동안 그는 주말마다 스승 다카마쓰를 찾아갔다. 오늘날 하쓰미 마사아키는 부진칸을 이끌며 아홉 유파를 하나로 묶어 가르친다.
 translationKey: hatsumiMasaakiPage
+plate: 初見良昭
 categories:
   - biography
 ---

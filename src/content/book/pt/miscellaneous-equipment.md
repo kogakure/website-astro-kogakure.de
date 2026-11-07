@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Luneta, bússola, farmácia de viagem, máscara de demônio e até um aparelho de voo: o que os ninja levavam em suas missões além das armas.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

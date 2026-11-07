@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Cannocchiale, bussola, farmacia da viaggio, maschera da demone e perfino un apparecchio per volare: ciò che i ninja portavano in missione oltre alle armi.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: 인내, 자제, 스스로 지는 책임, 그리고 회원증. 하쓰미 마사아키 박사가 부진칸에서 수련하려는 모든 사람을 위해 정한 규칙이다.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

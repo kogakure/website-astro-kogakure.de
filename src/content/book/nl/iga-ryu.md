@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: Bergen aan drie kanten, Kyōto vlakbij en een Chinese generaal op de vlucht – hoe in Iga een van de oudste ninjatradities ontstond, en wie haar doorgaf.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

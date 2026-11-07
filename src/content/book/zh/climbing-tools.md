@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: 可以抛出、折叠或架过深渊的梯子，用女人头发搓成的绳索，套在手脚上的铁爪：忍者就这样爬上树木、越过峡谷、潜入城堡。
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

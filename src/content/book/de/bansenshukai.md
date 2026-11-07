@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: 1676 trug Fujibayashi Yasutake das Wissen Dutzender Ninja-Ryū aus Iga und Kōga zusammen. Zehn Bände über Strategie, Moral, Täuschung, Wetter und Werkzeuge.
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

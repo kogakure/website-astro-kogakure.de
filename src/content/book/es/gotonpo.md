@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Un río, un árbol, un fuego, un hoyo en la tierra, un espejo: tras una misión, el ninja recurría a los cinco elementos para escapar.'
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

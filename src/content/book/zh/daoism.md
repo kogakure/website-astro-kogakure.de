@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: 水在流，云在飘，柳枝在雪下弯垂。道家思想教会忍者顺着万物的运行而动，而不是与之相逆。
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

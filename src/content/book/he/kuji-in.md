@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: מתוך 81 סימני ידיים ואצבעות השתמשו הנינג'ה בתשעה. הם פועלים רק עם הגישה הנפשית והדתית הנכונה ואחרי שנים של תרגול.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: 버드나무는 휘고 키 큰 나무는 부러진다. 아버지에게 받은 이 가르침으로 다카기 오리에몬 시게노부는 부드럽게 물러서는 것을 철학으로 삼는 류파를 세웠다.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

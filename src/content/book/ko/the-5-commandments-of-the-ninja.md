@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: 슬픔, 분노, 시기, 미움을 연기처럼 흘려보내기. 슬프거나 아프거나 다쳤거나 절망에 빠졌을 때를 위한 하쓰미 마사아키의 다섯 계명.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: Elk fort in, uit elke gevangenis – dat werd de ninja nagezegd. Daarvoor hadden ze gereedschap om te zagen, te boren en te graven.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

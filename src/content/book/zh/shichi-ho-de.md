@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 对手看见了他，却没有注意到他。借助七方出这七种行走之道，忍者利用每个人头脑中的过滤器，消失在人群之中。
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

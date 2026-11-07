@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: 周囲を変えるか、自らを変えるか、見かけだけを変えるか。忍者は天・地・人の原理によって、あらゆる状況を複数の視点から見極めた。
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

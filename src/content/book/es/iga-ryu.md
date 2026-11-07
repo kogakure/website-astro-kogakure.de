@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: Montañas por tres lados, Kyōto cerca y un general chino en fuga. Cómo surgió en Iga una de las tradiciones ninja más antiguas y quién la transmitió.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

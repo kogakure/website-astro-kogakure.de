@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: Um rio, uma árvore, um fogo, um buraco no chão, um espelho – depois de uma missão, o ninja usava os cinco elementos para escapar.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

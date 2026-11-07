@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Gas soporifero da topi in polvere, porro sulla ferita d’arma da fuoco, 30 semi di sesamo contro la sete: che cosa il ninja mescolava nella sua farmacia da viaggio e portava in missione.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

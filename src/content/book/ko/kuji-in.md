@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: 81가지 손과 손가락의 인 가운데 닌자가 쓴 것은 아홉 가지다. 그 인들은 올바른 정신적·종교적 자세와 여러 해의 수련이 있어야 비로소 힘을 낸다.
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

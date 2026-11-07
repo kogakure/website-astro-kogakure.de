@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: 太陽の光を敵の目に向ける刀、眉間に注ぐ視線、樹皮に穿たれた五つの指の穴。虎倒流とその風変わりな方法。
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

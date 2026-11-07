@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: Le meilleur combat est celui qui n’a jamais lieu. Trois règles du ninjutsu, de l’entraînement de l’esprit à la maîtrise du corps, et neuf conseils pour quand il devient inévitable.
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

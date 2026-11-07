@@ -5,6 +5,7 @@ priority: 135
 author: Stefan Imhoff
 excerpt: En 1581, Oda Nobunaga revint à Iga avec plus de 44 000 hommes par six routes. Au mont Hijiyama, le dernier grand soulèvement de la région finit dans les flammes.
 translationKey: invasionOfIgaPage
+plate: 比自山
 categories:
   - history
   - war

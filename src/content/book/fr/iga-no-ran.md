@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: Un château bâti avec l’aide de ses propres ennemis et 12 000 hommes qui attaquèrent par trois cols et échouèrent – comment Iga tint tête en 1579 à Nobuo, le fils d’Oda Nobunaga.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

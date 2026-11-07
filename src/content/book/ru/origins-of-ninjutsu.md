@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: Люди верили, что ниндзя учили лесные духи. Корни ниндзюцу, скорее всего, лежали в Китае, а горные отшельники со временем уступили место шпионам.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

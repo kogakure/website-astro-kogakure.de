@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Paciencia, autocontrol, responsabilidad propia y un carné de miembro. Son las reglas que el Dr. Hatsumi Masaaki fijó para quien quiera entrenar en el Bujinkan.
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: Sein Gründer soll mit einem Schlag eine Schwertklinge zerbrochen haben. Der Gikan-Ryū kennt keine Kata, und Hatsumi hat ihn bisher nicht öffentlich gelehrt.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

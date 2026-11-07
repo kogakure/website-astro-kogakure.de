@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 科学家、医生、商人或战士，每一条道路都可能通向开悟。忍者选择了战士之道，并终生追随它。
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

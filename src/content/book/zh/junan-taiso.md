@@ -5,6 +5,7 @@ date: '2006-03-28T17:29:00+02:00'
 author: Stefan Imhoff
 excerpt: 在忍术中，力量来自柔韧。柔软体操是忍者的体能训练，它让肌肉和肌腱恢复弹性，使身体直到老年都保持健康。
 translationKey: junanTaisoPage
+plate: 柔軟体操
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 望远镜、指南针、随身药盒、鬼面具，甚至还有一种飞行器：除了武器，忍者执行任务时还带些什么。
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

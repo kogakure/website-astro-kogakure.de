@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: After World War II, the Americans largely banned the martial arts in Japan. The knowledge of the ninja survived anyway – through a night watchman, an adventurer in China, and his student Hatsumi.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

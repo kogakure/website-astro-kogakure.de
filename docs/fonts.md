@@ -18,7 +18,7 @@ pnpm fonts --force    # rewrite every file
 | Frank Ruhl Libre       | Hebrew                                       | Variable wght 400–700                                                        |
 | Shippori Mincho        | Kanji in text; the text face of Japanese     | Static: 500 and 700 in the other languages, 400 and 700 in Japanese          |
 | Noto Serif SC, KR      | The text face of Chinese and Korean          | Instanced to 400 and 700                                                     |
-| Yuji Syuku             | Name plates and the kanji of margin glosses  | The plates, plus each page's gloss kanji                                     |
+| Yuji Syuku             | Name plates and the kanji of margin glosses  | The section plates, plus each page's plate term and gloss kanji              |
 
 - **Latin, Cyrillic, Hebrew:** shared by all languages, one file per script and face: `core` (digits, punctuation), `basic` (A–Z), `latin` (the rest of Latin-1 and what the texts use beyond it), `cyrillic`, `hebrew`. A Russian page doesn't load Latin letters for a Roman numeral it doesn't set; a Japanese page only loads `core`.
 - **Japanese, Chinese, Korean (and the kanji in other languages):** per language one `common` file with the characters on at least 30% of its pages, and per page one `page` file with exactly its other characters (no `unicode-range`: it holds only that page's characters). The bold files hold only what the page sets in bold (title, headings, `strong`, the glossary's terms).
@@ -34,12 +34,12 @@ About 150 KB of fonts for the first page. `pnpm fonts` prints it per language fo
 
 | Language      | Homepage | Median article | Largest (glossary) |
 | ------------- | -------: | -------------: | -----------------: |
-| de, en, es, … |   125 KB |         145 KB |             257 KB |
-| ru            |   158 KB |         147 KB |             310 KB |
-| he            |    62 KB |          72 KB |             229 KB |
-| ja            |   225 KB |         161 KB |             370 KB |
-| ko            |   181 KB |         161 KB |             355 KB |
-| zh            |   309 KB |         231 KB |             448 KB |
+| de, en, es, … |   125 KB |         146 KB |             236 KB |
+| ru            |   158 KB |         147 KB |             291 KB |
+| he            |    62 KB |          74 KB |             231 KB |
+| ja            |   229 KB |         168 KB |             377 KB |
+| ko            |   183 KB |         164 KB |             359 KB |
+| zh            |   314 KB |         238 KB |             454 KB |
 
 CJK pages set several hundred distinct glyphs at about 0.2 KB each; Chinese also sets romaji in Latin. Two levers if that is too much, both design decisions: synthetic bold instead of the bold CJK files (about −25%), or the system's CJK serif first.
 

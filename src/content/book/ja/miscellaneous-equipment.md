@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 遠眼鏡、羅針盤、携帯用の薬入れ、鬼の面、さらには空を飛ぶ道具まで。忍者が武器のほかに任務へ携えていたもの。
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

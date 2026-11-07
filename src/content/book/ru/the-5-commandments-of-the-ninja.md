@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Пропустить печаль, гнев, зависть и ненависть, как дым. Пять заповедей Хацуми Масааки на времена, когда человек печален, болен, ранен или в отчаянии.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

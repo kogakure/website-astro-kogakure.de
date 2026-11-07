@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: Пять стоек за три секунды. В ниндзюцу камаэ — не застывшие позы, а выражение внутреннего настроя и часть естественного движения.
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

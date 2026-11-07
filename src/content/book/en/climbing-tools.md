@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: Ladders to throw, fold, or stretch across chasms, ropes of women’s hair, claws for hands and feet – this is how the ninja got up trees, across ravines, and into castles.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

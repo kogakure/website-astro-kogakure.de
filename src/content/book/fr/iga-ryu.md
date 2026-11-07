@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: Des montagnes sur trois côtés, Kyōto toute proche et un général chinois en fuite – comment naquit à Iga l’une des plus anciennes traditions ninja, et qui la transmit.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

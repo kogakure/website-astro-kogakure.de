@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: Nach dem Zweiten Weltkrieg verboten die Amerikaner die Kampfkünste weitgehend. Das Wissen der Ninja überlebte trotzdem – über einen Nachtwächter, einen Abenteurer in China und dessen Schüler Hatsumi.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

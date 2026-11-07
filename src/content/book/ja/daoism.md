@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: 水は流れ、雲は行き、柳は雪の重みにしなう。道教は忍者に、物事の流れに逆らわず、流れとともに進むことを教えた。
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: Water stroomt, wolken drijven voorbij, de wilg buigt onder de sneeuw. Het daoïsme leerde de ninja mee te gaan met de loop der dingen in plaats van ertegenin.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 famílias, um comandante que trocou de lado no meio da batalha e dez batedores diante do Castelo de Hara – a história do Kōga-Ryū até Fujita Seiko, provavelmente seu último herdeiro.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: In the ninja’s teaching, everything in the universe vibrates, from a stone to a thought. The mind interprets these vibrations and links consciousness and body.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

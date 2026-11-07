@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: A madeira vira fogo, o fogo vira cinza. O gogyō, a doutrina daoísta dos cinco elementos, descreve como os elementos geram e dominam uns aos outros.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

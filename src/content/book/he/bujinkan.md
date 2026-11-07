@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: פעם היו ביפן כ־250 ריו. הבוג'ינקאן מאחד תשעה בתי ספר של לוחמים ושל נינג'ה – האצומי מאסאקי קרא לו בשם הזה לכבוד מורו טאקאמאצו.
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

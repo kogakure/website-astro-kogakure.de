@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: Una spada che dirige il sole negli occhi dell’avversario, uno sguardo tra le sopracciglia, cinque buchi di dita nella corteccia di un albero. Il Kotō-Ryū e i suoi metodi insoliti.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

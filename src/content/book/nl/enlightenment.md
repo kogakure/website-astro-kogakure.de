@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Wetenschapper, arts, koopman of krijger – elke weg kan naar verlichting leiden. De ninja koos de weg van de krijger en volgde die zijn leven lang.
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

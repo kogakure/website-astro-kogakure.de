@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: Its founder is said to have broken a sword blade with a single blow. The Gikan-Ryū has no kata, and Hatsumi has not yet taught it in public.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

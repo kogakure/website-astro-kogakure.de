@@ -5,6 +5,7 @@ priority: 305
 author: Stefan Imhoff
 excerpt: 最好的战斗，是从未发生的战斗。忍术的三条规则，从精神训练到驾驭身体，以及在无法避战时的九条要点。
 translationKey: combatRulesPage
+plate: 忍
 categories:
   - philosophy
   - strategy

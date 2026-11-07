@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: 거짓 공격, 바람에 펄럭이는 외투, 비가 오면 차라리 불가에 앉아 있는 경비병. 닌자는 이런 계략으로 적지를 지나 경비가 삼엄한 성에 들어갔다.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

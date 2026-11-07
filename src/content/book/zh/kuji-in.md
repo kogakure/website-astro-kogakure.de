@@ -5,6 +5,7 @@ date: '2006-04-02T14:37:00+02:00'
 author: Stefan Imhoff
 excerpt: 在81种手印和指印中，忍者采用了九种。只有具备正确的精神与宗教态度，再经过多年练习，它们才会生效。
 translationKey: kujiInPage
+plate: 九字印
 categories:
   - religion
 ---

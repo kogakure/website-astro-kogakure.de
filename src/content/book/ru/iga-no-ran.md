@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: Замок, который помогали строить сами враги, и 12 000 воинов, напавших через три перевала и потерпевших поражение, — как Ига выстояла в 1579 году против Нобуо, сына Оды Нобунаги.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

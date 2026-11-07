@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: Um falso ataque, um manto ao vento, um guarda que na chuva prefere ficar junto ao fogo – com astúcias assim os ninja cruzavam território inimigo e entravam em castelos vigiados.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

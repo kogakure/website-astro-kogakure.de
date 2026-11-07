@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Insegnata a lungo in segreto, orientata più allo spionaggio che al combattimento e nota per la corda da lancio – la scuola del cuore ingioiellato.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: Water flows, clouds drift, the willow bends under the snow. Daoism taught the ninja to move with the course of things instead of against it.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

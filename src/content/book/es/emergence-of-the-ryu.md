@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: Durante siglos los señores de Japón se hicieron la guerra, y todos necesitaban espías. En Iga y Kōga surgieron decenas de escuelas ninja para cubrir la demanda.
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

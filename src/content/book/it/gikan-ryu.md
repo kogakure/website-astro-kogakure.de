@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: Si dice che il suo fondatore abbia spezzato una lama con un solo colpo. Il Gikan-Ryū non ha kata, e finora Hatsumi non lo ha insegnato in pubblico.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

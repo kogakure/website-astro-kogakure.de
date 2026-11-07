@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: Мир положил конец эпохе ниндзя. При Токугаве они стали тайной полицией, ворами или садовниками, а в 1853 году одного из них послали тайком пробраться на корабли Перри.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

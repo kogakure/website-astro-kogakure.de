@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: Бесшумно по деревянному полу, через мелкую воду, распластавшись по земле, как саламандра. Эти техники шага и бега позволяли ниндзя двигаться неслышно.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

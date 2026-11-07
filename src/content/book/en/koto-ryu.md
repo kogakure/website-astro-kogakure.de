@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: A sword that turns the sun into the opponent’s eyes, a gaze aimed between the eyebrows, five finger holes in the bark of a tree. The Kotō-Ryū and its unusual methods.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

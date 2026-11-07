@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: 13岁时，他打败了一名职业相扑力士；在中国，他躲闪一位少林高手的攻击长达两个小时。高松寿嗣是初见良昭的老师，武神馆之名即由他而来。
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

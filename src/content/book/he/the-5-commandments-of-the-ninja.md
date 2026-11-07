@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: לתת לעצב, לכעס, לקנאה ולשנאה לחלוף כמו עשן. חמש דיברות מאת האצומי מאסאקי לימים שבהם אתה עצוב, חולה, פצוע או מיואש.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

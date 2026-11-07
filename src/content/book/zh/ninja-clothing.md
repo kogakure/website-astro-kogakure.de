@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 不是纯黑，很少戴面罩，常常根本不穿特制服装：忍者究竟穿什么，每一件又有什么用处。
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

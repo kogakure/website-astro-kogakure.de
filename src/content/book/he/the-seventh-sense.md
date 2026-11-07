@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: התת־מודע דוחק לקבל החלטה, תחושה מוקדמת מתעוררת. הנינג'ה התייחסו לתחושות כאלה ברצינות ואימנו אותן עד שחשו בסכנה.
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

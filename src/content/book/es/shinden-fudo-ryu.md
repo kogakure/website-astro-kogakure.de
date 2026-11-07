@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: Sin dōjō y sin aparatos de entrenamiento, en el Shinden-Fudō-Ryū se entrenaba con árboles y en el bosque de bambú. La Escuela del Corazón Inmóvil nació a mediados del siglo XII.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: O caractere nin da palavra ninja significa perseverar, suportar e ocultar. Esconder-se é o cerne do ninjutsu – e uma arte com regras firmes.
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

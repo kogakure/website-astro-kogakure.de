@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: 환경을 바꾸거나, 자신을 바꾸거나, 겉모습만 바꾼다. 닌자는 하늘과 땅과 사람의 원리로 모든 상황을 여러 각도에서 판단했다.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

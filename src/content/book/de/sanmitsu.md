@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: Gedanke, Wort und Tat sind die drei Geheimnisse des Mikkyō. Wie Mandala, Mantra und Mudrā sie verkörpern und warum ein gefaltetes Handzeichen allein keine Wunden heilt.
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

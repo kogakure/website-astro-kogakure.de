@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: 물은 흐르고, 구름은 떠가고, 버드나무는 눈의 무게에 몸을 굽힌다. 도교는 닌자에게 사물의 흐름을 거스르지 말고 함께 가라고 가르쳤다.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

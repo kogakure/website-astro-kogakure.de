@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: Wasser fließt, Wolken ziehen, die Weide gibt unter dem Schnee nach. Der Daoismus lehrte den Ninja, mit dem Lauf der Dinge zu gehen statt gegen ihn.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

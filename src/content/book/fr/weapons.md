@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: Chausse-trapes de fer, lances à crochet, sarbacanes, canons de bois – pour un ninja, chaque arme était un outil. Un aperçu de son arsenal.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

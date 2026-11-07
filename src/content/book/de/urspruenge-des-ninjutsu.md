@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: Die Leute hielten Waldgeister für die Lehrer der Ninja. Tatsächlich kamen die Wurzeln des Ninjutsu wohl aus China, und aus Bergasketen wurden mit der Zeit Spione.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

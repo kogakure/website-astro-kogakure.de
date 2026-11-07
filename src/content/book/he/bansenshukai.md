@@ -5,6 +5,7 @@ priority: 215
 author: Stefan Imhoff
 excerpt: ב־1676 אסף פוג'יבאיאשי יאסוטאקה את הידע של עשרות ריו של נינג'ה מאיגה ומקוגה. עשרה כרכים על אסטרטגיה, מוסר, הטעיה, מזג אוויר וכלים.
 translationKey: bansenshukaiPage
+plate: 萬川集海
 categories:
   - training
 ---

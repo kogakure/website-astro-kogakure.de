@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: 没有道场，没有训练器械：神传不动流的弟子在树旁和竹林里训练。这个不动之心的流派形成于12世纪中叶。
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

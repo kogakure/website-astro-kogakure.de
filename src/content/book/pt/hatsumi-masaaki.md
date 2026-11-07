@@ -5,6 +5,7 @@ date: '2006-04-02T15:02:00+02:00'
 author: Stefan Imhoff
 excerpt: Durante quinze anos, viajou todo fim de semana até seu mestre Takamatsu. Hoje Hatsumi Masaaki dirige o Bujinkan, onde ensina nove escolas como uma unidade.
 translationKey: hatsumiMasaakiPage
+plate: 初見良昭
 categories:
   - biography
 ---

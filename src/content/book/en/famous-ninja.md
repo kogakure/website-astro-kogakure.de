@@ -5,6 +5,7 @@ priority: 110
 author: Stefan Imhoff
 excerpt: Three families ruled Iga – the Hattori, Momochi and Fujibayashi. They produced Hattori Hanzō and Momochi Sandayū, the man who may have lived two lives.
 translationKey: famousNinjaPage
+plate: 服部半蔵
 categories:
   - biography
   - history

@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: В 1561 году пал Мотидзуки Моритоки. Его вдова Тиёмэ не ушла в монастырь. Она создала для Такэды Сингэна сеть агентов-женщин под видом храмовых служительниц.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

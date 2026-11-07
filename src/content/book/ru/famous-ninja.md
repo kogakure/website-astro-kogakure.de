@@ -5,6 +5,7 @@ priority: 110
 author: Stefan Imhoff
 excerpt: Ига правили три семьи — Хаттори, Момоти и Фудзибаяси. Из них вышли Хаттори Хандзо и Момоти Сандаю, человек, который, возможно, прожил две жизни.
 translationKey: famousNinjaPage
+plate: 服部半蔵
 categories:
   - biography
   - history

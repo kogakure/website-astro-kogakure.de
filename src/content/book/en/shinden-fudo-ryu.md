@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: No dōjō, no training equipment – in the Shinden-Fudō-Ryū, students trained on trees and in bamboo forests. The School of the Unmoved Heart dates from the mid-12th century.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

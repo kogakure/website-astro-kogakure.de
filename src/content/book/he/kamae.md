@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: חמש עמידות בשלוש שניות. בנינג'יטסו הקאמאה אינן תנוחות נוקשות, אלא ביטוי של הגישה הפנימית וחלק מהתנועה הטבעית.
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

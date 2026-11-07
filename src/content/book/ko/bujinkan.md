@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: 한때 일본에는 250개가량의 류가 있었다. 부진칸은 아홉 개의 무사 유파와 닌자 유파를 하나로 묶은 것으로, 하쓰미 마사아키가 스승 다카마쓰를 기려 이름을 지었다.
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

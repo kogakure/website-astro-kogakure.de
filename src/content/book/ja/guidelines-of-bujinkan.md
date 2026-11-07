@@ -5,6 +5,7 @@ date: '2006-04-02T15:17:00+02:00'
 author: Stefan Imhoff
 excerpt: 忍耐、自制、自己責任、そして会員証。武神館で稽古を望むすべての者に向けて、初見良昭博士が定めた規則である。
 translationKey: guidelinesOfBujinkanPage
+plate: 不動心
 categories:
   - guidelines
 ---

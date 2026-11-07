@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: 据说它的创始人一拳就把剑刃打成两截。义鉴流没有型，初见良昭至今也没有公开传授过它。
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

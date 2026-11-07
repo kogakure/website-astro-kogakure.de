@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: Senza rumore sulle assi di legno, nell’acqua bassa, appiattiti al suolo come una salamandra. Con queste tecniche di passo e di corsa i ninja si muovevano senza farsi sentire.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ priority: 200
 author: Stefan Imhoff
 excerpt: 닌자는 고문을 당해도 자신을 보낸 사람을 밝힐 수 없었다. 그 자신도 몰랐기 때문이다. 조닌, 주닌, 게닌의 세 계급이 류를 배신으로부터 지켰다.
 translationKey: organizationOfRyuPage
+plate: 上忍
 categories:
   - organization
 ---

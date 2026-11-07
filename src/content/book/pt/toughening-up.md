@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Golpes contra árvores, dedos cravados em baldes de areia e cascalho – assim os ninja endureciam suas armas do corpo até quase não sentirem mais dor.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

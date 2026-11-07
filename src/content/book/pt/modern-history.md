@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: Depois da Segunda Guerra Mundial, os americanos proibiram em grande parte as artes marciais no Japão. O saber dos ninja sobreviveu – por meio de um vigia noturno, um aventureiro na China e seu aluno Hatsumi.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: Peace ended the age of the ninja. Under the Tokugawa they became secret police, thieves, or gardeners – and in 1853 one of them was sent to sneak aboard Perry’s ships.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

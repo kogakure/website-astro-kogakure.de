@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Schläge gegen Bäume, Finger in Eimern voller Sand und Kies – so härteten die Ninja ihre Körperwaffen ab, bis sie Schmerzen kaum noch spürten.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

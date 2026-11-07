@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: 나무를 치고, 모래와 자갈이 든 통에 손가락을 찔러 넣는다 — 닌자는 이렇게 고통을 거의 느끼지 못할 때까지 신체 무기를 단련했다.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

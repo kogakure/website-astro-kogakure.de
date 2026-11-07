@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: A lost battle, a flight to Iga, and a teacher in the mountains – this is how Togakure Daisuke’s School of the Hidden Door began.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

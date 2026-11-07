@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: Long taught in secret, geared more to espionage than to combat, and known for the throwing rope – the School of the Jeweled Heart.
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

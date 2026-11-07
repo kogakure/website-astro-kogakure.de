@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: 侦察而不杀戮，虚实交替，精通每一种兵器。初见良昭从忍者的经验中总结出的十条戒律。
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

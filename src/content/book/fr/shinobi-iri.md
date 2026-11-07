@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: Sans bruit sur un plancher, à travers une eau peu profonde, à plat au sol comme une salamandre. Ces techniques de marche et de course permettaient aux ninja de passer inaperçus.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

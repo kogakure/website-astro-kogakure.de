@@ -5,6 +5,7 @@ date: '2006-04-02T15:04:00+02:00'
 author: Stefan Imhoff
 excerpt: かつて日本には約250の流派があった。武神館は武芸と忍術の九つの流派をまとめたもので、初見良昭が師の高松を称えて名づけた。
 translationKey: bujinkanPage
+plate: 武神館
 categories:
   - organization
   - schools

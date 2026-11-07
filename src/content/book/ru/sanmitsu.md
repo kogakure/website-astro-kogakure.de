@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: Мысль, слово и дело — три тайны миккё. Как их воплощают мандала, мантра и мудра и почему сложенный из пальцев знак сам по себе не исцеляет ран.
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

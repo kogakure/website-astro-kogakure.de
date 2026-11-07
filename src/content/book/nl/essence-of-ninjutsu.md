@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: Zelfbescherming, uithoudingsvermogen en een goedertieren hart. Wat Takamatsu Toshitsugu en Hatsumi Masaaki als de kern van het ninjutsu zien, en waarom vechttechniek alleen niet volstaat.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

@@ -5,6 +5,7 @@ date: '2006-04-02T14:59:00+02:00'
 author: Stefan Imhoff
 excerpt: Ein Bote, der abgefangen werden soll, ein Überläufer, der jahrelang auf ein Signal wartet – die Tōiri-Taktiken bereiteten den Krieg schon im Frieden vor.
 translationKey: toiriPage
+plate: 遠入
 categories:
   - strategy
   - tactics

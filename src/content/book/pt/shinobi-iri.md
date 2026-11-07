@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: Silenciosos sobre assoalhos de madeira, pela água rasa, rentes ao chão como uma salamandra. Com essas técnicas de passo e corrida, os ninja se moviam sem ser ouvidos.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

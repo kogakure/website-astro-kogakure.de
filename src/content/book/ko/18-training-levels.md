@@ -5,6 +5,7 @@ date: '2006-04-02T15:24:01+02:00'
 author: Stefan Imhoff
 excerpt: 자신을 아는 일에서 날씨를 내다보는 일까지. 도가쿠레류의 닌자가 자신을 갈고닦으려 애쓴 열여덟 가지 체계.
 translationKey: 18trainingLevelsPage
+plate: 精神的教養
 categories:
   - training
 ---

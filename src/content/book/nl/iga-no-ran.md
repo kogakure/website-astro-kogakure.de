@@ -5,6 +5,7 @@ priority: 130
 author: Stefan Imhoff
 excerpt: Een burcht, gebouwd met hulp van de vijand, en 12.000 man die door drie passen aanvielen en faalden – hoe Iga in 1579 standhield tegen Nobuo, de zoon van Oda Nobunaga.
 translationKey: igaNoRanPage
+plate: 伊賀の乱
 categories:
   - history
   - war

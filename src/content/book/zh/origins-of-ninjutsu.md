@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: 人们相信，忍者的老师是森林里的精怪。其实忍术的根源多半在中国，而山中的苦修者随着时间推移变成了间谍。
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

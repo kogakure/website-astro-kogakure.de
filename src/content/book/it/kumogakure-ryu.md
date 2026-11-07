@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja in armatura, a volte con una maschera da demone, e una lancia uncinata con cui Sarutobi Sasuke passava da un albero all’altro. Il Kumogakure-Ryū, la scuola della nuvola nascosta.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

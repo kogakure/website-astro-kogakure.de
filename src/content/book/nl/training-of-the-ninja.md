@@ -5,6 +5,7 @@ date: '2006-03-28T16:17:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja werd men door geboorte. Op vijf- of zesjarige leeftijd werd spel training, later kwamen vechten, toneelspel, psychologie en de scholing van de geest erbij.
 translationKey: trainingOfNinjaPage
+plate: 修験道
 categories:
   - training
 ---

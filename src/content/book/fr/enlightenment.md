@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Scientifique, médecin, marchand ou guerrier – toute voie peut mener à l’éveil. Le ninja choisit la voie du guerrier et la suivit toute sa vie.
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

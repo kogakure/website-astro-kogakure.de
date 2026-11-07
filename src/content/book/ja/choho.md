@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: たった一人の間者が、戦を何年も縮めることがある。中世において偵察と諜報は忍者の最も重要な任務であり、修行に欠かせない一部であった。
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

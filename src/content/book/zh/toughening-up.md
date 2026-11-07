@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: 击打树木，把手指插进装满沙子和砾石的桶里。忍者就是这样锻炼身体武器，直到几乎感觉不到疼痛。
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

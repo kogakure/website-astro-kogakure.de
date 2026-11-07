@@ -5,6 +5,7 @@ date: '2006-04-02T15:07:00+02:00'
 author: Stefan Imhoff
 excerpt: 它的动作形成于唐朝宫廷，它的第一代宗家生活在保元年间。玉虎流是武神馆九个传统流派中最古老的一个。
 translationKey: gyokkoRyuPage
+plate: 玉虎流
 categories:
   - history
   - schools

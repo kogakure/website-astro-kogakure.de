@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: Schon das Zeichen Nin im Wort Ninja bedeutet ausharren, erdulden und verbergen. Das Verstecken ist der Kern des Ninjutsu – und eine Kunst mit festen Regeln.
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

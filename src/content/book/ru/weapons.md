@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: Железные шипы, копья с крюком, духовые трубки, деревянные пушки — для ниндзя любое оружие было инструментом. Подборка из его арсенала.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

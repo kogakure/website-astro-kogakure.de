@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: Mountains on three sides, Kyōto close by, and a Chinese general on the run – how one of the oldest ninja traditions arose in Iga, and who passed it on.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

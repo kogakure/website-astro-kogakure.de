@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Saltare giù da un camion, scavalcare un muro, gettarsi a terra per schivare un proiettile. Nel ninjutsu si impara prima di tutto a rotolare e a cadere.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

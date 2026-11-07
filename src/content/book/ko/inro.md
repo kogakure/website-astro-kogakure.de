@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: '쥐 가루로 만든 수면 가스, 총상에 붙인 파, 갈증을 달래는 참깨 30알. 닌자가 여행용 약상자로 무엇을 조제했고 임무에 무엇을 챙겨 갔는지 살펴본다.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: '새까맣지 않았고, 복면은 드물었으며, 특별한 옷을 아예 입지 않을 때도 많았다. 닌자가 실제로 무엇을 입었고 각각이 어디에 쓰였는지 살펴본다.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

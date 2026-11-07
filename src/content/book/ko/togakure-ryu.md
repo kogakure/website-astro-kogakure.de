@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: 패배한 전투, 이가로의 도피, 산속의 스승. 도가쿠레 다이스케가 세운 숨은 문의 유파는 이렇게 시작되었다.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

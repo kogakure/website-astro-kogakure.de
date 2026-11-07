@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: מעץ נוצרת אש, מאש אפר. הגוגיו, התורה הטאואיסטית של חמשת היסודות, מתאר כיצד היסודות מולידים זה את זה ומכניעים זה את זה.
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

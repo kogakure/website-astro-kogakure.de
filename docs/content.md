@@ -60,6 +60,8 @@ All of them come from the one rest route `src/pages/[...route].astro`. The parts
 
 **Parts:** `getChapters(lang)` in `book.ts` gives the ten sections of the book (front matter, eight chapters, appendix) with their name plate, their scene (painting from `SCENES` in `plates.ts`, alt text and caption from the page that shows it) and their articles with ledes.
 
+**Name plate:** an article's opener shows its `plate` term (frontmatter, the same in all twelve languages, chosen in SI-476), or its part's kanji (`SECTION_PLATES`) where it has none. `pnpm fonts` subsets the brush face to each page's term.
+
 **Alternates map:** `buildAlternates()` (`src/lib/book/alternates.ts`) gives the URLs of all twelve language versions of every page, by `translationKey` (homepages: `home`, the contents: `contents`). Pages get it from `getAlternates()` in `src/lib/book/book.ts`, the only way pages access the book.
 
 ## Languages and UI strings

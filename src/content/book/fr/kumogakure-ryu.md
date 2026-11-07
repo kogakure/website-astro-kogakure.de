@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: Des ninja en armure, parfois sous un masque de démon, et une lance à crochet qui menait Sarutobi Sasuke d’arbre en arbre. Le Kumogakure-Ryū, l’école du nuage caché.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

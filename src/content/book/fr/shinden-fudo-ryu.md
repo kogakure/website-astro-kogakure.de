@@ -5,6 +5,7 @@ date: '2006-04-02T15:10:00+02:00'
 author: Stefan Imhoff
 excerpt: Ni dōjō ni matériel d’entraînement – au Shinden-Fudō-Ryū, on s’entraînait contre les arbres et dans les forêts de bambous. L’école du cœur immobile naquit au milieu du XIIe siècle.
 translationKey: shindenFudoRyuPage
+plate: 神伝不動流
 categories:
   - history
   - schools

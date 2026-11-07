@@ -5,6 +5,7 @@ priority: 115
 author: Stefan Imhoff
 excerpt: 'Una viuda que formó a huérfanas como espías, un tirador que falló a Nobunaga, un maestro ladrón hervido en aceite: diez ninja que hicieron historia.'
 translationKey: ninjaBiographiesPage
+plate: 乱破
 categories:
   - biography
   - history

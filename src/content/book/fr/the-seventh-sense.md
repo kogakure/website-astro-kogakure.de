@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Le subconscient pousse à une décision, un pressentiment se fait sentir : les ninja prenaient ces impressions au sérieux et les exerçaient jusqu’à sentir le danger.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

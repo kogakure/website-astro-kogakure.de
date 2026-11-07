@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: A river, a tree, a fire, a hole in the ground, a mirror – after a mission, the ninja used the five elements to get away.
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

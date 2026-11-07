@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 משפחות, מפקד שעבר צד באמצע הקרב ועשרה סיירים מול מבצר הארה – סיפורו של הקוגה ריו עד פוג'יטה סייקו, כנראה יורשו האחרון.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

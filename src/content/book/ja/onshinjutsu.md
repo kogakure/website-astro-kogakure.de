@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 忍者という語の忍の字には、耐え、忍び、隠すという意味がある。隠れることは忍術の核心であり、決まった規則をもつ技である。
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

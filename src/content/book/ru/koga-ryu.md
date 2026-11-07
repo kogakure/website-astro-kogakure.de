@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 семьи, военачальник, перешедший на другую сторону посреди битвы, и десять разведчиков у замка Хара — история Кога-рю вплоть до Фудзиты Сэйко, вероятно, ее последнего наследника.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

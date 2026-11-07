@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: 第二次世界大戦後、アメリカは日本の武術をおおむね禁じた。それでも忍者の知識は生き延びた。一人の夜警、中国を渡り歩いた冒険者、そしてその弟子初見を通じて。
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

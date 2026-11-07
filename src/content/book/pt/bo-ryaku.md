@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: Ponta de flecha, asa de grou, escama de peixe – oito formações de batalha dos generais japoneses e por que um ninja também precisava conhecê-las.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T15:14:00+02:00'
 author: Stefan Imhoff
 excerpt: Dizem que seu fundador quebrou a lâmina de uma espada com um único golpe. O Gikan-Ryū não tem kata, e Hatsumi ainda não o ensinou em público.
 translationKey: gikanRyuPage
+plate: 義鑑流
 categories:
   - history
   - schools

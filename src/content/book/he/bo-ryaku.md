@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: ראש חץ, כנף עגור, קשקש דג – שמונה מערכי קרב של המצביאים היפנים, ולמה גם נינג'ה היה חייב להכיר אותם.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

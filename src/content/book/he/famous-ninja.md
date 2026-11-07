@@ -5,6 +5,7 @@ priority: 110
 author: Stefan Imhoff
 excerpt: שלוש משפחות שלטו באיגה – האטורי, מומוצ'י ופוג'יבאיאשי. מהן יצאו האטורי האנזו ומומוצ'י סאנדאיו, האיש שאולי חי שני חיים.
 translationKey: famousNinjaPage
+plate: 服部半蔵
 categories:
   - biography
   - history

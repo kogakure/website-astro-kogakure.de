@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: Ninja in Rüstung, manchmal mit Dämonenmaske, und ein Hakenspeer, mit dem Sarutobi Sasuke von Baum zu Baum gelangte. Der Kumogakure-Ryū, die Schule der verborgenen Wolke.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

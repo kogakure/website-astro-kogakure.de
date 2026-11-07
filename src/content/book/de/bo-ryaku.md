@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: Pfeilspitze, Kranichschwinge, Fischschuppe – acht Schlachtformationen der japanischen Feldherren und warum auch ein Ninja sie kennen musste.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-01T16:35:06+02:00'
 author: Stefan Imhoff
 excerpt: Iron caltrops, hook spears, blowguns, wooden cannons – to a ninja, every weapon was a tool. A selection from the ninja arsenal.
 translationKey: weaponsPage
+plate: 忍びの武器
 categories:
   - weapons
 ---

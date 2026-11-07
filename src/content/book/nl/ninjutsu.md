@@ -5,6 +5,7 @@ priority: 5
 author: Stefan Imhoff
 excerpt: In de kern draait ninjutsu om een vrije en rechtvaardige geest. Hoe geschiedschrijving en media de naam van de ninja hebben vervalst, en wat het schriftteken 忍 verraadt.
 translationKey: ninjutsuPage
+plate: 忍術
 ---
 
 <figure>

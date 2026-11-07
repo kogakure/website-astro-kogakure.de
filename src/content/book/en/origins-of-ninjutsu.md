@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: People believed forest spirits had taught the ninja. The roots of ninjutsu more likely lay in China, and over the centuries mountain ascetics gave way to spies.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

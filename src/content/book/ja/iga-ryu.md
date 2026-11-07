@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: 三方を山に囲まれ、京都に近く、そして中国から逃れてきた一人の将軍。伊賀で最古級の忍者の伝統がどのように生まれ、誰に受け継がれたのか。
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

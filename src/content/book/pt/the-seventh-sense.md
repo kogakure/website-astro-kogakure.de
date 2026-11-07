@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 'O inconsciente empurra para uma decisão, um pressentimento se manifesta: os ninja levavam esses sentimentos a sério e os treinavam até sentir o perigo.'
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

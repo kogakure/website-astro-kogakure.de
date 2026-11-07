@@ -5,6 +5,7 @@ date: '2006-04-02T15:21:00+02:00'
 author: Stefan Imhoff
 excerpt: Laisser passer la tristesse, la colère, l’envie et la haine comme de la fumée. Cinq commandements de Hatsumi Masaaki pour les moments de tristesse, de maladie, de blessure ou de désespoir.
 translationKey: 5CommandmentsOfNinjaPage
+plate: 忍法
 categories:
   - philosophy
   - guidelines

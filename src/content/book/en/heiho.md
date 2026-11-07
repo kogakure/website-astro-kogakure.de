@@ -5,6 +5,7 @@ date: '2006-04-02T14:56:00+02:00'
 author: Stefan Imhoff
 excerpt: A mock attack, a coat flapping in the wind, a guard who would rather sit by the fire in the rain – with tricks like these, ninja crossed enemy territory and got into guarded castles.
 translationKey: heihoPage
+plate: 兵法
 categories:
   - strategy
   - tactics

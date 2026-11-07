@@ -5,6 +5,7 @@ priority: 110
 author: Stefan Imhoff
 excerpt: 伊贺由三个家族统治：服部氏、百地氏和藤林氏。服部半藏和百地三太夫都出自这些家族，而百地三太夫也许过着两种人生。
 translationKey: famousNinjaPage
+plate: 服部半蔵
 categories:
   - biography
   - history

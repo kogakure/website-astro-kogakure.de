@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: חרב שמכוונת את השמש אל עיני היריב, מבט אל הנקודה שבין הגבות, חמישה חורי אצבעות בקליפת עץ. קוטו ריו ושיטותיו יוצאות הדופן.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: '망원경, 나침반, 여행용 약상자, 귀신 가면, 그리고 날틀까지. 닌자가 무기 말고도 임무에 챙겨 간 것들.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

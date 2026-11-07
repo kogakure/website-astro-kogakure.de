@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: Веками японские князья воевали друг с другом, и каждому нужны были шпионы. Чтобы утолить этот спрос, в Ига и Кога возникли десятки школ ниндзя.
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

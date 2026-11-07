@@ -5,6 +5,7 @@ priority: 110
 author: Stefan Imhoff
 excerpt: 세 가문이 이가를 다스렸다. 핫토리, 모모치, 후지바야시다. 이들 가운데서 핫토리 한조, 그리고 어쩌면 두 인생을 살았을지 모를 모모치 산다유가 나왔다.
 translationKey: famousNinjaPage
+plate: 服部半蔵
 categories:
   - biography
   - history

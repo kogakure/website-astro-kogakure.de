@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: Ни поясов, ни кубков, ни правил. Тайдзюцу — основа ниндзюцу, естественный способ боя ради выживания, движения которого следуют стихиям земли, воды, огня и ветра.
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

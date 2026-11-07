@@ -5,6 +5,7 @@ priority: 105
 author: Stefan Imhoff
 excerpt: 何世紀にもわたり日本の領主たちは争い続け、誰もが密偵を必要とした。その需要に応えるため、伊賀と甲賀には数十もの忍者の流派が生まれた。
 translationKey: emergenceOfRyuPage
+plate: 流派
 categories:
   - history
 ---

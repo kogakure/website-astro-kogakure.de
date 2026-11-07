@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: Según la enseñanza de los ninja, todo en el universo vibra, desde una piedra hasta un pensamiento. El espíritu interpreta esas vibraciones y une la conciencia con el cuerpo.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

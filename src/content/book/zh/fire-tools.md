@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: 在木头和纸搭成的房屋里，火是最大的危险。忍者用火制造恐慌，也用火在黑夜里照明。
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: Около 250 мест на теле чувствительны к давлению и ударам, и 69 из них могут парализовать или убить. Карта важнейших зон поражения.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

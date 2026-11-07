@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: Geruisloos over houten vloeren, door ondiep water, plat op de grond als een salamander. Met deze loop- en staptechnieken bewogen de ninja zich ongehoord.
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

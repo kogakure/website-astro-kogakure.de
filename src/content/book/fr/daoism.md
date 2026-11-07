@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: L’eau coule, les nuages passent, le saule ploie sous la neige. Le daoïsme apprenait au ninja à suivre le cours des choses au lieu de lui résister.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

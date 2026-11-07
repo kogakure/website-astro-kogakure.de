@@ -5,6 +5,7 @@ date: '2006-04-01T17:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Not pitch black, rarely masked, often no special suit at all: what the ninja actually wore, and what each piece was for.'
 translationKey: ninjaClothingPage
+plate: 忍び装束
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: לסייר בלי להרוג, לסירוגין אמת ושקר, לשלוט בכל כלי נשק. עשרת הכללים שהאצומי מאסאקי גוזר מניסיונם של הנינג'ה.
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

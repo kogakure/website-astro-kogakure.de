@@ -5,6 +5,7 @@ date: '2006-04-01T17:51:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Catalejo, brújula, botiquín, máscara de demonio y hasta un aparato volador: lo que los ninja llevaban a sus misiones además de las armas.'
 translationKey: miscellaneousEquipmentPage
+plate: 忍具
 categories:
   - tools
 ---

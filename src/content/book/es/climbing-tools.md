@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: Escaleras que se lanzaban, se plegaban o se tendían sobre abismos, cuerdas de cabello de mujer, garras para manos y pies – así subían los ninja a los árboles y entraban en los castillos.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

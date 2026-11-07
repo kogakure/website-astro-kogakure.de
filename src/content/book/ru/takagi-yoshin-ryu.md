@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: Ива гнется, высокое дерево ломается. С этим уроком отца Такаги Ориэмон Сигэнобу создал школу, философия которой — уступчивость.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

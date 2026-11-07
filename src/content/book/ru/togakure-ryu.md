@@ -5,6 +5,7 @@ date: '2006-04-02T15:05:00+02:00'
 author: Stefan Imhoff
 excerpt: Проигранная битва, бегство в Ига и учитель в горах — так началась школа скрытой двери, основанная Тогакурэ Дайсукэ.
 translationKey: togakureRyuPage
+plate: 戸隠流
 categories:
   - history
   - schools

@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: 닌자의 가르침에 따르면 돌에서 생각에 이르기까지 우주의 모든 것은 진동한다. 정신은 이 진동을 해석하고 의식과 몸을 잇는다.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

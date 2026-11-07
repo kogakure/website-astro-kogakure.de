@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: 川、木、火、地面の穴、鏡。任務を終えた忍者は、五つの元素を使って逃げ延びた。
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

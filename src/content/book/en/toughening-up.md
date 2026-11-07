@@ -5,6 +5,7 @@ date: '2006-03-30T18:41:00+02:00'
 author: Stefan Imhoff
 excerpt: Strikes against trees, fingers driven into buckets of sand and gravel – this is how the ninja hardened their body weapons until they barely felt pain.
 translationKey: toughningUpPage
+plate: 骨法術
 categories:
   - training
   - weapons

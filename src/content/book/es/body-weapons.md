@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Frente, codo, pulgar, yemas de los dedos, talón – en el ninjutsu cada parte del cuerpo se convierte en un arma contra músculos, tendones y huesos.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

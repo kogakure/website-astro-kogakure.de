@@ -5,6 +5,7 @@ priority: 310
 author: Stefan Imhoff
 excerpt: Fluss, Rhythmus, Atmung, Distanz und Absicht entscheiden über den Ausgang eines Kampfes. Neun Faktoren des Taijutsu, von nagare bis ito.
 translationKey: combatFactorsPage
+plate: 間合い
 categories:
   - strategy
   - tactics

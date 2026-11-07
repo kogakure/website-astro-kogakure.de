@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: Earth, water, fire, wind, and void. Through the five elements of the godai, the ninja sought to understand how creation fits together – and with it, themselves.
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

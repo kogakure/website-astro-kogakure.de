@@ -5,6 +5,7 @@ date: '2006-04-02T15:15:00+02:00'
 author: Stefan Imhoff
 excerpt: נינג'ה בשריון, לפעמים מאחורי מסכת שד, וחנית־וו שנשאה את סארוטובי סאסוקה מעץ לעץ. קומוגאקורה ריו, אסכולת הענן הנסתר.
 translationKey: kumogakureRyuPage
+plate: 雲隠流
 categories:
   - history
   - schools

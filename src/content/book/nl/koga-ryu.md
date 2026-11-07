@@ -5,6 +5,7 @@ priority: 125
 author: Stefan Imhoff
 excerpt: 53 families, een bevelhebber die midden in de slag overliep, en tien verkenners voor de burcht Hara – het verhaal van de Kōga-Ryū tot Fujita Seiko, waarschijnlijk de laatste erfgenaam.
 translationKey: kogaRyuPage
+plate: 甲賀流
 categories:
   - biography
   - history

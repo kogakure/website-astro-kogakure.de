@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: 柳はしなり、高い木は折れる。父のこの教えをもとに、高木折右衛門重俊は柔らかさを哲学とする流派を築いた。
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

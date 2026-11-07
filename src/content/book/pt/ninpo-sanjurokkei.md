@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: Duas vezes dezoito dá as 36 estratégias militares – 18 artes de guerra básicas e 18 habilidades especiais em que os ninja treinavam.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

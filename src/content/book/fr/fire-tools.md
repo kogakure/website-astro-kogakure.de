@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: Dans des maisons de bois et de papier, le feu était le pire des dangers. Les ninja s’en servaient pour semer la panique – et pour y voir la nuit.
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: 열여덟의 두 배는 서른여섯 가지 군사 전략이다. 닌자가 수련한 18가지 기본 무예와 18가지 특수 기술.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

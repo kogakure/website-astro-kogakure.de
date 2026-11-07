@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: אין מקרה, מלמד המיקיו. כיצד הגיעה התורה הטנטרית מהודו דרך סין ליפן, ומדוע השתמשו בה הנינג'ה כדי להגביר את כוחותיהם.
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

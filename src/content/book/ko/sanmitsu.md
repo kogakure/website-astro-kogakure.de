@@ -5,6 +5,7 @@ date: '2006-04-02T14:35:00+02:00'
 author: Stefan Imhoff
 excerpt: 생각과 말과 행동은 밀교의 세 가지 비밀이다. 만다라와 진언과 수인이 이를 어떻게 구현하는지, 그리고 손가락을 접어 인을 맺는 것만으로는 왜 상처가 낫지 않는지.
 translationKey: sanmitsuPage
+plate: 三密
 categories:
   - philosophy
   - religion

@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: Scale da lanciare, ripiegare o tendere sopra gli abissi, corde di capelli femminili, artigli per mani e piedi – così i ninja salivano sugli alberi, superavano le gole ed entravano nei castelli.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: Aarde, water, vuur, wind en leegte. Via de vijf elementen van het godai probeerden de ninja de samenhang van de schepping te begrijpen – en daarmee zichzelf.
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

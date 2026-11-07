@@ -5,6 +5,7 @@ priority: 145
 author: Stefan Imhoff
 excerpt: После Второй мировой войны американцы в основном запретили в Японии боевые искусства. Знание ниндзя все же уцелело — благодаря ночному сторожу, искателю приключений в Китае и его ученику Хацуми.
 translationKey: modernHistoryPage
+plate: 宗家
 categories:
   - biography
   - history

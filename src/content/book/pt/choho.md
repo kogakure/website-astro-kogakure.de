@@ -5,6 +5,7 @@ date: '2006-04-02T14:55:00+02:00'
 author: Stefan Imhoff
 excerpt: Um único espião pode encurtar uma guerra em anos. Na Idade Média, reconhecimento e espionagem eram o principal campo de ação dos ninja – e parte fixa de sua formação.
 translationKey: chohoPage
+plate: 諜報
 categories:
   - strategy
   - tactics

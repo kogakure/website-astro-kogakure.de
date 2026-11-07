@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Wissenschaftler, Arzt, Händler oder Krieger – jeder Weg kann zur Erleuchtung führen. Der Ninja wählte den Weg des Kriegers und folgte ihm ein Leben lang.
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

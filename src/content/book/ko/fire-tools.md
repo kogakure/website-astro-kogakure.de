@@ -5,6 +5,7 @@ date: '2006-04-01T17:49:00+02:00'
 author: Stefan Imhoff
 excerpt: 나무와 종이로 지은 집에서 불은 가장 큰 위험이었다. 닌자는 불로 공포를 퍼뜨렸고, 어둠 속에서 앞을 보았다.
 translationKey: fireToolsPage
+plate: 火器
 categories:
   - tools
 ---

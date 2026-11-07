@@ -5,6 +5,7 @@ date: '2006-03-30T19:50:00+02:00'
 author: Stefan Imhoff
 excerpt: Fünf Stellungen in drei Sekunden. Im Ninjutsu sind die Kamae keine starren Posen, sondern Ausdruck der inneren Haltung und Teil der natürlichen Bewegung.
 translationKey: kamaePage
+plate: 構え
 categories:
   - training
 ---

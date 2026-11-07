@@ -5,6 +5,7 @@ date: '2006-04-02T14:38:00+02:00'
 author: Stefan Imhoff
 excerpt: Erde, Wasser, Feuer, Wind und Leere. Über die fünf Elemente des Godai suchten die Ninja die Zusammenhänge der Schöpfung zu verstehen – und damit sich selbst.
 translationKey: godaiPage
+plate: 五大
 categories:
   - philosophy
 ---

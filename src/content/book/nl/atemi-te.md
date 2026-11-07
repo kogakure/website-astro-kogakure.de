@@ -5,6 +5,7 @@ date: '2006-03-30T18:48:03+02:00'
 author: Stefan Imhoff
 excerpt: Zo’n 250 plekken op het lichaam zijn gevoelig voor druk en slagen, en 69 daarvan kunnen verlammen of doden. Een kaart van de belangrijkste trefzones.
 translationKey: atemitePage
+plate: 当身
 categories:
   - training
   - weapons

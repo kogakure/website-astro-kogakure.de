@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: 殺さずに探る、真と偽を使い分ける、あらゆる武器を使いこなす。初見良昭が忍者の経験から導き出した十の掟。
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

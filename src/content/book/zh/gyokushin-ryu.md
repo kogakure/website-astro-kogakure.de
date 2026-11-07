@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: 长期秘密传授，重谍报而轻格斗，以投绳闻名：这就是饰以珠宝的心之流。
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

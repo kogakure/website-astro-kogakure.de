@@ -5,6 +5,7 @@ date: '2006-04-02T14:48:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Река, дерево, огонь, яма в земле, зеркало — после задания ниндзя использовал пять стихий, чтобы скрыться.'
 translationKey: gotonPoPage
+plate: 五遁法
 categories:
   - strategy
   - tactics

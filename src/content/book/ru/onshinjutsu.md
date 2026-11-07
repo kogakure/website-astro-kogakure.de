@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Уже знак нин в слове ниндзя означает терпеть, выдерживать и скрывать. Умение прятаться — суть ниндзюцу и искусство со строгими правилами.'
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

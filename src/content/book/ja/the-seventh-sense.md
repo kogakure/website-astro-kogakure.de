@@ -5,6 +5,7 @@ date: '2006-04-02T14:43:00+02:00'
 author: Stefan Imhoff
 excerpt: 無意識が決断を促し、予感が胸をよぎる。忍者はそうした感覚を真剣に受け止め、危険を察知できるまで鍛えた。
 translationKey: seventhSensePage
+plate: 殺気
 categories:
   - training
 ---

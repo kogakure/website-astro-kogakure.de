@@ -5,6 +5,7 @@ date: '2006-04-02T14:50:00+02:00'
 author: Stefan Imhoff
 excerpt: 忍者一词中的忍字，意为坚持、忍耐和隐藏。藏身是忍术的核心，也是一门有严格规则的技艺。
 translationKey: onshinjutsuPage
+plate: 隠身術
 categories:
   - strategy
   - tactics

@@ -5,6 +5,7 @@ date: '2006-04-02T14:34:00+02:00'
 author: Stefan Imhoff
 excerpt: 偶然というものはない、と密教は説く。タントラの教えがインドから中国を経て日本へ渡った道のりと、忍者がそれを力を高めるために用いた理由。
 translationKey: mikkyoPage
+plate: 密教
 categories:
   - philosophy
   - religion

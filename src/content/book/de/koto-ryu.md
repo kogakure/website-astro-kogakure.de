@@ -5,6 +5,7 @@ date: '2006-04-02T15:12:00+02:00'
 author: Stefan Imhoff
 excerpt: Ein Schwert, das die Sonne in die Augen des Gegners lenkt, ein Blick zwischen die Augenbrauen, fünf Fingerlöcher in einer Baumrinde. Der Kotō-Ryū und seine ungewöhnlichen Methoden.
 translationKey: kotoRyuPage
+plate: 虎倒流
 categories:
   - history
   - schools

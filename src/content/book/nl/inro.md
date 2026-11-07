@@ -5,6 +5,7 @@ date: '2006-04-02T14:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 'Slaapgas van rattenpoeder, prei op een schotwond, 30 sesamzaadjes tegen de dorst: wat de ninja in zijn reisapotheek mengde en meenam op een missie.'
 translationKey: inroPage
+plate: 印籠
 categories:
   - tools
 ---

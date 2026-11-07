@@ -5,6 +5,7 @@ priority: 210
 author: Stefan Imhoff
 excerpt: In 1561 Mochizuki Moritoki fell in battle. His widow Chiyome did not enter a convent. She built a network of female agents for Takeda Shingen, disguised as temple servants.
 translationKey: kunoichiPage
+plate: くノ一
 categories:
   - organization
   - training

@@ -5,6 +5,7 @@ date: '2006-04-02T14:51:00+02:00'
 author: Stefan Imhoff
 excerpt: L’avversario lo vede, ma non lo nota. Con lo shichi hō de, le sette vie del camminare, il ninja sfruttava il filtro nella mente di ogni persona per sparire nella folla.
 translationKey: shichiHoDePage
+plate: 七方出
 categories:
   - strategy
   - tactics

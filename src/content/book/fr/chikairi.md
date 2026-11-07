@@ -5,6 +5,7 @@ date: '2006-04-02T15:00:00+02:00'
 author: Stefan Imhoff
 excerpt: Lettres falsifiées, fausse attaque, mendiant à la porte du château – par les tactiques chikairi, les ninja sabotaient l’ennemi et pénétraient dans ses châteaux dès le début du conflit.
 translationKey: chikairiPage
+plate: 近入
 categories:
   - strategy
   - tactics

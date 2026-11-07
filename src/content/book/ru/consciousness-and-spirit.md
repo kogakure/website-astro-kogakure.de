@@ -5,6 +5,7 @@ date: '2006-04-02T14:42:00+02:00'
 author: Stefan Imhoff
 excerpt: Согласно учению ниндзя, во вселенной вибрирует все — от камня до мысли. Дух истолковывает эти вибрации и связывает сознание с телом.
 translationKey: consciousnessAndSpiritPage
+plate: 心
 categories:
   - philosophy
   - training

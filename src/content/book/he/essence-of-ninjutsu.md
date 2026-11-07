@@ -5,6 +5,7 @@ date: '2006-04-02T15:19:00+02:00'
 author: Stefan Imhoff
 excerpt: הגנה עצמית, כוח עמידה ולב רחום. מה רואים טאקאמאצו טושיצוגו והאצומי מאסאקי כלב ליבו של הנינג'יטסו, ומדוע טכניקת לחימה לבדה אינה מספיקה.
 translationKey: essenceOfNinjutsuPage
+plate: 慈悲の心
 categories:
   - philosophy
   - guidelines

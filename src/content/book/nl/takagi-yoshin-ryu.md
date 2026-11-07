@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: Een wilg buigt, een hoge boom breekt. Met deze les van zijn vader bouwde Takagi Oriemon Shigenobu een school op waarvan de filosofie het meegeven is.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

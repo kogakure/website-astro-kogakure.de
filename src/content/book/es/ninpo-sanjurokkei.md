@@ -5,6 +5,7 @@ date: '2006-04-02T15:23:00+02:00'
 author: Stefan Imhoff
 excerpt: Dos veces dieciocho dan las 36 estrategias militares – 18 artes marciales básicas y 18 habilidades especiales en las que se entrenaban los ninja.
 translationKey: ninpoSanjurokkeiPage
+plate: 武芸十八般
 categories:
   - guidelines
   - training

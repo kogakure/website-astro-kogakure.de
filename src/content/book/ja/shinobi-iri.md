@@ -5,6 +5,7 @@ date: '2006-03-30T19:53:00+02:00'
 author: Stefan Imhoff
 excerpt: 板張りの床を音もなく、浅い水の中を、サンショウウオのように地に伏して。忍者はこうした歩法と走法で、誰にも気づかれずに動いた。
 translationKey: shinobiIriPage
+plate: 忍び入り
 categories:
   - training
 ---

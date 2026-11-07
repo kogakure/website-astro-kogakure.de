@@ -5,6 +5,7 @@ date: '2006-04-02T14:41:01+02:00'
 author: Stefan Imhoff
 excerpt: Change the world, change yourself, or change only how things look. With the principles of heaven, earth, and human, the ninja judged every situation from several angles.
 translationKey: tenChiJinPage
+plate: 天地人
 categories:
   - philosophy
   - strategy

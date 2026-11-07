@@ -5,6 +5,7 @@ priority: 100
 author: Stefan Imhoff
 excerpt: Men geloofde dat bosgeesten de leermeesters van de ninja waren. De wortels van het ninjutsu lagen eerder in China, en uit bergasceten groeiden na verloop van tijd spionnen.
 translationKey: originsOfNinjutsuPage
+plate: 天狗
 categories:
   - history
   - religion

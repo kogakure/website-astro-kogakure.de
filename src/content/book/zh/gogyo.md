@@ -5,6 +5,7 @@ date: '2006-04-02T14:39:01+02:00'
 author: Stefan Imhoff
 excerpt: 木生火，火成灰。五行是道家关于五种元素的学说，它描述各元素如何相生相克。
 translationKey: gogyoPage
+plate: 五行
 categories:
   - philosophy
 ---

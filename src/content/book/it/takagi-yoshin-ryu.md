@@ -5,6 +5,7 @@ date: '2006-04-02T15:13:00+02:00'
 author: Stefan Imhoff
 excerpt: Il salice si piega, l’albero alto si spezza. Con questo insegnamento del padre Takagi Oriemon Shigenobu fondò una scuola la cui filosofia è la cedevolezza.
 translationKey: takagiYoshinRyuPage
+plate: 高木楊心流
 categories:
   - history
   - schools

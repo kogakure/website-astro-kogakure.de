@@ -5,6 +5,7 @@ date: '2006-04-01T17:44:00+02:00'
 author: Stefan Imhoff
 excerpt: Barcas plegables, tubos para respirar, aletas – con sus herramientas acuáticas, los ninja cruzaban agua y pantanos tan rápido que los samurai con armadura se quedaban atrás.
 translationKey: waterToolsPage
+plate: 水器
 categories:
   - tools
 ---

@@ -5,6 +5,7 @@ priority: 120
 author: Stefan Imhoff
 excerpt: 삼면을 둘러싼 산, 가까운 교토, 그리고 쫓겨 온 중국인 장군. 이가에서 가장 오래된 닌자 전통의 하나가 어떻게 생겨나 누구에게 이어졌는지 살펴본다.
 translationKey: igaRyuPage
+plate: 伊賀流
 categories:
   - biography
   - history

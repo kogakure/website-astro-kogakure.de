@@ -5,6 +5,7 @@ date: '2006-04-02T15:11:00+02:00'
 author: Stefan Imhoff
 excerpt: 長く秘密裏に伝えられ、戦いよりも諜報を重んじ、投げ縄で知られた流派。宝玉で飾られた心の流派である。
 translationKey: gyokushinRyuPage
+plate: 玉心流
 categories:
   - history
   - schools

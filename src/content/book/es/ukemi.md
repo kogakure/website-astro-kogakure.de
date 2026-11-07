@@ -5,6 +5,7 @@ date: '2006-03-30T19:51:00+02:00'
 author: Stefan Imhoff
 excerpt: Saltar de un camión, salvar un muro, tirarse al suelo para esquivar una bala. Lo primero que enseña el ninjutsu es a rodar y a caer bien.
 translationKey: ukemiPage
+plate: 受身
 categories:
   - training
 ---

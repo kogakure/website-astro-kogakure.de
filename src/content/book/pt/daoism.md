@@ -5,6 +5,7 @@ date: '2006-04-02T14:45:00+02:00'
 author: Stefan Imhoff
 excerpt: A água corre, as nuvens passam, o salgueiro se curva sob a neve. O daoísmo ensinou o ninja a seguir o curso das coisas em vez de lutar contra ele.
 translationKey: daoismPage
+plate: 道
 categories:
   - philosophy
 ---

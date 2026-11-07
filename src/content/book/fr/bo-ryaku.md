@@ -5,6 +5,7 @@ date: '2006-04-02T14:58:00+02:00'
 author: Stefan Imhoff
 excerpt: Pointe de flèche, aile de grue, écaille de poisson – huit formations de bataille des généraux japonais, et pourquoi un ninja devait les connaître lui aussi.
 translationKey: boryakuPage
+plate: 謀略
 categories:
   - strategy
   - tactics

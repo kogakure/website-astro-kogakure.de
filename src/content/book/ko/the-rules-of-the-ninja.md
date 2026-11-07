@@ -5,6 +5,7 @@ date: '2006-04-02T15:20:00+02:00'
 author: Stefan Imhoff
 excerpt: 죽이지 않고 정탐하기, 진실과 거짓의 교차, 모든 무기의 숙달. 하쓰미 마사아키가 닌자의 경험에서 끌어낸 열 가지 규칙.
 translationKey: rulesOfNinjaPage
+plate: 虚実転換法
 categories:
   - guidelines
 ---

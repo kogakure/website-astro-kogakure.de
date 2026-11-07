@@ -5,6 +5,7 @@ priority: 300
 author: Stefan Imhoff
 excerpt: No belts, no trophies, no rules. Taijutsu is the foundation of ninjutsu, a natural way of fighting built for survival, with movements that follow earth, water, fire, and wind.
 translationKey: taijutsuPage
+plate: 体術
 categories:
   - training
 ---

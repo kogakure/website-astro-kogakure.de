@@ -5,6 +5,7 @@ date: '2006-04-02T15:01:02+02:00'
 author: Stefan Imhoff
 excerpt: Mit 13 besiegte er einen Sumō-Profi, in China wich er zwei Stunden lang einem Shaolin-Meister aus. Takamatsu Toshitsugu war der Lehrer von Hatsumi Masaaki und der Namensgeber des Bujinkan.
 translationKey: takamatsuToshitsuguPage
+plate: 高松寿嗣
 categories:
   - biography
 ---

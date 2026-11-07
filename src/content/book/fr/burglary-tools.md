@@ -5,6 +5,7 @@ date: '2006-04-01T17:46:00+02:00'
 author: Stefan Imhoff
 excerpt: Entrer dans n’importe quelle forteresse, sortir de n’importe quelle prison – telle était la réputation des ninja. Ils avaient pour cela des outils pour scier, percer et creuser.
 translationKey: burglaryToolsPage
+plate: 開器
 categories:
   - tools
 ---

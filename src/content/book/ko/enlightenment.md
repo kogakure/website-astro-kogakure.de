@@ -5,6 +5,7 @@ date: '2006-04-02T14:44:00+02:00'
 author: Stefan Imhoff
 excerpt: 과학자, 의사, 상인, 무사. 어떤 길이든 깨달음으로 이어질 수 있다. 닌자는 무사의 길을 골라 평생 그 길을 따랐다.
 translationKey: enlightenmentPage
+plate: 悟り
 categories:
   - philosophy
   - religion

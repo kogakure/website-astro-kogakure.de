@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: מצח, מרפק, אגודל, קצות אצבעות, עקב – בנינג'יטסו כל חלק בגוף הופך לנשק נגד שרירים, גידים ועצמות.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

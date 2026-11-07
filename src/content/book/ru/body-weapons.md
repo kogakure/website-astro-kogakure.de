@@ -5,6 +5,7 @@ date: '2006-03-28T17:32:00+02:00'
 author: Stefan Imhoff
 excerpt: Лоб, локоть, большой палец, кончики пальцев, пятка — в ниндзюцу любая часть тела становится оружием против мышц, сухожилий и костей.
 translationKey: bodyWeaponsPage
+plate: 拳
 categories:
   - training
   - weapons

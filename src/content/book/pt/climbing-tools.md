@@ -5,6 +5,7 @@ date: '2006-04-01T17:47:00+02:00'
 author: Stefan Imhoff
 excerpt: Escadas para lançar, dobrar ou estender sobre abismos, cordas de cabelo feminino, garras para mãos e pés – assim os ninja subiam em árvores, cruzavam ravinas e entravam em castelos.
 translationKey: climbingToolsPage
+plate: 登器
 categories:
   - tools
 ---

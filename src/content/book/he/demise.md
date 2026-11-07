@@ -5,6 +5,7 @@ priority: 140
 author: Stefan Imhoff
 excerpt: השלום הוא שסיים את עידן הנינג'ה. תחת שלטון טוקוגאווה הם נעשו שוטרים חשאיים, גנבים או גננים – וב־1853 נשלח אחד מהם להתגנב לספינות של פרי.
 translationKey: demisePage
+plate: 大目付
 categories:
   - history
 ---

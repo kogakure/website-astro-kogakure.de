@@ -5,6 +5,7 @@ date: '2006-04-02T15:02:00+02:00'
 author: Stefan Imhoff
 excerpt: Пятнадцать лет он каждые выходные ездил к своему учителю Такамацу. Сегодня Хацуми Масааки возглавляет Будзинкан, где преподает девять школ как единое целое.
 translationKey: hatsumiMasaakiPage
+plate: 初見良昭
 categories:
   - biography
 ---
