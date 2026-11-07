@@ -11,12 +11,12 @@ export const CACHES = {
 	shell: 'kogakure-shell',
 	/** The HTML of the pages read, NetworkFirst: online the reader always gets the page as deployed */
 	pages: { name: 'kogakure-pages', limit: 150 },
-	/** /_astro/: named by their content hash, CacheFirst */
-	assets: { name: 'kogakure-assets', limit: 120 },
+	/** /_astro/: named by their content hash, CacheFirst; the saved pages of a few deploys back */
+	assets: { name: 'kogakure-assets', limit: 60 },
 	/** /fonts/: the subsets, named by their content hash, CacheFirst */
 	fonts: { name: 'kogakure-fonts', limit: 80 },
-	/** /images/: the paintings in the size the page chose, CacheFirst */
-	images: { name: 'kogakure-images', limit: 60 },
+	/** /images/: the paintings in the size the page chose, StaleWhileRevalidate (named by their source) */
+	images: { name: 'kogakure-images', limit: 40 },
 } as const;
 
 /** Seconds a page may take before a saved copy is shown instead */

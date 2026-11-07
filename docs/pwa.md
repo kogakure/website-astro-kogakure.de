@@ -33,15 +33,15 @@ One manifest per language, `/manifest.webmanifest` and `/<lang>/manifest.webmani
 
 `src/integrations/pwa.ts` writes `dist/sw.js` after the build from `src/integrations/sw.js`, its `CONFIG` filled in: the shell, the version (a hash of the shell's files), the offline pages by language prefix, the caches (`src/lib/pwa/caches.ts`).
 
-| Cache                      | What                                                                                                   | Strategy                                                                                    |
-| -------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| `kogakure-shell-<version>` | The twelve offline pages, their styles and scripts, the colophon's ink, icons, manifests (some 700 KB) | Precached on install; one per deploy, the old one deleted when the new worker takes over    |
-| `kogakure-pages`           | The pages read, up to 150                                                                              | NetworkFirst; the saved copy without a connection or after 4 seconds; else the offline page |
-| `kogakure-assets`          | `/_astro/`, up to 120                                                                                  | CacheFirst (named by their content)                                                         |
-| `kogakure-fonts`           | `/fonts/`, up to 80                                                                                    | CacheFirst (named by their content)                                                         |
-| `kogakure-images`          | `/images/`, up to 60                                                                                   | CacheFirst                                                                                  |
+| Cache                      | What                                                                                                   | Strategy                                                                                                        |
+| -------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| `kogakure-shell-<version>` | The twelve offline pages, their styles and scripts, the colophon's ink, icons, manifests (some 700 KB) | Precached on install; one per deploy, the old one deleted when the new worker takes over                        |
+| `kogakure-pages`           | The pages read, up to 150                                                                              | NetworkFirst; the saved copy without a connection or after 4 seconds; else the offline page                     |
+| `kogakure-assets`          | `/_astro/`, up to 60                                                                                   | CacheFirst (named by their content); a shell file is copied in, so saved pages keep their styles after a deploy |
+| `kogakure-fonts`           | `/fonts/`, up to 80                                                                                    | CacheFirst (named by their content)                                                                             |
+| `kogakure-images`          | `/images/`, up to 40                                                                                   | StaleWhileRevalidate (named by their source: a painting made again keeps its name)                              |
 
-The limits keep the budget small (the site has some 300 MB of paintings); the oldest entries go first. The page the reader opened before the worker was there is saved when it takes over. The search (`/pagefind/`) needs a connection; without one its dialog says so.
+The limits keep the budget small (the site has some 300 MB of paintings); the oldest entries go first. The page the reader opened before the worker was there is saved when it takes over (within the timeout). Pages are matched without their query, and only HTML is saved. The search (`/pagefind/`) needs a connection; without one its dialog says so.
 
 **Updates:** nginx serves `/sw.js` no-cache, so the browser finds a new worker on the next visit. A deploy that changes the shell is a new worker; it installs, takes over at once (`skipWaiting`, `clients.claim`) and deletes the old shell. Pages always come from the network first, so no deploy leaves a reader on a stale page while online.
 

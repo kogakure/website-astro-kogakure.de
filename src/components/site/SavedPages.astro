@@ -24,9 +24,23 @@ const { heading } = Astro.props;
 	const section = document.querySelector<HTMLElement>('[data-saved-pages]');
 	const list = section?.querySelector('[data-saved-list]');
 
+	/** A saved page up to the end of its head: a few KB of its 100 */
+	async function head(response: Response) {
+		if (!response.body) return '';
+		const reader = response.body.pipeThrough(new TextDecoderStream()).getReader();
+		let html = '';
+		while (!html.includes('</head>')) {
+			const { value, done } = await reader.read();
+			if (done) break;
+			html += value;
+		}
+		await reader.cancel();
+		return html;
+	}
+
 	/** A saved page's title (og:title: without the book's name) and language */
 	async function describe(response: Response) {
-		const doc = new DOMParser().parseFromString(await response.text(), 'text/html');
+		const doc = new DOMParser().parseFromString(await head(response), 'text/html');
 		const title = doc.querySelector<HTMLMetaElement>('meta[property="og:title"]')?.content;
 		return title ? { title, lang: doc.documentElement.lang } : undefined;
 	}

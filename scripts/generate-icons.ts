@@ -30,22 +30,32 @@ import {
 } from '../src/lib/pwa/pwa.ts';
 
 const PUBLIC = path.resolve(import.meta.dirname, '../public');
+const TOKENS = fs.readFileSync(
+	path.resolve(import.meta.dirname, '../src/styles/tokens.css'),
+	'utf8'
+);
 
-/** The plate's colours per mode (tokens.css: --plate, --plate-ink, --shadow-ink) */
-const COLOURS: Record<Mode, { ground: string; plate: string; ink: string; shadow: string }> = {
-	light: {
-		ground: GROUNDS.light.home,
-		plate: '#faf8f4',
-		ink: '#16110c',
-		shadow: 'rgb(22 17 12 / 0.55)',
-	},
-	dark: {
-		ground: GROUNDS.dark.home,
-		plate: '#e6dfcf',
-		ink: '#0e1620',
-		shadow: 'rgb(0 0 0 / 0.65)',
-	},
-};
+/** A colour role of tokens.css in a mode: `--plate: light-dark(#faf8f4, #e6dfcf)` */
+function token(name: string, mode: Mode): string {
+	const match = new RegExp(
+		`${name}:\\s*light-dark\\(((?:[^(),]|\\([^)]*\\))+),\\s*((?:[^(),]|\\([^)]*\\))+)\\)`
+	).exec(TOKENS);
+	if (!match) throw new Error(`tokens.css: no light-dark() for ${name}`);
+	return (mode === 'light' ? match[1] : match[2])!.trim();
+}
+
+/** The plate's colours per mode, from the design's roles */
+const COLOURS = Object.fromEntries(
+	(['light', 'dark'] as const).map((mode) => [
+		mode,
+		{
+			ground: GROUNDS[mode].home,
+			plate: token('--plate', mode),
+			ink: token('--plate-ink', mode),
+			shadow: token('--shadow-ink', mode),
+		},
+	])
+) as Record<Mode, { ground: string; plate: string; ink: string; shadow: string }>;
 
 /*
  * The plate's measures in em, as NamePlate.astro sets them in vertical-rl:
@@ -162,8 +172,8 @@ const write = async (url: string, data: Buffer | string) => {
 	return fs.statSync(file).size;
 };
 
-const png = (svg: string, palette = false) =>
-	sharp(Buffer.from(svg)).png({ compressionLevel: 9, palette }).toBuffer();
+// Full colour: a palette would band the plate's soft shadow
+const png = (svg: string) => sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toBuffer();
 
 const svg = favicon();
 await write(FAVICON_SVG, svg);
@@ -203,7 +213,7 @@ let launchBytes = 0;
 for (const screen of LAUNCH_SCREENS) {
 	launchBytes += await write(
 		screen.href,
-		await png(scene(screen.width, screen.height, screen.mode, 0.36), true)
+		await png(scene(screen.width, screen.height, screen.mode, 0.36))
 	);
 }
 console.log(

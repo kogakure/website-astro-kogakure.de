@@ -27,6 +27,9 @@ test.describe('offline', () => {
 
 		await page.reload();
 		await expect(page.getByRole('heading', { level: 1 })).toHaveText('Abhärtung');
+		// A link with a query is the same saved page
+		await page.goto('/abhaertung/?utm_source=test');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('Abhärtung');
 
 		await page.goto('/kamae/');
 		await expect(page).toHaveURL('/kamae/');
@@ -49,6 +52,28 @@ test.describe('offline', () => {
 		await expect(page.getByRole('heading', { level: 1 })).toHaveText('No connection');
 		await page.goto('/he/kamae/');
 		await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+	});
+
+	test('a page read keeps its styles beyond the shell, which the next deploy deletes', async ({
+		page,
+	}) => {
+		await page.goto('/abhaertung/');
+		await saved(page);
+		// Now the worker answers: the stylesheet, also in the shell, is kept on its own
+		await page.reload();
+		const stylesheet = await page
+			.locator('link[rel="stylesheet"]')
+			.first()
+			.evaluate((link: HTMLLinkElement) => link.href);
+		await expect
+			.poll(() =>
+				page.evaluate(
+					async (href) =>
+						Boolean(await (await caches.open('kogakure-assets')).match(href)),
+					stylesheet
+				)
+			)
+			.toBe(true);
 	});
 
 	test('the worker precaches the shell of this build', async ({ request }) => {
