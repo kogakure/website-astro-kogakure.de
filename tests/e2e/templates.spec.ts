@@ -153,6 +153,21 @@ test.describe('mode', () => {
 });
 
 test.describe('reading', () => {
+	test('„Lesen“ resumes while the page is parsed, before any bundled script', async ({
+		page,
+	}) => {
+		await page.goto('/');
+		await page.evaluate(() =>
+			localStorage.setItem(
+				'kogakure-reading',
+				JSON.stringify({ key: 'chronolyPage', lang: 'de', hash: '' })
+			)
+		);
+		await page.route('**/_astro/*.js', (route) => route.abort());
+		await page.goto('/', { waitUntil: 'domcontentloaded' });
+		await expect(page.locator('[data-resume] a')).toHaveText('Lesen: Chronologie');
+	});
+
 	test('„Lesen“ starts at the beginning, then resumes at the last article', async ({ page }) => {
 		await page.goto('/');
 		const read = page.locator('[data-resume] a');
