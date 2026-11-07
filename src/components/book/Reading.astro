@@ -3,7 +3,8 @@
  * The reading grid of an article: the section list, then the text. From
  * 75em the list stands sticky beside the text and the glosses in the outer
  * margin (13rem · measure · 13rem). Stores the reader's place for „Lesen“
- * on the homepage as they read (src/lib/book/reading.ts).
+ * on the homepage as they read (src/lib/book/reading.ts), and loads every
+ * figure before the page is printed.
  */
 import Prose from '@/components/site/Prose.astro';
 import SectionList, { type Section } from '@/components/site/SectionList.astro';
@@ -50,6 +51,12 @@ const { heading, sections, layout, opener = false, position } = Astro.props;
 		);
 		// The section list may have told its position before this listened
 		dispatchEvent(new Event('sectionrequest'));
+		// Print lays out the whole text: the figures not yet scrolled to load now
+		addEventListener('beforeprint', () => {
+			for (const image of reading.querySelectorAll('img[loading="lazy"]')) {
+				image.setAttribute('loading', 'eager');
+			}
+		});
 	}
 </script>
 

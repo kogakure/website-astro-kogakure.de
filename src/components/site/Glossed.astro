@@ -5,6 +5,8 @@
  * same styles (prose.css) set it: inline in parentheses on narrow screens,
  * in the outer margin from 75em (inside Prose with `margin`). A screen
  * reader hears „tengu 天狗 Himmelhund“; the repeated term is hidden from it.
+ * The spaces are written out, as the plugin writes them: one between term
+ * and kanji, one at the start of the meaning.
  * For terms outside the texts, e.g. on the design-system page.
  */
 interface Props {
@@ -23,14 +25,9 @@ const { term, kanji, meaning } = Astro.props;
 <span class="gloss">
 	<span class="gloss-term" aria-hidden="true" lang="ja-Latn">
 		{term}
-	</span>
+	</span>{' '}
 	<span class="gloss-kanji" lang="ja">
 		{kanji}
 	</span>
-	{meaning && (
-		<>
-			{' '}
-			<span class="gloss-meaning" set:html={meaning} />
-		</>
-	)}
+	{meaning && <span class="gloss-meaning" set:html={` ${meaning}`} />}
 </span>

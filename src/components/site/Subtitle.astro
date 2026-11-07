@@ -46,6 +46,9 @@ const { html, as: Tag = 'p', size = 'label', class: className } = Astro.props;
 		box-shadow: 0 0 0 1px var(--sub-edge);
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
+		/* Light text on its sumi box: printed with the box, even without background graphics */
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
 	}
 
 	.subtitle :global(:is(em, i)) {

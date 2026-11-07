@@ -13,8 +13,12 @@ const OPENING = new RegExp(`^ \\((${CJK})(\\)|, )`);
  *   <em lang="ja-Latn">term</em><span class="gloss">
  *     <span class="gloss-term" aria-hidden="true" lang="ja-Latn">term</span>
  *     <span class="gloss-kanji" lang="ja">漢字</span>
- *     <span class="gloss-meaning"><q>meaning</q></span>
+ *     <span class="gloss-meaning"> <q>meaning</q></span>
  *   </span>
+ *
+ * Without the line breaks, but with one space between term and kanji and
+ * one at the start of the meaning: a screen reader hears the words apart,
+ * and inline the parentheses (prose.css) close around them, „(漢字, meaning)“.
  *
  * A screen reader hears „tengu 天狗 Himmelhund“; the repeated term is hidden
  * from it. Paragraphs, list items and table cells; captions keep their kanji
@@ -59,7 +63,12 @@ export function glossChildren(children: readonly ElementContent[]): ElementConte
 				text(' '),
 				element('span', { className: ['gloss-kanji'], lang: 'ja' }, [text(gloss.kanji)]),
 				...(gloss.meaning.length > 0
-					? [text(' '), element('span', { className: ['gloss-meaning'] }, gloss.meaning)]
+					? [
+							element('span', { className: ['gloss-meaning'] }, [
+								text(' '),
+								...gloss.meaning,
+							]),
+						]
 					: []),
 			])
 		);

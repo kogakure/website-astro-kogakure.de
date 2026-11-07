@@ -225,13 +225,17 @@ test.describe('every page type in every language', () => {
 
 	for (const lang of ['de', 'he', 'ja'] as const) {
 		for (const [type, path] of Object.entries(PAGE_TYPES)) {
-			test(`${lang} ${type} page has no accessibility violations`, async ({ page }) => {
-				// The settled page: axe can't judge contrast mid-animation
-				await page.emulateMedia({ reducedMotion: 'reduce' });
-				await page.goto(path(lang));
-				const results = await new AxeBuilder({ page }).analyze();
-				expect(results.violations).toEqual([]);
-			});
+			for (const colorScheme of ['light', 'dark'] as const) {
+				test(`${lang} ${type} page has no accessibility violations (${colorScheme})`, async ({
+					page,
+				}) => {
+					// The settled page: axe can't judge contrast mid-animation
+					await page.emulateMedia({ colorScheme, reducedMotion: 'reduce' });
+					await page.goto(path(lang));
+					const results = await new AxeBuilder({ page }).analyze();
+					expect(results.violations).toEqual([]);
+				});
+			}
 		}
 	}
 });

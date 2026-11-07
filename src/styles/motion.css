@@ -195,8 +195,9 @@
 	animation: spread var(--duration-transition) cubic-bezier(0.33, 0, 0.2, 1) both;
 }
 
-/* Reduced motion: everything static, no view transition */
-@media (prefers-reduced-motion: reduce) {
+/* Reduced motion: everything static, no view transition. Paper doesn't
+   move either: in print every motion is at rest */
+@media (prefers-reduced-motion: reduce), print {
 	*,
 	::before,
 	::after {

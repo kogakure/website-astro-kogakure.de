@@ -236,9 +236,12 @@
 /* ---------------------------------------------------------------- glosses */
 
 /* A Japanese term with its kanji and meaning (glossed-terms.ts):
-   inline in parentheses on narrow screens, as in the source */
-.gloss::before {
-	content: ' (';
+   inline in parentheses on narrow screens, as in the source. The
+   parenthesis opens on the kanji, after the space that a screen reader
+   hears between term and kanji */
+.gloss-kanji::before {
+	content: '(';
+	color: var(--text);
 }
 
 .gloss::after {
@@ -277,7 +280,7 @@
 		hyphens: manual;
 	}
 
-	.prose-margin .gloss::before,
+	.prose-margin .gloss-kanji::before,
 	.prose-margin .gloss::after,
 	.prose-margin .gloss-meaning::before {
 		content: none;
@@ -411,4 +414,49 @@
 .prose dd {
 	margin-inline-start: 1.25rem;
 	margin-block-end: 0.6em;
+}
+
+/* ------------------------------------------------------------------ print */
+
+/* The day colours on white come from global.css; here the text keeps
+   together across pages and its links say where they lead */
+@media print {
+	/* The dry-brush dividers are masked fills: ink even without background graphics */
+	.prose h2::before {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+
+	.prose :is(h2, h3) {
+		break-after: avoid;
+		break-inside: avoid;
+	}
+
+	.prose :is(p, li, dd) {
+		orphans: 3;
+		widows: 3;
+	}
+
+	.prose :is(figure, table, blockquote, .banner) {
+		break-inside: avoid;
+	}
+
+	/* On paper a link is its address: the book's own pages on its domain.
+	   Isolated, so the address reads left to right in Hebrew too */
+	.prose a[href^='/']:not([href^='//'])::after,
+	.prose a[href^='http']::after {
+		unicode-bidi: isolate;
+		direction: ltr;
+		font-size: 0.8em;
+		color: var(--text-2);
+		overflow-wrap: anywhere;
+	}
+
+	.prose a[href^='/']:not([href^='//'])::after {
+		content: ' (www.kogakure.de' attr(href) ')';
+	}
+
+	.prose a[href^='http']::after {
+		content: ' (' attr(href) ')';
+	}
 }
