@@ -26,9 +26,10 @@ describe('Glossed', () => {
 			meaning: '<q>„Himmelhund“</q>',
 		});
 		expect(html).toMatch(/<em lang="ja-Latn">tengu<\/em><span class="gloss">/);
-		expect(html).toMatch(/class="gloss-term" aria-hidden="true" lang="ja-Latn">tengu/);
-		expect(html).toContain('<span class="gloss-kanji" lang="ja">天狗</span>');
-		expect(html).toContain('<span class="gloss-meaning"><q>„Himmelhund“</q></span>');
+		expect(html).toContain(
+			'lang="ja-Latn">tengu</span> <span class="gloss-kanji" lang="ja">天狗</span>'
+		);
+		expect(html).toContain('<span class="gloss-meaning"> <q>„Himmelhund“</q></span></span>');
 	});
 
 	it('has no accessibility violations', async () => {

@@ -26,6 +26,7 @@ playwright-report/
 blob-report/
 .playwright/
 .playwright-cli/
+.unlighthouse/
 
 # editors
 .vscode/*

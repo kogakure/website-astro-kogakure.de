@@ -190,7 +190,7 @@ Ink and paper, an ochre wash in two strengths and one seal red by day; indigo cl
 - **Kinari Plate** (`{colors.kinari-plate}`) with **Plate Ink Night** (`{colors.plate-ink-night}`): name plates by night, lit paper with dark ink.
 - Night band and subtitle: **Aizome Band** (`{colors.aizome-band}`), **Aizome Ink** (`{colors.aizome-ink}`), **Kinari Subtitle** (`{colors.kinari-subtitle}`), **Mist Blue** (`{colors.mist-blue}`), **Indigo Line** (`{colors.indigo-line}`); states: **Aizome Hover** (`{colors.aizome-hover}`), **Aizome Press** (`{colors.aizome-press}`), **Indigo Select** (`{colors.indigo-select}`), **Indigo Link** (`{colors.indigo-link}`).
 
-The paintings keep their natural colour; by night they are dimmed a little (`brightness(0.9) saturate(0.92)`). The browser toolbar colour follows the ground of the page in each mode. Print pins day colours on white paper.
+The paintings keep their natural colour; by night they are dimmed a little (`brightness(0.9) saturate(0.92)`). The browser toolbar colour follows the ground of the page in each mode. Print pins day colours on white paper and sets the text at a book page's size, about 11pt (the 20px floor is for screens).
 
 ### Named Rules
 
@@ -230,7 +230,7 @@ The scale steps by about 1.25 between text sizes; the jump to the plate kanji is
 
 **The Subtitle Rule.** Mono is the film's subtitle: a short line in a dark box over or under a painting. It never sets a paragraph, a heading or a list.
 
-**The Reading Floor Rule.** Body text is never below 20px, and a line never holds more than 75 characters.
+**The Reading Floor Rule.** Body text is never below 20px on screen (print: about 11pt), and a line never holds more than 75 characters.
 
 ### Scripts
 

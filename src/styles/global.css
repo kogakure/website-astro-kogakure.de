@@ -417,7 +417,17 @@
 		color-scheme: light;
 	}
 
+	/* A book page, not a screen: the text near 11pt */
+	:root {
+		font-size: 75%;
+	}
+
 	[data-print='hidden'] {
 		display: none !important;
 	}
+}
+
+@page {
+	margin-block: 18mm 20mm;
+	margin-inline: 18mm;
 }

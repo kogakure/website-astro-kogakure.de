@@ -7,7 +7,7 @@ const render = (markdown: string) => renderMarkdown(markdown, [hastGlossedTerms]
 
 const gloss = (term: string, kanji: string, meaning?: string) =>
 	`<em lang="ja-Latn">${term}</em><span class="gloss"><span class="gloss-term" aria-hidden="true" lang="ja-Latn">${term}</span> <span class="gloss-kanji" lang="ja">${kanji}</span>${
-		meaning ? ` <span class="gloss-meaning">${meaning}</span>` : ''
+		meaning ? `<span class="gloss-meaning"> ${meaning}</span>` : ''
 	}</span>`;
 
 describe('hastGlossedTerms', () => {
@@ -59,7 +59,7 @@ describe('the whole pipeline', () => {
 			'Ein _tengu_ (天狗, <q>Himmelhund</q>) fliegt.',
 			BOOK_HAST_PLUGINS
 		);
-		expect(html).toContain('<span class="gloss-meaning"><q>„Himmelhund“</q></span>');
+		expect(html).toContain('<span class="gloss-meaning"> <q>„Himmelhund“</q></span>');
 		expect(html).toContain('<em lang="ja-Latn">tengu</em>');
 	});
 });

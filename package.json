@@ -23,6 +23,7 @@
 		"test:coverage": "vitest run --coverage",
 		"test:e2e": "playwright test",
 		"test:e2e:ui": "playwright test --ui",
+		"test:screenshots": "node scripts/screenshots.ts",
 		"docker:build": "docker build -t kogakure-local .",
 		"docker:run": "docker run --rm -p 8080:80 kogakure-local",
 		"prepare": "husky",
@@ -30,7 +31,8 @@
 		"images": "node scripts/generate-images.ts",
 		"fonts": "node scripts/generate-fonts.ts",
 		"icons": "node scripts/generate-icons.ts",
-		"check:old-urls": "node scripts/check-old-urls.ts"
+		"check:old-urls": "node scripts/check-old-urls.ts",
+		"lighthouse": "pnpm dlx --package @unlighthouse/cli@0.19.1 unlighthouse-ci"
 	},
 	"dependencies": {
 		"@astrojs/markdown-satteri": "^0.4.6",
