@@ -97,16 +97,14 @@ export async function getAlternates(key: string): Promise<Alternates> {
 }
 
 /**
- * Every page for the sitemap, by its language versions: not the 404 pages,
- * and the legal pages only in German and English, the languages of their text
+ * Every indexed page for the sitemap, by its language versions: not the 404
+ * pages, and never the legal pages (noindex in every language)
  */
 export async function getSitemapGroups(): Promise<PageVersions[]> {
 	alternates ??= allAlternates();
 	return [...(await alternates)]
-		.filter(([key]) => isInBook(key))
-		.map(([key, versions]) =>
-			Object.hasOwn(LEGAL_PAGES, key) ? { de: versions.de, en: versions.en } : versions
-		);
+		.filter(([key]) => isInBook(key) && !Object.hasOwn(LEGAL_PAGES, key))
+		.map(([, versions]) => versions);
 }
 
 export interface TocLink {

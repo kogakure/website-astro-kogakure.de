@@ -11,14 +11,13 @@ import PageText from '@/components/book/PageText.astro';
 import Colophon from '@/components/site/Colophon.astro';
 import TopBar from '@/components/site/TopBar.astro';
 import { language, languageChoices, type Lang } from '@/i18n/languages';
-import { contentsPath, homePath, legalLang, type LegalPage } from '@/i18n/routes';
+import { contentsPath, legalLang, type LegalPage } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAlternates, getLegalPage, renderLegalPage } from '@/lib/book/book';
 import { openerFigure } from '@/lib/book/figures';
 import { BOOK_PLATE } from '@/lib/book/plates';
 import { getOgImage } from '@/lib/images/images';
-import { breadcrumbJsonLd, SITE_NAME } from '@/lib/seo/seo';
 
 interface Props {
 	lang: Lang;
@@ -33,11 +32,7 @@ const foreign = textLang === lang ? undefined : textLang;
 const entry = await getLegalPage(textLang, page);
 const { Content } = await renderLegalPage(entry);
 const opener = openerFigure(entry.body ?? '');
-const all = await getAlternates(page);
-const languages = languageChoices(all, lang);
-// The text exists in German and English: only those two are indexed, the
-// other languages' pages point to the English one
-const versions = { de: all.de, en: all.en };
+const languages = languageChoices(await getAlternates(page), lang);
 const contents = contentsPath(lang);
 const updated = new Intl.DateTimeFormat(language(textLang).htmlLang, { dateStyle: 'long' }).format(
 	entry.data.updated
@@ -48,12 +43,8 @@ const updated = new Intl.DateTimeFormat(language(textLang).htmlLang, { dateStyle
 	title={entry.data.title}
 	description={entry.data.description}
 	lang={lang}
-	canonical={versions[textLang]}
-	versions={foreign ? undefined : versions}
 	image={getOgImage(page)}
-	jsonLd={[
-		breadcrumbJsonLd([{ name: SITE_NAME, path: homePath(lang) }, { name: entry.data.title }]),
-	]}
+	noindex
 	fontPages={foreign ? [{ lang: foreign }] : []}
 	ground="read"
 >
