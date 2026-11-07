@@ -13,11 +13,9 @@ updated: 2026-11-07
 
 Information under § 5 of the German Digital Services Act (Digitale-Dienste-Gesetz, DDG):
 
-<!-- TODO(SI-477, Stefan): add the postal address for service -->
-
 Stefan Imhoff<br>
-[Street and number]<br>
-[Postcode and town]<br>
+Walter-Heitmann-Str. 2<br>
+22159 Hamburg<br>
 Germany
 
 Email: hey@imhoff.name

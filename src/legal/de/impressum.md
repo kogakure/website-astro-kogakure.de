@@ -13,11 +13,9 @@ updated: 2026-11-07
 
 Angaben nach § 5 Digitale-Dienste-Gesetz (DDG):
 
-<!-- TODO(SI-477, Stefan): ladungsfähige Anschrift eintragen -->
-
 Stefan Imhoff<br>
-[Straße und Hausnummer]<br>
-[Postleitzahl und Ort]<br>
+Walter-Heitmann-Str. 2<br>
+22159 Hamburg<br>
 Deutschland
 
 E-Mail: hey@imhoff.name

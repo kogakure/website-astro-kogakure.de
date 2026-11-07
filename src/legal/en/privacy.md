@@ -19,9 +19,7 @@ The controller under Art. 4 (7) of the General Data Protection Regulation (GDPR)
 
 ## Server and log files
 
-<!-- TODO(SI-477, Stefan): add the data centre location and the log retention -->
-
-The website runs on a server of Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany, in a data centre in [location]. On every request the web server stores technically necessary data in log files: the IP address, date and time, the requested address, the status code, the amount of data transferred, the referring page and the browser. I need this data to run the website securely and reliably and to detect attacks (Art. 6 (1) (f) GDPR). The log files are deleted after [number] days. A data processing agreement under Art. 28 GDPR is in place with the host.
+The website runs on a server of Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany, in a data centre in Nuremberg. On every request the web server stores technically necessary data in log files: date and time, the requested address, the status code, the amount of data transferred, the referring page, the browser and the IP address, but only shortened: without its last part, so that it can’t be traced to a connection or a person. The full IP address is never stored. I need this data to run the website securely and reliably and to detect errors and attacks (Art. 6 (1) (f) GDPR). A data processing agreement under Art. 28 GDPR is in place with the host.
 
 ## Statistics with Umami
 
