@@ -5,7 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: 여덟 개의 문이 어떤 류파가 닌자의 기술인지를 가른다. 닌자노 하치몬이 요구하는 것, 그리고 부진칸의 아홉 류파 가운데 여섯이 무사 류파인 이유.
 translationKey: ninjaNoHachimonPage
-plate: 火術
+plate: 八門
 categories:
   - guidelines
   - training

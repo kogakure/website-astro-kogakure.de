@@ -5,7 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: Acht poorten bepalen of een Ryū een ninjakunst is. Wat de ninja no hachimon vereist en waarom zes van de negen scholen van de Bujinkan krijgers-Ryū zijn.
 translationKey: ninjaNoHachimonPage
-plate: 火術
+plate: 八門
 categories:
   - guidelines
   - training

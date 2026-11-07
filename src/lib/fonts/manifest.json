@@ -1,18 +1,18 @@
 {
 	"commit": "38411257417e616c5d4daa1b9e91a3dbcebe1c2e",
 	"text": {
-		"de": "e3c67616bb63aa40",
-		"en": "a0a48901f7b62b2f",
-		"es": "d0638bfc0a622d61",
-		"fr": "9037cd2d69650d70",
-		"pt": "cbf4acc907fdc851",
-		"it": "6ffe4e8786f50219",
-		"nl": "d017691ce29d141f",
-		"ru": "4ee375cdeec1d050",
-		"ja": "0b827d9e6314a835",
-		"zh": "6cce5806aa9b3ee6",
-		"ko": "100e4d59e2d6e7a9",
-		"he": "0bf2d8012cdd8219"
+		"de": "6bba1272f772c49e",
+		"en": "78720c9dc3babe6a",
+		"es": "a45e8a94cb30f361",
+		"fr": "6ace36612f8477cc",
+		"pt": "63c447ea17b287ca",
+		"it": "a21b2e7f54a0822a",
+		"nl": "9e4646ef5894db54",
+		"ru": "fdd24292a3768e0e",
+		"ja": "61680156cc431916",
+		"zh": "d66dda64f757e7e1",
+		"ko": "b3f17a634717d8c5",
+		"he": "38a996fdb701f3a0"
 	},
 	"faces": [
 		{
@@ -6841,6 +6841,23 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-89e0e922fd.woff2",
+			"bytes": 2356,
+			"pages": [
+				"de/ninja-no-hachimon",
+				"en/ninja-no-hachimon",
+				"es/ninja-no-hachimon",
+				"fr/ninja-no-hachimon",
+				"pt/ninja-no-hachimon",
+				"it/ninja-no-hachimon",
+				"nl/ninja-no-hachimon",
+				"ru/ninja-no-hachimon"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-8ac6c19576.woff2",
 			"bytes": 2004,
 			"pages": ["ja/gyokko-ryu", "zh/gyokko-ryu", "ko/gyokko-ryu", "he/gyokko-ryu"]
@@ -7068,6 +7085,19 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-a15e1f6e7b.woff2",
+			"bytes": 1136,
+			"pages": [
+				"ja/ninja-no-hachimon",
+				"zh/ninja-no-hachimon",
+				"ko/ninja-no-hachimon",
+				"he/ninja-no-hachimon"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-afb3a3307b.woff2",
 			"bytes": 12760,
 			"pages": [
@@ -7105,23 +7135,6 @@
 			"file": "/fonts/yuji-syuku-400-page-b7c3c65c9e.woff2",
 			"bytes": 2692,
 			"pages": ["ja/gikan-ryu", "zh/gikan-ryu", "ko/gikan-ryu", "he/gikan-ryu"]
-		},
-		{
-			"family": "Yuji Syuku",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-b8648c04a2.woff2",
-			"bytes": 1988,
-			"pages": [
-				"de/ninja-no-hachimon",
-				"en/ninja-no-hachimon",
-				"es/ninja-no-hachimon",
-				"fr/ninja-no-hachimon",
-				"pt/ninja-no-hachimon",
-				"it/ninja-no-hachimon",
-				"nl/ninja-no-hachimon",
-				"ru/ninja-no-hachimon"
-			]
 		},
 		{
 			"family": "Yuji Syuku",
@@ -7353,19 +7366,6 @@
 			"file": "/fonts/yuji-syuku-400-page-d7482f5453.woff2",
 			"bytes": 2276,
 			"pages": ["ja/weapons", "zh/weapons", "ko/weapons", "he/weapons"]
-		},
-		{
-			"family": "Yuji Syuku",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/yuji-syuku-400-page-d7ffcd1e4d.woff2",
-			"bytes": 892,
-			"pages": [
-				"ja/ninja-no-hachimon",
-				"zh/ninja-no-hachimon",
-				"ko/ninja-no-hachimon",
-				"he/ninja-no-hachimon"
-			]
 		},
 		{
 			"family": "Yuji Syuku",
