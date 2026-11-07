@@ -5,7 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: Восемь врат решают, можно ли считать рю искусством ниндзя. Чего требует ниндзя но хатимон и почему шесть из девяти школ Будзинкана — рю воинов.
 translationKey: ninjaNoHachimonPage
-plate: 火術
+plate: 八門
 categories:
   - guidelines
   - training

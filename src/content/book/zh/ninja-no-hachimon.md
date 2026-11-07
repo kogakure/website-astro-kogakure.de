@@ -5,7 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: 八道门决定一个流派是否算得上忍者之术。ninja no hachimon要求什么，为什么武神馆九个流派中有六个是武士流派。
 translationKey: ninjaNoHachimonPage
-plate: 火術
+plate: 八門
 categories:
   - guidelines
   - training

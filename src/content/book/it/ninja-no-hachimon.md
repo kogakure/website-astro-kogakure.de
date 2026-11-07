@@ -5,7 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: Otto porte decidono se un Ryū è un’arte ninja. Che cosa richiede il ninja no hachimon e perché sei delle nove scuole del Bujinkan sono Ryū guerrieri.
 translationKey: ninjaNoHachimonPage
-plate: 火術
+plate: 八門
 categories:
   - guidelines
   - training

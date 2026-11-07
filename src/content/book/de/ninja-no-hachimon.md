@@ -5,7 +5,7 @@ date: '2006-04-02T15:25:00+02:00'
 author: Stefan Imhoff
 excerpt: Acht Tore entscheiden, ob ein Ryū eine Ninja-Kunst ist. Was das Ninja no hachimon verlangt und warum sechs der neun Bujinkan-Schulen Krieger-Ryū sind.
 translationKey: ninjaNoHachimonPage
-plate: 火術
+plate: 八門
 categories:
   - guidelines
   - training
