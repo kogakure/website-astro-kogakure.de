@@ -30,6 +30,7 @@ The plan and all issues are in the Linear project _Migration to Astro_ (P-SI-13)
 - Fonts (`docs/fonts.md`): self-hosted WOFF2 subsets, per-page CJK files, the font budget
 - Testing (`docs/testing.md`): unit, component, accessibility and end-to-end tests
 - Search and reading time (`docs/search.md`): the Pagefind index, the dialog, the dev stub
+- The book as an app (`docs/pwa.md`): icons, launch screens, manifests, the offline pages, the service worker
 - Languages, SEO, redirects and analytics (`docs/seo.md`): first visit to `/`, meta tags, hreflang, sitemap, the old URLs, Umami
 - Git workflow (`docs/git-workflow.md`): branches, commits, pull requests, Linear
 

@@ -1,0 +1,17 @@
+---
+/** The offline page of the other eleven languages, at /<lang>/offline/ */
+import OfflinePage from '@/components/templates/OfflinePage.astro';
+import { PREFIXED_LANGS, type Lang } from '@/i18n/languages';
+
+export function getStaticPaths() {
+	return PREFIXED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<OfflinePage lang={lang} />

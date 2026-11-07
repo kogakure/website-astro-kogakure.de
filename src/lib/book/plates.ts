@@ -7,6 +7,9 @@
 
 export const BOOK_PLATE = { name: '木隠', romaji: 'Kogakure' } as const;
 
+/** The offline page's plate: 圏外, „out of range“, what a Japanese phone shows without a signal */
+export const OFFLINE_PLATE = '圏外';
+
 /** One plate per section in book order: the front matter, the eight chapters, the appendix */
 export const SECTION_PLATES = [
 	{ name: '序', short: '序' },

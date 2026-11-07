@@ -29,6 +29,7 @@
 		"import:content": "node scripts/import-content.ts && node scripts/generate-fonts.ts",
 		"images": "node scripts/generate-images.ts",
 		"fonts": "node scripts/generate-fonts.ts",
+		"icons": "node scripts/generate-icons.ts",
 		"check:old-urls": "node scripts/check-old-urls.ts"
 	},
 	"dependencies": {

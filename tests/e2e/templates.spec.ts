@@ -16,6 +16,7 @@ const PAGE_TYPES: Record<string, (lang: Lang) => string> = {
 	downloads: (lang) => `${prefix(lang)}downloads/`,
 	colophon: (lang) => prefix(lang) + (lang === 'de' ? 'kolophon/' : 'colophon/'),
 	'not found': (lang) => (lang === 'de' ? '/404.html' : `/${lang}/404/`),
+	offline: (lang) => `${prefix(lang)}offline/`,
 };
 
 test.describe('language switch', () => {

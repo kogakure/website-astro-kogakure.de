@@ -4,11 +4,22 @@
  * (inlined @font-face rules, the body face preloaded), the browser toolbar
  * colour per mode, and three inline scripts that run before first paint: the
  * stored light or dark mode, the .js class when motion is allowed, and the
- * point the next page's ink spreads from.
+ * point the next page's ink spreads from. Then the book as an app (SI-480):
+ * the favicons, the language's manifest, the iOS icon and launch screens,
+ * and in the built site the service worker.
  */
 import type { Lang } from '@/i18n/languages';
+import { BOOK_PLATE } from '@/lib/book/plates';
 import { fontFaceCss, preloadFont, type FontSource } from '@/lib/fonts/fonts';
 import { GROUNDS, MODE_KEY } from '@/lib/mode/mode';
+import {
+	APPLE_TOUCH_ICON,
+	FAVICON_ICO,
+	FAVICON_SVG,
+	LAUNCH_SCREENS,
+	manifestPath,
+	SW_URL,
+} from '@/lib/pwa/pwa';
 
 interface Props {
 	lang: Lang;
@@ -86,3 +97,18 @@ const preload = preloadFont(lang);
 		} catch {}
 	});
 </script>
+<link rel="icon" href={FAVICON_ICO} sizes="32x32" />
+<link rel="icon" href={FAVICON_SVG} type="image/svg+xml" />
+<link rel="apple-touch-icon" href={APPLE_TOUCH_ICON} />
+<link rel="manifest" href={manifestPath(lang)} />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content={BOOK_PLATE.name} />
+{LAUNCH_SCREENS.map(({ href, media }) => (
+	<link rel="apple-touch-startup-image" href={href} media={media} />
+))}
+{import.meta.env.PROD && <script is:inline define:vars={{ SW_URL }}>
+	// The service worker (src/integrations/pwa.ts): the book stays readable offline
+	if ('serviceWorker' in navigator)
+		addEventListener('load', () => navigator.serviceWorker.register(SW_URL).catch(() => {}));
+</script>}
