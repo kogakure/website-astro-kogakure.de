@@ -17,7 +17,7 @@ pnpm import:content path/to/kogakure-texts
 | `data/preface.json` + `data/toc.json`     | `src/content/toc/<lang>.json`      |
 | `data/glossary.json` (760 entries)        | `src/content/glossary/<lang>.json` |
 
-On the way it drops the `source` field, keeps the `<!-- WEBSITE-ONLY -->` parts (the website shows what the printed book skips) and rewrites image paths: `../../../images/new/<cat>/<name>.webp` → `/images/<cat>/<name>.webp`, `images/old/…` → `/images/old/…`. The path below `/images/` is the image's key in the image manifest (`docs/images.md`). The TOC items get the `translationKey` of their page.
+On the way it drops the `source` field, drops the glossary page's entries (`### term`: the site renders them from the glossary JSON, `Glossary.astro`), keeps the `<!-- WEBSITE-ONLY -->` parts (the website shows what the printed book skips) and rewrites image paths: `../../../images/new/<cat>/<name>.webp` → `/images/<cat>/<name>.webp`, `images/old/…` → `/images/old/…`. The path below `/images/` is the image's key in the image manifest (`docs/images.md`). The TOC items get the `translationKey` of their page.
 
 The import is repeatable: rerunning it on unchanged texts produces no diff. It writes nothing if the book fails validation. `src/content/` is in `.prettierignore`: Prettier would rewrite the Chinese `*…*` emphasis.
 
@@ -29,27 +29,34 @@ The import is repeatable: rerunning it on unchanged texts produces no diff. It w
 - every language has every `translationKey`, once; translations use the English file name
 - the twelve TOCs have the same parts and order; every book page is in it once, pages outside the book are not
 - the twelve glossaries have the same entries in the same order
-- every internal link leads to a route or a file in `public/` (the font zip is pending, SI-477)
+- every internal link leads to a route or a file in `public/`
 - every image exists: in kogakure-texts for the import, in the image manifest and `public/images/` for the build
 
 ## Routes
 
 `src/i18n/routes.ts` keeps the URLs of the old site:
 
-| Language           | URL                             | Example                  |
-| ------------------ | ------------------------------- | ------------------------ |
-| German             | `/<german-slug>/`               | `/abhaertung/`           |
-| English            | `/en/<slug>/`                   | `/en/toughening-up/`     |
-| The 10 others      | `/<lang>/<english-slug>/`       | `/ja/toughening-up/`     |
-| Homepages          | `/`, `/en/`, `/ja/`, …          |                          |
-| Contents           | `/inhalt/`, `/<lang>/contents/` | `/en/contents/`          |
-| 404 (outside book) | `/404.html`, `/<lang>/404/`     | nginx per prefix: SI-477 |
+| Language           | URL                             | Example                        |
+| ------------------ | ------------------------------- | ------------------------------ |
+| German             | `/<german-slug>/`               | `/abhaertung/`                 |
+| English            | `/en/<slug>/`                   | `/en/toughening-up/`           |
+| The 10 others      | `/<lang>/<english-slug>/`       | `/ja/toughening-up/`           |
+| Homepages          | `/`, `/en/`, `/ja/`, …          |                                |
+| Contents           | `/inhalt/`, `/<lang>/contents/` | `/en/contents/`                |
+| 404 (outside book) | `/404.html`, `/<lang>/404/`     | nginx per prefix               |
+| Legal (DE, EN)     | `/impressum/`, `/datenschutz/`  | `/en/imprint/`, `/en/privacy/` |
 
 Titles carry no `&shy;` (leftovers of the old site): the schema rejects them, the import and the build fail.
 
 The slug is the file name. Pages are matched across languages by `translationKey`, never by slug. Pages outside the book (`notFoundPage`) have their own route and are not in the TOC, the book order, previous/next, the sitemap or the search index: use `isInBook()`.
 
 All of them come from the one rest route `src/pages/[...route].astro`. The parts of the book have no pages of their own: they are scenes on the homepage, and links lead to their anchor (`/#geschichte`, `/ja/#history`). The anchor comes from the part's title in the TOC, German for German and English for the rest, like the articles' slugs (`chapterSlug()`: `Organisation & Ausbildung` → `organisation-und-ausbildung`); the front matter is `einfuehrung` / `introduction`.
+
+**Glossary:** `getGlossary(lang)` groups the entries by the initial of `sort` (romanized in every language, so A–Z everywhere), with the anchors the old `h3`s had (`#kamae`). The page's section list is the A–Z jump list; an article with more than 40 sections runs its list on as an index (Waffen).
+
+**Legal pages:** imprint and privacy policy are website texts, not the book's: `src/legal/<de|en>/*.md` (collection `legal`), written here, German and English only. The colophon of every other language links to the English pages (`legalPath()`), and their language switch leads there too.
+
+**404:** nginx serves `/404.html` for unknown URLs, and `/<lang>/404/` below a language's prefix (`nginx.conf`; `i18n.test.ts` checks its language list).
 
 **Parts:** `getChapters(lang)` in `book.ts` gives the ten sections of the book (front matter, eight chapters, appendix) with their name plate, their scene (painting from `SCENES` in `plates.ts`, alt text and caption from the page that shows it) and their articles with ledes.
 

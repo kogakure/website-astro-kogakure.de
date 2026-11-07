@@ -1204,6 +1204,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
+			"focus": "50% 85%",
 			"widths": [
 				800,
 				1400,
@@ -4504,7 +4505,7 @@
 		},
 		"notFoundPage": {
 			"image": "article/not-found-01-mouse-running-off-with-page.webp",
-			"hash": "b4c180ed42aed86c"
+			"hash": "4c71cb2280f40d0f"
 		},
 		"onshinjutsuPage": {
 			"image": "article/onshinjutsu-04-hiding-among-scarecrows.webp",

@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { isLang, language, languageChoices, LANGS, PREFIXED_LANGS } from './languages';
 import {
@@ -5,6 +6,7 @@ import {
 	contentsPath,
 	homePath,
 	isInBook,
+	legalPath,
 	notFoundPath,
 	pagePath,
 	routeOf,
@@ -79,6 +81,19 @@ describe('routes', () => {
 		expect(routeOf('de', 'nicht-gefunden', 'notFoundPage')).toBe(notFoundPath('de'));
 		expect(routeOf('ko', 'not-found', 'notFoundPage')).toBe('/ko/404/');
 		expect(routeOf('ko', 'kamae', 'kamaePage')).toBe('/ko/kamae/');
+	});
+
+	it('serves the 404 page of every prefixed language in nginx', () => {
+		const conf = fs.readFileSync('nginx.conf', 'utf8');
+		const langs = /location ~ \^\/\(\?<lang>([a-z|]+)\)\//.exec(conf)?.[1]?.split('|');
+		expect(langs?.toSorted()).toEqual([...PREFIXED_LANGS].toSorted());
+	});
+
+	it('gives the legal pages in German and English, English for the others', () => {
+		expect(legalPath('de', 'imprint')).toBe('/impressum/');
+		expect(legalPath('de', 'privacy')).toBe('/datenschutz/');
+		expect(legalPath('en', 'imprint')).toBe('/en/imprint/');
+		expect(legalPath('ja', 'privacy')).toBe('/en/privacy/');
 	});
 });
 

@@ -58,6 +58,21 @@ export interface Ui {
 	/** Opens an image whole, outside its ink edge */
 	zoomImage: string;
 	readingTime: (minutes: number) => string;
+	/** The glossary's size, a fact of its opener: „Begriffe“ */
+	terms: string;
+	/** Name of the glossary's jump list by the romanized initials */
+	alphabet: string;
+	/** A glossary term that is Chinese, not Japanese (as the texts write it) */
+	chinese: string;
+	/** A glossary term that is Sanskrit */
+	sanskrit: string;
+	/** The legal pages; German and English, the other languages link to English */
+	imprint: string;
+	privacy: string;
+	/** After a link to a legal page in English, in the languages without their own */
+	inEnglish: string;
+	/** The date a legal page was last changed: „Stand“ */
+	updated: string;
 }
 
 type Forms = Partial<Record<Intl.LDMLPluralRule, string>> & { other: string };
@@ -103,6 +118,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Schließen',
 		zoomImage: 'Bild vergrößern',
 		readingTime: (n) => `${n} Min. Lesezeit`,
+		terms: 'Begriffe',
+		alphabet: 'Von A bis Z',
+		chinese: 'Chinesisch',
+		sanskrit: 'Sanskrit',
+		imprint: 'Impressum',
+		privacy: 'Datenschutz',
+		updated: 'Stand',
+		inEnglish: '',
 	},
 	en: {
 		skipToText: 'Skip to text',
@@ -140,6 +163,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Close',
 		zoomImage: 'Enlarge image',
 		readingTime: (n) => `${n} min read`,
+		terms: 'Terms',
+		alphabet: 'A to Z',
+		chinese: 'Chinese',
+		sanskrit: 'Sanskrit',
+		imprint: 'Imprint',
+		privacy: 'Privacy',
+		updated: 'Last updated',
+		inEnglish: '',
 	},
 	es: {
 		skipToText: 'Ir al texto',
@@ -178,6 +209,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Cerrar',
 		zoomImage: 'Ampliar imagen',
 		readingTime: (n) => `${n} min de lectura`,
+		terms: 'Términos',
+		alphabet: 'De la A a la Z',
+		chinese: 'Chino',
+		sanskrit: 'Sánscrito',
+		imprint: 'Aviso legal',
+		privacy: 'Privacidad',
+		updated: 'Actualizado',
+		inEnglish: '(en inglés)',
 	},
 	fr: {
 		skipToText: 'Aller au texte',
@@ -216,6 +255,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Fermer',
 		zoomImage: 'Agrandir l’image',
 		readingTime: (n) => `${n} min de lecture`,
+		terms: 'Termes',
+		alphabet: 'De A à Z',
+		chinese: 'Chinois',
+		sanskrit: 'Sanskrit',
+		imprint: 'Mentions légales',
+		privacy: 'Confidentialité',
+		updated: 'Mis à jour',
+		inEnglish: '(en anglais)',
 	},
 	pt: {
 		skipToText: 'Ir para o texto',
@@ -253,6 +300,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Fechar',
 		zoomImage: 'Ampliar imagem',
 		readingTime: (n) => `${n} min de leitura`,
+		terms: 'Termos',
+		alphabet: 'De A a Z',
+		chinese: 'Chinês',
+		sanskrit: 'Sânscrito',
+		imprint: 'Aviso legal',
+		privacy: 'Privacidade',
+		updated: 'Atualizado',
+		inEnglish: '(em inglês)',
 	},
 	it: {
 		skipToText: 'Vai al testo',
@@ -290,6 +345,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Chiudi',
 		zoomImage: 'Ingrandisci immagine',
 		readingTime: (n) => `${n} min di lettura`,
+		terms: 'Termini',
+		alphabet: 'Dalla A alla Z',
+		chinese: 'Cinese',
+		sanskrit: 'Sanscrito',
+		imprint: 'Note legali',
+		privacy: 'Privacy',
+		updated: 'Aggiornato',
+		inEnglish: '(in inglese)',
 	},
 	nl: {
 		skipToText: 'Naar de tekst',
@@ -328,6 +391,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Sluiten',
 		zoomImage: 'Afbeelding vergroten',
 		readingTime: (n) => `${n} min lezen`,
+		terms: 'Begrippen',
+		alphabet: 'Van A tot Z',
+		chinese: 'Chinees',
+		sanskrit: 'Sanskriet',
+		imprint: 'Juridische informatie',
+		privacy: 'Privacy',
+		updated: 'Bijgewerkt',
+		inEnglish: '(in het Engels)',
 	},
 	ru: {
 		skipToText: 'К тексту',
@@ -368,6 +439,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'Закрыть',
 		zoomImage: 'Увеличить изображение',
 		readingTime: (n) => `${n} мин чтения`,
+		terms: 'Термины',
+		alphabet: 'Алфавитный указатель',
+		chinese: 'Китайский',
+		sanskrit: 'Санскрит',
+		imprint: 'Выходные данные',
+		privacy: 'Конфиденциальность',
+		updated: 'Обновлено',
+		inEnglish: '(на английском)',
 	},
 	ja: {
 		skipToText: '本文へ',
@@ -405,6 +484,14 @@ export const UI: Record<Lang, Ui> = {
 		close: '閉じる',
 		zoomImage: '画像を拡大',
 		readingTime: (n) => `約${n}分`,
+		terms: '用語',
+		alphabet: 'ローマ字索引',
+		chinese: '中国語',
+		sanskrit: 'サンスクリット語',
+		imprint: '運営者情報',
+		privacy: 'プライバシー',
+		updated: '更新日',
+		inEnglish: '（英語）',
 	},
 	zh: {
 		skipToText: '跳至正文',
@@ -442,6 +529,14 @@ export const UI: Record<Lang, Ui> = {
 		close: '关闭',
 		zoomImage: '放大图片',
 		readingTime: (n) => `约${n}分钟`,
+		terms: '词条',
+		alphabet: '罗马字索引',
+		chinese: '汉语',
+		sanskrit: '梵语',
+		imprint: '网站信息',
+		privacy: '隐私',
+		updated: '更新于',
+		inEnglish: '（英文）',
 	},
 	ko: {
 		skipToText: '본문으로',
@@ -479,6 +574,14 @@ export const UI: Record<Lang, Ui> = {
 		close: '닫기',
 		zoomImage: '이미지 확대',
 		readingTime: (n) => `${n}분 분량`,
+		terms: '용어',
+		alphabet: '로마자 색인',
+		chinese: '중국어',
+		sanskrit: '산스크리트어',
+		imprint: '사이트 정보',
+		privacy: '개인정보',
+		updated: '업데이트',
+		inEnglish: '(영어)',
 	},
 	he: {
 		skipToText: 'דילוג לטקסט',
@@ -516,6 +619,14 @@ export const UI: Record<Lang, Ui> = {
 		close: 'סגירה',
 		zoomImage: 'הגדלת התמונה',
 		readingTime: (n) => `${n} דקות קריאה`,
+		terms: 'מונחים',
+		alphabet: 'מפתח אלפביתי',
+		chinese: 'סינית',
+		sanskrit: 'סנסקריט',
+		imprint: 'פרטים משפטיים',
+		privacy: 'פרטיות',
+		updated: 'עודכן',
+		inEnglish: '(באנגלית)',
 	},
 };
 

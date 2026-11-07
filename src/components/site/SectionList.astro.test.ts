@@ -17,6 +17,22 @@ describe('SectionList', () => {
 		expect(html).toContain('data-section-list');
 	});
 
+	it('runs the sections on as an index or as letters', async () => {
+		const index = await renderAstro(SectionList, {
+			heading: 'Abschnitte',
+			sections: SECTIONS,
+			layout: 'index',
+		});
+		expect(index).toMatch(/class="sections is-index/);
+		const letters = await renderAstro(SectionList, {
+			heading: 'Von A bis Z',
+			sections: [{ id: 'a', text: 'A' }],
+			layout: 'letters',
+		});
+		expect(letters).toMatch(/class="sections is-letters/);
+		expect(letters).toContain('href="#a"');
+	});
+
 	it('renders nothing without sections', async () => {
 		expect(
 			await renderAstro(SectionList, { heading: 'Abschnitte', sections: [] })

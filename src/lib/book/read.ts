@@ -16,16 +16,11 @@ export const CONTENT_DIRS = {
 	glossary: 'src/content/glossary',
 } as const;
 
-/**
- * Files the texts link to that other issues bring:
- * the Iga ninja font is part of the downloads page (SI-477).
- */
-const PENDING_ASSETS = new Set(['/downloads/iga-ninja-font.zip']);
-
+/** Whether a file the texts link to is in public/, like the font zip of the downloads */
 export const assetExists =
 	(root: string) =>
 	(url: string): boolean =>
-		PENDING_ASSETS.has(url) || fs.existsSync(path.join(root, 'public', url));
+		fs.existsSync(path.join(root, 'public', url));
 
 const readJson = (file: string): unknown => JSON.parse(fs.readFileSync(file, 'utf8'));
 

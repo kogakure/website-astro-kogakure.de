@@ -1,17 +1,7 @@
 ---
-/** The German 404 page, from the text with translationKey notFoundPage */
-import PageText from '@/components/book/PageText.astro';
+/** The German 404 page, at /404.html */
+import NotFoundPage from '@/components/templates/NotFoundPage.astro';
 import { DEFAULT_LANG } from '@/i18n/languages';
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getPage, renderPage } from '@/lib/book/book';
-
-const lang = DEFAULT_LANG;
-const entry = await getPage(lang, 'notFoundPage');
-const { Content } = await renderPage(entry);
 ---
 
-<BaseLayout title={`${entry.data.title} · 木隠`} description={entry.data.title} lang={lang}>
-	<PageText title={entry.data.title}>
-		<Content />
-	</PageText>
-</BaseLayout>
+<NotFoundPage lang={DEFAULT_LANG} />

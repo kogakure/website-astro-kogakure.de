@@ -16,7 +16,9 @@
 | `src/components/design-system/` | The samples of `/design-system/`                                                                  |
 | `src/i18n/`                     | Languages, URL scheme (`routes.ts`) and UI strings (`ui.ts`) in twelve languages                  |
 | `src/content/`                  | Imported book (`book/`, `toc/`, `glossary/`); never edit by hand                                  |
-| `src/content.config.ts`         | Content collections `book`, `toc`, `glossary`                                                     |
+| `src/content.config.ts`         | Content collections `book`, `toc`, `glossary`, `legal`                                            |
+| `src/legal/`                    | Imprint and privacy policy, German and English; written here, not imported                        |
+| `public/downloads/`             | Files the texts offer for download (the Iga ninja font)                                           |
 | `src/integrations/`             | Astro integrations (`validate-book.ts` fails the build on broken content)                         |
 | `src/components/book/`          | Astro components for the book's pages (prologue, scenes, contents, article head, previous/next)   |
 | `src/components/templates/`     | The page types (homepage, contents, article), rendered by `src/pages/[...route].astro`            |

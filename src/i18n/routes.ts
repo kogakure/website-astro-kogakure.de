@@ -38,6 +38,23 @@ export const isInBook = (translationKey: string): boolean =>
 export const routeOf = (lang: Lang, slug: string, translationKey: string): string =>
 	OWN_ROUTES[translationKey]?.(lang) ?? pagePath(lang, slug);
 
+/** The legal pages, by key: their slugs in German and English */
+export const LEGAL_PAGES = {
+	imprint: { de: 'impressum', en: 'imprint' },
+	privacy: { de: 'datenschutz', en: 'privacy' },
+} as const;
+
+export type LegalPage = keyof typeof LEGAL_PAGES;
+
+/** The legal pages are German and English; the other languages read the English ones */
+export const legalLang = (lang: Lang): 'de' | 'en' => (lang === DEFAULT_LANG ? 'de' : 'en');
+
+/** `/impressum/`, `/en/imprint/`; every language but German gets the English page */
+export const legalPath = (lang: Lang, page: LegalPage): string => {
+	const version = legalLang(lang);
+	return pagePath(version, LEGAL_PAGES[page][version]);
+};
+
 /** Route key of the language homepages in the alternates map */
 export const HOME = 'home';
 

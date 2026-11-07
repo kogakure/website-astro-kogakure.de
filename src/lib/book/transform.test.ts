@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
 	dropFields,
+	dropGlossaryEntries,
 	imageSource,
 	imageUrls,
 	internalLinks,
@@ -46,6 +47,20 @@ describe('keepWebsiteOnly', () => {
 		expect(() =>
 			keepWebsiteOnly('<!-- WEBSITE-ONLY: start -->\n<!-- WEBSITE-ONLY: start -->\n')
 		).toThrow('Unpaired');
+	});
+});
+
+describe('dropGlossaryEntries', () => {
+	it('keeps the text before the first entry', () => {
+		expect(
+			dropGlossaryEntries(
+				'<figure></figure>\n\nIntro.\n\n### aikidō\n\n合気道\n\n### aikuchi\n'
+			)
+		).toBe('<figure></figure>\n\nIntro.\n');
+	});
+
+	it('leaves a body without entries alone', () => {
+		expect(dropGlossaryEntries('Intro.\n')).toBe('Intro.\n');
 	});
 });
 

@@ -1,12 +1,7 @@
 ---
-/**
- * The 404 page of the other eleven languages, at /<lang>/404/. nginx serves it
- * per language prefix in SI-477.
- */
-import PageText from '@/components/book/PageText.astro';
+/** The 404 page of the other eleven languages, at /<lang>/404/ */
+import NotFoundPage from '@/components/templates/NotFoundPage.astro';
 import { PREFIXED_LANGS, type Lang } from '@/i18n/languages';
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getPage, renderPage } from '@/lib/book/book';
 
 export function getStaticPaths() {
 	return PREFIXED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
@@ -17,12 +12,6 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-const entry = await getPage(lang, 'notFoundPage');
-const { Content } = await renderPage(entry);
 ---
 
-<BaseLayout title={`${entry.data.title} · 木隠`} description={entry.data.title} lang={lang}>
-	<PageText title={entry.data.title}>
-		<Content />
-	</PageText>
-</BaseLayout>
+<NotFoundPage lang={lang} />

@@ -12,17 +12,19 @@ interface Props {
 	/** „Abschnitte“ */
 	heading: string;
 	sections: Section[];
+	/** The section list's layout: `index` for very many sections, `letters` for the glossary */
+	layout?: 'list' | 'index' | 'letters';
 	/** The text's first figure is the opener plate */
 	opener?: boolean;
 	/** The article, for the reading position */
 	position: { key: string; lang: string };
 }
 
-const { heading, sections, opener = false, position } = Astro.props;
+const { heading, sections, layout, opener = false, position } = Astro.props;
 ---
 
 <div class="reading" data-reading={JSON.stringify(position)}>
-	<SectionList heading={heading} sections={sections} />
+	<SectionList heading={heading} sections={sections} layout={layout} />
 	<Prose margin opener={opener} id="text">
 		<slot />
 	</Prose>

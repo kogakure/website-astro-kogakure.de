@@ -1,22 +1,31 @@
 ---
 /**
- * A page of the book: title, lede and the rendered text in the slot.
- * Unstyled until the design system arrives (SI-473).
+ * The text of a page outside the reading grid (the 404 page, the legal
+ * pages): the reading column without section list and margin, at the
+ * distance the reading grid keeps from the opener.
  */
-import { noBreakDash } from '@/lib/markdown/no-break-dash';
+import Prose from '@/components/site/Prose.astro';
 
 interface Props {
-	title: string;
-	excerpt?: string;
+	/** The text's first figure is the opener plate */
+	opener?: boolean;
 }
 
-const { title, excerpt } = Astro.props;
+const { opener = false } = Astro.props;
 ---
 
-<article class="mx-auto max-w-prose px-6 py-12">
-	<h1 class="text-3xl">{noBreakDash(title)}</h1>
-	{excerpt && <p class="mt-4 text-xl">{noBreakDash(excerpt)}</p>}
-	<div class="mt-8">
+<div class="page-text">
+	<Prose opener={opener}>
 		<slot />
-	</div>
-</article>
+	</Prose>
+</div>
+
+<style>
+	.page-text {
+		display: grid;
+		grid-template-columns: minmax(0, var(--measure));
+		justify-content: center;
+		margin-block-start: clamp(3rem, 6vw, 5rem);
+		padding-inline: var(--gutter);
+	}
+</style>

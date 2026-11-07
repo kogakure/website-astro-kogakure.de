@@ -81,3 +81,13 @@ const glossaryEntrySchema = z
 export const glossarySchema = z.object({ entries: z.array(glossaryEntrySchema).min(1) }).strict();
 
 export type Glossary = z.infer<typeof glossarySchema>;
+
+/** A legal page of the website (src/legal/), German and English */
+export const legalSchema = z
+	.object({
+		title,
+		description: z.string().min(1),
+		/** When the text was last changed in substance */
+		updated: z.coerce.date(),
+	})
+	.strict();

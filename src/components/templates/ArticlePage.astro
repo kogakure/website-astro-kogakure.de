@@ -7,6 +7,7 @@
  */
 import ArticleHead from '@/components/book/ArticleHead.astro';
 import BookNav from '@/components/book/BookNav.astro';
+import Glossary from '@/components/book/Glossary.astro';
 import Reading from '@/components/book/Reading.astro';
 import Colophon from '@/components/site/Colophon.astro';
 import TopBar from '@/components/site/TopBar.astro';
@@ -17,12 +18,15 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import {
 	chapterOf,
 	getAlternates,
+	getGlossary,
 	getNeighbours,
 	parseId,
 	renderPage,
 	type PageEntry,
 } from '@/lib/book/book';
 import { openerFigure, pageFigures } from '@/lib/book/figures';
+import { GLOSSARY_PAGE } from '@/lib/book/transform';
+import { QUOTES } from '@/lib/markdown/quotes';
 
 interface Props {
 	entry: PageEntry;
@@ -33,9 +37,17 @@ const { entry, lang } = Astro.props;
 const t = ui(lang);
 const key = entry.data.translationKey;
 const { Content, headings } = await renderPage(entry);
-const sections = headings
-	.filter((heading) => heading.depth === 2)
-	.map((heading) => ({ id: heading.slug, text: heading.text }));
+// The glossary's entries come from glossary.json; its sections are the initials
+const glossary = key === GLOSSARY_PAGE ? await getGlossary(lang) : undefined;
+const sections = glossary
+	? glossary.map(({ id, letter }) => ({ id, text: letter }))
+	: headings
+			.filter((heading) => heading.depth === 2)
+			.map((heading) => ({ id: heading.slug, text: heading.text }));
+/** From this many sections a reference article's list runs on as an index (Waffen: 89) */
+const LONG_ARTICLE = 40;
+const layout = glossary ? 'letters' : sections.length > LONG_ARTICLE ? 'index' : 'list';
+const termCount = glossary?.reduce((count, { entries }) => count + entries.length, 0);
 const { previous, next } = await getNeighbours(lang, key);
 const chapter = await chapterOf(lang, key);
 if (!chapter) throw new Error(`${entry.id} is in no part of the book`);
@@ -53,7 +65,11 @@ const facts = [
 				href: chapter.href,
 			}
 		: { term: t.book, text: chapter.title, href: chapter.href },
-	...(sections.length > 0 ? [{ term: t.sections, text: String(sections.length) }] : []),
+	...(termCount !== undefined
+		? [{ term: t.terms, text: String(termCount) }]
+		: sections.length > 0
+			? [{ term: t.sections, text: String(sections.length) }]
+			: []),
 ];
 ---
 
@@ -70,7 +86,7 @@ const facts = [
 		home={{ href: contents, label: t.contents }}
 		chapter={{ href: chapter.href, title: chapter.title, kanji }}
 		sections={{
-			heading: t.sections,
+			heading: glossary ? t.alphabet : t.sections,
 			items: sections,
 			countLabel: t.sectionCount(sections.length),
 			positionLabels: sections.map((_, i) => t.sectionOf(i + 1, sections.length)),
@@ -86,12 +102,20 @@ const facts = [
 	/>
 
 	<Reading
-		heading={t.sections}
+		heading={glossary ? t.alphabet : t.sections}
 		sections={sections}
+		layout={layout}
 		opener={opener !== undefined && pageFigures(body)[0]?.src === opener.src}
 		position={{ key, lang }}
 	>
 		<Content />
+		{glossary && (
+			<Glossary
+				letters={glossary}
+				quotes={[QUOTES[lang][0], QUOTES[lang][1]]}
+				origins={{ chinese: t.chinese, sanskrit: t.sanskrit }}
+			/>
+		)}
 	</Reading>
 
 	<BookNav

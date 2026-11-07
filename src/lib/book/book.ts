@@ -9,6 +9,9 @@ import {
 	contentsPath,
 	homePath,
 	isInBook,
+	LEGAL_PAGES,
+	legalPath,
+	type LegalPage,
 	pagePath,
 	routeOf,
 	routeParam,
@@ -16,6 +19,7 @@ import {
 import { joinCredit, ui } from '@/i18n/ui';
 import { buildAlternates, type Alternates } from './alternates';
 import { pageFigures } from './figures';
+import { glossaryLetters, type GlossaryLetter } from './glossary';
 import { chapterLabel, isChapter, SCENES, SECTION_PLATES, type Scene } from './plates';
 
 export type PageEntry = CollectionEntry<'book'>;
@@ -52,6 +56,13 @@ export async function getPage(lang: Lang, translationKey: string): Promise<PageE
 	return entry;
 }
 
+/** The glossary's entries in a language, by initial */
+export async function getGlossary(lang: Lang): Promise<GlossaryLetter[]> {
+	const glossary = await getEntry('glossary', lang);
+	if (!glossary) throw new Error(`No glossary for ${lang}`);
+	return glossaryLetters(glossary.data.entries, lang);
+}
+
 let alternates: Promise<Map<string, Alternates>> | undefined;
 
 const perLang = (path: (lang: Lang) => string) =>
@@ -65,12 +76,18 @@ async function allAlternates(): Promise<Map<string, Alternates>> {
 		}))
 	);
 	map.set(CONTENTS, perLang(contentsPath));
+	for (const page of Object.keys(LEGAL_PAGES) as LegalPage[])
+		map.set(
+			page,
+			perLang((lang) => legalPath(lang, page))
+		);
 	return map;
 }
 
 /**
  * All language versions of a page by its key: a page's translationKey,
- * `contents` or `home`
+ * `contents`, `home`, or a legal page (`imprint`, `privacy`: English for
+ * every language but German)
  */
 export async function getAlternates(key: string): Promise<Alternates> {
 	alternates ??= allAlternates();
@@ -224,11 +241,12 @@ export const chapterOf = async (lang: Lang, translationKey: string) =>
 	);
 
 /**
- * The pages besides the book's articles, in every language: the homepage
- * and the contents. The rest route renders them.
+ * The pages besides the book's articles: the homepage and the contents in
+ * every language, the legal pages in German and English. The rest route
+ * renders them.
  */
-export const getSitePaths = () =>
-	LANGS.flatMap((lang) => [
+export const getSitePaths = () => [
+	...LANGS.flatMap((lang) => [
 		{
 			params: { route: routeParam(homePath(lang)) || undefined },
 			props: { kind: 'home' as const, lang },
@@ -237,7 +255,26 @@ export const getSitePaths = () =>
 			params: { route: routeParam(contentsPath(lang)) },
 			props: { kind: 'contents' as const, lang },
 		},
-	]);
+	]),
+	...(['de', 'en'] as const).flatMap((lang) =>
+		(Object.keys(LEGAL_PAGES) as LegalPage[]).map((page) => ({
+			params: { route: routeParam(legalPath(lang, page)) },
+			props: { kind: 'legal' as const, lang, page },
+		}))
+	),
+];
+
+export type LegalEntry = CollectionEntry<'legal'>;
+
+/** A legal page in German or English */
+export async function getLegalPage(lang: 'de' | 'en', page: LegalPage): Promise<LegalEntry> {
+	const entry = await getEntry('legal', `${lang}/${LEGAL_PAGES[page][lang]}`);
+	if (!entry) throw new Error(`No ${lang} ${page} page in src/legal/`);
+	return entry;
+}
+
+/** The rendered text of a legal page */
+export const renderLegalPage = (entry: LegalEntry) => render(entry);
 
 /** „Kapitel 1, 10 Artikel“: a part's place in the book and its size */
 export function chapterCredit(lang: Lang, chapter: Chapter): string {

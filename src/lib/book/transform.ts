@@ -52,6 +52,19 @@ export function keepWebsiteOnly(body: string): string {
 	return body.replace(WEBSITE_ONLY, '');
 }
 
+/** The translationKey of the glossary page */
+export const GLOSSARY_PAGE = 'glossaryPage';
+
+/**
+ * The glossary page of kogakure-texts lists its entries as `### term`, for the
+ * printed book. The website renders them from glossary.json (Glossary.astro),
+ * so the page keeps only its text before the first entry.
+ */
+export function dropGlossaryEntries(body: string): string {
+	const first = body.search(/^### /m);
+	return first === -1 ? body : `${body.slice(0, first).trimEnd()}\n`;
+}
+
 const IMAGE_SRC = /src="(?:\.\.\/)+images\/(new|old)\/([^"]+)"/g;
 
 /**
