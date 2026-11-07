@@ -1327,7 +1327,7 @@
 			"width": 2048,
 			"height": 1152,
 			"aspect": 1.7778,
-			"focus": "50% 70%",
+			"focus": "50% 77%",
 			"widths": [
 				800,
 				1400,
@@ -4554,7 +4554,7 @@
 		},
 		"privacy": {
 			"image": "article/privacy-01-hidden-behind-leaves-and-trees.webp",
-			"hash": "e1c9c2dd3effa122"
+			"hash": "9aa0b18f0b2d80e1"
 		},
 		"rulesOfNinjaPage": {
 			"image": "article/the-rules-of-the-ninja-01-truth-and-lie.webp",
