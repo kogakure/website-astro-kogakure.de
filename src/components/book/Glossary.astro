@@ -25,7 +25,9 @@ const romanized = { ja: 'ja-Latn', zh: 'zh-Latn', sa: 'sa-Latn' } as const;
 <div class="glossary">
 	{letters.map((group) => (
 		<div class="glossary-letter">
-			<h2 id={group.id}>{group.letter}</h2>
+			<h2 id={group.id} class="glossary-initial">
+				{group.letter}
+			</h2>
 			<dl>
 				{group.entries.map((entry) => (
 					<div class="entry" id={entry.id}>
@@ -63,6 +65,15 @@ const romanized = { ja: 'ja-Latn', zh: 'zh-Latn', sa: 'sa-Latn' } as const;
 </div>
 
 <style>
+	/* The initial in the size and weight of the homepage's part titles, far
+	   above the entries' terms */
+	.glossary .glossary-initial {
+		font-size: var(--text-headline);
+		font-weight: 600;
+		line-height: var(--text-headline--line-height);
+		letter-spacing: var(--text-headline--letter-spacing);
+	}
+
 	dl {
 		margin: 0;
 	}
