@@ -23,93 +23,22 @@
  *
  * Usage: pnpm fonts [--force]
  */
-import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { entireMetricsCollection } from '@capsizecss/metrics/entireMetricsCollection';
 import { fromBuffer } from '@capsizecss/unpack';
-import * as fontkit from 'fontkit';
 import subsetFont from 'subset-font';
+import { COMMIT, load, sha256, source, SOURCES, type SourceKey } from './font-sources.ts';
 import { LANGS, type Lang } from '../src/i18n/languages.ts';
 import { PLATE_TEXT } from '../src/lib/book/plates.ts';
 import type { Fallback, FontFile, FontManifest } from '../src/lib/fonts/fonts.ts';
 import { characters, CJK, languageText, textHash } from '../src/lib/fonts/text.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
-const CACHE = path.join(ROOT, '.cache/fonts');
 const OUT = path.join(ROOT, 'public/fonts');
 const LICENSES = path.join(OUT, 'licenses');
 const MANIFEST = path.join(ROOT, 'src/lib/fonts/manifest.json');
 const force = process.argv.includes('--force');
-
-/** google/fonts at this commit (2026-11-06) */
-const COMMIT = '38411257417e616c5d4daa1b9e91a3dbcebe1c2e';
-
-/** Font directory in google/fonts/ofl, file, SHA-256 */
-const SOURCES = {
-	serif: [
-		'sourceserif4',
-		'SourceSerif4[opsz,wght].ttf',
-		'97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b',
-	],
-	serifItalic: [
-		'sourceserif4',
-		'SourceSerif4-Italic[opsz,wght].ttf',
-		'15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42',
-	],
-	mono: [
-		'ibmplexmono',
-		'IBMPlexMono-Regular.ttf',
-		'6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46',
-	],
-	monoItalic: [
-		'ibmplexmono',
-		'IBMPlexMono-Italic.ttf',
-		'3362fc791b0652193328b862c1c5f23a789bc7288b1617fa63302f88689a2a34',
-	],
-	monoMedium: [
-		'ibmplexmono',
-		'IBMPlexMono-Medium.ttf',
-		'a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755',
-	],
-	hebrew: [
-		'frankruhllibre',
-		'FrankRuhlLibre[wght].ttf',
-		'f9bf26966681037aae894b031bd0dcf2c1bfdfa128dd0640cf276fe62a338a43',
-	],
-	mincho400: [
-		'shipporimincho',
-		'ShipporiMincho-Regular.ttf',
-		'769b5269f0f9bc6534b352c0e6bd856a566e03ff788f107191c2d835863570b2',
-	],
-	mincho500: [
-		'shipporimincho',
-		'ShipporiMincho-Medium.ttf',
-		'700e505afc4cded2338eba29478a041e04c1c2ea5114fbb3e0b04e76c302c5d8',
-	],
-	mincho700: [
-		'shipporimincho',
-		'ShipporiMincho-Bold.ttf',
-		'63bc4eddc74793f671c3ab827c5175e773ffbe569d0bf50ee65375ea9e3bc286',
-	],
-	brush: [
-		'yujisyuku',
-		'YujiSyuku-Regular.ttf',
-		'82728ebafc8c97391e2dab633414a806f344b8e4e2227d307179f07b548fca61',
-	],
-	sc: [
-		'notoserifsc',
-		'NotoSerifSC[wght].ttf',
-		'050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9',
-	],
-	kr: [
-		'notoserifkr',
-		'NotoSerifKR[wght].ttf',
-		'11f8d5de6f1b79195efba3828aaa2ec95c1178f5ae976fb23c8d53250a9938f3',
-	],
-} as const satisfies Record<string, readonly [string, string, string]>;
-
-type SourceKey = keyof typeof SOURCES;
 
 /** The licence of each font directory */
 const LICENSE_FILES = {
@@ -121,42 +50,6 @@ const LICENSE_FILES = {
 	notoserifsc: '5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6',
 	notoserifkr: '5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6',
 } as const;
-
-const sha256 = (buffer: Buffer | Uint8Array | string) =>
-	createHash('sha256').update(buffer).digest('hex');
-
-/** A file of google/fonts from the cache, downloaded and checked the first time */
-async function load(dir: string, file: string, expected: string): Promise<Buffer> {
-	const cached = path.join(CACHE, dir, file);
-	if (!fs.existsSync(cached)) {
-		console.log(`Downloading ${dir}/${file}`);
-		const url = `https://raw.githubusercontent.com/google/fonts/${COMMIT}/ofl/${dir}/${encodeURIComponent(file)}`;
-		const response = await fetch(url);
-		if (!response.ok) throw new Error(`${dir}/${file}: HTTP ${response.status}`);
-		fs.mkdirSync(path.dirname(cached), { recursive: true });
-		fs.writeFileSync(cached, Buffer.from(await response.arrayBuffer()));
-	}
-	const buffer = fs.readFileSync(cached);
-	const actual = sha256(buffer);
-	if (actual !== expected) {
-		throw new Error(`${dir}/${file}: SHA-256 ${actual}, expected ${expected}`);
-	}
-	return buffer;
-}
-
-const sources = new Map<SourceKey, Promise<{ buffer: Buffer; font: fontkit.Font }>>();
-function source(key: SourceKey) {
-	let entry = sources.get(key);
-	if (!entry) {
-		const [dir, file, expected] = SOURCES[key];
-		entry = load(dir, file, expected).then((buffer) => ({
-			buffer,
-			font: fontkit.create(buffer) as fontkit.Font,
-		}));
-		sources.set(key, entry);
-	}
-	return entry;
-}
 
 // ----------------------------------------------------------------- ranges
 
