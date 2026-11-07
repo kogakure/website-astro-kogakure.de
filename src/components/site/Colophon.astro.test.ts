@@ -67,6 +67,17 @@ describe('Colophon', () => {
 		expect(html).toContain('Sprache');
 	});
 
+	it('links the legal pages, English for languages without their own', async () => {
+		const html = await renderAstro(Colophon, props);
+		expect(html).toMatch(/<a href="\/impressum\/"[^>]*>\s*Impressum/);
+		expect(html).toMatch(/<a href="\/datenschutz\/"[^>]*>\s*Datenschutz/);
+		const japanese = await renderAstro(Colophon, { ...props, lang: 'ja' });
+		expect(japanese).toMatch(
+			/<a href="\/en\/imprint\/" hreflang="en"[^>]*>\s*運営者情報\s*（英語）/
+		);
+		expect(japanese).toMatch(/<a href="\/en\/privacy\/" hreflang="en"/);
+	});
+
 	it('has no accessibility violations', async () => {
 		const violations = await axeViolations(await renderAstro(Colophon, props));
 		expect(violations, describeViolations(violations)).toHaveLength(0);

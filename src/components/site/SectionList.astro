@@ -6,6 +6,11 @@
  * block. The current section, the last heading above the upper third of
  * the screen, gets the seal (`aria-current="location"`); the script tells
  * the top bar's popover (`sectionchange`, again on `sectionrequest`).
+ *
+ * Three layouts: `list`, one section per line; `index`, the sections run on
+ * like the index of a reference book, for articles with very many of them
+ * (Waffen: 89); `letters`, the glossary's A–Z jump list, the initials side
+ * by side.
  */
 export interface Section {
 	/** Id of the heading */
@@ -17,15 +22,16 @@ interface Props {
 	/** „Abschnitte“ */
 	heading: string;
 	sections: Section[];
+	layout?: 'list' | 'index' | 'letters';
 	class?: string;
 }
 
-const { heading, sections, class: className } = Astro.props;
+const { heading, sections, layout = 'list', class: className } = Astro.props;
 ---
 
 {sections.length > 0 && (
 	<nav
-		class:list={['sections', className]}
+		class:list={['sections', `is-${layout}`, className]}
 		aria-labelledby="sections-title"
 		data-section-list
 		data-print="hidden"
@@ -159,6 +165,26 @@ const { heading, sections, class: className } = Astro.props;
 	a[aria-current]::before {
 		background: var(--seal);
 		border-color: var(--seal);
+	}
+
+	/* Index and letters: the entries run on, each with its square */
+	:is(.is-index, .is-letters) ol {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 1.1em;
+	}
+
+	.is-index a {
+		padding-block: 0.2em;
+	}
+
+	.is-letters ol {
+		gap: 0 0.9em;
+	}
+
+	.is-letters a {
+		min-inline-size: 2.25em;
+		font-variant-numeric: tabular-nums;
 	}
 
 	@media (min-width: 75em) {

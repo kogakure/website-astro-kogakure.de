@@ -1,0 +1,61 @@
+---
+/**
+ * The 404 page of a language, from the text with translationKey
+ * notFoundPage: the opener with its painting (a mouse runs off with the
+ * page), the text with its own ways back, the colophon. nginx serves it for
+ * unknown URLs below the language's prefix (nginx.conf).
+ */
+import ArticleHead from '@/components/book/ArticleHead.astro';
+import PageText from '@/components/book/PageText.astro';
+import Colophon from '@/components/site/Colophon.astro';
+import TopBar from '@/components/site/TopBar.astro';
+import { languageChoices, type Lang } from '@/i18n/languages';
+import { contentsPath } from '@/i18n/routes';
+import { ui } from '@/i18n/ui';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAlternates, getPage, parseId, renderPage } from '@/lib/book/book';
+import { openerFigure } from '@/lib/book/figures';
+import { BOOK_PLATE } from '@/lib/book/plates';
+
+interface Props {
+	lang: Lang;
+}
+
+const KEY = 'notFoundPage';
+
+const { lang } = Astro.props;
+const t = ui(lang);
+const entry = await getPage(lang, KEY);
+const { Content } = await renderPage(entry);
+const opener = openerFigure(entry.body ?? '');
+const languages = languageChoices(await getAlternates(KEY), lang);
+const contents = contentsPath(lang);
+---
+
+<BaseLayout
+	title={`${entry.data.title} · 木隠`}
+	description={entry.data.title}
+	lang={lang}
+	fontPage={parseId(entry.id).slug}
+	ground="read"
+>
+	<TopBar slot="before-main" label={t.book} home={{ href: contents, label: t.contents }} />
+
+	<ArticleHead
+		image={opener}
+		plate={{ name: BOOK_PLATE.name, number: null }}
+		title={entry.data.title}
+		facts={[]}
+	/>
+
+	<PageText opener={opener !== undefined}>
+		<Content />
+	</PageText>
+
+	<Colophon
+		slot="after-main"
+		lang={lang}
+		back={{ href: contents, label: t.backToContents }}
+		languages={languages}
+	/>
+</BaseLayout>

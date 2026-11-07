@@ -11,6 +11,11 @@ const PAGE_TYPES: Record<string, (lang: Lang) => string> = {
 	home: prefix,
 	contents: (lang) => prefix(lang) + (lang === 'de' ? 'inhalt/' : 'contents/'),
 	article: (lang) => prefix(lang) + (lang === 'de' ? 'abhaertung/' : 'toughening-up/'),
+	glossary: (lang) => prefix(lang) + (lang === 'de' ? 'glossar/' : 'glossary/'),
+	chronology: (lang) => prefix(lang) + (lang === 'de' ? 'chronologie/' : 'chronology/'),
+	downloads: (lang) => `${prefix(lang)}downloads/`,
+	colophon: (lang) => prefix(lang) + (lang === 'de' ? 'kolophon/' : 'colophon/'),
+	'not found': (lang) => (lang === 'de' ? '/404.html' : `/${lang}/404/`),
 };
 
 test.describe('language switch', () => {
@@ -34,6 +39,65 @@ test.describe('language switch', () => {
 			}
 			// The reader's own choice is stored
 			expect(await page.evaluate(() => localStorage.getItem('kogakure-lang'))).toBe('he');
+		});
+	}
+});
+
+test.describe('glossary', () => {
+	test('the A–Z list jumps to a letter with the keyboard', async ({ page }) => {
+		await page.goto('/glossar/');
+		const letters = page.locator('[data-section-list]');
+		await expect(letters.getByRole('heading', { name: 'Von A bis Z' })).toBeAttached();
+		const k = letters.getByRole('link', { name: 'K', exact: true });
+		await k.focus();
+		await expect(k).toBeFocused();
+		await page.keyboard.press('Enter');
+		await expect(page).toHaveURL(/#k$/);
+		await expect(
+			page.getByRole('heading', { level: 2, name: 'K', exact: true })
+		).toBeInViewport();
+	});
+
+	test('every entry is an anchor with its term, kanji and meaning', async ({ page }) => {
+		await page.goto('/glossar/#kamae');
+		const entry = page.locator('#kamae');
+		await expect(entry).toBeInViewport();
+		await expect(entry.locator('dfn')).toHaveText('kamae');
+		await expect(entry.locator('[lang="ja"]')).toHaveText('構え');
+		await expect(entry.locator('q')).toHaveText('„Kampfstellungen“');
+		expect(await page.locator('.entry').count()).toBe(760);
+	});
+});
+
+test.describe('legal pages', () => {
+	test('the colophon links the imprint and the privacy policy, English for the others', async ({
+		page,
+	}) => {
+		await page.goto('/');
+		await page.getByRole('link', { name: 'Impressum' }).click();
+		await expect(page).toHaveURL('/impressum/');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('Impressum');
+
+		await page.goto('/ja/');
+		await expect(page.getByRole('link', { name: /^プライバシー\s*（英語）$/ })).toHaveAttribute(
+			'href',
+			'/en/privacy/'
+		);
+	});
+
+	test('the language switch leads from the German to the English version', async ({ page }) => {
+		await page.goto('/datenschutz/');
+		await page.locator('#language-select').selectOption('/en/privacy/');
+		await page.locator('[data-language-form] button').click();
+		await expect(page).toHaveURL('/en/privacy/');
+		await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+	});
+
+	for (const path of ['/impressum/', '/datenschutz/', '/en/imprint/', '/en/privacy/']) {
+		test(`${path} has no accessibility violations`, async ({ page }) => {
+			await page.goto(path);
+			const results = await new AxeBuilder({ page }).analyze();
+			expect(results.violations).toEqual([]);
 		});
 	}
 });

@@ -2,11 +2,13 @@
 /**
  * The colophon: the page ends on the sumi band (by night the deepest
  * indigo), its top edge wet ink brushed in by a sweep. The small name
- * plate, the book's name and subtitle, the copyright, one link back, and
- * the reader's choices: the mode (ModeSwitch) and the language
+ * plate, the book's name and subtitle, the copyright, one link back, the
+ * imprint and the privacy policy (English for every language but German),
+ * and the reader's choices: the mode (ModeSwitch) and the language
  * (LanguageSelect).
  */
 import type { Lang, languageChoices } from '@/i18n/languages';
+import { legalLang, legalPath } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import { BOOK_PLATE } from '@/lib/book/plates';
 import { inkFile } from '@/lib/images/images';
@@ -30,6 +32,9 @@ const { lang, back, languages, since = 1999, author = 'Stefan Imhoff' } = Astro.
 const t = ui(lang);
 const year = new Date().getFullYear();
 const edge = `--band-edge: url('${inkFile('wash-edge-a.webp')}')`;
+// The legal pages are German and English: a link to another language says so
+const legal = legalLang(lang);
+const hreflang = legal === lang ? undefined : legal;
 ---
 
 <footer class="colophon">
@@ -50,6 +55,16 @@ const edge = `--band-edge: url('${inkFile('wash-edge-a.webp')}')`;
 			</p>
 			<p>
 				<a href={back.href}>{back.label}</a>
+			</p>
+			<p class="colophon-legal">
+				<a href={legalPath(lang, 'imprint')} hreflang={hreflang}>
+					{t.imprint}
+					{hreflang && ` ${t.inEnglish}`}
+				</a>
+				<a href={legalPath(lang, 'privacy')} hreflang={hreflang}>
+					{t.privacy}
+					{hreflang && ` ${t.inEnglish}`}
+				</a>
 			</p>
 		</div>
 		<ModeSwitch
@@ -96,6 +111,13 @@ const edge = `--band-edge: url('${inkFile('wash-edge-a.webp')}')`;
 
 	.colophon-text p {
 		margin-block: 0 0.6rem;
+	}
+
+	.colophon-legal {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem 1.25rem;
+		font-size: 1rem;
 	}
 
 	.colophon-credit {

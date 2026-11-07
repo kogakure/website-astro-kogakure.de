@@ -1,8 +1,8 @@
 import { glob } from 'astro/loaders';
 import { defineCollection } from 'astro:content';
-import { glossarySchema, pageSchema, tocSchema } from '@/lib/book/schema';
+import { glossarySchema, legalSchema, pageSchema, tocSchema } from '@/lib/book/schema';
 
-/** Written by `pnpm import:content`; edit the texts in kogakure-texts */
+/** book, toc and glossary are written by `pnpm import:content`; edit the texts in kogakure-texts */
 
 /** Every page of the book, id `<lang>/<slug>` */
 const book = defineCollection({
@@ -22,4 +22,13 @@ const glossary = defineCollection({
 	schema: glossarySchema,
 });
 
-export const collections = { book, toc, glossary };
+/**
+ * The legal pages, written for the website (not imported): German and
+ * English, id `<lang>/<slug>`
+ */
+const legal = defineCollection({
+	loader: glob({ pattern: '*/*.md', base: './src/legal' }),
+	schema: legalSchema,
+});
+
+export const collections = { book, toc, glossary, legal };

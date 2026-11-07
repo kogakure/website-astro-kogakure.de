@@ -8,6 +8,7 @@
  *   texts/new/<lang>/data/glossary.json → src/content/glossary/<lang>.json
  *
  * On the way it drops the `source` field, keeps the WEBSITE-ONLY parts,
+ * drops the glossary page's entries (the site renders glossary.json),
  * rewrites image paths to /images/… and adds the translationKey to the TOC.
  * Nothing is written if the book fails validation. Rerunning it on unchanged
  * texts produces no diff.
@@ -22,6 +23,8 @@ import { assetExists, CONTENT_DIRS } from '../src/lib/book/read.ts';
 import {
 	DROPPED_FIELDS,
 	dropFields,
+	dropGlossaryEntries,
+	GLOSSARY_PAGE,
 	imageSource,
 	joinFrontmatter,
 	keepWebsiteOnly,
@@ -57,11 +60,13 @@ for (const lang of LANGS) {
 		try {
 			const split = splitFrontmatter(fs.readFileSync(path.join(dir, name), 'utf8'));
 			const frontmatter = dropFields(split.frontmatter, DROPPED_FIELDS);
-			const body = rewriteImages(keepWebsiteOnly(split.body));
+			const data = parseYaml(frontmatter) as { translationKey?: string };
+			const kept = rewriteImages(keepWebsiteOnly(split.body));
+			const body = data.translationKey === GLOSSARY_PAGE ? dropGlossaryEntries(kept) : kept;
 			pages.push({
 				lang,
 				slug: name.slice(0, -3),
-				data: parseYaml(frontmatter),
+				data,
 				body,
 				text: joinFrontmatter({ frontmatter, body }),
 			});

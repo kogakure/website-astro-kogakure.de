@@ -12,6 +12,7 @@ import { LANGS, LANGUAGES, type Lang } from '../../i18n/languages.ts';
 import { ui } from '../../i18n/ui.ts';
 import { BOOK_PLATE, DESIGN_NAME, PLATE_TEXT, SCENES } from '../book/plates.ts';
 import type { Glossary, Toc } from '../book/schema.ts';
+import { GLOSSARY_PAGE } from '../book/transform.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../../..');
 const CONTENT = path.join(ROOT, 'src/content');
@@ -107,9 +108,6 @@ const frontmatter = (page: string): Record<string, unknown> =>
 export /** The kanji of a page's margin glosses */
 const glossKanji = (page: string) => [...page.matchAll(GLOSS)].map((match) => match[1]).join('');
 
-/** The page that also sets the glossary's entries */
-const GLOSSARY = 'glossary';
-
 const boldText = (page: string) =>
 	[...page.matchAll(BOLD)].map((m) => m[1] ?? m[2] ?? m[3] ?? m[5] ?? '').join('\n');
 
@@ -149,7 +147,8 @@ export function languageText(lang: Lang): LanguageText {
 		.toSorted()
 		.map((name) => ({ slug: name.slice(0, -3), markdown: read(path.join(dir, name)) }));
 	const pages = files.map(({ slug, markdown }) => {
-		const isGlossary = slug === GLOSSARY;
+		// The glossary page also sets the glossary's entries (German slug `glossar`)
+		const isGlossary = frontmatter(markdown).translationKey === GLOSSARY_PAGE;
 		const around = context.get(slug) ?? '';
 		return {
 			slug,

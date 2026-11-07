@@ -1,0 +1,122 @@
+---
+/**
+ * The glossary's entries (glossary.json), in the reading text after the
+ * page's own words: one group per initial (an h2, no landmark), the entries as a definition
+ * list. Each entry is an anchor: the romanized term, its kanji (from 75em
+ * in the outer margin, where the articles set their glosses, in the text's
+ * kanji face: the brush face for 600 kanji would weigh more than the page),
+ * the meaning and the description.
+ */
+import type { GlossaryLetter } from '@/lib/book/glossary';
+
+interface Props {
+	letters: GlossaryLetter[];
+	/** The quotation marks of the language, for the meanings */
+	quotes: readonly [string, string];
+	/** „Chinesisch“, „Sanskrit“: a term that isn't Japanese */
+	origins: { chinese: string; sanskrit: string };
+}
+
+const { letters, quotes, origins } = Astro.props;
+const [open, close] = quotes;
+const romanized = { ja: 'ja-Latn', zh: 'zh-Latn', sa: 'sa-Latn' } as const;
+---
+
+<div class="glossary">
+	{letters.map((group) => (
+		<div class="glossary-letter">
+			<h2 id={group.id}>{group.letter}</h2>
+			<dl>
+				{group.entries.map((entry) => (
+					<div class="entry" id={entry.id}>
+						<dt>
+							<dfn lang={romanized[entry.script?.lang ?? 'ja']}>{entry.term}</dfn>
+							{entry.script && (
+								<span class="entry-script" lang={entry.script.lang}>
+									{entry.script.text}
+								</span>
+							)}
+						</dt>
+						{entry.translation && (
+							<dd class="entry-meaning">
+								<q>
+									{open}
+									{entry.translation}
+									{close}
+								</q>
+							</dd>
+						)}
+						{(entry.description || entry.origin) && (
+							<dd>
+								{entry.origin && (
+									<em class="entry-origin">{origins[entry.origin]}</em>
+								)}
+								{entry.origin && entry.description && '. '}
+								{entry.description && <Fragment set:html={entry.description} />}
+							</dd>
+						)}
+					</div>
+				))}
+			</dl>
+		</div>
+	))}
+</div>
+
+<style>
+	dl {
+		margin: 0;
+	}
+
+	.entry {
+		position: relative;
+		margin-block-end: 1.6em;
+		scroll-margin-block-start: 5rem;
+	}
+
+	dt {
+		color: var(--heading);
+	}
+
+	dfn {
+		font-style: normal;
+	}
+
+	/* The kanji in the regular weight: the page's bold subset holds only the terms */
+	.entry-script {
+		margin-inline-start: 0.5em;
+		font-weight: 400;
+		color: var(--heading);
+	}
+
+	.entry dd {
+		margin: 0;
+		text-wrap: pretty;
+	}
+
+	.entry-meaning {
+		color: var(--text-2);
+	}
+
+	/* Han, kana and Hangul have no italic: the label stands upright, as the texts set it */
+	.entry-origin:is(:lang(ja), :lang(zh), :lang(ko)) {
+		font-style: normal;
+	}
+
+	/* From 75em the kanji stand in the outer margin, beside the term, hung on
+	   a short sumi rule: the geometry of the articles' glosses, mirrored from
+	   prose.css (.prose-margin .gloss), whose float can't hold to its entry */
+	@media (min-width: 75em) {
+		:global(.prose-margin) .entry-script {
+			position: absolute;
+			inset-block-start: 0;
+			inset-inline-end: -16rem;
+			inline-size: 13rem;
+			margin: 0;
+			padding-block-start: 0.6rem;
+			border-block-start: 2px solid var(--ink);
+			font-size: 2.1rem;
+			line-height: 1.15;
+			letter-spacing: 0.04em;
+		}
+	}
+</style>

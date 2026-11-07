@@ -4,28 +4,14 @@ import { describe, expect, it } from 'vitest';
 import PageText from './PageText.astro';
 
 describe('PageText', () => {
-	it('renders the title, the lede and the text', async () => {
-		const html = await renderAstro(
-			PageText,
-			{ title: 'Inrō – Reiseapotheke', excerpt: 'Eine kleine Dose.' },
-			{ default: '<p>Der Text.</p>' }
-		);
-		expect(html).toContain('<h1 class="text-3xl">Inrō – Reiseapotheke</h1>');
-		expect(html).toContain('Eine kleine Dose.');
-		expect(html).toContain('<p>Der Text.</p>');
-	});
-
-	it('leaves out a missing lede', async () => {
-		const html = await renderAstro(PageText, { title: 'Glossar' });
-		expect(html).not.toContain('text-xl');
+	it('sets the text in the reading column', async () => {
+		const html = await renderAstro(PageText, { opener: true }, { default: '<p>Text</p>' });
+		expect(html).toMatch(/class="page-text"[\s\S]*<div data-opener class="prose"/);
+		expect(html).toContain('<p>Text</p>');
 	});
 
 	it('has no accessibility violations', async () => {
-		const html = await renderAstro(
-			PageText,
-			{ title: 'Kamae', excerpt: 'Stellungen.' },
-			{ default: '<p>Text</p>' }
-		);
+		const html = await renderAstro(PageText, {}, { default: '<p>Text</p>' });
 		const violations = await axeViolations(html);
 		expect(violations, describeViolations(violations)).toHaveLength(0);
 	});

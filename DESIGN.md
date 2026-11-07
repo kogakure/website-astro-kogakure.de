@@ -226,7 +226,7 @@ The scale steps by about 1.25 between text sizes; the jump to the plate kanji is
 
 ### Named Rules
 
-**The Brush Belongs to the Plate Rule.** Yuji Syuku appears only on name plates and in the kanji of margin glosses. Kanji in running text and captions are Shippori Mincho.
+**The Brush Belongs to the Plate Rule.** Yuji Syuku appears only on name plates and in the kanji of margin glosses. Kanji in running text and captions are Shippori Mincho. The glossary sets its 760 entries' kanji in the margin like glosses, but in Shippori Mincho: the brush face for some 600 kanji would weigh more than the whole page.
 
 **The Subtitle Rule.** Mono is the film's subtitle: a short line in a dark box over or under a painting. It never sets a paragraph, a heading or a list.
 
