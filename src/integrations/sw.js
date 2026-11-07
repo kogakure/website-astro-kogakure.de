@@ -9,9 +9,14 @@
  *            without a connection (or after CONFIG.timeout seconds) the
  *            saved copy, and for a page never read the offline page of its
  *            language
- *   assets, fonts, images
- *            CacheFirst: named by their content (images by their source),
- *            kept as they are loaded, each cache with a limit of entries
+ *   assets, fonts
+ *            CacheFirst: named by their content; a file of the shell is
+ *            copied over, so the pages saved keep their styles and scripts
+ *            when a deploy deletes its shell
+ *   images   StaleWhileRevalidate: named by their source, so a painting
+ *            made again keeps its name
+ *
+ * Each runtime cache has a limit of entries; the oldest go first.
  */
 const CONFIG = /* CONFIG */ {
 	version: 'dev',
@@ -21,20 +26,20 @@ const CONFIG = /* CONFIG */ {
 	caches: {
 		shell: 'kogakure-shell',
 		pages: { name: 'kogakure-pages', limit: 150 },
-		assets: { name: 'kogakure-assets', limit: 120 },
+		assets: { name: 'kogakure-assets', limit: 60 },
 		fonts: { name: 'kogakure-fonts', limit: 80 },
-		images: { name: 'kogakure-images', limit: 60 },
+		images: { name: 'kogakure-images', limit: 40 },
 	},
 };
 
 const { caches: CACHES } = CONFIG;
 const SHELL = `${CACHES.shell}-${CONFIG.version}`;
 
-/** The runtime cache of a path, CacheFirst */
+/** The runtime cache of a path, and whether a saved copy is fetched again */
 const RUNTIME = [
-	['/_astro/', CACHES.assets],
-	['/fonts/', CACHES.fonts],
-	['/images/', CACHES.images],
+	['/_astro/', CACHES.assets, false],
+	['/fonts/', CACHES.fonts, false],
+	['/images/', CACHES.images, true],
 ];
 
 /** The offline page of the language a path is in */
@@ -59,6 +64,9 @@ async function trim({ name, limit }) {
 async function keep(request, response, cache) {
 	// A redirected response may not answer a navigation: the browser would refuse it
 	if (response.status !== 200 || response.type !== 'basic' || response.redirected) return;
+	// The pages' cache holds pages, not a sitemap or text file opened in a tab
+	if (cache === CACHES.pages && !response.headers.get('content-type')?.includes('text/html'))
+		return;
 	await (await caches.open(cache.name)).put(request, response);
 	await trim(cache);
 }
@@ -83,19 +91,30 @@ self.addEventListener('activate', (event) => {
 					await caches.delete(name);
 			await self.registration.navigationPreload?.enable();
 			await self.clients.claim();
-			// The pages open before there was a worker are read too: save them
+			// The pages open before there was a worker are read too: save them.
+			// Fetches wait for the activation, so a slow connection gets no longer
+			// than the timeout
 			const pages = await caches.open(CACHES.pages.name);
-			for (const client of await self.clients.matchAll({ type: 'window' })) {
-				const url = new URL(client.url);
-				url.hash = '';
-				if (url.origin !== location.origin || isOfflinePage(url.pathname)) continue;
-				if (await pages.match(url.href, { ignoreVary: true })) continue;
-				try {
-					await keep(new Request(url.href), await fetch(url.href), CACHES.pages);
-				} catch {
-					// Offline already: it is saved the next time it is read
-				}
-			}
+			const clients = await self.clients.matchAll({ type: 'window' });
+			await Promise.all(
+				clients.map(async (client) => {
+					const url = new URL(client.url);
+					url.hash = '';
+					if (url.origin !== location.origin || isOfflinePage(url.pathname)) return;
+					if (await pages.match(url.href, { ignoreSearch: true, ignoreVary: true }))
+						return;
+					try {
+						const signal = AbortSignal.timeout(CONFIG.timeout * 1000);
+						await keep(
+							new Request(url.href),
+							await fetch(url.href, { signal }),
+							CACHES.pages
+						);
+					} catch {
+						// Offline or slow: it is saved the next time it is read
+					}
+				})
+			);
 		})()
 	);
 });
@@ -104,7 +123,12 @@ self.addEventListener('activate', (event) => {
 async function page(event) {
 	const { request } = event;
 	const { pathname } = new URL(request.url);
-	const cached = caches.match(request, { cacheName: CACHES.pages.name, ignoreVary: true });
+	// A link with a query (?utm_source) is the same page
+	const cached = caches.match(request, {
+		cacheName: CACHES.pages.name,
+		ignoreSearch: true,
+		ignoreVary: true,
+	});
 	const network = (async () => {
 		const response = (await event.preloadResponse) ?? (await fetch(request));
 		// A server error is no page: the saved copy is better
@@ -129,13 +153,26 @@ async function page(event) {
 	}
 }
 
-/** CacheFirst for the files named by their content */
-async function file(event, cache) {
-	const cached = await caches.match(event.request, { ignoreVary: true });
-	if (cached) return cached;
-	const response = await fetch(event.request);
-	event.waitUntil(keep(event.request, response.clone(), cache));
-	return response;
+/** CacheFirst, or StaleWhileRevalidate with `revalidate`, for the files of the site */
+async function file(event, cache, revalidate) {
+	const { request } = event;
+	const fetchAndKeep = () =>
+		fetch(request).then((response) => {
+			event.waitUntil(keep(request, response.clone(), cache));
+			return response;
+		});
+	const kept = await caches.match(request, { cacheName: cache.name, ignoreVary: true });
+	if (kept) {
+		if (revalidate) event.waitUntil(fetchAndKeep().catch(() => {}));
+		return kept;
+	}
+	// The shell's copy goes into the runtime cache: the shell is gone after the next deploy
+	const shell = await caches.match(request, { cacheName: SHELL, ignoreVary: true });
+	if (shell) {
+		event.waitUntil(keep(request, shell.clone(), cache));
+		return shell;
+	}
+	return fetchAndKeep();
 }
 
 self.addEventListener('fetch', (event) => {
@@ -146,9 +183,9 @@ self.addEventListener('fetch', (event) => {
 		event.respondWith(page(event));
 		return;
 	}
-	const runtime = RUNTIME.find(([prefix]) => url.pathname.startsWith(prefix))?.[1];
+	const runtime = RUNTIME.find(([prefix]) => url.pathname.startsWith(prefix));
 	if (runtime && !request.headers.has('range')) {
-		event.respondWith(file(event, runtime));
+		event.respondWith(file(event, runtime[1], runtime[2]));
 		return;
 	}
 	// Everything else (the icons, the manifests, the search index): the network, then the shell
