@@ -19,9 +19,7 @@ Verantwortlich für die Verarbeitung nach Art. 4 Nr. 7 Datenschutz-Grundverordnu
 
 ## Server und Logdateien
 
-<!-- TODO(SI-477, Stefan): Standort des Rechenzentrums und Speicherdauer der Logs eintragen -->
-
-Die Website liegt auf einem Server der Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, in einem Rechenzentrum in [Standort]. Bei jedem Aufruf speichert der Webserver technisch notwendige Angaben in Logdateien: die IP-Adresse, Datum und Uhrzeit, die aufgerufene Adresse, den Statuscode, die übertragene Datenmenge, die zuvor besuchte Seite und den Browser. Diese Daten brauche ich, um die Website sicher und stabil zu betreiben und Angriffe zu erkennen (Art. 6 Abs. 1 lit. f DSGVO). Die Logdateien werden nach [Anzahl] Tagen gelöscht. Mit dem Hoster besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO.
+Die Website liegt auf einem Server der Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, in einem Rechenzentrum in Nürnberg. Bei jedem Aufruf speichert der Webserver technisch notwendige Angaben in Logdateien: Datum und Uhrzeit, die aufgerufene Adresse, den Statuscode, die übertragene Datenmenge, die zuvor besuchte Seite, den Browser und die IP-Adresse, aber nur gekürzt: ohne ihren letzten Teil, sodass sie sich keinem Anschluss und keiner Person zuordnen lässt. Die vollständige IP-Adresse wird nicht gespeichert. Diese Angaben brauche ich, um die Website sicher und stabil zu betreiben und Fehler und Angriffe zu erkennen (Art. 6 Abs. 1 lit. f DSGVO). Mit dem Hoster besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO.
 
 ## Statistik mit Umami
 
