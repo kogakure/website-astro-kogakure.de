@@ -15,6 +15,8 @@ export default defineConfig({
 		// A German browser: on its first visit, / sends other languages on (SI-478)
 		locale: 'de-DE',
 		trace: 'on-first-retry',
+		// The service worker would answer requests page.route() never sees: only pwa.spec.ts allows it
+		serviceWorkers: 'block',
 	},
 	projects: [
 		{ name: 'desktop', use: { ...devices['Desktop Chrome'] } },

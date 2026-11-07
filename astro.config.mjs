@@ -3,6 +3,7 @@ import { satteri } from '@astrojs/markdown-satteri';
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig, envField, passthroughImageService } from 'astro/config';
+import { pwaIntegration } from './src/integrations/pwa.ts';
 import { searchIntegration } from './src/integrations/search.ts';
 import { validateBookIntegration } from './src/integrations/validate-book.ts';
 import { BOOK_HAST_PLUGINS, MARKDOWN_FEATURES } from './src/lib/markdown/index.ts';
@@ -12,7 +13,7 @@ import { SITE_URL } from './src/lib/seo/seo.ts';
 export default defineConfig({
 	site: SITE_URL,
 	trailingSlash: 'always',
-	integrations: [validateBookIntegration(), react(), searchIntegration()],
+	integrations: [validateBookIntegration(), react(), searchIntegration(), pwaIntegration()],
 	markdown: {
 		processor: satteri({
 			features: MARKDOWN_FEATURES,

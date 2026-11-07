@@ -5,8 +5,9 @@
 | `pnpm dev`            | Dev server on http://localhost:4321; the search uses the last build's index, or finds nothing without one (`docs/search.md`)       |
 | `pnpm import:content` | Imports the book from `../kogakure-texts` into `src/content/` (`docs/content.md`), then runs `pnpm fonts`                          |
 | `pnpm fonts`          | Subsets the fonts to what the texts set: `public/fonts/` and the font manifest (`docs/fonts.md`)                                   |
+| `pnpm icons`          | Draws the favicons, app icons and iOS launch screens from the name plate into `public/` (`docs/pwa.md`)                            |
 | `pnpm images`         | Generates the WebP sizes, OG images and ink assets into `public/images/` (`docs/images.md`)                                        |
-| `pnpm build`          | Static build into `dist/`, then the search index into `dist/pagefind/`                                                             |
+| `pnpm build`          | Static build into `dist/`, then the search index into `dist/pagefind/` and the service worker into `dist/sw.js`                    |
 | `pnpm preview`        | Serves `dist/` (Astro 7 runs it in the foreground; `--background`, `astro preview stop` and `status` exist)                        |
 | `pnpm check`          | `astro check` + Oxlint + Prettier check (the CI gate)                                                                              |
 | `pnpm format`         | Formats everything with Prettier                                                                                                   |

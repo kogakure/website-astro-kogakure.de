@@ -22,6 +22,12 @@ export const routeParam = (path: string): string => path.replace(/^\/|\/$/g, '')
 export const notFoundPath = (lang: Lang): string =>
 	lang === DEFAULT_LANG ? '/404.html' : `/${lang}/404/`;
 
+/** The offline page's slug: its URL and its own font subsets (SI-480) */
+export const OFFLINE_SLUG = 'offline';
+
+/** The offline page of a language: the service worker shows it for a page not saved on the device */
+export const offlinePath = (lang: Lang): string => pagePath(lang, OFFLINE_SLUG);
+
 /**
  * Pages outside the book, by translationKey, with their own route instead of
  * `/<slug>/`. They are not in the TOC, the book order, previous/next, the

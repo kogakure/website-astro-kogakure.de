@@ -26,6 +26,22 @@ describe('SiteHead', () => {
 		expect(html).toContain('prefers-reduced-motion');
 	});
 
+	it('names the icons, the language’s manifest and the launch screens', async () => {
+		const html = await renderAstro(SiteHead, { lang: 'ja' });
+		expect(html).toContain('<link rel="icon" href="/favicon.ico" sizes="32x32">');
+		expect(html).toContain('<link rel="icon" href="/favicon.svg" type="image/svg+xml">');
+		expect(html).toContain('<link rel="apple-touch-icon" href="/apple-touch-icon.png">');
+		expect(html).toContain('<link rel="manifest" href="/ja/manifest.webmanifest">');
+		expect(html).toMatch(
+			/<link rel="apple-touch-startup-image" href="\/icons\/launch\/1179x2556-dark\.png" media="[^"]*prefers-color-scheme: dark\)"/
+		);
+	});
+
+	it('registers the service worker only in the built site', async () => {
+		const html = await renderAstro(SiteHead, { lang: 'de' });
+		expect(html).not.toContain('serviceWorker');
+	});
+
 	it('adds the fonts of quoted pages without repeating rules', async () => {
 		const html = await renderAstro(SiteHead, {
 			lang: 'de',

@@ -84,6 +84,14 @@ export interface Ui {
 	inEnglish: string;
 	/** The date a legal page was last changed: „Stand“ */
 	updated: string;
+	/** The offline page (SI-480): its title */
+	offline: string;
+	/** Why it shows instead of the page */
+	offlineText: string;
+	/** Loads the page again */
+	offlineRetry: string;
+	/** The pages saved on the device: „Ohne Verbindung lesbar“ */
+	offlineSaved: string;
 }
 
 type Forms = Partial<Record<Intl.LDMLPluralRule, string>> & { other: string };
@@ -142,6 +150,11 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Datenschutz',
 		updated: 'Stand',
 		inEnglish: '',
+		offline: 'Keine Verbindung',
+		offlineText:
+			'Diese Seite ist nicht auf diesem Gerät gespeichert, und gerade gibt es keine Verbindung.',
+		offlineRetry: 'Erneut versuchen',
+		offlineSaved: 'Ohne Verbindung lesbar',
 	},
 	en: {
 		skipToText: 'Skip to text',
@@ -192,6 +205,10 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Privacy',
 		updated: 'Last updated',
 		inEnglish: '',
+		offline: 'No connection',
+		offlineText: 'This page isn’t saved on this device, and there is no connection right now.',
+		offlineRetry: 'Try again',
+		offlineSaved: 'Readable offline',
 	},
 	es: {
 		skipToText: 'Ir al texto',
@@ -243,6 +260,11 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Privacidad',
 		updated: 'Actualizado',
 		inEnglish: '(en inglés)',
+		offline: 'Sin conexión',
+		offlineText:
+			'Esta página no está guardada en este dispositivo y ahora mismo no hay conexión.',
+		offlineRetry: 'Reintentar',
+		offlineSaved: 'Disponible sin conexión',
 	},
 	fr: {
 		skipToText: 'Aller au texte',
@@ -294,6 +316,11 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Confidentialité',
 		updated: 'Mis à jour',
 		inEnglish: '(en anglais)',
+		offline: 'Pas de connexion',
+		offlineText:
+			'Cette page n’est pas enregistrée sur cet appareil, et il n’y a pas de connexion pour le moment.',
+		offlineRetry: 'Réessayer',
+		offlineSaved: 'Lisible hors ligne',
 	},
 	pt: {
 		skipToText: 'Ir para o texto',
@@ -344,6 +371,10 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Privacidade',
 		updated: 'Atualizado',
 		inEnglish: '(em inglês)',
+		offline: 'Sem conexão',
+		offlineText: 'Esta página não está salva neste dispositivo, e no momento não há conexão.',
+		offlineRetry: 'Tentar novamente',
+		offlineSaved: 'Disponível offline',
 	},
 	it: {
 		skipToText: 'Vai al testo',
@@ -394,6 +425,11 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Privacy',
 		updated: 'Aggiornato',
 		inEnglish: '(in inglese)',
+		offline: 'Nessuna connessione',
+		offlineText:
+			'Questa pagina non è salvata su questo dispositivo e al momento non c’è connessione.',
+		offlineRetry: 'Riprova',
+		offlineSaved: 'Leggibile offline',
 	},
 	nl: {
 		skipToText: 'Naar de tekst',
@@ -445,6 +481,11 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Privacy',
 		updated: 'Bijgewerkt',
 		inEnglish: '(in het Engels)',
+		offline: 'Geen verbinding',
+		offlineText:
+			'Deze pagina is niet op dit apparaat opgeslagen en er is op dit moment geen verbinding.',
+		offlineRetry: 'Opnieuw proberen',
+		offlineSaved: 'Offline te lezen',
 	},
 	ru: {
 		skipToText: 'К тексту',
@@ -499,6 +540,10 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'Конфиденциальность',
 		updated: 'Обновлено',
 		inEnglish: '(на английском)',
+		offline: 'Нет соединения',
+		offlineText: 'Эта страница не сохранена на устройстве, а соединения сейчас нет.',
+		offlineRetry: 'Повторить',
+		offlineSaved: 'Доступно без сети',
 	},
 	ja: {
 		skipToText: '本文へ',
@@ -549,6 +594,10 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'プライバシー',
 		updated: '更新日',
 		inEnglish: '（英語）',
+		offline: 'オフライン',
+		offlineText: 'このページはこの端末に保存されておらず、現在は接続がありません。',
+		offlineRetry: '再試行',
+		offlineSaved: 'オフラインで読めるページ',
 	},
 	zh: {
 		skipToText: '跳至正文',
@@ -599,6 +648,10 @@ export const UI: Record<Lang, Ui> = {
 		privacy: '隐私',
 		updated: '更新于',
 		inEnglish: '（英文）',
+		offline: '无网络连接',
+		offlineText: '此页面未保存在本设备上，当前也没有网络连接。',
+		offlineRetry: '重试',
+		offlineSaved: '可离线阅读',
 	},
 	ko: {
 		skipToText: '본문으로',
@@ -649,6 +702,10 @@ export const UI: Record<Lang, Ui> = {
 		privacy: '개인정보',
 		updated: '업데이트',
 		inEnglish: '(영어)',
+		offline: '연결 없음',
+		offlineText: '이 페이지는 이 기기에 저장되어 있지 않으며, 지금은 연결이 없습니다.',
+		offlineRetry: '다시 시도',
+		offlineSaved: '오프라인으로 읽을 수 있는 페이지',
 	},
 	he: {
 		skipToText: 'דילוג לטקסט',
@@ -699,6 +756,10 @@ export const UI: Record<Lang, Ui> = {
 		privacy: 'פרטיות',
 		updated: 'עודכן',
 		inEnglish: '(באנגלית)',
+		offline: 'אין חיבור',
+		offlineText: 'הדף הזה לא שמור במכשיר, וכרגע אין חיבור.',
+		offlineRetry: 'ניסיון חוזר',
+		offlineSaved: 'זמין לקריאה ללא חיבור',
 	},
 };
 

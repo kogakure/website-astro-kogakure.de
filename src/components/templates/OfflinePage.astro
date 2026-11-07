@@ -1,0 +1,62 @@
+---
+/**
+ * The offline page of a language (SI-480): the service worker shows it for
+ * a page that is not saved on the device while there is no connection. The
+ * bare plate 圏外 (what a Japanese phone shows without a signal), why the
+ * page is missing, a link that tries again (the page's own URL: the
+ * service worker serves this page in its place) and the pages saved on the
+ * device. Precached with what it loads (src/integrations/pwa.ts); its
+ * strings and the titles it lists are in its own font subsets.
+ */
+import ArticleHead from '@/components/book/ArticleHead.astro';
+import PageText from '@/components/book/PageText.astro';
+import Colophon from '@/components/site/Colophon.astro';
+import SavedPages from '@/components/site/SavedPages.astro';
+import TopBar from '@/components/site/TopBar.astro';
+import { LANGS, languageChoices, type Lang } from '@/i18n/languages';
+import { contentsPath, OFFLINE_SLUG, offlinePath } from '@/i18n/routes';
+import { ui } from '@/i18n/ui';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { OFFLINE_PLATE } from '@/lib/book/plates';
+
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = ui(lang);
+const contents = contentsPath(lang);
+// Every language's offline page is saved on the device too
+const languages = languageChoices(
+	Object.fromEntries(LANGS.map((code) => [code, offlinePath(code)])) as Record<Lang, string>,
+	lang
+);
+---
+
+<BaseLayout
+	title={t.offline}
+	description={t.offlineText}
+	lang={lang}
+	noindex
+	fontPage={OFFLINE_SLUG}
+	ground="read"
+>
+	<TopBar slot="before-main" label={t.book} home={{ href: contents, label: t.contents }} />
+
+	<ArticleHead plate={{ name: OFFLINE_PLATE, number: null }} title={t.offline} facts={[]} />
+
+	<PageText>
+		<p>{t.offlineText}</p>
+		<p>
+			<a href="">{t.offlineRetry}</a>
+		</p>
+		<SavedPages heading={t.offlineSaved} />
+	</PageText>
+
+	<Colophon
+		slot="after-main"
+		lang={lang}
+		back={{ href: contents, label: t.backToContents }}
+		languages={languages}
+	/>
+</BaseLayout>

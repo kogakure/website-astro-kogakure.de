@@ -1,0 +1,56 @@
+---
+/**
+ * The pages saved on this device, on the offline page (SI-480): the service
+ * worker keeps every page read (CACHES.pages in src/lib/pwa/pwa.ts); this
+ * lists those in the page's language, the last read first, each by its
+ * title. Hidden while there is none, and without JavaScript.
+ */
+interface Props {
+	/** „Ohne Verbindung lesbar“ */
+	heading: string;
+}
+
+const { heading } = Astro.props;
+---
+
+<section class="saved-pages" aria-labelledby="saved-pages-heading" data-saved-pages hidden>
+	<h2 id="saved-pages-heading">{heading}</h2>
+	<ul data-saved-list></ul>
+</section>
+
+<script>
+	import { CACHES } from '@/lib/pwa/caches';
+
+	const section = document.querySelector<HTMLElement>('[data-saved-pages]');
+	const list = section?.querySelector('[data-saved-list]');
+
+	/** A saved page's title (og:title: without the book's name) and language */
+	async function describe(response: Response) {
+		const doc = new DOMParser().parseFromString(await response.text(), 'text/html');
+		const title = doc.querySelector<HTMLMetaElement>('meta[property="og:title"]')?.content;
+		return title ? { title, lang: doc.documentElement.lang } : undefined;
+	}
+
+	async function show() {
+		if (!section || !list || !('caches' in window)) return;
+		const cache = await caches.open(CACHES.pages.name);
+		const lang = document.documentElement.lang;
+		const here = new URL(location.href).pathname;
+		for (const request of (await cache.keys()).toReversed()) {
+			const { pathname } = new URL(request.url);
+			if (pathname === here) continue;
+			const response = await cache.match(request);
+			const page = response && (await describe(response));
+			if (!page || page.lang !== lang) continue;
+			const link = document.createElement('a');
+			link.href = pathname;
+			link.textContent = page.title;
+			const item = document.createElement('li');
+			item.append(link);
+			list.append(item);
+		}
+		section.hidden = list.childElementCount === 0;
+	}
+
+	show().catch(() => {});
+</script>

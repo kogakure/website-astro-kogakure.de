@@ -10,7 +10,8 @@ import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { LANGS, LANGUAGES, type Lang } from '../../i18n/languages.ts';
 import { ui, type Ui } from '../../i18n/ui.ts';
-import { BOOK_PLATE, DESIGN_NAME, PLATE_TEXT, SCENES } from '../book/plates.ts';
+import { OFFLINE_SLUG } from '../../i18n/routes.ts';
+import { BOOK_PLATE, DESIGN_NAME, OFFLINE_PLATE, PLATE_TEXT, SCENES } from '../book/plates.ts';
 import type { Glossary, Toc } from '../book/schema.ts';
 import { GLOSSARY_PAGE } from '../book/transform.ts';
 
@@ -62,10 +63,22 @@ const read = (file: string) => fs.readFileSync(file, 'utf8');
 /** UI strings only in the head (titles, link previews), never set in the fonts */
 const HEAD_ONLY: ReadonlySet<keyof Ui> = new Set(['topic']);
 
+/** UI strings only on the offline page (SI-480): in its own subsets, not in every page's */
+const OFFLINE_ONLY = [
+	'offline',
+	'offlineText',
+	'offlineRetry',
+	'offlineSaved',
+] as const satisfies (keyof Ui)[];
+
 /** The UI strings of a language, with the counting ones filled in */
 const uiText = (lang: Lang) =>
 	Object.entries(ui(lang))
-		.filter(([key]) => !HEAD_ONLY.has(key as keyof Ui))
+		.filter(
+			([key]) =>
+				!HEAD_ONLY.has(key as keyof Ui) &&
+				!(OFFLINE_ONLY as readonly string[]).includes(key)
+		)
 		.map(([, value]) => (typeof value === 'function' ? value(1, 2, 3) : String(value)))
 		.join('\n');
 
@@ -169,6 +182,17 @@ export function languageText(lang: Lang): LanguageText {
 			glosses: glossKanji(markdown),
 			plate: String(frontmatter(markdown).plate ?? ''),
 		};
+	});
+	// The offline page, a page of its own: its strings, its plate, and the
+	// titles of the pages saved on the device it lists
+	const t = ui(lang);
+	pages.push({
+		slug: OFFLINE_SLUG,
+		text: [...OFFLINE_ONLY.map((key) => t[key]), tocTitles(toc)].join('\n'),
+		bold: [t.offline, t.offlineSaved].join('\n'),
+		italic: '',
+		glosses: '',
+		plate: OFFLINE_PLATE,
 	});
 	// The captions of the homepage's scenes
 	const captions = SCENES.map(({ image }) =>

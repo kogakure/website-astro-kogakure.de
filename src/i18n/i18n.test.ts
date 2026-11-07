@@ -8,6 +8,7 @@ import {
 	isInBook,
 	legalPath,
 	notFoundPath,
+	offlinePath,
 	pagePath,
 	routeOf,
 	routeParam,
@@ -81,6 +82,18 @@ describe('routes', () => {
 		expect(routeOf('de', 'nicht-gefunden', 'notFoundPage')).toBe(notFoundPath('de'));
 		expect(routeOf('ko', 'not-found', 'notFoundPage')).toBe('/ko/404/');
 		expect(routeOf('ko', 'kamae', 'kamaePage')).toBe('/ko/kamae/');
+	});
+
+	it('gives every language its offline page, below its prefix', () => {
+		expect(offlinePath('de')).toBe('/offline/');
+		expect(offlinePath('he')).toBe('/he/offline/');
+	});
+
+	it('serves the service worker no-cache in nginx', () => {
+		const conf = fs.readFileSync('nginx.conf', 'utf8');
+		const sw = /location = \/sw\.js \{([^}]*)\}/.exec(conf)?.[1];
+		expect(sw).toContain('Cache-Control "no-cache, no-store, must-revalidate"');
+		expect(sw).toContain('X-Content-Type-Options "nosniff"');
 	});
 
 	it('serves the 404 page of every prefixed language in nginx', () => {
