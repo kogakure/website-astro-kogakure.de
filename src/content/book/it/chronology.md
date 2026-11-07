@@ -228,3 +228,33 @@ Dal punto di vista tecnico il sito è ora costruito con [Eleventy](https://www.1
 ### 25 febbraio 2022
 
 Per la prima volta nella sua storia di oltre 20 anni, 木隠 è ora disponibile anche in inglese, così che il lavoro possa raggiungere un pubblico più ampio.
+
+---
+
+## 2026
+
+### XX.XX.2026
+
+Con il rilancio del 2026 non ho solo ridisegnato il sito, ma ho rivisto l’intero libro. È stata la revisione più grande nella storia di 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+
+Ho riscritto da zero ciascuno dei 76 articoli, in tedesco e in inglese. Strada facendo ho controllato nomi, date e letture, li ho confrontati con fonti giapponesi e ho corretto gli errori che si erano insinuati negli anni. Ho sostituito i passi lunghi e le citazioni di altri autori con parole mie.
+
+Al lancio 木隠 è disponibile in dodici lingue: tedesco, inglese, spagnolo, francese, portoghese, italiano, olandese, russo, giapponese, cinese, coreano ed ebraico, che si legge da destra a sinistra.
+
+Quasi tutte le immagini sono nuove. Con l’aiuto dell’IA ho creato più di 360 immagini nello stile della pittura a inchiostro e delle xilografie giapponesi, e ora ogni articolo si apre con un dipinto tutto suo.
+
+Il nuovo design vuole sembrare un libro d’inchiostro e carta. Di giorno si legge su carta chiara, di notte su un indaco scuro; il sito segue l’impostazione del sistema, ma si può anche scegliere. Ogni articolo porta una targhetta con un termine giapponese, e i capitoli sono numerati con cifre giapponesi. Dopo più di vent’anni ho mandato in pensione il bambù, emblema del sito dal 2002. Al suo posto c’è un cerchio d’inchiostro nella pagina iniziale in cui, come promette il nome, si nasconde una figura. Il testo è più grande e le righe sono più corte, perché la lettura viene prima di tutto.
+
+Dal punto di vista tecnico il sito è ora costruito con [Astro](https://astro.build/).
+
+Il nuovo design è anche la base per un libro stampato e un nuovo ebook.
+
+<figure>
+<img src="/images/old/chronology/history-2026-light.jpg" alt="Screenshot del sito kogakure del 2026 con il design chiaro.">
+<figcaption>Il sito nel 2026, design chiaro</figcaption>
+</figure>
+
+<figure>
+<img src="/images/old/chronology/history-2026-dark.jpg" alt="Screenshot del sito kogakure del 2026 con il design scuro.">
+<figcaption>Il sito nel 2026, design scuro</figcaption>
+</figure>

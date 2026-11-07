@@ -228,3 +228,33 @@ Technisch entsteht die Seite jetzt mit [Eleventy](https://www.11ty.dev/) und nut
 ### 25. Februar 2022
 
 Zum ersten Mal in seiner über 20-jährigen Geschichte gibt es 木隠 jetzt auch auf Englisch. So soll die Arbeit eine größere Leserschaft erreichen.
+
+---
+
+## 2026
+
+### XX.XX.2026
+
+Mit dem Neustart 2026 habe ich nicht nur die Website neu gestaltet, sondern das ganze Buch überarbeitet. Es war die größte Überarbeitung in der Geschichte von 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+
+Jeden der 76 Artikel habe ich von Grund auf neu geschrieben, auf Deutsch und auf Englisch. Dabei prüfte ich Namen, Jahreszahlen und Lesungen, glich sie mit japanischen Quellen ab und korrigierte Fehler, die sich über die Jahre eingeschlichen hatten. Längere Passagen und Zitate anderer Autoren ersetzte ich durch eigene Worte.
+
+Zum Start erscheint 木隠 in zwölf Sprachen: Deutsch, Englisch, Spanisch, Französisch, Portugiesisch, Italienisch, Niederländisch, Russisch, Japanisch, Chinesisch, Koreanisch und Hebräisch, das von rechts nach links gelesen wird.
+
+Fast alle Bilder sind neu. Mit Hilfe von KI habe ich mehr als 360 Bilder im Stil japanischer Tuschemalerei und Holzschnitte erstellt, und jeder Artikel beginnt jetzt mit einem eigenen Gemälde.
+
+Das neue Design soll sich anfühlen wie ein Buch aus Tusche und Papier. Bei Tag liest man auf hellem Papier, bei Nacht auf dunklem Indigo; die Website folgt der Einstellung des Systems, man kann aber auch selbst wählen. Jeder Artikel trägt ein Namensschild mit einem japanischen Begriff, und die Kapitel sind mit japanischen Ziffern nummeriert. Den Bambus, seit 2002 das Markenzeichen der Website, habe ich nach über zwanzig Jahren in den Ruhestand geschickt. An seine Stelle tritt ein Tuschekreis auf der Startseite, in dem sich, wie der Name es verspricht, eine Gestalt verbirgt. Die Schrift ist größer und die Zeilen sind kürzer, denn das Lesen steht an erster Stelle.
+
+Technisch entsteht die Seite jetzt mit [Astro](https://astro.build/).
+
+Die neue Gestaltung ist auch die Grundlage für ein gedrucktes Buch und ein neues eBook.
+
+<figure>
+<img src="/images/old/chronology/history-2026-light.jpg" alt="Screenshot der Website kogakure von 2026 im hellen Design.">
+<figcaption>Website 2026, helles Design</figcaption>
+</figure>
+
+<figure>
+<img src="/images/old/chronology/history-2026-dark.jpg" alt="Screenshot der Website kogakure von 2026 im dunklen Design.">
+<figcaption>Website 2026, dunkles Design</figcaption>
+</figure>

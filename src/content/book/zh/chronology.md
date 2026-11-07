@@ -228,3 +228,33 @@ Jekyll渲染得很慢，而我已经把我的[个人网站](https://www.stefanim
 ### 2022年2月25日
 
 在二十多年的历史中，木隐第一次有了英文版，希望这部作品能够因此拥有更多的读者。
+
+---
+
+## 2026
+
+### XX.XX.2026
+
+2026年重新上线时，我不仅重新设计了网站，还修订了整本书。这是木隐历史上规模最大的一次修订。 <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+
+全部76篇文章，我都用德语和英语从头重写了一遍。其间我核对了人名、年代和读音，与日文资料进行比对，并改正了多年来混入的错误。其他作者较长的段落和引文，我都换成了自己的话。
+
+上线时，木隐提供十二种语言：德语、英语、西班牙语、法语、葡萄牙语、意大利语、荷兰语、俄语、日语、中文、韩语，以及从右向左阅读的希伯来语。
+
+几乎所有图片都是新的。我借助人工智能，以日本水墨画和木版画的风格创作了360多幅图像，现在每篇文章都以一幅属于自己的画作开篇。
+
+新的设计力求像一本由墨与纸构成的书。白天在明亮的纸面上阅读，夜晚在深靛蓝的底色上阅读；网站会跟随系统设置，读者也可以自己选择。每篇文章都有一块写着日语术语的名牌，各章以汉字数字编号。自2002年起作为网站标志的竹子，在二十多年后退役了。取而代之的是首页上的一个墨圈，正如网站的名字所说，其中隐藏着一个身影。字号更大，行更短，因为阅读永远是第一位的。
+
+技术上，网站现在用[Astro](https://astro.build/)构建。
+
+这套新设计也是印刷版图书和新电子书的基础。
+
+<figure>
+<img src="/images/old/chronology/history-2026-light.jpg" alt="2026年木隐网站浅色设计的截图。">
+<figcaption>2026年的网站，浅色设计</figcaption>
+</figure>
+
+<figure>
+<img src="/images/old/chronology/history-2026-dark.jpg" alt="2026年木隐网站深色设计的截图。">
+<figcaption>2026年的网站，深色设计</figcaption>
+</figure>

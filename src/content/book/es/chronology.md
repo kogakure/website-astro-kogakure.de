@@ -228,3 +228,33 @@ En lo técnico, la web se genera ahora con [Eleventy](https://www.11ty.dev/) y h
 ### 25 de febrero de 2022
 
 Por primera vez en sus más de 20 años de historia, 木隠 está ahora también disponible en inglés, para que el trabajo llegue a un público más amplio.
+
+---
+
+## 2026
+
+### XX.XX.2026
+
+Con el relanzamiento de 2026 no solo rediseñé la web, sino que revisé el libro entero. Fue la mayor revisión en la historia de 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+
+Reescribí desde cero cada uno de los 76 artículos, en alemán y en inglés. Por el camino comprobé nombres, fechas y lecturas, los cotejé con fuentes japonesas y corregí los errores que se habían colado con los años. Sustituí los pasajes largos y las citas de otros autores por mis propias palabras.
+
+En su lanzamiento, 木隠 está disponible en doce idiomas: alemán, inglés, español, francés, portugués, italiano, neerlandés, ruso, japonés, chino, coreano y hebreo, que se lee de derecha a izquierda.
+
+Casi todas las imágenes son nuevas. Con ayuda de la IA creé más de 360 imágenes al estilo de la pintura a tinta y los grabados en madera japoneses, y ahora cada artículo se abre con una pintura propia.
+
+El nuevo diseño quiere sentirse como un libro de tinta y papel. De día se lee sobre papel claro; de noche, sobre un índigo oscuro. La web sigue el ajuste del sistema, pero también se puede elegir. Cada artículo lleva una placa con un término japonés, y los capítulos se numeran con cifras japonesas. Después de más de veinte años retiré el bambú, emblema de la web desde 2002. Su lugar lo ocupa un círculo de tinta en la página de inicio en el que, como promete el nombre, se oculta una figura. El texto es más grande y las líneas son más cortas, porque lo primero es la lectura.
+
+En lo técnico, la web se genera ahora con [Astro](https://astro.build/).
+
+El nuevo diseño es también la base de un libro impreso y de un nuevo libro electrónico.
+
+<figure>
+<img src="/images/old/chronology/history-2026-light.jpg" alt="Captura de pantalla de la web kogakure de 2026 con el diseño claro.">
+<figcaption>La web en 2026, diseño claro</figcaption>
+</figure>
+
+<figure>
+<img src="/images/old/chronology/history-2026-dark.jpg" alt="Captura de pantalla de la web kogakure de 2026 con el diseño oscuro.">
+<figcaption>La web en 2026, diseño oscuro</figcaption>
+</figure>
