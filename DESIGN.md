@@ -351,7 +351,7 @@ A Japanese term in the text, `tengu (天狗, „Himmelhund“)`, becomes a gloss
 
 ### Book Cover
 
-The cover of the print book and the ebook is the homepage's title stage (SI-317; `prototypes/gekiga-2-cover`, concept Ensō): on washi, the 木隠 title plate (romaji „Kogakure“ beneath the kanji) in the ink ring over its ochre wash; below, the subtitle „Hinter Blättern und Bäumen verborgen“ in its sumi box and the author in the serif (600). The ink ring is the website's, with the hidden shinobi (see Shapes). The cover is a fixed object: day colours, never mirrored, every size in container units so the ebook (1:1.6) and a shop thumbnail at 80 px are the same design. Spine: a slim plate at the head, „Kogakure“ and the author running down. Back: the blurb about the subject, the ten parts with their kanji, `kogakure.de`, space for the barcode. Format, paper, spine and imprint are settled in the book project.
+The cover of the ebook and the PDF is the homepage's title stage (SI-317; `prototypes/gekiga-2-cover`, concept Ensō): on washi, the 木隠 title plate (romaji „Kogakure“ beneath the kanji) in the ink ring over its ochre wash; below, the subtitle „Hinter Blättern und Bäumen verborgen“ in its sumi box and the author in the serif (600). The ink ring is the website's, with the hidden shinobi (see Shapes). The cover is a fixed object: day colours, never mirrored, every size in container units so the ebook (1:1.6) and a shop thumbnail at 80 px are the same design. Spine: a slim plate at the head, „Kogakure“ and the author running down. Back: the blurb about the subject, the ten parts with their kanji, `kogakure.de`, space for the barcode. Format, paper, spine and imprint are settled in the book project.
 
 ## Do's and Don'ts
 

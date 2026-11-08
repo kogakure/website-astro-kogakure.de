@@ -17,7 +17,7 @@ pnpm import:content path/to/kogakure-texts
 | `data/preface.json` + `data/toc.json`     | `src/content/toc/<lang>.json`      |
 | `data/glossary.json` (760 entries)        | `src/content/glossary/<lang>.json` |
 
-On the way it drops the `source` field, drops the glossary page's entries (`### term`: the site renders them from the glossary JSON, `Glossary.astro`), keeps the `<!-- WEBSITE-ONLY -->` parts (the website shows what the printed book skips) and rewrites image paths: `../../../images/new/<cat>/<name>.webp` → `/images/<cat>/<name>.webp`, `images/old/…` → `/images/old/…`. The path below `/images/` is the image's key in the image manifest (`docs/images.md`). The TOC items get the `translationKey` of their page.
+On the way it drops the `source` field, drops the glossary page's entries (`### term`: the site renders them from the glossary JSON, `Glossary.astro`), keeps the `<!-- WEBSITE-ONLY -->` parts (the website shows what the ebook and the PDF skip) and rewrites image paths: `../../../images/new/<cat>/<name>.webp` → `/images/<cat>/<name>.webp`, `images/old/…` → `/images/old/…`. The path below `/images/` is the image's key in the image manifest (`docs/images.md`). The TOC items get the `translationKey` of their page.
 
 The import is repeatable: rerunning it on unchanged texts produces no diff. It writes nothing if the book fails validation. `src/content/` is in `.prettierignore`: Prettier would rewrite the Chinese `*…*` emphasis.
 
