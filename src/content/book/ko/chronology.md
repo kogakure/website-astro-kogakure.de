@@ -247,7 +247,7 @@ Jekyll은 렌더링이 아주 느렸고, 나는 이미 내 [개인 웹사이트]
 
 기술적으로 이 사이트는 이제 [Astro](https://astro.build/)로 만들어진다.
 
-새 디자인은 인쇄본과 새 전자책의 바탕이 되기도 한다.
+새 디자인은 새 전자책과 PDF의 바탕이 되기도 한다.
 
 <figure>
 <img src="/images/old/chronology/history-2026-light.jpg" alt="밝은 디자인으로 된 2026년 고가쿠레 웹사이트의 스크린숏.">

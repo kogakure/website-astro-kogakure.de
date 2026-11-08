@@ -247,7 +247,7 @@ Il nuovo design vuole sembrare un libro d’inchiostro e carta. Di giorno si leg
 
 Dal punto di vista tecnico il sito è ora costruito con [Astro](https://astro.build/).
 
-Il nuovo design è anche la base per un libro stampato e un nuovo ebook.
+Il nuovo design è anche la base per un nuovo ebook e un PDF.
 
 <figure>
 <img src="/images/old/chronology/history-2026-light.jpg" alt="Screenshot del sito kogakure del 2026 con il design chiaro.">
