@@ -39,7 +39,7 @@ const WEBSITE_ONLY = /^<!-- WEBSITE-ONLY: (start|end)\b.*-->\n?/gm;
 
 /**
  * `<!-- WEBSITE-ONLY: start … -->` … `<!-- WEBSITE-ONLY: end -->` marks a part
- * that only the printed book skips. The website keeps the part and drops the
+ * that only the ebook and the PDF skip. The website keeps the part and drops the
  * markers. Unpaired markers are an error.
  */
 export function keepWebsiteOnly(body: string): string {
@@ -57,7 +57,7 @@ export const GLOSSARY_PAGE = 'glossaryPage';
 
 /**
  * The glossary page of kogakure-texts lists its entries as `### term`, for the
- * printed book. The website renders them from glossary.json (Glossary.astro),
+ * ebook and the PDF. The website renders them from glossary.json (Glossary.astro),
  * so the page keeps only its text before the first entry.
  */
 export function dropGlossaryEntries(body: string): string {
