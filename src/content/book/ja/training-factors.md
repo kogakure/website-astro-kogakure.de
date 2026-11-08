@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: 週90分の林間走、電光の反射、投げに要る力、しなやかな関節。持久力、速さ、力、柔軟性の四つが戦いの行方を決める。
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

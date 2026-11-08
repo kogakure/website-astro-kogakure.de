@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Neunzig Minuten Waldlauf pro Woche, blitzschnelle Reflexe, Kraft für den Wurf und Gelenke, die nachgeben. Ausdauer, Schnelligkeit, Kraft und Gelenkigkeit entscheiden über den Kampf.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

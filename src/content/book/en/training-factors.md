@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Ninety minutes of forest running a week, lightning reflexes, the strength for a throw, and joints that give. Endurance, speed, strength, and flexibility decide a fight.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: 每周在林间跑90分钟，闪电般的反应，足以完成摔投的力量，还有能够伸展的关节。耐力、速度、力量和柔韧性决定一场战斗。
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

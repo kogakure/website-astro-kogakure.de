@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: 일주일에 90분의 숲길 달리기, 번개 같은 반사 신경, 메치기를 위한 힘, 잘 굽혀지는 관절. 지구력, 속도, 힘, 유연성이 싸움을 가른다.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---
