@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Novanta minuti di corsa nel bosco a settimana, riflessi fulminei, forza per le proiezioni e articolazioni che cedono. Resistenza, velocità, forza e scioltezza decidono il combattimento.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Quatre-vingt-dix minutes de course en forêt par semaine, des réflexes fulgurants, de la force pour projeter et des articulations souples. Endurance, vitesse, force et souplesse décident du combat.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

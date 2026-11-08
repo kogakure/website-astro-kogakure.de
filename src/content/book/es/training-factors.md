@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Noventa minutos de carrera por el bosque a la semana, reflejos fulgurantes, fuerza para el lanzamiento y articulaciones que ceden. Resistencia, velocidad, fuerza y flexibilidad deciden el combate.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

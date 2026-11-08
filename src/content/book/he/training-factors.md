@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: תשעים דקות ריצה ביער בשבוע, רפלקסים מהירים כברק, כוח להטלה ומפרקים שמתמסרים. סבולת, מהירות, כוח וגמישות מכריעים את הקרב.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

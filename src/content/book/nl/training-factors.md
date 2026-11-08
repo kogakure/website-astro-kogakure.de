@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Negentig minuten bosloop per week, bliksemsnelle reflexen, kracht voor de worp en gewrichten die meegeven. Uithoudingsvermogen, snelheid, kracht en lenigheid beslissen het gevecht.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

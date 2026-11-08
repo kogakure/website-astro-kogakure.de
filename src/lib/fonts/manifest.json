@@ -1,18 +1,18 @@
 {
 	"commit": "38411257417e616c5d4daa1b9e91a3dbcebe1c2e",
 	"text": {
-		"de": "b8141192c4b4c624",
-		"en": "d1d669763c70bf30",
-		"es": "3d63e69a9d38fb45",
-		"fr": "f3afd276647c89c5",
-		"pt": "a57ddee23aeb0d27",
-		"it": "1052e62184825811",
-		"nl": "32530932f3f0d19f",
-		"ru": "5564c7e686a41757",
-		"ja": "4f8cb0835270d066",
-		"zh": "6212ca8d2686a4b1",
-		"ko": "57c858e6c84dd238",
-		"he": "459a906ac020d2fd"
+		"de": "cc17106db87cd8b3",
+		"en": "3a245cccc8647605",
+		"es": "dc0f07f7bbdab29e",
+		"fr": "75ea941f6ce92244",
+		"pt": "2a34cd6867be24ce",
+		"it": "cd1360b5b5c9516d",
+		"nl": "fde92f801b8880ae",
+		"ru": "48983e670a057cb9",
+		"ja": "60da2e0e06073342",
+		"zh": "dc000576da831b4c",
+		"ko": "2f403ef46271108f",
+		"he": "d243ae8dfeb42257"
 	},
 	"faces": [
 		{
@@ -7331,6 +7331,19 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-c4438e1753.woff2",
+			"bytes": 932,
+			"pages": [
+				"ja/training-factors",
+				"zh/training-factors",
+				"ko/training-factors",
+				"he/training-factors"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-c4a0382f1f.woff2",
 			"bytes": 1148,
 			"pages": ["ja/kunoichi", "zh/kunoichi", "ko/kunoichi", "he/kunoichi"]
@@ -7403,6 +7416,23 @@
 			"family": "Yuji Syuku",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/yuji-syuku-400-page-d5498128bc.woff2",
+			"bytes": 3072,
+			"pages": [
+				"de/trainingsfaktoren",
+				"en/training-factors",
+				"es/training-factors",
+				"fr/training-factors",
+				"pt/training-factors",
+				"it/training-factors",
+				"nl/training-factors",
+				"ru/training-factors"
+			]
+		},
+		{
+			"family": "Yuji Syuku",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/yuji-syuku-400-page-d5e827f5e8.woff2",
 			"bytes": 2280,
 			"pages": ["ja/koto-ryu", "zh/koto-ryu", "ko/koto-ryu", "he/koto-ryu"]
@@ -7423,21 +7453,13 @@
 			"bytes": 2800,
 			"pages": [
 				"de/junan-taiso",
-				"de/trainingsfaktoren",
 				"en/junan-taiso",
-				"en/training-factors",
 				"es/junan-taiso",
-				"es/training-factors",
 				"fr/junan-taiso",
-				"fr/training-factors",
 				"pt/junan-taiso",
-				"pt/training-factors",
 				"it/junan-taiso",
-				"it/training-factors",
 				"nl/junan-taiso",
-				"nl/training-factors",
 				"ru/junan-taiso",
-				"ru/training-factors",
 				"ja/junan-taiso",
 				"zh/junan-taiso",
 				"ko/junan-taiso",

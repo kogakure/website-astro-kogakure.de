@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Девяносто минут бега по лесу в неделю, молниеносные рефлексы, сила для броска и податливые суставы. Исход боя решают выносливость, быстрота, сила и гибкость.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---

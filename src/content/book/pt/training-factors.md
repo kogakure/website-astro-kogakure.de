@@ -5,6 +5,7 @@ date: '2006-03-28T17:30:01+02:00'
 author: Stefan Imhoff
 excerpt: Noventa minutos de corrida na floresta por semana, reflexos rápidos como um raio, força para a projeção e articulações flexíveis. Resistência, velocidade, força e flexibilidade decidem o combate.
 translationKey: trainingFactorsPage
+plate: 体力
 categories:
   - training
 ---
