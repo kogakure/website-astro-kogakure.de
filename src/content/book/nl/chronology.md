@@ -247,7 +247,7 @@ Het nieuwe ontwerp moet aanvoelen als een boek van inkt en papier. Overdag lees 
 
 Technisch wordt de site nu gebouwd met [Astro](https://astro.build/).
 
-Het nieuwe ontwerp is ook de basis voor een gedrukt boek en een nieuw e-book.
+Het nieuwe ontwerp is ook de basis voor een nieuw e-book en een pdf.
 
 <figure>
 <img src="/images/old/chronology/history-2026-light.jpg" alt="Screenshot van de website kogakure uit 2026 in het lichte ontwerp.">

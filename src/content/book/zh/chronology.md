@@ -247,7 +247,7 @@ Jekyll渲染得很慢，而我已经把我的[个人网站](https://www.stefanim
 
 技术上，网站现在用[Astro](https://astro.build/)构建。
 
-这套新设计也是印刷版图书和新电子书的基础。
+这套新设计也是新电子书和PDF版的基础。
 
 <figure>
 <img src="/images/old/chronology/history-2026-light.jpg" alt="2026年木隐网站浅色设计的截图。">

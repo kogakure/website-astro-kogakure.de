@@ -10,8 +10,8 @@
 		"nl": "32530932f3f0d19f",
 		"ru": "5564c7e686a41757",
 		"ja": "4f8cb0835270d066",
-		"zh": "8ffdb910015b538a",
-		"ko": "75c97ecee9cebfc7",
+		"zh": "6212ca8d2686a4b1",
+		"ko": "57c858e6c84dd238",
 		"he": "459a906ac020d2fd"
 	},
 	"faces": [
@@ -300,14 +300,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-508e866401.woff2",
-			"bytes": 28172,
-			"pages": ["ko/chronology"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/noto-serif-kr-400-page-50cc5fcd60.woff2",
 			"bytes": 7144,
 			"pages": ["ko/gikan-ryu"]
@@ -367,6 +359,14 @@
 			"file": "/fonts/noto-serif-kr-400-page-6aa77126fb.woff2",
 			"bytes": 11688,
 			"pages": ["ko/taijutsu"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-6acdb91ce0.woff2",
+			"bytes": 27960,
+			"pages": ["ko/chronology"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1454,14 +1454,6 @@
 			"family": "Noto Serif SC",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-sc-400-page-0fc78ef059.woff2",
-			"bytes": 56864,
-			"pages": ["zh/chronology"]
-		},
-		{
-			"family": "Noto Serif SC",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/noto-serif-sc-400-page-10b004b32b.woff2",
 			"bytes": 20096,
 			"pages": ["zh/taijutsu"]
@@ -1817,6 +1809,14 @@
 			"file": "/fonts/noto-serif-sc-400-page-a62237f4a6.woff2",
 			"bytes": 35756,
 			"pages": ["zh/colophon"]
+		},
+		{
+			"family": "Noto Serif SC",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-sc-400-page-a78bbe4ab5.woff2",
+			"bytes": 56656,
+			"pages": ["zh/chronology"]
 		},
 		{
 			"family": "Noto Serif SC",

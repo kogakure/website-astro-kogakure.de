@@ -247,7 +247,7 @@ El nuevo diseño quiere sentirse como un libro de tinta y papel. De día se lee 
 
 En lo técnico, la web se genera ahora con [Astro](https://astro.build/).
 
-El nuevo diseño es también la base de un libro impreso y de un nuevo libro electrónico.
+El nuevo diseño es también la base de un nuevo libro electrónico y de un PDF.
 
 <figure>
 <img src="/images/old/chronology/history-2026-light.jpg" alt="Captura de pantalla de la web kogakure de 2026 con el diseño claro.">

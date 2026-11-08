@@ -247,7 +247,7 @@ Das neue Design soll sich anfühlen wie ein Buch aus Tusche und Papier. Bei Tag 
 
 Technisch entsteht die Seite jetzt mit [Astro](https://astro.build/).
 
-Die neue Gestaltung ist auch die Grundlage für ein gedrucktes Buch und ein neues eBook.
+Die neue Gestaltung ist auch die Grundlage für ein neues eBook und ein PDF.
 
 <figure>
 <img src="/images/old/chronology/history-2026-light.jpg" alt="Screenshot der Website kogakure von 2026 im hellen Design.">
