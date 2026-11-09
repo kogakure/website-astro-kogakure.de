@@ -8,11 +8,12 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
-import { LANGS, LANGUAGES, type Lang } from '../../i18n/languages.ts';
+import { language, LANGS, LANGUAGES, type Lang } from '../../i18n/languages.ts';
 import { ui, type Ui } from '../../i18n/ui.ts';
-import { OFFLINE_SLUG } from '../../i18n/routes.ts';
+import { EBOOK, OFFLINE_SLUG } from '../../i18n/routes.ts';
 import { BOOK_PLATE, DESIGN_NAME, OFFLINE_PLATE, PLATE_TEXT, SCENES } from '../book/plates.ts';
 import type { Glossary, Toc } from '../book/schema.ts';
+import { DOWNLOADS_PAGE, releaseDate } from '../book/ebook.ts';
 import { GLOSSARY_PAGE } from '../book/transform.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../../..');
@@ -71,14 +72,31 @@ const OFFLINE_ONLY = [
 	'offlineSaved',
 ] as const satisfies (keyof Ui)[];
 
+/** UI strings only on the ebook's page (SI-504): in its own subsets, like the offline page's */
+const EBOOK_ONLY = [
+	'ebookDownloads',
+	'ebookVersion',
+	'ebookPages',
+	'ebookChecksums',
+	'ebookReleases',
+	'ebookText',
+	'ebookImages',
+	'ebookCover',
+] as const satisfies (keyof Ui)[];
+
+/**
+ * UI strings only on the homepage and the downloads page, beside their way to
+ * the ebook: in those pages' subsets, as the Chinese for „free, in German and
+ * English“ alone would put three glyphs into every page's
+ */
+const HOME_AND_DOWNLOADS = ['ebookFree'] as const satisfies (keyof Ui)[];
+
+const OWN_PAGES: readonly string[] = [...OFFLINE_ONLY, ...EBOOK_ONLY, ...HOME_AND_DOWNLOADS];
+
 /** The UI strings of a language, with the counting ones filled in */
 const uiText = (lang: Lang) =>
 	Object.entries(ui(lang))
-		.filter(
-			([key]) =>
-				!HEAD_ONLY.has(key as keyof Ui) &&
-				!(OFFLINE_ONLY as readonly string[]).includes(key)
-		)
+		.filter(([key]) => !HEAD_ONLY.has(key as keyof Ui) && !OWN_PAGES.includes(key))
 		.map(([, value]) => (typeof value === 'function' ? value(1, 2, 3) : String(value)))
 		.join('\n');
 
@@ -164,9 +182,12 @@ export function languageText(lang: Lang): LanguageText {
 		.filter((name) => name.endsWith('.md'))
 		.toSorted()
 		.map((name) => ({ slug: name.slice(0, -3), markdown: read(path.join(dir, name)) }));
+	const t = ui(lang);
+	const homeAndDownloads = HOME_AND_DOWNLOADS.map((key) => t[key]).join('\n');
 	const pages = files.map(({ slug, markdown }) => {
 		// The glossary page also sets the glossary's entries (German slug `glossar`)
 		const isGlossary = frontmatter(markdown).translationKey === GLOSSARY_PAGE;
+		const isDownloads = frontmatter(markdown).translationKey === DOWNLOADS_PAGE;
 		const around = context.get(slug) ?? '';
 		return {
 			slug,
@@ -174,6 +195,7 @@ export function languageText(lang: Lang): LanguageText {
 				visibleText(markdown),
 				around,
 				...(isGlossary ? glossaryText(glossary) : []),
+				...(isDownloads ? [homeAndDownloads] : []),
 			].join('\n'),
 			bold: [boldText(markdown), around, ...(isGlossary ? glossaryTerms(glossary) : [])].join(
 				'\n'
@@ -185,7 +207,6 @@ export function languageText(lang: Lang): LanguageText {
 	});
 	// The offline page, a page of its own: its strings, its plate, and the
 	// titles of the pages saved on the device it lists
-	const t = ui(lang);
 	pages.push({
 		slug: OFFLINE_SLUG,
 		text: [...OFFLINE_ONLY.map((key) => t[key]), tocTitles(toc)].join('\n'),
@@ -193,6 +214,16 @@ export function languageText(lang: Lang): LanguageText {
 		italic: '',
 		glosses: '',
 		plate: OFFLINE_PLATE,
+	});
+	// The ebook's page, a page of its own: its strings and the release's date
+	// around the text (the text itself is German or English, in the Latin subsets)
+	pages.push({
+		slug: EBOOK,
+		text: [...EBOOK_ONLY.map((key) => t[key]), releaseDate(language(lang).htmlLang)].join('\n'),
+		bold: t.ebookDownloads,
+		italic: '',
+		glosses: '',
+		plate: '',
 	});
 	// The captions of the homepage's scenes
 	const captions = SCENES.map(({ image }) =>
@@ -208,7 +239,13 @@ export function languageText(lang: Lang): LanguageText {
 	return {
 		pages,
 		ui: uiAndPlates,
-		home: [uiAndPlates, tocTitles(toc), ...excerpts, ...captions.map(stripTags)].join('\n'),
+		home: [
+			uiAndPlates,
+			homeAndDownloads,
+			tocTitles(toc),
+			...excerpts,
+			...captions.map(stripTags),
+		].join('\n'),
 		homeBold: `${uiAndPlates}\n${tocTitles(toc)}`,
 		homeItalic: [BOOK_PLATE.romaji, ...captions.map(italicText)].join('\n'),
 		languageNames: LANGUAGES.map(({ name }) => name).join(' '),

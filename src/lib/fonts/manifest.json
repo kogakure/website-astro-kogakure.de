@@ -1,18 +1,18 @@
 {
 	"commit": "38411257417e616c5d4daa1b9e91a3dbcebe1c2e",
 	"text": {
-		"de": "cc17106db87cd8b3",
-		"en": "3a245cccc8647605",
-		"es": "dc0f07f7bbdab29e",
-		"fr": "75ea941f6ce92244",
-		"pt": "2a34cd6867be24ce",
-		"it": "cd1360b5b5c9516d",
-		"nl": "fde92f801b8880ae",
-		"ru": "48983e670a057cb9",
-		"ja": "60da2e0e06073342",
-		"zh": "dc000576da831b4c",
-		"ko": "2f403ef46271108f",
-		"he": "d243ae8dfeb42257"
+		"de": "f10ff44253f9d024",
+		"en": "510d7d3106ec396a",
+		"es": "8f908d725a2586d7",
+		"fr": "e4f297e5e76de698",
+		"pt": "f1eff1c8b1b6fac7",
+		"it": "612f4bdc7154bdd6",
+		"nl": "d7c9ee35208214cb",
+		"ru": "bcae8dadf3ecb20d",
+		"ja": "82cc81a66e41d6ab",
+		"zh": "2399e8ad94e82214",
+		"ko": "d0358398f35cef02",
+		"he": "e2825aadca4003b0"
 	},
 	"faces": [
 		{
@@ -123,9 +123,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"unicodeRange": "U+3007,U+4E00,U+4E03,U+4E09,U+4E2D,U+4E5D,U+4E8C,U+4E94,U+4F1D,U+4F53,U+516B,U+516D,U+5175,U+5177,U+5341,U+53F2,U+56DB,U+56F3,U+5E8F,U+5FCD,U+627F,U+639F,U+6587,U+65E5,U+6728,U+672C,U+6B66,U+6CD5,U+6D41,U+795E,U+7AE0,U+7B2C,U+7CBE,U+7D44,U+7E54,U+8853,U+8A9E,U+9644,U+AC00-AC01,U+AC04,U+AC08,U+AC10,U+AC14-AC15,U+AC19,U+AC1C,U+AC70,U+AC74,U+AC78,U+AC80,U+AC83,U+AC8C,U+AC90,U+ACA8-ACA9,U+ACB0,U+ACBD,U+ACC4,U+ACE0,U+ACE7,U+ACF3,U+ACF5,U+ACFC,U+AD00,U+AD50,U+AD6C-AD6D,U+AD70,U+AD8C,U+ADC0,U+ADDC,U+ADF8,U+ADFC,U+AE00,U+AE08,U+AE30,U+AE34,U+AE38,U+AE4C,U+AE68,U+AED8,U+AFB8,U+B04C,U+B05D,U+B098,U+B09C,U+B0A0,U+B0A8,U+B0AC,U+B0B4,U+B0B8,U+B0C8,U+B108,U+B118,U+B124,U+B144,U+B178,U+B192,U+B204,U+B208,U+B290,U+B294,U+B298,U+B2A5,U+B2C8,U+B2CC,U+B2E4,U+B2E8,U+B2EB-B2EC,U+B2F9,U+B300,U+B354,U+B358,U+B370,U+B374,U+B3C4-B3C5,U+B3CC,U+B3D9,U+B418,U+B41C,U+B450,U+B458,U+B461,U+B4A4,U+B4DC,U+B4E0,U+B4E4,U+B4F1,U+B514,U+B530,U+B54C,U+B5A0,U+B5A4,U+B610,U+B728,U+B73B,U+B77C-B77D,U+B780,U+B78C,U+B798,U+B7B5,U+B7EC,U+B7F0,U+B7FC,U+B807-B808,U+B824-B825,U+B828,U+B838,U+B840,U+B85C-B85D,U+B860,U+B8E8,U+B958,U+B974,U+B978,U+B97C,U+B984,U+B9AC,U+B9B0,U+B9BC,U+B9C8-B9C9,U+B9CC,U+B9CE,U+B9D0,U+B9DE,U+B9E4,U+BA38-BA39,U+BA3C,U+BA54,U+BA70,U+BA74,U+BA85,U+BA87,U+BAA8-BAA9,U+BAAC,U+BAB8,U+BABB,U+BB34,U+BB38,U+BB3C,U+BB47,U+BBF8,U+BBFC,U+BC00,U+BC14-BC16,U+BC18,U+BC1B-BC1D,U+BC29,U+BC30,U+BC84,U+BC88,U+BC94-BC95,U+BCA0,U+BCC0,U+BCC4,U+BCD1,U+BCF4-BCF5,U+BCF8,U+BD80,U+BD84,U+BD88,U+BD99,U+BE44,U+BE60,U+BFD0,U+C0AC,U+C0B0,U+C0B4,U+C0BC,U+C0C1,U+C0C8-C0C9,U+C0DD,U+C11C,U+C120,U+C124,U+C12F,U+C131,U+C138,U+C18C-C18D,U+C190,U+C1FC,U+C218,U+C21C,U+C220,U+C228,U+C2A4,U+C2B5,U+C2B9,U+C2DC-C2DD,U+C2E0,U+C2E4,U+C2EC,U+C2F8,U+C37C,U+C4F0,U+C4F4,U+C4F8,U+C544,U+C548,U+C54A,U+C54C,U+C558,U+C55E,U+C560,U+C57C-C57D,U+C591,U+C5B4,U+C5B8,U+C5BB-C5BC,U+C5C5-C5C8,U+C5D0,U+C5EC-C5ED,U+C5F0,U+C5F4,U+C600-C601,U+C608,U+C624,U+C628,U+C62C,U+C640,U+C644,U+C654,U+C694,U+C6A9,U+C6B0,U+C6B4,U+C6B8,U+C6C0,U+C6CC,U+C6D0,U+C6E0,U+C704,U+C720-C721,U+C73C,U+C740,U+C744,U+C74C,U+C758,U+C774-C775,U+C778,U+C77C-C77D,U+C783-C785,U+C788,U+C78E,U+C790-C791,U+C798,U+C7A1,U+C7A5,U+C7AC,U+C800-C801,U+C804,U+C808,U+C810-C811,U+C815,U+C81C,U+C838,U+C84C,U+C870,U+C874,U+C885,U+C8FC-C8FD,U+C900,U+C904,U+C911,U+C988,U+C9C0-C9C1,U+C9C4,U+C9C8,U+C9D1,U+C9D3,U+C9F8,U+CABD,U+CC28,U+CC30,U+CC38,U+CC3D-CC3E,U+CC44-CC45,U+CC98,U+CC9C,U+CCA0,U+CCB4,U+CCD0,U+CCE4,U+CD94,U+CD9C,U+CDA9,U+CE58-CE59,U+CE5C,U+CE68,U+CE74,U+CE78,U+CE7C,U+CF00,U+CF54,U+CFE0,U+D06C,U+D070,U+D0A4,U+D0C0,U+D0DC,U+D130,U+D14C,U+D15C,U+D1A0,U+D1B5,U+D22C,U+D2B8-D2B9,U+D30C,U+D310,U+D3B8,U+D3C9,U+D3EC,U+D45C,U+D53C,U+D544,U+D558-D559,U+D55C,U+D560,U+D568,U+D574,U+D588-D589,U+D5A5,U+D5D8,U+D5E4,U+D604,U+D615,U+D638,U+D63C,U+D654-D655,U+D658,U+D669,U+D6A8,U+D6C4,U+D6C8,U+D750,U+D754,U+D788,U+D78C,U+D798",
-			"file": "/fonts/noto-serif-kr-400-common-a49ec5e30d.woff2",
-			"bytes": 66020,
+			"unicodeRange": "U+3007,U+4E00,U+4E03,U+4E09,U+4E2D,U+4E5D,U+4E8C,U+4E94,U+4F1D,U+4F53,U+516B,U+516D,U+5175,U+5177,U+5341,U+53F2,U+56DB,U+56F3,U+5E8F,U+5FCD,U+627F,U+639F,U+6587,U+65E5,U+6728,U+672C,U+6B66,U+6CD5,U+6D41,U+795E,U+7AE0,U+7B2C,U+7CBE,U+7D44,U+7E54,U+8853,U+8A9E,U+9644,U+AC00-AC01,U+AC04,U+AC08,U+AC10,U+AC14-AC15,U+AC19,U+AC1C,U+AC70,U+AC74,U+AC78,U+AC80,U+AC83,U+AC8C,U+AC90,U+ACA8-ACA9,U+ACB0,U+ACBD,U+ACC4,U+ACE0,U+ACE7,U+ACF3,U+ACF5,U+ACFC,U+AD00,U+AD50,U+AD6C-AD6D,U+AD70,U+AD8C,U+ADC0,U+ADDC,U+ADF8,U+ADFC,U+AE00,U+AE08,U+AE30,U+AE34,U+AE38,U+AE4C,U+AE68,U+AED8,U+AFB8,U+B04C,U+B05D,U+B098,U+B09C,U+B0A0,U+B0A8,U+B0AC,U+B0B4,U+B0B8,U+B0C8,U+B108,U+B118,U+B124,U+B144,U+B178,U+B192,U+B204,U+B208,U+B290,U+B294,U+B298,U+B2A5,U+B2C8,U+B2CC,U+B2E4,U+B2E8,U+B2EB-B2EC,U+B2F9,U+B300,U+B354,U+B358,U+B370,U+B374,U+B3C4-B3C5,U+B3CC,U+B3D9,U+B418,U+B41C,U+B450,U+B458,U+B461,U+B4A4,U+B4DC,U+B4E0,U+B4E4,U+B4F1,U+B514,U+B530,U+B54C,U+B5A0,U+B5A4,U+B610,U+B728,U+B73B,U+B77C-B77D,U+B780,U+B78C,U+B798,U+B7B5,U+B7EC,U+B7F0,U+B7FC,U+B807-B808,U+B824-B825,U+B828,U+B838,U+B840,U+B85C-B85D,U+B860,U+B8E8,U+B958,U+B974,U+B978,U+B97C,U+B984,U+B9AC,U+B9B0,U+B9BC,U+B9C8-B9C9,U+B9CC,U+B9CE,U+B9D0,U+B9DE,U+B9E4,U+BA38-BA39,U+BA3C,U+BA54,U+BA70,U+BA74,U+BA85,U+BA87,U+BAA8-BAA9,U+BAAC,U+BAB8,U+BABB,U+BB34,U+BB38,U+BB3C,U+BB47,U+BBF8,U+BBFC,U+BC00,U+BC14-BC16,U+BC18,U+BC1B-BC1D,U+BC29,U+BC30,U+BC84,U+BC88,U+BC94-BC95,U+BCA0,U+BCC0,U+BCC4,U+BCD1,U+BCF4-BCF5,U+BCF8,U+BD80,U+BD84,U+BD88,U+BD99,U+BE44,U+BE60,U+BFD0,U+C0AC,U+C0B0,U+C0B4,U+C0BC,U+C0C1,U+C0C8-C0C9,U+C0DD,U+C11C,U+C120,U+C124,U+C12F,U+C131,U+C138,U+C18C-C18D,U+C190,U+C1FC,U+C218,U+C21C,U+C220,U+C228,U+C2A4,U+C2B5,U+C2B9,U+C2DC-C2DD,U+C2E0,U+C2E4,U+C2EC,U+C2F8,U+C37C,U+C4F0,U+C4F4,U+C4F8,U+C544,U+C548,U+C54A,U+C54C,U+C558,U+C55E,U+C560,U+C57C-C57D,U+C591,U+C5B4,U+C5B8,U+C5BB-C5BC,U+C5C5-C5C8,U+C5D0,U+C5EC-C5ED,U+C5F0,U+C5F4,U+C600-C601,U+C608,U+C624,U+C628,U+C62C,U+C640,U+C644,U+C654,U+C694,U+C6A9,U+C6B0,U+C6B4,U+C6B8,U+C6C0,U+C6CC,U+C6D0,U+C6E0,U+C704,U+C720-C721,U+C73C,U+C740,U+C744,U+C74C,U+C758,U+C774-C775,U+C778,U+C77C-C77D,U+C783-C785,U+C788,U+C78E,U+C790-C791,U+C798,U+C7A1,U+C7A5,U+C7AC,U+C800-C801,U+C804,U+C808,U+C810-C811,U+C815,U+C81C,U+C838,U+C84C,U+C870,U+C874,U+C885,U+C8FC-C8FD,U+C900,U+C904,U+C911,U+C988,U+C9C0-C9C1,U+C9C4,U+C9C8,U+C9D1,U+C9D3,U+C9F8,U+CABD,U+CC28,U+CC30,U+CC38,U+CC3D-CC3E,U+CC44-CC45,U+CC98,U+CC9C,U+CCA0,U+CCB4,U+CCD0,U+CCE4,U+CD94,U+CD9C,U+CDA9,U+CE58-CE59,U+CE5C,U+CE68,U+CE74,U+CE78,U+CE7C,U+CF00,U+CF54,U+CFE0,U+D06C,U+D070,U+D0A4,U+D0C0,U+D0DC,U+D130,U+D14C,U+D15C,U+D1A0,U+D1B5,U+D22C,U+D2B8-D2B9,U+D30C,U+D310,U+D3B8,U+D3C9,U+D3EC,U+D45C,U+D53C,U+D544,U+D558-D559,U+D55C,U+D560,U+D568-D569,U+D574,U+D588-D589,U+D5A5,U+D5D8,U+D5E4,U+D604,U+D615,U+D638,U+D63C,U+D654-D655,U+D658,U+D669,U+D6A8,U+D6C4,U+D6C8,U+D750,U+D754,U+D788,U+D78C,U+D798",
+			"file": "/fonts/noto-serif-kr-400-common-b284d4b5a1.woff2",
+			"bytes": 66212,
 			"langs": ["ko"]
 		},
 		{
@@ -180,17 +180,25 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-192122d936.woff2",
-			"bytes": 4216,
-			"pages": ["ko/downloads"]
+			"file": "/fonts/noto-serif-kr-400-page-19a8eea7b3.woff2",
+			"bytes": 27960,
+			"pages": ["ko/body-weapons"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-19a8eea7b3.woff2",
-			"bytes": 27960,
-			"pages": ["ko/body-weapons"]
+			"file": "/fonts/noto-serif-kr-400-page-1ac6b7d77d.woff2",
+			"bytes": 17324,
+			"pages": ["ko/ninpo-sanjurokkei"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-200a6e5e01.woff2",
+			"bytes": 31320,
+			"pages": ["ko/"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -220,17 +228,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-2fcb9090e1.woff2",
-			"bytes": 36924,
-			"pages": ["ko/choho"]
+			"file": "/fonts/noto-serif-kr-400-page-2f653a0391.woff2",
+			"bytes": 32224,
+			"pages": ["ko/koga-ryu"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-3375afdc41.woff2",
-			"bytes": 26624,
-			"pages": ["ko/togakure-ryu"]
+			"file": "/fonts/noto-serif-kr-400-page-34c8e9b03b.woff2",
+			"bytes": 1540,
+			"pages": ["ko/ebook"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -239,6 +247,14 @@
 			"file": "/fonts/noto-serif-kr-400-page-358599119c.woff2",
 			"bytes": 18136,
 			"pages": ["ko/colophon"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-3a96d0a332.woff2",
+			"bytes": 55328,
+			"pages": ["ko/weapons"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -268,9 +284,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-427534bb29.woff2",
-			"bytes": 32432,
-			"pages": ["ko/koga-ryu"]
+			"file": "/fonts/noto-serif-kr-400-page-457f491a1e.woff2",
+			"bytes": 26480,
+			"pages": ["ko/iga-no-ran"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-463edd2d0a.woff2",
+			"bytes": 4460,
+			"pages": ["ko/downloads"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -279,14 +303,6 @@
 			"file": "/fonts/noto-serif-kr-400-page-476d54330d.woff2",
 			"bytes": 12608,
 			"pages": ["ko/consciousness-and-spirit"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-4880695d72.woff2",
-			"bytes": 31064,
-			"pages": ["ko/"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -308,6 +324,14 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-5372e4742a.woff2",
+			"bytes": 36772,
+			"pages": ["ko/choho"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/noto-serif-kr-400-page-53a5998d39.woff2",
 			"bytes": 15748,
 			"pages": ["ko/atemi-te"]
@@ -319,6 +343,14 @@
 			"file": "/fonts/noto-serif-kr-400-page-55eae46982.woff2",
 			"bytes": 8184,
 			"pages": ["ko/chikairi"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-5b53dc65b5.woff2",
+			"bytes": 11364,
+			"pages": ["ko/taijutsu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -348,22 +380,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-69b8110fb9.woff2",
-			"bytes": 26560,
-			"pages": ["ko/onshinjutsu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-6aa77126fb.woff2",
-			"bytes": 11688,
-			"pages": ["ko/taijutsu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/noto-serif-kr-400-page-6acdb91ce0.woff2",
 			"bytes": 27960,
 			"pages": ["ko/chronology"]
@@ -372,9 +388,25 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-70b04289bb.woff2",
-			"bytes": 171440,
-			"pages": ["ko/glossary"]
+			"file": "/fonts/noto-serif-kr-400-page-6bb8d09170.woff2",
+			"bytes": 12848,
+			"pages": ["ko/kuji-in"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-6da5db8186.woff2",
+			"bytes": 19596,
+			"pages": ["ko/training-factors"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-71f6e0e300.woff2",
+			"bytes": 35344,
+			"pages": ["ko/ninja-biographies"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -383,14 +415,6 @@
 			"file": "/fonts/noto-serif-kr-400-page-7260d5af53.woff2",
 			"bytes": 4172,
 			"pages": ["ko/kumogakure-ryu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-7420eaf98e.woff2",
-			"bytes": 19556,
-			"pages": ["ko/the-rules-of-the-ninja"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -428,17 +452,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-78583c84e2.woff2",
-			"bytes": 35552,
-			"pages": ["ko/ninja-biographies"]
+			"file": "/fonts/noto-serif-kr-400-page-795b5b96d0.woff2",
+			"bytes": 14932,
+			"pages": ["ko/gyokko-ryu"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-795b5b96d0.woff2",
-			"bytes": 14932,
-			"pages": ["ko/gyokko-ryu"]
+			"file": "/fonts/noto-serif-kr-400-page-7cbf193582.woff2",
+			"bytes": 33624,
+			"pages": ["ko/inro"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -500,22 +524,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-88cdeaae2b.woff2",
-			"bytes": 55020,
-			"pages": ["ko/takamatsu-toshitsugu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-896e6235dc.woff2",
-			"bytes": 19804,
-			"pages": ["ko/training-factors"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/noto-serif-kr-400-page-8b3a2ab9b1.woff2",
 			"bytes": 10988,
 			"pages": ["ko/fire-tools"]
@@ -564,9 +572,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-a055033c7b.woff2",
-			"bytes": 26704,
-			"pages": ["ko/iga-no-ran"]
+			"file": "/fonts/noto-serif-kr-400-page-9ee3ecb67f.woff2",
+			"bytes": 19364,
+			"pages": ["ko/the-rules-of-the-ninja"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-a099c087d3.woff2",
+			"bytes": 26284,
+			"pages": ["ko/onshinjutsu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -588,33 +604,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-a56b8827e6.woff2",
-			"bytes": 19628,
-			"pages": ["ko/mikkyo"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-a763c28b5e.woff2",
-			"bytes": 30588,
-			"pages": ["ko/emergence-of-the-ryu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/noto-serif-kr-400-page-ac3dc61e36.woff2",
 			"bytes": 17936,
 			"pages": ["ko/kunoichi"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-b3549495ab.woff2",
-			"bytes": 33820,
-			"pages": ["ko/inro"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -628,9 +620,25 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-c4367bd029.woff2",
+			"bytes": 19412,
+			"pages": ["ko/mikkyo"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/noto-serif-kr-400-page-c5ae41311d.woff2",
 			"bytes": 31428,
 			"pages": ["ko/iga-ryu"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-cb4d91cb5a.woff2",
+			"bytes": 54772,
+			"pages": ["ko/takamatsu-toshitsugu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -660,17 +668,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-d34083e843.woff2",
-			"bytes": 13092,
-			"pages": ["ko/kuji-in"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-da0107b645.woff2",
-			"bytes": 55512,
-			"pages": ["ko/weapons"]
+			"file": "/fonts/noto-serif-kr-400-page-d2a87f0fd4.woff2",
+			"bytes": 30400,
+			"pages": ["ko/emergence-of-the-ryu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -724,6 +724,14 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-e7846a63c8.woff2",
+			"bytes": 171276,
+			"pages": ["ko/glossary"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/noto-serif-kr-400-page-f0a523e971.woff2",
 			"bytes": 19104,
 			"pages": ["ko/training-of-the-ninja"]
@@ -735,6 +743,14 @@
 			"file": "/fonts/noto-serif-kr-400-page-f76f58645d.woff2",
 			"bytes": 9628,
 			"pages": ["ko/toughening-up"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-kr-400-page-fac380f951.woff2",
+			"bytes": 26384,
+			"pages": ["ko/togakure-ryu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -755,27 +771,11 @@
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-kr-400-page-fffe10d320.woff2",
-			"bytes": 17516,
-			"pages": ["ko/ninpo-sanjurokkei"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
 			"weight": 700,
-			"unicodeRange": "U+3007,U+4E00,U+4E03,U+4E09,U+4E5D,U+4E8C,U+4E94,U+4F1D,U+4F53,U+516B,U+516D,U+5175,U+5177,U+5341,U+53F2,U+56DB,U+56F3,U+5E8F,U+5FCD,U+627F,U+639F,U+6728,U+6CD5,U+795E,U+7AE0,U+7B2C,U+7CBE,U+7D44,U+7E54,U+8853,U+9644,U+AC00,U+AC04,U+AC1C,U+AC74,U+AC80,U+AC8C,U+ACB0,U+ACC4,U+ACE0,U+ACFC,U+AD6C-AD6D,U+AE00,U+AE08,U+AE30,U+B098,U+B144,U+B294,U+B2C8,U+B2CC,U+B2E4,U+B2EB,U+B300,U+B354,U+B370,U+B3C4,U+B3CC,U+B3D9,U+B450,U+B461,U+B4A4,U+B4DC,U+B828,U+B840,U+B85C,U+B860,U+B958,U+B9AC,U+B9C8,U+BA74,U+BAA8,U+BB34,U+BB38,U+BB47,U+BBF8,U+BC1D,U+BC88,U+BCF4,U+BCF8,U+BD80,U+BD84,U+C0AC,U+C0B0,U+C0C9,U+C11C,U+C124,U+C18C-C18D,U+C218,U+C228,U+C2A4,U+C2B5,U+C2DC,U+C2E0,U+C4F0,U+C544,U+C55E,U+C57D,U+C5B4,U+C5B8,U+C5C5-C5C6,U+C5D0,U+C601,U+C640,U+C6A9,U+C6B4,U+C720,U+C73C,U+C740,U+C744,U+C74C,U+C758,U+C774,U+C778,U+C77D,U+C78E,U+C790,U+C7A5,U+C804,U+C808,U+C815,U+C81C,U+C911,U+C9C0,U+C9F8,U+CC28,U+CC45,U+CE58,U+CFE0,U+D06C,U+D0A4,U+D130,U+D15C,U+D2B8,U+D3B8,U+D558,U+D560,U+D654-D655",
-			"file": "/fonts/noto-serif-kr-700-common-6e5baec233.woff2",
-			"bytes": 24596,
+			"unicodeRange": "U+3007,U+4E00,U+4E03,U+4E09,U+4E5D,U+4E8C,U+4E94,U+4F1D,U+4F53,U+516B,U+516D,U+5175,U+5177,U+5341,U+53F2,U+56DB,U+56F3,U+5E8F,U+5FCD,U+627F,U+639F,U+6728,U+6CD5,U+795E,U+7AE0,U+7B2C,U+7CBE,U+7D44,U+7E54,U+8853,U+9644,U+AC00,U+AC04,U+AC1C,U+AC74,U+AC80,U+AC8C,U+ACB0,U+ACC4,U+ACE0,U+ACFC,U+AD6C-AD6D,U+AE00,U+AE08,U+AE30,U+B098,U+B0B4,U+B144,U+B294,U+B2C8,U+B2CC,U+B2E4,U+B2EB,U+B300,U+B354,U+B370,U+B3C4,U+B3CC,U+B3D9,U+B450,U+B461,U+B4A4,U+B4DC,U+B824,U+B828,U+B840,U+B85C,U+B860,U+B958,U+B9AC,U+B9C8,U+BA74,U+BAA8,U+BB34,U+BB38,U+BB47,U+BBF8,U+BC1B,U+BC1D,U+BC88,U+BCF4,U+BCF8,U+BD80,U+BD84,U+C0AC,U+C0B0,U+C0C9,U+C11C,U+C124,U+C18C-C18D,U+C218,U+C228,U+C2A4,U+C2B5,U+C2DC,U+C2E0,U+C4F0,U+C544,U+C55E,U+C57D,U+C5B4,U+C5B8,U+C5C5-C5C6,U+C5D0,U+C601,U+C640,U+C6A9,U+C6B4,U+C720,U+C73C,U+C740,U+C744,U+C74C,U+C758,U+C774,U+C778,U+C77D,U+C788,U+C78E,U+C790,U+C7A5,U+C804,U+C808,U+C815,U+C81C,U+C911,U+C9C0,U+C9F8,U+CC28,U+CC45,U+CE58,U+CFE0,U+D06C,U+D0A4,U+D130,U+D15C,U+D2B8,U+D3B8,U+D558,U+D55C,U+D560,U+D569,U+D654-D655",
+			"file": "/fonts/noto-serif-kr-700-common-00d8bd3fa9.woff2",
+			"bytes": 25704,
 			"langs": ["ko"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-03917d082c.woff2",
-			"bytes": 5264,
-			"pages": ["ko/famous-ninja"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -789,25 +789,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-169bdd2239.woff2",
-			"bytes": 3532,
-			"pages": ["ko/consciousness-and-spirit"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-196c74bf62.woff2",
 			"bytes": 2992,
 			"pages": ["ko/kukishinden-ryu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-1991d447c6.woff2",
-			"bytes": 6756,
-			"pages": ["ko/taijutsu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -821,9 +805,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-1cc3292b4e.woff2",
-			"bytes": 4892,
-			"pages": ["ko/ninja-biographies"]
+			"file": "/fonts/noto-serif-kr-700-page-1be50a0751.woff2",
+			"bytes": 5348,
+			"pages": ["ko/gotonpo"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -832,6 +816,22 @@
 			"file": "/fonts/noto-serif-kr-700-page-1de769c71d.woff2",
 			"bytes": 3576,
 			"pages": ["ko/junan-taiso"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-1eab92fa47.woff2",
+			"bytes": 2076,
+			"pages": ["ko/offline"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-1f32098cde.woff2",
+			"bytes": 8816,
+			"pages": ["ko/weapons"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -853,38 +853,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-28ff99c070.woff2",
-			"bytes": 5044,
-			"pages": ["ko/guidelines-of-bujinkan"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-2927ad51ff.woff2",
-			"bytes": 8680,
-			"pages": ["ko/the-rules-of-the-ninja"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-2a9685b992.woff2",
-			"bytes": 9036,
-			"pages": ["ko/weapons"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-354f2515ef.woff2",
-			"bytes": 14712,
-			"pages": ["ko/body-weapons"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-36fcd8fd8d.woff2",
 			"bytes": 3264,
 			"pages": ["ko/iga-ryu"]
@@ -901,14 +869,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-3b4a1a2bc4.woff2",
-			"bytes": 7336,
-			"pages": ["ko/invasion-of-iga"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-3c3111c851.woff2",
 			"bytes": 4140,
 			"pages": ["ko/water-tools"]
@@ -917,25 +877,33 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-45b6184a3b.woff2",
-			"bytes": 8752,
-			"pages": ["ko/gogyo"]
+			"file": "/fonts/noto-serif-kr-700-page-452d3b000b.woff2",
+			"bytes": 8880,
+			"pages": ["ko/choho"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-4bf920bbb3.woff2",
-			"bytes": 8260,
-			"pages": ["ko/mikkyo"]
+			"file": "/fonts/noto-serif-kr-700-page-48021b1537.woff2",
+			"bytes": 8512,
+			"pages": ["ko/the-rules-of-the-ninja"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-4f7fd7030c.woff2",
-			"bytes": 3540,
-			"pages": ["ko/downloads"]
+			"file": "/fonts/noto-serif-kr-700-page-4d0a09b5bf.woff2",
+			"bytes": 7116,
+			"pages": ["ko/emergence-of-the-ryu"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-4da764442d.woff2",
+			"bytes": 3816,
+			"pages": ["ko/takagi-yoshin-ryu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -944,6 +912,14 @@
 			"file": "/fonts/noto-serif-kr-700-page-4fd711d463.woff2",
 			"bytes": 7132,
 			"pages": ["ko/bo-ryaku"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-51ab5e0663.woff2",
+			"bytes": 8556,
+			"pages": ["ko/takamatsu-toshitsugu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -973,14 +949,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-5f4060b651.woff2",
-			"bytes": 7188,
-			"pages": ["ko/the-5-commandments-of-the-ninja"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-62f7f28a13.woff2",
 			"bytes": 4104,
 			"pages": ["ko/koga-ryu"]
@@ -997,25 +965,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-6b5446a01c.woff2",
-			"bytes": 17532,
-			"pages": ["ko/"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-6bad52d068.woff2",
-			"bytes": 10424,
-			"pages": ["ko/combat-rules"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-6f31149638.woff2",
 			"bytes": 4676,
 			"pages": ["ko/demise"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-763fcadea3.woff2",
+			"bytes": 5320,
+			"pages": ["ko/colophon"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1029,9 +989,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-7aa3dc4f18.woff2",
-			"bytes": 6560,
-			"pages": ["ko/chronology"]
+			"file": "/fonts/noto-serif-kr-700-page-7ac8eaaf08.woff2",
+			"bytes": 4632,
+			"pages": ["ko/gyokko-ryu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1053,9 +1013,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-8083294ae9.woff2",
-			"bytes": 5496,
-			"pages": ["ko/colophon"]
+			"file": "/fonts/noto-serif-kr-700-page-7edb1ddb06.woff2",
+			"bytes": 5028,
+			"pages": ["ko/famous-ninja"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1069,9 +1029,49 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-863c40731b.woff2",
+			"bytes": 7876,
+			"pages": ["ko/mikkyo"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-863fc8eb5b.woff2",
+			"bytes": 8728,
+			"pages": ["ko/kamae"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-865671de11.woff2",
+			"bytes": 10016,
+			"pages": ["ko/combat-rules"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-86e24ae39f.woff2",
 			"bytes": 4672,
 			"pages": ["ko/enlightenment"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-88b326fd7d.woff2",
+			"bytes": 6604,
+			"pages": ["ko/the-5-commandments-of-the-ninja"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-8a1560ffd3.woff2",
+			"bytes": 6064,
+			"pages": ["ko/chronology"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1085,6 +1085,14 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-8bc3aa26e3.woff2",
+			"bytes": 2176,
+			"pages": ["ko/glossary"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-8d6b5689fd.woff2",
 			"bytes": 4372,
 			"pages": ["ko/toughening-up"]
@@ -1093,9 +1101,33 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-904bd96832.woff2",
-			"bytes": 5584,
-			"pages": ["ko/gotonpo"]
+			"file": "/fonts/noto-serif-kr-700-page-931786cb6f.woff2",
+			"bytes": 4672,
+			"pages": ["ko/ninja-biographies"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-939f34a43b.woff2",
+			"bytes": 3688,
+			"pages": ["ko/chikairi"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-95b5e0b883.woff2",
+			"bytes": 7188,
+			"pages": ["ko/invasion-of-iga"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-95beb5c941.woff2",
+			"bytes": 8628,
+			"pages": ["ko/gogyo"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1117,6 +1149,14 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-9acb73597d.woff2",
+			"bytes": 16856,
+			"pages": ["ko/"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-9f59b0b3a7.woff2",
 			"bytes": 4392,
 			"pages": ["ko/climbing-tools"]
@@ -1125,9 +1165,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-a04f86dbf3.woff2",
-			"bytes": 9092,
-			"pages": ["ko/kamae"]
+			"file": "/fonts/noto-serif-kr-700-page-a21cd05a4e.woff2",
+			"bytes": 14524,
+			"pages": ["ko/body-weapons"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1141,17 +1181,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-a4d414627d.woff2",
-			"bytes": 5864,
-			"pages": ["ko/ninjutsu"]
+			"file": "/fonts/noto-serif-kr-700-page-a424e3ce5c.woff2",
+			"bytes": 4576,
+			"pages": ["ko/guidelines-of-bujinkan"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-a65f6cc739.woff2",
-			"bytes": 2896,
-			"pages": ["ko/glossary"]
+			"file": "/fonts/noto-serif-kr-700-page-a4d414627d.woff2",
+			"bytes": 5864,
+			"pages": ["ko/ninjutsu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1168,14 +1208,6 @@
 			"file": "/fonts/noto-serif-kr-700-page-a9460aa110.woff2",
 			"bytes": 3848,
 			"pages": ["ko/miscellaneous-equipment"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-aa60bee447.woff2",
-			"bytes": 2312,
-			"pages": ["ko/offline"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1253,6 +1285,14 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
+			"file": "/fonts/noto-serif-kr-700-page-bf69fdc294.woff2",
+			"bytes": 5716,
+			"pages": ["ko/inro"]
+		},
+		{
+			"family": "Noto Serif KR",
+			"style": "normal",
+			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-c0cf68ce46.woff2",
 			"bytes": 5164,
 			"pages": ["ko/modern-history"]
@@ -1269,33 +1309,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-c5b14c28da.woff2",
-			"bytes": 4852,
-			"pages": ["ko/gyokko-ryu"]
+			"file": "/fonts/noto-serif-kr-700-page-c7b16a6431.woff2",
+			"bytes": 6488,
+			"pages": ["ko/taijutsu"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-c73219cf0d.woff2",
-			"bytes": 9388,
-			"pages": ["ko/choho"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-c95fd390a9.woff2",
-			"bytes": 6252,
-			"pages": ["ko/inro"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-d248d1cfa6.woff2",
-			"bytes": 3952,
-			"pages": ["ko/chikairi"]
+			"file": "/fonts/noto-serif-kr-700-page-ca40855e50.woff2",
+			"bytes": 2832,
+			"pages": ["ko/downloads"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1317,14 +1341,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-dd7c31bc91.woff2",
-			"bytes": 3076,
-			"pages": ["ko/gyokushin-ryu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-de45646d1d.woff2",
 			"bytes": 2028,
 			"pages": ["ko/not-found"]
@@ -1341,9 +1357,9 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-f415e36844.woff2",
-			"bytes": 9264,
-			"pages": ["ko/takamatsu-toshitsugu"]
+			"file": "/fonts/noto-serif-kr-700-page-f40f430c14.woff2",
+			"bytes": 3324,
+			"pages": ["ko/consciousness-and-spirit"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1357,14 +1373,6 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-f798305176.woff2",
-			"bytes": 4076,
-			"pages": ["ko/takagi-yoshin-ryu"]
-		},
-		{
-			"family": "Noto Serif KR",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/noto-serif-kr-700-page-f8d25b7ee6.woff2",
 			"bytes": 5680,
 			"pages": ["ko/kuji-in"]
@@ -1373,17 +1381,17 @@
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-fa4ed79bb7.woff2",
-			"bytes": 7408,
-			"pages": ["ko/emergence-of-the-ryu"]
+			"file": "/fonts/noto-serif-kr-700-page-fc2a9a1ea1.woff2",
+			"bytes": 8832,
+			"pages": ["ko/onshinjutsu"]
 		},
 		{
 			"family": "Noto Serif KR",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/noto-serif-kr-700-page-fc2a9a1ea1.woff2",
-			"bytes": 8832,
-			"pages": ["ko/onshinjutsu"]
+			"file": "/fonts/noto-serif-kr-700-page-fc654cbea5.woff2",
+			"bytes": 2808,
+			"pages": ["ko/gyokushin-ryu"]
 		},
 		{
 			"family": "Noto Serif KR",
@@ -1417,14 +1425,6 @@
 			"file": "/fonts/noto-serif-sc-400-page-03ff7e80aa.woff2",
 			"bytes": 2188,
 			"pages": ["zh/not-found"]
-		},
-		{
-			"family": "Noto Serif SC",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-sc-400-page-04f45decea.woff2",
-			"bytes": 5736,
-			"pages": ["zh/downloads"]
 		},
 		{
 			"family": "Noto Serif SC",
@@ -1481,6 +1481,14 @@
 			"file": "/fonts/noto-serif-sc-400-page-181b6ecce7.woff2",
 			"bytes": 26184,
 			"pages": ["zh/gyokko-ryu"]
+		},
+		{
+			"family": "Noto Serif SC",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-sc-400-page-196ecb649c.woff2",
+			"bytes": 2364,
+			"pages": ["zh/ebook"]
 		},
 		{
 			"family": "Noto Serif SC",
@@ -1577,14 +1585,6 @@
 			"file": "/fonts/noto-serif-sc-400-page-3864d0de31.woff2",
 			"bytes": 36872,
 			"pages": ["zh/daoism"]
-		},
-		{
-			"family": "Noto Serif SC",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/noto-serif-sc-400-page-3f7a28efab.woff2",
-			"bytes": 90276,
-			"pages": ["zh/"]
 		},
 		{
 			"family": "Noto Serif SC",
@@ -1697,6 +1697,14 @@
 			"file": "/fonts/noto-serif-sc-400-page-71f95e2d9a.woff2",
 			"bytes": 19468,
 			"pages": ["zh/kuji-in"]
+		},
+		{
+			"family": "Noto Serif SC",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-sc-400-page-73d6f47695.woff2",
+			"bytes": 90524,
+			"pages": ["zh/"]
 		},
 		{
 			"family": "Noto Serif SC",
@@ -1817,6 +1825,14 @@
 			"file": "/fonts/noto-serif-sc-400-page-a78bbe4ab5.woff2",
 			"bytes": 56656,
 			"pages": ["zh/chronology"]
+		},
+		{
+			"family": "Noto Serif SC",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/noto-serif-sc-400-page-a80b31bb8b.woff2",
+			"bytes": 6276,
+			"pages": ["zh/downloads"]
 		},
 		{
 			"family": "Noto Serif SC",
@@ -2046,9 +2062,9 @@
 			"family": "Noto Serif SC",
 			"style": "normal",
 			"weight": 700,
-			"unicodeRange": "U+3002,U+3007,U+4E00,U+4E03,U+4E09-4E0B,U+4E0E,U+4E2D,U+4E4B,U+4E5D,U+4E66,U+4E8C,U+4E8E,U+4E94,U+4F1D,U+4F53,U+4F7F,U+4FE1,U+516B,U+516D,U+5171,U+5173,U+5175,U+5177,U+5206-5207,U+5230,U+524D,U+5341,U+53F2,U+53F6,U+540E,U+56DB,U+56DE,U+56F3,U+56FE,U+5728,U+591A,U+5927,U+59CB,U+5B57,U+5BFC,U+5C0F,U+5E74,U+5E8F,U+5F15,U+5F55,U+5FCD,U+606F,U+6218,U+627E-627F,U+6362,U+639F,U+641C,U+653E,U+6587,U+65B0,U+65E0,U+65F6,U+663E,U+6682,U+66F4,U+6728,U+672A,U+672C,U+672F,U+6761,U+679C-679D,U+6811,U+68B5,U+6B63,U+6B66,U+6B74,U+6C49,U+6CD5,U+6D41,U+6D45,U+6DF1,U+7247,U+7528,U+7684,U+76EE,U+793A,U+795E,U+79C1,U+7AD9,U+7AE0,U+7B2C,U+7BC7,U+7CBE,U+7CFB,U+7D22,U+7D44,U+7E54,U+7EA6,U+7EC3,U+7ED3,U+7EDF,U+7EE7,U+7EED,U+7F51,U+7F57,U+8005,U+81F3,U+8272,U+8282,U+82F1,U+8853,U+8A00,U+8BCD,U+8BED,U+8BFB,U+8DDF,U+8DF3,U+8EAB,U+8FD4,U+90E8,U+9332,U+949F,U+95ED,U+95F4,U+9605,U+9644,U+968F-9690,U+96A0,U+9A6C,U+FF08-FF09,U+FF0C,U+FF1A",
-			"file": "/fonts/noto-serif-sc-700-common-5f1722aa9a.woff2",
-			"bytes": 24820,
+			"unicodeRange": "U+3002,U+3007,U+4E00,U+4E03,U+4E09-4E0B,U+4E0E,U+4E2D,U+4E4B,U+4E5D,U+4E5F,U+4E66,U+4E8C,U+4E8E,U+4E94,U+4F1D,U+4F53,U+4F7F,U+4FE1,U+516B,U+516D,U+5171,U+5173,U+5175,U+5177,U+5206-5207,U+5230,U+524D,U+5341,U+53F2,U+53F6,U+540E,U+56DB,U+56DE,U+56F3,U+56FE,U+5728,U+591A,U+5927,U+59CB,U+5B57,U+5BFC,U+5C0F,U+5E74,U+5E8F,U+5F15,U+5F55,U+5FCD,U+606F,U+6218,U+627E-627F,U+6362,U+639F,U+641C,U+653E,U+6587,U+65B0,U+65E0,U+65F6,U+663E,U+6682,U+66F4,U+6728,U+672A,U+672C,U+672F,U+6761,U+679C-679D,U+6811,U+68B5,U+6B63,U+6B66,U+6B74,U+6C49,U+6CD5,U+6D41,U+6D45,U+6DF1,U+7247,U+7528,U+7684,U+76EE,U+793A,U+795E,U+79C1,U+7AD9,U+7AE0,U+7B2C,U+7BC7,U+7CBE,U+7CFB,U+7D22,U+7D44,U+7E54,U+7EA6,U+7EC3,U+7ED3,U+7EDF,U+7EE7,U+7EED,U+7F51,U+7F57,U+8005,U+81F3,U+8272,U+8282,U+82F1,U+8853,U+8A00,U+8BCD,U+8BED,U+8BFB,U+8DDF,U+8DF3,U+8EAB,U+8FD4,U+90E8,U+9332,U+949F,U+95ED,U+95F4,U+9605,U+9644,U+968F-9690,U+96A0,U+9A6C,U+FF08-FF09,U+FF0C,U+FF1A",
+			"file": "/fonts/noto-serif-sc-700-common-3c5eb69dd1.woff2",
+			"bytes": 24964,
 			"langs": ["zh"]
 		},
 		{
@@ -2394,6 +2410,14 @@
 			"file": "/fonts/noto-serif-sc-700-page-78fa9c435e.woff2",
 			"bytes": 5020,
 			"pages": ["zh/enlightenment"]
+		},
+		{
+			"family": "Noto Serif SC",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/noto-serif-sc-700-page-7b0e4350f5.woff2",
+			"bytes": 1076,
+			"pages": ["zh/ebook"]
 		},
 		{
 			"family": "Noto Serif SC",
@@ -2792,6 +2816,14 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/shippori-mincho-400-page-25d3844f86.woff2",
+			"bytes": 1964,
+			"pages": ["ja/ebook"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/shippori-mincho-400-page-29e25cb968.woff2",
 			"bytes": 29800,
 			"pages": ["ja/enlightenment"]
@@ -2880,6 +2912,14 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 400,
+			"file": "/fonts/shippori-mincho-400-page-4d09d4c04d.woff2",
+			"bytes": 78540,
+			"pages": ["ja/"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 400,
 			"file": "/fonts/shippori-mincho-400-page-4d72daebf1.woff2",
 			"bytes": 15896,
 			"pages": ["ja/water-tools"]
@@ -2936,14 +2976,6 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 400,
-			"file": "/fonts/shippori-mincho-400-page-655141bd99.woff2",
-			"bytes": 77944,
-			"pages": ["ja/"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 400,
 			"file": "/fonts/shippori-mincho-400-page-6885e2f9c7.woff2",
 			"bytes": 67824,
 			"pages": ["ja/choho"]
@@ -2963,6 +2995,14 @@
 			"file": "/fonts/shippori-mincho-400-page-6e91859e77.woff2",
 			"bytes": 38588,
 			"pages": ["ja/origins-of-ninjutsu"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 400,
+			"file": "/fonts/shippori-mincho-400-page-79fa7681d8.woff2",
+			"bytes": 6856,
+			"pages": ["ja/downloads"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -3267,14 +3307,6 @@
 			"file": "/fonts/shippori-mincho-400-page-d87594f4df.woff2",
 			"bytes": 198640,
 			"pages": ["ja/glossary"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 400,
-			"file": "/fonts/shippori-mincho-400-page-e0ffa538ff.woff2",
-			"bytes": 6436,
-			"pages": ["ja/downloads"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5072,19 +5104,19 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"unicodeRange": "U+3001-3002,U+3005,U+3007,U+3044,U+304B,U+304D,U+3055,U+3057-3058,U+305B,U+305F,U+3064,U+3066-3068,U+306B,U+306E,U+3078,U+307E,U+3080,U+3089-308C,U+3092-3093,U+30A4,U+30AF,U+30B5,U+30B7,U+30B9,U+30C0,U+30C3,U+30C6,U+30C8,U+30D0,U+30D7,U+30DE,U+30E0,U+30E9-30EA,U+30ED,U+30F3,U+30FC,U+4E00,U+4E03,U+4E09,U+4E2D,U+4E5D,U+4E86,U+4E8B-4E8C,U+4E94,U+4EF6,U+4F1D,U+4F53,U+50CF,U+5168,U+516B,U+516D,U+5175,U+5177,U+5206,U+5229,U+524D,U+52D5,U+5341,U+53F2,U+5404,U+55B6,U+56DB,U+56F3,U+56FD,U+5728,U+5831,U+5927,U+5B57,U+5E74,U+5E8F,U+5F15,U+5F8C,U+5FCD,U+60C5,U+6226,U+623B,U+627F,U+62E1,U+639F,U+6587,U+65B0,U+65E5,U+6642,U+66F4,U+6728,U+672C,U+691C,U+6B21,U+6B66,U+6B74,U+6CD5,U+6D41,U+73FE,U+7528,U+753B,U+76EE,U+793A,U+795E,U+79FB,U+7AE0,U+7B2C,U+7BC0,U+7CBE,U+7D04,U+7D22,U+7D44,U+7D9A,U+7DE8,U+7E54,U+8005,U+82F1,U+8449,U+8853,U+8868,U+898B,U+8A00,U+8A18,U+8A9E,U+8AAD,U+904B,U+90E8,U+9332,U+9589,U+9593,U+9644,U+96A0,U+FF08-FF09,U+FF0F,U+FF1A",
-			"file": "/fonts/shippori-mincho-700-common-10993a23ad.woff2",
-			"bytes": 26420,
-			"langs": ["ja"]
+			"unicodeRange": "U+3007,U+4E00,U+4E03,U+4E09,U+4E5D,U+4E8C,U+4E94,U+4F1D,U+4F53,U+516B,U+516D,U+5175,U+5177,U+5341,U+53F2,U+56DB,U+56F3,U+5E8F,U+5FCD,U+627F,U+639F,U+6728,U+6B74,U+6CD5,U+795E,U+7AE0,U+7B2C,U+7CBE,U+7D44,U+7E54,U+8853,U+9332,U+9644,U+96A0",
+			"file": "/fonts/shippori-mincho-700-common-498b96f831.woff2",
+			"bytes": 7400,
+			"langs": ["de", "es", "fr", "pt", "it", "nl", "ru", "he"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"unicodeRange": "U+3007,U+4E00,U+4E03,U+4E09,U+4E5D,U+4E8C,U+4E94,U+4F1D,U+4F53,U+516B,U+516D,U+5175,U+5177,U+5341,U+53F2,U+56DB,U+56F3,U+5E8F,U+5FCD,U+627F,U+639F,U+6728,U+6B74,U+6CD5,U+795E,U+7AE0,U+7B2C,U+7CBE,U+7D44,U+7E54,U+8853,U+9332,U+9644,U+96A0",
-			"file": "/fonts/shippori-mincho-700-common-498b96f831.woff2",
-			"bytes": 7400,
-			"langs": ["de", "es", "fr", "pt", "it", "nl", "ru", "he"]
+			"unicodeRange": "U+3001-3002,U+3005,U+3007,U+3042,U+3044,U+304B,U+304D,U+3053,U+3055,U+3057-3059,U+305B,U+305F,U+3064,U+3066-3068,U+306B,U+306E-306F,U+3078,U+307E,U+3080,U+3082,U+3089-308C,U+3092-3093,U+30A4,U+30A6,U+30AF,U+30B5,U+30B7,U+30B9,U+30C0,U+30C3,U+30C6,U+30C8-30C9,U+30D0,U+30D7,U+30DE,U+30E0,U+30E9-30EA,U+30ED,U+30F3,U+30FC,U+4E00,U+4E03,U+4E09,U+4E2D,U+4E5D,U+4E86,U+4E8B-4E8C,U+4E94,U+4EF6,U+4F1D,U+4F53,U+50CF,U+5168,U+516B,U+516D,U+5175,U+5177,U+5206,U+5229,U+524D,U+52D5,U+5341,U+53F2,U+5404,U+55B6,U+56DB,U+56F3,U+56FD,U+5728,U+5831,U+5927,U+5B57,U+5E74,U+5E8F,U+5F15,U+5F8C,U+5FCD,U+60C5,U+6226,U+623B,U+627F,U+62E1,U+639F,U+6587,U+65B0,U+65E5,U+6642,U+66F4,U+6728,U+672C,U+691C,U+6B21,U+6B66,U+6B74,U+6CD5,U+6D41,U+73FE,U+7528,U+753B,U+76EE,U+793A,U+795E,U+79FB,U+7AE0,U+7B2C,U+7BC0,U+7CBE,U+7D04,U+7D22,U+7D44,U+7D9A,U+7DE8,U+7E54,U+8005,U+82F1,U+8449,U+8853,U+8868,U+898B,U+8A00,U+8A18,U+8A9E,U+8AAD,U+904B,U+90E8,U+9332,U+9589,U+9593,U+9644,U+96A0,U+FF08-FF09,U+FF0F,U+FF1A",
+			"file": "/fonts/shippori-mincho-700-common-4ec3356ee8.woff2",
+			"bytes": 27740,
+			"langs": ["ja"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5115,17 +5147,17 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-06e8860f72.woff2",
-			"bytes": 5540,
-			"pages": ["ja/ukemi"]
+			"file": "/fonts/shippori-mincho-700-page-05e90763e6.woff2",
+			"bytes": 10676,
+			"pages": ["ja/shichi-ho-de"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-08a27a469b.woff2",
-			"bytes": 5624,
-			"pages": ["ja/colophon"]
+			"file": "/fonts/shippori-mincho-700-page-088ad2e941.woff2",
+			"bytes": 5636,
+			"pages": ["ja/chronology"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5147,9 +5179,17 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-1454fd49a9.woff2",
-			"bytes": 7072,
-			"pages": ["ja/shinobi-iri"]
+			"file": "/fonts/shippori-mincho-700-page-13e5cb8520.woff2",
+			"bytes": 5368,
+			"pages": ["ja/ukemi"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-145a458dc7.woff2",
+			"bytes": 6032,
+			"pages": ["ja/kuji-in"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5173,9 +5213,17 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-1682f21d52.woff2",
-			"bytes": 5388,
-			"pages": ["ja/bansenshukai"]
+			"file": "/fonts/shippori-mincho-700-page-15e3b05635.woff2",
+			"bytes": 4740,
+			"pages": ["ja/ninpo-sanjurokkei"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-1b3b0f78c6.woff2",
+			"bytes": 7472,
+			"pages": ["ja/climbing-tools"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5189,9 +5237,9 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-1c35a26d33.woff2",
-			"bytes": 5788,
-			"pages": ["ja/tenchijin"]
+			"file": "/fonts/shippori-mincho-700-page-1ff15fb366.woff2",
+			"bytes": 7992,
+			"pages": ["ja/the-5-commandments-of-the-ninja"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5205,22 +5253,6 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-26e72d2ef6.woff2",
-			"bytes": 7280,
-			"pages": ["ja/miscellaneous-equipment"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-27dbbc9b4b.woff2",
-			"bytes": 5100,
-			"pages": ["ja/enlightenment"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/shippori-mincho-700-page-291216654d.woff2",
 			"bytes": 6264,
 			"pages": ["ja/godai"]
@@ -5229,9 +5261,9 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-2a6f503d5f.woff2",
-			"bytes": 1900,
-			"pages": ["ja/glossary"]
+			"file": "/fonts/shippori-mincho-700-page-2acd9c47ad.woff2",
+			"bytes": 5520,
+			"pages": ["ja/koto-ryu"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5245,25 +5277,17 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-2f433230c7.woff2",
-			"bytes": 5168,
-			"pages": ["ja/burglary-tools"]
+			"file": "/fonts/shippori-mincho-700-page-2b0e28ef9f.woff2",
+			"bytes": 4588,
+			"pages": ["ja/enlightenment"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-361a4bd11c.woff2",
-			"bytes": 10124,
-			"pages": ["ja/mikkyo"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-3b026b9a77.woff2",
-			"bytes": 5616,
-			"pages": ["ja/toiri"]
+			"file": "/fonts/shippori-mincho-700-page-31f055ab30.woff2",
+			"bytes": 4940,
+			"pages": ["ja/colophon"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5277,25 +5301,33 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-3fb9058213.woff2",
-			"bytes": 5824,
-			"pages": ["ja/koto-ryu"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-43f250b99c.woff2",
-			"bytes": 6048,
-			"pages": ["ja/kuji-in"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-4964e9fab9.woff2",
-			"bytes": 6232,
+			"file": "/fonts/shippori-mincho-700-page-4826c3dbc2.woff2",
+			"bytes": 5660,
 			"pages": ["ja/chikairi"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-48508a8b2a.woff2",
+			"bytes": 7132,
+			"pages": ["ja/miscellaneous-equipment"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-48d5b29559.woff2",
+			"bytes": 5996,
+			"pages": ["ja/toughening-up"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-492c3b4583.woff2",
+			"bytes": 5028,
+			"pages": ["ja/daoism"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5317,6 +5349,14 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-50458b7d65.woff2",
+			"bytes": 6392,
+			"pages": ["ja/water-tools"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
 			"file": "/fonts/shippori-mincho-700-page-5451f22d69.woff2",
 			"bytes": 4516,
 			"pages": ["ja/kunoichi"]
@@ -5325,9 +5365,9 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-58b54a9147.woff2",
-			"bytes": 8292,
-			"pages": ["ja/climbing-tools"]
+			"file": "/fonts/shippori-mincho-700-page-56a3a8d1c8.woff2",
+			"bytes": 3256,
+			"pages": ["ja/downloads"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5349,49 +5389,17 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-5c0ec24f74.woff2",
-			"bytes": 5268,
-			"pages": ["ja/iga-ryu"]
+			"file": "/fonts/shippori-mincho-700-page-64d07568cb.woff2",
+			"bytes": 5920,
+			"pages": ["ja/training-factors"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-5fb24bf413.woff2",
-			"bytes": 16832,
-			"pages": ["ja/takamatsu-toshitsugu"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-683a52dbd8.woff2",
-			"bytes": 8236,
-			"pages": ["ja/the-5-commandments-of-the-ninja"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-68a1fc208a.woff2",
-			"bytes": 6312,
-			"pages": ["ja/taijutsu"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-69da64239e.woff2",
-			"bytes": 5088,
-			"pages": ["ja/atemi-te"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-6bd66324ec.woff2",
-			"bytes": 6356,
-			"pages": ["ja/chronology"]
+			"file": "/fonts/shippori-mincho-700-page-6a4cf70c8d.woff2",
+			"bytes": 9440,
+			"pages": ["ja/mikkyo"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5413,17 +5421,17 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-6f4aedf7dd.woff2",
-			"bytes": 10832,
-			"pages": ["ja/inro"]
+			"file": "/fonts/shippori-mincho-700-page-72aa2b39bb.woff2",
+			"bytes": 22452,
+			"pages": ["ja/weapons"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-7669486315.woff2",
-			"bytes": 9452,
-			"pages": ["ja/the-rules-of-the-ninja"]
+			"file": "/fonts/shippori-mincho-700-page-7311ee6a6f.woff2",
+			"bytes": 7676,
+			"pages": ["ja/onshinjutsu"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5437,9 +5445,9 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-7a0487210f.woff2",
-			"bytes": 10608,
-			"pages": ["ja/choho"]
+			"file": "/fonts/shippori-mincho-700-page-7bbd1027db.woff2",
+			"bytes": 5028,
+			"pages": ["ja/burglary-tools"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5453,33 +5461,9 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-7cf8aa239d.woff2",
-			"bytes": 5236,
-			"pages": ["ja/daoism"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-7d78451d2b.woff2",
-			"bytes": 26992,
-			"pages": ["ja/"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
 			"file": "/fonts/shippori-mincho-700-page-83f66cdb2f.woff2",
 			"bytes": 5280,
 			"pages": ["ja/koga-ryu"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-84da18be7c.woff2",
-			"bytes": 6484,
-			"pages": ["ja/water-tools"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5493,17 +5477,17 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-879e6a7405.woff2",
-			"bytes": 14056,
-			"pages": ["ja/emergence-of-the-ryu"]
+			"file": "/fonts/shippori-mincho-700-page-8711b5d775.woff2",
+			"bytes": 6560,
+			"pages": ["ja/origins-of-ninjutsu"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-938530b2bd.woff2",
-			"bytes": 6988,
-			"pages": ["ja/ninjutsu"]
+			"file": "/fonts/shippori-mincho-700-page-879e6a7405.woff2",
+			"bytes": 14056,
+			"pages": ["ja/emergence-of-the-ryu"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5517,9 +5501,9 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-964f2771de.woff2",
-			"bytes": 8540,
-			"pages": ["ja/combat-rules"]
+			"file": "/fonts/shippori-mincho-700-page-94c238db4b.woff2",
+			"bytes": 10336,
+			"pages": ["ja/inro"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5541,17 +5525,41 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-9feab0f10e.woff2",
-			"bytes": 22864,
-			"pages": ["ja/weapons"]
+			"file": "/fonts/shippori-mincho-700-page-a299b78733.woff2",
+			"bytes": 9020,
+			"pages": ["ja/kamae"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-a6f7e32b68.woff2",
-			"bytes": 5876,
-			"pages": ["ja/consciousness-and-spirit"]
+			"file": "/fonts/shippori-mincho-700-page-a300626580.woff2",
+			"bytes": 25952,
+			"pages": ["ja/"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-a4c973ed18.woff2",
+			"bytes": 3948,
+			"pages": ["ja/ninja-no-hachimon"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-a51b6b35e6.woff2",
+			"bytes": 8060,
+			"pages": ["ja/combat-rules"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-a7a4c9daf4.woff2",
+			"bytes": 5020,
+			"pages": ["ja/iga-ryu"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5565,41 +5573,33 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-a9909b8398.woff2",
-			"bytes": 15988,
+			"file": "/fonts/shippori-mincho-700-page-ac768c5d7d.woff2",
+			"bytes": 8728,
+			"pages": ["ja/the-rules-of-the-ninja"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-ac80dafdbd.woff2",
+			"bytes": 15172,
 			"pages": ["ja/body-weapons"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-aa193f969c.woff2",
-			"bytes": 7820,
-			"pages": ["ja/onshinjutsu"]
+			"file": "/fonts/shippori-mincho-700-page-ae5db1eccf.woff2",
+			"bytes": 4856,
+			"pages": ["ja/atemi-te"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-aae38de5d7.woff2",
-			"bytes": 4476,
-			"pages": ["ja/ninja-no-hachimon"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-ad006054b7.woff2",
-			"bytes": 10884,
-			"pages": ["ja/shichi-ho-de"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-b7603b7daf.woff2",
-			"bytes": 3568,
-			"pages": ["ja/downloads"]
+			"file": "/fonts/shippori-mincho-700-page-b98f219edf.woff2",
+			"bytes": 5400,
+			"pages": ["ja/consciousness-and-spirit"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5608,6 +5608,14 @@
 			"file": "/fonts/shippori-mincho-700-page-bcf814a4c2.woff2",
 			"bytes": 10220,
 			"pages": ["ja/gogyo"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-bdce9b8022.woff2",
+			"bytes": 5072,
+			"pages": ["ja/bansenshukai"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5655,6 +5663,14 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-c71bc6663c.woff2",
+			"bytes": 5540,
+			"pages": ["ja/tenchijin"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
 			"file": "/fonts/shippori-mincho-700-page-c82a54d529.woff2",
 			"bytes": 5780,
 			"pages": ["ja/18-training-levels"]
@@ -5671,17 +5687,25 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-cf63d584d7.woff2",
-			"bytes": 4904,
-			"pages": ["ja/gyokko-ryu"]
+			"file": "/fonts/shippori-mincho-700-page-cbe90f2573.woff2",
+			"bytes": 16644,
+			"pages": ["ja/takamatsu-toshitsugu"]
 		},
 		{
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-cf7f3462ce.woff2",
-			"bytes": 6132,
-			"pages": ["ja/training-factors"]
+			"file": "/fonts/shippori-mincho-700-page-cf5f9f5117.woff2",
+			"bytes": 5252,
+			"pages": ["ja/toiri"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-cf63d584d7.woff2",
+			"bytes": 4904,
+			"pages": ["ja/gyokko-ryu"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5703,9 +5727,25 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-dcff3ac23a.woff2",
-			"bytes": 5216,
-			"pages": ["ja/ninpo-sanjurokkei"]
+			"file": "/fonts/shippori-mincho-700-page-dce1163de0.woff2",
+			"bytes": 6116,
+			"pages": ["ja/taijutsu"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-df516febdc.woff2",
+			"bytes": 6408,
+			"pages": ["ja/ninjutsu"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-e3e0ad792c.woff2",
+			"bytes": 1404,
+			"pages": ["ja/glossary"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5714,22 +5754,6 @@
 			"file": "/fonts/shippori-mincho-700-page-e7f51ab8d9.woff2",
 			"bytes": 6908,
 			"pages": ["ja/demise"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-e950fb7b0b.woff2",
-			"bytes": 9476,
-			"pages": ["ja/kamae"]
-		},
-		{
-			"family": "Shippori Mincho",
-			"style": "normal",
-			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-edc5a3be78.woff2",
-			"bytes": 6784,
-			"pages": ["ja/toughening-up"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5751,9 +5775,9 @@
 			"family": "Shippori Mincho",
 			"style": "normal",
 			"weight": 700,
-			"file": "/fonts/shippori-mincho-700-page-f65ac7e732.woff2",
-			"bytes": 6720,
-			"pages": ["ja/origins-of-ninjutsu"]
+			"file": "/fonts/shippori-mincho-700-page-f792744a60.woff2",
+			"bytes": 6892,
+			"pages": ["ja/shinobi-iri"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -5762,6 +5786,14 @@
 			"file": "/fonts/shippori-mincho-700-page-f7dfc5359b.woff2",
 			"bytes": 6880,
 			"pages": ["ja/ninja-clothing"]
+		},
+		{
+			"family": "Shippori Mincho",
+			"style": "normal",
+			"weight": 700,
+			"file": "/fonts/shippori-mincho-700-page-f86f09218d.woff2",
+			"bytes": 9680,
+			"pages": ["ja/choho"]
 		},
 		{
 			"family": "Shippori Mincho",
@@ -7766,62 +7798,62 @@
 	"budget": {
 		"de": {
 			"home": 128336,
-			"median": 149448,
+			"median": 149364,
 			"max": 241536
 		},
 		"en": {
 			"home": 129432,
-			"median": 150544,
+			"median": 150460,
 			"max": 242632
 		},
 		"es": {
 			"home": 128336,
-			"median": 149448,
+			"median": 149364,
 			"max": 241536
 		},
 		"fr": {
 			"home": 128336,
-			"median": 149448,
+			"median": 149364,
 			"max": 241536
 		},
 		"pt": {
 			"home": 128336,
-			"median": 149448,
+			"median": 149364,
 			"max": 241536
 		},
 		"it": {
 			"home": 128336,
-			"median": 149448,
+			"median": 149364,
 			"max": 241536
 		},
 		"nl": {
 			"home": 128336,
-			"median": 149448,
+			"median": 149364,
 			"max": 241536
 		},
 		"ru": {
 			"home": 161704,
-			"median": 150192,
+			"median": 148512,
 			"max": 298012
 		},
 		"ja": {
-			"home": 235884,
-			"median": 173632,
-			"max": 386972
+			"home": 236760,
+			"median": 173136,
+			"max": 387796
 		},
 		"zh": {
-			"home": 322788,
-			"median": 245184,
-			"max": 466496
+			"home": 323180,
+			"median": 245004,
+			"max": 466640
 		},
 		"ko": {
-			"home": 187920,
-			"median": 169600,
-			"max": 369144
+			"home": 188800,
+			"median": 169388,
+			"max": 369560
 		},
 		"he": {
 			"home": 63728,
-			"median": 75440,
+			"median": 74828,
 			"max": 236960
 		}
 	}

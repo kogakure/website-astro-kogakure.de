@@ -111,6 +111,8 @@ test.describe('search engines', () => {
 		for (const legal of ['/impressum/', '/datenschutz/', '/en/imprint/', '/ja/privacy/'])
 			expect(xml).not.toContain(legal);
 		expect(xml).not.toContain('/design-system/');
+		expect(xml).toContain('<loc>https://www.kogakure.de/buch/</loc>');
+		expect(xml).toContain('hreflang="en" href="https://www.kogakure.de/en/book/"');
 	});
 
 	test('robots.txt keeps /sprueche/ out and points to the sitemap', async ({ request }) => {

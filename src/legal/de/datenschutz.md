@@ -1,7 +1,7 @@
 ---
 title: Datenschutzerklärung
 description: "Welche Daten kogakure.de verarbeitet: keine Cookies, keine Dritten, eine Statistik ohne personenbezogene Daten."
-updated: 2026-11-07
+updated: 2026-11-09
 ---
 
 <figure>
@@ -28,6 +28,14 @@ Um zu sehen, welche Seiten gelesen werden, nutze ich [Umami](https://umami.is/),
 ## Schriften
 
 Alle Schriften liegen auf dem Server dieser Website. Ihr Browser baut keine Verbindung zu Google Fonts oder anderen Schriftdiensten auf.
+
+## E-Book und Unterstützung
+
+Das E-Book und das PDF des Buches liegen bei GitHub (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). Erst wenn Sie auf der [Seite des Buches](/buch/) eine Datei herunterladen, verbindet sich Ihr Browser mit GitHub. GitHub verarbeitet dabei Ihre IP-Adresse und die Angaben Ihres Browsers nach seiner eigenen [Datenschutzerklärung](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement), auch in den USA.
+
+Wer das Buch unterstützen möchte, folgt einem Link zu Ko-fi (Ko-fi Labs Limited, Vereinigtes Königreich). Was Sie dort angeben, verarbeiten Ko-fi und der Zahlungsdienst, den Sie wählen (PayPal oder Stripe), nach ihren eigenen Datenschutzerklärungen ([Ko-fi](https://more.ko-fi.com/privacy)).
+
+Diese Website selbst bindet weder GitHub noch Ko-fi ein: Ohne einen Klick auf einen solchen Link entsteht keine Verbindung.
 
 ## Speicher im Browser
 

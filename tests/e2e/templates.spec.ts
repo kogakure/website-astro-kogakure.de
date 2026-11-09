@@ -17,6 +17,7 @@ const PAGE_TYPES: Record<string, (lang: Lang) => string> = {
 	colophon: (lang) => prefix(lang) + (lang === 'de' ? 'kolophon/' : 'colophon/'),
 	'not found': (lang) => (lang === 'de' ? '/404.html' : `/${lang}/404/`),
 	offline: (lang) => `${prefix(lang)}offline/`,
+	book: (lang) => prefix(lang) + (lang === 'de' ? 'buch/' : 'book/'),
 };
 
 test.describe('language switch', () => {
@@ -126,6 +127,61 @@ test.describe('legal pages', () => {
 			expect(results.violations).toEqual([]);
 		});
 	}
+});
+
+test.describe('the ebook', () => {
+	test('its page offers both languages’ EPUB and PDF from the release', async ({ page }) => {
+		await page.goto('/buch/');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('Das Buch');
+		const downloads = page.locator('.ebook-downloads');
+		const files = downloads.locator('a[href$=".epub"], a[href$=".pdf"]');
+		await expect(files).toHaveCount(4);
+		await expect(files.first()).toHaveAttribute('href', /kogakure-de-[\d.]+\.epub$/);
+		await expect(downloads.getByRole('link', { name: 'PDF' }).first()).toHaveAttribute(
+			'type',
+			'application/pdf'
+		);
+		await expect(page.getByRole('link', { name: 'Auf Ko-fi unterstützen' })).toHaveAttribute(
+			'href',
+			'https://ko-fi.com/kogakure'
+		);
+	});
+
+	test('another language keeps its own page around the English text', async ({ page }) => {
+		await page.goto('/ja/book/');
+		await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText('The Book');
+		await expect(page.locator('.page-text')).toHaveAttribute('lang', 'en');
+		// The downloads keep the page's language, the English cover first
+		await expect(page.locator('.ebook-downloads')).toHaveAttribute('lang', 'ja');
+		await expect(page.locator('.ebook-downloads a[href$=".epub"]').first()).toHaveAttribute(
+			'href',
+			/kogakure-en-/
+		);
+	});
+
+	test('the homepage, the colophon, a chapter and the downloads page lead to it', async ({
+		page,
+	}) => {
+		await page.goto('/');
+		await expect(page.locator('.ebook-teaser[data-place="prologue"] a')).toHaveAttribute(
+			'href',
+			'/buch/'
+		);
+		await expect(page.locator('.colophon a[href="/buch/"]')).toHaveCount(1);
+		await page.goto('/en/toughening-up/');
+		await expect(page.locator('.ebook-teaser[data-place="after-text"] a')).toHaveAttribute(
+			'href',
+			'/en/book/'
+		);
+		await page.goto('/downloads/');
+		await expect(page.locator('.ebook-teaser[data-place="in-text"] a')).toHaveAttribute(
+			'href',
+			'/buch/'
+		);
+		// The downloads page isn't a chapter of the book
+		await expect(page.locator('.ebook-teaser[data-place="after-text"]')).toHaveCount(0);
+	});
 });
 
 test.describe('mode', () => {

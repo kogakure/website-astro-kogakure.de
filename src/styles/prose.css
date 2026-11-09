@@ -177,6 +177,16 @@
 	--edge: url('/images/ink/wash-edge-i.webp');
 }
 
+/* Pages of the ebook (SI-504, /images/ebook/): a book's pages are set on
+   paper, not painted, so they keep their edges and lie on the page with the
+   plate's shadow instead of an ink edge */
+.prose figure[data-kind='ebook'] img {
+	-webkit-mask: none;
+	mask: none;
+	border-radius: 1px;
+	box-shadow: var(--shadow-plate);
+}
+
 /* Calligraphy and the hand seals are framed in black: the image grows 5%
    under a mask that stays the same size, so the frame lies outside the edge */
 .prose figure:is([data-kind='calligraphy'], [data-kind='kuji-in']) img {

@@ -18,6 +18,7 @@ pnpm images --force   # regenerate everything
 | `kogakure-texts/images/old/**` (the old screenshots of Chronology and Downloads)        | `images/old/<key>-<width>.webp`            |
 | The opener of every page, at its focus point                                            | `images/og/<translationKey>.jpg`, 1200×630 |
 | `kogakure-prototyping/prototypes/gekiga-2-modes/assets/ink/*.webp` (masks, dividers, …) | `images/ink/*.webp`, as they are           |
+| `assets/ebook/<lang>/*.jpg` in this repo: the book's covers and spreads (SI-504)        | `images/ebook/<lang>/<name>-<width>.webp`  |
 
 Only images the imported texts use are generated. The original is the `*-ai-NN-selected.png` of `mapping.csv`; where it is narrower than a width, its 2× upscale `*-ai-NN-upscaled.png` (local only, not in git) is the source. Nothing is enlarged past its largest source. A source between two widths (the old screenshots) also keeps its own width, unless it is less than 20% wider than the last width it reaches.
 
@@ -25,7 +26,7 @@ Only images the imported texts use are generated. The original is the `*-ai-NN-s
 | ----: | ---------------------------------------------------------------------------------- |
 |   800 | all                                                                                |
 |  1400 | all (except old screenshots narrower than that)                                    |
-|  2000 | all new images                                                                     |
+|  2000 | all new images (the ebook's only where they are that wide: the covers are 1600)    |
 |  2750 | paintings (`article/`, `historical/`) at least that wide: the opener and the bands |
 
 WebP quality 72, effort 6: these widths are only shown at 2× density, where the paper texture looks the same as at 80 and the files are about a quarter smaller. OG images are JPEG (quality 82, mozjpeg), because not every network previews WebP.

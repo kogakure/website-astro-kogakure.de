@@ -4,6 +4,7 @@ import { isLang, language, languageChoices, LANGS, PREFIXED_LANGS } from './lang
 import {
 	chapterSlug,
 	contentsPath,
+	ebookPath,
 	homePath,
 	isInBook,
 	legalPath,
@@ -107,6 +108,12 @@ describe('routes', () => {
 		expect(legalPath('de', 'privacy')).toBe('/datenschutz/');
 		expect(legalPath('en', 'imprint')).toBe('/en/imprint/');
 		expect(legalPath('ja', 'privacy')).toBe('/ja/privacy/');
+	});
+
+	it('gives every language the ebook’s page at the URLs the book prints', () => {
+		expect(ebookPath('de')).toBe('/buch/');
+		expect(ebookPath('en')).toBe('/en/book/');
+		expect(ebookPath('ja')).toBe('/ja/book/');
 	});
 });
 

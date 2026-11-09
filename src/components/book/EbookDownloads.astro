@@ -1,0 +1,172 @@
+---
+/**
+ * The downloads of the ebook's page (SI-504): the cover beside the files of
+ * each language (the EPUB and the PDF, each with its size), then the
+ * release (version, date, checksums, older versions) and the licences. A
+ * plain list, no cards: the file names are the links, their sizes in the
+ * secondary text colour. On a page whose text is in another language (the
+ * English text on /ja/book/) it keeps the page's language.
+ */
+import Picture from '@/components/site/Picture.astro';
+import { language, type Lang } from '@/i18n/languages';
+
+interface Props {
+	/** „Herunterladen“, the section's heading */
+	heading: string;
+	/** The cover of the text's language: `{ src, alt }` */
+	cover: { src: string; alt: string };
+	/** Each language of the book, the text's own first */
+	languages: {
+		lang: Lang;
+		files: { label: string; href: string; type: string; size: string }[];
+	}[];
+	/** The release's facts: version, date, the links to the checksums and to every release */
+	release: { text: string; links: { href: string; label: string }[] };
+	/** The licences: text and images */
+	licences: string;
+	/** The page's language, where the text around it is in another one */
+	lang?: Lang | undefined;
+}
+
+const { heading, cover, languages, release, licences, lang } = Astro.props;
+const own = lang && language(lang);
+---
+
+<section
+	class="ebook-downloads"
+	aria-labelledby="downloads"
+	lang={own ? own.htmlLang : undefined}
+	dir={own ? own.dir : undefined}
+>
+	<h2 id="downloads">{heading}</h2>
+	<div class="ebook-downloads-body">
+		<Picture
+			src={cover.src}
+			alt={cover.alt}
+			class="ebook-cover"
+			sizes="(min-width: 48em) 12rem, 40vw"
+		/>
+		<div class="ebook-downloads-text">
+			<ul class="ebook-files">
+				{languages.map((entry) => {
+					const name = language(entry.lang);
+					// A screen reader's links list shows each link alone: the hidden
+					// text names its language and size (WCAG 2.4.9)
+					return (
+						<li>
+							<span class="ebook-lang" lang={name.htmlLang} dir={name.dir}>
+								{name.name}
+							</span>
+							<span class="ebook-links">
+								{entry.files.map((file) => (
+									<span class="ebook-file">
+										<a
+											href={file.href}
+											type={file.type}
+											hreflang={name.htmlLang}
+										>
+											{file.label}
+											<span class="sr-only">
+												{' '}
+												(
+												<span lang={name.htmlLang} dir={name.dir}>
+													{name.name}
+												</span>
+												, {file.size})
+											</span>
+										</a>{' '}
+										<span class="ebook-size" dir="ltr">
+											{file.size}
+										</span>
+									</span>
+								))}
+							</span>
+						</li>
+					);
+				})}
+			</ul>
+			<p class="ebook-meta">
+				<span>{release.text}</span>
+				{release.links.map((link) => (
+					<a href={link.href}>{link.label}</a>
+				))}
+			</p>
+			<p class="ebook-meta ebook-licences" set:html={licences} />
+		</div>
+	</div>
+</section>
+
+<style>
+	.ebook-downloads {
+		margin-block-end: var(--section);
+	}
+
+	/* The cover beside the files from 30em, above them on a phone */
+	.ebook-downloads-body {
+		display: grid;
+		gap: 1.5rem 2rem;
+		align-items: start;
+	}
+
+	@media (min-width: 30em) {
+		.ebook-downloads-body {
+			grid-template-columns: minmax(8rem, 12rem) 1fr;
+		}
+	}
+
+	.ebook-downloads :global(.ebook-cover) {
+		display: block;
+		inline-size: min(12rem, 60%);
+		block-size: auto;
+		border-radius: 1px;
+		box-shadow: var(--shadow-plate);
+	}
+
+	@media (min-width: 30em) {
+		.ebook-downloads :global(.ebook-cover) {
+			inline-size: 100%;
+		}
+	}
+
+	.ebook-files {
+		margin: 0 0 1.25rem;
+		padding: 0;
+		list-style: none;
+	}
+
+	.ebook-files li {
+		margin-block: 0 0.9rem;
+		padding: 0;
+	}
+
+	.ebook-lang {
+		display: block;
+		font-weight: 600;
+		color: var(--heading);
+	}
+
+	.ebook-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1.5rem;
+	}
+
+	.ebook-size {
+		color: var(--text-2);
+		font-size: var(--text-caption);
+	}
+
+	.ebook-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1rem;
+		margin-block: 0 0.5rem;
+		font-size: var(--text-caption);
+		color: var(--text-2);
+	}
+
+	/* Running text with its links: a plain paragraph, so a separator never starts a line */
+	.ebook-licences {
+		display: block;
+	}
+</style>

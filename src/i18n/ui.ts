@@ -92,6 +92,26 @@ export interface Ui {
 	offlineRetry: string;
 	/** The pages saved on the device: „Ohne Verbindung lesbar“ */
 	offlineSaved: string;
+	/** The ebook (SI-504): the link to its page, in the colophon and on the homepage */
+	ebook: string;
+	/** Under that link on the homepage: what it costs and its languages */
+	ebookFree: string;
+	/** After an article that is a chapter of the ebook, before the link to it */
+	ebookChapter: string;
+	/** The ebook's page only (its own font subsets): the downloads' heading */
+	ebookDownloads: string;
+	ebookVersion: string;
+	/** The PDF's page count */
+	ebookPages: string;
+	/** The release's SHA256SUMS */
+	ebookChecksums: string;
+	/** Every release, older ones too */
+	ebookReleases: string;
+	/** The licences: „Text: CC BY-NC-SA 4.0 · Bilder: © …“ */
+	ebookText: string;
+	ebookImages: string;
+	/** Alt text of the cover */
+	ebookCover: string;
 }
 
 type Forms = Partial<Record<Intl.LDMLPluralRule, string>> & { other: string };
@@ -155,6 +175,17 @@ export const UI: Record<Lang, Ui> = {
 			'Diese Seite ist nicht auf diesem Gerät gespeichert, und gerade gibt es keine Verbindung.',
 		offlineRetry: 'Erneut versuchen',
 		offlineSaved: 'Ohne Verbindung lesbar',
+		ebook: 'Das Buch als E-Book und PDF',
+		ebookFree: 'Kostenlos, auf Deutsch und Englisch',
+		ebookChapter: 'Dieser Artikel ist auch ein Kapitel des Buches.',
+		ebookDownloads: 'Herunterladen',
+		ebookVersion: 'Version',
+		ebookPages: 'Seiten',
+		ebookChecksums: 'Prüfsummen',
+		ebookReleases: 'Alle Versionen',
+		ebookText: 'Text',
+		ebookImages: 'Bilder',
+		ebookCover: 'Das Cover des Buches',
 	},
 	en: {
 		skipToText: 'Skip to text',
@@ -209,6 +240,17 @@ export const UI: Record<Lang, Ui> = {
 		offlineText: 'This page isn’t saved on this device, and there is no connection right now.',
 		offlineRetry: 'Try again',
 		offlineSaved: 'Readable offline',
+		ebook: 'The book as an ebook and PDF',
+		ebookFree: 'Free, in German and English',
+		ebookChapter: 'This article is also a chapter of the book.',
+		ebookDownloads: 'Download',
+		ebookVersion: 'Version',
+		ebookPages: 'Pages',
+		ebookChecksums: 'Checksums',
+		ebookReleases: 'All versions',
+		ebookText: 'Text',
+		ebookImages: 'Images',
+		ebookCover: 'The book’s cover',
 	},
 	es: {
 		skipToText: 'Ir al texto',
@@ -265,6 +307,17 @@ export const UI: Record<Lang, Ui> = {
 			'Esta página no está guardada en este dispositivo y ahora mismo no hay conexión.',
 		offlineRetry: 'Reintentar',
 		offlineSaved: 'Disponible sin conexión',
+		ebook: 'El libro en e-book y PDF',
+		ebookFree: 'Gratis, en alemán e inglés',
+		ebookChapter: 'Este artículo es también un capítulo del libro.',
+		ebookDownloads: 'Descargar',
+		ebookVersion: 'Versión',
+		ebookPages: 'Páginas',
+		ebookChecksums: 'Sumas de verificación',
+		ebookReleases: 'Todas las versiones',
+		ebookText: 'Texto',
+		ebookImages: 'Imágenes',
+		ebookCover: 'La cubierta del libro',
 	},
 	fr: {
 		skipToText: 'Aller au texte',
@@ -321,6 +374,17 @@ export const UI: Record<Lang, Ui> = {
 			'Cette page n’est pas enregistrée sur cet appareil, et il n’y a pas de connexion pour le moment.',
 		offlineRetry: 'Réessayer',
 		offlineSaved: 'Lisible hors ligne',
+		ebook: 'Le livre en e-book et en PDF',
+		ebookFree: 'Gratuit, en allemand et en anglais',
+		ebookChapter: 'Cet article est aussi un chapitre du livre.',
+		ebookDownloads: 'Télécharger',
+		ebookVersion: 'Version',
+		ebookPages: 'Pages',
+		ebookChecksums: 'Sommes de contrôle',
+		ebookReleases: 'Toutes les versions',
+		ebookText: 'Texte',
+		ebookImages: 'Images',
+		ebookCover: 'La couverture du livre',
 	},
 	pt: {
 		skipToText: 'Ir para o texto',
@@ -375,6 +439,17 @@ export const UI: Record<Lang, Ui> = {
 		offlineText: 'Esta página não está salva neste dispositivo, e no momento não há conexão.',
 		offlineRetry: 'Tentar novamente',
 		offlineSaved: 'Disponível offline',
+		ebook: 'O livro em e-book e PDF',
+		ebookFree: 'Grátis, em alemão e inglês',
+		ebookChapter: 'Este artigo também é um capítulo do livro.',
+		ebookDownloads: 'Baixar',
+		ebookVersion: 'Versão',
+		ebookPages: 'Páginas',
+		ebookChecksums: 'Somas de verificação',
+		ebookReleases: 'Todas as versões',
+		ebookText: 'Texto',
+		ebookImages: 'Imagens',
+		ebookCover: 'A capa do livro',
 	},
 	it: {
 		skipToText: 'Vai al testo',
@@ -430,6 +505,17 @@ export const UI: Record<Lang, Ui> = {
 			'Questa pagina non è salvata su questo dispositivo e al momento non c’è connessione.',
 		offlineRetry: 'Riprova',
 		offlineSaved: 'Leggibile offline',
+		ebook: 'Il libro in e-book e PDF',
+		ebookFree: 'Gratis, in tedesco e in inglese',
+		ebookChapter: 'Questo articolo è anche un capitolo del libro.',
+		ebookDownloads: 'Scarica',
+		ebookVersion: 'Versione',
+		ebookPages: 'Pagine',
+		ebookChecksums: 'Checksum',
+		ebookReleases: 'Tutte le versioni',
+		ebookText: 'Testo',
+		ebookImages: 'Immagini',
+		ebookCover: 'La copertina del libro',
 	},
 	nl: {
 		skipToText: 'Naar de tekst',
@@ -486,6 +572,17 @@ export const UI: Record<Lang, Ui> = {
 			'Deze pagina is niet op dit apparaat opgeslagen en er is op dit moment geen verbinding.',
 		offlineRetry: 'Opnieuw proberen',
 		offlineSaved: 'Offline te lezen',
+		ebook: 'Het boek als e-book en pdf',
+		ebookFree: 'Gratis, in het Duits en het Engels',
+		ebookChapter: 'Dit artikel is ook een hoofdstuk van het boek.',
+		ebookDownloads: 'Downloaden',
+		ebookVersion: 'Versie',
+		ebookPages: 'Pagina’s',
+		ebookChecksums: 'Controlesommen',
+		ebookReleases: 'Alle versies',
+		ebookText: 'Tekst',
+		ebookImages: 'Afbeeldingen',
+		ebookCover: 'De omslag van het boek',
 	},
 	ru: {
 		skipToText: 'К тексту',
@@ -544,6 +641,17 @@ export const UI: Record<Lang, Ui> = {
 		offlineText: 'Эта страница не сохранена на устройстве, а соединения сейчас нет.',
 		offlineRetry: 'Повторить',
 		offlineSaved: 'Доступно без сети',
+		ebook: 'Книга для скачивания',
+		ebookFree: 'Бесплатно, на немецком и английском',
+		ebookChapter: 'Эта статья также глава книги.',
+		ebookDownloads: 'Скачать',
+		ebookVersion: 'Версия',
+		ebookPages: 'Страниц',
+		ebookChecksums: 'Контрольные суммы',
+		ebookReleases: 'Все версии',
+		ebookText: 'Текст',
+		ebookImages: 'Иллюстрации',
+		ebookCover: 'Обложка книги',
 	},
 	ja: {
 		skipToText: '本文へ',
@@ -598,6 +706,17 @@ export const UI: Record<Lang, Ui> = {
 		offlineText: 'このページはこの端末に保存されておらず、現在は接続がありません。',
 		offlineRetry: '再試行',
 		offlineSaved: 'オフラインで読めるページ',
+		ebook: 'ダウンロードできる本',
+		ebookFree: '無料、ドイツ語版と英語版',
+		ebookChapter: 'この記事は本の一章でもあります。',
+		ebookDownloads: 'ダウンロード',
+		ebookVersion: 'バージョン',
+		ebookPages: 'ページ数',
+		ebookChecksums: 'チェックサム',
+		ebookReleases: 'すべてのバージョン',
+		ebookText: '本文',
+		ebookImages: '画像',
+		ebookCover: '本の表紙',
 	},
 	zh: {
 		skipToText: '跳至正文',
@@ -652,6 +771,17 @@ export const UI: Record<Lang, Ui> = {
 		offlineText: '此页面未保存在本设备上，当前也没有网络连接。',
 		offlineRetry: '重试',
 		offlineSaved: '可离线阅读',
+		ebook: '本书',
+		ebookFree: '免费，德文与英文',
+		ebookChapter: '本文也在书中。',
+		ebookDownloads: '下载',
+		ebookVersion: '版本',
+		ebookPages: '页数',
+		ebookChecksums: '校验和',
+		ebookReleases: '所有版本',
+		ebookText: '文字',
+		ebookImages: '图片',
+		ebookCover: '本书封面',
 	},
 	ko: {
 		skipToText: '본문으로',
@@ -706,6 +836,17 @@ export const UI: Record<Lang, Ui> = {
 		offlineText: '이 페이지는 이 기기에 저장되어 있지 않으며, 지금은 연결이 없습니다.',
 		offlineRetry: '다시 시도',
 		offlineSaved: '오프라인으로 읽을 수 있는 페이지',
+		ebook: '내려받을 수 있는 책',
+		ebookFree: '무료, 독일어판과 영어판',
+		ebookChapter: '이 글은 책의 한 장이기도 합니다.',
+		ebookDownloads: '다운로드',
+		ebookVersion: '버전',
+		ebookPages: '쪽수',
+		ebookChecksums: '체크섬',
+		ebookReleases: '모든 버전',
+		ebookText: '본문',
+		ebookImages: '이미지',
+		ebookCover: '책 표지',
 	},
 	he: {
 		skipToText: 'דילוג לטקסט',
@@ -760,6 +901,17 @@ export const UI: Record<Lang, Ui> = {
 		offlineText: 'הדף הזה לא שמור במכשיר, וכרגע אין חיבור.',
 		offlineRetry: 'ניסיון חוזר',
 		offlineSaved: 'זמין לקריאה ללא חיבור',
+		ebook: 'הספר להורדה',
+		ebookFree: 'בחינם, בגרמנית ובאנגלית',
+		ebookChapter: 'המאמר הזה הוא גם פרק בספר.',
+		ebookDownloads: 'הורדה',
+		ebookVersion: 'גרסה',
+		ebookPages: 'עמודים',
+		ebookChecksums: 'סכומי ביקורת',
+		ebookReleases: 'כל הגרסאות',
+		ebookText: 'טקסט',
+		ebookImages: 'תמונות',
+		ebookCover: 'כריכת הספר',
 	},
 };
 

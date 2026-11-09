@@ -141,11 +141,21 @@ describe('the committed manifest', () => {
 			expect(entry.widths.length, key).toBeGreaterThan(0);
 			expect(entry.widths, key).toEqual(entry.widths.toSorted((a, b) => a - b));
 		}
+		// The new images have an upscale; the ebook's covers and pages (assets/ebook/,
+		// SI-504) come at their own size: the cover 1600 wide, as the EPUB has it
 		const newImages = Object.entries(manifest.images).filter(
-			([key]) => !key.startsWith('old/')
+			([key]) => !key.startsWith('old/') && !key.startsWith('ebook/')
 		);
 		for (const [key, entry] of newImages)
 			expect(entry.widths.slice(0, 3), key).toEqual([800, 1400, 2000]);
+		const ebookImages = Object.entries(manifest.images).filter(([key]) =>
+			key.startsWith('ebook/')
+		);
+		expect(ebookImages.length).toBeGreaterThan(0);
+		for (const [key, entry] of ebookImages)
+			expect(entry.widths, key).toEqual(
+				[800, 1400, 2000].filter((width) => width <= entry.width)
+			);
 	});
 
 	it('has an OG image for every opener it names', () => {

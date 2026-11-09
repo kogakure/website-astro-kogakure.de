@@ -4,11 +4,13 @@
  * homepages (/, /en/, …), the contents (/inhalt/, /en/contents/, …) and
  * the articles
  * (/abhaertung/, /en/toughening-up/, /ja/toughening-up/, …), and the legal
- * pages (/impressum/, /en/privacy/, /ja/privacy/). The 404 pages
+ * pages (/impressum/, /en/privacy/, /ja/privacy/) and the ebook's page
+ * (/buch/, /en/book/, /ja/book/). The 404 pages
  * have their own route.
  */
 import ArticlePage from '@/components/templates/ArticlePage.astro';
 import ContentsPage from '@/components/templates/ContentsPage.astro';
+import EbookPage from '@/components/templates/EbookPage.astro';
 import HomePage from '@/components/templates/HomePage.astro';
 import LegalPage from '@/components/templates/LegalPage.astro';
 import type { Lang } from '@/i18n/languages';
@@ -20,7 +22,7 @@ export async function getStaticPaths() {
 }
 
 type Props =
-	| { kind: 'home' | 'contents'; lang: Lang }
+	| { kind: 'home' | 'contents' | 'ebook'; lang: Lang }
 	| { kind: 'article'; lang: Lang; entry: PageEntry }
 	| { kind: 'legal'; lang: Lang; page: LegalKey };
 
@@ -31,3 +33,4 @@ const props = Astro.props;
 {props.kind === 'contents' && <ContentsPage lang={props.lang} />}
 {props.kind === 'article' && <ArticlePage lang={props.lang} entry={props.entry} />}
 {props.kind === 'legal' && <LegalPage lang={props.lang} page={props.page} />}
+{props.kind === 'ebook' && <EbookPage lang={props.lang} />}

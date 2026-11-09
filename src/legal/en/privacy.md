@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: "Which data kogakure.de processes: no cookies, no third parties, statistics without personal data."
-updated: 2026-11-07
+updated: 2026-11-09
 ---
 
 <figure>
@@ -28,6 +28,14 @@ To see which pages are read, I use [Umami](https://umami.is/), open-source stati
 ## Fonts
 
 All fonts are served from this website’s server. Your browser makes no connection to Google Fonts or any other font service.
+
+## The ebook and supporting it
+
+The ebook and the PDF of the book are hosted by GitHub (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). Only when you download a file from the [book’s page](../book/) does your browser connect to GitHub. GitHub then processes your IP address and your browser’s details under its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement), in the USA too.
+
+To support the book, you follow a link to Ko-fi (Ko-fi Labs Limited, United Kingdom). What you enter there is processed by Ko-fi and the payment service you choose (PayPal or Stripe) under their own privacy policies ([Ko-fi](https://more.ko-fi.com/privacy)).
+
+This website itself embeds neither GitHub nor Ko-fi: without a click on such a link, no connection is made.
 
 ## Storage in the browser
 
