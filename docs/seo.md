@@ -28,7 +28,7 @@ German lives at `/`. On the first visit to `/` itself, the browser's languages (
 | `/sitemap.xml`               | `src/pages/sitemap.xml.ts`: every indexed page in every language with its versions as `xhtml:link` alternates                                                                                                                                                                                                  |
 | `/robots.txt`, `/humans.txt` | `public/`. `Disallow: /sprueche/` stays: it is required for legal reasons. The legal pages are not disallowed on purpose: a crawler that may not fetch them never sees their `noindex`, and every page links to them, so their bare URLs could still show up in results                                        |
 
-The homepages and the contents have no opener: their preview image is the preface's painting, the book's first.
+The homepages and the contents have no opener: their preview image is `og/home.jpg`, the old man reading aloud at the hearth (`DEFAULT_PREVIEW` in `src/lib/images/images.ts`, a painting of Die 5 Gebote der Ninja).
 
 The verification files of Google, Bing, Yandex, Brave and Keybase are in `public/` and `public/.well-known/`, byte for byte as on the old site (Prettier leaves them alone). The favicon and the other icons come with the PWA (SI-480).
 

@@ -61,6 +61,14 @@ export const SIZES = {
 	band: '(min-width: 86rem) 82rem, 100vw',
 } as const;
 
+/**
+ * The default preview image of the homepages and the contents (og/home.jpg):
+ * the old man reading aloud at the hearth (Die 5 Gebote der Ninja), the
+ * book's knowledge passed on
+ */
+export const DEFAULT_PREVIEW =
+	'article/the-5-commandments-of-the-ninja-02-reading-between-lines.webp';
+
 export const OG_SIZE = { width: 1200, height: 630 } as const;
 
 /** Paintings, as opposed to diagrams, objects and technique images */

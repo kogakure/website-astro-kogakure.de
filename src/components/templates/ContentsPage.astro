@@ -7,7 +7,7 @@ import Contents from '@/components/book/Contents.astro';
 import Colophon from '@/components/site/Colophon.astro';
 import TopBar from '@/components/site/TopBar.astro';
 import { languageChoices, type Lang } from '@/i18n/languages';
-import { CONTENTS, homePath } from '@/i18n/routes';
+import { CONTENTS, HOME, homePath } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAlternates, getChapters } from '@/lib/book/book';
@@ -36,7 +36,7 @@ const titles = chapters
 	lang={lang}
 	canonical={versions[lang]}
 	versions={versions}
-	image={getOgImage('prefacePage')}
+	image={getOgImage(HOME)}
 	jsonLd={[breadcrumbJsonLd([{ name: SITE_NAME, path: home }, { name: t.contents }])]}
 >
 	<TopBar

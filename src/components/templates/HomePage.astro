@@ -24,8 +24,6 @@ interface Props {
 	lang: Lang;
 }
 
-const PREVIEW_PAGE = 'prefacePage';
-
 const { lang } = Astro.props;
 const t = ui(lang);
 const chapters = await getChapters(lang);
@@ -36,8 +34,8 @@ const [open, close] = QUOTES[lang];
 const versions = await getAlternates(HOME);
 const languages = languageChoices(versions, lang);
 const credit = t.credit(SINCE, chapters.length, articles.length);
-// The preview shows the preface's painting, the book's first
-const image = getOgImage(PREVIEW_PAGE);
+// The preview: the old man reading aloud at the hearth (DEFAULT_PREVIEW)
+const image = getOgImage(HOME);
 const stop = lang === 'ja' || lang === 'zh' ? '。' : '. ';
 ---
 
