@@ -22,6 +22,10 @@ FROM deps AS builder
 COPY . .
 # The production build loads Umami (src/lib/analytics), which counts only on www.kogakure.de
 ENV ANALYTICS=true
+# Search engines may index the pages: set as a build variable in the production
+# app only (Coolify), so staging stays noindex
+ARG INDEXABLE=false
+ENV INDEXABLE=${INDEXABLE}
 RUN --mount=type=cache,id=astro-cache,target=/app/node_modules/.astro \
     pnpm run build && test -f dist/index.html
 

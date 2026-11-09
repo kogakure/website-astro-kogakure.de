@@ -4,15 +4,9 @@
  * description, robots, the canonical URL, the language versions with
  * x-default, Open Graph and Twitter's card, and the structured data.
  */
+import { INDEXABLE } from 'astro:env/server';
 import { language, LANGUAGES, type Lang } from '@/i18n/languages';
-import {
-	absoluteUrl,
-	hreflangs,
-	INDEXABLE,
-	jsonLdScript,
-	SITE_NAME,
-	type PageVersions,
-} from '@/lib/seo/seo';
+import { absoluteUrl, hreflangs, jsonLdScript, SITE_NAME, type PageVersions } from '@/lib/seo/seo';
 
 interface Props {
 	lang: Lang;
