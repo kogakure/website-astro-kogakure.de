@@ -28,6 +28,9 @@ export default defineConfig({
 		schema: {
 			// Umami's script (src/lib/analytics): set by the Docker build only
 			ANALYTICS: envField.boolean({ context: 'server', access: 'public', default: false }),
+			// Search engines may index the pages (SI-482): the production app's build
+			// only (a Coolify build variable); staging, local builds and tests stay noindex
+			INDEXABLE: envField.boolean({ context: 'server', access: 'public', default: false }),
 		},
 	},
 	vite: {

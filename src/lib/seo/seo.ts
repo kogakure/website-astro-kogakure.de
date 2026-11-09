@@ -17,12 +17,6 @@ import { BOOK_PLATE } from '../book/plates.ts';
 
 export const SITE_URL = 'https://www.kogakure.de';
 
-/**
- * Every page is `noindex` until the launch. SI-482 sets this to true when
- * the site goes live; robots.txt and the sitemap are ready before.
- */
-export const INDEXABLE = false;
-
 /** The book's name: 木隠 Kogakure */
 export const SITE_NAME = `${BOOK_PLATE.name} ${BOOK_PLATE.romaji}`;
 
