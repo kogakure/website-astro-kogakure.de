@@ -235,7 +235,7 @@ Voor het eerst in zijn meer dan twintigjarige geschiedenis bestaat 木隠 nu ook
 
 ### 9 november 2026
 
-Met de herlancering in 2026 gaf ik niet alleen de website een nieuw ontwerp, maar herzag ik het hele boek. Het was de grootste herziening in de geschiedenis van 木隠. <!-- CHECK: Launch screenshots (SI-507). Retake both 2026 screenshots from the live site if the home page changed before launch. -->
+Met de herlancering in 2026 gaf ik niet alleen de website een nieuw ontwerp, maar herzag ik het hele boek. Het was de grootste herziening in de geschiedenis van 木隠.
 
 Elk van de 76 artikelen schreef ik helemaal opnieuw, in het Duits en in het Engels. Daarbij controleerde ik namen, jaartallen en lezingen, vergeleek ik ze met Japanse bronnen en verbeterde ik fouten die er in de loop der jaren in waren geslopen. Langere passages en citaten van andere auteurs verving ik door mijn eigen woorden.
 
