@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+	DEFAULT_PREVIEW,
 	findOpener,
 	generatedFiles,
 	getImage,
@@ -156,6 +157,10 @@ describe('the committed manifest', () => {
 			expect(entry.widths, key).toEqual(
 				[800, 1400, 2000].filter((width) => width <= entry.width)
 			);
+	});
+
+	it('has the default preview of the homepages and the contents', () => {
+		expect(manifest.og.home?.image).toBe(DEFAULT_PREVIEW);
 	});
 
 	it('has an OG image for every opener it names', () => {

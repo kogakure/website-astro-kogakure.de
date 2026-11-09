@@ -11,6 +11,7 @@
  *   assets/ebook/ (the ebook's covers and pages, rendered from kogakure-book)
  *                                        → images/ebook/<lang>/<name>-<width>.webp
  *   the ebook's page (src/ebook/)        → its images, og/ebook.jpg
+ *   the default preview (DEFAULT_PREVIEW) → og/home.jpg, for the homepages and the contents
  *   kogakure-prototyping ink assets      → images/ink/*.webp
  *
  * Only the images the imported texts use are generated (run
@@ -30,8 +31,10 @@ import sharp from 'sharp';
 import { ebookCover, EBOOK_LANGS } from '../src/lib/book/ebook.ts';
 import { readEbookPages, readImportedBook, readLegalPages } from '../src/lib/book/read.ts';
 import { imageUrls } from '../src/lib/book/transform.ts';
+import { HOME } from '../src/i18n/routes.ts';
 import {
 	BAND_WIDTH,
+	DEFAULT_PREVIEW,
 	findOpener,
 	imageFile,
 	imageKey,
@@ -324,6 +327,10 @@ for (const page of readEbookPages(ROOT)) {
 	if (opener && page.lang === 'en') openers.set('ebook', opener);
 }
 for (const lang of EBOOK_LANGS) keys.add(imageKey(ebookCover(lang))!);
+// The homepages' and the contents' preview: a painting of the book, not the
+// opener of a page
+if (!keys.has(DEFAULT_PREVIEW)) errors.push(`default preview ${DEFAULT_PREVIEW} is in no text`);
+openers.set(HOME, DEFAULT_PREVIEW);
 if (keys.size === 0) {
 	console.error('The imported texts use no images: run pnpm import:content first');
 	process.exit(1);

@@ -77,12 +77,12 @@ describe('sitemapXml', () => {
 
 describe('structured data', () => {
 	it('describes each language’s homepage as the book, the German one as the original', () => {
-		const de = bookJsonLd('de', '/images/og/prefacePage.jpg');
+		const de = bookJsonLd('de', '/images/og/home.jpg');
 		expect(de).toMatchObject({
 			'@type': 'Book',
 			'@id': 'https://www.kogakure.de/#book',
 			inLanguage: 'de',
-			image: 'https://www.kogakure.de/images/og/prefacePage.jpg',
+			image: 'https://www.kogakure.de/images/og/home.jpg',
 		});
 		expect(de).not.toHaveProperty('translationOfWork');
 		expect(bookJsonLd('zh')).toMatchObject({
