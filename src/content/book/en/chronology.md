@@ -233,9 +233,9 @@ For the first time in its more than 20-year history, 木隠 is now also availabl
 
 ## 2026
 
-### XX.XX.2026
+### November 9, 2026
 
-With the relaunch in 2026, I not only redesigned the website but revised the whole book. It was the biggest revision in the history of 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+With the relaunch in 2026, I not only redesigned the website but revised the whole book. It was the biggest revision in the history of 木隠. <!-- CHECK: Launch screenshots (SI-507). Retake both 2026 screenshots from the live site if the home page changed before launch. -->
 
 I rewrote every one of the 76 articles from scratch, in German and in English. Along the way, I checked names, dates, and readings, compared them with Japanese sources, and corrected errors that had crept in over the years. I replaced longer passages and quotes by other authors with my own words.
 

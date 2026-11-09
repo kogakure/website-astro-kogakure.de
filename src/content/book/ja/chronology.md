@@ -233,9 +233,9 @@ Jekyllはレンダリングが非常に遅く、[個人のウェブサイト](ht
 
 ## 2026
 
-### XX.XX.2026
+### 2026年11月9日
 
-2026年の再始動では、ウェブサイトのデザインを一新しただけでなく、本全体を見直した。木隠の歴史の中で最大の改訂である。 <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+2026年の再始動では、ウェブサイトのデザインを一新しただけでなく、本全体を見直した。木隠の歴史の中で最大の改訂である。 <!-- CHECK: Launch screenshots (SI-507). Retake both 2026 screenshots from the live site if the home page changed before launch. -->
 
 76本の記事はすべて、ドイツ語と英語で一から書き直した。その過程で人名、年代、読みを確かめ、日本語の資料と照らし合わせ、長年のうちに紛れ込んだ誤りを正した。ほかの著者による長い文章や引用は、自分の言葉に置き換えた。
 

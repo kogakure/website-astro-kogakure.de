@@ -233,9 +233,9 @@ Per la prima volta nella sua storia di oltre 20 anni, 木隠 è ora disponibile 
 
 ## 2026
 
-### XX.XX.2026
+### 9 novembre 2026
 
-Con il rilancio del 2026 non ho solo ridisegnato il sito, ma ho rivisto l’intero libro. È stata la revisione più grande nella storia di 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+Con il rilancio del 2026 non ho solo ridisegnato il sito, ma ho rivisto l’intero libro. È stata la revisione più grande nella storia di 木隠. <!-- CHECK: Launch screenshots (SI-507). Retake both 2026 screenshots from the live site if the home page changed before launch. -->
 
 Ho riscritto da zero ciascuno dei 76 articoli, in tedesco e in inglese. Strada facendo ho controllato nomi, date e letture, li ho confrontati con fonti giapponesi e ho corretto gli errori che si erano insinuati negli anni. Ho sostituito i passi lunghi e le citazioni di altri autori con parole mie.
 

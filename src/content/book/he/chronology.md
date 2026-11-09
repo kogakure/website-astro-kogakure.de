@@ -233,9 +233,9 @@ Jekyll רינדר לאט מאוד, ואת [האתר הפרטי שלי](https://w
 
 ## 2026
 
-### XX.XX.2026
+### 9 בנובמבר 2026
 
-עם ההשקה המחודשת ב־2026 לא רק עיצבתי את האתר מחדש, אלא גם עברתי על הספר כולו. זו הייתה העריכה הגדולה ביותר בתולדות 木隠. <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+עם ההשקה המחודשת ב־2026 לא רק עיצבתי את האתר מחדש, אלא גם עברתי על הספר כולו. זו הייתה העריכה הגדולה ביותר בתולדות 木隠. <!-- CHECK: Launch screenshots (SI-507). Retake both 2026 screenshots from the live site if the home page changed before launch. -->
 
 כתבתי מחדש, מאפס, כל אחד מ־76 המאמרים, בגרמנית ובאנגלית. בדרך בדקתי שמות, תאריכים וקריאות, השוויתי אותם למקורות יפניים ותיקנתי טעויות שהתגנבו במשך השנים. קטעים ארוכים וציטוטים של מחברים אחרים החלפתי במילים שלי.
 

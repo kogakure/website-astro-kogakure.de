@@ -233,9 +233,9 @@ Jekyll渲染得很慢，而我已经把我的[个人网站](https://www.stefanim
 
 ## 2026
 
-### XX.XX.2026
+### 2026年11月9日
 
-2026年重新上线时，我不仅重新设计了网站，还修订了整本书。这是木隐历史上规模最大的一次修订。 <!-- CHECK: Launch date placeholder (SI-484). Fill in the go-live date in every language, and retake both screenshots from the live site if the home page changed before launch. -->
+2026年重新上线时，我不仅重新设计了网站，还修订了整本书。这是木隐历史上规模最大的一次修订。 <!-- CHECK: Launch screenshots (SI-507). Retake both 2026 screenshots from the live site if the home page changed before launch. -->
 
 全部76篇文章，我都用德语和英语从头重写了一遍。其间我核对了人名、年代和读音，与日文资料进行比对，并改正了多年来混入的错误。其他作者较长的段落和引文，我都换成了自己的话。
 
