@@ -51,6 +51,7 @@ plate: 奥付
 
 אם נהנית ממנו, אשמח למחמאות ולהכרה. אפשר גם לתמוך בי בתרומה קטנה.
 
+- [לתרומה ב־Ko-fi](https://ko-fi.com/kogakure)
 - [לתרומה ב־PayPal](https://www.paypal.me/kogakure/)
 - [לתרומה ב־Lightning](https://walletofsatoshi.com/): `kogakure@walletofsatoshi.com`
 

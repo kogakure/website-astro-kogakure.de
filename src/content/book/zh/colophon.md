@@ -51,6 +51,7 @@ plate: 奥付
 
 如果你喜欢它，我会很高兴听到你的称赞和认可。你也可以通过小额捐款来支持我。
 
+- [通过Ko-fi捐款](https://ko-fi.com/kogakure)
 - [通过PayPal捐款](https://www.paypal.me/kogakure/)
 - [通过Lightning捐款](https://walletofsatoshi.com/)：`kogakure@walletofsatoshi.com`
 

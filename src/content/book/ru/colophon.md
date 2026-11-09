@@ -51,6 +51,7 @@ _Когакурэ_ — японское слово, которое буквал�
 
 Если она вам понравилась, я буду рад похвале и признанию. Поддержать меня можно и небольшим пожертвованием.
 
+- [Пожертвовать через Ko-fi](https://ko-fi.com/kogakure)
 - [Пожертвовать через PayPal](https://www.paypal.me/kogakure/)
 - [Пожертвовать через Lightning](https://walletofsatoshi.com/): `kogakure@walletofsatoshi.com`
 
