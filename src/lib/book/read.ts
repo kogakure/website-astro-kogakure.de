@@ -61,9 +61,17 @@ export interface LegalSource {
 	body: string;
 }
 
+/** The ebook's page, written here (src/ebook/, SI-504) */
+export const EBOOK_DIR = 'src/ebook';
+
 /** The legal pages from disk, for the images they show */
-export function readLegalPages(root: string): LegalSource[] {
-	const dir = path.join(root, LEGAL_DIR);
+export const readLegalPages = (root: string): LegalSource[] => readSitePages(root, LEGAL_DIR);
+
+/** The ebook's page from disk, for the images it shows */
+export const readEbookPages = (root: string): LegalSource[] => readSitePages(root, EBOOK_DIR);
+
+function readSitePages(root: string, from: string): LegalSource[] {
+	const dir = path.join(root, from);
 	return fs
 		.readdirSync(dir, { recursive: true, encoding: 'utf8' })
 		.filter((file) => file.endsWith('.md'))

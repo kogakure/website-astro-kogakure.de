@@ -62,6 +62,22 @@ export const legalLang = (lang: Lang): 'de' | 'en' => (lang === DEFAULT_LANG ? '
 export const legalPath = (lang: Lang, page: LegalPage): string =>
 	pagePath(lang, LEGAL_PAGES[page][legalLang(lang)]);
 
+/**
+ * The ebook's page (SI-504): its slugs in German and English. The book
+ * prints these URLs on its last page and in its QR code (kogakure-book,
+ * SI-503), so they must never change: /buch/ and /en/book/
+ */
+export const EBOOK_SLUGS = { de: 'buch', en: 'book' } as const;
+
+/** Route key of the ebook's page in the alternates map */
+export const EBOOK = 'ebook';
+
+/**
+ * `/buch/`, `/en/book/`, `/ja/book/`: every language has the page below its
+ * own prefix; its text is German or English, like the legal pages
+ */
+export const ebookPath = (lang: Lang): string => pagePath(lang, EBOOK_SLUGS[legalLang(lang)]);
+
 /** Route key of the language homepages in the alternates map */
 export const HOME = 'home';
 

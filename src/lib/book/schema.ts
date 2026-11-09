@@ -91,3 +91,15 @@ export const legalSchema = z
 		updated: z.coerce.date(),
 	})
 	.strict();
+
+/**
+ * The ebook's page (src/ebook/, SI-504), German and English: the title, the
+ * lede under it, and the text after the downloads
+ */
+export const ebookSchema = z
+	.object({
+		title,
+		/** The lede under the title, also the page's description */
+		description: z.string().min(1),
+	})
+	.strict();

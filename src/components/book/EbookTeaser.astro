@@ -1,0 +1,107 @@
+---
+/**
+ * The way to the ebook's page (SI-504): the cover small beside one link,
+ * with a line before it (after an article that is a chapter of the book:
+ * „Dieser Artikel ist auch ein Kapitel des Buches.“) or after it (on the
+ * homepage: „Kostenlos, auf Deutsch und Englisch“). The cover repeats the
+ * link, so it is decorative; the whole teaser is one link target.
+ */
+import Picture from '@/components/site/Picture.astro';
+
+interface Props {
+	href: string;
+	/** The link: „Das Buch als E-Book und PDF“ */
+	label: string;
+	/** The cover's image, `/images/ebook/<lang>/cover.jpg` */
+	cover: string;
+	/** A line before the link */
+	before?: string | undefined;
+	/** A line after the link */
+	after?: string | undefined;
+	/**
+	 * Where it stands: after the text (the reading column's width, above the
+	 * way on), in the text (before a page's own text), or in the prologue
+	 */
+	place: 'after-text' | 'in-text' | 'prologue';
+}
+
+const { href, label, cover, before, after, place } = Astro.props;
+---
+
+<div class="ebook-teaser" data-place={place}>
+	<Picture src={cover} alt="" class="ebook-teaser-cover" sizes="5rem" />
+	<p class="ebook-teaser-text">
+		{before && <span class="ebook-teaser-line">{before}</span>}
+		<a href={href} class="ebook-teaser-link">
+			{label}
+		</a>
+		{after && <span class="ebook-teaser-line">{after}</span>}
+	</p>
+</div>
+
+<style>
+	.ebook-teaser {
+		position: relative;
+		display: flex;
+		gap: 1.25rem;
+		align-items: center;
+	}
+
+	.ebook-teaser[data-place='after-text'] {
+		max-inline-size: var(--measure);
+		margin-block: clamp(3rem, 6vw, 5rem) 0;
+		margin-inline: auto;
+		padding-inline: var(--gutter);
+		box-sizing: content-box;
+	}
+
+	.ebook-teaser[data-place='in-text'] {
+		margin-block: 0 2.5rem;
+	}
+
+	.ebook-teaser[data-place='prologue'] {
+		margin-block: 1.75rem 0;
+	}
+
+	.ebook-teaser :global(.ebook-teaser-cover) {
+		flex: none;
+		inline-size: 4.5rem;
+		block-size: auto;
+		border-radius: 1px;
+		box-shadow: var(--shadow-plate);
+	}
+
+	.ebook-teaser-text {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+		margin: 0;
+	}
+
+	.ebook-teaser-line {
+		color: var(--text-2);
+		font-size: var(--text-caption);
+	}
+
+	.ebook-teaser-link {
+		font-weight: 600;
+	}
+
+	/* The whole teaser is the target, so the ring goes around it */
+	.ebook-teaser:has(.ebook-teaser-link:focus-visible) {
+		outline: 2px solid var(--focus);
+		outline-offset: 0.5rem;
+		border-radius: 1px;
+	}
+
+	.ebook-teaser-link:focus-visible {
+		outline: none;
+	}
+
+	/* The cover is part of the link's target */
+	.ebook-teaser-link::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+	}
+</style>

@@ -1,0 +1,124 @@
+---
+/**
+ * The ebook's page (SI-504): /buch/, /en/book/, and /<lang>/book/ in the
+ * other ten languages. The opener with its painting, the title, the lede
+ * and the release's facts; then the downloads (the cover, the EPUB and the
+ * PDF of both languages), and the text from src/ebook/: supporting the
+ * book, what is in it, the formats. The text is German or English; every
+ * other language shows the English text in its own page, like the legal
+ * pages, with the downloads and the way on in the reader's language.
+ */
+import ArticleHead from '@/components/book/ArticleHead.astro';
+import EbookDownloads from '@/components/book/EbookDownloads.astro';
+import PageText from '@/components/book/PageText.astro';
+import Colophon from '@/components/site/Colophon.astro';
+import TopBar from '@/components/site/TopBar.astro';
+import { language, languageChoices, type Lang } from '@/i18n/languages';
+import { contentsPath, EBOOK, legalLang } from '@/i18n/routes';
+import { ui } from '@/i18n/ui';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAlternates, getEbookPage, renderEbookPage } from '@/lib/book/book';
+import {
+	checksumsUrl,
+	EBOOK_LANGS,
+	ebookCover,
+	ebookDownloads,
+	megabytes,
+	RELEASE,
+	releaseDate,
+	RELEASES_URL,
+} from '@/lib/book/ebook';
+import { openerFigure } from '@/lib/book/figures';
+import { BOOK_PLATE } from '@/lib/book/plates';
+import { getOgImage } from '@/lib/images/images';
+import { AUTHOR } from '@/lib/seo/seo';
+
+interface Props {
+	lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = ui(lang);
+const { htmlLang } = language(lang);
+// The language of the text: German or English
+const textLang = legalLang(lang);
+const foreign = textLang === lang ? undefined : textLang;
+const entry = await getEbookPage(lang);
+const { Content } = await renderEbookPage(entry);
+const opener = openerFigure(entry.body ?? '');
+const versions = await getAlternates(EBOOK);
+const languages = languageChoices(versions, lang);
+const contents = contentsPath(lang);
+const og = getOgImage(EBOOK);
+// The head speaks the text's language (like the legal pages), the downloads the page's
+const textUi = ui(textLang);
+const textHtmlLang = language(textLang).htmlLang;
+const LABELS = { epub: 'EPUB', pdf: 'PDF' } as const;
+const TYPES = { epub: 'application/epub+zip', pdf: 'application/pdf' } as const;
+// The text's language first: German on /buch/, English everywhere else
+const bookLangs = [textLang, ...EBOOK_LANGS.filter((l) => l !== textLang)];
+const CC = 'https://creativecommons.org/licenses/by-nc-sa/4.0/';
+---
+
+<BaseLayout
+	title={entry.data.title}
+	description={entry.data.description}
+	lang={lang}
+	canonical={versions[lang]}
+	versions={versions}
+	image={og && { ...og, alt: opener?.alt }}
+	fontPage={EBOOK}
+	fontPages={foreign ? [{ lang: foreign }] : []}
+	ground="read"
+>
+	<TopBar slot="before-main" label={t.book} home={{ href: contents, label: t.contents }} />
+
+	<ArticleHead
+		image={opener}
+		plate={{ name: BOOK_PLATE.name, number: null }}
+		title={entry.data.title}
+		excerpt={entry.data.description}
+		facts={[
+			{ term: textUi.ebookVersion, text: RELEASE.version },
+			{
+				term: textUi.ebookPages,
+				text: new Intl.NumberFormat(textHtmlLang).format(RELEASE.files[textLang].pages),
+			},
+			{ term: textUi.updated, text: releaseDate(textHtmlLang) },
+		]}
+		lang={foreign}
+	/>
+
+	<PageText opener={opener !== undefined} lang={foreign}>
+		<EbookDownloads
+			heading={t.ebookDownloads}
+			cover={{ src: ebookCover(textLang), alt: t.ebookCover }}
+			languages={bookLangs.map((bookLang) => ({
+				lang: bookLang,
+				files: ebookDownloads(bookLang).map((file) => ({
+					label: LABELS[file.kind],
+					href: file.href,
+					type: TYPES[file.kind],
+					size: megabytes(file.size, htmlLang),
+				})),
+			}))}
+			release={{
+				text: `${t.ebookVersion} ${RELEASE.version} · ${releaseDate(htmlLang)}`,
+				links: [
+					{ href: checksumsUrl(), label: t.ebookChecksums },
+					{ href: RELEASES_URL, label: t.ebookReleases },
+				],
+			}}
+			licences={`${t.ebookText}: <a href="${CC}">CC BY-NC-SA 4.0</a> · ${t.ebookImages}: © ${AUTHOR.name}`}
+			lang={foreign && lang}
+		/>
+		<Content />
+	</PageText>
+
+	<Colophon
+		slot="after-main"
+		lang={lang}
+		back={{ href: contents, label: t.backToContents }}
+		languages={languages}
+	/>
+</BaseLayout>

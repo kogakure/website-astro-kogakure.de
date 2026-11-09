@@ -45,6 +45,7 @@ The import is repeatable: rerunning it on unchanged texts produces no diff. It w
 | Contents           | `/inhalt/`, `/<lang>/contents/` | `/en/contents/`                |
 | 404 (outside book) | `/404.html`, `/<lang>/404/`     | nginx per prefix               |
 | Legal              | `/impressum/`, `/datenschutz/`  | `/en/imprint/`, `/ja/privacy/` |
+| The book (ebook)   | `/buch/`, `/<lang>/book/`       | `/en/book/`, `/ja/book/`       |
 
 Titles carry no `&shy;` (leftovers of the old site): the schema rejects them, the import and the build fail.
 
@@ -55,6 +56,8 @@ All of them come from the one rest route `src/pages/[...route].astro`. The parts
 **Glossary:** `getGlossary(lang)` groups the entries by the initial of `sort` (romanized in every language, so A–Z everywhere), with the anchors the old `h3`s had (`#kamae`). The page's section list is the A–Z jump list; an article with more than 40 sections runs its list on as an index (Waffen).
 
 **Legal pages:** imprint and privacy policy are website texts, not the book's: `src/legal/<de|en>/*.md` (collection `legal`), written here, German and English only. Every language has them below its own prefix (`legalPath()`: `/impressum/`, `/en/imprint/`, `/ja/imprint/`), the other ten with the English text in a `lang="en"` `.script-root` inside their own top bar and colophon, so the reader stays in their language. Links between the English texts are relative (`../privacy/`).
+
+**The book's page (SI-504):** the ebook and the PDF, built in kogakure-book and published as GitHub releases of kogakure/kogakure-book-releases (`just publish`). Its text is a website text like the legal pages: `src/ebook/<de|en>/*.md` (collection `ebook`), German and English, the other ten languages with the English text inside their own UI (`ebookPath()`). The book prints `/buch/` and `/en/book/` on its last page and in its QR code: never change them. The downloads come from `RELEASE` in `src/lib/book/ebook.ts` (version, date, sizes, pages): a new release changes only that. The homepage (prologue), the colophon, the downloads page and every article that is a chapter of the book (`isInEbook()`, the website's pages less kogakure-book's `exclude`) lead to it (`EbookTeaser`). Its own UI strings are in its own font subsets (`EBOOK_ONLY` in `src/lib/fonts/text.ts`), `ebookFree` only in the homepage's and the downloads page's.
 
 **404:** nginx serves `/404.html` for unknown URLs, and `/<lang>/404/` below a language's prefix (`nginx.conf`; `i18n.test.ts` checks its language list).
 

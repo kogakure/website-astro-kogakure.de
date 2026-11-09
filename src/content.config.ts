@@ -1,6 +1,6 @@
 import { glob } from 'astro/loaders';
 import { defineCollection } from 'astro:content';
-import { glossarySchema, legalSchema, pageSchema, tocSchema } from '@/lib/book/schema';
+import { ebookSchema, glossarySchema, legalSchema, pageSchema, tocSchema } from '@/lib/book/schema';
 
 /** book, toc and glossary are written by `pnpm import:content`; edit the texts in kogakure-texts */
 
@@ -31,4 +31,13 @@ const legal = defineCollection({
 	schema: legalSchema,
 });
 
-export const collections = { book, toc, glossary, legal };
+/**
+ * The ebook's page, written for the website (not imported): German and
+ * English, id `<lang>/<slug>` (SI-504)
+ */
+const ebook = defineCollection({
+	loader: glob({ pattern: '*/*.md', base: './src/ebook' }),
+	schema: ebookSchema,
+});
+
+export const collections = { book, toc, glossary, legal, ebook };

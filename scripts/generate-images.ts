@@ -8,6 +8,9 @@
  *   kogakure-texts/images/old/**         → images/old/<key>-<width>.webp
  *   the opener of every article          → images/og/<translationKey>.jpg
  *   the images of src/legal/             → the same, og/imprint.jpg, og/privacy.jpg
+ *   assets/ebook/ (the ebook's covers and pages, rendered from kogakure-book)
+ *                                        → images/ebook/<lang>/<name>-<width>.webp
+ *   the ebook's page (src/ebook/)        → its images, og/ebook.jpg
  *   kogakure-prototyping ink assets      → images/ink/*.webp
  *
  * Only the images the imported texts use are generated (run
@@ -24,7 +27,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
 import sharp from 'sharp';
-import { readImportedBook, readLegalPages } from '../src/lib/book/read.ts';
+import { ebookCover, EBOOK_LANGS } from '../src/lib/book/ebook.ts';
+import { readEbookPages, readImportedBook, readLegalPages } from '../src/lib/book/read.ts';
 import { imageUrls } from '../src/lib/book/transform.ts';
 import {
 	BAND_WIDTH,
@@ -56,6 +60,8 @@ const INK = path.resolve(args.prototyping, 'prototypes/gekiga-2-modes/assets/ink
 const PUBLIC = path.join(ROOT, 'public');
 const OUT = path.join(PUBLIC, 'images');
 const MANIFEST = path.join(ROOT, 'src/lib/images/manifest.json');
+/** The ebook's covers and pages, committed here (SI-504, assets/ebook/README.md) */
+const EBOOK_ASSETS = path.join(ROOT, 'assets');
 
 /** Part of every hash: changing the encoding regenerates everything */
 const SETTINGS = JSON.stringify({
@@ -130,6 +136,9 @@ async function sourcesOf(
 ): Promise<{ original: Source; upscale?: Source; focus?: string }> {
 	if (key.startsWith('old/')) {
 		return { original: await source(path.join(TEXTS, 'images', key)) };
+	}
+	if (key.startsWith('ebook/')) {
+		return { original: await source(path.join(EBOOK_ASSETS, key)) };
 	}
 	const row = mapping.get(key);
 	if (!row) throw new Error('not in images/new/mapping.csv');
@@ -301,6 +310,20 @@ for (const page of readLegalPages(ROOT)) {
 	const name = page.lang === 'en' ? page.slug : undefined;
 	if (opener && name) openers.set(name, opener);
 }
+// The ebook's page (src/ebook/, SI-504): the pages of the book it shows, its
+// opener as og/ebook.jpg (the same painting in German and English), and the
+// covers its downloads and the way to it show
+for (const page of readEbookPages(ROOT)) {
+	const urls = imageUrls(page.body);
+	for (const url of urls) {
+		const key = imageKey(url);
+		if (key) keys.add(key);
+		else errors.push(`ebook ${page.lang}/${page.slug}: image ${url} is not below /images/`);
+	}
+	const opener = imageKey(findOpener(urls) ?? '');
+	if (opener && page.lang === 'en') openers.set('ebook', opener);
+}
+for (const lang of EBOOK_LANGS) keys.add(imageKey(ebookCover(lang))!);
 if (keys.size === 0) {
 	console.error('The imported texts use no images: run pnpm import:content first');
 	process.exit(1);

@@ -3,6 +3,9 @@ import path from 'node:path';
 import { openSync, type Font } from 'fontkit';
 import { describe, expect, it } from 'vitest';
 import { LANGS } from '@/i18n/languages';
+import { EBOOK } from '@/i18n/routes';
+import { ui } from '@/i18n/ui';
+import { releaseDate } from '@/lib/book/ebook';
 import {
 	fontFaceCss,
 	fontFiles,
@@ -42,6 +45,19 @@ describe('font text', () => {
 		expect(excerpts.length).toBeGreaterThan(70);
 		for (const excerpt of excerpts) expect(home).toContain(excerpt);
 		expect(home).toContain('原城の地図作り');
+	});
+
+	it("sets the ebook's strings and its release date in the book page's own subsets", () => {
+		const { pages, ui: uiText, home } = languageText('ko');
+		const ebook = pages.find(({ slug }) => slug === EBOOK);
+		const downloads = pages.find(({ slug }) => slug === 'downloads');
+		expect(ebook?.text).toContain(ui('ko').ebookChecksums);
+		expect(ebook?.text).toContain(releaseDate('ko'));
+		expect(uiText).not.toContain(ui('ko').ebookChecksums);
+		// „Free, in German and English“ only where the teaser says it
+		expect(uiText).not.toContain(ui('ko').ebookFree);
+		expect(home).toContain(ui('ko').ebookFree);
+		expect(downloads?.text).toContain(ui('ko').ebookFree);
 	});
 });
 

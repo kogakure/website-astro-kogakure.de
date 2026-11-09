@@ -7,9 +7,13 @@ import {
 	chapterSlug,
 	CONTENTS,
 	contentsPath,
+	EBOOK,
+	EBOOK_SLUGS,
+	ebookPath,
 	homePath,
 	isInBook,
 	LEGAL_PAGES,
+	legalLang,
 	legalPath,
 	type LegalPage,
 	pagePath,
@@ -82,12 +86,13 @@ async function allAlternates(): Promise<Map<string, Alternates>> {
 			page,
 			perLang((lang) => legalPath(lang, page))
 		);
+	map.set(EBOOK, perLang(ebookPath));
 	return map;
 }
 
 /**
  * All language versions of a page by its key: a page's translationKey,
- * `contents`, `home`, or a legal page (`imprint`, `privacy`)
+ * `contents`, `home`, `ebook`, or a legal page (`imprint`, `privacy`)
  */
 export async function getAlternates(key: string): Promise<Alternates> {
 	alternates ??= allAlternates();
@@ -253,7 +258,8 @@ export const chapterOf = async (lang: Lang, translationKey: string) =>
 
 /**
  * The pages besides the book's articles, in every language: the homepage,
- * the contents and the legal pages. The rest route renders them.
+ * the contents, the legal pages and the ebook's page. The rest route renders
+ * them.
  */
 export const getSitePaths = () =>
 	LANGS.flatMap((lang) => [
@@ -269,6 +275,10 @@ export const getSitePaths = () =>
 			params: { route: routeParam(legalPath(lang, page)) },
 			props: { kind: 'legal' as const, lang, page },
 		})),
+		{
+			params: { route: routeParam(ebookPath(lang)) },
+			props: { kind: 'ebook' as const, lang },
+		},
 	]);
 
 export type LegalEntry = CollectionEntry<'legal'>;
@@ -282,6 +292,19 @@ export async function getLegalPage(lang: 'de' | 'en', page: LegalPage): Promise<
 
 /** The rendered text of a legal page */
 export const renderLegalPage = (entry: LegalEntry) => render(entry);
+
+export type EbookEntry = CollectionEntry<'ebook'>;
+
+/** The ebook's page (SI-504): its German or English text, the language's own on /buch/ and /en/book/ */
+export async function getEbookPage(lang: Lang): Promise<EbookEntry> {
+	const textLang = legalLang(lang);
+	const entry = await getEntry('ebook', `${textLang}/${EBOOK_SLUGS[textLang]}`);
+	if (!entry) throw new Error(`No ${textLang} ebook page in src/ebook/`);
+	return entry;
+}
+
+/** The rendered text of the ebook's page */
+export const renderEbookPage = (entry: EbookEntry) => render(entry);
 
 /** „Kapitel 1, 10 Artikel“: a part's place in the book and its size */
 export function chapterCredit(lang: Lang, chapter: Chapter): string {

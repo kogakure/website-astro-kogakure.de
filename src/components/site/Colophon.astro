@@ -3,13 +3,13 @@
  * The colophon: the page ends on the sumi band (by night the deepest
  * indigo), its top edge wet ink brushed in by a sweep. The small name
  * plate, the book's name and subtitle, the copyright, one link back, the
- * imprint and the privacy policy (their text English in every language
- * but German),
- * and the reader's choices: the mode (ModeSwitch) and the language
+ * way to the ebook (SI-504), the imprint and the privacy policy (the text
+ * of all three English in every language but German), and the reader's
+ * choices: the mode (ModeSwitch) and the language
  * (LanguageSelect).
  */
 import type { Lang, languageChoices } from '@/i18n/languages';
-import { legalLang, legalPath } from '@/i18n/routes';
+import { ebookPath, legalLang, legalPath } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import { BOOK_PLATE } from '@/lib/book/plates';
 import { inkFile } from '@/lib/images/images';
@@ -56,6 +56,11 @@ const hreflang = legal === lang ? undefined : legal;
 			</p>
 			<p>
 				<a href={back.href}>{back.label}</a>
+			</p>
+			<p>
+				<a href={ebookPath(lang)} hreflang={hreflang}>
+					{t.ebook}
+				</a>
 			</p>
 			<p class="colophon-legal">
 				<a href={legalPath(lang, 'imprint')} hreflang={hreflang}>

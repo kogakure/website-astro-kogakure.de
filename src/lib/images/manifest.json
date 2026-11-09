@@ -96,6 +96,19 @@
 			],
 			"hash": "6189fd32a633cdde"
 		},
+		"article/book-01-book-years-later.webp": {
+			"width": 2048,
+			"height": 1152,
+			"aspect": 1.7778,
+			"focus": "50% 32%",
+			"widths": [
+				800,
+				1400,
+				2000,
+				2750
+			],
+			"hash": "18d2a1353c489c0c"
+		},
 		"article/bujinkan-01-nine-schools-in-one.webp": {
 			"width": 2048,
 			"height": 1152,
@@ -1877,6 +1890,114 @@
 				2000
 			],
 			"hash": "9a5aeca7e83aa6d3"
+		},
+		"ebook/de/chapter.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e050f0dae2b12a89"
+		},
+		"ebook/de/cover.jpg": {
+			"width": 1600,
+			"height": 2560,
+			"aspect": 0.625,
+			"widths": [
+				800,
+				1400
+			],
+			"hash": "6c236cf71af4fbe0"
+		},
+		"ebook/de/glossary.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "cbf10e967105d711"
+		},
+		"ebook/de/part.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "7128d74281886c92"
+		},
+		"ebook/de/text.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "e8e4e4a161efa9ef"
+		},
+		"ebook/en/chapter.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "5df48f1806eed6a6"
+		},
+		"ebook/en/cover.jpg": {
+			"width": 1600,
+			"height": 2560,
+			"aspect": 0.625,
+			"widths": [
+				800,
+				1400
+			],
+			"hash": "22b6f34dcd22eb73"
+		},
+		"ebook/en/glossary.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "752bf00fafa28a37"
+		},
+		"ebook/en/part.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "6f4e2cc88954118c"
+		},
+		"ebook/en/text.jpg": {
+			"width": 2016,
+			"height": 1440,
+			"aspect": 1.4,
+			"widths": [
+				800,
+				1400,
+				2000
+			],
+			"hash": "f1928249bba8ceba"
 		},
 		"formations/choda.webp": {
 			"width": 1536,
@@ -4407,6 +4528,10 @@
 		"downloadsPage": {
 			"image": "article/downloads-01-carving-secret-script.webp",
 			"hash": "efac31dd2f21866d"
+		},
+		"ebook": {
+			"image": "article/book-01-book-years-later.webp",
+			"hash": "70f28bbc8ef2eb1f"
 		},
 		"emergenceOfRyuPage": {
 			"image": "historical/genpei-kassen.webp",

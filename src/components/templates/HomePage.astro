@@ -1,19 +1,21 @@
 ---
 /**
  * The homepage of a language, the entrance to the book: the prologue (the
- * title stage, „Lesen“ and the contents), then the ten parts as scenes with
- * their articles, then the colophon.
+ * title stage, „Lesen“, the way to the ebook and the contents), then the ten
+ * parts as scenes with their articles, then the colophon.
  */
+import EbookTeaser from '@/components/book/EbookTeaser.astro';
 import Prologue from '@/components/book/Prologue.astro';
 import ResumeLink from '@/components/book/ResumeLink.astro';
 import Scene from '@/components/book/Scene.astro';
 import Colophon from '@/components/site/Colophon.astro';
 import FirstVisit from '@/components/site/FirstVisit.astro';
 import { DEFAULT_LANG, languageChoices, type Lang } from '@/i18n/languages';
-import { HOME } from '@/i18n/routes';
+import { ebookPath, HOME, legalLang } from '@/i18n/routes';
 import { ui } from '@/i18n/ui';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { chapterCredit, getAlternates, getChapters } from '@/lib/book/book';
+import { ebookCover } from '@/lib/book/ebook';
 import { getOgImage } from '@/lib/images/images';
 import { QUOTES } from '@/lib/markdown/quotes';
 import { bookJsonLd, SINCE } from '@/lib/seo/seo';
@@ -66,6 +68,14 @@ const stop = lang === 'ja' || lang === 'zh' ? '。' : '. ';
 			articles={Object.fromEntries(
 				articles.map((item) => [item.translationKey, [item.href, item.title]])
 			)}
+		/>
+		{/* The ebook (SI-504): free, German and English */}
+		<EbookTeaser
+			href={ebookPath(lang)}
+			label={t.ebook}
+			cover={ebookCover(legalLang(lang))}
+			after={t.ebookFree}
+			place="prologue"
 		/>
 	</Prologue>
 
