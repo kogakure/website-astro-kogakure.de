@@ -51,6 +51,7 @@ Dit boek is gratis en reclamevrij. In de loop der jaren heeft het me vele honder
 
 Als je het mooi vond, ben ik blij met lof en waardering. Je kunt me ook steunen met een kleine donatie.
 
+- [Doneren met Ko-fi](https://ko-fi.com/kogakure)
 - [Doneren met PayPal](https://www.paypal.me/kogakure/)
 - [Doneren met Lightning](https://walletofsatoshi.com/): `kogakure@walletofsatoshi.com`
 

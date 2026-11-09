@@ -51,6 +51,7 @@ Ce livre est gratuit et sans publicité. Au fil du temps, il m’a coûté plusi
 
 S’il vous a plu, vos éloges et votre reconnaissance me feront plaisir. Vous pouvez aussi me soutenir par un petit don.
 
+- [Faire un don avec Ko-fi](https://ko-fi.com/kogakure)
 - [Faire un don avec PayPal](https://www.paypal.me/kogakure/)
 - [Faire un don avec Lightning](https://walletofsatoshi.com/) : `kogakure@walletofsatoshi.com`
 

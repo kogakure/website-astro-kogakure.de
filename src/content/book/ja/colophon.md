@@ -51,6 +51,7 @@ plate: 奥付
 
 気に入ってもらえたなら、感想や評価をもらえるとうれしい。少額の寄付で支援してもらうこともできる。
 
+- [Ko-fiで寄付する](https://ko-fi.com/kogakure)
 - [PayPalで寄付する](https://www.paypal.me/kogakure/)
 - [Lightningで寄付する](https://walletofsatoshi.com/)：`kogakure@walletofsatoshi.com`
 
