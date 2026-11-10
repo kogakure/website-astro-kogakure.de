@@ -23,11 +23,11 @@ export interface Release {
 }
 
 export const RELEASE: Release = {
-	version: '1.0.0',
-	date: '2026-11-09',
+	version: '1.0.1',
+	date: '2026-11-10',
 	files: {
-		de: { epub: { size: 69_399_978 }, pdf: { size: 38_613_308 }, pages: 525 },
-		en: { epub: { size: 69_372_193 }, pdf: { size: 38_329_500 }, pages: 510 },
+		de: { epub: { size: 69_400_055 }, pdf: { size: 38_613_308 }, pages: 525 },
+		en: { epub: { size: 69_372_270 }, pdf: { size: 38_329_500 }, pages: 510 },
 	},
 };
 
