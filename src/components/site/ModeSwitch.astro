@@ -56,7 +56,6 @@ const { legend, labels, class: className } = Astro.props;
 <style>
 	.mode-choice {
 		display: grid;
-		gap: 0.4rem;
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -69,8 +68,12 @@ const { legend, labels, class: className } = Astro.props;
 		}
 	}
 
+	/* The space below the legend is its margin, not the grid gap: Safari
+	   lays out the floated legend outside the grid, so a gap never reaches
+	   it and the switch rose above the language select beside it */
 	legend {
 		float: inline-start;
+		margin-block-end: 0.4rem;
 		padding: 0;
 		font-family: var(--mono);
 		font-size: 0.875rem;
