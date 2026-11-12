@@ -50,8 +50,8 @@ describe('PageMeta', () => {
 		expect(html).toContain('<script type="application/ld+json">{"@context"');
 	});
 
-	it('keeps pages out of the index until the launch, and 404 pages for good', async () => {
-		expect(await renderAstro(PageMeta, article)).toContain('content="noindex"');
+	it('lets search engines index pages, and keeps 404 pages out', async () => {
+		expect(await renderAstro(PageMeta, article)).not.toContain('name="robots"');
 		const notFound = await renderAstro(PageMeta, {
 			lang: 'de',
 			title: 'Seite nicht gefunden',

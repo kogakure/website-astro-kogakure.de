@@ -28,10 +28,12 @@ pnpm docker:build && pnpm docker:run   # http://localhost:8080
 
 Coolify runs two apps from this repository, both deploying `master`:
 
-| App        | Domain                                  | Build variables                  |
-| ---------- | --------------------------------------- | -------------------------------- |
-| Staging    | the staging domain                      | none: every page stays `noindex` |
-| Production | `www.kogakure.de` (`kogakure.de` → www) | `INDEXABLE=true` (`docs/seo.md`) |
+| App        | Domain                                  | Search engines                                           |
+| ---------- | --------------------------------------- | -------------------------------------------------------- |
+| Staging    | the staging domain                      | `X-Robots-Tag: noindex` on every response (`nginx.conf`) |
+| Production | `www.kogakure.de` (`kogakure.de` → www) | indexed (`docs/seo.md`)                                  |
+
+Neither app needs a build variable: nginx decides by the host.
 
 The redirect from `kogakure.de` to `https://www.kogakure.de` is Coolify's (both domains on the production app, redirect to www); nginx in the container serves one host. After going live: `pnpm check:old-urls https://www.kogakure.de`.
 
