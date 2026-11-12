@@ -4,7 +4,6 @@
  * description, robots, the canonical URL, the language versions with
  * x-default, Open Graph and Twitter's card, and the structured data.
  */
-import { INDEXABLE } from 'astro:env/server';
 import { language, LANGUAGES, type Lang } from '@/i18n/languages';
 import { absoluteUrl, hreflangs, jsonLdScript, SITE_NAME, type PageVersions } from '@/lib/seo/seo';
 
@@ -23,7 +22,10 @@ interface Props {
 	image?: { src: string; width: number; height: number; alt?: string | undefined } | undefined;
 	type?: 'website' | 'article';
 	jsonLd?: Record<string, unknown>[];
-	/** Kept out of search results: 404 pages, /design-system/ */
+	/**
+	 * Kept out of search results: the legal, 404 and offline pages, /design-system/.
+	 * Hosts other than www.kogakure.de get `X-Robots-Tag: noindex` from nginx
+	 */
 	noindex?: boolean;
 }
 
@@ -49,7 +51,7 @@ const url = canonical ? absoluteUrl(canonical) : undefined;
 
 <title>{title}</title>
 <meta name="description" content={description} />
-{(noindex || !INDEXABLE) && <meta name="robots" content="noindex" />}
+{noindex && <meta name="robots" content="noindex" />}
 {url && <link rel="canonical" href={url} />}
 {alternates.map(({ hreflang, href }) => (
 	<link rel="alternate" hreflang={hreflang} href={href} />

@@ -99,6 +99,14 @@ jobs:
           docker inspect --format '{{.State.Health.Status}}' kogakure | grep -q healthy
           curl -fsS http://localhost:8080/ | grep -q '木隠'
           test "$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/gibt-es-nicht/)" = 404
+      - name: Indexed on www.kogakure.de only
+        run: |
+          curl -fsSI http://localhost:8080/ | grep -qi '^x-robots-tag: noindex'
+          headers=$(curl -fsSI -H 'Host: www.kogakure.de' http://localhost:8080/)
+          if echo "$headers" | grep -qi '^x-robots-tag'; then exit 1; fi
+          home=$(curl -fsS -H 'Host: www.kogakure.de' http://localhost:8080/)
+          if echo "$home" | grep -q 'name="robots"'; then exit 1; fi
+          curl -fsS -H 'Host: www.kogakure.de' http://localhost:8080/impressum/ | grep -q '<meta name="robots" content="noindex">'
 
   secrets:
     name: Secret scan

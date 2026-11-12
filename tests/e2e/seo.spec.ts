@@ -121,6 +121,12 @@ test.describe('search engines', () => {
 		expect(robots).toContain('Sitemap: https://www.kogakure.de/sitemap.xml');
 	});
 
+	for (const path of ['/', '/kamae/', '/en/', '/ja/kamae/'])
+		test(`the page ${path} may be indexed`, async ({ page }) => {
+			await page.goto(path);
+			await expect(page.locator('meta[name="robots"]')).toHaveCount(0);
+		});
+
 	for (const path of ['/impressum/', '/datenschutz/', '/en/imprint/', '/ja/privacy/'])
 		test(`the legal page ${path} stays out of the index`, async ({ page }) => {
 			await page.goto(path);
